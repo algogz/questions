@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 public class QuestionExtractorTests {
     @Test
     public void extractFromHtmlTest() throws IOException {
-        String path = "temp/digital-saa-test2.html";
+        String path = "temp/acloud-saa-test2.html";
         Document doc = Jsoup.parse(new File(path), "utf-8");
         Elements formElms = doc.select("form");
         StringBuilder sb = new StringBuilder();
@@ -23,7 +23,7 @@ public class QuestionExtractorTests {
             if(qNumber.isEmpty()) { // in case there is a leading star
                 qNumber = formElm.select("div.quiz-question--header--hkqKL > span:nth-child(2)").text();
             }
-            String qDesc = formElm.select("#question-prompt > p").text();
+            String qDesc = formElm.select("#question-prompt").text();
             System.out.println(qNumber);
             sb.append("### ").append(qNumber).append("\n\n");
             sb.append(qDesc).append("\n\n");

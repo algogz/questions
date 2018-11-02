@@ -16,7 +16,7 @@ Explanation:
 
 ### Question 2:
 
-
+You have suggested moving your company's web servers to AWS, but your supervisor is concerned about cost. Which of the following deployments will give you the most scalable and cost-effective solution?
 
 - A. An EC2 auto-scaling group that will expand and contract with demand 
 - B. A solution that's built to run 24/7 at 100% capacity, using a fixed number of T2 Micro instances
@@ -126,7 +126,7 @@ Explanation:
 
 ### Question 9:
 
-
+You have a small database workloads with infrequent I/O. Which storage medium would the most cost-effective way to meet these requirements?
 
 - A. Amazon RDS Provisioned IOPS (SSD) Storage
 - B. Amazon RDS General Purpose (SSD) Storage
@@ -252,7 +252,7 @@ Explanation:
 
 ### Question 17:
 
-
+You've enabled website hosting on a bucket called "aspiring-guru" in the us-west-2 Region. Which of the following is the URL that will be assigned to your website?
 
 - A. aspiring-guru.s3-website-us-west-2.amazonaws.com 
 - B. s3-website-us-west-2.aspiring-guru.amazonaws.com
@@ -284,7 +284,7 @@ Explanation:
 
 ### Question 19:
 
-
+You need to develop an infrastructure that can be replicated and deployed in another AWS Region in a matter of minutes. Which AWS service might you use to build a reproducible, version-controlled infrastructure?
 
 - A. EC2 AMIs with EBS snapshots
 - B. Elastic Beanstalk
@@ -332,7 +332,7 @@ Explanation:
 
 ### Question 22:
 
-
+You must to encrypt all incoming and outgoing traffic between your servers and your customers. Your fleet of EC2 instances lives inside a public subnet and behind an elastic load balancer. Your application is very CPU intensive, and you want to minimize the processing load these EC2 instances must bear. What should you do?
 
 - A. Install the SSL certificates on each EC2 instance and allow them to do the encryption/decryption with your customers.
 - B. Install the SSL certificates on your ELB's so that there is less load on the EC2 instances. 
@@ -380,7 +380,7 @@ Explanation:
 
 ### Question 25:
 
-
+Which of the following are true about Amazon S3-RRS?
 
 - A. S3-RRS offers 99.99% availability. 
 - B. S3-RRS offers 99.999999999 durability
@@ -412,7 +412,7 @@ Explanation:
 
 ### Question 27:
 
-
+True or False: By default, Amazon RDS enables automated backups of your DB instance with a 1-day retention period.
 
 - A. TRUE 
 - B. FALSE 
@@ -440,7 +440,7 @@ Explanation:
 
 ### Question 29:
 
-
+True or False: Availability Zones in a given Region are connected by low-latency links, facilitating the development of fault-tolerant, high-availability applications.
 
 - A. TRUE 
 - B. FALSE
@@ -454,7 +454,7 @@ Explanation:
 
 ### Question 30:
 
-
+You have a custom VPC for your organization. You discover that one of your developers has created an RDS instance in the default VPC and this is in violation of company policy. You need to create this RDS instance inside your custom VPC with as little effort as possible. What should you do?
 
 - A. Use the RDS Import/Export Wizard to Migrate the RDS instance across to the custom VPC
 - B. Use AWS Database Migration Service
@@ -470,7 +470,7 @@ Explanation:
 
 ### Question 31:
 
-
+You are working for a real estate company and you need to be able to record configuration changes to Amazon RDS DB Instances, DB Subnet Groups, DB Snapshots, DB Security Groups, and Event Subscriptions. What AWS service should you use to achieve this?
 
 - A. CloudTrail 
 - B. CloudWatch
@@ -486,7 +486,7 @@ Explanation:
 
 ### Question 32:
 
-
+Which AWS service should you use to host MySQL, MariaDB, Oracle, SQL Server, or PostgreSQL database where you do not need to manage the underlying operating system?
 
 - A. DynamoDB
 - B. RDS 
@@ -502,7 +502,7 @@ Explanation:
 
 ### Question 33:
 
-
+You have an RDS database that has moderate I/O requirements. Which storage medium would be best to accommodate these requirements?
 
 - A. Amazon RDS Provisioned IOPS (SSD) Storage
 - B. Amazon RDS General Purpose (SSD) Storage 
@@ -550,7 +550,7 @@ Explanation:
 
 ### Question 36:
 
-
+The insurance company you work for is implementing new IT security policies for all RDS instances. In the future, you will need to perform both security analyses and operational troubleshooting on your RDS estate. As such, you will need a history of all RDS API calls made on your account. What AWS service should you use to achieve this?
 
 - A. CloudAudit
 - B. CloudWatch
@@ -582,7 +582,7 @@ Explanation:
 
 ### Question 38:
 
-
+What type of replication is supported by read replica instances?
 
 - A. synchronous replication
 - B. asynchronous replication 
@@ -630,7 +630,7 @@ Explanation:
 
 ### Question 41:
 
-
+An Availability Zone comprises multiple Regions
 
 - A. TRUE
 - B. FALSE 
@@ -644,7 +644,7 @@ Explanation:
 
 ### Question 42:
 
-
+Which three of the following events would cause Amazon RDS to initiate a failover to the standby replica?
 
 - A. Loss of availability in primary Availability Zone 
 - B. Loss of network connectivity to primary 
@@ -660,7 +660,7 @@ Explanation:
 
 ### Question 43:
 
-
+What is the minimum size of an SSD EBS Volume?
 
 - A. 1byte
 - B. 1GiB 
@@ -676,7 +676,7 @@ Explanation:
 
 ### Question 44:
 
-
+True or False: An application designed for fault tolerance and high availability should almost always be built across multiple Availability Zones
 
 - A. TRUE 
 - B. FALSE
@@ -706,7 +706,7 @@ Explanation:
 
 ### Question 46:
 
-
+True or False: In addition to hosting domains, Route 53 serves as a domain registrar.
 
 - A. TRUE 
 - B. FALSE
@@ -736,7 +736,7 @@ Explanation:
 
 ### Question 48:
 
-
+True or False: It's possible to have a Multi-AZ copy of your read replica?
 
 - A. TRUE 
 - B. FALSE 
@@ -780,7 +780,7 @@ Explanation:
 
 ### Question 51:
 
-
+You've been tasked with replicating your production VPC in another region for disaster recovery purposes. Part of your environment relies on EC2 instances with preconfigured software. What steps would you take to configure the instances in another region?
 
 - A. Create AMIs of the instances and deploy them in the new Region
 - B. Create AMIs of the instances and copy them to the new Region for deployment. 
@@ -796,7 +796,7 @@ Explanation:
 
 ### Question 52:
 
-
+From the command line, which of the following should you run to get the public hostname of an EC2 instance?
 
 - A. curl http://169.254.169.254/latest/meta-data/public-hostname 
 - B. curl http://254.169.254.169/latest/user-data/public-hostname
@@ -812,7 +812,7 @@ Explanation:
 
 ### Question 53:
 
-
+Amazon RDS supports which of the following databases:
 
 - A. MariaDB 
 - B. MySQL 
@@ -828,7 +828,7 @@ Explanation:
 
 ### Question 54:
 
-
+True or False: EBS Volumes are hard-disks in the cloud.
 
 - A. TRUE 
 - B. FALSE
@@ -858,7 +858,7 @@ Explanation:
 
 ### Question 56:
 
-
+You've been tasked with setting up an S3 solution to store large amounts of critical data. With high availability and fault-tolerance in mind, what further safeguards should you implement to protect your data in the event that an entire AZ was lost to a natural (or similarly catastrophic) disaster?
 
 - A. Nothing: S3 is a global service and is not affected by the loss of an availability zone. 
 - B. Use lifecycle policies to copy the data to Glacier.
@@ -874,7 +874,7 @@ Explanation:
 
 ### Question 57:
 
-
+What is the maximum retention period for RDS automated backups?
 
 - A. 7 days
 - B. 2 weeks
@@ -890,7 +890,7 @@ Explanation:
 
 ### Question 58:
 
-
+Which two of the following characterize a scalable and reliable solution on AWS?
 
 - A. A scalable application will be resilient and operationally efficient 
 - B. A scalable solution applies elasticity at the expense of cost. 
@@ -906,7 +906,7 @@ Explanation:
 
 ### Question 59:
 
-
+You have an RDS database that has high performance OLTP workloads. Which storage medium would be best to accommodate these requirements?
 
 - A. Amazon RDS Provisioned IOPS (SSD) Storage 
 - B. Amazon RDS General Purpose (SSD) Storage

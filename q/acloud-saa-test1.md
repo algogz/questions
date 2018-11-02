@@ -1,6 +1,6 @@
 ### Question 1:
 
-
+You work in the security industry for a large consultancy. A new customer of yours runs a production environment in AWS and they require a log of all API calls made to their Elastic Load Balancer. How can you achieve this?
 
 - A. Enable CloudWatch on the ELB
 - B. Enable Cloud Trail on the ELB 
@@ -16,7 +16,7 @@ Explanation:
 
 ### Question 2:
 
-
+True or False: Amazon will always have root level SSH access in to your EC2 instances.
 
 - A. TRUE 
 - B. FALSE 
@@ -30,7 +30,7 @@ Explanation:
 
 ### Question 3:
 
-
+You have a static HTML website that requires inexpensive, highly available hosting solution that scales automatically to meet traffic demands. Which AWS service would best suit this requirement?
 
 - A. EC2 with EBS behind and Autoscaling Group with a minimum configuration of 2
 - B. EC2 with EBS behind and Autoscaling Group with a minimum configuration of 1
@@ -46,7 +46,7 @@ Explanation:
 
 ### Question 4:
 
-
+True or False: You should expect the same latency and throughput performance as Amazon S3 Standard when using Standard - IA.
 
 - A. TRUE 
 - B. FALSE 
@@ -92,7 +92,7 @@ Explanation:
 
 ### Question 7:
 
-
+What is the minimum time interval granularity for the data that Amazon CloudWatch receives and aggregates?
 
 - A. 30 seconds
 - B. 1 minute 
@@ -108,7 +108,7 @@ Explanation:
 
 ### Question 8:
 
-
+True or False: S3 does not support website redirects.
 
 - A. TRUE
 - B. FALSE 
@@ -122,7 +122,7 @@ Explanation:
 
 ### Question 9:
 
-
+You need to automatically migrate objects from one S3 storage class to another based on the age of the data. What S3 service can you use to achieve this?
 
 - A. Infrequent Access
 - B. Lifecycle Management 
@@ -138,7 +138,7 @@ Explanation:
 
 ### Question 10:
 
-
+You work for an electric car company that has its front end website on EC2. Company policy dictates that you must retain a history of all EC2 API calls made on your account for security analysis and operational troubleshooting purposes. What AWS service can assist you with this?
 
 - A. CloudWatch
 - B. CloudFront
@@ -154,7 +154,7 @@ Explanation:
 
 ### Question 11:
 
-
+True or False: An Amazon Cluster Placement Group can be stretched across multiple availability zones?"
 
 - A. TRUE
 - B. FALSE 
@@ -168,7 +168,7 @@ Explanation:
 
 ### Question 12:
 
-
+Your three AWS accounts (A, B and C) share data. In an attempt to maximize performance between the accounts, you place all the instances for these accounts in 'eu-west-1b'. During testing, you find almost no transfer latency between accounts A and B, but significant latency between accounts B and C, and accounts C and A. Which of the following possibilities is the most likely source of the problem?
 
 - A. The names of the AZs are randomly applied, so 'eu-west-1b' is not the same location for all three accounts 
 - B. You have incorrectly configured the cross account authentication policies in account C adding latency to those instances.
@@ -184,7 +184,7 @@ Explanation:
 
 ### Question 13:
 
-
+True or False: You can use S3 Transfer Acceleration with multipart uploads.
 
 - A. TRUE 
 - B. FALSE
@@ -214,7 +214,7 @@ Explanation:
 
 ### Question 15:
 
-
+Which of the following is NOT a valid EC2 instance type?
 
 - A. D2
 - B. C4
@@ -230,7 +230,7 @@ Explanation:
 
 ### Question 16:
 
-
+You work for a large insurance company that has issued 10,000 insurance policies. These policies are stored as PDFs. You need these policies to be highly available and company policy says that the data must be able to survive the simultaneous loss of two facilities. What storage solution should you use?
 
 - A. A single EC2 instance with an EBS volume provisioned as a secondary volume.
 - B. S3 
@@ -294,7 +294,7 @@ Explanation:
 
 ### Question 20:
 
-
+What is the Uptime SLA for Amazon EC2 and EBS within a given region?
 
 - A. 99%
 - B. 99.50%
@@ -310,7 +310,7 @@ Explanation:
 
 ### Question 21:
 
-
+What is the minimum object size for S3 - IA?
 
 - A. 1 KB
 - B. 0 Bytes 
@@ -326,7 +326,7 @@ Explanation:
 
 ### Question 22:
 
-
+You have designed an application that stores large videos in S3. These videos are usually larger than 100Mb in size. You need to maximize upload performance. Select two answers that will achieve this end.
 
 - A. Design the application to use multipart upload, so that the file is split in to multiple parts which are then uploaded simultaneously. 
 - B. Require the users to use Direct Connect in order to use to application so as to maximize the upload bandwidth.
@@ -342,7 +342,7 @@ Explanation:
 
 ### Question 23:
 
-
+You have an application that uses S3 to store objects. Company policy dictates that certain objects (such as JPGs and PDF's) must be replicated to another region for redundancy. However, some objects (such as Word files) can stay in a single region. Company policy also dictates that you should use as few buckets as possible. How should you architect this solution?
 
 - A. Two buckets, 1 with CRR enabled on it (for the word files) and the other bucket without.
 - B. Two buckets 1 with CRR enabled on it (for the JPGs and PDF's) and the other without. 
@@ -374,7 +374,7 @@ Explanation:
 
 ### Question 25:
 
-
+You need to implement a new web application which allows users to store family photos online in such a way that only invited guests will be able to view the images. Which type of S3 encryption should you choose to maintain full end-to-end control of the encryption/decryption of objects and assure that only encrypted objects are transmitted over the Internet to Amazon S3.
 
 - A. SSE-S3
 - B. SSE-C
@@ -390,7 +390,7 @@ Explanation:
 
 ### Question 26:
 
-
+True or False: Classic ELB's support IPv6 as well as IPv4.
 
 - A. TRUE 
 - B. FALSE
@@ -404,7 +404,7 @@ Explanation:
 
 ### Question 27:
 
-
+Your company has a legacy SAN that has 75 TB's of data. Your company has decided that they want to migrate this data to AWS S3 in the quickest way possible. You company has a single comms line with a maximum pipe line of 50Mbps Which service should you consider using?
 
 - A. S3 Transfer Acceleration
 - B. Snowball 
@@ -420,7 +420,7 @@ Explanation:
 
 ### Question 28:
 
-
+Which EC2 operating system is NOT supported by CloudWatch
 
 - A. Amazon Linux
 - B. Debian
@@ -452,7 +452,7 @@ Explanation:
 
 ### Question 30:
 
-
+Which types of server side encryption are available for S3? (Choose all that apply.)
 
 - A. Server Side Encryption Using S3 (SSE-S3) 
 - B. Server Side Encryption with Customer-Provide Keys (SSE-C) 
@@ -484,7 +484,7 @@ Explanation:
 
 ### Question 32:
 
-
+You are running a Cassandra database that requires access to tens of thousands of low latency IOPS. What EC2 instance family would best suit your needs?
 
 - A. Cluster GPU Instances
 - B. High I/O instances 
@@ -578,7 +578,7 @@ Explanation:
 
 ### Question 38:
 
-
+By default, how many Elastic IP addresses are you limited to per region?
 
 - A. 5 
 - B. 10
@@ -594,7 +594,7 @@ Explanation:
 
 ### Question 39:
 
-
+True or False: EBS Snapshots are versioned and you can read an older snapshot to do a point-in-time recovery?
 
 - A. TRUE 
 - B. FALSE
@@ -624,7 +624,7 @@ Explanation:
 
 ### Question 41:
 
-
+By default, how many S3 buckets can you have with a new AWS account?
 
 - A. 25
 - B. 50
@@ -640,7 +640,7 @@ Explanation:
 
 ### Question 42:
 
-
+Which of the following operating systems is NOT supported by EC2
 
 - A. Amazon Linux
 - B. Ubuntu
@@ -672,7 +672,7 @@ Explanation:
 
 ### Question 44:
 
-
+You have been load testing a customers new production environment. You create the environment using CloudFormation and you utilize CloudWatch to monitor the environment. After extensive load testing, you are ready to hand the cloudformation template over to your customer. You delete the environment and give your customer the CloudFormation template. However, they now want to see the results of the load test. How long does CloudWatch store the metrics for EC2 & ELB after deleting those resources?
 
 - A. 24 hours 
 - B. 48 hours
@@ -688,7 +688,7 @@ Explanation:
 
 ### Question 45:
 
-
+Which of the following statements is TRUE.
 
 - A. You are able to attach multiple EBS volumes to an EC2 instance. 
 - B. You are able to attach multiple EC2 instances to an EBS Volume.
@@ -736,7 +736,7 @@ Explanation:
 
 ### Question 48:
 
-
+Your large scientific organization needs to use a fleet of EC2 instances to perform high performance, CPU intensive calculations. Your boss asks you to choose an instance type that would best suit the needs of your organization. Which of the following instance types should you recommend?
 
 - A. C4 
 - B. M3
@@ -752,7 +752,7 @@ Explanation:
 
 ### Question 49:
 
-
+You have an application that stores data in S3, and you need to design an integrated solution providing encryption at rest. You want Amazon to handle key management and protection using multiple layers of security. Which S3 encryption option should you use?
 
 - A. SSE-S3 
 - B. SSE-C
@@ -768,7 +768,7 @@ Explanation:
 
 ### Question 50:
 
-
+You have an application that allows people in very remote locations to store their files safely and securely. You need to leverage Amazon CloudFront’s globally distributed AWS Edge Locations so that as data arrives at an AWS Edge Location the data is routed to your Amazon S3 bucket over an optimized network path. Which service should you use?
 
 - A. CloudFront Transfer Acceleration
 - B. S3 Transfer Acceleration 
@@ -784,7 +784,7 @@ Explanation:
 
 ### Question 51:
 
-
+Which of the following protocols is not supported with an Elastic Load Balancer
 
 - A. HTTP
 - B. HTTPS
@@ -800,7 +800,7 @@ Explanation:
 
 ### Question 52:
 
-
+CRR replicates every object-level upload that you make directly to your source bucket. Which of the following also forms a part of that replication?
 
 - A. The object metadata 
 - B. The object ACL's 
@@ -816,7 +816,7 @@ Explanation:
 
 ### Question 53:
 
-
+Can you use IPv6 with Amazon S3?
 
 - A. Yes 
 - B. Yes however you need IPv4 to IPv6 Translation Software
@@ -832,7 +832,7 @@ Explanation:
 
 ### Question 54:
 
-
+You work for a genetics company that has extremely large datasets stored in S3. You need to minimize storage costs, while maintaining mandated restore times that depend on the age of the data. Data 30-59 days old must be available immediately, and data ≥ 60 days old must be available within 12 hours. Which two of the following options below should you consider?
 
 - A. S3 - RRS
 - B. S3 - IA 
@@ -848,7 +848,7 @@ Explanation:
 
 ### Question 55:
 
-
+How quickly can objects be restored from Glacier?
 
 - A. Within 30 minutes
 - B. Within 1 hour
@@ -864,7 +864,7 @@ Explanation:
 
 ### Question 56:
 
-
+What is the minimum object size for S3 Standard?
 
 - A. 1 KB
 - B. 0 Bytes 
@@ -896,7 +896,7 @@ Explanation:
 
 ### Question 58:
 
-
+Which of the following are compute services with AWS?
 
 - A. EC2 
 - B. ECS 
@@ -912,7 +912,7 @@ Explanation:
 
 ### Question 59:
 
-
+You are a system administrator and you need to take a consistent snapshot of your EC2 instance. Your application holds large amounts of data in cache that is not written to disk automatically. What would be the best approach to taking an application consistent snapshot?
 
 - A. Take a snapshot in real time using the EC2 API.
 - B. Shutdown the EC2 instance and detach the EBS volume, then take the snapshot. 

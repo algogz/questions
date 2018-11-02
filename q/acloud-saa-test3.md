@@ -1,6 +1,6 @@
 ### Question 1:
 
-
+Using the AWS Server Migration Service, what's the maximum number of VMWare VMs that can be migrated concurrently?
 
 - A. 10
 - B. 25
@@ -16,7 +16,7 @@ Explanation:
 
 ### Question 2:
 
-
+True or False: S3 provides read-after-write consistency for overwrite PUTS and DELETES.
 
 - A. TRUE 
 - B. FALSE 
@@ -30,7 +30,7 @@ Explanation:
 
 ### Question 3:
 
-
+Which of the following is an invalid VPC pairing configuration?
 
 - A. You have a VPC peering connection between VPCs A and B. They are in the same AWS account, and they do not have overlapping CIDR blocks.
 - B. VPC A has peering connections to VPCs B and C. All three VPCs are in the same AWS account, and there are no overlapping CIDR blocks.
@@ -46,7 +46,7 @@ Explanation:
 
 ### Question 4:
 
-
+Your application's usage peaks at 90% during the hours of 9 AM and 10 AM everyday. All other hours require only 10% of the peak resources. What is the best way to scale your application so you're only paying for max resources during peak hours?
 
 - A. Proactive event-based scaling
 - B. Proactive cyclic scaling 
@@ -62,7 +62,7 @@ Explanation:
 
 ### Question 5:
 
-
+Your image manipulation application allows users take a picture, upload it to your app, and request filters to be added to the image. You need to decouple the application so your users are not waiting for the image processing to take place. How would you go about doing this?
 
 - A. Use Lambda to process the images. 
 - B. Use S3 to store the images and EC2 to process the requests.
@@ -78,7 +78,7 @@ Explanation:
 
 ### Question 6:
 
-
+True or False: For a successful cross-region replication of your S3 bucket, versioning must be enabled on both the source and target buckets.
 
 - A. TRUE 
 - B. FALSE
@@ -108,7 +108,7 @@ Explanation:
 
 ### Question 8:
 
-
+An AWS VPC allows you to:
 
 - A. Forget about security: AWS does it all for you.
 - B. Provision unlimited S3 resources 
@@ -124,7 +124,7 @@ Explanation:
 
 ### Question 9:
 
-
+True or False: Multifactor Authentication is required to delete objects from an S3 bucket.
 
 - A. TRUE
 - B. FALSE 
@@ -138,7 +138,7 @@ Explanation:
 
 ### Question 10:
 
-
+True or False: you can write objects directly to an edge location.
 
 - A. TRUE 
 - B. FALSE
@@ -152,7 +152,7 @@ Explanation:
 
 ### Question 11:
 
-
+Which of the following statements about Amazon SQS is true?
 
 - A. SQS will deliver your message at least once, but cannot guarantee that it will not create duplicates of that message. 
 - B. SQS will deliver your message at least once in FIFO order.
@@ -168,7 +168,7 @@ Explanation:
 
 ### Question 12:
 
-
+True or False: You can attach more than one EC2 instance to an AWS Elastic Block Store volume.
 
 - A. TRUE
 - B. FALSE 
@@ -198,7 +198,7 @@ Explanation:
 
 ### Question 14:
 
-
+You've been tasked with the creation of a highly available website that serves static content from EC2 instances. Which of the following is not a requirement to accomplish this goal?
 
 - A. Multiple subnets
 - B. An auto-scaling group
@@ -214,7 +214,7 @@ Explanation:
 
 ### Question 15:
 
-
+True or False: you can use IAM policies to deny the Root account access to EC2 instances.
 
 - A. TRUE
 - B. FALSE 
@@ -228,7 +228,7 @@ Explanation:
 
 ### Question 16:
 
-
+After setting up a VPC peering connection between your VPC and that of your clients, the client requests to be able to send traffic between instances in the peered VPCs using private IP addresses. What must you do to make this possible?
 
 - A. Add a route to a Route Table that's associated with your VPC. 
 - B. Establish a private peering connection.
@@ -244,7 +244,7 @@ Explanation:
 
 ### Question 17:
 
-
+You are trying to establish a VPC peering connection with another VPC, and you discover that there seem to be a lot of limitations and rules when it comes to VPC peering. Which of the following is not a VPC pairing limitation or rule?
 
 - A. You cannot have more than one VPC peering connection between the same VPCs at the same time.
 - B. You cannot create a VPC pairing connection between VPCs in different regions.
@@ -260,7 +260,7 @@ Explanation:
 
 ### Question 18:
 
-
+Your customer is a healthcare company with strict compliance and auditing requirements. As you use AWS to architect the application environment, which of the following services might you use to ensure compliance with their strict requirements?
 
 - A. S3 with Versioning enabled
 - B. Multi factor authentication
@@ -276,7 +276,7 @@ Explanation:
 
 ### Question 19:
 
-
+What determines the cost of using CloudFormation templates?
 
 - A. The published rate of $.10 per template per month
 - B. The resources the AWS infrastructure uses to build your environment
@@ -292,7 +292,7 @@ Explanation:
 
 ### Question 20:
 
-
+To maintain compliance with HIPPA, all healthcare-related data being stored on Amazon S3 needs to be encrypted at rest. Assuming S3 is being used for storing the data, which two of the following are the preferred methods of encryption?
 
 - A. Enable Server Side Encryption on your S3 bucket. S3 automatically applies AES-256 encryption. 
 - B. Encrypt the data locally using your own encryption keys and then transfer the encrypted data to S3. 
@@ -324,7 +324,7 @@ Explanation:
 
 ### Question 22:
 
-
+Your company is moving their entire 20 TB data warehouse to the cloud. With your current bandwidth, it would take 2 months to transfer the data. Which service would you use to quickly get your data into AWS?
 
 - A. AWS Snowball 
 - B. AWS DirectConnect
@@ -340,7 +340,7 @@ Explanation:
 
 ### Question 23:
 
-
+Your company provides an online image recognition service that uses SQS to decouple system components. Your application polls the image queue as often as possible to maximize end-to-end throughput. However, you notice that polling in tight loops is burning CPU cycles and increasing costs with empty responses. How can you reduce the number of empty responses?
 
 - A. Enable long polling by setting the ReceiveMessageWaitTimeSeconds to a number > 0 
 - B. Enable short polling by setting ReceiveMessageWaitTime = 0.
@@ -356,7 +356,7 @@ Explanation:
 
 ### Question 24:
 
-
+Which two of the following AWS Services were introduced at re:Invent 2016
 
 - A. Lex 
 - B. Dax
@@ -372,7 +372,7 @@ Explanation:
 
 ### Question 25:
 
-
+True or False: Amazon SQS guarantees that each message will be delivered at least once, but cannot guarantee that a message will not be delivered multiple times.
 
 - A. TRUE 
 - B. FALSE
@@ -386,7 +386,7 @@ Explanation:
 
 ### Question 26:
 
-
+When reviewing Auto Scaling events, it is noticed that an application is scaling up and down multiple times per hour. What design change could you make to optimize cost while preserving elasticity?
 
 - A. Add a Provisioned IOPS volume to the instance.
 - B. Increase the number of instances in the Auto Scaling group.
@@ -402,7 +402,7 @@ Explanation:
 
 ### Question 27:
 
-
+You've been tasked with architecting a highly available application. After building the initial environment, you've discovered that your current security group configuration does not include a port you need for certain traffic. After adding the port to the appropriate security group, how long will it take for your changes to take effect, allowing your application to function correctly?
 
 - A. It usually takes a couple of minutes for these changes to take effect.
 - B. Changes to a security group take effect as soon as they are saved. 
@@ -418,7 +418,7 @@ Explanation:
 
 ### Question 28:
 
-
+When selecting an EC2 instance type for your application, it's important to know which two of the following?
 
 - A. The required number of I/O operations 
 - B. The memory requirements 
@@ -434,7 +434,7 @@ Explanation:
 
 ### Question 29:
 
-
+What is the maximum size of a general-purpose SSD EBS volume?
 
 - A. 16TiB 
 - B. 2TiB
@@ -450,7 +450,7 @@ Explanation:
 
 ### Question 30:
 
-
+Your AWS environment contains several on-demand, EBS-backed EC2 instances dedicated to a project that has just been cancelled. Your supervisor does not want to incur charges for these on-demand instances, but also does not want to lose the data just yet because there is a chance the project may be revived in the next few days. What should you do to minimize charges for these instances in the meantime?
 
 - A. Stop the instances as soon as possible. 
 - B. Terminate the instances.
@@ -466,7 +466,7 @@ Explanation:
 
 ### Question 31:
 
-
+The AMI ID used in an AutoScaling policy is specified in the_____.
 
 - A. Launch configuration 
 - B. AutoScaling group
@@ -482,7 +482,7 @@ Explanation:
 
 ### Question 32:
 
-
+You are testing an application that uses EC2 instances to poll an SQS queue. At this stage of testing, you have verified that the EC2 instances can retrieve messages from the queue, but your coworkers are complaining about not being able to manually retrieve any messages from the queue from their on-premises workstations. What is the most likely source of this problem?
 
 - A. SQS queues accept traffic only from within AWS.
 - B. Your coworkers do not have permission to access the SQS queue. 
@@ -498,7 +498,7 @@ Explanation:
 
 ### Question 33:
 
-
+You've been tasked with migrating an on-premise application architecture to AWS. During the design process, you give consideration to current on-premise security and identify the security attributes you are responsible for on AWS. Which of the following does AWS provide for you as part of the shared responsibility model?
 
 - A. Virtualization Infrastructure 
 - B. Physical network infrastructure 
@@ -530,7 +530,7 @@ Explanation:
 
 ### Question 35:
 
-
+Which of the following will transpire when an EC2 instance with an associated Elastic IP is stopped and started?
 
 - A. The underlying host for the instance will be changed. 
 - B. All data on instance-store devices will be lost 
@@ -546,7 +546,7 @@ Explanation:
 
 ### Question 36:
 
-
+What is the minimum size of an S3 object?
 
 - A. 1 bit
 - B. 1 byte
@@ -562,7 +562,7 @@ Explanation:
 
 ### Question 37:
 
-
+True or False: When a snapshot is being taken against an EBS volume, the volume becomes unavailable and the instance no longer has the ability to communicate with the EBS volume until the snapshot is complete.
 
 - A. TRUE
 - B. FALSE 
@@ -576,7 +576,7 @@ Explanation:
 
 ### Question 38:
 
-
+Your company requires that all the data on your EBS-backed EC2 volumes be encrypted. How would you go about doing this?
 
 - A. You cannot enable EBS encryption on a specific volume.
 - B. AWS allows you to encrypt an EBS volume at the time of creation. 
@@ -608,7 +608,7 @@ Explanation:
 
 ### Question 40:
 
-
+If an instance belonging to an Elastic Load Balancer fails its health check, what will the ELB do?
 
 - A. The ELB will de-register the instance and stop sending traffic to it. 
 - B. Unfortunately, the ELB will continue to send the unhealthy instance traffic until the instance is terminated.
@@ -640,7 +640,7 @@ Explanation:
 
 ### Question 42:
 
-
+True or False: AutoScaling is a tool used to build elastic, self-healing applications.
 
 - A. TRUE 
 - B. FALSE
@@ -654,7 +654,7 @@ Explanation:
 
 ### Question 43:
 
-
+What is the Well Architected Framework?
 
 - A. A set of questions that you can use to evaluate how well your architecture is aligned to AWS practices. 
 - B. A guide to passing your Solutions Architect - Associate exam.
@@ -670,7 +670,7 @@ Explanation:
 
 ### Question 44:
 
-
+To protect S3 data from accidental overwrites and deletes, you should do which of the following?
 
 - A. Allow only MFA access
 - B. Use a bucket policy to disable deletes from S3
@@ -702,7 +702,7 @@ Explanation:
 
 ### Question 46:
 
-
+You wonder why a SWF workflow you created has not made any progress in the last three weeks. What is the most likely explanation for the workflow’s behavior?
 
 - A. The workflow has exceeded the maximum 90-day lifespan of an SWF workflow.
 - B. SWF does not support tasks located outside of AWS, so you will need to remove those tasks from your on-premise servers.
@@ -718,7 +718,7 @@ Explanation:
 
 ### Question 47:
 
-
+True or False: There is no cost associated with removing cached objects from a CDN Edge Location.
 
 - A. TRUE
 - B. FALSE 
@@ -732,7 +732,7 @@ Explanation:
 
 ### Question 48:
 
-
+An EC2 instance retrieves a message from an SQS queue, begins processing the message, then crashes. What happens to the message?
 
 - A. When the message visibility timeout expires, the message becomes available for processing by other EC2 instances. 
 - B. It remains in the queue in a locked state until the EC2 instance comes back online.
@@ -748,7 +748,7 @@ Explanation:
 
 ### Question 49:
 
-
+True or False: You cannot attach more than one EC2 instance to an AWS Elastic Filesystem.
 
 - A. TRUE
 - B. FALSE 
@@ -762,7 +762,7 @@ Explanation:
 
 ### Question 50:
 
-
+True or False: AutoScaling groups are not intended to handle sudden spikes in traffic. Rather, they are intended to allow your applications to grow elastically as load increases over a short period of time.
 
 - A. TRUE 
 - B. FALSE
@@ -776,7 +776,7 @@ Explanation:
 
 ### Question 51:
 
-
+What is the "first-byte latency" when retrieving data from Glacier?
 
 - A. 1 hour
 - B. 2 hours
@@ -792,7 +792,7 @@ Explanation:
 
 ### Question 52:
 
-
+Which of the following is not a pillar of the AWS Well Architected Framework?
 
 - A. Cost Optimization
 - B. Performance Efficiency 
@@ -808,7 +808,7 @@ Explanation:
 
 ### Question 53:
 
-
+You've been tasked with the creation of a highly-available, decoupled web application. Which of the following will not aid in that effort?
 
 - A. An Elastic Load Balancer that sends web traffic to instances with the least latency.
 - B. An SQS queue that allows secondary EC2 instances to process jobs dropped by the primary instance.
@@ -824,7 +824,7 @@ Explanation:
 
 ### Question 54:
 
-
+After migrating an application architecture from on-premise to AWS, you will not be responsible for the ongoing maintenance of which two of the following services.
 
 - A. Elastic Beanstalk 
 - B. EC2
@@ -856,7 +856,7 @@ Explanation:
 
 ### Question 56:
 
-
+True or False: Data stored on EBS volumes is automatically and redundantly stored in multiple physical volumes in the same availability zone as part of the normal operations of the EBS service at no additional charge.
 
 - A. TRUE 
 - B. FALSE
@@ -886,7 +886,7 @@ Explanation:
 
 ### Question 58:
 
-
+True or False: To prevent in-flight tampering, all requests sent with API keys over a REST or Query API should be sent via HTTPS.
 
 - A. TRUE 
 - B. FALSE
@@ -900,7 +900,7 @@ Explanation:
 
 ### Question 59:
 
-
+Which of the following services allows you to access the service's underlying operating system?
 
 - A. DynamoDB
 - B. EMR 
