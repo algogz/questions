@@ -14,7 +14,8 @@ import java.nio.file.Paths;
 public class QuestionExtractorTests {
     @Test
     public void extractFromHtmlTest() throws IOException {
-        Document doc = Jsoup.parse(new File("/Users/algo/aws/test2.html"), "utf-8");
+        String path = "temp/digital-saa-test2.html";
+        Document doc = Jsoup.parse(new File(path), "utf-8");
         Elements formElms = doc.select("form");
         StringBuilder sb = new StringBuilder();
         for (Element formElm : formElms) {
@@ -24,7 +25,6 @@ public class QuestionExtractorTests {
             }
             String qDesc = formElm.select("#question-prompt > p").text();
             System.out.println(qNumber);
-            sb.append("<hr>").append("\n\n");
             sb.append("### ").append(qNumber).append("\n\n");
             sb.append(qDesc).append("\n\n");
 
@@ -44,7 +44,7 @@ public class QuestionExtractorTests {
                 }
                 sb.append("- ").append(letter + ". " + option).append("\n");
             }
-            sb.append("\n").append("Answer:").append("\n");
+            sb.append("\n").append("<details><summary>Answer:</summary><p>").append("\n");
             sb.append(answer).append("\n\n");
 
             sb.append("Explanation:").append("\n\n");
@@ -53,9 +53,10 @@ public class QuestionExtractorTests {
                 String explanation = explanationElm.text();
                 sb.append(explanation).append("\n\n");
             }
+            sb.append("</p></details><hr>").append("\n\n");
         }
 
-        Files.write(Paths.get("/Users/algo/aws/test2.md"), sb.toString().getBytes());
+        Files.write(Paths.get(path.replaceFirst("\\.html", "\\.md")), sb.toString().getBytes());
     }
 
 }
