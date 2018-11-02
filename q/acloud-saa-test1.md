@@ -12,6 +12,8 @@ B
 
 Explanation:
 
+You should enable Cloud Trail on the ELB
+
 </p></details><hr>
 
 ### Question 2:
@@ -25,6 +27,8 @@ True or False: Amazon will always have root level SSH access in to your EC2 inst
 B
 
 Explanation:
+
+The answer is FALSE. Amazon will not have root level SSH access to your EC2 instances
 
 </p></details><hr>
 
@@ -42,6 +46,8 @@ C
 
 Explanation:
 
+S3 would be the cheapest solution for this requirement.
+
 </p></details><hr>
 
 ### Question 4:
@@ -55,6 +61,8 @@ True or False: You should expect the same latency and throughput performance as 
 A
 
 Explanation:
+
+S3 Standard - IA offers the high durability, throughput, and low latency of Amazon S3 Standard, with a low per GB storage price and per GB retrieval fee.
 
 </p></details><hr>
 
@@ -72,6 +80,8 @@ A
 
 Explanation:
 
+You can create a lifecycle policy that expires incomplete multipart uploads, allowing you to save on costs by limiting the time non-completed multipart uploads are stored.
+
 </p></details><hr>
 
 ### Question 6:
@@ -87,6 +97,8 @@ What is the durability of S3 - IA?
 C
 
 Explanation:
+
+S3 Standard - IA is designed for the same 99.999999999% durability as S3 Standard and Amazon Glacier.
 
 </p></details><hr>
 
@@ -104,6 +116,8 @@ B
 
 Explanation:
 
+The minimum time interval for CloudWatch is 1 minute.
+
 </p></details><hr>
 
 ### Question 8:
@@ -117,6 +131,8 @@ True or False: S3 does not support website redirects.
 B
 
 Explanation:
+
+S3 does support website redirects.
 
 </p></details><hr>
 
@@ -134,6 +150,8 @@ B
 
 Explanation:
 
+S3 Lifecycle management provides the ability to define the lifecycle of your object with a predefined policy and reduce your cost of storage. You can set lifecycle transition policy to automatically migrate Amazon S3 objects to Standard - Infrequent Access (Standard - IA) and/or Amazon Glacier based on the age of the data.
+
 </p></details><hr>
 
 ### Question 10:
@@ -150,6 +168,8 @@ C
 
 Explanation:
 
+To receive a history of all EC2 API calls (including VPC and EBS) made on your account, you simply turn on CloudTrail in the AWS Management Console.
+
 </p></details><hr>
 
 ### Question 11:
@@ -163,6 +183,8 @@ True or False: An Amazon Cluster Placement Group can be stretched across multipl
 B
 
 Explanation:
+
+Because of the low latency required for a cluster placement group, a cluster placement group can only exist within 1 availability zone.
 
 </p></details><hr>
 
@@ -180,6 +202,8 @@ A
 
 Explanation:
 
+The Availability Zone names presented are unique per account and do not represent a specific set of physical resources.
+
 </p></details><hr>
 
 ### Question 13:
@@ -193,6 +217,8 @@ True or False: You can use S3 Transfer Acceleration with multipart uploads.
 A
 
 Explanation:
+
+TRUE, You can use S3 Transfer Acceleration with multipart uploads.
 
 </p></details><hr>
 
@@ -210,6 +236,8 @@ C
 
 Explanation:
 
+AWS KMS provides an audit trail so you can see who used your key to access which object and when, as well as view failed attempts to access data from users without permission to decrypt the data.
+
 </p></details><hr>
 
 ### Question 15:
@@ -225,6 +253,8 @@ Which of the following is NOT a valid EC2 instance type?
 D
 
 Explanation:
+
+D2, C4, M3 are all valid EC2 instances. https://aws.amazon.com/ec2/instance-types/
 
 </p></details><hr>
 
@@ -242,6 +272,8 @@ B
 
 Explanation:
 
+Your best solution would be to use S3, which redundantly stores multiple copies of your data in multiple facilities and on multiple devices within each facility.
+
 </p></details><hr>
 
 ### Question 17:
@@ -257,6 +289,8 @@ You are a solutions architect working for a company that conducts surveys on spe
 B
 
 Explanation:
+
+You need an application-aware load balancer, so your best option would be to use an Application Load Balancer.
 
 </p></details><hr>
 
@@ -274,6 +308,8 @@ D
 
 Explanation:
 
+Versioning allows you to preserve, retrieve, and restore every version of every object stored in an Amazon S3 bucket.
+
 </p></details><hr>
 
 ### Question 19:
@@ -289,6 +325,8 @@ You need to restore an object from Glacier. What 2 ways can you accomplish this?
 BC
 
 Explanation:
+
+Because Amazon S3 maintains the mapping between your user-defined object name and Amazon Glacier’s system-defined identifier, Amazon S3 objects that are stored using the Amazon Glacier option are only accessible through the Amazon S3 APIs or the Amazon S3 Management Console.
 
 </p></details><hr>
 
@@ -306,6 +344,8 @@ C
 
 Explanation:
 
+Amazon's SLA guarantees a Monthly Uptime Percentage of at least 99.95% for Amazon EC2 and Amazon EBS within a Region.
+
 </p></details><hr>
 
 ### Question 21:
@@ -321,6 +361,8 @@ What is the minimum object size for S3 - IA?
 D
 
 Explanation:
+
+Standard - IA is designed for larger objects and has a minimum object size of 128KB. Objects smaller than 128KB in size will incur storage charges as if the object were 128KB.
 
 </p></details><hr>
 
@@ -338,6 +380,8 @@ AC
 
 Explanation:
 
+Multipart Upload is recommended for files greater than 100 Mb, and is required for files 5 GB or larger. S3 Transfer Accelearation is especially useful in cases where your bucket resides in a Region other than the one in which the file transfer was originated.
+
 </p></details><hr>
 
 ### Question 23:
@@ -353,6 +397,8 @@ You have an application that uses S3 to store objects. Company policy dictates t
 C
 
 Explanation:
+
+You can use just one bucket and enable CRR on just a subset of uploaded objects (such as JPGs and PDF's) by using specifying prefixes.
 
 </p></details><hr>
 
@@ -370,6 +416,8 @@ B
 
 Explanation:
 
+The best solutions for instant access, but lowese cost would be S3 - Infrequently Accessed storage.
+
 </p></details><hr>
 
 ### Question 25:
@@ -386,6 +434,8 @@ D
 
 Explanation:
 
+Using an encryption client library, such as the Amazon S3 Encryption Client, you retain control of the keys and complete the encryption and decryption of objects client-side using an encryption library of your choice. Some customers prefer full end-to-end control of the encryption and decryption of objects; that way, only encrypted objects are transmitted over the Internet to Amazon S3.
+
 </p></details><hr>
 
 ### Question 26:
@@ -399,6 +449,8 @@ True or False: Classic ELB's support IPv6 as well as IPv4.
 A
 
 Explanation:
+
+Each Classic Load Balancer has an associated IPv4, IPv6, and dualstack (both IPv4 and IPv6) DNS name. However, IPv6 is not supported in VPC at this time.
 
 </p></details><hr>
 
@@ -416,6 +468,8 @@ B
 
 Explanation:
 
+Due to the size of the data and the small comms line, Snowball would be the fastest option available.
+
 </p></details><hr>
 
 ### Question 28:
@@ -431,6 +485,8 @@ Which EC2 operating system is NOT supported by CloudWatch
 D
 
 Explanation:
+
+All EC2 operating systems are supported by CloudWatch.
 
 </p></details><hr>
 
@@ -448,6 +504,8 @@ AC
 
 Explanation:
 
+You can securely upload/download your data to/from Amazon S3 via SSL or HTTP endpoints using HTTPS.
+
 </p></details><hr>
 
 ### Question 30:
@@ -463,6 +521,8 @@ Which types of server side encryption are available for S3? (Choose all that app
 ABD
 
 Explanation:
+
+You can choose to encrypt data using SSE-S3, SSE-C, SSE-KMS, or a client library such as the Amazon S3 Encryption Client. All four enable you to store sensitive data encrypted at rest in Amazon S3.
 
 </p></details><hr>
 
@@ -480,6 +540,8 @@ B
 
 Explanation:
 
+VM Import/Export is designed to help you do exactly that.
+
 </p></details><hr>
 
 ### Question 32:
@@ -495,6 +557,8 @@ You are running a Cassandra database that requires access to tens of thousands o
 B
 
 Explanation:
+
+High I/O instances use SSD-based local instance storage to deliver very high, low latency, I/O capacity to applications, and are optimized for applications that require tens of thousands of IOPS.
 
 </p></details><hr>
 
@@ -512,6 +576,8 @@ B
 
 Explanation:
 
+By using Amazon EBS, data on the root device will persist independently from the lifetime of the instance.
+
 </p></details><hr>
 
 ### Question 34:
@@ -527,6 +593,8 @@ What is the availability of S3 - IA
 A
 
 Explanation:
+
+S3 - IA is 99.9% available. Do not confuse availability with durability.
 
 </p></details><hr>
 
@@ -544,6 +612,8 @@ D
 
 Explanation:
 
+If you enable Versioning with MFA Delete on your Amazon S3 bucket, two forms of authentication are required to permanently delete a version of an object: your AWS account credentials and a valid six-digit code and serial number from an authentication device in your physical possession.
+
 </p></details><hr>
 
 ### Question 36:
@@ -560,6 +630,8 @@ B
 
 Explanation:
 
+Only the owner of an Amazon S3 bucket can permanently delete a version.
+
 </p></details><hr>
 
 ### Question 37:
@@ -573,6 +645,8 @@ True or False: You can use your existing Microsoft Windows Server licenses with 
 B
 
 Explanation:
+
+FALSE. A Dedicated Host is required if you'd like to use your existing Windows Server licenses.
 
 </p></details><hr>
 
@@ -590,6 +664,8 @@ A
 
 Explanation:
 
+By default, all accounts are limited to 5 Elastic IP addresses per region.
+
 </p></details><hr>
 
 ### Question 39:
@@ -603,6 +679,8 @@ True or False: EBS Snapshots are versioned and you can read an older snapshot to
 A
 
 Explanation:
+
+The answer is TRUE. Each snapshot is given a unique identifier, and customers can create volumes based on any of their existing snapshots.
 
 </p></details><hr>
 
@@ -620,6 +698,8 @@ B
 
 Explanation:
 
+Amazon EC2 cluster placement group functionality allows users to group Cluster Compute Instances in clusters – allowing applications to get the low-latency network performance necessary for tightly-coupled node-to-node communication typical of many HPC applications.
+
 </p></details><hr>
 
 ### Question 41:
@@ -635,6 +715,8 @@ By default, how many S3 buckets can you have with a new AWS account?
 C
 
 Explanation:
+
+By default, customers can provision up to 100 buckets per AWS account. However, you can increase your Amazon S3 bucket limit by visiting AWS Service Limits.
 
 </p></details><hr>
 
@@ -652,6 +734,8 @@ C
 
 Explanation:
 
+OSX is not supported on EC2
+
 </p></details><hr>
 
 ### Question 43:
@@ -667,6 +751,8 @@ You have developed a file-sharing website for a large corporate entity. They req
 D
 
 Explanation:
+
+S3 with Cross-Region Replication (CRR) automatically replicates data across AWS regions. With CRR, every object uploaded to an S3 bucket is automatically replicated to a destination bucket in a different AWS region that you choose.
 
 </p></details><hr>
 
@@ -684,6 +770,8 @@ D
 
 Explanation:
 
+Amazon CloudWatch stores metrics for terminated Amazon EC2 instances or deleted Elastic Load Balancers for 2 weeks.
+
 </p></details><hr>
 
 ### Question 45:
@@ -699,6 +787,8 @@ Which of the following statements is TRUE.
 A
 
 Explanation:
+
+You are able to attach multiple EBS volumes to an EC2 instance is True.
 
 </p></details><hr>
 
@@ -716,6 +806,8 @@ AC
 
 Explanation:
 
+The two different types of virtualzation available are Hardware Virtual Machine (HVM) & Paravirtual Machine (PVM)
+
 </p></details><hr>
 
 ### Question 47:
@@ -731,6 +823,8 @@ You’ve been tasked with implementing a globally accessible storage solution th
 B
 
 Explanation:
+
+Amazon S3 is highly scalable, secure storage for "flat" files. S3 will scale to any projected volume of data. In this case, it's your best bet.
 
 </p></details><hr>
 
@@ -748,6 +842,8 @@ A
 
 Explanation:
 
+C instanes are recommended for high performance front-end fleets, web-servers, batch processing, distributed analytics, high performance science and engineering applications, ad serving, MMO gaming, and video-encoding. The best answer would be to use a C4 instance.
+
 </p></details><hr>
 
 ### Question 49:
@@ -763,6 +859,8 @@ You have an application that stores data in S3, and you need to design an integr
 A
 
 Explanation:
+
+SSE-S3 uses managed keys and one of the strongest block ciphers available, AES-256, to secure your data at rest.
 
 </p></details><hr>
 
@@ -780,6 +878,8 @@ B
 
 Explanation:
 
+Amazon S3 Transfer Acceleration enables fast, easy, and secure transfers of files over long distances between your client and your Amazon S3 bucket. Transfer Acceleration leverages Amazon CloudFront’s globally distributed AWS Edge Locations.
+
 </p></details><hr>
 
 ### Question 51:
@@ -795,6 +895,8 @@ Which of the following protocols is not supported with an Elastic Load Balancer
 CD
 
 Explanation:
+
+Amazon's ELB supports the following protocols - "HTTP, HTTPS, TCP, SSL"
 
 </p></details><hr>
 
@@ -812,6 +914,8 @@ AB
 
 Explanation:
 
+CRR replicates every object-level upload that you directly make to your source bucket. The metadata and ACLs associated with the object are also part of the replication.
+
 </p></details><hr>
 
 ### Question 53:
@@ -827,6 +931,8 @@ Can you use IPv6 with Amazon S3?
 A
 
 Explanation:
+
+Using IPv6 support for Amazon S3, applications can connect to Amazon S3 without needing any IPv6 to IPv4 translation software or systems.
 
 </p></details><hr>
 
@@ -844,6 +950,8 @@ BC
 
 Explanation:
 
+You should use S3 - IA for the data that needs to be accessed immediately, and you should use Glacier for the data that must be recovered within 12 hours. S3 - RRS would not be suitable solution for irreplacable data, and CloudFront is a CDN service, not a storage solution.
+
 </p></details><hr>
 
 ### Question 55:
@@ -859,6 +967,8 @@ How quickly can objects be restored from Glacier?
 D
 
 Explanation:
+
+You can expect most restore jobs initiated via the Amazon S3 APIs or Management Console to complete in 3-5 hours.
 
 </p></details><hr>
 
@@ -876,6 +986,8 @@ B
 
 Explanation:
 
+The miminum object size is 0 Bytes. Most often, this will be a "touched" file.
+
 </p></details><hr>
 
 ### Question 57:
@@ -891,6 +1003,8 @@ Your application stores your customers' sensitive passport information in S3. Yo
 B
 
 Explanation:
+
+Use SSE-C if you want to maintain your own encryption keys, but don’t want to implement or leverage a client-side encryption library.
 
 </p></details><hr>
 
@@ -908,6 +1022,8 @@ ABC
 
 Explanation:
 
+EC2, ECS and Lambda are all AWS compute services.
+
 </p></details><hr>
 
 ### Question 59:
@@ -924,6 +1040,8 @@ B
 
 Explanation:
 
+As you need an application consistent snapshot, your best option would be to shutdown the EC2 instance and detach the EBS volume, then take the snapshot.
+
 </p></details><hr>
 
 ### Question 60:
@@ -939,6 +1057,8 @@ Your application requires highly-available object storage, and must comply with 
 BD
 
 Explanation:
+
+You should use an object based storage solution (such as S3) in European regions.
 
 </p></details><hr>
 

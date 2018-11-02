@@ -12,6 +12,8 @@ C
 
 Explanation:
 
+At this writing, 50 VMs can be migrated concurrently.
+
 </p></details><hr>
 
 ### Question 2:
@@ -25,6 +27,8 @@ True or False: S3 provides read-after-write consistency for overwrite PUTS and D
 B
 
 Explanation:
+
+S3 provides eventual consistency for overwrite PUTS and DELETES.
 
 </p></details><hr>
 
@@ -42,6 +46,8 @@ C
 
 Explanation:
 
+Edge-to-edge routing is not allowed through a VPN connection.
+
 </p></details><hr>
 
 ### Question 4:
@@ -57,6 +63,8 @@ Your application's usage peaks at 90% during the hours of 9 AM and 10 AM everyda
 B
 
 Explanation:
+
+Proactive cyclic scaling is scaling that occurs at a fixed interval (daily, weekly, monthly, quarterly)
 
 </p></details><hr>
 
@@ -74,6 +82,8 @@ C
 
 Explanation:
 
+SQS is the cornerstone of a decoupled application.
+
 </p></details><hr>
 
 ### Question 6:
@@ -87,6 +97,8 @@ True or False: For a successful cross-region replication of your S3 bucket, vers
 A
 
 Explanation:
+
+Versioning must be enabled on both the source and target buckets.
 
 </p></details><hr>
 
@@ -104,6 +116,8 @@ C
 
 Explanation:
 
+To decrease latency (and improve application performance), it's best to place your HSMs as close to your EC2 instances as possible.
+
 </p></details><hr>
 
 ### Question 8:
@@ -120,6 +134,8 @@ C
 
 Explanation:
 
+With an VPC, you can connect your cloud resources to your own IPSec VPN connections.
+
 </p></details><hr>
 
 ### Question 9:
@@ -134,6 +150,8 @@ B
 
 Explanation:
 
+The option to require Multifactor Authentication to delete objects from an S3 bucket is available, but it is not required.
+
 </p></details><hr>
 
 ### Question 10:
@@ -147,6 +165,8 @@ True or False: you can write objects directly to an edge location.
 A
 
 Explanation:
+
+It is now possible to expedite uploads to S3 by writing directly to an Edge Location.
 
 </p></details><hr>
 
@@ -164,6 +184,8 @@ AD
 
 Explanation:
 
+SQS will deliver your message at least once, but cannot guarantee that it will not create duplicates of that message. Additionally, SQS cannot guarantee message order.
+
 </p></details><hr>
 
 ### Question 12:
@@ -177,6 +199,8 @@ True or False: You can attach more than one EC2 instance to an AWS Elastic Block
 B
 
 Explanation:
+
+An EBS volume cannot back more than one instance. If you need multiple instance to access a file system, use Elastic File system (EFS) instead.
 
 </p></details><hr>
 
@@ -194,6 +218,8 @@ A
 
 Explanation:
 
+A bastion host sits in a public subnet, and serves as a secure gateway through which one SSHes into instances in a private subnet.
+
 </p></details><hr>
 
 ### Question 14:
@@ -210,6 +236,8 @@ C
 
 Explanation:
 
+While an SQS queue can be an important part of a decoupled web application, it is not required when hosting a highly available static website on EC2. An auto scaling group configured to deploy EC2 instances in multiple subnets located in multiple availability zones allows an application to remain online despite an instance or AZ failure.
+
 </p></details><hr>
 
 ### Question 15:
@@ -223,6 +251,8 @@ True or False: you can use IAM policies to deny the Root account access to EC2 i
 B
 
 Explanation:
+
+The Root account has total access to all services.
 
 </p></details><hr>
 
@@ -240,6 +270,8 @@ A
 
 Explanation:
 
+If a route is added to your Route Table, your client will have access to your instance via private IP address.
+
 </p></details><hr>
 
 ### Question 17:
@@ -255,6 +287,8 @@ You are trying to establish a VPC peering connection with another VPC, and you d
 C
 
 Explanation:
+
+A placement group may not span paired VPCs or multiple Regions. Placement Groups are limited to a single AZ.
 
 </p></details><hr>
 
@@ -272,6 +306,8 @@ D
 
 Explanation:
 
+The AWS API call history produced by CloudTrail enables security analysis, resource change tracking, and compliance auditing.
+
 </p></details><hr>
 
 ### Question 19:
@@ -287,6 +323,8 @@ What determines the cost of using CloudFormation templates?
 D
 
 Explanation:
+
+There is no additional charge for AWS CloudFormation. You pay for AWS resources (such as Amazon EC2 instances, Elastic Load Balancing load balancers, etc.) created using AWS CloudFormation in the same manner as if you created them manually.
 
 </p></details><hr>
 
@@ -304,6 +342,8 @@ AB
 
 Explanation:
 
+You should encrypt locally or let S3-SSE handle encryption for you.
+
 </p></details><hr>
 
 ### Question 21:
@@ -319,6 +359,8 @@ You create an SQS queue and test it by creating a simple application polls the q
 BC
 
 Explanation:
+
+With short-polling, multiple polls of the queue may be necessary to process all messages in the queue. Additionally, SQS does NOT offer FIFO processing of messages from the queue.
 
 </p></details><hr>
 
@@ -336,6 +378,8 @@ A
 
 Explanation:
 
+At that amount of data and those bandwidth restrictions, Snowball would be the most expedient choice.
+
 </p></details><hr>
 
 ### Question 23:
@@ -351,6 +395,8 @@ Your company provides an online image recognition service that uses SQS to decou
 A
 
 Explanation:
+
+Long polling will reduce the number of CPU cycles and empty responses, saving you money.
 
 </p></details><hr>
 
@@ -368,6 +414,8 @@ AC
 
 Explanation:
 
+Amazon Lex is a service for building conversational interfaces using voice and text. Polly is a service that turns text into lifelike speech.
+
 </p></details><hr>
 
 ### Question 25:
@@ -381,6 +429,8 @@ True or False: Amazon SQS guarantees that each message will be delivered at leas
 A
 
 Explanation:
+
+With SQS, each message will be delivered at least once, but the service cannot guarantee that a message will not be delivered more than once. In cases when a message must be delivered only once, consider Simple Work Flow.
 
 </p></details><hr>
 
@@ -398,6 +448,8 @@ D
 
 Explanation:
 
+Modifying your scaling threshold is preferable to altering your number of instances manually.
+
 </p></details><hr>
 
 ### Question 27:
@@ -413,6 +465,8 @@ You've been tasked with architecting a highly available application. After build
 B
 
 Explanation:
+
+Modifications to a security group take effect immediately.
 
 </p></details><hr>
 
@@ -430,6 +484,8 @@ AB
 
 Explanation:
 
+The EC2 instance you choose will be determined by the number of I/O operations needed, as well as the anticipated amount of memory required.
+
 </p></details><hr>
 
 ### Question 29:
@@ -445,6 +501,8 @@ What is the maximum size of a general-purpose SSD EBS volume?
 A
 
 Explanation:
+
+The maximum size of a general-purpose SSD EBS volume is 16 TiB.
 
 </p></details><hr>
 
@@ -462,6 +520,8 @@ A
 
 Explanation:
 
+Stopping an EBS-backed on-demand instance, will stop the charges and preserve the data.
+
 </p></details><hr>
 
 ### Question 31:
@@ -477,6 +537,8 @@ The AMI ID used in an AutoScaling policy is specified in the_____.
 A
 
 Explanation:
+
+The AMI used in an AutoScaling policy is specified in the Launch Configuration.
 
 </p></details><hr>
 
@@ -494,6 +556,8 @@ B
 
 Explanation:
 
+Short polling may fail to retrieve messages sometimes, but if no messages can be retrieved after multiple attempts, permissions are the more likely cause.
+
 </p></details><hr>
 
 ### Question 33:
@@ -509,6 +573,8 @@ You've been tasked with migrating an on-premise application architecture to AWS.
 AB
 
 Explanation:
+
+While AWS manages security of the cloud, security in the cloud is the responsibility of the customer. Customers retain control of what security they choose to implement to protect their own content, platform, applications, systems and networks, no differently than they would for applications in an on-site datacenter.
 
 </p></details><hr>
 
@@ -526,6 +592,8 @@ D
 
 Explanation:
 
+http://169.254.169.254/latest/meta-data/
+
 </p></details><hr>
 
 ### Question 35:
@@ -542,6 +610,8 @@ AB
 
 Explanation:
 
+When such an instance is stopped and restarted, the instance will restart on a different physical host, and all instance-store data will be lost.
+
 </p></details><hr>
 
 ### Question 36:
@@ -557,6 +627,8 @@ What is the minimum size of an S3 object?
 C
 
 Explanation:
+
+An empty file (often, a file that has been "touched") is allowed. As such, the answer is 0 bytes.
 
 </p></details><hr>
 
@@ -588,6 +660,8 @@ B
 
 Explanation:
 
+AWS allows you to encrypt an EBS volume only at the time of creation.
+
 </p></details><hr>
 
 ### Question 39:
@@ -603,6 +677,8 @@ As CloudWatch monitors RDS, it provides which of the following metrics by defaul
 D
 
 Explanation:
+
+By default, Database-visible metrics such as the number of users is available.
 
 </p></details><hr>
 
@@ -636,6 +712,8 @@ C
 
 Explanation:
 
+In cloud computing, elasticity is defined as "the degree to which a system is able to adapt to workload changes by provisioning and de-provisioning resources in an autonomic manner, such that at each point in time the available resources match the current demand as closely as possible".
+
 </p></details><hr>
 
 ### Question 42:
@@ -649,6 +727,8 @@ True or False: AutoScaling is a tool used to build elastic, self-healing applica
 A
 
 Explanation:
+
+AutoScaling groups are the cornerstone of any self-healing application on AWS.
 
 </p></details><hr>
 
@@ -665,6 +745,8 @@ What is the Well Architected Framework?
 A
 
 Explanation:
+
+The AWS Well Architected Framework is a set of questions that you can use to evaluate how well your architecture is aligned to AWS practices.
 
 </p></details><hr>
 
@@ -698,6 +780,8 @@ B
 
 Explanation:
 
+Increasing the visibility timeout will not decrease cost over time.
+
 </p></details><hr>
 
 ### Question 46:
@@ -714,6 +798,8 @@ C
 
 Explanation:
 
+SWF task and workflow execution can last up to one year, and can include (and depend on) tasks to be performed by on-premises servers and humans.
+
 </p></details><hr>
 
 ### Question 47:
@@ -727,6 +813,8 @@ True or False: There is no cost associated with removing cached objects from a C
 B
 
 Explanation:
+
+While the first 1000 invalidation paths per month are free, additional invalidation paths are $0.005 per request.
 
 </p></details><hr>
 
@@ -744,6 +832,8 @@ A
 
 Explanation:
 
+When the message visibility timeout expires, the message becomes available for processing by other EC2 instances.
+
 </p></details><hr>
 
 ### Question 49:
@@ -758,6 +848,8 @@ B
 
 Explanation:
 
+EFS provides multiple EC2 instances with low-latency, shared access to a fully-managed file system, and is designed to perform well for a wide variety of workloads, with the ability to scale to thousands of concurrent connections.
+
 </p></details><hr>
 
 ### Question 50:
@@ -771,6 +863,8 @@ True or False: AutoScaling groups are not intended to handle sudden spikes in tr
 A
 
 Explanation:
+
+Auto scaling is not really intended to respond to instantaneous spikes in traffic, as it will take some time to spin-up the instances that will handle the additional traffic. For sudden traffic spikes, make sure your application issues a 503 - Service Unavailable message.
 
 </p></details><hr>
 
@@ -788,6 +882,8 @@ C
 
 Explanation:
 
+You should expect first-byte latency of 3-5 hours when retrieving data from Glacier.
+
 </p></details><hr>
 
 ### Question 52:
@@ -803,6 +899,8 @@ Which of the following is not a pillar of the AWS Well Architected Framework?
 C
 
 Explanation:
+
+The pillars of the AWS Well Architected Framework are Security, Reliability, Performance Efficiency, and Cost Optimization.
 
 </p></details><hr>
 
@@ -820,6 +918,8 @@ D
 
 Explanation:
 
+The creation of IAM credentials does not aid this effort.
+
 </p></details><hr>
 
 ### Question 54:
@@ -835,6 +935,8 @@ After migrating an application architecture from on-premise to AWS, you will not
 CD
 
 Explanation:
+
+DynamoDB and Amazon RDS are managed services. As such, AWS handles the ongoing maintenance.
 
 </p></details><hr>
 
@@ -852,6 +954,8 @@ D
 
 Explanation:
 
+The data from an EBS volume snapshot is durable because EBS snapshots are stored on the Amazon S3-Standard.
+
 </p></details><hr>
 
 ### Question 56:
@@ -865,6 +969,8 @@ True or False: Data stored on EBS volumes is automatically and redundantly store
 A
 
 Explanation:
+
+Data stored on EBS volumes is automatically and redundantly stored in multiple physical volumes in the same availability zone as part of the normal operations of the EBS service at no additional charge.
 
 </p></details><hr>
 
@@ -882,6 +988,8 @@ D
 
 Explanation:
 
+In exchange for a significant cost savings, RRS offers only 99.99% durability.
+
 </p></details><hr>
 
 ### Question 58:
@@ -895,6 +1003,8 @@ True or False: To prevent in-flight tampering, all requests sent with API keys o
 A
 
 Explanation:
+
+All requests sent with API keys over a REST or Query API should be sent via HTTPS.
 
 </p></details><hr>
 
@@ -912,6 +1022,8 @@ BD
 
 Explanation:
 
+Access to the underlying operating system is granted for Elastic Map Reduce and Elastic Beanstalk. The others are managed services.
+
 </p></details><hr>
 
 ### Question 60:
@@ -927,6 +1039,8 @@ Which of the following statements are true?
 ACD
 
 Explanation:
+
+S3-Standard provides 99.99% availability and eleven-nines durability. S3-RRS provides 99.99% durability
 
 </p></details><hr>
 

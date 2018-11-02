@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 public class QuestionExtractorTests {
     @Test
     public void extractFromHtmlTest() throws IOException {
-        String path = "temp/acloud-saa-test2.html";
+        String path = "temp/acloud-saa-test3.html";
         Document doc = Jsoup.parse(new File(path), "utf-8");
         Elements formElms = doc.select("form");
         StringBuilder sb = new StringBuilder();
@@ -49,6 +49,9 @@ public class QuestionExtractorTests {
 
             sb.append("Explanation:").append("\n\n");
             Elements explanationElms = formElm.select("div.quiz-question--explanation--1HS_E > div > ul > li");
+            if(explanationElms.size() == 0){
+                explanationElms = formElm.select("div.quiz-question--explanation--1HS_E > div");
+            }
             for (Element explanationElm : explanationElms) {
                 String explanation = explanationElm.text();
                 sb.append(explanation).append("\n\n");

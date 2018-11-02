@@ -12,6 +12,8 @@ A
 
 Explanation:
 
+After you've created a snapshot and it has finished copying to Amazon S3, you can copy it from one AWS region to another, or within the same region.
+
 </p></details><hr>
 
 ### Question 2:
@@ -27,6 +29,8 @@ You have suggested moving your company's web servers to AWS, but your supervisor
 A
 
 Explanation:
+
+An Auto-Scaling group of EC2 instances will exactly match the demand placed on your servers, allowing you to pay only for the compute capacity you actually need.
 
 </p></details><hr>
 
@@ -44,6 +48,8 @@ A
 
 Explanation:
 
+With Multi-AZ RDS instances and automated backups, I/O activity is no longer suspended on your primary during your preferred backup window, since backups are taken from the standby.
+
 </p></details><hr>
 
 ### Question 4:
@@ -59,6 +65,8 @@ Your company needs to run several monthly workloads that will each take several 
 C
 
 Explanation:
+
+Spot instances are a cost-effective choice if you can be flexible about when your applications run and if your applications can be interrupted.
 
 </p></details><hr>
 
@@ -76,6 +84,8 @@ D
 
 Explanation:
 
+Reserved Instances provide you with a significant discount (up to 75%) compared to On-Demand instance pricing. You have the flexibility to change families, OS types, and tenancies while benefiting from Reserved Instance pricing when you use Convertible Reserved Instances.
+
 </p></details><hr>
 
 ### Question 6:
@@ -92,6 +102,8 @@ C
 
 Explanation:
 
+ElastiCache is a web service that makes it easy to set up, manage, and scale a distributed in-memory cache environment in the cloud. It provides a high-performance, scalable, and cost-effective caching solution, while removing the complexity associated with deploying and managing a distributed cache environment.
+
 </p></details><hr>
 
 ### Question 7:
@@ -105,6 +117,8 @@ True or False: there is a cost associated with transferring from Amazon S3 to an
 B
 
 Explanation:
+
+There is no cost assicated with moving data from S3 to EC2 if both are in the same Region.
 
 </p></details><hr>
 
@@ -122,6 +136,8 @@ AC
 
 Explanation:
 
+You could use RDS Read Replica or ElastiCache to further offset load.
+
 </p></details><hr>
 
 ### Question 9:
@@ -137,6 +153,8 @@ You have a small database workloads with infrequent I/O. Which storage medium wo
 C
 
 Explanation:
+
+Amazon RDS Magnetic Storage would be the most suitable.
 
 </p></details><hr>
 
@@ -154,6 +172,8 @@ AB
 
 Explanation:
 
+You should use a combination of Read Replica's and Elasticache to help offload the traffic.
+
 </p></details><hr>
 
 ### Question 11:
@@ -167,6 +187,8 @@ True or False: You should store your Access Keys in an AMI.
 B
 
 Explanation:
+
+Access keys should *never* be stored on an AMI
 
 </p></details><hr>
 
@@ -184,6 +206,8 @@ A
 
 Explanation:
 
+When upgrading an RDS instance class your database will be temporarily unavailable while the DB Instance class is modified. This period of unavailability typically lasts only a few minutes, and will occur during the maintenance window for your DB Instance, unless you specify that the modification should be applied immediately.
+
 </p></details><hr>
 
 ### Question 13:
@@ -199,6 +223,8 @@ Which of the following AWS services store data as key-value pairs?
 AD
 
 Explanation:
+
+Both DynamoDB and S3 use key-value pairs.
 
 </p></details><hr>
 
@@ -216,6 +242,8 @@ D
 
 Explanation:
 
+You cannot run queries off a multi-AZ secondary copy database. You should use a read replica instead.
+
 </p></details><hr>
 
 ### Question 15:
@@ -231,6 +259,8 @@ Which of the following services allows you to have root level access to the unde
 AB
 
 Explanation:
+
+You can use SSH to access the underlying operating systems of EMR and EC2.
 
 </p></details><hr>
 
@@ -248,6 +278,8 @@ BCD
 
 Explanation:
 
+EC2 is a compute service not applicable to this scenario. All others could be part of a comprehensive backup/DR solution.
+
 </p></details><hr>
 
 ### Question 17:
@@ -263,6 +295,8 @@ You've enabled website hosting on a bucket called "aspiring-guru" in the us-west
 A
 
 Explanation:
+
+Your bucket name *always* comes first, "s3-website" followed by the Region *always* comes next.
 
 </p></details><hr>
 
@@ -280,6 +314,8 @@ D
 
 Explanation:
 
+At the present time, encrypting an existing DB Instance is not supported. To use Amazon RDS encryption for an existing database, create a new DB Instance with encryption enabled and migrate your data into it.
+
 </p></details><hr>
 
 ### Question 19:
@@ -295,6 +331,8 @@ You need to develop an infrastructure that can be replicated and deployed in ano
 C
 
 Explanation:
+
+AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion.
 
 </p></details><hr>
 
@@ -312,6 +350,8 @@ B
 
 Explanation:
 
+Storage Gateway with Gateway-Cached Volumes would store your most frequently-accessed data on-premise, and would write your other data to S3.
+
 </p></details><hr>
 
 ### Question 21:
@@ -327,6 +367,8 @@ Your AWS environment contains several reserved EC2 instances dedicated to a proj
 AD
 
 Explanation:
+
+You should retain the data by taking snapshots of the EBS volumes backing your instances and sell the instances on the Reserved Instance Marketplace.
 
 </p></details><hr>
 
@@ -344,6 +386,8 @@ B
 
 Explanation:
 
+The best answer would be to offload your SSL decryption to an Elastic Load Balancer.
+
 </p></details><hr>
 
 ### Question 23:
@@ -359,6 +403,8 @@ The company you work for is considering a move to AWS, but they are concerned th
 A
 
 Explanation:
+
+Given the amount of data to be moved and the speed of the connection, Snowball would be the fastest and most economical solution.
 
 </p></details><hr>
 
@@ -376,6 +422,8 @@ A
 
 Explanation:
 
+It's always best practice to grant users access via IAM roles and groups.
+
 </p></details><hr>
 
 ### Question 25:
@@ -391,6 +439,8 @@ Which of the following are true about Amazon S3-RRS?
 ACD
 
 Explanation:
+
+Reduced Redundancy Storage (RRS) enables customers to reduce their costs by storing non-critical, reproducible data at lower levels of redundancy than Amazon S3’s standard storage.
 
 </p></details><hr>
 
@@ -408,6 +458,8 @@ A
 
 Explanation:
 
+An SWF work flow ensure that actions are executed only once.
+
 </p></details><hr>
 
 ### Question 27:
@@ -421,6 +473,8 @@ True or False: By default, Amazon RDS enables automated backups of your DB insta
 A
 
 Explanation:
+
+By default and at no additional charge, Amazon RDS enables automated backups of your DB Instance with a 1 day retention period.
 
 </p></details><hr>
 
@@ -436,6 +490,8 @@ B
 
 Explanation:
 
+It is always better to assign roles. Following the "least privilege" model, IAM Roles grant each user a unique set of security credentials.
+
 </p></details><hr>
 
 ### Question 29:
@@ -449,6 +505,8 @@ True or False: Availability Zones in a given Region are connected by low-latency
 A
 
 Explanation:
+
+Availability Zones offer you the ability to operate production applications and databases which are more highly available, fault tolerant and scalable than would be possible from a single data center.
 
 </p></details><hr>
 
@@ -466,6 +524,8 @@ C
 
 Explanation:
 
+The easiest way would be to take a snapshot of your DB Instance outside VPC and restore it to VPC by specifying the DB Subnet Group you want to use.
+
 </p></details><hr>
 
 ### Question 31:
@@ -481,6 +541,8 @@ You are working for a real estate company and you need to be able to record conf
 D
 
 Explanation:
+
+You can use AWS Config to continuously record configurations changes to Amazon RDS DB Instances, DB Subnet Groups, DB Snapshots, DB Security Groups, and Event Subscriptions and receive notification of changes through Amazon Simple Notification Service (SNS).
 
 </p></details><hr>
 
@@ -498,6 +560,8 @@ B
 
 Explanation:
 
+RDS
+
 </p></details><hr>
 
 ### Question 33:
@@ -513,6 +577,8 @@ You have an RDS database that has moderate I/O requirements. Which storage mediu
 B
 
 Explanation:
+
+Amazon RDS General Purpose (SSD) Storage would be the most suitable.
 
 </p></details><hr>
 
@@ -530,6 +596,8 @@ A
 
 Explanation:
 
+To automatically failover from one geographic location to another you should use Multi-AZ for RDS.
+
 </p></details><hr>
 
 ### Question 35:
@@ -545,6 +613,8 @@ You have a production application that is on the largest RDS instance possible, 
 A
 
 Explanation:
+
+You should implement database partitioning and spread your data across multiple DB Instances.
 
 </p></details><hr>
 
@@ -562,6 +632,8 @@ D
 
 Explanation:
 
+AWS CloudTrail is a web service that records AWS API calls for your account and delivers log files to you. The AWS API call history produced by CloudTrail enables security analysis, resource change tracking, and compliance auditing.
+
 </p></details><hr>
 
 ### Question 37:
@@ -577,6 +649,8 @@ What are the two different ways of automating your RDS backups?
 AC
 
 Explanation:
+
+Amazon RDS provides two different methods for backing up and restoring your DB Instance(s): automated backups and database snapshots.
 
 </p></details><hr>
 
@@ -594,6 +668,8 @@ B
 
 Explanation:
 
+Updates are applied to your Read Replica(s) after they occur on the source DB Instance using “asynchronous” replication.
+
 </p></details><hr>
 
 ### Question 39:
@@ -609,6 +685,8 @@ Which three of the following statements are not true?
 ACD
 
 Explanation:
+
+The only true statement is, "EBS Volumes cannot be attached to an EC2 instance in another AZ." The rest are false.
 
 </p></details><hr>
 
@@ -626,6 +704,8 @@ A
 
 Explanation:
 
+Databases generally do not require public access from the Internet, so a private subnet is the better choice from a security perspective. /28 is the smallest possible subnet in an AWS VPC.
+
 </p></details><hr>
 
 ### Question 41:
@@ -639,6 +719,8 @@ An Availability Zone comprises multiple Regions
 B
 
 Explanation:
+
+Just the opposite: A Region comprises at least two Availability Zones.
 
 </p></details><hr>
 
@@ -656,6 +738,8 @@ ABC
 
 Explanation:
 
+The events would cause Amazon RDS to initiate a failover to the standby replica would be; Loss of availability in primary Availability Zone, Loss of network connectivity to primary, Compute unit failure on primary, Storage failure on primary
+
 </p></details><hr>
 
 ### Question 43:
@@ -672,6 +756,8 @@ B
 
 Explanation:
 
+SSD volumes must be between 1 GiB - 16 TiB.
+
 </p></details><hr>
 
 ### Question 44:
@@ -685,6 +771,8 @@ True or False: An application designed for fault tolerance and high availability
 A
 
 Explanation:
+
+Architects who care about the availability and performance of their applications should deploy across multiple Availability Zones in the same region for fault tolerance and low latency.
 
 </p></details><hr>
 
@@ -702,6 +790,8 @@ ABC
 
 Explanation:
 
+For the RDS MySQL, MariaDB, PostgreSQL and Oracle database engines, when you elect to convert your RDS instance from Single-AZ to Multi-AZ, the following happens: A snapshot of your primary instance is taken, A new standby instance is created in a different Availability Zone, from the snapshot, synchronous replication is configured between primary and standby instances.
+
 </p></details><hr>
 
 ### Question 46:
@@ -715,6 +805,8 @@ True or False: In addition to hosting domains, Route 53 serves as a domain regis
 A
 
 Explanation:
+
+You can register domains with Amazon Route 53. You can also transfer the registration for existing domains from other registrars to Amazon Route 53 or transfer the registration for domains that you register with Amazon Route 53 to another registrar.
 
 </p></details><hr>
 
@@ -732,6 +824,8 @@ C
 
 Explanation:
 
+As you need access to the underlying host operating system, your best option would be to deploy SQL Server on EC2 backed by EBS.
+
 </p></details><hr>
 
 ### Question 48:
@@ -745,6 +839,8 @@ True or False: It's possible to have a Multi-AZ copy of your read replica?
 B
 
 Explanation:
+
+At this time, you cannot have a multi-AZ copy of your read replica.
 
 </p></details><hr>
 
@@ -762,6 +858,8 @@ AD
 
 Explanation:
 
+Under normal circumstances, all automatic backups of an RDS instance are deleted upon termination. However, it is possible to can create a final DB Snapshot upon deletion.If you do, you can use this DB Snapshot to restore the deleted DB Instance at a later date. Amazon RDS retains this final user-created DB Snapshot along with all other manually created DB Snapshots after the DB Instance is deleted.
+
 </p></details><hr>
 
 ### Question 50:
@@ -775,6 +873,8 @@ True or False: A Region is another name for an Edge Location.
 B
 
 Explanation:
+
+Regions and Availability Zones are not the same thing: An AWS Region is a geographic area, comprising two or more Availability Zones (data centers.) An Edge Location is simply a content delivery network endpoint.
 
 </p></details><hr>
 
@@ -792,6 +892,8 @@ B
 
 Explanation:
 
+The AMIs will need to be copied to the new Region prior to deployment.
+
 </p></details><hr>
 
 ### Question 52:
@@ -807,6 +909,8 @@ From the command line, which of the following should you run to get the public h
 A
 
 Explanation:
+
+You would use the command curl http://169.254.169.254/latest/meta-data/public-hostname
 
 </p></details><hr>
 
@@ -824,6 +928,8 @@ AB
 
 Explanation:
 
+Amazon RDS currently supports MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL Server, and Amazon Aurora database engines.
+
 </p></details><hr>
 
 ### Question 54:
@@ -837,6 +943,8 @@ True or False: EBS Volumes are hard-disks in the cloud.
 A
 
 Explanation:
+
+Amazon Elastic Block Store (Amazon EBS) provides block level storage volumes for use with EC2 instances. They are analogous to hard disks.
 
 </p></details><hr>
 
@@ -854,6 +962,8 @@ CD
 
 Explanation:
 
+Read Replicas are supported by Amazon RDS for MySQL and PostgreSQL.
+
 </p></details><hr>
 
 ### Question 56:
@@ -869,6 +979,8 @@ You've been tasked with setting up an S3 solution to store large amounts of crit
 A
 
 Explanation:
+
+S3 is a Global service, and its reliability and durability are not bound to any Region or Availability Zone.
 
 </p></details><hr>
 
@@ -886,6 +998,8 @@ D
 
 Explanation:
 
+Amazon RDS retains backups of a DB Instance for a limited, user-specified period of time called the retention period, which by default is one day but can be set to up to thirty five days.
+
 </p></details><hr>
 
 ### Question 58:
@@ -901,6 +1015,8 @@ Which two of the following characterize a scalable and reliable solution on AWS?
 AC
 
 Explanation:
+
+The AWS Well-Architected framework has been developed to help cloud architects build the most secure, high-performing, resilient, and efficient infrastructure possible for their applications. This framework provides a consistent approach to application and solution architecture that will scale with your needs over time.
 
 </p></details><hr>
 
@@ -918,6 +1034,8 @@ A
 
 Explanation:
 
+Amazon RDS Provisioned IOPS (SSD) Storage would be the most suitable.
+
 </p></details><hr>
 
 ### Question 60:
@@ -933,6 +1051,8 @@ What type of replication is supported by Multi-AZ RDS instances?
 A
 
 Explanation:
+
+Multi-AZ deployments utilize synchronous replication, making database writes concurrently on both the primary and standby so that the standby will be up-to-date in the event a failover occurs.
 
 </p></details><hr>
 
