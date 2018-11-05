@@ -1,4 +1,4 @@
-### Question 1:
+### Question 1: 
 
 You need to connect from your office to a Linux instance that is running in your VPC using the Internet. Which of the following items are required to enable this access? (choose 3)
 
@@ -27,7 +27,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 2:
+### Question 2: Incorrect
 
 Which of the statements below are correct about monitoring of an ELB? (choose 3)
 
@@ -68,7 +68,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 3:
+### Question 3: 
 
 You have an Amazon RDS Multi-AZ deployment across two availability zones. An outage of the availability zone in which the primary RDS DB instance is running occurs. What actions will take place in this circumstance? (choose 2)
 
@@ -94,7 +94,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 4:
+### Question 4: Incorrect*
 
 An EC2 instance in an Auto Scaling Group is having some issues that are causing the ASG to launch new instances based on the dynamic scaling policy. You need to troubleshoot the EC2 instance and prevent the ASG from launching new instances temporarily. What is the best method to accomplish this? (choose 2)
 
@@ -124,7 +124,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 5:
+### Question 5: Incorrect
 
 When using Amazon Kinesis Data Firehose, which services can you load streaming data into? (choose 4)
 
@@ -147,7 +147,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 6:
+### Question 6: *
 
 You are putting together a design for a web-facing application. The application will be run on EC2 instances behind ELBs in multiple regions in an active/passive configuration. The website address the application runs on is digitalcloud.guru. You will be using Route 53 to perform DNS resolution for the application. How would you configure Route 53 in this scenario based on AWS best practices? (choose 3)
 
@@ -179,7 +179,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 7:
+### Question 7: 
 
 You are discussing EC2 with a colleague and need to describe the differences between EBS-backed instances and Instance store-backed instances. Which of the statements below would be valid descriptions? (choose 3)
 
@@ -208,7 +208,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 8:
+### Question 8: 
 
 To increase the resiliency of your RDS DB instance, you decided to enable Multi-AZ. Where will the new standby RDS instance be created?
 
@@ -230,7 +230,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 9:
+### Question 9: *
 
 Amazon S3 can send event notification messages to which of the following destinations? (Choose 3)
 
@@ -253,7 +253,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 10:
+### Question 10: 
 
 Select the statements below that are correct with regards to the Auto Scaling cooldown period? (choose 3)
 
@@ -283,7 +283,7 @@ https://docs.aws.amazon.com/autoscaling/ec2/userguide/Cooldown.html
 
 </p></details><hr>
 
-### Question 11:
+### Question 11: *
 
 You have a requirement to perform a large-scale testing operation that will assess the ability of your application to scale. You are planning on deploying a large number of c3.2xlarge instances with several PIOPS EBS volumes attached to each. You need to ensure you don’t run into any problems with service limits. What are the service limits you need to be aware of in this situation?
 
@@ -307,7 +307,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 12:
+### Question 12: 
 
 You are designing the disk configuration for an EC2 instance. The instance will be running an application that requires heavy read/write IOPS. You need to provision a single volume that is 500 GiB in size and needs to support 20,000 IOPS. What EBS volume type will you select?
 
@@ -351,7 +351,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 13:
+### Question 13: Incorrect
 
 When attaching an Elastic Network Interface (ENI) to an EC2 instance, what does “warm attach” mean?
 
@@ -375,7 +375,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 14:
+### Question 14: 
 
 You have been asked to come up with a solution for providing single sign-on to the existing users in your company who are consuming on-premise web applications. Which product combinations would help you to achieve this requirement?
 
@@ -397,7 +397,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 15:
+### Question 15: Incorrect
 
 You recently noticed that you Network Load Balancer (NLB) in one of your VPCs is not distributing traffic between EC2 instances evenly across AZs. The EC2 instances are spread across two AZs but only one AZ is receiving traffic from the NLB. The NLB is configured with a TCP listener on port 80 and is using active health checks. What is the most likely problem?
 
@@ -423,7 +423,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 16:
+### Question 16: 
 
 You are a Solutions Architect for a pharmaceutical company. The company uses a strict process for release automation that involves building and testing services in 3 separate VPCs. A peering topology is configured with VPC-A peered with VPC-B and VPC-B peered with VPC-C. The development team want to modify the process so that they can release code directly from VPC-A to VPC-C. How can this be accomplished?
 
@@ -449,7 +449,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 17:
+### Question 17: *
 
 When using throttling controls with API Gateway what happens when request submissions exceed the steady-state request rate and burst limits?
 
@@ -477,7 +477,7 @@ https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request
 
 </p></details><hr>
 
-### Question 18:
+### Question 18: Incorrect
 
 You just attempted to restart a stopped EC2 instance and it immediately changed from a pending state to a terminated state. What are the most likely explanations? (choose 2)
 
@@ -497,7 +497,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/troubleshooting-launch.html
 
 </p></details><hr>
 
-### Question 19:
+### Question 19: 
 
 You are building a new Elastic Container Service (ECS) cluster. The ECS instances are running the EC2 launch type and you would like to enable load balancing to distributed connections to the tasks running on the cluster. You would like the mapping of ports to be performed dynamically and will need to route to different groups of servers based on the path in the requested URL. Which AWS service would you choose to fulfil these requirements?
 
@@ -519,7 +519,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 20:
+### Question 20: 
 
 Your manager is interested in reducing operational overhead and cost and heard about “serverless” computing at a conference he recently attended. He has asked you if AWS provide any services that the company can leverage. Which services from the list below would you tell him about? (Choose 3)
 
@@ -539,7 +539,7 @@ https://aws.amazon.com/serverless/
 
 </p></details><hr>
 
-### Question 21:
+### Question 21: 
 
 You’re trying to explain to a colleague typical use cases where you can use the Simple Workflow Service (SWF). Which of the scenarios below would be valid? (choose 2)
 
@@ -562,7 +562,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 22:
+### Question 22: 
 
 You have created a VPC with private and public subnets and will be deploying a new mySQL database server running on an EC2 instance. Which subnet should you deploy the database server into?
 
@@ -586,7 +586,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 23:
+### Question 23: 
 
 An application that you manage uses a combination of Reserved and On-Demand instances to handle typical load. The application involves performing analytics on a set of data and you need to temporarily deploy a large number of EC2 instances. You only need these instances to be available for a short period of time until the analytics job is completed. What would be the MOST cost-effective choice of EC2 instance type to use for this requirement?
 
@@ -606,7 +606,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 24:
+### Question 24: 
 
 You need to log a history of API calls for compliance reasons. CloudTrail can log API calls made from which sources?
 
@@ -628,7 +628,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 25:
+### Question 25: 
 
 You would like to implement an automated method of periodically backing up the EBS volumes in your VPC. What steps can you can take to automatically backup EBS Volumes?
 
@@ -658,7 +658,7 @@ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html
 
 </p></details><hr>
 
-### Question 26:
+### Question 26: Incorrect*
 
 Which two services form the application facing services from the AWS serverless infrastructure? (choose 2)
 
@@ -678,7 +678,7 @@ https://aws.amazon.com/serverless/
 
 </p></details><hr>
 
-### Question 27:
+### Question 27: 
 
 You need to run a non-production batch process that will use several EC2 instances. The process can be interrupted and restarted without issue. What EC2 pricing model would be best for this workload?
 
@@ -698,7 +698,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 28:
+### Question 28: 
 
 How often does EC2 send metrics to Amazon CloudWatch by default?
 
@@ -721,7 +721,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 29:
+### Question 29: 
 
 You are a Solutions Architect for Digital Cloud Guru. A client is migrating a large amount of data that their customers access onto the AWS cloud. The client is located in Australia and all most of their customers will be accessing the data from within Australia. The customer has asked you for some advice about S3 buckets. Which of the following statements would be good advice? (choose 2)
 
@@ -747,7 +747,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 30:
+### Question 30: *
 
 You created a second ENI (eth1) interface when launching an EC2 instance. You would like to terminate the instance and have not made any changes. What will happen to the attached ENIs?
 
@@ -773,7 +773,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 31:
+### Question 31: *
 
 One of your clients is a financial organization that has a large presence in AWS and also has a number of their own data centers. The client has requested a recommended high-level hosting architecture for a distributed application that will utilize decoupled components. The application will make use of application servers running on AWS EC2 instances and in the client’s own data centers. What AWS application integration services could you use to support interaction between the application servers? Which of the following options are valid? (choose 2)
 
@@ -804,7 +804,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 32:
+### Question 32: *
 
 Which feature of IAM allows you direct access to the IAM web service using HTTPS to call service actions and what is the method of authentication that must be used? (choose 2)
 
@@ -826,7 +826,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 33:
+### Question 33: 
 
 Your Systems Administrators currently use Chef for configuration management of on-premise servers. Which AWS service will provide a fully-managed configuration management service that will allow you to use your existing Chef cookbooks?
 
@@ -850,7 +850,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 34:
+### Question 34: *
 
 In Amazon CloudWatch how long are data points with a period of 60 seconds (1-minute) are available for?
 
@@ -876,7 +876,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 35:
+### Question 35: Incorrect*
 
 An Auto Scaling Group in which you have four EC2 instances running is becoming heavily loaded. The instances are using the m4.large instance type and the CPUs are hitting 80%. Due to licensing constraints you don’t want to add additional instances to the ASG so you are planning to upgrade to the m4.xlarge instance type instead. You need to make the change immediately but don’t want to terminate the existing instances. How can you perform the change without causing the ASG to launch new instances? (choose 2)
 
@@ -904,7 +904,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
 
 </p></details><hr>
 
-### Question 36:
+### Question 36: 
 
 You are configuring Route 53 for a customer’s website. Their web servers are behind an Internet-facing ELB. What record set would you create to point the customer’s DNS zone apex record at the ELB?
 
@@ -926,7 +926,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 37:
+### Question 37: Incorrect*
 
 You work for a systems integrator running a platform that stores medical records. The government security policy mandates that patient data that contains personally identifiable information (PII) must be encrypted at all times, both at rest and in transit. You are using Amazon S3 to back up data into the AWS cloud. How can you ensure the medical records are properly secured? (choose 2)
 
@@ -971,7 +971,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 38:
+### Question 38: Incorrect*
 
 You need to create an EBS volume to mount to an existing EC2 instance for an application that will be writing structured data to the volume. The application vendor suggests that the performance of the disk should be up to 3 IOPS per GB. You expect the capacity of the volume to grow to 2TB. Taking into account cost effectiveness, which EBS volume type would you select?
 
@@ -991,7 +991,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 39:
+### Question 39: Incorrect
 
 An application you are designing will gather data from a website hosted on an EC2 instance and write the data to an S3 bucket. The application will use API calls to interact with the EC2 instance and S3 bucket. What strategy would you implement for access control? (choose 2)
 
@@ -1017,7 +1017,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 40:
+### Question 40: Incorrect*
 
 With RDS in a Multi-AZ configuration, which of the following statements about snapshots are true? (choose 2)
 
@@ -1047,7 +1047,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 41:
+### Question 41: Incorrect*
 
 One of your clients is a banking regulator and they run an application that provides auditing information to the general public using AWS Lambda and API Gateway. A Royal Commission has exposed some suspect lending practices and this has been picked up by the media and raised concern amongst the general public. With some major upcoming announcements expected you’re concerned about traffic spikes hitting the client’s application. How can you protect the backend systems from traffic spikes?
 
@@ -1071,7 +1071,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 42:
+### Question 42: *
 
 An issue has been raised to you whereby a client is concerned about the permissions assigned to his containerized applications. The containers are using the EC2 launch type. The current configuration uses the container instance’s IAM roles for assigning permissions to the containerized applications. The client has asked if it’s possible to implement more granular permissions so that some applications can be assigned more restrictive permissions?
 
@@ -1099,7 +1099,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 43:
+### Question 43: 
 
 In your AWS VPC, you need to add a new subnet that will allow you to host a total of 20 EC2 instances. Which of the following IPv4 CIDR blocks can you use for this scenario?
 
@@ -1127,7 +1127,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 44:
+### Question 44: 
 
 An Amazon CloudWatch alarm recently notified you that the load on a DynamoDB table you are running is getting close to the provisioned capacity for writes. The DynamoDB table is part of a two-tier customer-facing application. You are concerned about what will happen if the limit is reached but need to wait for approval to increase the WriteCapacityUnits value assigned to the table. What will happen if the limit for the provisioned capacity for writes is reached?
 
@@ -1149,7 +1149,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 45:
+### Question 45: 
 
 One of the applications you manage on RDS uses the MySQL DB and has been suffering from performance issues. You would like to setup a reporting process that will perform queries on the database but you’re concerned that the extra load will further impact the performance of the DB and may lead to poor customer experience. What would be the best course of action to take so you can implement the reporting process?
 
@@ -1175,7 +1175,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 46:
+### Question 46: 
 
 You are designing solutions that will utilize CloudFormation templates and your manager has asked how much extra will it cost to use CloudFormation to deploy resources?
 
@@ -1199,7 +1199,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 47:
+### Question 47: 
 
 Which of the statements below are correct about Elastic Container Service (ECS) tasks?
 
@@ -1218,7 +1218,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 48:
+### Question 48: 
 
 You are creating a series of environments within a single VPC. You need to implement a system of categorization that allows for identification of EC2 resources by business unit, owner, or environment. Which AWS feature allows you to do this?
 
@@ -1242,7 +1242,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 49:
+### Question 49: 
 
 You are a Solutions Architect at Digital Cloud Guru. A new client who has not used cloud computing has asked you to explain how AWS works. The client wants to know what service is provided that will provide a virtual network infrastructure that loosely resembles a traditional data center but has the capacity to scale more easily?
 
@@ -1268,7 +1268,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 50:
+### Question 50: Incorrect*
 
 You are creating a CloudFormation template that will provision a new EC2 instance and new EBS volume. What do you need to specify to associate the block store with the instance?
 
@@ -1290,7 +1290,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 51:
+### Question 51: Incorrect*
 
 You are a Developer working for Digital Cloud Guru. You are planning to write some code that creates a URL that lets users who sign in to your organization's network securely access the AWS Management Console. The URL will include a sign-in token that you get from AWS that authenticates the user to AWS. You are using Microsoft Active Directory Federation Services as your identity provider (IdP) which is compatible with SAML 2.0. Which of the steps below will you need to include when developing your custom identity broker? (choose 3)
 
@@ -1315,7 +1315,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_enable-conso
 
 </p></details><hr>
 
-### Question 52:
+### Question 52: 
 
 An application you run on AWS uses an ELB to distributed connections between EC2 instances. You need to record information on the requester, IP, and request type for connections made to the ELB. You will also need to perform some analysis on the log files, which AWS services and configuration options can be used to collect and then analyze the logs? (choose 2)
 
@@ -1350,7 +1350,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 53:
+### Question 53: 
 
 Your manager has asked you to explain the benefits of using IAM groups. Which of the below statements are valid benefits? (choose 2)
 
@@ -1378,7 +1378,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 54:
+### Question 54: Incorrect*
 
 You are putting together the design for a new retail website for a high-profile company. The company has previously been the victim of targeted distributed denial-of-service (DDoS) attacks and have requested that you ensure the design includes mitigation techniques. Which of the following techniques would help with this requirement? (choose 3)
 
@@ -1422,7 +1422,7 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.Scenarios.html
 
 </p></details><hr>
 
-### Question 55:
+### Question 55: Incorrect
 
 When using a Classic Load Balancer, which of the following combinations of listeners support the proxy protocol? (choose 2)
 
@@ -1454,7 +1454,7 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/using-elb-listen
 
 </p></details><hr>
 
-### Question 56:
+### Question 56: Incorrect*
 
 An application you manage in your VPC uses an Auto Scaling Group that spans 3 AZs and there are currently 4 EC2 instances running in the group. What actions will Auto Scaling take, by default, if it needs to terminate an EC2 instance? (choose 2)
 
@@ -1487,7 +1487,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 57:
+### Question 57: 
 
 You would like to store a backup of an Amazon EBS volume on Amazon S3. What is the easiest way of achieving this?
 
@@ -1509,7 +1509,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 58:
+### Question 58: *
 
 When enabling the Proxy Protocol with an ELB to carry connection information from the source requesting the connection, what prerequisites apply? (choose 3)
 
@@ -1540,7 +1540,7 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/using-elb-listen
 
 </p></details><hr>
 
-### Question 59:
+### Question 59: 
 
 You are a Solutions Architect at Digital Cloud Guru and have been assigned the task of moving some sensitive documents into the AWS cloud. You need to ensure that the security of the documents is maintained. Which AWS features can help ensure that the sensitive documents are secured on the AWS cloud? (choose 3)
 
@@ -1570,7 +1570,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 60:
+### Question 60: Incorrect
 
 There is a problem with an EC2 instance that was launched by AWS Auto Scaling. The EC2 status checks have reported that the instance is “Impaired”. What action will AWS Auto Scaling take?
 
@@ -1592,7 +1592,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 61:
+### Question 61: Incorrect
 
 You have created a new VPC and setup an Auto Scaling Group to maintain a desired count of 2 EC2 instances. The security team have requested that the EC2 instances are located in a private subnet. To distribute load, you have also setup an Internet-facing Application Load Balancer (ALB). With your security team’s wishes in mind what else needs to be done to get this configuration to work? (choose 2)
 
@@ -1616,7 +1616,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 62:
+### Question 62: 
 
 A new application you are designing will store data in an Amazon Aurora MySQL DB. You are looking for a way to enable failover for the Aurora DB in the case of a regional outage. How can this be achieved?
 
@@ -1642,7 +1642,7 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.html
 
 </p></details><hr>
 
-### Question 63:
+### Question 63: Incorrect
 
 A membership website your company manages has become quite popular and is gaining members quickly. The website currently runs on EC2 instances with one web server instance and one DB instance running MySQL. You are concerned about the lack of high-availability in the current architecture. What can you do to easily enable HA without making major changes to the architecture?
 
@@ -1668,7 +1668,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 64:
+### Question 64: 
 
 One of your clients is experiencing an issue whereby their Auto Scaling Group is not scaling fast enough to keep up with periods of peak load. The result is that some requests that are coming through to the applications are being lost. What is the most cost-effective way to avoid losing requests?
 
@@ -1692,7 +1692,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 65:
+### Question 65: *
 
 Which statements about ECS clusters are correct? (choose 3)
 

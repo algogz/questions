@@ -1,4 +1,4 @@
-### Question 1:
+### Question 1: 
 
 Which service uses a simple text file to model and provision infrastructure resources, in an automated and secure manner?
 
@@ -24,7 +24,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 2:
+### Question 2: 
 
 What is the AWS Lambda resource limit for the amount of ephemeral disk capacity allocated per invocation?
 
@@ -47,7 +47,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 3:
+### Question 3: 
 
 You are a Solutions Architect at Digital Cloud Guru. A client from the agricultural sector has approached you for some advice around the collection of a large volume of data from sensors they have deployed around the country. An application will collect data from over 100,000 sensors and each sensor will send around 1KB of data every minute. The data needs to be stored in a durable, low latency data store. The client also needs historical data that is over 1 year old to be moved into a data warehouse where they can perform analytics using standard SQL queries. What combination of AWS services would you recommend to the client? (choose 2)
 
@@ -79,7 +79,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 4:
+### Question 4: 
 
 You are planning to deploy a number of EC2 instances in your VPC. The EC2 instances will be deployed across several subnets and multiple AZs. What AWS feature can act as an instance-level firewall to control traffic between your EC2 instances?
 
@@ -107,7 +107,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 5:
+### Question 5: 
 
 In Route 53 which record type can be used to point a domain’s zone apex record to an ELB?
 
@@ -133,7 +133,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 6:
+### Question 6: *
 
 You have created an application in a VPC that uses a Network Load Balancer (NLB). The application will be offered in a service provider model for AWS principals in other accounts within the region to consume. Based on this model, what AWS service will be used to offer the service for consumption?
 
@@ -155,7 +155,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 7:
+### Question 7: Incorrect*
 
 You are developing an application that uses Lambda functions. You need to store some sensitive data that includes credentials for accessing the database tier. You are planning to store this data as environment variables within Lambda. How can you ensure this sensitive information is properly secured?
 
@@ -187,7 +187,7 @@ https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html
 
 </p></details><hr>
 
-### Question 8:
+### Question 8: 
 
 Your company currently uses Puppet Enterprise for infrastructure and application management. You are looking to move some of your infrastructure onto AWS and would like to continue to use the same tools in the cloud. What AWS service provides a fully managed configuration management service that is compatible with Puppet Enterprise?
 
@@ -217,7 +217,7 @@ https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
 
 </p></details><hr>
 
-### Question 9:
+### Question 9: 
 
 Which statement is true about the Amazon S3 Standard Infrequently Accessed storage class (choose 2)
 
@@ -245,7 +245,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 10:
+### Question 10: 
 
 You have been instructed by your manager to perform an audit of resources that are not being used and that are incurring costs to the company. Which of the following will incur a cost? (choose 2)
 
@@ -280,7 +280,7 @@ https://aws.amazon.com/pricing/services/
 
 </p></details><hr>
 
-### Question 11:
+### Question 11: 
 
 You have been asked to design a cloud-native application architecture using AWS services. What is a typical use case for SQS?
 
@@ -306,7 +306,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 12:
+### Question 12: 
 
 You have a three-tier web application running on AWS that utilizes Route 53, ELB, Auto Scaling and RDS. One of the EC2 instances that is registered against the ELB fails a health check. What actions will the ELB take in this circumstance?
 
@@ -332,7 +332,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 13:
+### Question 13: 
 
 You have been asked to recommend the best AWS storage solution for a client. The client requires a storage solution that provide a mounted file system for a Big Data and Analytics application. The client’s requirements include high throughput, low latency, read-after-write consistency and the ability to burst up to multiple GB/s for short periods of time. Which AWS service can meet this requirement?
 
@@ -362,7 +362,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 14:
+### Question 14: 
 
 You have been asked to take a snapshot of a non-root EBS volume that contains sensitive corporate data. It is essential that you capture a consistent snapshot of the EBS volume without disrupting the instance operation. What is the best way to achieve this?
 
@@ -386,7 +386,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 15:
+### Question 15: 
 
 Which RDS DB instance events may force the DB to be taken offline during a maintenance window?
 
@@ -406,7 +406,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 16:
+### Question 16: *
 
 What two types of security policies are supported by the Elastic Load Balancer for SSL negotiations between the ELB and clients? (Choose 2)
 
@@ -428,7 +428,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 17:
+### Question 17: Incorrect*
 
 Your company stores important production data on S3 and you have been asked by your manager to ensure that data is protected from accidental deletion. What are the BEST ways to protect against accidental object deletion for data in an AWS S3 bucket? (choose 3)
 
@@ -457,7 +457,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 18:
+### Question 18: *
 
 What development languages can be used to write code for AWS Lambda? (choose 4)
 
@@ -479,7 +479,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 19:
+### Question 19: *
 
 At which instance state are you able to attach an Elastic Network Interface to an EC2 instance? (Choose 3)
 
@@ -504,7 +504,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 20:
+### Question 20: Incorrect
 
 An EC2 instance in an Auto Scaling group that has been reported as unhealthy has been marked for replacement. What is the process Auto Scaling uses to replace the instance? (choose 2)
 
@@ -528,7 +528,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 21:
+### Question 21: Incorrect*
 
 Your company has an on-premise LDAP directory service. As part of a gradual migration into AWS you would like to integrate the LDAP directory with AWS’s Identity and Access Management (IAM) solutions so that existing users can authenticate against AWS services. What method would you suggest using to enable this integration?
 
@@ -554,7 +554,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_feder
 
 </p></details><hr>
 
-### Question 22:
+### Question 22: *
 
 A company needs to deploy virtual desktops to its customers in an AWS VPC, leveraging existing security controls. AWS Workspaces will be used as the virtual desktop solution. Which set of AWS services and features will meet the company’s requirements?
 
@@ -582,7 +582,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 23:
+### Question 23: Incorrect*
 
 An EC2 status check on an EBS volume is showing as insufficient-data. What is the most likely explanation?
 
@@ -610,7 +610,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeVolumeStatus.
 
 </p></details><hr>
 
-### Question 24:
+### Question 24: 
 
 An application architect has requested some assistance with selecting a database for a new requirement. The database must provide high performance and scalability. The data will be structured and persistent and the DB must support complex queries using SQL and BI tools. Which AWS service will you recommend?
 
@@ -640,7 +640,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 25:
+### Question 25: *
 
 You need to provide access to the AWS Management Console to a team of new application developers. The team members who perform the same role are assigned to a Microsoft Active Directory group and you have been asked to use Identity Federation and RBAC. Which AWS services would you use to configure this access? (choose 2)
 
@@ -672,7 +672,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 26:
+### Question 26: 
 
 You have an unhealthy EC2 instance attached to an ELB that is being taken out of service. While the EC2 instance is being de-registered from the ELB, which ELB feature will cause the ELB to stop sending any new requests to the EC2 instance whilst allowing in-flight sessions to complete?
 
@@ -694,7 +694,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 27:
+### Question 27: 
 
 You need to create a file system that can be concurrently accessed by multiple EC2 instances within an AZ. The file system needs to support high throughput and the ability to burst. As the data that will be stored on the file system will be sensitive you need to ensure it is encrypted at rest and in transit. What storage solution would you implement for the EC2 instances?
 
@@ -720,7 +720,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 28:
+### Question 28: 
 
 Which of the statements below is true about DynamoDB? (choose 3)
 
@@ -757,7 +757,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 29:
+### Question 29: 
 
 You have been asked to describe the benefits of using AWS Lambda compared to EC2 instances. Which of the below statements are incorrect?
 
@@ -784,7 +784,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 30:
+### Question 30: 
 
 You work for Digital Cloud Guru and have just created a number of IAM users in your AWS account. You need to ensure that the users are able to make API calls to AWS services. What else needs to be done?
 
@@ -808,7 +808,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 31:
+### Question 31: Incorrect*
 
 What is the best solution for ingesting and processing a very large number of data streams in near real time?
 
@@ -834,7 +834,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 32:
+### Question 32: 
 
 Which of the below are valid best practices when implementing AWS IAM? (choose 3)
 
@@ -856,7 +856,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 33:
+### Question 33: 
 
 You are a Solutions Architect at Digital Cloud Guru and have been tasked with designing a 3-tier web application that is highly available and stateless. Which of the services below would you consider for storing the session state data? (choose 2)
 
@@ -880,7 +880,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 34:
+### Question 34: 
 
 There is expected to be a large increase in write intensive traffic to a website you manage that registers users onto an online learning program. You are concerned about writes to the database being dropped and need to come up with a solution to ensure this does not happen. Which of the solution options below would be the best approach to take?
 
@@ -912,7 +912,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 35:
+### Question 35: 
 
 For security reasons, you need to ensure that an On-Demand EC2 instance can only be accessed from a specific public IP address (100.156.52.12) using the SSH protocol. You are configuring the Security Group of the EC2 instance, and need to configure an Inbound rule. Which of the rules below will achieve the requirement?
 
@@ -944,7 +944,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 36:
+### Question 36: 
 
 When using CloudWatch with EC2 what is the frequency of metric updates with basic monitoring?
 
@@ -966,7 +966,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 37:
+### Question 37: 
 
 You are putting together a design for a three-tier web application. The application tier requires a minimum of 6 EC2 instances to be running at all times. You need to provide fault tolerance to ensure that the failure of a single Availability Zone (AZ) will not affect application performance. Which of the options below is the optimum solution to fulfil these requirements?
 
@@ -998,7 +998,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 38:
+### Question 38: 
 
 You need a service that can provide you with control over which traffic to allow or block to your web applications by defining customizable web security rules. You need to block common attack patterns, such as SQL injection and cross-site scripting, as well as creating custom rules for your own applications. Which AWS service fits these requirements?
 
@@ -1026,7 +1026,7 @@ https://aws.amazon.com/waf/details/
 
 </p></details><hr>
 
-### Question 39:
+### Question 39: Incorrect*
 
 What connectivity options are available with AWS Direct Connect when using public and private VIFs? (Choose 3)
 
@@ -1060,7 +1060,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 40:
+### Question 40: Incorrect*
 
 Which of the authentication options below can be used to control access to AWS APIs? (choose 3)
 
@@ -1089,7 +1089,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 41:
+### Question 41: *
 
 The development team at your company have created a new mobile application that will be used by users to access confidential data. The developers have used Amazon Cognito for authentication, authorization, and user management. Due to the sensitivity of the data, there is a requirement to add another method of authentication in addition to a username and password. You have been asked to recommend the best solution. What is your recommendation?
 
@@ -1117,7 +1117,7 @@ https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-mfa
 
 </p></details><hr>
 
-### Question 42:
+### Question 42: 
 
 Which of the AWS services below can be used to store transient web session data for best performance and user experience?
 
@@ -1137,7 +1137,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 43:
+### Question 43: 
 
 Which AWS service can be used to ensure the persistence of in-flight transactions independently of any single application component?
 
@@ -1161,7 +1161,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 44:
+### Question 44: 
 
 You work as a System Administrator at Digital Cloud Guru and your manager has asked you to investigate an EC2 web server hosting videos that is constantly running at over 80% CPU utilization. Which of the approaches below would you recommend to fix the issue?
 
@@ -1187,7 +1187,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 45:
+### Question 45: *
 
 What application parameters can be defined in an ECS task definition? (choose 3)
 
@@ -1207,7 +1207,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 46:
+### Question 46: Incorrect
 
 You have implemented API Gateway and enabled a cache for a specific stage. How can you control the cache to enhance performance and reduce load on back-end services?
 
@@ -1237,7 +1237,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 47:
+### Question 47: 
 
 How can you ensure that the EBS volumes attached to an EC2 instance are still available after the instance is terminated?
 
@@ -1261,7 +1261,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 48:
+### Question 48: 
 
 CloudWatch automatically provides data including metrics and volume status checks for EBS volumes. There are two types of monitoring available, which type provides data in 5-minute intervals at no charge? What type of monitoring for Amazon EBS volumes is free and available automatically in 5-minute periods?
 
@@ -1285,7 +1285,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 49:
+### Question 49: Incorrect
 
 In CloudWatch, which of the following EC2 data points requires a custom metric to monitor?
 
@@ -1324,7 +1324,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 50:
+### Question 50: 
 
 Which statements about DynamoDB are correct? (choose 3)
 
@@ -1365,7 +1365,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 51:
+### Question 51: Incorrect
 
 Which of the below AWS services supports automated backups as a default configuration?
 
@@ -1389,7 +1389,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 52:
+### Question 52: Incorrect*
 
 A major upcoming sales event is likely to result in heavy read traffic to a web application your company manages. As the Solutions Architect you have been asked for advice on how best to protect the database tier from the heavy load and ensure the user experience is not impacted. The web application owner has also requested that the design is fault tolerant. The current configuration consists of a web application behind an ELB that uses Auto Scaling and an RDS MySQL database running in a multi-AZ configuration. As the database load is highly changeable the solution should allow elasticity by adding and removing nodes as required and should also be multi-threaded. What recommendations would you make?
 
@@ -1433,7 +1433,7 @@ https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/SelectEngine.html
 
 </p></details><hr>
 
-### Question 53:
+### Question 53: 
 
 What is the effect of disabling automated backups on an AWS RDS instance?
 
@@ -1459,7 +1459,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 54:
+### Question 54: 
 
 Which of the below use cases are a good fit for DynamoDB (choose 2)
 
@@ -1485,7 +1485,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 55:
+### Question 55: 
 
 Which of the statements below are true regarding CloudFormation? (choose 3)
 
@@ -1510,7 +1510,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 56:
+### Question 56: 
 
 You are a Solutions Architect at Digital Cloud Guru. One of your clients is an online media company that attracts a large volume of users to their website each day. The media company are interested in analyzing the user’s clickstream data so they can analyze user behavior in real-time and dynamically update advertising. This intelligent approach to advertising should help them to increase conversions. What would you suggest as a solution to assist them with capturing and analyzing this data?
 
@@ -1550,7 +1550,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 57:
+### Question 57: 
 
 You are a Solutions Architect at Digital Cloud Guru and you have been tasked with designing a new service on AWS. You need to determine which AWS services can log API calls and provide data that can be used for auditing and compliance purposes.
 
@@ -1598,7 +1598,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 58:
+### Question 58: *
 
 You would like to deploy EC2 instance with enhanced networking. What are the pre-requisites for using enhanced networking? (Choose 2)
 
@@ -1627,7 +1627,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 59:
+### Question 59: 
 
 What two methods would allow you to encrypt data stored in S3 buckets at rest (choose 2)
 
@@ -1649,7 +1649,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 60:
+### Question 60: *
 
 You run a two-tier application with a web tier that is behind an Internet-facing Elastic Load Balancer (ELB). You need to restrict access to the web tier to a specific list of public IP addresses. What are two possible ways you can implement this requirement? (Choose 2)
 
@@ -1673,7 +1673,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 61:
+### Question 61: 
 
 Which statements are true about Amazon Route 53? (choose 2)
 
@@ -1705,7 +1705,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 62:
+### Question 62: 
 
 You are creating a design for an internal-only AWS service that uses EC2 instances to process information on S3 and store the results in DynamoDB. You need to allow access to several developers who will be testing code and need to apply security best practices to the architecture. Which of the security practices below are recommended? (choose 2)
 
@@ -1725,7 +1725,7 @@ https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf
 
 </p></details><hr>
 
-### Question 63:
+### Question 63: 
 
 You are a Solutions Architect for an insurance company. An application you manage is used to store photos and video files that relate to insurance claims. The application writes data using the iSCSI protocol to a storage array. The array currently holds 10TB of data and is approaching capacity. Your manager has instructed you that he will not approve further capital expenditure for on-premises infrastructure. Therefore, you are planning to migrate data into the cloud. How can you move data into the cloud whilst retaining low-latency access to frequently accessed data on-premise using the iSCSI protocol?
 
@@ -1767,7 +1767,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 64:
+### Question 64: 
 
 You have been asked to deploy a new High-Performance Computing (HPC) cluster. You need to create a design for the EC2 instances that ensures close proximity, low latency and high network throughput. Which AWS features will help you to achieve this requirement? (Choose 2)
 
@@ -1801,7 +1801,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 65:
+### Question 65: 
 
 Your Business Intelligence team use SQL tools to analyze data. What would be the best solution for performing queries on structured data that is being received at a high velocity?
 
