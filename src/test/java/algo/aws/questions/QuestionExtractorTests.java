@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -128,7 +129,8 @@ public class QuestionExtractorTests {
 
     @Test
     public void countReference() throws IOException {
-        List<String> lines = Files.readAllLines(Paths.get("/Users/algo/aws/questions/q/reference.txt"));
+        String path = "/Users/algo/aws/questions/q/ref-star-incorrect.txt";
+        List<String> lines = Files.readAllLines(Paths.get(path));
         Map<String, Integer> map = new TreeMap<>();
         for(String line:lines){
             Integer count = map.get(line);
@@ -139,9 +141,16 @@ public class QuestionExtractorTests {
             }
         }
         Map<String, Integer> sortedMap = Utils.sortMapByValue(map);
+        List<String> output = new ArrayList<>();
         for(Map.Entry<String, Integer> entry:sortedMap.entrySet()){
-            System.out.println(String.format("%d, %s", entry.getValue(), entry.getKey()));
+            String url = entry.getKey();
+            int idx = url.lastIndexOf('/', url.length() - 2);
+            String title = url.substring(idx+1);
+            String line = String.format("- %d [%s](%s)", entry.getValue(), title, url);
+            System.out.println(line);
+            output.add(line);
         }
+        Files.write(Paths.get(path+".md"), output);
     }
 
 }
