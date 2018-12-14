@@ -20,7 +20,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 2: *
+### Question 2: 
 
 In the Elastic Block Store (EBS), what values are reserved by AWS for the root device volume for a HVM AMI? (choose 2)
 
@@ -42,7 +42,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/device_naming.html
 
 </p></details><hr>
 
-### Question 3: *
+### Question 3: 
 
 You are considering the security and durability of your data that is stored in Amazon EBS volumes. Which of the statements below is true?
 
@@ -66,7 +66,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 4: *
+### Question 4: 
 
 You would like to host a static website for digitalcloud.guru on AWS. You will be using Route 53 to direct traffic to the website. Which of the below steps would help you achieve your objectives? (Choose 2)
 
@@ -108,7 +108,7 @@ https://docs.aws.amazon.com/AmazonVPC/latest/PeeringGuide/peering-configurations
 
 </p></details><hr>
 
-### Question 6: Incorrect*
+### Question 6: 
 
 Which statements are true about Amazon Route 53? (choose 2)
 
@@ -156,7 +156,7 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ec2-metricscollec
 
 </p></details><hr>
 
-### Question 8: Incorrect*
+### Question 8: 
 
 You created a new Auto Scaling Group (ASG) with two subnets across AZ1 and AZ2 in your VPC. You set the minimum size to 6 instances. After creating the ASG you noticed that all EC2 instances were launched in AZ1 due to limited capacity of the required instance family within AZ2. You’re concerned about the imbalance of resources. What would be the expected behavior of Auto Scaling once the capacity constraints are resolved in AZ2?
 
@@ -188,7 +188,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 9: Incorrect*
+### Question 9: 
 
 You have launched a Spot instance on EC2 for working on an application development project. In the event of an interruption what are the possible behaviors that can be configured? (choose 3)
 
@@ -242,7 +242,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 11: Incorrect*
+### Question 11: 
 
 Your company is opening a new office in the Asia Pacific region. Users in the new office will need to read data from an RDS database that is hosted in the U.S. To improve performance, you are planning to implement a Read Replica of the database in the Asia Pacific region. However, your Chief Security Officer (CSO) has explained to you that the company policy dictates that all data that leaves the U.S must be encrypted at rest. The master RDS DB is not currently encrypted. What options are available to you? (choose 2)
 
@@ -317,7 +317,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 14: *
+### Question 14: 
 
 Another systems administrator in your company created an Auto Scaling group that is configured to ensure that four EC2 instances are available at a minimum at all times. The settings he selected on the Auto Scaling group are a minimum group size of four instances and a maximum group size of six instances. Your colleague has asked your assistance in trying to understand if Auto Scaling will allow him to terminate instances in the Auto Scaling group and what the effect would be if it does. What advice would you give to your colleague?
 
@@ -403,7 +403,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 17: Incorrect*
+### Question 17: 
 
 You are using an Application Load Balancer (ALB) for distributing traffic for a number of application servers running on EC2 instances. The configuration consists of a single ALB with a single target group. The front-end listeners are receiving traffic for digitalcloud.guru on port 443 (SSL/TLS) and the back-end listeners are receiving traffic on port 80 (HTTP). You will be installing a new application component on one of the application servers in the existing target group that will process data sent to digitalcloud.guru/orders. The application component will listen on HTTP port 8080 for this traffic. What configuration changes do you need to make to implement this solution update? (choose 2)
 
@@ -495,7 +495,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 20: *
+### Question 20: 
 
 The development team in your company have created a new application that you plan to deploy on AWS which runs multiple components in Docker containers. You would prefer to use AWS managed infrastructure for running the containers as you do not want to manage EC2 instances. Which of the below solution options would deliver these requirements? (choose 2)
 
@@ -556,7 +556,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 22: Incorrect*
+### Question 22: 
 
 Which statements below accurately describe IAM Access Keys? (Choose 4)
 
@@ -617,7 +617,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 24: Incorrect*
+### Question 24: 
 
 An application that you will be deploying in your VPC requires 14 EC2 instances that must be placed on distinct underlying hardware to reduce the impact of the failure of a hardware node. The instances will use varying instance types. What configuration will cater to these requirements taking cost-effectiveness into account?
 
@@ -683,7 +683,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 26: Incorrect*
+### Question 26: 
 
 Which of the following are valid rule types that you can use in Security Groups? (Choose 2)
 
@@ -709,7 +709,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 27: *
+### Question 27: 
 
 The Perfect Forward Secrecy (PFS) security feature uses a derived session key to provide additional safeguards against the eavesdropping of encrypted data. Which two AWS services support PFS? (choose 2)
 
@@ -735,7 +735,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 28: Incorrect*
+### Question 28: 
 
 When using an Application Load Balancer (ALB), which of the statements below are correct in relation to sticky sessions? (choose 3)
 
@@ -808,7 +808,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 31: *
+### Question 31: 
 
 Your client is running an individual DynamoDB table in the Asia Pacific (Tokyo) region. As the client’s business is expanding the load on the table is increasing and you’ve have been asked what limitations you may come up against in terms of write throughput to the single table? What advice would you give to your client?
 
@@ -840,7 +840,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 32: *
+### Question 32: 
 
 Amazon S3 provides several options for implementing encryption. Which of the statements below is correct regarding the SSE-KMS option? (choose 3)
 
@@ -946,7 +946,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 35: Incorrect*
+### Question 35: 
 
 You have taken a snapshot of an encrypted EBS volume and would like to share the snapshot with another AWS account. Which statements are true about sharing snapshots of encrypted EBS volumes? (choose 3)
 
@@ -972,7 +972,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 36: Incorrect*
+### Question 36: 
 
 You would like to grant additional permissions to an individual ECS application container on an ECS cluster that you have deployed. You would like to do this without granting additional permissions to the other containers that are running on the cluster. How can you achieve this?
 
@@ -1020,7 +1020,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 38: *
+### Question 38: 
 
 A colleague recently deployed a two-tier web application into a subnet using a test account. The subnet has an IP address block of 10.0.5.0/27 and he launched an Auto Scaling Group (ASG) with a desired capacity of 8 web servers. Another ASG has 6 application servers and two database servers and both ASGs are behind a single ALB with multiple target groups. All instances are On-Demand instances. Your colleague attempted to test a simulated in increase in capacity requirements of 50% and not all instances were able to launch successfully. What would be the best explanations for the failure to launch the extra instances? (choose 2)
 
@@ -1048,7 +1048,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 39: Incorrect
+### Question 39: 
 
 You have deployed a highly available web application across two AZs. The application uses an Auto Scaling Group (ASG) and an Application Load Balancer (ALB) to distribute connections between the EC2 instances that make up the web front-end. The load has increased and the ASG has launched new instances in both AZs, however you noticed that the ALB is only distributing traffic to the EC2 instances in one AZ. From the options below, what is the most likely cause of the issue?
 
@@ -1133,7 +1133,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.ht
 
 </p></details><hr>
 
-### Question 42: Incorrect
+### Question 42: 
 
 You are designing a solution for an application that will read and write large amounts of data to S3. You are expecting high throughput that may exceed 1000 requests per second and need the performance of S3 to scale. What is AWS’s current advice for designing your S3 storage strategy to ensure fast performance?
 
@@ -1155,7 +1155,7 @@ https://aws.amazon.com/about-aws/whats-new/2018/07/amazon-s3-announces-increased
 
 </p></details><hr>
 
-### Question 43: *
+### Question 43: 
 
 The operations team in your company are looking for a method to automatically respond to failed system status check alarms that are being received from an EC2 instance. The system in question is experiencing intermittent problems with its operating system software. Which two steps will help you to automate the resolution of the operating system software issues? (choose 2)
 
@@ -1231,7 +1231,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 46: Incorrect*
+### Question 46: 
 
 You work as an Enterprise Architect for Digital Cloud Guru which employs 1500 people. The company is growing at around 5% per annum. The company strategy is to increasingly adopt AWS cloud services. There is an existing Microsoft Active Directory (AD) service that is used as the on-premise identity and access management system. You want to avoid synchronizing your directory into the AWS cloud or adding permissions to resources in another AD domain.
 
@@ -1314,7 +1314,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 49: Incorrect*
+### Question 49: 
 
 You are running a Hadoop cluster on EC2 instances in your VPC. The EC2 instances are launched by an Auto Scaling Group (ASG) and you have configured the ASG to scale out and in as demand changes. One of the instances in the group is the Hadoop Master Node and you need to ensure that it is not terminated when your ASG processes a scale in action. What is the best way this can be achieved without interrupting services?
 
@@ -1342,7 +1342,7 @@ https://aws.amazon.com/blogs/aws/new-instance-protection-for-auto-scaling/
 
 </p></details><hr>
 
-### Question 50: Incorrect*
+### Question 50: 
 
 As the Chief Security Officer (CSO) of a large banking organization you are reviewing your security policy for the usage of public cloud services. A key assessment criteria when comparing public cloud services against maintaining applications on-premise, is the split of responsibilities between AWS, as the service provider, and your company, as the customer. According to the AWS Shared Responsibility Model, which of the following would be responsibilities of the service provider? (choose 2)
 
@@ -1393,7 +1393,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 52: *
+### Question 52: 
 
 An EBS-backed EC2 instance has been configured with some proprietary software the uses an embedded license. You need to move the EC2 instance to another Availability Zone (AZ) within the region. How can this be accomplished? Choose the best answer.
 
@@ -1445,7 +1445,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 54: *
+### Question 54: 
 
 Your manager has asked you to explain how Amazon ElastiCache may assist with the company’s plans to improve the performance of database queries. Which of the below statements is a valid description of the benefits of Amazon ElastiCache? (Choose 2)
 
@@ -1470,7 +1470,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 55: Incorrect*
+### Question 55: 
 
 You have been tasked with building an ECS cluster using the EC2 launch type and need to ensure container instances can connect to the cluster. A colleague informed you that you must ensure the ECS container agent is installed on your EC2 instances. You have selected to use the Amazon ECS-optimized AMI. Which of the statements below are correct? (Choose 2)
 
@@ -1496,7 +1496,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 56: *
+### Question 56: 
 
 You are a Solutions Architect at Digital Cloud Guru. Your client’s company is growing and now has over 10,000 users. The client would like to start deploying services into the AWS Cloud including AWS Workspaces. The client expects there to be a large take-up of AWS services across their user base and would like to use their existing Microsoft Active Directory identity source for authentication. The client does not want to replicate account credentials into the AWS cloud. You have been tasked with designing the identity, authorization and access solution for the customer. What AWS services would you include in your design? (choose 2)
 
@@ -1562,7 +1562,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 58: Incorrect
+### Question 58: 
 
 You are a Solutions Architect for a systems integrator. Your client is growing their presence in the AWS cloud and has applications and services running in a VPC across multiple availability zones within a region. The client has a requirement to build an operational dashboard within their on-premise data center within the next few months. The dashboard will show near real time statistics and therefore must be connected over a low latency, high performance network. What would be the best solution for this requirement?
 
@@ -1624,7 +1624,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 60: *
+### Question 60: 
 
 With Amazon EC2, instances can be assigned private and public IP addresses. Which of the statements below are correct regarding private IP addresses? (choose 3)
 
@@ -1693,7 +1693,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 63: Incorrect*
+### Question 63: 
 
 The security team in your company are defining new policies for enabling security analysis, resource change tracking, and compliance auditing. They would like to gain visibility into user activity by recording API calls made within the company’s AWS account. The information that is logged must be encrypted. This requirement applies to all AWS regions in which your company has services running. How will you implement this request? (choose 2)
 
@@ -1720,7 +1720,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 64: *
+### Question 64: 
 
 You are a Solutions Architect at Digital Cloud Guru. A client of yours is using API Gateway for accepting and processing a large number of API calls to AWS Lambda. The client’s business is rapidly growing and he is therefore expecting a large increase in traffic to his API Gateway and AWS Lambda services. The client has asked for advice on ensuring the services can scale without any reduction in performance. What advice would you give to the client? (choose 2)
 

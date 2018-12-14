@@ -1,4 +1,4 @@
-### Question 1: Incorrect
+### Question 1: 
 
 You are a Solutions Architect at Digital Cloud Guru. A client has requested a design for a highly-available, fault tolerant architecture for the web and app tiers of a three-tier application. The requirements are as follows: - Web instances will be in a public subnet and app instances will be in a private subnet - Connections to EC2 instances should be automatically distributed across AZs - A minimum of 12 web server EC2 instances must be running at all times - A minimum of 6 app server EC2 instances must be running at all times - The failure of a single availability zone (AZ) not affect the availability of the application or result in a reduction of capacity beneath the stated requirements Which of the following design options would be the most suitable and cost-effective solution?
 
@@ -30,7 +30,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 2: Incorrect*
+### Question 2: 
 
 The association between a poll-based source and a Lambda function is called the event source mapping. Event sources maintain the mapping configuration except for stream-based services such as ________ and ________ for which the configuration is made on the Lambda side and Lambda performs the polling. Fill in the blanks from the options below (choose 2)
 
@@ -53,7 +53,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 3: Incorrect
+### Question 3: 
 
 In AWS Identity and Access Management (IAM) which principals can assume a role? (choose 2)
 
@@ -160,7 +160,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 7: Incorrect
+### Question 7: 
 
 You have been asked to implement a solution for capturing, transforming and loading streaming data into an Amazon RedShift cluster. The solution will capture data from Amazon Kinesis Data Streams. Which AWS services would you utilize in this scenario? (choose 2)
 
@@ -343,7 +343,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 14: Incorrect
+### Question 14: 
 
 The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for IAM users or for users that you authenticate (federated users). Which of the below are supported sources for users? (choose 2)
 
@@ -363,7 +363,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 15: Incorrect
+### Question 15: 
 
 A colleague has asked you some questions about how AWS charge for DynamoDB. He is interested to know what type of workload DynamoDB is best suited for in relation to cost and how you are charged? (choose 2)
 
@@ -476,7 +476,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 19: Incorrect
+### Question 19: 
 
 You are a Solutions Architect at Digital Cloud Guru. One of your clients has requested that you design a solution for distributing load across a number of EC2 instances across multiple AZs within a region. Customers will connect to several different applications running the client’s servers through their browser using multiple domain names and SSL certificates. The certificates are stored in AWS Certificate Manager (ACM). What is the optimal architecture to ensure high availability, cost effectiveness, and performance?
 
@@ -596,7 +596,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 24: Incorrect
+### Question 24: 
 
 The company you work for is currently transitioning their infrastructure and applications into the AWS cloud. You are planning to deploy an Elastic Load Balancer (ELB) that distributes traffic for a web application running on EC2 instances. You still have some application servers running on-premise and you would like to distribute application traffic across both your AWS and on-premises resources. How can this be achieved?
 
@@ -686,7 +686,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 27: *
+### Question 27: 
 
 The application development team in your company have a new requirement for the deployment of a container solution. You plan to the use the AWS Elastic Container Service (ECS). The solution should include load balancing of incoming requests across the ECS containers and allow the containers to use dynamic host port mapping so that multiple tasks from the same service can run on the same container host. Which AWS load balancing configuration will support this?
 
@@ -733,7 +733,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 29: Incorrect
+### Question 29: 
 
 Your company is starting to use AWS to host new web-based applications. A new two-tier application will be deployed that provides customers with access to data records. It is important that the application is highly responsive and retrieval times are optimized. You’re looking for a persistent data store that can provide the required performance. From the list below what AWS service would you recommend for this requirement?
 
@@ -775,7 +775,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 30: Incorrect
+### Question 30: 
 
 You would like to share some documents with public users accessing an S3 bucket over the Internet. What are two valid methods of granting public read permissions so you can share the documents? (choose 2)
 
@@ -799,7 +799,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 31: Incorrect*
+### Question 31: 
 
 You have an EC2 instance that has an EBS-backed root volume. You have attached a couple of Instance Store-backed volumes which have some important log files on them. What will happen to the data if the instance is stopped?
 
@@ -843,7 +843,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 33: Incorrect
+### Question 33: 
 
 An application that was recently moved into the AWS cloud has been experiencing some authentication issues. The application is currently configured to authenticate to an on-premise Microsoft Active Directory Domain Controller via a VPN connection. Upon troubleshooting the issues, it seems that latency across the VPN connection is causing authentication to fail. Your company is very cost sensitive at the moment and the administrators of the Microsoft AD do not want to manage any additional directories. You need to resolve the issues quickly. What is the best solution to solve the authentication issues taking cost considerations into account?
 
@@ -1048,7 +1048,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 41: Incorrect
+### Question 41: 
 
 You are an entrepreneur building a small company with some resources running on AWS. As you have limited funding you are extremely cost conscious. What AWS service can help you to ensure your costs do not exceed your funding capacity and send you alerts via email or SNS topic?
 
@@ -1070,7 +1070,7 @@ https://aws.amazon.com/aws-cost-management/aws-budgets/
 
 </p></details><hr>
 
-### Question 42: Incorrect
+### Question 42: 
 
 You work for a company that produces TV commercials. You are planning to run an advertising campaign during a major political event that will be watched by millions of people over several days. It is expected that your website will receive large bursts of traffic following commercial breaks. You have performed an analysis and determined that you will need around 150 EC2 web instances to process the traffic You need to ensure you deliver a high quality and consistent user experience and to also consider cost-effectiveness. How would you design a highly available and elastic?
 
@@ -1209,7 +1209,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 46: Incorrect
+### Question 46: 
 
 Which of the statements below are correct about CloudWatch instance monitoring when using an Auto Scaling Group (ASG)? (choose 2)
 
@@ -1235,7 +1235,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 47: Incorrect
+### Question 47: 
 
 Your company has recently formed a partnership with another company. Both companies have resources running in the AWS cloud and you would like to be able to access each other’s resources using private IP addresses. The resources for each company are in different AWS regions and you need to ensure that fully redundant connectivity is established. What steps would you take to establish connectivity and resource sharing between the VPCs across regions? (choose 3)
 
@@ -1348,7 +1348,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 51: Incorrect
+### Question 51: 
 
 Which of the statements below are correct in relation to CloudFront Regional Edge Caches? (choose 2)
 
@@ -1420,7 +1420,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 54: Incorrect*
+### Question 54: 
 
 Which of the following statements are correct about Amazon Simple Queue Service (SQS)? (choose 3)
 
@@ -1645,7 +1645,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 63: Incorrect*
+### Question 63: 
 
 To improve security in your AWS account you have decided to enable multi-factor authentication (MFA). You can authenticate using an MFA device in which two ways? (choose 2)
 

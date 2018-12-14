@@ -133,7 +133,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 6: *
+### Question 6: 
 
 You have created an application in a VPC that uses a Network Load Balancer (NLB). The application will be offered in a service provider model for AWS principals in other accounts within the region to consume. Based on this model, what AWS service will be used to offer the service for consumption?
 
@@ -155,7 +155,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 7: Incorrect*
+### Question 7: 
 
 You are developing an application that uses Lambda functions. You need to store some sensitive data that includes credentials for accessing the database tier. You are planning to store this data as environment variables within Lambda. How can you ensure this sensitive information is properly secured?
 
@@ -406,7 +406,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 16: *
+### Question 16: 
 
 What two types of security policies are supported by the Elastic Load Balancer for SSL negotiations between the ELB and clients? (Choose 2)
 
@@ -428,7 +428,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 17: Incorrect*
+### Question 17: 
 
 Your company stores important production data on S3 and you have been asked by your manager to ensure that data is protected from accidental deletion. What are the BEST ways to protect against accidental object deletion for data in an AWS S3 bucket? (choose 3)
 
@@ -457,7 +457,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 18: *
+### Question 18: 
 
 What development languages can be used to write code for AWS Lambda? (choose 4)
 
@@ -479,7 +479,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 19: *
+### Question 19: 
 
 At which instance state are you able to attach an Elastic Network Interface to an EC2 instance? (Choose 3)
 
@@ -504,7 +504,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 20: Incorrect
+### Question 20: 
 
 An EC2 instance in an Auto Scaling group that has been reported as unhealthy has been marked for replacement. What is the process Auto Scaling uses to replace the instance? (choose 2)
 
@@ -528,7 +528,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 21: Incorrect*
+### Question 21: 
 
 Your company has an on-premise LDAP directory service. As part of a gradual migration into AWS you would like to integrate the LDAP directory with AWS’s Identity and Access Management (IAM) solutions so that existing users can authenticate against AWS services. What method would you suggest using to enable this integration?
 
@@ -554,7 +554,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_feder
 
 </p></details><hr>
 
-### Question 22: *
+### Question 22: 
 
 A company needs to deploy virtual desktops to its customers in an AWS VPC, leveraging existing security controls. AWS Workspaces will be used as the virtual desktop solution. Which set of AWS services and features will meet the company’s requirements?
 
@@ -582,7 +582,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 23: Incorrect*
+### Question 23: 
 
 An EC2 status check on an EBS volume is showing as insufficient-data. What is the most likely explanation?
 
@@ -640,7 +640,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 25: *
+### Question 25: 
 
 You need to provide access to the AWS Management Console to a team of new application developers. The team members who perform the same role are assigned to a Microsoft Active Directory group and you have been asked to use Identity Federation and RBAC. Which AWS services would you use to configure this access? (choose 2)
 
@@ -808,7 +808,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 31: Incorrect*
+### Question 31: 
 
 What is the best solution for ingesting and processing a very large number of data streams in near real time?
 
@@ -1026,7 +1026,7 @@ https://aws.amazon.com/waf/details/
 
 </p></details><hr>
 
-### Question 39: Incorrect*
+### Question 39: 
 
 What connectivity options are available with AWS Direct Connect when using public and private VIFs? (Choose 3)
 
@@ -1060,7 +1060,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 40: Incorrect*
+### Question 40: 
 
 Which of the authentication options below can be used to control access to AWS APIs? (choose 3)
 
@@ -1089,7 +1089,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 41: *
+### Question 41: 
 
 The development team at your company have created a new mobile application that will be used by users to access confidential data. The developers have used Amazon Cognito for authentication, authorization, and user management. Due to the sensitivity of the data, there is a requirement to add another method of authentication in addition to a username and password. You have been asked to recommend the best solution. What is your recommendation?
 
@@ -1187,7 +1187,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 45: *
+### Question 45: 
 
 What application parameters can be defined in an ECS task definition? (choose 3)
 
@@ -1207,7 +1207,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 46: Incorrect
+### Question 46: 
 
 You have implemented API Gateway and enabled a cache for a specific stage. How can you control the cache to enhance performance and reduce load on back-end services?
 
@@ -1285,7 +1285,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 49: Incorrect
+### Question 49: 
 
 In CloudWatch, which of the following EC2 data points requires a custom metric to monitor?
 
@@ -1365,7 +1365,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 51: Incorrect
+### Question 51: 
 
 Which of the below AWS services supports automated backups as a default configuration?
 
@@ -1389,7 +1389,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 52: Incorrect*
+### Question 52: 
 
 A major upcoming sales event is likely to result in heavy read traffic to a web application your company manages. As the Solutions Architect you have been asked for advice on how best to protect the database tier from the heavy load and ensure the user experience is not impacted. The web application owner has also requested that the design is fault tolerant. The current configuration consists of a web application behind an ELB that uses Auto Scaling and an RDS MySQL database running in a multi-AZ configuration. As the database load is highly changeable the solution should allow elasticity by adding and removing nodes as required and should also be multi-threaded. What recommendations would you make?
 
@@ -1598,7 +1598,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 58: *
+### Question 58: 
 
 You would like to deploy EC2 instance with enhanced networking. What are the pre-requisites for using enhanced networking? (Choose 2)
 
@@ -1649,7 +1649,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 60: *
+### Question 60: 
 
 You run a two-tier application with a web tier that is behind an Internet-facing Elastic Load Balancer (ELB). You need to restrict access to the web tier to a specific list of public IP addresses. What are two possible ways you can implement this requirement? (Choose 2)
 

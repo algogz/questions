@@ -1,4 +1,4 @@
-### Question 1: *
+### Question 1: 
 
 According to AWS best practices you setup multi-factor authentication (MFA) for your root account and configured it to work with Google Authenticator on your smart phone. Unfortunately, your smart phone has been lost. What are the options available to access your account?
 
@@ -54,7 +54,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-z
 
 </p></details><hr>
 
-### Question 3: *
+### Question 3: 
 
 In EC2, which of the statements below about Instance store-backed and EBS-backed instances is true?
 
@@ -96,7 +96,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 4: *
+### Question 4: 
 
 The financial institution you are working for stores large amounts of historical transaction records. There are over 25TB of records and your manager has decided to move them into the AWS Cloud. You are planning to use Snowball as copying the data would take too long. Which of the statements below are true regarding Snowball? (choose 3)
 
@@ -131,7 +131,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 5: Incorrect*
+### Question 5: 
 
 Which of the following are AWS best practices for DynamoDB? (choose 3)
 
@@ -152,7 +152,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 6: Incorrect*
+### Question 6: 
 
 You work for a large multinational retail company. The company has a large presence in AWS in multiple regions. You have established a new office and need to implement a high-bandwidth, low-latency connection to multiple VPCs in multiple regions within the same account. The VPCs each have unique CIDR ranges. What would be the optimum solution design? (choose 2)
 
@@ -200,7 +200,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 8: Incorrect
+### Question 8: 
 
 You would like to provide some elasticity for your RDS DB. You are considering read replicas and are evaluating the features. Which of the following statements are applicable when using RDS read replicas? (choose 3)
 
@@ -263,7 +263,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 10: Incorrect*
+### Question 10: 
 
 You are a Solutions Architect at Digital Cloud Guru. In your VPC you have a mixture of EC2 instances in production and non-production environments. You need to devise a way to segregate access permissions to different sets of users for instances in different environments. How can this be achieved? (choose 3)
 
@@ -332,7 +332,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 13: *
+### Question 13: 
 
 Using Route 53 Alias records what targets can you specify? (choose 3)
 
@@ -502,7 +502,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 20: Incorrect*
+### Question 20: 
 
 You have an existing Auto Scaling Group running with 8 EC2 instances. You have decided to attach an ELB to the ASG by connecting a Target Group. The ELB is in the same region and already has 10 EC2 instances running in the Target Group. When attempting to attach the ELB the request fails, what is the most likely cause?
 
@@ -554,7 +554,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 22: *
+### Question 22: 
 
 Lambda automatically monitors Lambda functions and reports metrics through CloudWatch. Which metrics does Lambda track? (choose 3)
 
@@ -730,7 +730,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 28: Incorrect*
+### Question 28: 
 
 You are running an application on EC2 instances in a private subnet of your VPC. You would like to connect the application to Amazon API Gateway. For security reasons, you need to ensure that no traffic traverses the Internet and need to ensure all traffic uses private IP addresses only. How can you achieve this?
 
@@ -752,7 +752,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 29: *
+### Question 29: 
 
 A client has made some updates to their web application. The application uses an Auto Scaling Group to maintain a group of several EC2 instances. The application has been modified and a new AMI must be used for launching any new instances that ASG launches. What do you need to do to add the new AMI?
 
@@ -778,7 +778,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 30: Incorrect*
+### Question 30: 
 
 An event in CloudTrail is the record of an activity in an AWS account. What are the two types of events that can be logged in CloudTrail? (choose 2)
 
@@ -824,7 +824,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 32: *
+### Question 32: 
 
 Your operations team would like to be notified if an RDS database exceeds certain metric thresholds. They have asked you how this could be automated?
 
@@ -844,7 +844,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 33: *
+### Question 33: 
 
 You are a Solutions Architect at Digital Cloud Guru. You have just completed the implementation of a 2-tier web application for a client. The application uses EC2 instances, ELB and Auto Scaling across two subnets. After deployment you notice that only one subnet has EC2 instances running in it. What might be the cause of this situation?
 
@@ -870,7 +870,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 34: Incorrect*
+### Question 34: 
 
 In Route 53, what record type can be used to point a domain name at an Application Load Balancer?
 
@@ -955,7 +955,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 37: *
+### Question 37: 
 
 In the Simple Workflow Service (SWF), what are the various logical elements? (choose 3)
 
@@ -978,7 +978,7 @@ https://docs.aws.amazon.com/amazonswf/latest/awsrbflowguide/concepts-parts.html
 
 </p></details><hr>
 
-### Question 38: Incorrect*
+### Question 38: 
 
 An application you manage runs a number of components using a micro-services architecture. Several ECS container instances in your ECS cluster are displaying as disconnected. The ECS instances were created from the Amazon ECS-Optimized AMI. What steps might you take you troubleshoot the issue? (choose 2)
 
@@ -1002,7 +1002,7 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ecs-agent-disconnected/
 
 </p></details><hr>
 
-### Question 39: Incorrect*
+### Question 39: 
 
 Your company has over 2000 users and is planning to migrate data into the AWS Cloud. Some of the data is user’s home folders on an existing file share and the plan is to move this data to S3. Each user will have a folder in a shared bucket under the folder structure: bucket/home/%username%. What steps do you need to take to ensure that each user can access their own home folder and no one else’s? (choose all that apply)
 
@@ -1106,7 +1106,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 43: Incorrect
+### Question 43: 
 
 You are a Solutions Architect at Digital Cloud Guru. One of your customers runs an application on-premise that stores large media files. The data is mounted to different servers using either the SMB or NFS protocols. The customer is having issues with scaling the storage infrastructure on-premise and is looking for a way to offload the data set into the cloud whilst retaining a local cache for frequently accessed content. What solution would you recommend to the customer that would allow them to offload storage to the cloud and continue to mount a local cache on-premise using the SMB and NFS protocols?
 
@@ -1156,7 +1156,7 @@ https://aws.amazon.com/security/penetration-testing/
 
 </p></details><hr>
 
-### Question 45: Incorrect*
+### Question 45: 
 
 Using the VPC wizard, you have selected the option “VPC with Public and Private Subnets and Hardware VPN access”. Which of the statements below correctly describe the configuration that will be created? (choose 2)
 
@@ -1206,7 +1206,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 47: Incorrect*
+### Question 47: 
 
 What are the memory allocation options for Lambda functions?
 
@@ -1232,7 +1232,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 48: Incorrect
+### Question 48: 
 
 The development team at Digital Cloud Guru have created a new web-based application that will soon be launched. The application will utilize 20 EC2 instances for the web front-end. Due to concerns over latency, you will not be using an ELB but still want to load balance incoming connections across multiple EC2 instances. You will be using Route 53 for the DNS service and want to implement health checks to ensure instances are available. What two Route 53 configuration options are available that could be individually used to ensure connections reach multiple web servers in this configuration? (choose 2)
 
@@ -1282,7 +1282,7 @@ https://aws.amazon.com/ec2/purchasing-options/dedicated-instances/
 
 </p></details><hr>
 
-### Question 50: Incorrect
+### Question 50: 
 
 An EC2 instance on which you are running a video on demand web application has been experiencing high CPU utilization. You would like to take steps to reduce the impact on the EC2 instance and improve performance for consumers. Which of the steps below would help?
 
@@ -1310,7 +1310,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 51: Incorrect*
+### Question 51: 
 
 You are developing some code that uses a Lambda function and you would like to enable the function to connect to an ElastiCache cluster within a VPC that you own. What VPC-specific information must you include in your function to enable this configuration? (choose 2)
 
@@ -1358,7 +1358,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 53: Incorrect
+### Question 53: 
 
 What two methods are available for accessing and querying the properties of an EC2 instance such as instance ID, public keys and network interfaces? (choose 2)
 
@@ -1380,7 +1380,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 54: Incorrect
+### Question 54: 
 
 A new application that you rolled out recently uses API Gateway and Lambda. The application is expected to be used by a large number of customers every day. Your company is planning on running an advertising campaign that will likely result in significant hits to the application after each ad is run. You’re concerned about the impact this may have on your application and would like to put in place some controls to limit the number of requests per second that hit the application. What controls will you implement in this situation?
 
@@ -1520,7 +1520,7 @@ https://aws.amazon.com/cloudhsm/details/
 
 </p></details><hr>
 
-### Question 59: Incorrect*
+### Question 59: 
 
 The development team in your company have created a Python application running on ECS containers with the Fargate launch type. You have created an ALB with a Target Group that routes incoming connections to the ECS-based application. The application will be used by consumers who will authenticate using federated OIDC compliant Identity Providers such as Google and Facebook. You would like to securely authenticate the users on the front-end before they access the authenticated portions of the application. How can this be done on the ALB?
 
@@ -1570,7 +1570,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 61: Incorrect*
+### Question 61: 
 
 You are concerned that you may be getting close to some of the default service limits for several AWS services. What AWS tool can be used to display current usage and limits?
 
@@ -1624,7 +1624,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 63: Incorrect*
+### Question 63: 
 
 Which of the following commands would be used to remove one or more inbound rules from a security group?
 
@@ -1646,7 +1646,7 @@ https://docs.aws.amazon.com/cli/latest/reference/ec2/index.html#cli-aws-ec2
 
 </p></details><hr>
 
-### Question 64: Incorrect
+### Question 64: 
 
 You have deployed a number of AWS resources using CloudFormation. You need to make some changes to a couple of resources within the stack and are planning how to implement the updates. Due to recent bad experiences, you’re a little concerned about what the effects of implementing updates to the resources might have on other resources in the stack. What is the easiest way to proceed cautiously?
 

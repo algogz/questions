@@ -52,7 +52,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 3: *
+### Question 3: 
 
 Which AWS service provides an in-memory cache for DynamoDB that can deliver 10x performance improvements even at millions of requests per second?
 
@@ -104,7 +104,7 @@ https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-v
 
 </p></details><hr>
 
-### Question 5: *
+### Question 5: 
 
 What are two key tools that you use to interact with the AWS Lambda service? (choose 2)
 
@@ -130,7 +130,7 @@ https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html
 
 </p></details><hr>
 
-### Question 6: *
+### Question 6: 
 
 You need to run a PowerShell script on a fleet of EC2 instances running Microsoft Windows. The instances have already been launched in your VPC. What tool can be run from the AWS Management Console that will run the script on all target EC2 instances?
 
@@ -284,7 +284,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 12: Incorrect*
+### Question 12: 
 
 An application you manage uses RDS in a multi-AZ configuration as the database back-end. There is a failure of the primary DB instance. Which of the following statements are correct in relation to the process RDS uses to failover to the standby DB instance? (choose 2)
 
@@ -438,7 +438,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-s
 
 </p></details><hr>
 
-### Question 17: *
+### Question 17: 
 
 Your company has started using the AWS CloudHSM for secure key storage. A recent administrative error resulted in the loss of credentials to access the CloudHSM. You need access to data that was encrypted using keys stored on the hardware security module. How can you recover the keys that are no longer accessible?
 
@@ -486,7 +486,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 19: *
+### Question 19: 
 
 A client has started using AWS and wants to provide AWS Management Console access to some of their staff. The company currently uses Active Directory on-premise and would like to continue to configure Role Based Access Control (RBAC) using the current directory service. The client would prefer to avoid complex federation infrastructure and replicating security credentials into AWS. Which two AWS services and features can be used together to deliver the desired result? (choose 2)
 
@@ -514,7 +514,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 20: Incorrect*
+### Question 20: 
 
 You have implement the AWS Elastic File System (EFS) to store data that will be accessed by a large number of EC2 instances. The data is sensitive and you are working on a design for implementing security measures to protect the data. You need to ensure that network traffic is restricted correctly based on firewall rules and access from hosts is restricted by user or group. How can this be achieved with EFS? (choose 2)
 
@@ -635,7 +635,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 24: *
+### Question 24: 
 
 You launched an EBS-backed EC2 instance into your VPC. A requirement has come up for some high-performance ephemeral storage and so you would like to add an instance-store backed volume. How can you add the new instance store volume?
 
@@ -659,7 +659,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/add-instance-store-volumes.h
 
 </p></details><hr>
 
-### Question 25: Incorrect*
+### Question 25: 
 
 You are using the Elastic Container Service (ECS) to run a number of containers using the EC2 launch type. To gain more control over scheduling containers you have decided to utilize Blox to integrate a third-party scheduler. The third-party scheduler will use the StartTask API to place tasks on specific container instances. What type of ECS scheduler will you need to use to enable this configuration?
 
@@ -693,7 +693,7 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduling_tasks.htm
 
 </p></details><hr>
 
-### Question 26: Incorrect*
+### Question 26: 
 
 Which of the statements below is correct about the Amazon S3 One Zone-Infrequent Access storage class? (choose 2)
 
@@ -812,7 +812,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 30: Incorrect
+### Question 30: 
 
 You are running an Auto Scaling Group (ASG) with an Elastic Load Balancer (ELB) and a fleet of EC2 instances. Health checks are configured on the ASG to use EC2 status checks The ELB has determined that an EC2 instance is unhealthy and has removed it from service. However, you noticed that the instance is still running and has not been terminated by the ASG. What would be an explanation for this?
 
@@ -926,7 +926,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 34: Incorrect*
+### Question 34: 
 
 You have associated a new launch configuration to your Auto Scaling Group (ASG) which runs a fleet of EC2 instances. The new launch configuration changes monitoring from detailed to basic. There are a couple of CloudWatch alarms configured on the ASG which monitor every 60 seconds. There is a mismatch in frequency of metric reporting between these configuration settings, what will be the result?
 
@@ -952,7 +952,7 @@ https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-monitoring.htm
 
 </p></details><hr>
 
-### Question 35: Incorrect
+### Question 35: 
 
 One of you clients has asked for assistance with a performance issue they are experiencing. The client has a fleet of EC2 instances behind an Elastic Load Balancer (ELB) that are a mixture of c4.2xlarge instance types and c5.large instances. The load on the CPUs on the c5.large instances has been very high, often hitting 100% utilization, whereas the c4.2xlarge instances have been performing well. The client has asked for advice on the most cost effective way to resolve the performance problems?
 
@@ -1052,7 +1052,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 38: Incorrect*
+### Question 38: 
 
 You have just created a new AWS account and selected the Asia Pacific (Sydney) region. Within the default VPC there is a default security group. What default settings are configured within this security group? (choose 2)
 
@@ -1178,7 +1178,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 43: Incorrect
+### Question 43: 
 
 As a Solutions Architect at Digital Cloud Guru you are helping a client to design a multi-tier web application architecture. The client has requested that the architecture provide low-latency connectivity between all servers and be resilient across multiple locations. The client uses Microsoft SQL Server for existing databases. The client does not want to manage the underlying operating system of the database. How would you recommend the database tier is deployed?
 
@@ -1273,7 +1273,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 46: *
+### Question 46: 
 
 One of your clients has multiple VPCs that are peered with each other. The client would like to use a single Elastic Load Balancer (ELB) to route traffic to multiple EC2 instances in peered VPCs within the same region. Is this possible?
 
@@ -1462,7 +1462,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 53: *
+### Question 53: 
 
 Which of the following statements is correct about restoring an RDS database to a specific point-in-time? (choose 2)
 
@@ -1614,7 +1614,7 @@ https://aws.amazon.com/about-aws/whats-new/2011/12/27/amazon-s3-announces-object
 
 </p></details><hr>
 
-### Question 59: Incorrect*
+### Question 59: 
 
 You are putting together the architecture for a new VPC on AWS. Your on-premise data center will be connected to the VPC by a hardware VPN and has public and VPN-only subnets. The security team have requested that all traffic that hits the public subnets on AWS must be directed over the VPN to the corporate firewall. How can this be achieved?
 
@@ -1660,7 +1660,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 61: *
+### Question 61: 
 
 In Amazon CloudWatch how long are data points with a period of 3600 seconds (1 hour) available for?
 
@@ -1738,7 +1738,7 @@ https://aws.amazon.com/ec2/pricing/reserved-instances/
 
 </p></details><hr>
 
-### Question 64: *
+### Question 64: 
 
 Which statements about ECS are correct? (choose 3)
 
@@ -1763,7 +1763,7 @@ https://digitalcloud.guru/certification-training/aws-solutions-architect-associa
 
 </p></details><hr>
 
-### Question 65: Incorrect
+### Question 65: 
 
 You have launched an EC2 instance into a VPC. You need to ensure that instances have both a private and public DNS hostname. Assuming you did not change any settings during creation of the VPC, how will DNS hostnames be assigned by default? (choose 2)
 
