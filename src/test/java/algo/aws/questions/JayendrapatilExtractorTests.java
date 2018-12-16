@@ -21,6 +21,12 @@ public class JayendrapatilExtractorTests {
     public void testSaveAllQuestions() throws IOException {
         JayendrapatilUtils.saveAllQuestions();
     }
+
+    @Test
+    public void saveAllProfessionalQuestions() throws IOException {
+        JayendrapatilUtils.saveAllProfessionalQuestions();
+    }
+
     @Test
     public void testRetrieveUrls() throws IOException {
         Map<String, String> urls = JayendrapatilUtils.retrieveUrls();

@@ -16,13 +16,14 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Consumer;
 
 @Log4j2
 public class JayendrapatilUtils {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
+    static String dir = "/Users/algo/aws/questions/jayendrapatil";
 
     public static void saveAllQuestions() throws IOException {
-        String dir = "/Users/algo/aws/questions/jayendrapatil";
         Map<String, String> urls = retrieveUrls();
         for(String url:urls.keySet()){
             log.info("retriving {}", url);
@@ -37,6 +38,19 @@ public class JayendrapatilUtils {
             String json = gson.toJson(list);
             Files.write(path, json.getBytes());
         }
+    }
+
+    public static void saveAllProfessionalQuestions() throws IOException {
+        Map<String, String> urls = retrieveUrls();
+        List<Question> proList = new ArrayList<>();
+        for(String url:urls.keySet()){
+            log.info("retriving {}", url);
+            List<Question> list = retrieveQuestions(url);
+            list.stream().filter(q -> q.isProfessional).forEach(proList::add);
+        }
+        String json = gson.toJson(proList);
+        Path path = Paths.get(dir, "/professional-questions.json");
+        Files.write(path, json.getBytes());
     }
 
     public static Path getPath(String dir, String url){
