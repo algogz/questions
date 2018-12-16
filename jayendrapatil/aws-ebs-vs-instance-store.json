@@ -1,0 +1,70 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-ebs-vs-instance-store/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "EC2 EBS-backed (EBS root) instance is stopped, what happens to the data on any ephemeral store volumes?",
+    "choiceList": [
+      "A. Data is automatically saved in an EBS volume.",
+      "B. Data is unavailable until the instance is restarted.",
+      "C. Data will be deleted and will no longer be accessible.",
+      "D. Data is automatically saved as an EBS snapshot."
+    ],
+    "answerList": [],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-ebs-vs-instance-store/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ebs-vs-instance-store/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "When an EC2 instance that is backed by an S3-based AMI is terminated, what happens to the data on the root volume?",
+    "choiceList": [
+      "A. Data is automatically saved as an EBS snapshot.",
+      "B. Data is automatically saved as an EBS volume.",
+      "C. Data is unavailable until the instance is restarted.",
+      "D. Data is automatically deleted."
+    ],
+    "answerList": [],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-ebs-vs-instance-store/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ebs-vs-instance-store/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Which of the following will occur when an EC2 instance in a VPC (Virtual Private Cloud) with an associated Elastic IP is stopped and started? (Choose 2 answers)",
+    "choiceList": [
+      "A. The Elastic IP will be dissociated from the instance",
+      "B. All data on instance-store devices will be lost",
+      "C. All data on EBS (Elastic Block Store) devices will be lost",
+      "D. The ENI (Elastic Network Interface) is detached",
+      "E. The underlying host for the instance is changed"
+    ],
+    "answerList": [],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-ebs-vs-instance-store/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ebs-vs-instance-store/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "Which of the following provides the fastest storage medium?",
+    "choiceList": [
+      "A. Amazon S3",
+      "B. Amazon EBS using Provisioned IOPS (PIOPS)",
+      "C. SSD Instance (ephemeral) store",
+      "D. AWS Storage Gateway"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-ebs-vs-instance-store/",
+      "C: (SSD Instance Storage provides 100,000 IOPS on some instance types, much faster than any network-attached storage)"
+    ]
+  }
+]

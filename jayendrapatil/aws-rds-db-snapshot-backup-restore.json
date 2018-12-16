@@ -1,0 +1,207 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "Amazon RDS automated backups and DB Snapshots are currently supported for only the __________ storage engine",
+    "choiceList": [
+      "A. InnoDB",
+      "B. MyISAM"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "Automated backups are enabled by default for a new DB Instance.",
+    "choiceList": [
+      "A. TRUE",
+      "B. FALSE"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Amazon RDS DB snapshots and automated backups are stored in",
+    "choiceList": [
+      "A. Amazon S3",
+      "B. Amazon EBS Volume",
+      "C. Amazon RDS",
+      "D. Amazon EMR"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "You receive a frantic call from a new DBA who accidentally dropped a table containing all your customers. Which Amazon RDS feature will allow you to reliably restore your database to within 5 minutes of when the mistake was made?",
+    "choiceList": [
+      "A. Multi-AZ RDS",
+      "B. RDS snapshots",
+      "C. RDS read replicas",
+      "D. RDS automated backup"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "Disabling automated backups ______ disable the point-in-time recovery.",
+    "choiceList": [
+      "A. if configured to can",
+      "B. will never",
+      "C. will"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "Changes to the backup window take effect ______.",
+    "choiceList": [
+      "A. from the next billing cycle",
+      "B. after 30 minutes",
+      "C. immediately",
+      "D. after 24 hours"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 7,
+    "isProfessional": false,
+    "text": "You can modify the backup retention period; valid values are 0 (for no backup retention) to a maximum of ___________ days.",
+    "choiceList": [
+      "A. 45",
+      "B. 35",
+      "C. 15",
+      "D. 5"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 7@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 8,
+    "isProfessional": false,
+    "text": "Amazon RDS automated backups and DB Snapshots are currently supported for only the ______ storage engine",
+    "choiceList": [
+      "A. MyISAM",
+      "B. InnoDB "
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 8@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 9,
+    "isProfessional": false,
+    "text": "What happens to the I/O operations while you take a database snapshot?",
+    "choiceList": [
+      "A. I/O operations to the database are suspended for a few minutes while the backup is in progress.",
+      "B. I/O operations to the database are sent to a Replica (if available) for a few minutes while the backup is in progress.",
+      "C. I/O operations will be functioning normally",
+      "D. I/O operations to the database are suspended for an hour while the backup is in progress"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 9@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 10,
+    "isProfessional": false,
+    "text": "True or False: When you perform a restore operation to a point in time or from a DB Snapshot, a new DB Instance is created with a new endpoint.",
+    "choiceList": [
+      "A. FALSE",
+      "B. TRUE "
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 10@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 11,
+    "isProfessional": false,
+    "text": "True or False: Manually created DB Snapshots are deleted after the DB Instance is deleted.",
+    "choiceList": [
+      "A. TRUE",
+      "B. FALSE"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 11@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/",
+    "questionNumber": 12,
+    "isProfessional": false,
+    "text": "A user is running a MySQL RDS instance. The user will not use the DB for the next 3 months. How can the user save costs?",
+    "choiceList": [
+      "A. Pause the RDS activities from CLI until it is required in the future",
+      "B. Stop the RDS instance",
+      "C. Create a snapshot of RDS to launch in the future and terminate the instance now",
+      "D. Change the instance size to micro"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 12@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/"
+    ]
+  }
+]

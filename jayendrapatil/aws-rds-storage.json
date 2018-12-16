@@ -1,0 +1,90 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-rds-storage/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "When should I choose Provisioned IOPS over Standard RDS storage?",
+    "choiceList": [
+      "A. If you have batch-oriented workloads",
+      "B. If you use production online transaction processing (OLTP) workloads",
+      "C. If you have workloads that are not sensitive to consistent performance"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-rds-storage/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-storage/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "Is decreasing the storage size of a DB Instance permitted?",
+    "choiceList": [
+      "A. Depends on the RDMS used",
+      "B. Yes",
+      "C. No"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-rds-storage/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-storage/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Because of the extensibility limitations of striped storage attached to Windows Server, Amazon RDS does not currently support increasing storage on a _____ DB Instance.",
+    "choiceList": [
+      "A. SQL Server",
+      "B. MySQL",
+      "C. Oracle"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-rds-storage/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-storage/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "If I want to run a database in an Amazon instance, which is the most recommended Amazon storage option?",
+    "choiceList": [
+      "A. Amazon Instance Storage",
+      "B. Amazon EBS",
+      "C. You can’t run a database inside an Amazon instance.",
+      "D. Amazon S3"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-rds-storage/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-storage/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "For each DB Instance class, what is the maximum size of associated storage capacity?",
+    "choiceList": [
+      "A. 1TiB",
+      "B. 2TiB",
+      "C. 8TiB",
+      "D. 16TiB "
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-rds-storage/",
+      "D: (The limit keeps on changing so please check the latest always)"
+    ]
+  }
+]

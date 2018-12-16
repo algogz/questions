@@ -1,0 +1,125 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "You would like to create a mirror image of your production environment in another region for disaster recovery purposes. Which of the following AWS resources do not need to be recreated in the second region? (Choose 2 answers)",
+    "choiceList": [
+      "A. Route 53 Record Sets",
+      "B. IAM Roles",
+      "C. Elastic IP Addresses (EIP) ",
+      "D. EC2 Key Pairs ",
+      "E. Launch configurations",
+      "F. Security Groups "
+    ],
+    "answerList": [
+      "A",
+      "B"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+      "C: are specific to a region",
+      "D: are specific to a region",
+      "F: are specific to a region"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "When using the following AWS services, which should be implemented in multiple Availability Zones for high availability solutions? Choose 2 answers",
+    "choiceList": [
+      "A. Amazon DynamoDB ",
+      "B. Amazon Elastic Compute Cloud (EC2)",
+      "C. Amazon Elastic Load Balancing",
+      "D. Amazon Simple Notification Service (SNS) ",
+      "E. Amazon Simple Storage Service (S3) "
+    ],
+    "answerList": [
+      "B",
+      "C"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+      "A: already replicates across AZs",
+      "D: Global Managed Service",
+      "E: Global Managed Service"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "What is the scope of an EBS volume?",
+    "choiceList": [
+      "A. VPC",
+      "B. Region",
+      "C. Placement Group",
+      "D. Availability Zone"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "What is the scope of AWS IAM?",
+    "choiceList": [
+      "A. Global",
+      "B. Availability Zone",
+      "C. Region",
+      "D. Placement Group"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+      "A: IAM resources are all global; there is not regional constraint"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "What is the scope of an EC2 EIP?",
+    "choiceList": [
+      "A. Placement Group",
+      "B. Availability Zone",
+      "C. Region",
+      "D. VPC"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+      "C: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html",
+      "C: An Elastic IP address is tied to a region and can be associated only with an instance in the same region. Refer"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "What is the scope of an EC2 security group?",
+    "choiceList": [
+      "A. Availability Zone",
+      "B. Placement Group",
+      "C. Region",
+      "D. VPC"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
+      "C: A security group is tied to a region and can be assigned only to instances in the same region"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-api-gateway/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "You are running a mobile media application and are considering API Gateway for the client entry point. What benefits would this provide? Choose 2 answers",
+    "choiceList": [
+      "A. Caching API responses",
+      "B. IP blacklisting",
+      "C. Intrusion prevention",
+      "D. Load balancing",
+      "E. Throttling traffic"
+    ],
+    "answerList": [
+      "A",
+      "E"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-api-gateway/"
+    ]
+  }
+]

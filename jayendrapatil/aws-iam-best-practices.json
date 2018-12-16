@@ -1,0 +1,96 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-iam-best-practices/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "Your organization is preparing for a security assessment of your use of AWS. In preparation for this assessment, which two IAM best practices should you consider implementing? Choose 2 answers",
+    "choiceList": [
+      "A. Create individual IAM users for everyone in your organization",
+      "B. Configure MFA on the root account and for privileged IAM users",
+      "C. Assign IAM users and groups configured with policies granting least privilege access",
+      "D. Ensure all users have been assigned and are frequently rotating a password, access ID/secret key, and X.509 certificate"
+    ],
+    "answerList": [],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-iam-best-practices/",
+      "A: (May not be needed as can use Roles as well)",
+      "D: (Must be assigned only if using console or through command line)"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-iam-best-practices/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "What are the recommended best practices for IAM? (Choose 3 answers)",
+    "choiceList": [
+      "A. Grant least privilege",
+      "B. User the AWS account(root) for regular user",
+      "C. Use Mutli-Factor Authentication (MFA)",
+      "D. Store access key/private key in git",
+      "E. Rotate credentials regularly"
+    ],
+    "answerList": [
+      "A",
+      "C",
+      "E"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-iam-best-practices/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-iam-best-practices/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Which of the below mentioned options is not a best practice to securely manage the AWS access credentials?",
+    "choiceList": [
+      "A. Enable MFA for privileged users",
+      "B. Create individual IAM users",
+      "C. Keep rotating your secure access credentials at regular intervals",
+      "D. Create strong access key and secret access key and attach to the root account"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-iam-best-practices/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-iam-best-practices/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "Your CTO is very worried about the security of your AWS account. How best can you prevent hackers from completely hijacking your account?",
+    "choiceList": [
+      "A. Use short but complex password on the root account and any administrators.",
+      "B. Use AWS IAM Geo-Lock and disallow anyone from logging in except for in your city.",
+      "C. Use MFA on all users and accounts, especially on the root account.",
+      "D. Don’t write down or remember the root account password after creating the AWS account."
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-iam-best-practices/",
+      "C: For increased security, it is recommend to configure MFA to help protect AWS resources"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-iam-best-practices/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "Fill the blanks: ____ helps us track AWS API calls and transitions, ____ helps to understand what resources we have now, and ____ allows auditing credentials and logins.",
+    "choiceList": [
+      "A. AWS Config, CloudTrail, IAM Credential Reports",
+      "B. CloudTrail, IAM Credential Reports, AWS Config",
+      "C. CloudTrail, AWS Config, IAM Credential Reports",
+      "D. AWS Config, IAM Credential Reports, CloudTrail"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-iam-best-practices/"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-storage/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "When you view the block device mapping for your instance, you can see only the EBS volumes, not the instance store volumes.",
+    "choiceList": [
+      "A. Depends on the instance type",
+      "B. FALSE",
+      "C. Depends on whether you use API call",
+      "D. TRUE"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-ec2-storage/"
+    ]
+  }
+]

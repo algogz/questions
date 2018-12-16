@@ -1,0 +1,89 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "A user has launched an RDS MySQL DB with the Multi AZ feature. The user has scheduled the scaling of instance storage during maintenance window. What is the correct order of events during maintenance window? 1. Perform maintenance on standby 2. Promote standby to primary 3. Perform maintenance on original primary 4. Promote original master back as primary",
+    "choiceList": [
+      "A. 1, 2, 3, 4",
+      "B. 1, 2, 3",
+      "C. 2, 3, 4, 1"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "Can I control if and when MySQL based RDS Instance is upgraded to new supported versions?",
+    "choiceList": [
+      "A. No",
+      "B. Only in VPC",
+      "C. Yes"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "A user has scheduled the maintenance window of an RDS DB on Monday at 3 AM. Which of the below mentioned events may force to take the DB instance offline during the maintenance window?",
+    "choiceList": [
+      "A. Enabling Read Replica",
+      "B. Making the DB Multi AZ",
+      "C. DB password change",
+      "D. Security patching"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "A user has launched an RDS postgreSQL DB with AWS. The user did not specify the maintenance window during creation. The user has configured RDS to update the DB instance type from micro to large. If the user wants to have it during the maintenance window, what will AWS do?",
+    "choiceList": [
+      "A. AWS will not allow to update the DB until the maintenance window is configured",
+      "B. AWS will select the default maintenance window if the user has not provided it",
+      "C. AWS will ask the user to specify the maintenance window during the update",
+      "D. It is not possible to change the DB size from micro to large with RDS"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "Can I test my DB Instance against a new version before upgrading?",
+    "choiceList": [
+      "A. No",
+      "B. Yes",
+      "C. Only in VPC"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ]
+  }
+]

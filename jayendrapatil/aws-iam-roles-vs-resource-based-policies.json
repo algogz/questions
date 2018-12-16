@@ -1,0 +1,38 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-iam-roles-vs-resource-based-policies/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "What are the two permission types used by AWS?",
+    "choiceList": [
+      "A. Resource-based and Product-based",
+      "B. Product-based and Service-based",
+      "C. Service-based",
+      "D. User-based and Resource-based"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-iam-roles-vs-resource-based-policies/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-iam-roles-vs-resource-based-policies/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "What’s the policy used for cross account access? (Choose 2)",
+    "choiceList": [
+      "A. Trust policy",
+      "B. Permissions Policy",
+      "C. Key policy"
+    ],
+    "answerList": [
+      "A",
+      "B"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-iam-roles-vs-resource-based-policies/"
+    ]
+  }
+]

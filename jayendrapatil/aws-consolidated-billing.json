@@ -1,0 +1,20 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-consolidated-billing/",
+    "questionNumber": 9,
+    "isProfessional": false,
+    "text": "An organization has 10 departments. The organization wants to track the AWS usage of each department. Which of the below mentioned options meets the requirement?",
+    "choiceList": [
+      "A. Setup IAM groups for each department and track their usage",
+      "B. Create separate accounts for each department, but use consolidated billing for payment and tracking",
+      "C. Create separate accounts for each department and track them separately",
+      "D. Setup IAM users for each department and track their usage"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 9@http://jayendrapatil.com/aws-consolidated-billing/"
+    ]
+  }
+]

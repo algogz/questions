@@ -1,0 +1,64 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-root-access-enabled-services/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "Which services allow the customer to retain full administrative privileges of the underlying EC2 instances? Choose 2 answers",
+    "choiceList": [
+      "A. Amazon Elastic Map Reduce",
+      "B. Elastic Load Balancing",
+      "C. AWS Elastic Beanstalk",
+      "D. Amazon ElastiCache",
+      "E. Amazon Relational Database service"
+    ],
+    "answerList": [
+      "A",
+      "C"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-root-access-enabled-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-root-access-enabled-services/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "Which for the services provide root access",
+    "choiceList": [
+      "A. Elastic Beanstalk",
+      "B. EC2",
+      "C. Opswork",
+      "D. EC2",
+      "E. DynamoDb",
+      "F. RDS",
+      "G. S3"
+    ],
+    "answerList": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-root-access-enabled-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-root-access-enabled-services/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "A client application requires operating system privileges on a relational database server. What is an appropriate configuration for highly available database architecture?",
+    "choiceList": [
+      "A. A standalone Amazon EC2 instance",
+      "B. Amazon RDS in a Multi-AZ configuration",
+      "C. Amazon EC2 instances in a replication configuration utilizing a single Availability Zone",
+      "D. Amazon EC2 instances in a replication configuration utilizing two different Availability Zones"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-root-access-enabled-services/"
+    ]
+  }
+]

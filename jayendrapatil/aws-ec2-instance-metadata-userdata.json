@@ -1,0 +1,110 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "How can software determine the public and private IP addresses of the Amazon EC2 instance that it is running on?",
+    "choiceList": [
+      "A. Query the local instance metadata",
+      "B. Query the appropriate Amazon CloudWatch metric.",
+      "C. Query the local instance userdata.",
+      "D. Use ipconfig or ifconfig command."
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "The base URI for all requests for instance metadata is ___________",
+    "choiceList": [
+      "A. http://254.169.169.254/latest/",
+      "B. http://169.169.254.254/latest/",
+      "C. http://127.0.0.1/latest/",
+      "D. http://169.254.169.254/latest/"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Which Amazon Elastic Compute Cloud feature can you query from within the instance to access instance properties?",
+    "choiceList": [
+      "A. Instance user data",
+      "B. Resource tags",
+      "C. Instance metadata",
+      "D. Amazon Machine Image"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "You need to pass a custom script to new Amazon Linux instances created in your Auto Scaling group. Which feature allows you to accomplish this?",
+    "choiceList": [
+      "A. User data",
+      "B. EC2Config service",
+      "C. IAM roles",
+      "D. AWS Config"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "By default, when an EBS volume is attached to a Windows instance, it may show up as any drive letter on the instance. You can change the settings of the _____ Service to set the drive letters of the EBS volumes per your specifications.",
+    "choiceList": [
+      "A. EBSConfig Service",
+      "B. AMIConfig Service",
+      "C. EC2Config Service",
+      "D. Ec2-AMIConfig Service"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "How can software determine the public and private IP addresses of the Amazon EC2 instance that it is running on?",
+    "choiceList": [
+      "A. Query the appropriate Amazon CloudWatch metric.",
+      "B. Use ipconfig or ifconfig command.",
+      "C. Query the local instance userdata.",
+      "D. Query the local instance metadata."
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/"
+    ]
+  }
+]

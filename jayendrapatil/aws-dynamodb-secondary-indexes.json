@@ -1,0 +1,75 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb-secondary-indexes/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "In DynamoDB, a secondary index is a data structure that contains a subset of attributes from a table, along with an alternate key to support ____ operations.",
+    "choiceList": [
+      "A. None of the above",
+      "B. Both",
+      "C. Query",
+      "D. Scan"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb-secondary-indexes/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "In regard to DynamoDB, what is the Global secondary index?",
+    "choiceList": [
+      "A. An index with a hash and range key that can be different from those on the table",
+      "B. An index that has the same range key as the table, but a different hash key",
+      "C. An index that has the same hash key and range key as the table",
+      "D. An index that has the same hash key as the table, but a different range key"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb-secondary-indexes/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "In regard to DynamoDB, can I modify the index once it is created?",
+    "choiceList": [
+      "A. Yes, if it is a primary hash key index",
+      "B. Yes, if it is a Global secondary index",
+      "C. No",
+      "D. Yes, if it is a local secondary index"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/",
+      "B: (AWS now allows you to modify global secondary indexes after creation)"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb-secondary-indexes/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "When thinking of DynamoDB, what are true of Global Secondary Key properties?",
+    "choiceList": [
+      "A. The partition key and sort key can be different from the table.",
+      "B. Only the partition key can be different from the table.",
+      "C. Either the partition key or the sort key can be different from the table, but not both.",
+      "D. Only the sort key can be different from the table."
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/"
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "What is the minimum time Interval for the data that Amazon CloudWatch receives and aggregates?",
+    "choiceList": [
+      "A. One second",
+      "B. Five seconds",
+      "C. One minute",
+      "D. Three minutes",
+      "E. Five minutes"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "In the ‘Detailed’ monitoring data available for your Amazon EBS volumes, Provisioned IOPS volumes automatically send _____ minute metrics to Amazon CloudWatch.",
+    "choiceList": [
+      "A. 3",
+      "B. 1",
+      "C. 5",
+      "D. 2"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Using Amazon CloudWatch’s Free Tier, what is the frequency of metric updates, which you receive?",
+    "choiceList": [
+      "A. 5 minutes",
+      "B. 500 milliseconds.",
+      "C. 30 seconds",
+      "D. 1 minute"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "What is the type of monitoring data (for Amazon EBS volumes) which is available automatically in 5-minute periods at no charge called?",
+    "choiceList": [
+      "A. Basic",
+      "B. Primary",
+      "C. Detailed",
+      "D. Local"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "A user has created an Auto Scaling group using CLI. The user wants to enable CloudWatch detailed monitoring for that group. How can the user configure this?",
+    "choiceList": [
+      "A. When the user sets an alarm on the Auto Scaling group, it automatically enables detail monitoring",
+      "B. By default detailed monitoring is enabled for Auto Scaling",
+      "C. Auto Scaling does not support detailed monitoring",
+      "D. Enable detail monitoring from the AWS console"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+      "B: Detailed monitoring is enabled when you create the launch configuration using the AWS CLI or an API"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "A user is trying to understand the detailed CloudWatch monitoring concept. Which of the below mentioned services provides detailed monitoring with CloudWatch without charging the user extra?",
+    "choiceList": [
+      "A. AWS Auto Scaling",
+      "B. AWS Route 53",
+      "C. AWS EMR",
+      "D. AWS SNS"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 7,
+    "isProfessional": false,
+    "text": "A user is trying to understand the detailed CloudWatch monitoring concept. Which of the below mentioned services does not provide detailed monitoring with CloudWatch?",
+    "choiceList": [
+      "A. AWS EMR",
+      "B. AWS RDS",
+      "C. AWS ELB",
+      "D. AWS Route53"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 7@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 8,
+    "isProfessional": false,
+    "text": "A user has enabled detailed CloudWatch monitoring with the AWS Simple Notification Service. Which of the below mentioned statements helps the user understand detailed monitoring better?",
+    "choiceList": [
+      "A. SNS will send data every minute after configuration",
+      "B. There is no need to enable since SNS provides data every minute",
+      "C. AWS CloudWatch does not support monitoring for SNS",
+      "D. SNS cannot provide data every minute"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 8@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
+    "questionNumber": 9,
+    "isProfessional": false,
+    "text": "A user has configured an Auto Scaling group with ELB. The user has enabled detailed CloudWatch monitoring on Auto Scaling. Which of the below mentioned statements will help the user understand the functionality better?",
+    "choiceList": [
+      "A. It is not possible to setup detailed monitoring for Auto Scaling",
+      "B. In this case, Auto Scaling will send data every minute and will charge the user extra",
+      "C. Detailed monitoring will send data every minute without additional charges",
+      "D. Auto Scaling sends data every minute only and does not charge the user"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 9@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-overview/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "What are the Amazon EC2 API tools?",
+    "choiceList": [
+      "A. They don’t exist. The Amazon EC2 AMI tools, instead, are used to manage permissions.",
+      "B. Command-line tools to the Amazon EC2 web service",
+      "C. They are a set of graphical tools to manage EC2 instances.",
+      "D. They don’t exist. The Amazon API tools are a client interface to Amazon Web Services."
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-ec2-overview/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-ec2-overview/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "When a user is launching an instance with EC2, which of the below mentioned options is not available during the instance launch console for a key pair?",
+    "choiceList": [
+      "A. Proceed without the key pair",
+      "B. Upload a new key pair",
+      "C. Select an existing key pair",
+      "D. Create a new key pair"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-ec2-overview/"
+    ]
+  }
+]

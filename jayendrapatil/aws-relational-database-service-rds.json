@@ -1,0 +1,196 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "What does Amazon RDS stand for?",
+    "choiceList": [
+      "A. Regional Data Server.",
+      "B. Relational Database Service",
+      "C. Regional Database Service."
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "How many relational database engines does RDS currently support?",
+    "choiceList": [
+      "A. MySQL, Postgres, MariaDB, Oracle and Microsoft SQL Server",
+      "B. Just two: MySQL and Oracle.",
+      "C. Five: MySQL, PostgreSQL, MongoDB, Cassandra and SQLite.",
+      "D. Just one: MySQL."
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "If I modify a DB Instance or the DB parameter group associated with the instance, should I reboot the instance for the changes to take effect?",
+    "choiceList": [
+      "A. No",
+      "B. Yes"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "What is the name of licensing model in which I can use your existing Oracle Database licenses to run Oracle deployments on Amazon RDS?",
+    "choiceList": [
+      "A. Bring Your Own License",
+      "B. Role Bases License",
+      "C. Enterprise License",
+      "D. License Included"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "Will I be charged if the DB instance is idle?",
+    "choiceList": [
+      "A. No",
+      "B. Yes",
+      "C. Only is running in GovCloud",
+      "D. Only if running in VPC"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "What is the minimum charge for the data transferred between Amazon RDS and Amazon EC2 Instances in the same Availability Zone?",
+    "choiceList": [
+      "A. USD 0.10 per GB",
+      "B. No charge. It is free.",
+      "C. USD 0.02 per GB",
+      "D. USD 0.01 per GB"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 7,
+    "isProfessional": false,
+    "text": "Does Amazon RDS allow direct host access via Telnet, Secure Shell (SSH), or Windows Remote Desktop Connection?",
+    "choiceList": [
+      "A. Yes",
+      "B. No",
+      "C. Depends on if it is in VPC or not"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 7@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 8,
+    "isProfessional": false,
+    "text": "What are the two types of licensing options available for using Amazon RDS for Oracle?",
+    "choiceList": [
+      "A. BYOL and Enterprise License",
+      "B. BYOL and License Included",
+      "C. Enterprise License and License Included",
+      "D. Role based License and License Included"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 8@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 9,
+    "isProfessional": false,
+    "text": "A user plans to use RDS as a managed DB platform. Which of the below mentioned features is not supported by RDS?",
+    "choiceList": [
+      "A. Automated backup",
+      "B. Automated scaling to manage a higher load",
+      "C. Automated failure detection and recovery",
+      "D. Automated software patching"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 9@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 10,
+    "isProfessional": false,
+    "text": "A user is launching an AWS RDS with MySQL. Which of the below mentioned options allows the user to configure the InnoDB engine parameters?",
+    "choiceList": [
+      "A. Options group",
+      "B. Engine parameters",
+      "C. Parameter groups",
+      "D. DB parameters"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 10@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
+    "questionNumber": 11,
+    "isProfessional": false,
+    "text": "A user is planning to use the AWS RDS with MySQL. Which of the below mentioned services the user is not going to pay?",
+    "choiceList": [
+      "A. Data transfer",
+      "B. RDS CloudWatch metrics",
+      "C. Data storage",
+      "D. I/O requests per month"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 11@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ]
+  }
+]

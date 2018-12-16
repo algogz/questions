@@ -1,0 +1,523 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "Which of the following are use cases for Amazon DynamoDB? Choose 3 answers",
+    "choiceList": [
+      "A. Storing BLOB data.",
+      "B. Managing web sessions",
+      "C. Storing JSON documents",
+      "D. Storing metadata for Amazon S3 objects",
+      "E. Running relational joins and complex updates.",
+      "F. Storing large amounts of infrequently accessed data."
+    ],
+    "answerList": [
+      "B",
+      "C",
+      "D"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "You are configuring your company’s application to use Auto Scaling and need to move user state information. Which of the following AWS services provides a shared data store with durability and low latency?",
+    "choiceList": [
+      "A. AWS ElastiCache Memcached ",
+      "B. Amazon Simple Storage Service ",
+      "C. Amazon EC2 instance storage ",
+      "D. Amazon DynamoDB"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-dynamodb/",
+      "A: does not allow writes",
+      "B: does not provide low latency",
+      "C: not durable"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Does Dynamo DB support in-place atomic updates?",
+    "choiceList": [
+      "A. It is not defined",
+      "B. No",
+      "C. Yes",
+      "D. It does support in-place non-atomic updates"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "What is the maximum write throughput I can provision for a single Dynamic DB table?",
+    "choiceList": [
+      "A. 1,000 write capacity units",
+      "B. 100,000 write capacity units",
+      "C. Dynamic DB is designed to scale without limits, but if you go beyond 10,000 you have to contact AWS first",
+      "D. 10,000 write capacity units"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "For a DynamoDB table, what happens if the application performs more reads or writes than your provisioned capacity?",
+    "choiceList": [
+      "A. Nothing",
+      "B. requests above the provisioned capacity will be performed but you will receive 400 error codes.",
+      "C. requests above the provisioned capacity will be performed but you will receive 200 error codes.",
+      "D. requests above the provisioned capacity will be throttled and you will receive 400 error codes."
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "In which of the following situations might you benefit from using DynamoDB? (Choose 2 answers)",
+    "choiceList": [
+      "A. You need fully managed database to handle highly complex queries",
+      "B. You need to deal with massive amount of “hot” data and require very low latency",
+      "C. You need a rapid ingestion of clickstream in order to collect data about user behavior",
+      "D. Your on-premises data center runs Oracle database, and you need to host a backup in AWS cloud"
+    ],
+    "answerList": [
+      "B",
+      "C"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 7,
+    "isProfessional": true,
+    "text": "You are designing a file-sharing service. This service will have millions of files in it. Revenue for the service will come from fees based on how much storage a user is using. You also want to store metadata on each file, such as title, description and whether the object is public or private. How do you achieve all of these goals in a way that is economical and can scale to millions of users? [PROFESSIONAL]",
+    "choiceList": [
+      "A. Store all files in Amazon Simple Storage Service (S3). Create a bucket for each user. Store metadata in the filename of each object, and access it with LIST commands against the S3 API. ",
+      "B. Store all files in Amazon S3. Create Amazon DynamoDB tables for the corresponding key-value pairs on the associated metadata, when objects are uploaded.",
+      "C. Create a striped set of 4000 IOPS Elastic Load Balancing volumes to store the data. Use a database running in Amazon Relational Database Service (RDS) to store the metadata.",
+      "D. Create a striped set of 4000 IOPS Elastic Load Balancing volumes to store the data. Create Amazon DynamoDB tables for the corresponding key-value pairs on the associated metadata, when objects are uploaded. "
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 7@http://jayendrapatil.com/aws-dynamodb/",
+      "A: expensive and slow as it returns only 1000 items at a time",
+      "C: not economical with volumes",
+      "D: not economical with volumes"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 8,
+    "isProfessional": true,
+    "text": "A utility company is building an application that stores data coming from more than 10,000 sensors. Each sensor has a unique ID and will send a datapoint (approximately 1KB) every 10 minutes throughout the day. Each datapoint contains the information coming from the sensor as well as a timestamp. This company would like to query information coming from a particular sensor for the past week very rapidly and want to delete all the data that is older than 4 weeks. Using Amazon DynamoDB for its scalability and rapidity, how do you implement this in the most cost effective way? [PROFESSIONAL]",
+    "choiceList": [
+      "A. One table, with a primary key that is the sensor ID and a hash key that is the timestamp ",
+      "B. One table, with a primary key that is the concatenation of the sensor ID and timestamp ",
+      "C. One table for each week, with a primary key that is the concatenation of the sensor ID and timestamp ",
+      "D. One table for each week, with a primary key that is the sensor ID and a hash key that is the timestamp"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 8@http://jayendrapatil.com/aws-dynamodb/",
+      "A: Single table impacts performance",
+      "B: Single table and concatenation impacts performance",
+      "C: Concatenation will cause queries would be slower, if at all",
+      "D: Composite key with Sensor ID and timestamp would help for faster queries"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 9,
+    "isProfessional": true,
+    "text": "You have recently joined a startup company building sensors to measure street noise and air quality in urban areas. The company has been running a pilot deployment of around 100 sensors for 3 months. Each sensor uploads 1KB of sensor data every minute to a backend hosted on AWS. During the pilot, you measured a peak of 10 IOPS on the database, and you stored an average of 3GB of sensor data per month in the database. The current deployment consists of a load-balanced auto scaled Ingestion layer using EC2 instances and a PostgreSQL RDS database with 500GB standard storage. The pilot is considered a success and your CEO has managed to get the attention or some potential investors. The business plan requires a deployment of at least 100K sensors, which needs to be supported by the backend. You also need to store sensor data for at least two years to be able to compare year over year Improvements. To secure funding, you have to make sure that the platform meets these requirements and leaves room for further scaling. Which setup will meet the requirements? [PROFESSIONAL]",
+    "choiceList": [
+      "A. Add an SQS queue to the ingestion layer to buffer writes to the RDS instance ",
+      "B. Ingest data into a DynamoDB table and move old data to a Redshift cluster",
+      "C. Replace the RDS instance with a 6 node Redshift cluster with 96TB of storage ",
+      "D. Keep the current architecture but upgrade RDS storage to 3TB and 10K provisioned IOPS "
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 9@http://jayendrapatil.com/aws-dynamodb/",
+      "A: RDS instance will not support data for 2 years",
+      "B: Handle 10K IOPS ingestion and store data into Redshift for analysis",
+      "C: Does not handle the ingestion issue",
+      "D: RDS instance will not support data for 2 years"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 10,
+    "isProfessional": false,
+    "text": "Does Amazon DynamoDB support both increment and decrement atomic operations?",
+    "choiceList": [
+      "A. No, neither increment nor decrement operations.",
+      "B. Only increment, since decrement are inherently impossible with DynamoDB’s data model.",
+      "C. Only decrement, since increment are inherently impossible with DynamoDB’s data model.",
+      "D. Yes, both increment and decrement operations."
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 10@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 11,
+    "isProfessional": false,
+    "text": "What is the data model of DynamoDB?",
+    "choiceList": [
+      "A. “Items”, with Keys and one or more Attribute; and “Attribute”, with Name and Value.",
+      "B. “Database”, which is a set of “Tables”, which is a set of “Items”, which is a set of “Attributes”.",
+      "C. “Table”, a collection of Items; “Items”, with Keys and one or more Attribute; and “Attribute”, with Name and Value.",
+      "D. “Database”, a collection of Tables; “Tables”, with Keys and one or more Attribute; and “Attribute”, with Name and Value."
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 11@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 12,
+    "isProfessional": false,
+    "text": "In regard to DynamoDB, for which one of the following parameters does Amazon not charge you?",
+    "choiceList": [
+      "A. Cost per provisioned write units",
+      "B. Cost per provisioned read units",
+      "C. Storage cost",
+      "D. I/O usage within the same Region"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 12@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 13,
+    "isProfessional": false,
+    "text": "Which statements about DynamoDB are true? Choose 2 answers.",
+    "choiceList": [
+      "A. DynamoDB uses a pessimistic locking model",
+      "B. DynamoDB uses optimistic concurrency control",
+      "C. DynamoDB uses conditional writes for consistency",
+      "D. DynamoDB restricts item access during reads",
+      "E. DynamoDB restricts item access during writes"
+    ],
+    "answerList": [
+      "B",
+      "C"
+    ],
+    "commentList": [
+      "Question 13@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 14,
+    "isProfessional": false,
+    "text": "Which of the following is an example of a good DynamoDB hash key schema for provisioned throughput efficiency?",
+    "choiceList": [
+      "A. User ID, where the application has many different users.",
+      "B. Status Code where most status codes is the same.",
+      "C. Device ID, where one is by far more popular than all the others.",
+      "D. Game Type, where there are three possible game types."
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 14@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 15,
+    "isProfessional": false,
+    "text": "You are inserting 1000 new items every second in a DynamoDB table. Once an hour these items are analyzed and then are no longer needed. You need to minimize provisioned throughput, storage, and API calls. Given these requirements, what is the most efficient way to manage these Items after the analysis?",
+    "choiceList": [
+      "A. Retain the items in a single table",
+      "B. Delete items individually over a 24 hour period",
+      "C. Delete the table and create a new table per hour",
+      "D. Create a new table per hour"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 15@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 16,
+    "isProfessional": false,
+    "text": "When using a large Scan operation in DynamoDB, what technique can be used to minimize the impact of a scan on a table’s provisioned throughput?",
+    "choiceList": [
+      "A. Set a smaller page size for the scan",
+      "B. Use parallel scans",
+      "C. Define a range index on the table",
+      "D. Prewarm the table by updating all items"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 16@http://jayendrapatil.com/aws-dynamodb/",
+      "A: http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScanGuidelines.html"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 17,
+    "isProfessional": false,
+    "text": "In regard to DynamoDB, which of the following statements is correct?",
+    "choiceList": [
+      "A. An Item should have at least two value sets, a primary key and another attribute.",
+      "B. An Item can have more than one attributes",
+      "C. A primary key should be single-valued.",
+      "D. An attribute can have one or several other attributes."
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 17@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 18,
+    "isProfessional": false,
+    "text": "Which one of the following statements is NOT an advantage of DynamoDB being built on Solid State Drives?",
+    "choiceList": [
+      "A. serve high-scale request workloads",
+      "B. low request pricing",
+      "C. high I/O performance of WebApp on EC2 instance",
+      "D. low-latency response times"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 18@http://jayendrapatil.com/aws-dynamodb/",
+      "C: Not related to DynamoDB"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 19,
+    "isProfessional": false,
+    "text": "Which one of the following operations is NOT a DynamoDB operation?",
+    "choiceList": [
+      "A. BatchWriteItem",
+      "B. DescribeTable",
+      "C. BatchGetItem",
+      "D. BatchDeleteItem"
+    ],
+    "answerList": [
+      "D"
+    ],
+    "commentList": [
+      "Question 19@http://jayendrapatil.com/aws-dynamodb/",
+      "D: DeleteItem deletes a single item in a table by primary key, but BatchDeleteItem doesn’t exist"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 20,
+    "isProfessional": false,
+    "text": "What item operation allows the retrieval of multiple items from a DynamoDB table in a single API call?",
+    "choiceList": [
+      "A. GetItem",
+      "B. BatchGetItem",
+      "C. GetMultipleItems",
+      "D. GetItemRange"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 20@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 21,
+    "isProfessional": true,
+    "text": "An application stores payroll information nightly in DynamoDB for a large number of employees across hundreds of offices. Item attributes consist of individual name, office identifier, and cumulative daily hours. Managers run reports for ranges of names working in their office. One query is. “Return all Items in this office for names starting with A through E”. Which table configuration will result in the lowest impact on provisioned throughput for this query? [PROFESSIONAL]",
+    "choiceList": [
+      "A. Configure the table to have a hash index on the name attribute, and a range index on the office identifier",
+      "B. Configure the table to have a range index on the name attribute, and a hash index on the office identifier",
+      "C. Configure a hash index on the name attribute and no range index",
+      "D. Configure a hash index on the office Identifier attribute and no range index"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 21@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 22,
+    "isProfessional": false,
+    "text": "You need to migrate 10 million records in one hour into DynamoDB. All records are 1.5KB in size. The data is evenly distributed across the partition key. How many write capacity units should you provision during this batch load?",
+    "choiceList": [
+      "A. 6667",
+      "B. 4166",
+      "C. 5556",
+      "D. 2778"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 22@http://jayendrapatil.com/aws-dynamodb/",
+      "C: http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ProvisionedThroughput.html",
+      "C: ( 2 write units (1 for each 1KB) * 10 million/3600 secs, refer )"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 23,
+    "isProfessional": false,
+    "text": "A meteorological system monitors 600 temperature gauges, obtaining temperature samples every minute and saving each sample to a DynamoDB table. Each sample involves writing 1K of data and the writes are evenly distributed over time. How much write throughput is required for the target table?",
+    "choiceList": [
+      "A. 1 write capacity unit",
+      "B. 10 write capacity units",
+      "C. 60 write capacity units",
+      "D. 600 write capacity units",
+      "E. 3600 write capacity units"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 23@http://jayendrapatil.com/aws-dynamodb/",
+      "B: 1 write unit for 1K * 600 gauges/60 secs",
+      "B: ( )"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 24,
+    "isProfessional": false,
+    "text": "You are building a game high score table in DynamoDB. You will store each user’s highest score for each game, with many games, all of which have relatively similar usage levels and numbers of players. You need to be able to look up the highest score for any game. What’s the best DynamoDB key structure?",
+    "choiceList": [
+      "A. HighestScore as the hash / only key.",
+      "B. GameID as the hash key, HighestScore as the range key.",
+      "C. GameID as the hash / only key.",
+      "D. GameID as the range / only key."
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 24@http://jayendrapatil.com/aws-dynamodb/",
+      "B: http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForTables.html#GuidelinesForTables.Partitions",
+      "B: hash (partition) key should be the GameID, and there should be a range key for ordering HighestScore. Refer"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 25,
+    "isProfessional": false,
+    "text": "You are experiencing performance issues writing to a DynamoDB table. Your system tracks high scores for video games on a marketplace. Your most popular game experiences all of the performance issues. What is the most likely problem?",
+    "choiceList": [
+      "A. DynamoDB’s vector clock is out of sync, because of the rapid growth in request for the most popular game.",
+      "B. You selected the Game ID or equivalent identifier as the primary partition key for the table.",
+      "C. Users of the most popular video game each perform more read and write requests than average.",
+      "D. You did not provision enough read or write throughput to the table."
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 25@http://jayendrapatil.com/aws-dynamodb/",
+      "B: http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForTables.html#GuidelinesForTables.UniformWorkload",
+      "B: Refer Refer"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 26,
+    "isProfessional": false,
+    "text": "You are writing to a DynamoDB table and receive the following exception:” ProvisionedThroughputExceededException”. Though according to your Cloudwatch metrics for the table, you are not exceeding your provisioned throughput. What could be an explanation for this?",
+    "choiceList": [
+      "A. You haven’t provisioned enough DynamoDB storage instances",
+      "B. You’re exceeding your capacity on a particular Range Key",
+      "C. You’re exceeding your capacity on a particular Hash Key",
+      "D. You’re exceeding your capacity on a particular Sort Key",
+      "E. You haven’t configured DynamoDB Auto Scaling triggers"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 26@http://jayendrapatil.com/aws-dynamodb/",
+      "C: Hash key determines the partition and hence the performance"
+    ]
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-dynamodb/",
+    "questionNumber": 27,
+    "isProfessional": true,
+    "text": "Your company sells consumer devices and needs to record the first activation of all sold devices. Devices are not activated until the information is written on a persistent database. Activation data is very important for your company and must be analyzed daily with a MapReduce job. The execution time of the data analysis process must be less than three hours per day. Devices are usually sold evenly during the year, but when a new device model is out, there is a predictable peak in activation’s, that is, for a few days there are 10 times or even 100 times more activation’s than in average day. Which of the following databases and analysis framework would you implement to better optimize costs and performance for this workload? [PROFESSIONAL]",
+    "choiceList": [
+      "A. Amazon RDS and Amazon Elastic MapReduce with Spot instances.",
+      "B. Amazon DynamoDB and Amazon Elastic MapReduce with Spot instances.",
+      "C. Amazon RDS and Amazon Elastic MapReduce with Reserved instances.",
+      "D. Amazon DynamoDB and Amazon Elastic MapReduce with Reserved instances"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 27@http://jayendrapatil.com/aws-dynamodb/"
+    ]
+  }
+]
