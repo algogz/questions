@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
@@ -16,6 +17,15 @@ import java.util.Map;
 @Log4j2
 public class JayendrapatilExtractorTests {
     Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+    @Test
+    public void testConvertToMarkdown() throws IOException {
+        String baseDir = "jayendrapatil/";
+        String module = "aws-api-gateway";
+        Path jsonPath = Paths.get(baseDir, "json",module + ".json");
+        Path mdPath = Paths.get(baseDir,"md", module + ".md");
+        JayendrapatilUtils.convertToMarkdown(jsonPath, mdPath);
+    }
 
     @Test
     public void testSaveAllQuestions() throws IOException {

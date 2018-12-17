@@ -2,6 +2,7 @@ package algo.aws.questions.jayendrapatil;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import lombok.extern.log4j.Log4j2;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -21,7 +22,7 @@ import java.util.function.Consumer;
 @Log4j2
 public class JayendrapatilUtils {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
-    static String dir = "/Users/algo/aws/questions/jayendrapatil";
+    static String dir = "/Users/algo/aws/questions/jayendrapatil/json";
 
     public static void saveAllQuestions() throws IOException {
         Map<String, String> urls = retrieveUrls();
@@ -127,8 +128,8 @@ public class JayendrapatilUtils {
                     commentElms.remove();
                 }
                 String choiceText = choiceElm.text();
-                choiceText = choiceText.replaceAll("\\(\\)", "");   // remove '()'
-                choiceText = choiceText.replaceAll("\\(Refer \\)", "");   // remove '(Refer )'
+                choiceText = choiceText.replaceAll("\\([ ,.]*\\)", "");   // remove '()'
+                choiceText = choiceText.replaceAll("\\([ ,.]*Refer[ ,.]*\\)", "");   // remove '(Refer )'
 
                 if(null != answer && choiceText.length() > 0){
                     question.getCommentList().add(String.format("%s: %s", letter, choiceText));
@@ -167,6 +168,32 @@ public class JayendrapatilUtils {
             }
         }
         return null;
+    }
+
+    public static void convertToMarkdown(Path jsonPath, Path mdPath) throws IOException {
+        byte[] buf = Files.readAllBytes(jsonPath);
+        String json = new String(buf);
+        List<Question> list = gson.fromJson(json, new TypeToken<List<Question>>(){}.getType());
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i<list.size(); i++){
+            Question q = list.get(i);
+            sb.append("### Question ").append(i+1).append(":\n\n");
+            sb.append(q.getText()).append("\n\n");
+            List<String> choiceList = q.getChoiceList();
+            for (String choice : choiceList) {
+                sb.append("- ").append(choice).append("\n");
+            }
+            sb.append("\n");
+            sb.append("<details><summary>Answer:</summary><p>\n");
+            sb.append(q.getAnswerList().toString()).append("\n\n");
+            sb.append("Explanation:\n\n");
+            List<String> commentList = q.getCommentList();
+            for(String comment:commentList){
+                sb.append(comment).append("\n\n");
+            }
+            sb.append("</p></details><hr>\n\n");
+        }
+        Files.write(mdPath, sb.toString().getBytes());
     }
 
 }
