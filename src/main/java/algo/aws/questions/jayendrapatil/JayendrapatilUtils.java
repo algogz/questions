@@ -9,7 +9,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.IOException;
+import java.io.*;
+import java.net.URL;
+import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -17,19 +19,20 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Consumer;
 
 @Log4j2
 public class JayendrapatilUtils {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
-    static String dir = "/Users/algo/aws/questions/jayendrapatil/json";
+    static String jsonDir = "/Users/algo/aws/questions/jayendrapatil/json";
+    static String baseDir = "jayendrapatil/";
 
-    public static void saveAllQuestions() throws IOException {
+    public static void saveAllQuestions(boolean overwrite) throws IOException {
         Map<String, String> urls = retrieveUrls();
         for(String url:urls.keySet()){
             log.info("retriving {}", url);
-            Path path = getPath(dir, url);
-            if(Files.exists(path)){
+            String module = getModule(url);
+            Path path = Paths.get(baseDir,"json", module + ".json");
+            if(!overwrite && Files.exists(path)){
                 continue;       // skip if file exists
             }
             List<Question> list = retrieveQuestions(url);
@@ -38,6 +41,32 @@ public class JayendrapatilUtils {
             }
             String json = gson.toJson(list);
             Files.write(path, json.getBytes());
+        }
+    }
+
+    public static void saveAllHtml(boolean overwrite) throws IOException {
+        Map<String, String> urls = retrieveUrls();
+        for(String url:urls.keySet()){
+            log.info("retriving {}", url);
+            String module = getModule(url);
+            Path path = Paths.get(baseDir,"html", module + ".html");
+            if(!overwrite && Files.exists(path)){
+                continue;       // skip if file exists
+            }
+            URL u = new URL(url);
+            URLConnection conn = u.openConnection();
+            InputStream is = conn.getInputStream();
+            BufferedInputStream bis = new BufferedInputStream(is);
+            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(path.toFile()));
+
+            byte[] buf = new byte[10240];
+            int len;
+            while(-1 != (len = bis.read(buf))){
+                bos.write(buf, 0, len);
+            }
+
+            bos.close();
+            bis.close();
         }
     }
 
@@ -50,15 +79,14 @@ public class JayendrapatilUtils {
             list.stream().filter(q -> q.isProfessional).forEach(proList::add);
         }
         String json = gson.toJson(proList);
-        Path path = Paths.get(dir, "/professional-questions.json");
+        Path path = Paths.get(jsonDir, "/professional-questions.json");
         Files.write(path, json.getBytes());
     }
 
-    public static Path getPath(String dir, String url){
+    private static String getModule(String url){
         int idx = url.lastIndexOf('/', url.length() - 2);
-        String filename = url.substring(idx, url.length() - 1);
-        Path path = Paths.get(dir, filename + ".json");
-        return path;
+        String module = url.substring(idx+1, url.length() - 1);
+        return module;
     }
 
     /**
@@ -194,6 +222,10 @@ public class JayendrapatilUtils {
             sb.append("</p></details><hr>\n\n");
         }
         Files.write(mdPath, sb.toString().getBytes());
+    }
+
+    public static void analyse() throws IOException {
+        Files.list(Paths.get(jsonDir));
     }
 
 }

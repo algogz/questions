@@ -28,8 +28,13 @@ public class JayendrapatilExtractorTests {
     }
 
     @Test
+    public void testSaveAllHtml() throws IOException {
+        JayendrapatilUtils.saveAllHtml(true);
+    }
+
+    @Test
     public void testSaveAllQuestions() throws IOException {
-        JayendrapatilUtils.saveAllQuestions();
+        JayendrapatilUtils.saveAllQuestions(true);
     }
 
     @Test
