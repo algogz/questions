@@ -1,6 +1,6 @@
 [
   {
-    "url": "http://jayendrapatil.com/aws-ebs-performance",
+    "url": "http://jayendrapatil.com/aws-ebs-performanc/",
     "questionNumber": 1,
     "isProfessional": false,
     "text": "A user is trying to pre-warm a blank EBS volume attached to a Linux instance. Which of the below mentioned steps should be performed by the user?",
@@ -14,12 +14,12 @@
       "B"
     ],
     "commentList": [
-      "Question 1@http://jayendrapatil.com/aws-ebs-performance",
+      "Question 1@http://jayendrapatil.com/aws-ebs-performanc/",
       "B: This used to be the case before, but pre warming is not necessary now"
     ]
   },
   {
-    "url": "http://jayendrapatil.com/aws-ebs-performance",
+    "url": "http://jayendrapatil.com/aws-ebs-performanc/",
     "questionNumber": 2,
     "isProfessional": false,
     "text": "A user has created an EBS volume of 10 GB and attached it to a running instance. The user is trying to access EBS for first time. Which of the below mentioned options is the correct statement with respect to a first time EBS access?",
@@ -33,12 +33,12 @@
       "B"
     ],
     "commentList": [
-      "Question 2@http://jayendrapatil.com/aws-ebs-performance",
+      "Question 2@http://jayendrapatil.com/aws-ebs-performanc/",
       "B: the volume needed to be wiped cleaned before for new volumes, however pre warming is not needed any more"
     ]
   },
   {
-    "url": "http://jayendrapatil.com/aws-ebs-performance",
+    "url": "http://jayendrapatil.com/aws-ebs-performanc/",
     "questionNumber": 3,
     "isProfessional": false,
     "text": "You are running a database on an EC2 instance, with the data stored on Elastic Block Store (EBS) for persistence At times throughout the day, you are seeing large variance in the response times of the database queries Looking into the instance with the isolate command you see a lot of wait time on the disk volume that the database’s data is stored on. What two ways can you improve the performance of the database’s storage while maintaining the current persistence of the data? Choose 2 answers",
@@ -53,11 +53,11 @@
       "C"
     ],
     "commentList": [
-      "Question 3@http://jayendrapatil.com/aws-ebs-performance"
+      "Question 3@http://jayendrapatil.com/aws-ebs-performanc/"
     ]
   },
   {
-    "url": "http://jayendrapatil.com/aws-ebs-performance",
+    "url": "http://jayendrapatil.com/aws-ebs-performanc/",
     "questionNumber": 4,
     "isProfessional": false,
     "text": "You have launched an EC2 instance with four (4) 500 GB EBS Provisioned IOPS volumes attached. The EC2 Instance is EBS-Optimized and supports 500 Mbps throughput between EC2 and EBS. The two EBS volumes are configured as a single RAID 0 device, and each Provisioned IOPS volume is provisioned with 4,000 IOPS (4000 16KB reads or writes) for a total of 16,000 random IOPS on the instance. The EC2 Instance initially delivers the expected 16,000 IOPS random read and write performance. Sometime later in order to increase the total random I/O performance of the instance, you add an additional two 500 GB EBS Provisioned IOPS volumes to the RAID. Each volume is provisioned to 4,000 IOPS like the original four for a total of 24,000 IOPS on the EC2 instance Monitoring shows that the EC2 instance CPU utilization increased from 50% to 70%, but the total random IOPS measured at the instance level does not increase at all. What is the problem and a valid solution?",
@@ -72,13 +72,13 @@
       "B"
     ],
     "commentList": [
-      "Question 4@http://jayendrapatil.com/aws-ebs-performance",
+      "Question 4@http://jayendrapatil.com/aws-ebs-performanc/",
       "B: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-ec2-config.html",
       "B: have limit on max throughput and would require larger instance types to provide 24000 IOPS "
     ]
   },
   {
-    "url": "http://jayendrapatil.com/aws-ebs-performance",
+    "url": "http://jayendrapatil.com/aws-ebs-performanc/",
     "questionNumber": 5,
     "isProfessional": false,
     "text": "A user has deployed an application on an EBS backed EC2 instance. For a better performance of application, it requires dedicated EC2 to EBS traffic. How can the user achieve this?",
@@ -92,7 +92,7 @@
       "D"
     ],
     "commentList": [
-      "Question 5@http://jayendrapatil.com/aws-ebs-performance"
+      "Question 5@http://jayendrapatil.com/aws-ebs-performanc/"
     ]
   }
 ]

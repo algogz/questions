@@ -7,7 +7,7 @@
     "choiceList": [
       "A. Create a second, independent LDAP server in AWS for your application to use for authentication ",
       "B. Establish a VPN connection so your applications can authenticate against your existing on-premises LDAP servers ",
-      "C. Establish a VPN connection between your data center and AWS create a LDAP replica on AWS and configure your application to use the LDAP replica for authentication ( )",
+      "C. Establish a VPN connection between your data center and AWS create a LDAP replica on AWS and configure your application to use the LDAP replica for authentication ",
       "D. Create a second LDAP domain on AWS establish a VPN connection to establish a trust relationship between your new and existing domains and use the new domain for authentication "
     ],
     "answerList": [],

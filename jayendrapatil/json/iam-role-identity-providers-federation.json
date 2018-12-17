@@ -250,8 +250,7 @@
     "commentList": [
       "Question 13@http://jayendrapatil.com/iam-role-identity-providers-federation/",
       "A: https://blogs.aws.amazon.com/security/post/Tx3SYCORF5EKRC0/How-Does-Amazon-Cognito-Relate-to-Existing-Web-Identity-Federation",
-      "A: Amazon Cognito is a superset of the functionality provided by web identity federation. Refer",
-      "A: ( )"
+      "A: Amazon Cognito is a superset of the functionality provided by web identity federation. Refer"
     ]
   },
   {

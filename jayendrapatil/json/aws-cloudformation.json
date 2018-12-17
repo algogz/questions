@@ -75,7 +75,6 @@
       "B: Network administrators themselves need permission to delete resources within the application stack \u0026 CloudFormation makes calls to create, modify, and delete those resources on their behalf",
       "C: Application stack can be deleted before network stack",
       "D: IAM permissions need to be given explicitly to launch instances",
-      "D: ( )",
       "E: Although stacks can be nested, Network group will need to have all the application group permissions"
     ]
   },
@@ -290,8 +289,7 @@
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-cloudformation/",
       "C: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-dependence-error",
-      "C: to resolve a dependency error, add a DependsOn attribute to resources that depend on other resources in the template. Some cases for e.g. EIP and VPC with IGW where EIP depends on IGW need explicitly declaration for the resources to be created in correct order",
-      "C: (Refer , )"
+      "C: to resolve a dependency error, add a DependsOn attribute to resources that depend on other resources in the template. Some cases for e.g. EIP and VPC with IGW where EIP depends on IGW need explicitly declaration for the resources to be created in correct order"
     ]
   },
   {
@@ -353,8 +351,7 @@
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-cloudformation/",
       "A: https://blogs.aws.amazon.com/application-management/blog/category/Best+practices",
-      "A: Only CloudFormation’s JSON Templates allow declarative version control of repeatedly deployable models of entire AWS clouds",
-      "A: (. Refer )"
+      "A: Only CloudFormation’s JSON Templates allow declarative version control of repeatedly deployable models of entire AWS clouds"
     ]
   },
   {
@@ -470,7 +467,6 @@
       "Question 24@http://jayendrapatil.com/aws-cloudformation/",
       "C: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/list-stacks.html",
       "C: Only polling will make a script wait to complete. ListStacks / list-stacks is a real method. Refer",
-      "C: ( )",
       "D: GetStackStatus / get-stack-status does not exist"
     ]
   },
@@ -494,7 +490,6 @@
       "B: DELETE_COMPLETE_WITH_ARTIFACTS does not exist",
       "C: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks.html",
       "C: ROLLBACK_IN_PROGRESS means an UpdateStack operation failed and the stack is in the process of trying to return to the valid, pre-update state Refer",
-      "C: ( )",
       "D: ROLLBACK_FAILED is not a CloudFormation state but UPDATE_ROLLBACK_FAILED is"
     ]
   },
@@ -515,8 +510,7 @@
     "commentList": [
       "Question 26@http://jayendrapatil.com/aws-cloudformation/",
       "D: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html",
-      "D: Complete list of Intrinsic Functions: Fn::Base64, Fn::And, Fn::Equals, Fn::If, Fn::Not, Fn::Or, Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Refer",
-      "D: ( )"
+      "D: Complete list of Intrinsic Functions: Fn::Base64, Fn::And, Fn::Equals, Fn::If, Fn::Not, Fn::Or, Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Refer"
     ]
   },
   {
@@ -536,8 +530,7 @@
     "commentList": [
       "Question 27@http://jayendrapatil.com/aws-cloudformation/",
       "A: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-structure.html",
-      "A: Best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for Refer",
-      "A: ( )"
+      "A: Best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for Refer"
     ]
   }
 ]

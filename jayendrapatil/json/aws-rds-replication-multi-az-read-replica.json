@@ -48,7 +48,7 @@
     "choiceList": [
       "A. Deploy ElastiCache in-memory cache running in each availability zone",
       "B. Implement sharding to distribute load to multiple RDS MySQL instances ",
-      "C. Increase the RDS MySQL Instance size and Implement provisioned IOPS (, )",
+      "C. Increase the RDS MySQL Instance size and Implement provisioned IOPS ",
       "D. Add an RDS MySQL read replica in each availability zone"
     ],
     "answerList": [

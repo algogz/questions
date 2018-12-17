@@ -438,8 +438,7 @@
     ],
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-dynamodb/",
-      "B: 1 write unit for 1K * 600 gauges/60 secs",
-      "B: ( )"
+      "B: 1 write unit for 1K * 600 gauges/60 secs"
     ]
   },
   {

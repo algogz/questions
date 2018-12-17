@@ -177,7 +177,7 @@
     "isProfessional": true,
     "text": "A customer is in the process of deploying multiple applications to AWS that are owned and operated by different development teams. Each development team maintains the authorization of its users independently from other teams. The customer’s information security team would like to be able to delegate user authorization to the individual development teams but independently apply restrictions to the users permissions based on factors such as the users device and location. For example, the information security team would like to grant read-only permissions to a user who is defined by the development team as read/write whenever the user is authenticating from outside the corporate network. What steps can the information security team take to implement this capability? [PROFESSIONAL]",
     "choiceList": [
-      "A. Operate an authentication service that generates AWS STS tokens with IAM policies from application-defined IAM roles. ( )",
+      "A. Operate an authentication service that generates AWS STS tokens with IAM policies from application-defined IAM roles. ",
       "B. Add additional IAM policies to the application IAM roles that deny user privileges based on information security policy.",
       "C. Configure IAM policies that restrict modification of the application IAM roles only to the information security team. ",
       "D. Enable federation with the internal LDAP directory and grant the application teams permissions to modify users."

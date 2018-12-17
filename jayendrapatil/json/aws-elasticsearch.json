@@ -16,8 +16,7 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elasticsearch/",
       "A: http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-amazon-elasticsearch-service.html",
-      "A: Elasticsearch Service (ES) is a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS cloud. Elasticsearch is a popular open-source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics",
-      "A: (. Refer )"
+      "A: Elasticsearch Service (ES) is a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS cloud. Elasticsearch is a popular open-source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics"
     ]
   },
   {

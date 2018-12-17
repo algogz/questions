@@ -320,8 +320,7 @@
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "D: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/EventTypes.html#api_event_type",
-      "D: CloudWatch Events allow subscription to AWS API calls, and direction of these events into Kinesis Streams. This allows a unified, near real-time stream for all API calls, which can be analyzed with any tool(s). Refer",
-      "D: ( )"
+      "D: CloudWatch Events allow subscription to AWS API calls, and direction of these events into Kinesis Streams. This allows a unified, near real-time stream for all API calls, which can be analyzed with any tool(s). Refer"
     ]
   },
   {
@@ -341,8 +340,7 @@
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "C: https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/",
-      "C: CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface. Refer",
-      "C: ( )"
+      "C: CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface. Refer"
     ]
   },
   {

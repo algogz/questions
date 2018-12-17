@@ -27,21 +27,28 @@ public class JayendrapatilUtils {
     static String baseDir = "jayendrapatil/";
 
     public static void saveAllQuestions(boolean overwrite) throws IOException {
-        Map<String, String> urls = retrieveUrls();
-        for(String url:urls.keySet()){
-            log.info("retriving {}", url);
-            String module = getModule(url);
-            Path path = Paths.get(baseDir,"json", module + ".json");
-            if(!overwrite && Files.exists(path)){
-                continue;       // skip if file exists
+        Path htmlDir = Paths.get(baseDir, "html");
+        Files.list(htmlDir).forEach(htmlFile -> {
+            try {
+                log.info("handling {}", htmlFile);
+
+                String module = getModule(htmlFile);
+                String url = String.format("http://jayendrapatil.com/%s/", module);
+                Path jsonFile = Paths.get(baseDir,"json", module + ".json");
+                if(!overwrite && Files.exists(jsonFile)){
+                    return;       // skip if file exists
+                }
+                Document doc = Jsoup.parse(htmlFile.toFile(), "utf-8");
+                List<Question> list = retrieveQuestions(doc, url);
+                if(list.size() == 0){
+                    return;       // don't save empty file
+                }
+                String json = gson.toJson(list);
+                Files.write(jsonFile, json.getBytes());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
-            List<Question> list = retrieveQuestions(url);
-            if(list.size() == 0){
-                continue;       // don't save empty file
-            }
-            String json = gson.toJson(list);
-            Files.write(path, json.getBytes());
-        }
+        });
     }
 
     public static void saveAllHtml(boolean overwrite) throws IOException {
@@ -89,6 +96,13 @@ public class JayendrapatilUtils {
         return module;
     }
 
+    private static String getModule(Path path){
+        String filename = path.getFileName().toString();
+        int idx = filename.lastIndexOf('.');
+        String module = filename.substring(0, idx);
+        return module;
+    }
+
     /**
      * Get all the links
      *
@@ -110,8 +124,12 @@ public class JayendrapatilUtils {
     }
 
     public static List<Question> retrieveQuestions(String url) throws IOException {
-        List<Question> questionList = new ArrayList<>();
         Document doc = Jsoup.connect(url).get();
+        return retrieveQuestions(doc, url);
+    }
+
+    public static List<Question> retrieveQuestions(Document doc, String url) {
+        List<Question> questionList = new ArrayList<>();
 
         Elements qElms = findQuestionElements(doc);
         if(null == qElms) return questionList;
