@@ -30,7 +30,7 @@ public class JayendrapatilUtils {
         Path htmlDir = Paths.get(baseDir, "html");
         Files.list(htmlDir).forEach(htmlFile -> {
             try {
-                log.info("handling {}", htmlFile);
+                log.info("Handling {}", htmlFile);
 
                 String module = getModule(htmlFile);
                 String url = String.format("http://jayendrapatil.com/%s/", module);
@@ -45,6 +45,24 @@ public class JayendrapatilUtils {
                 }
                 String json = gson.toJson(list);
                 Files.write(jsonFile, json.getBytes());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+
+    public static void convertAllToMarkdown(boolean overwrite) throws IOException {
+        Path jsonlDir = Paths.get(baseDir, "json");
+        Files.list(jsonlDir).forEach(jsonFile -> {
+            try {
+                log.info("Converting {}", jsonFile);
+                String module = getModule(jsonFile);
+                Path mdFile = Paths.get(baseDir,"md", module + ".md");
+                if(!overwrite && Files.exists(mdFile)){
+                    return;       // skip if file exists
+                }
+                convertToMarkdown(jsonFile, mdFile);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

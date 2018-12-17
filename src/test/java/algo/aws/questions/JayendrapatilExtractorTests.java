@@ -19,6 +19,11 @@ public class JayendrapatilExtractorTests {
     Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     @Test
+    public void testConvertAllToMarkdown() throws IOException {
+        JayendrapatilUtils.convertAllToMarkdown(true);
+    }
+
+    @Test
     public void testConvertToMarkdown() throws IOException {
         String baseDir = "jayendrapatil/";
         String module = "aws-api-gateway";
