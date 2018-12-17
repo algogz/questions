@@ -19,6 +19,11 @@ public class JayendrapatilExtractorTests {
     Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     @Test
+    public void testAnalyse() throws IOException {
+        JayendrapatilUtils.analyse();
+    }
+
+    @Test
     public void testConvertAllToMarkdown() throws IOException {
         JayendrapatilUtils.convertAllToMarkdown(true);
     }

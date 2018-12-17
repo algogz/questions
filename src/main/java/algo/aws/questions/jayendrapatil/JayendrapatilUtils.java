@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Predicate;
 
 @Log4j2
 public class JayendrapatilUtils {
@@ -261,7 +262,21 @@ public class JayendrapatilUtils {
     }
 
     public static void analyse() throws IOException {
-        Files.list(Paths.get(jsonDir));
+        Path output = Paths.get(baseDir, "analysis.csv");
+        StringBuilder sb = new StringBuilder();
+        Path jsonDir = Paths.get(baseDir, "json");
+        Files.list(jsonDir).forEach(jsonFile -> {
+            try {
+                String module = getModule(jsonFile);
+                byte[] buf = Files.readAllBytes(jsonFile);
+                String json = new String(buf);
+                List<Question> list = gson.fromJson(json, new TypeToken<List<Question>>() {}.getType());
+                long proCount = list.stream().filter(question -> question.isProfessional).count();
+                sb.append(module).append(", ").append(list.size()).append(", ").append(proCount).append("\n");
+            } catch(IOException e){
+                throw new RuntimeException(e);
+            }
+        });
+        Files.write(output, sb.toString().getBytes());
     }
-
 }
