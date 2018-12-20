@@ -3408,7 +3408,7 @@ If designing a single playbook to run across multiple Linux distributions that h
 
 Explanation:
 
-Ansible provides a method to only run a task when a condition is met using the `when' declarative. With gather facts enabled, the play has access to the distribution name of the Linux system, thus, tasks can be tailored to a specific distribution and ran only when the condition is met, e.g.: ` - when: ansible_os_family == "Debian"'.
+Ansible provides a method to only run a task when a condition is met using the `when` declarative. With gather facts enabled, the play has access to the distribution name of the Linux system, thus, tasks can be tailored to a specific distribution and ran only when the condition is met, e.g.: ` - when: ansible_os_family == "Debian"`.
 
 Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html
 
@@ -3460,7 +3460,7 @@ Which of the following is an invalid variable name in Ansible?
 
 Explanation:
 
-Variable names can contain letters, numbers and underscores and should always start with a letter. Invalid variable examples, `host first ref', `1st_host_ref''.
+Variable names can contain letters, numbers and underscores and should always start with a letter. Invalid variable examples, `host first ref`, `1st_host_ref`.
 
 Reference: http://docs.ansible.com/ansible/playbooks_variables.html#what-makes-a-valid-variable-name
 
@@ -3537,14 +3537,14 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html
 ### QUESTION 201
 When specifying multiple variable names and values for a playbook on the command line, which of the following is the correct syntax?
 
-- A. ansible-playbookplaybook.yml-e`host="foo"pkg="bar"'
-- B. ansible-playbookplaybook.yml-e`host:"foo",pkg:"bar"'
-- C. ansible-playbookplaybook.yml-e`host="foo"'-e`pkg="bar"'
+- A. ansible-playbookplaybook.yml-e`host="foo"pkg="bar"`
+- B. ansible-playbookplaybook.yml-e`host:"foo",pkg:"bar"`
+- C. ansible-playbookplaybook.yml-e`host="foo"`-e`pkg="bar"`
 - D. ansible-playbookplaybook.yml--extra-vars"host=foo","pkg=bar"
 
 <details><summary>Answer:</summary><p> A Explanation:
     
- Variables are passed in a single command line parameter, `-e' or `--extra-vars'. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: `-e `{"key": "name", "array": ["value1", "value2"]}'.
+ Variables are passed in a single command line parameter, `-e` or `--extra-vars`. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: `-e {"key": "name", "array": ["value1", "value2"]}`.
 
 Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command- line
 
@@ -3596,7 +3596,7 @@ What is the proper (best practice) way to begin a playbook?
 
 Explanation:
 
-All YAML files can begin with `---' and end with `...' to indicate where YAML starts and ends. While this is optional it is considered best practice.
+All YAML files can begin with `---` and end with `...` to indicate where YAML starts and ends. While this is optional it is considered best practice.
   
  Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 
@@ -3633,7 +3633,7 @@ Which tool will Ansible not use, even if available, to gather facts?
 
 Explanation:
 
-Ansible will use it's own `setup' module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with `ohai_' or `facter_' respectively. `lsb_relase' is a Linux tool for determining distribution information. Reference: http://docs.ansible.com/ansible/setup_module.html
+Ansible will use it's own `setup` module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with `ohai_` or `facter_` respectively. `lsb_relase` is a Linux tool for determining distribution information. Reference: http://docs.ansible.com/ansible/setup_module.html
 
 </p></details><hr>
 
@@ -3694,7 +3694,7 @@ What is the expected behavior if Ansible is called with `ansible-playbook -i loc
 
 - A. Ansible will at tempt to read the inventory file named `localhost`
 - B. Ansible will run the plays local ly.
-- C. Ansible will run the playbook on the host name d`localhost'
+- C. Ansible will run the playbook on the host named `localhost`
 - D. Ansiblewon'trun,this is in valid command line syntax
 
 <details><summary>Answer:</summary><p> A
@@ -3781,7 +3781,7 @@ What is the main difference between calling the commands `ansible` and `ansible-
 
 - A. `ansible` is for setting configuration and environment variables which `ansible-playbook` will use when running plays.
 - B. `ansible-playbook` is for running entire Playbooks while `ansible` is for calling ad-hoc commands.
-- C. `ansible-playbook'runs the playbook s by using the`ansible'command to run the individual plays
+- C. `ansible-playbook'runs the playbook s by using the` ansible'command to run the individual plays
 - D. `ansible` is for running individual plays and `ansible-playbook` is for running the entire playbook.
 
 <details><summary>Answer:</summary><p> B
