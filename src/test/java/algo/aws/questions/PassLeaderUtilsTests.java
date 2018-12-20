@@ -62,11 +62,10 @@ public class PassLeaderUtilsTests {
         while(matcher.find()){
             String sub = sb1.substring(matcher.start(), matcher.end());
             log.debug(sub);
+            String fixed = PassLeaderUtils.makeSentence(sub, dict);
+            log.info(fixed);
+            sb1.replace(matcher.start(), matcher.end(), fixed);
         }
-
-        String sentence = "capturedinthesameregionastowhichtheAPIcallismadeandprocessedanddelivered";
-        log.info(sentence);
-        sentence = PassLeaderUtils.makeSentence(sentence, dict);
-        log.info(sentence);
+        Files.write(Paths.get("q/aws-devop-pro.md"), sb1.toString().getBytes());
     }
 }

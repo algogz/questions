@@ -38,10 +38,26 @@ public class PassLeaderUtils {
     public static String makeSentence(String sentence, List<String> dict){
         StringBuilder sb = new StringBuilder(sentence);
         int idx = 0;
+        boolean leadingSpace = false;
         while(idx < sb.length()){
             int len = findDict(sb, idx, dict);
-            sb.insert(idx + len, ' ');
-            idx += len + 1;
+//            if(len == sentence.length()){   // a single string
+//                break;
+//            }
+            if(-1 == len) {
+                leadingSpace = true;
+            } else if (len > 0) {
+                if(idx+len<sb.length()) {
+                    sb.insert(idx + len, ' ');
+                }
+                if(leadingSpace){
+                    sb.insert(idx, ' ');
+                    leadingSpace = false;
+                    idx++;
+                }
+                idx += len;
+            }
+            idx++;
         }
         return sb.toString();
     }
@@ -56,6 +72,6 @@ public class PassLeaderUtils {
             }
         }
         log.debug("hit nothing");
-        return 1;
+        return -1;
     }
 }

@@ -284,7 +284,7 @@ Answer:</summary><p> C
 </p></details><hr>
 
 ### QUESTION 16
-When an Auto Scaling group is running in Amazon Elastic Compute Cloud (EC2), your application rapidly scales up and down in response to load within a 10-minute window; however, after the load peaks, you begin to see problems in your configuration management system where previouslyterminatedAmazonEC2resourcesarestillshowingasactive.
+When an Auto Scaling group is running in Amazon Elastic Compute Cloud (EC2), your application rapidly scales up and down in response to load within a 10-minute window; however, after the load peaks, you begin to see problems in your configuration management system where previously terminated Amazon EC2 resources are still showing as active.
 What would be a reliable and efficient way to handle the cleanup of Amazon EC2 resources within your configuration management system?
   
 Choose 2 answers
@@ -523,7 +523,7 @@ while it processes a task and return itself to InService when the processing is 
 </p></details><hr>
 
 ### QUESTION 30 
-Theoperationsteamandthedevelopmentteamwantasingleplacetoviewbothoperating system and application logs.
+The operations team and the development team want as in gle place to view both operating system and application logs.
 How should you implement this using AWS services? Choose 2 answers
 
 - A. Using AWS CloudFormation, create a CloudWatch Logs LogGroup and send the operating system and application logs of interest using the CloudWatch Logs Agent.
@@ -2648,7 +2648,7 @@ What is a possible issue?
 - A. Some of the new jobs coming in are malformed and unprocessable.
 - B. The routing tables changed and none of the workers can process events anymore.
 - C. Someone changed the IAM Role Policy on the instances in the worker group and
-broke permissionstoaccessthequeue.
+broke permissions to access the queue.
 - D. The scaling metric is not functioning correctly.
 
 <details><summary>Answer:</summary><p> A
@@ -2657,7 +2657,7 @@ Explanation:
 
 The IAM Role must be fine, as if it were broken, NO jobs would be processed since the system would never be able to get any queue messages. The same reasoning applies to the routing table change. The scaling metric is fine, as instance count increased when the queue depth increased due to more messages entering than exiting. Thus, the only reasonable option is that some of the recent messages must be malformed and unprocessable. 
 
-https://github.com/andrew-templeton/cloudacademy/blob/fca920b45234bbe99cc0e8efb9c65134884dd489/questions/null
+https://github.com/andrew-templeton/cloudacademy/blob/fc a 920b45234b be 99cc0e8efb9c65134884dd489/questions/null
 
 </p></details><hr>
 
@@ -2699,7 +2699,7 @@ protect from system floods.
 
 Explanation:
 
-S3 stores all snapshots. If S3 is unavailable, snapshots are unavailable. Amazon EC2 also uses Amazon S3 to store snapshots (backup copies) of the data volumes. You can use snapshotsfor recoveringdataquicklyandreliablyincaseofapplicationorsystemfailures. Youcanalsouse snapshotsasabaselinetocreatemultiplenewdatavolumes,expandthe sizeofanexistingdata volume,ormovedatavolumesacrossmultipleAvailabilityZones, thereby making your data usage highly scalable. For more information about using data volumesandsnapshots,see AmazonElasticBlockStore. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonS3.html
+S3 stores all snapshots. If S3 is unavailable, snapshots are unavailable. Amazon EC2 also uses Amazon S3 to store snapshots (backup copies) of the data volumes. You can use snapshotsfor rec over in g data quickly and reli a bly in case of application or system failures. Youcanalsouse snapshots as a base line to create multiple new data volumes,expandthe size of an existing data volume,or move data volumes across multiple Availability Zones, thereby making your data usage highly scalable. For more information about using data volumesandsnapshots,see AmazonElasticBlockStore. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonS3.html
 
 </p></details><hr>
 
@@ -2810,7 +2810,7 @@ Your company needs to automate 3 layers of a large cloud deployment. You want to
 
 - A. Use OpsWorks Stacks with three layers to model the layering in your stack.
 - B. Use CloudFormation Nested Stack Templates, with three child stacks to represent the
-three logicallayersofyourcloud.
+three logical layers of your cloud.
 - C. Use AWS Config to declare a configuration set that AWS should roll out to your cloud.
 - D. Use Elastic Beanstalk Linked Applications, passing the important DNS entires between
 layers using the metadata interface.
@@ -2824,24 +2824,24 @@ Only CloudFormation allows source controlled, declarative templates as the basis
 </p></details><hr>
 
 ### QUESTION 161
-Your application's Auto Scaling Group scales up too quickly, too much, and stays scaled when trafficdecreases.Whatshouldyoudotofixthis?
+Your application's Auto Scaling Group scales up too quickly, too much, and stays scaled when trafficdecreases.What should you do to fix this?
 
-- A. Set a longer cooldown period on the Group, so the system stops overshooting the target capacity. The issue is that the scaling system doesn't allow enough time for new instances to begin servicingrequestsbeforemeasuringaggregateloadagain.
-- B. Calculate the bottleneck or constraint on the compute layer, then select that as the new metric, andsetthemetricthresholdstotheboundingvaluesthatbegintoaffectresponse latency.
+- A. Set a longer cooldown period on the Group, so the system stops overshooting the target capacity. The issue is that the scaling system doesn't allow enough time for new instances to begin servic in g requests before me as ur in g a ggreg at e load a g a in.
+- B. Calculate the bottleneck or constraint on the compute layer, then select that as the new metric, and set them etric thresholds to the bounding values that begin to a ffect response latency.
   
  C. Raise the CloudWatch Alarms threshold associated with your autoscaling group, so the scaling takes more of an increase in demand before beginning.
-- D. Use larger instances instead of lots of smaller ones, so the Group stops scaling out so much and wastingresourcesastheOSlevel,sincetheOSusesahigherproportionofresources on smaller instances.
+- D. Use larger instances instead of lots of smaller ones, so the Group stops scaling out so much and wasting resources as the OS level,since the OS uses a higher proportion of resources on smaller instances.
 
 <details><summary>Answer:</summary><p> B
 
 Explanation:
 
-Systems will always over-scale unless you choose the metric that runs out first and becomes constrainedfirst.Youalsoneedtosetthethresholdsofthemetricbasedon whetherornot latencyisaffectedbythechange,tojustifyaddingcapacityinsteadof wasting money. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html
+Systems will always over-scale unless you choose the metric that runs out first and becomes constrainedfirst.You also need to set the thresholds of them etric based on whetherornot latency is affected by the change,to justify adding capacity instead of wasting money. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html
 
 </p></details><hr>
 
 ### QUESTION 162
-You need the absolute highest possible network performance for a cluster computing application. You already selected homogeneous instance types supporting 10 gigabit enhancednetworking, madesurethatyourworkloadwasnetworkbound,andputthe instancesinaplacementgroup. Whatisthelastoptimizationyoucanmake?
+You need the absolute highest possible network performance for a cluster computing application. You already selected homogeneous instance types supporting 10 gigabit enhancednetworking, made sure that your work load was network bound,andputthe instances in a placement group. What is the last optimization you can make?
 
 - A. Use 9001 MTU instead of 1500 for Jumbo Frames, to raise packet body to packet overhead ratios.
 - B. Segregate the instances into different peered VPCs while keeping them all in a placement group, so each one has its own Internet Gateway.
@@ -2886,7 +2886,7 @@ If you're trying to configure an AWS Elastic Beanstalk worker tier for easy debu
 
 Explanation:
 
-Elastic Beanstalk worker environments support Amazon Simple Queue Service (SQS) dead letter queues. A dead letter queue is a queue where other (source) queues can send messages that for some reason could not be successfully processed. A primary benefit of using a dead letter queue is the ability to sideline and isolate the unsuccessfully processed messages. You canthen analyzeanymessagessenttothedeadletterqueuetotrytodeterminewhythey were not successfully processed. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-
+Elastic Beanstalk worker environments support Amazon Simple Queue Service (SQS) dead letter queues. A dead letter queue is a queue where other (source) queues can send messages that for some reason could not be successfully processed. A primary benefit of using a dead letter queue is the ability to sideline and isolate the unsuccessfully processed messages. You canthen analyze any messages sent to the de a d letter queue to try to determine why they were not successfully processed. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-
 env- tiers.html#worker-d eadletter
 
 </p></details><hr>
@@ -2902,7 +2902,7 @@ notifications, pushing into a Lambda, which inserts records into an ELK stack fo
 analysis.
 - C. Use a CloudWatch Rule ScheduleExpression to periodically analyze IAM credential logs.
 Push the deltas for events into an ELK stack and perform ad-hoc analysis there.
-- D. CloudWatch Events Rules which trigger based on all AWS API calls, submitting all events to an AWSKinesisStreamforarbitrarydownstreamanalysis. 
+- D. CloudWatch Events Rules which trigger based on all AWS API calls, submitting all events to an AWS Kinesis Stre a m for arbitrary down stream analysis. 
 
 <details><summary>Answer:</summary><p> D
 
@@ -2929,11 +2929,11 @@ Event driven systems are good for IFTTT logic, but only polling will make a scri
 </p></details><hr>
 
 ### QUESTION 167
-Your application consists of 10% writes and 90% reads. You currently service all requests through a Route53 Alias Record directed towards an AWS ELB, which sits in front of an EC2 Auto Scaling Group. Your system is getting very expensive when there are large traffic spikes during certain news events, during which many more people request to read similar data all at the sametime.Whatisthesimplestandcheapestwaytoreducecostsandscalewithspikes like this?
+Your application consists of 10% writes and 90% reads. You currently service all requests through a Route53 Alias Record directed towards an AWS ELB, which sits in front of an EC2 Auto Scaling Group. Your system is getting very expensive when there are large traffic spikes during certain news events, during which many more people request to read similar data all at the sametime.What is the simplest and che a pest way to reduce costs and scale with spikes like this?
 
-- A. Create an S3 bucket and asynchronously replicate common requests responses into S3 objects. Whenarequestcomesinforaprecomputedresponse,redirecttoAWSS3.
+- A. Create an S3 bucket and asynchronously replicate common requests responses into S3 objects. When are quest comes in for a precomputed response,redirecttoAWSS3.
   
- B. Create another ELB and Auto Scaling Group layer mounted on top of the other system, addinga tiertothesystem.Servemostreadrequestsoutofthetoplayer.
+ B. Create another ELB and Auto Scaling Group layer mounted on top of the other system, addinga tiertothesystem.Serve most read requests out of the top layer.
 - C. Create a CloudFront Distribution and direct Route53 to the Distribution.
 Use the ELB as an Origin and specify Cache Behaviours to proxy cache requests which can be servedlate.
 - D. Create a Memcached cluster in AWS ElastiCache. Create cache logic to serve requests which can be served late from the in-memory cache for increased performance.
@@ -3339,10 +3339,10 @@ Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Ref http://docs.aws
 ### QUESTION 191
 Which one of the following is a restriction of AWS EBS Snapshots?
 
-- A. Snapshotrestorationsarerestrictedtotheregioninwhichthesnapshotsarecreated.
-- B. Youcannotshareunencryptedsnapshots.
-- C. Toshareasnapshotwithauserinotherregionthesnapshothastobecreatedinthatregionfirst.
-- D. YoucannotshareasnapshotcontainingsensitivedatasuchasanAWSAccessKeyIDorAWS
+- A. Sn a pshot rest or at i on s are rest ricted to the region in which the snapshots are created.
+- B. You cannot share unencrypted snapshots.
+- C. To share as n a pshot with a user in other region the snapshot has to be created in that region first.
+- D. You cannot share as n a pshot containing sensitive data such as an AWS Access Key ID or AWS
 Secret Access Key.
 
 <details><summary>Answer:</summary><p> C
@@ -3358,9 +3358,9 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot- permi
 ### QUESTION 192
 What option below is the geographic limit of an EC2 security group?
 
-- A. Securitygroupsareglobal.
-- B. TheyareconfinedtoPlacementGroups. C. TheyareconfinedtoRegions.
-- D. TheyareconfinedtoAvailabilityZones.
+- A. Security groups are global.
+- B. They are confined to Placement Groups. C. They are confined to Region s.
+- D. They are confined to Availability Zones.
 
 <details><summary>Answer:</summary><p> C
 
@@ -3408,10 +3408,10 @@ We use the variable's name to reference the variable which we encapsulate in cur
 ### QUESTION 195
 If Erin has three clusters of server types that are all managed by Ansible and she needs to provision each cluster so that they are configured with their appropriate NTP server addresses. What is the best method Erin should use in Ansible for managing this?
 
-- A. Writeataskthatscansthenetworkinthetargethosts'regionfortheNTPserver,registerthe resulting address so that the next task can write the NTP configuration.
-- B. BreakdownthehostsbyregionintheAnsibleinventoryfileandassignaninventorygroupvariable the NTP address value for the respective region. The playbook can contain just the single play referencing the NTP variable from the inventory.
-- C. CreateaplaybookforeachdifferentregionandstoretheNTPaddressinavariableintheplayin the event the NTP server changes.
-- D. Createthreeplays,eachonehasthehostsfortheirrespectiveregionsandsettheNTPserver address in each task.
+- A. Write at as k that s can s then e two rk in the target hosts'region for the NTP server,registerthe resulting address so that the next task can write the NTP configuration.
+- B. Bre a k down the hosts by region in the Ansible inventory file and assign an inventory group variable the NTP address value for the respective region. The playbook can contain just the single play referencing the NTP variable from the inventory.
+- C. Create a playbook for each different region and store the NTP address in a variable in the play in the event the NTP server changes.
+- D. Createthreeplays,each one has the hosts for their respective regions and set the NTP server address in each task.
 
 <details><summary>Answer:</summary><p> B
 
@@ -3478,7 +3478,7 @@ When Ansible's connection state is set to `remote`, what method of communication
 - A. SSH
 - B. RSH
 - C. PSExec
-- D. APIcalltoAnsibleclientonhost
+- D. API call to Ansible clien to n host
 
 <details><summary>Answer:</summary><p> A
 
@@ -3539,7 +3539,7 @@ Ansible provides two methods for controlling tasks, loops and conditionals. The 
 ### QUESTION 203
 Which difference between core modules and extra modules is not correct?
 
-- A. Extramodulesmayonedaybecomecoremodules B. CoremodulesaresupportedbytheAnsibleteam C. CoremodulesareshippedbydefaultwithAnsible D. Extramoduleshavenosupport
+- A. Extr a modules may one day be come core modules B. C or e modules are supported by the Ansible team C. C or e modules are shipped by default with Ansible D. Extr a modules have no support
 
 <details><summary>Answer:</summary><p> D
 
@@ -3571,11 +3571,11 @@ All YAML files can begin with `---' and end with `...' to indicate where YAML st
 ### QUESTION 205
 You have a playbook that includes a task to install a package for a service, put a configuration file for that package on the system and restart the service. The playbook is then run twice in a row. What would you expect Ansible to do on the second run?
 
-- A. Removetheoldpackageandconfigfileandreinstallandthenrestarttheservice.
-- B. Takenoactiononthetargethost.
-- C. Checkifthepackageisinstalled,checkifthefilematchesthesourcefile,ifnotreinstallit;restart
+- A. Re move the old package and config file and reinstall and then rest a rt these rvice.
+- B. T a ke no action on the target host.
+- C. Check if the package is installed,check if the file match es the source file,ifnotreinstallit;restart
 the service.
-- D. Attempttoreinstallthepackage,copythefileandrestarttheservice.
+- D. At tempt to reinstall the package,copy the file and rest a rt these rvice.
 
 <details><summary>Answer:</summary><p> C
 
@@ -3624,7 +3624,7 @@ If Ansible encounters a resource that does not meet the requirements specified i
 - A. Idempotency
 - B. Immutability
 - C. Convergence
-- D. InfrastructureasCode
+- D. Infrastructure as Code
 
 <details><summary>Answer:</summary><p> A
 
@@ -3652,9 +3652,9 @@ Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 ### QUESTION 210
 What is the expected behavior if Ansible is called with `ansible-playbook -i localhost playbook.yml`?
 
-- A. Ansiblewillattempttoreadtheinventoryfilenamed`localhost' B. Ansiblewillruntheplayslocally.
-- C. Ansiblewillruntheplaybookonthehostnamed`localhost'
-- D. Ansiblewon'trun,thisisinvalidcommandlinesyntax
+- A. Ansible will at tempt to read the inventory file name d`localhost' B. Ansible will run the plays local ly.
+- C. Ansible will run the playbook on the host name d`localhost'
+- D. Ansiblewon'trun,this is in valid command line syntax
 
 <details><summary>Answer:</summary><p> A
 
@@ -3688,7 +3688,7 @@ When writing custom Ansible modules, which language is not supported?
 - A. Python
 - B. C++
 - C. Bash
-- D. Allofthelanguageslistedaresupported
+- D. All of the language s list ed are supported
 
 <details><summary>Answer:</summary><p> D
 
@@ -3738,7 +3738,7 @@ What is the main difference between calling the commands `ansible` and `ansible-
 
 - A. `ansible` is for setting configuration and environment variables which `ansible-playbook` will use when running plays.
 - B. `ansible-playbook` is for running entire Playbooks while `ansible` is for calling ad-hoc commands.
-- C. `ansible-playbook'runstheplaybooksbyusingthe`ansible'commandtoruntheindividualplays
+- C. `ansible-playbook'runs the playbook s by using the`ansible'command to run the individual plays
 - D. `ansible` is for running individual plays and `ansible-playbook` is for running the entire playbook.
 
 <details><summary>Answer:</summary><p> B
@@ -3869,7 +3869,7 @@ Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/
 What are the default memory limit policies for a Docker container?
 
 - A. Limitedmemory,limitedkernelmemory
-- B. Unlimitedmemory,limitedkernelmemory C. Limitedmemory,unlimitedkernelmemory D. Unlimitedmemory,unlimitedkernelmemory
+- B. Unlimitedmemory,limitedkernelmemory C. Limitedmemory,unlimited kernel memory D. Unlimitedmemory,unlimited kernel memory
 
 <details><summary>Answer:</summary><p> D
 
@@ -3888,9 +3888,9 @@ Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-m
 ### QUESTION 223
 What needs to be done in order to remotely access a Docker daemon running on Linux?
 
-- A. addcertificateauthenticationtothedockerAPI B. changetheencryptionleveltoTLS
+- A. add certificate authentication to the docker API B. change the encryption level to TLS
 - C. enabletheTCPsocket
-- D. bindtheDockerAPItoaunixsocket
+- D. bind the Docker API to a unix socket
 
 <details><summary>Answer:</summary><p> C
 
@@ -3965,9 +3965,9 @@ Reference: https://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logge
 ### QUESTION 227
 Which of the following is NOT an advantage of Docker's content addressable storage model?
 
-- A. randomUUIDsimprovefilesystemperformance
+- A. random UUID simprove files ystem performance
 - B. improvedsecurity
-- C. guaranteesdataintegrityafterpush,pull,load,andsaveoperations D. avoidscontentIDcollisions
+- C. guarantees data integrity after push,pull,load,andsaveoperations D. avoid s content ID collisions
 
 <details><summary>Answer:</summary><p> A
 
@@ -4101,8 +4101,8 @@ Reference: http://aws.amazon.com/cloudtrail/faqs/
 Using the AWS CLI, which command retrieves CloudTrail trail settings, including the status of the trail itself?
 
 - A. awscloudtrailreturn-trails
-- B. awscloudtrailvalidate-settings C. awscloudtrailget-settings
-- D. awscloudtraildescribe-trails
+- B. aws cloud trail valid at e-settings C. awscloudtrailget-settings
+- D. aws cloud trail describe-trails
 
 <details><summary>Answer:</summary><p> D
 
@@ -4178,7 +4178,7 @@ When logging with Amazon CloudTrail, API call information for services with regi
 
 Explanation:
 
-When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall informationfor serviceswithsingleendpoints(IAM,STSetc.)iscapturedintheregion wheretheendpointis located,processedintheregionwheretheCloudTrailtrailis configured, and delivered to the region associated with your Amazon S3 bucket. 
+When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall informationfor services with single endpoints(IAM,STSetc.)is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. 
 
 Reference: https://aws.amazon.com/cloudtrail/faqs/
 
@@ -4187,10 +4187,10 @@ Reference: https://aws.amazon.com/cloudtrail/faqs/
 ### QUESTION 238
 When logging with Amazon CloudTrail, API call information for services with single end points is .
 
-- A. captured in the same region as to which the API call is made and processed and delivered to the regionassociatedwithyourAmazonS3bucket
-- B. capturedandprocessedinthesameregionastowhichtheAPIcallismadeanddelivered tothe regionassociatedwithyourAmazonS3bucket
-- C. captured,processed,anddeliveredtotheregionassociatedwithyourAmazonS3bucket
-- D. capturedintheregionwheretheendpointislocated,processedintheregionwherethe
+- A. captured in the same region as to which the API call is made and processed and delivered to the region associated with your Amazon S3 bucket
+- B. captured and processed in the same region as to which the API call is made and delivered tothe region associated with your Amazon S3 bucket
+- C. captured,processed,and delivered to the region associated with your Amazon S3 bucket
+- D. captured in the region where the endpoint is loc at ed,processed in the region where the
 CloudTrail trail is configured, and delivered to the region associated with your Amazon S3
 bucket
 
@@ -4198,13 +4198,13 @@ bucket
 
 Explanation:
 
-When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade anddeliveredtotheregionassociatedwithyourAmazonS3bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processedintheregionwheretheCloudTrailtrailis configured, and delivered to the region associated with your Amazon S3 bucket. Reference: https://aws.amazon.com/cloudtrail/faqs/
+When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. Reference: https://aws.amazon.com/cloudtrail/faqs/
 
 </p></details><hr>
 
 ### QUESTION 239
 What is the correct syntax for the AWS command to create a single region trail? A. awscreate-trail--nametrailname--s3-objectobjectname
-- B. awscloudtrail--s3-regionnameIPaddresscreate-trail--nametrailname
+- B. awscloudtrail--s3-region name IP address create-trail--nametrailname
 - C. awscloudtrailcreate-trail--nametrailname--s3-bucket-namebucketname D. awscloudtrailcreate-trail--nametrailname--s3-portnumberIPaddress
 
 <details><summary>Answer:</summary><p> C
@@ -4355,16 +4355,16 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_not
 ### QUESTION 247
 Within an IAM policy, can you add an IfExists condition at the end of a Null condition?
 
-- A. Yes,youcanaddanIfExistsconditionattheendofaNullconditionbutnotinallRegions.
-- B. Yes,youcanaddanIfExistsconditionattheendofaNullconditiondependingonthecondition. C. No,youcannotaddanIfExistsconditionattheendofaNullcondition.
-- D. Yes,youcanaddanIfExistsconditionattheendofaNullcondition.
+- A. Yes,you can add an If Ex is ts condition at the end of a Null condition but not in all Region s.
+- B. Yes,you can add an If Ex is ts condition at the end of a Null condition depending on the condition. C. No,you cannot add an If Ex is ts condition at the end of a Null condition.
+- D. Yes,you can add an If Ex is ts condition at the end of a Null condition.
 
 <details><summary>Answer:</summary><p> C
 
 Explanation:
 
 Within an IAM policy, IfExists can be added to the end of any condition operator except the
-Null condition.Itcanbeusedtoindicatethatconditionalcomparisonneedstohappenifthe
+Null condition.It can be used to in dic at e that condition a l com p a r is on needs to h app en if the
 policy key is present in the context of a request; otherwise, it can be ignored.
 Reference:
 http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht
@@ -4375,10 +4375,10 @@ ml
 ### QUESTION 248
 You are hosting multiple environments in multiple regions and would like to use Amazon Inspector for regular security assessments on your AWS resources across all regions. Which statement about Amazon Inspector's operation across regions is true?
 
-- A. AmazonInspectorisaglobalservicethatisnotregion-bound.YoucanincludeAWS
+- A. Amazon Inspector is a global service that is not region-bound.YoucanincludeAWS
 resources from multiple regions in the same assessment target.
-- B. AmazonInspectorishostedwithinAWSregionsbehindapublicendpoint.Allregionsare isolated from each other, and the telemetry and findings for all assessments performed within aregion remaininthatregionandarenotdistributedbytheservicetootherAmazon Inspector locations.
-- C. AmazonInspectorishostedineachsupportedregion.Telemetrydataandfindingsare shared across regions to provide complete assessment reports.
+- B. Amazon Inspector is hosted within AWS regions behind a public endpoint.Allregionsare isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations.
+- C. Amazon Inspector is hosted in each supported region.Tele met ry data and find in gs are shared across regions to provide complete assessment reports.
 - D. Amazon Inspector is hosted in each supported region separately. You have to create assessment targets using the same name and tags in each region and Amazon Inspector will run against each assessment target in each region. 
 
 <details><summary>Answer:</summary><p> B
@@ -4390,7 +4390,7 @@ US West
 (Oregon) US
 East (N. Virginia) EU (Ireland)
 Asia Pacific (Seoul) Asia Pacific (Mumbai) Asia Pacific (Tokyo) Asia Pacific (Sydney)
-Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion remaininthatregionandarenotdistributedbytheservicetootherAmazon Inspector locations. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html #in spector_supported-regions
+Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html #in spector_supported-regions
 
 </p></details><hr>
 
@@ -4448,9 +4448,9 @@ A root account has created an IAM group and defined the policy as:
 ```
 What will this policy do?
 
-- A. Allowthisgrouptoviewthepasswordpolicyofalltheusersaddedonlytothatgroup
-- B. AllowalltheusersofIAMtomodifytheirpassword
-- C. AllowanIAMuserinthisgrouptoviewthepasswordpolicyandmodifyonlyhis/herpassword D. AllowthisgrouptoviewthepasswordpolicyofalltheIAMusers
+- A. All ow this group to view the password policy of all the users added only to that group
+- B. All ow all the users of IAM to modify their password
+- C. All ow an IAM user in this group to view the password policy and modify only h is/herpassword D. All ow this group to view the password policy of all the IAM users
 
 <details><summary>Answer:</summary><p> C
   
@@ -4466,10 +4466,10 @@ Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/HowToPwdIAMUser.html
 ### QUESTION 252
 For Amazon Inspector's integration with CloudTrail, what information is logged for List* and Describe* APIs?
 
-- A. None.AmazonInspectorisanautomatedserviceandnotmonitoredbyCloudTrail.
-- B. Bothrequestandresponseinformationislogged.
-- C. Onlyrequestinformationislogged.
-- D. Requestinformationisalwayslogged.ResponseinformationisloggedonlyforCompleted
+- A. None.Amazon Inspector is an automated service and not monitor ed by CloudTrail.
+- B. Both request and response information is logged.
+- C. Only request information is logged.
+- D. Request information is always logged.Resp on se information is logged only for Completed
 assessment runs.
 
 <details><summary>Answer:</summary><p> C
@@ -4502,11 +4502,11 @@ Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_
 ### QUESTION 254
 Which statement is true about configuring proxy support for Amazon Inspector agent on Linux- based systems?
 
-- A. AmazonInspectorproxysupportonLinux-basedsystemsisachievedthroughinstallingproxy-enabled version of the agent which comes with pre-configured files that you need to edit to match your environment.
-- B. AmazonInspectoragentdoesNOTsupporttheuseofproxyonLinux-basedsystems.
-- C. AmazonInspectorproxyconfigurationonLinux-basedsystemisincludedinawsagent.envfile
+- A. Amazon Inspector proxy support on Linux-based systems is achieve d through install in g proxy-enabled version of the agent which comes with pre-configured files that you need to edit to match your environment.
+- B. Amazon Inspector agent does NOT support the use of proxy on Linux-basedsystems.
+- C. Amazon Inspector proxy configuration on Linux-based system is include d in aws agent.envfile
 under /etc/init.d/
-- D. AmazonInspectoragentproxysettingsonLinux-basedsystemsareconfiguredthroughWinHTTP proxy.
+- D. Amazon Inspector agent proxy settings on Linux-based systems are configured through W in HTTP proxy.
 
 <details><summary>Answer:</summary><p> C
 
@@ -4524,12 +4524,12 @@ Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agen
 ### QUESTION 255
 Some of your EC2 instances are configured to use a Proxy. Can you use Amazon Inspector for regular assessment of instances behind proxy?
 
-- A. OnlyWindows-basedsystemsaresupportedasLinux-basedsystemsusecustomconfigurations
+- A. OnlyWindows-based systems are supported as Linux-based systems use custom configuration s
 that are not supported by AWS Agent in the current release.
-- B. OnlyLinux-basedsystemsaresupported,andAWSagentsupportsHTTPSproxyonthese
+- B. OnlyLinux-based systems are supported,and AWS agent supports HTTPS proxy on these
 systems.
-- C. No,AWSAgentdoesNOTsupportproxyenvironments.
-- D. Yes,AWSAgentsupportsproxyenvironmentsonbothLinux-basedandWindows-basedsystems.
+- C. No,AWS Agent does NOT support proxy environments.
+- D. Yes,AWS Agent supports proxy environments on both Linux-basedandWindows-basedsystems.
 
 <details><summary>Answer:</summary><p> D
 
@@ -4544,12 +4544,12 @@ Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agen
 ### QUESTION 256
 Amazon Inspector agent collects telemetry data during assessment run and sends this data to Amazon Inspector dedicated S3 bucket for analysis. How can you access telemetry data out of Amazon Inspector and how can you benefit from this data in securing your resources?
 
-- A. TelemetrydataiskeptinS3andencryptedwithapre-assessmenttestkeyconfiguredinKMS,as
+- A. Tele met ry data is kept in S3 and encrypted with a pre-assessment test key configured in KMS,as
 long as you have access to that key you can download and decrypt telemetry data.
-- B. TelemetrydataisstoredinAmazonInspectordedicatedS3bucketthatdoesNOTbelongtoyour
+- B. Tele met ry data is stored in Amazon Inspector dedic at ed S3 bucket that does NOT be long to your
 account, Amazon Inspector currently does NOT provide an API or an S3 bucket access mechanism to collected telemetry. Data is retained temporarily only to allow for assistance with support requests.
-- C. TelemetrydataissavedonS3bucketinyouraccount,thereforetelemetrydataisaccessiblewith proper permissions on that bucket.
-- D. Telemetrydataisdeletedimmediatelyafterassessmentrun,thereforedatacanNOTbeaccessed or analyzed by any other tools.
+- C. Tele met ry data is save do n S3 bucket in your account,the re for e telemetry data is access ible with proper permissions on that bucket.
+- D. Tele met ry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools.
 
 <details><summary>Answer:</summary><p> B
     
@@ -4565,12 +4565,12 @@ Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agen
 ### QUESTION 257
 A root owner is trying to create an IAM user of the various departments. The owner has created groups for each department, but wants to still delineate the user based on the sub division level.
 
-- A. g.Thetwousersfromdifferentsubdepartmentsshouldbeidentifiedseparatelyandhaveseparate
+- A. g.The two users from different sub departments should be ident if ied separate ly and have separate
 permissions. How can the root owner configure this?
-- B. CreateahierarchyoftheIAMuserswhichareseparatedbasedonthedepartment
+- B. Create a hier a rchy of the IAM users which are separate d based on the de part ment
 - C. Createanestedgroup
-- D. Usethepathstoseparatetheusersofthesamegroup
-- E. Itisnotpossibletodelineatewithinagroup
+- D. Use the path s to separate the users of the same group
+- E. It is not possible to de line at e within a group
 
 <details><summary>Answer:</summary><p> C
 
