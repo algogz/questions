@@ -727,9 +727,8 @@ Which technique should you use to provide cost-effective, zero-downtime deployme
 
 - A. Use an AWS CloudFormation template to re-deploy your application behind a load balancer, and launch a new AWS CloudFormation stack during each deployment.
 Update your load balancer to send traffic to the new stack, and then deploy your software. Leave your old stacks running, and tag their resources with the version for rollback.
-- B. Re-deploy your application on Elastic Beanstalk. During deployment, create a new version of your application, and create a new environment running that version in Elastic BeanStalk. Finally, take
-  
-advantage of the Elastic Beanstalk Swap CNAME operation to switch to the new environment. C. Re-deploy your application behind a load balancer that uses Auto Scaling groups. Create a new
+- B. Re-deploy your application on Elastic Beanstalk. During deployment, create a new version of your application, and create a new environment running that version in Elastic BeanStalk. Finally, take  advantage of the Elastic Beanstalk Swap CNAME operation to switch to the new environment. 
+- C. Re-deploy your application behind a load balancer that uses Auto Scaling groups. Create a new
 identical Auto Scaling group and associate it to your Amazon Route53 zone.
 Configure Amazon Route53 to auto- weight traffic over to the new Auto Scaling group when all instances are marked as healthy.
 - D. Re-deploy your application behind a load balancer using an AWS OpsWorks stack and use AWS OpsWorks stack versioning, during deployment create a new version of your application, tell AWS OpsWorks to launch the new version behind your load balancer, and when the new version is launched, terminate the old AWS OpsWorks stack.
@@ -1363,7 +1362,8 @@ AWS CloudFormation will then execute the tests on your behalf as part of the env
  Use an AWS CloudFormation custom resource to notify the centralized test server, via an Amazon SNS topic, that a new environment has been initialized.
 The centralized test server can then execute the tests before sending the results back to the AWS CloudFormation service.
 - C. Pass the test scripts to the cfn-init service via the "tests" section of the AWS::CloudFormation::Init metadata.
-Cfn-init will then execute these tests and return the result to the AWS CloudFormation service. D. Configure a centralized test server that hosts an automated browser testing framework.
+Cfn-init will then execute these tests and return the result to the AWS CloudFormation service. 
+- D. Configure a centralized test server that hosts an automated browser testing framework.
 Include an Amazon SES email resource under the outputs section of your AWS CloudFormation template.
 This we send an email to your centralized test server, informing it that the environment is ready for tests.
 
@@ -1437,9 +1437,8 @@ Your next version of the application requires a third-party Windows Installer pa
 Which options are possible? Choose 2 answers
 
 - A. In the application's Global.asax file, run msiexec.exe to install the package using Process.Start() in the Application Start event handler.
-- B. In the source bundle's .ebextensions folder, create a file with a .config extension.
-    
- In the file, under the "packages" section and "msi" package manager, include the package's URL. C. Launch a new Amazon EC2 instance from the AMI used by the environment.
+- B. In the source bundle's .ebextensions folder, create a file with a .config extension. In the file, under the "packages" section and "msi" package manager, include the package's URL. 
+- C. Launch a new Amazon EC2 instance from the AMI used by the environment.
 Log into the instance, install the package and run sysprep. Create a new AMI.
 Configure the environment to use the new AMI.
 - D. In the environment's configuration, edit the instances configuration and add the package's URL to
@@ -1674,8 +1673,10 @@ When using multi-region DynamoDB systems, it is of paramount importance to make 
 There are a number of ways to purchase compute capacity on AWS. Which orders the price per compute or memory unit from LOW to HIGH (cheapest to most expensive), on average?
 
 - A. On-Demand B. Spot C. Reserved
-    
- B. A,B,C C. C,B,A D. B,C,A E. A,C,B
+- B. A,B,C 
+- C. C,B,A 
+- D. B,C,A 
+- E. A,C,B
 
 <details><summary>Answer:</summary><p> C
 
@@ -1788,7 +1789,8 @@ Since you are not using VPC endpoints, outbound requests for the code sitting in
 ### QUESTION 100
 Which major database needs a BYO license?
 
-- A. PostgreSQL B. MariaDB
+- A. PostgreSQL 
+- B. MariaDB
 - C. MySQL
 - D. Oracle
 
@@ -1803,7 +1805,10 @@ Oracle is not open source, and requires a bring your own license model. http://d
 ### QUESTION 101
 What is the maximum supported single-volume throughput on EBS?
 
-- A. 320MiB/s B. 160MiB/s C. 40MiB/s D. 640MiB/s
+- A. 320MiB/s 
+- B. 160MiB/s 
+- C. 40MiB/s 
+- D. 640MiB/s
 
 <details><summary>Answer:</summary><p> A
 
@@ -1899,7 +1904,10 @@ When a user creates an EBS volume and attaches it as a device, it is required to
 ### QUESTION 107
 When using Amazon SQS how much data can you store in a message?
 
-- A. 8KB B. 2KB C. 16KB D. 4KB
+- A. 8KB 
+- B. 2KB 
+- C. 16KB 
+- D. 4KB
 
 <details><summary>Answer:</summary><p> A
 
@@ -1911,9 +1919,10 @@ If you need to send messages to the queue that are larger than 8 KB, AWS recomme
 </p></details><hr>
 
 ### QUESTION 108
-What is the maximum time messages can be stored in SQS? A. 14 days
-    
- B. one month
+What is the maximum time messages can be stored in SQS? 
+
+- A. 14 days
+- B. one month
 - C. 4 days
 - D. 7 days
 
@@ -2094,9 +2103,11 @@ After writing data to an EBS volume, you can periodically create a snapshot of t
 </p></details><hr>
 
 ### QUESTION 119
-For AWS CloudFormation, which stack state refuses UpdateStack calls? A. <code>UPDATE_ROLLBACK_FAILED</code>
-   
- B. <code>UPDATE_ROLLBACK_COMPLETE</code> C. <code>UPDATE_COMPLETE</code>
+For AWS CloudFormation, which stack state refuses UpdateStack calls? 
+
+- A. <code>UPDATE_ROLLBACK_FAILED</code>
+- B. <code>UPDATE_ROLLBACK_COMPLETE</code> 
+- C. <code>UPDATE_COMPLETE</code>
 - D. <code>CREATE_COMPLETE</code>
 
 <details><summary>Answer:</summary><p> A
@@ -2110,7 +2121,10 @@ When a stack is in the UPDATE_ROLLBACK_FAILED state, you can continue rolling it
 ### QUESTION 120
 You need to migrate 10 million records in one hour into DynamoDB. All records are 1.5KB in size. The data is evenly distributed across the partition key. How many write capacity units should you provision during this batch load?
 
-- A. 6667 B. 4166 C. 5556 D. 2778
+- A. 6667 
+- B. 4166 
+- C. 5556 
+- D. 2778
 
 <details><summary>Answer:</summary><p> C
 
@@ -2210,7 +2224,8 @@ https://aws.amazon.com/cloudwatch/faqs/
 Which of these is not an intrinsic function in AWS CloudFormation?
 
 - A. Fn::Split
-- B. Fn::FindInMap C. Fn::Select
+- B. Fn::FindInMap 
+- C. Fn::Select
 - D. Fn::GetAZs
 
 <details><summary>Answer:</summary><p> A
@@ -2263,7 +2278,8 @@ You are designing an enterprise data storage system. Your data management softwa
 
 - A. gp1
 - B. io1
-- C. standard D. gp2
+- C. standard 
+- D. gp2
 
 <details><summary>Answer:</summary><p> C
 
@@ -2311,7 +2327,8 @@ When thinking of AWS OpsWorks, which of the following is not an instance type yo
 
 - A. 24/7 instances
 - B. Spot instances
-- C. Time-based instances D. Load-based instances
+- C. Time-based instances 
+- D. Load-based instances
 
 <details><summary>Answer:</summary><p> B
    
@@ -2455,7 +2472,10 @@ b) Lambda
 c) RDS
 ```
 
-- A. B,A,C B. C,B,A C. C,A,B D. A,C,B
+- A. B,A,C 
+- B. C,B,A 
+- C. C,A,B 
+- D. A,C,B
 
 <details><summary>Answer:</summary><p> A
 
@@ -3140,7 +3160,8 @@ Which EBS volume type is best for high performance NoSQL cluster deployments?
 
 - A. io1
 - B. gp1
-- C. standard D. gp2
+- C. standard 
+- D. gp2
 
 <details><summary>Answer:</summary><p> A
 
@@ -3186,7 +3207,8 @@ Amazon Elasticsearch Service (Amazon ES) is a managed service that makes it easy
 ### QUESTION 182
 Which status represents a failure state in AWS CloudFormation?
 
-- A. <code>UPDATE_COMPLETE_CLEANUP_IN_PROGRESS</code> B. <code>DELETE_COMPLETE_WITH_ARTIFACTS</code>
+- A. <code>UPDATE_COMPLETE_CLEANUP_IN_PROGRESS</code> 
+- B. <code>DELETE_COMPLETE_WITH_ARTIFACTS</code>
 - C. <code>ROLLBACK_IN_PROGRESS</code>
 - D. <code>ROLLBACK_FAILED</code>
 
@@ -3323,7 +3345,8 @@ In a Multi-AZ deployment, Amazon RDS automatically provisions and maintains a sy
 ### QUESTION 190
 Which of these is not an instrinsic function in AWS CloudFormation?
 
-- A. Fn::Equals B. Fn::If
+- A. Fn::Equals 
+- B. Fn::If
 - C. Fn::Not
 - D. Fn::Parse
 
@@ -3359,7 +3382,8 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot- permi
 What option below is the geographic limit of an EC2 security group?
 
 - A. Security groups are global.
-- B. They are confined to Placement Groups. C. They are confined to Region s.
+- B. They are confined to Placement Groups. 
+- C. They are confined to Region s.
 - D. They are confined to Availability Zones.
 
 <details><summary>Answer:</summary><p> C
@@ -3395,7 +3419,8 @@ Which is the proper syntax for referencing a variable's value in an Ansible task
 
 - A. ${variable_name}
 - B. {variable_name}
-- C. "{{variable_name}}" D. @variable_name
+- C. "{{variable_name}}" 
+- D. @variable_name
 
 <details><summary>Answer:</summary><p> C
 
@@ -3426,7 +3451,10 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#group-variables
 ### QUESTION 196
 Which of the following is an invalid variable name in Ansible?
 
-- A. host1st_ref B. host-first-ref C. Host1stRef D. host_first_ref
+- A. host1st_ref 
+- B. host-first-ref 
+- C. Host1stRef 
+- D. host_first_ref
 
 <details><summary>Answer:</summary><p> B
 
@@ -3491,7 +3519,8 @@ Ansible does not require a client/server architecture and makes all remote conne
 ### QUESTION 200
 Which resource can not be defined in an Ansible Playbook?
 
-- A. FactGatheringState B. HostGroups
+- A. FactGatheringState 
+- B. HostGroups
 - C. InventoryFile
 - D. Variables
 
@@ -3526,7 +3555,8 @@ Ansible provides some methods for controlling how or when a task is ran. Which o
 
 - A. -with:<value>
 - B. -with_items:<value>
-- C. -only_when:<conditional> D. -items:<value>
+- C. -only_when:<conditional> 
+- D. -items:<value>
 
 <details><summary>Answer:</summary><p> B
 
@@ -3539,7 +3569,10 @@ Ansible provides two methods for controlling tasks, loops and conditionals. The 
 ### QUESTION 203
 Which difference between core modules and extra modules is not correct?
 
-- A. Extr a modules may one day be come core modules B. C or e modules are supported by the Ansible team C. C or e modules are shipped by default with Ansible D. Extr a modules have no support
+- A. Extr a modules may one day be come core modules 
+- B. C or e modules are supported by the Ansible team 
+- C. C or e modules are shipped by default with Ansible 
+- D. Extr a modules have no support
 
 <details><summary>Answer:</summary><p> D
 
@@ -3554,7 +3587,8 @@ Reference: http://docs.ansible.com/ansible/modules_extra.html
 ### QUESTION 204
 What is the proper (best practice) way to begin a playbook?
 
-- A. -hosts:all B. ...
+- A. -hosts:all 
+- B. ...
 - C. ###
 - D. ---
 
@@ -3592,7 +3626,8 @@ Which tool will Ansible not use, even if available, to gather facts?
 
 - A. facter
 - B. lsb_release
-- C. Ansiblesetupmodule D. ohai
+- C. Ansiblesetupmodule 
+- D. ohai
 
 <details><summary>Answer:</summary><p> B
 
@@ -3605,7 +3640,9 @@ Ansible will use it's own `setup' module to gather facts for the local system. A
 ### QUESTION 207
 If a variable is assigned in the `vars` section of a playbook, where is the proper place to override that variable?
 
-- A. Inventorygroupvar B. playbookhost_vars C. roledefaults
+- A. Inventorygroupvar 
+- B. playbookhost_vars 
+C. roledefaults
 - D. extravars
 
 <details><summary>Answer:</summary><p> D
@@ -3637,7 +3674,10 @@ Idempotency states that changes are only made if a resource does not meet the re
 ### QUESTION 209
 When writing plays, tasks and playbooks, Ansible fully supports which high level language to describe these?
 
-- A. YAML B. Python C. XML D. JSON
+- A. YAML 
+- B. Python 
+- C. XML 
+- D. JSON
 
 <details><summary>Answer:</summary><p> A
 
@@ -3652,7 +3692,8 @@ Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 ### QUESTION 210
 What is the expected behavior if Ansible is called with `ansible-playbook -i localhost playbook.yml`?
 
-- A. Ansible will at tempt to read the inventory file name d`localhost' B. Ansible will run the plays local ly.
+- A. Ansible will at tempt to read the inventory file named `localhost`
+- B. Ansible will run the plays local ly.
 - C. Ansible will run the playbook on the host name d`localhost'
 - D. Ansiblewon'trun,this is in valid command line syntax
 
@@ -3668,7 +3709,8 @@ Ansible expects an inventory filename with the `-i` option, regardless if it's a
 The Ansible Inventory system allows many attributes to be defined within it. Which item below is not one of these?
   
 
-- A. Groupvariables B. Hostgroups
+- A. Groupvariables 
+- B. Hostgroups
 - C. Includevars
 - D. Childrengroups
 
@@ -3704,7 +3746,8 @@ Reference: http://docs.ansible.com/ansible/developing_modules.html
 When specifying more than one conditional requirements for a task, what is the proper method?
 
 - A. -when:foo=="hello"andbar=="world"
-- B. -when:foo=="hello"-when:bar=="world" C. -when:foo=="hello"&&bar=="world"
+- B. -when:foo=="hello"-when:bar=="world" 
+- C. -when:foo=="hello"&&bar=="world"
 - D. -when:foois"hello"andbaris"world"
 
 <details><summary>Answer:</summary><p> A
@@ -3756,7 +3799,8 @@ Which answer is the proper syntax for specifying two target hosts on the command
 
 - A. ansible-playbook-hhost1.example.com-iallplaybook.yml
 - B. ansible-playbook-ihost1.example.complaybook.yml
-- C. ansible-playbook -h host1.example.com,host2.example.com playbook.yml D. ansible-playbook -i host1.example.com,host2.example.com playbook.yml
+- C. ansible-playbook -h host1.example.com,host2.example.com playbook.yml 
+- D. ansible-playbook -i host1.example.com,host2.example.com playbook.yml
 
 <details><summary>Answer:</summary><p> D
 
@@ -3799,7 +3843,10 @@ You are building a Docker image with the following Dockerfile. How many layers w
 FROM scratch
 CMD /app/hello.sh
 
-- A. 2 B. 4 C. 1 D. 3
+- A. 2 
+- B. 4 
+- C. 1 
+- D. 3
 
 <details><summary>Answer:</summary><p> D
 
@@ -3815,7 +3862,8 @@ The image contains all the layers from the base image (only one in this case, si
 What storage driver does Docker generally recommend that you use if it is available?
 
 - A. zfs
-- B. btrfs C. aufs
+- B. btrfs 
+- C. aufs
 - D. overlay
 
 <details><summary>Answer:</summary><p> C
@@ -3834,8 +3882,10 @@ Reference: https://docs.docker.com/engine/userguide/storagedriver/selectadriver/
 In which Docker Swarm model does the swarm manager distribute a specific number of replica tasks among the nodes based upon the scale you set in the desired state?
   
 
-- A. distributedservices B. scaledservices
-- C. replicatedservices D. globalservices
+- A. distributedservices 
+- B. scaledservices
+- C. replicatedservices 
+- D. globalservices
 
 <details><summary>Answer:</summary><p> D
 
@@ -3852,7 +3902,10 @@ Reference: https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks
 ### QUESTION 221
 On which local address does the Docker DNS server listen?
 
-- A. 127.0.0.1 B. 127.0.0.111 C. 127.0.0.254 D. 127.0.0.11
+- A. 127.0.0.1 
+- B. 127.0.0.111 
+- C. 127.0.0.254 
+- D. 127.0.0.11
 
 <details><summary>Answer:</summary><p> D
 
@@ -3869,7 +3922,9 @@ Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/
 What are the default memory limit policies for a Docker container?
 
 - A. Limitedmemory,limitedkernelmemory
-- B. Unlimitedmemory,limitedkernelmemory C. Limitedmemory,unlimited kernel memory D. Unlimitedmemory,unlimited kernel memory
+- B. Unlimitedmemory,limitedkernelmemory 
+- C. Limitedmemory,unlimited kernel memory 
+- D. Unlimitedmemory,unlimited kernel memory
 
 <details><summary>Answer:</summary><p> D
 
@@ -3888,7 +3943,8 @@ Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-m
 ### QUESTION 223
 What needs to be done in order to remotely access a Docker daemon running on Linux?
 
-- A. add certificate authentication to the docker API B. change the encryption level to TLS
+- A. add certificate authentication to the docker API 
+- B. change the encryption level to TLS
 - C. enabletheTCPsocket
 - D. bind the Docker API to a unix socket
 
@@ -3907,7 +3963,8 @@ Reference: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-
 ### QUESTION 224
 Which of the following Dockerfile commands cannot be overridden at runtime?
 
-- A. VOLUME B. USER
+- A. VOLUME 
+- B. USER
 - C. ADD
 - D. CMD
 
@@ -3925,8 +3982,10 @@ Reference: https://docs.docker.com/engine/reference/run/#overriding-dockerfile-i
     
  When deploying to a Docker swarm, which section of the docker-compose file defines configuration related to the deployment and running of services?
 
-- A. services B. build
-- C. deploy D. args
+- A. services 
+- B. build
+- C. deploy 
+- D. args
 
 <details><summary>Answer:</summary><p> C
 
@@ -3967,7 +4026,8 @@ Which of the following is NOT an advantage of Docker's content addressable stora
 
 - A. random UUID simprove files ystem performance
 - B. improvedsecurity
-- C. guarantees data integrity after push,pull,load,andsaveoperations D. avoid s content ID collisions
+- C. guarantees data integrity after push,pull,load,andsaveoperations 
+- D. avoid s content ID collisions
 
 <details><summary>Answer:</summary><p> A
 
@@ -4063,7 +4123,9 @@ Reference: https://docs.docker.com/engine/userguide/networking/#the-docker_gwbri
 Which services can be used as optional components of setting up a new Trail in CloudTrail?
 
 - A. KMS,SNSandSES
-- B. CloudWatch,S3andSNS C. KMS,CloudwatchandSNS D. KMS,S3andCloudWatch
+- B. CloudWatch,S3andSNS 
+- C. KMS,CloudwatchandSNS 
+- D. KMS,S3andCloudWatch
 
 <details><summary>Answer:</summary><p> C
 
@@ -4101,7 +4163,8 @@ Reference: http://aws.amazon.com/cloudtrail/faqs/
 Using the AWS CLI, which command retrieves CloudTrail trail settings, including the status of the trail itself?
 
 - A. awscloudtrailreturn-trails
-- B. aws cloud trail valid at e-settings C. awscloudtrailget-settings
+- B. aws cloud trail valid at e-settings 
+- C. awscloudtrailget-settings
 - D. aws cloud trail describe-trails
 
 <details><summary>Answer:</summary><p> D
@@ -4134,8 +4197,10 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-
 ### QUESTION 235
 You are running Amazon CloudTrail on an Amazon S3 bucket and look at your most recent log. You notice that the entries include the ListThings and CreateThings actions and wonder if your devices have been hacked. Based on these entries, what service would you be concerned may have been hacked?
 
-- A. AmazonInspector B. AWSIoT
-- C. AWSCodePipeline D. AmazonGlacier
+- A. AmazonInspector 
+- B. AWSIoT
+- C. AWSCodePipeline 
+- D. AmazonGlacier
 
 <details><summary>Answer:</summary><p> B
 
@@ -4203,9 +4268,11 @@ When logging with Amazon CloudTrail, API call information for services with regi
 </p></details><hr>
 
 ### QUESTION 239
-What is the correct syntax for the AWS command to create a single region trail? A. awscreate-trail--nametrailname--s3-objectobjectname
+What is the correct syntax for the AWS command to create a single region trail? 
+- A. awscreate-trail--nametrailname--s3-objectobjectname
 - B. awscloudtrail--s3-region name IP address create-trail--nametrailname
-- C. awscloudtrailcreate-trail--nametrailname--s3-bucket-namebucketname D. awscloudtrailcreate-trail--nametrailname--s3-portnumberIPaddress
+- C. awscloudtrailcreate-trail--nametrailname--s3-bucket-namebucketname 
+- D. awscloudtrailcreate-trail--nametrailname--s3-portnumberIPaddress
 
 <details><summary>Answer:</summary><p> C
 
@@ -4238,7 +4305,9 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-clo
 </p></details><hr>
 
 ### QUESTION 241
-By default, Amazon CloudTrail logs   actions defined by the CloudTrail   APIs. A. bucket-level;RESTful
+By default, Amazon CloudTrail logs   actions defined by the CloudTrail   APIs. 
+
+- A. bucket-level;RESTful
 - B. object-level;RESTful
 - C. object-level;SDK
 - D. bucket-level;SDK
@@ -4320,7 +4389,8 @@ Using the AWS CLI, which command would you use to change the configuration setti
 
 - A. modify-trail
 - B. change-trail
-- C. update-trail D. set-trail
+- C. update-trail 
+- D. set-trail
 
 <details><summary>Answer:</summary><p> C
 
@@ -4356,7 +4426,8 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_not
 Within an IAM policy, can you add an IfExists condition at the end of a Null condition?
 
 - A. Yes,you can add an If Ex is ts condition at the end of a Null condition but not in all Region s.
-- B. Yes,you can add an If Ex is ts condition at the end of a Null condition depending on the condition. C. No,you cannot add an If Ex is ts condition at the end of a Null condition.
+- B. Yes,you can add an If Ex is ts condition at the end of a Null condition depending on the condition. 
+- C. No,you cannot add an If Ex is ts condition at the end of a Null condition.
 - D. Yes,you can add an If Ex is ts condition at the end of a Null condition.
 
 <details><summary>Answer:</summary><p> C
@@ -4417,7 +4488,8 @@ To access the AWS Security Token Service (STS) you can issue calls directly to t
 
 - A. PUT
 - B. HTTPS
-- C. POST D. GET
+- C. POST 
+- D. GET
 
 <details><summary>Answer:</summary><p> B
 
@@ -4450,7 +4522,8 @@ What will this policy do?
 
 - A. All ow this group to view the password policy of all the users added only to that group
 - B. All ow all the users of IAM to modify their password
-- C. All ow an IAM user in this group to view the password policy and modify only h is/herpassword D. All ow this group to view the password policy of all the IAM users
+- C. All ow an IAM user in this group to view the password policy and modify only h is/herpassword 
+- D. All ow this group to view the password policy of all the IAM users
 
 <details><summary>Answer:</summary><p> C
   
@@ -4487,7 +4560,8 @@ A user is defining a policy for the IAM user. Which of the below mentioned eleme
 
 - A. NotEffect
 - B. SupportedDataTypes
-- C. PrincipalResource D. VersionManagement
+- C. PrincipalResource 
+- D. VersionManagement
 
 <details><summary>Answer:</summary><p> B
 
@@ -4588,7 +4662,8 @@ A user is defining a policy for an IAM user. Which of the below mentioned option
 
 - A. "Version":"2014-01-01"
 - B. "Version":"2011-10-17"
-- C. "Version":"2013-10-17" D. "Version":"2012-10-17"
+- C. "Version":"2013-10-17" 
+- D. "Version":"2012-10-17"
 
 <details><summary>Answer:</summary><p> D
 
