@@ -9,7 +9,7 @@ import java.util.List;
 public class Question {
     String url;
     int questionNumber;
-    boolean isProfessional;
+    public boolean isProfessional;
     String text;
     List<String> choiceList = new ArrayList<>();
     List<Character> answerList = new ArrayList<>();

@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citrix.AWS-Architect.v2018-12-10.q237/No.151: An organization hosts an app on EC2 instances which multiple developers need access to in order to perform</title>
+    <meta name="description" content="An organization hosts an app on EC2 instances which multiple developers need access to in order to perform updates. The organization plans to implement some security best practices related to instance access. Which one of the following recommendations will not help improve its security in this way? A." />
+    <meta property="og:title" content="Citrix.AWS-Architect.v2018-12-10.q237/No.151: An organization hosts an app on EC2 instances which multiple developers need access to in order to perform" />
+    <meta property="og:url" content="http://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-hosts-an-app-on-ec2-instances-which-multiple-developers-need-access-to-in-order-to-perform" />
+    <meta property="og:description" content="An organization hosts an app on EC2 instances which multiple developers need access to in order to perform updates. The organization plans to implement some security best practices related to instance access. Which one of the following recommendations will not help improve its security in this way? A." />
+    <meta property="og:image" content="https://www.freecram.com/imgs/product.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="www.freecram.com" />
+    <meta name="robots" content="index,follow,noarchive,noodp,noydir" />
+    <link href="/Content/css?v=z-E3s6APdGT8Kp93BZhBxou19qRpoX0SLhiahZ_uOJs1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    <script src="/bundles/jquery?v=M6dmVkrHVhoZ1gfOtvVDZbgBcQTsbWxoLsRizcGkbPk1"></script>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4451409426014405",
+          enable_page_level_ads: true
+     });
+	</script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Free Cram</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/RequestExam">Request Exam</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span></a>
+                        <div class="dropdown-menu">
+                            <form method="get" action="/Home/Search">
+                                <div style="width:300px;padding:5px 10px;">
+                                    <div class="input-group animated fadeInDown">
+                                        <input id="qSearch" name="q" type="text" class="form-control" placeholder="Input your exam code ...">
+                                        <span class="input-group-btn"><button class="btn btn-u" type="submit">Go</button></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+		<div id="RightTopBar" style="position:fixed;right:10px;width:200px;top:100px;z-index:99999;">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- RightTopBar -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-4451409426014405"
+				 data-ad-slot="9495780796"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			$(window).bind("resize", function () {
+				$("#RightTopBar").css("display",$(this).width()<1550?"none":"block");
+			});
+			</script>
+		</div>
+        
+<style type="text/css">
+    body { background-color: #F2F2F2; }
+</style>
+<script type="text/javascript">
+    function imgLoad(obj) {
+        var _w = $(obj).width();
+        var _h = $(obj).height();
+        if (_w > 0) {
+            $(obj).css("width", "100%").css("max-width", _w);
+            $(obj).css("height", "100%").css("max-height", _h);
+        }
+    }
+</script>
+<ol class="breadcrumb" itemprop="breadcrumb" style="padding:20px 0 0 0;">
+    <li><a href="/">Home</a></li>
+    <li><a href="/vendor/Citrix.html">Citrix</a></li>
+    <li><a>AWS-Architect - </a></li>
+    <li><a href="/torrent/Citrix.AWS-Architect.v2018-12-10.q237.html">Citrix.AWS-Architect.v2018-12-10.q237</a></li>
+    <li class="active">Question 151</li>
+</ol>
+<div class="row" style="border:#e6e6e6 1px solid;border-radius:4px;background-color:white;">
+    <div class="col-sm-12 col-md-9">
+
+        <div class="qa">
+            <h4>
+                <span class="pull-right">
+ <a href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-which-step-of-using-aws-direct-connect-should-the-user-determine-the-required-port-speed" class="btn btn-sm btn-success">Prev</a>                  <a href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-hosting-a-public-website-on-aws-the-user-wants-to-have-the-database-and-the-app-server-on" class="btn btn-sm btn-success" style="margin-left:10px;">Next</a>                 </span>
+                Question <span class="text-danger">151</span>/237 - AWS-Architect.v2018-12-10
+            </h4>
+            <div class="qa-question">An organization hosts an app on EC2 instances which multiple developers need access to in order to perform updates.<br/>The organization plans to implement some security best practices related to instance access.<br/>Which one of the following recommendations will not help improve its security in this way?</div>
+
+            <div class="qa-options">
+                        <label class="radio"><input type="radio" name="ipt_options" class="option_A" value="A"><strong>A.</strong> Disable the password based login for all the users. All the users should use their own keys to connect with the instance securely.</label>
+                        <label class="radio"><input type="radio" name="ipt_options" class="option_B" value="B"><strong>B.</strong> Create an IAM policy allowing only IAM users to connect to the EC2 instances with their own SSH key.</label>
+                        <label class="radio"><input type="radio" name="ipt_options" class="option_C" value="C"><strong>C.</strong> Create a procedure to revoke the access rights of the individual user when they are not required to connect to EC2 instance anymore for the purpose of application configuration.</label>
+                        <label class="radio"><input type="radio" name="ipt_options" class="option_D" value="D"><strong>D.</strong> Apply the latest patch of OS and always keep it updated.</label>
+            </div>
+            <div id="answerExp" style="text-align:center;margin:20px 0px;"><input type="button" class="btn btn-success" value="Show answers/explanations" display="0" onclick="displayAsEs(this)" style="font-weight:bold;" /></div>
+            <div class="qa-answerexp" style="display:none;z-index:99999;">
+                <div style="margin:10px 0px;font-weight:bold;">Correct Answer: <span style="font-size:18px;color:red;">B</span></div>
+                <div class="qa_explanation">Explanation/Reference:<br/>Explanation:<br/>Since AWS is a public cloud any application hosted on EC2 is prone to hacker attacks. It becomes extremely important for a user to setup a proper security mechanism on the EC2 instances. A few of the security measures are listed below:<br/>Always keep the OS updated with the latest patch<br/><img onload="imgLoad(this)" src="/uploads/AWS-Architect/79812f5a667d13cdab86b1d0132ec145.jpg"/><br/>Always create separate users with in OS if they need to connect with the EC2 instances, create their<br/><img onload="imgLoad(this)" src="/uploads/AWS-Architect/79812f5a667d13cdab86b1d0132ec145.jpg"/><br/>keys and disable their password<br/>Create a procedure using which the admin can revoke the access of the user when the business work<br/><img onload="imgLoad(this)" src="/uploads/AWS-Architect/79812f5a667d13cdab86b1d0132ec145.jpg"/><br/>on the EC2 instance is completed. . Lock down unnecessary ports<br/>Audit any proprietary applications that the user may be running on the EC2 instance. Provide temporary<br/><img onload="imgLoad(this)" src="/uploads/AWS-Architect/79812f5a667d13cdab86b1d0132ec145.jpg"/><br/>escalated privileges, such as sudo for users who need to perform occasional privileged tasks IAM is useful when users are required to work with AWS resources and actions, such as launching an instance. It is not useful in this case because it does not manage who can connect via RDP or SSH with an instance.<br/>http://aws.amazon.com/articles/1233/</div>
+            </div>
+            <div style="height:80px;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- New -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-4451409426014405"
+                     data-ad-slot="1632995464"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        <form id="commentForm" method="post">
+            <div class="reply">
+                <h4>LEAVE A REPLY</h4>
+                <p>Your email address will not be published. Required fields are marked <i style="color:red;">*</i></p>
+                <p id="errormessage" class="error"></p>
+                <div class="form-group">
+                    <label for="iptComment">Comment: <i style="color:red;">*</i></label>
+                    <textarea class="form-control" rows="5" id="iptComment" name="iptComment" placeholder="Comment" style="margin:0;max-width:100%;" minlength="5" maxlength="5000" required></textarea>
+                </div>
+                <div class="form-inline" style="margin-bottom:10px;">
+                    <label for="iptName" style="width:100px;">Name: <i style="color:red;">*</i></label>
+                    <input type="text" class="form-control" id="iptName" name="iptName" placeholder="Name" minlength="2" required>
+                </div>
+                <div class="form-inline" style="margin-bottom:10px;">
+                    <label for="iptEmail" style="width:100px;">Email: <i style="color:red;">*</i></label>
+                    <input type="email" class="form-control" id="iptEmail" name="iptEmail" placeholder="Email" required>
+                </div>
+                <div class="form-inline" style="margin-bottom:10px;">
+                    <label for="iptVCode" style="width:100px;">Verification: <i style="color:red;">*</i></label>
+                    <input type="text" class="form-control" id="iptVCode" placeholder="Verification Code" maxlength="4" style="max-width:140px;" required>
+                    <img src="/scode.aspx?h=30" id="imgvcode" onclick="this.src='/scode.aspx?h=30&'+Math.random()" style="cursor:pointer;" />
+                </div>
+                <div class="form-inline" style="margin-bottom:10px;margin-top:30px;">
+                    <button style="margin-left:103px;" type="submit" class="btn btn-primary">Post Comment</button>
+                </div>
+            </div>
+        </form>
+
+        <div style="margin-top:30px;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Default -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4451409426014405"
+                 data-ad-slot="5065623236"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-3 aw-side-bar" style="border-left:1px solid #e6e6e6;">
+        <div style="text-align:center;margin:20px auto;"><a href="http://www.prepawayexam.com/ad.ashx?q=AWS-Architect" target="_blank"><img src="/imgs/adts.png" /></a></div>
+
+        <dl class="barlist">
+            <dt>Question List (237q)</dt>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/if-i-write-the-below-command-what-does-it-do-ec2-run-ami-e3a5408a-n-20-g-appserver"><strong>Question 1:</strong> If I write the below command, what does it do? ec2-run ami-e...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-amazon-elasticache-the-failure-of-a-single-cache-node-can-have-an-impact-on-the-availability-of-your"><strong>Question 2:</strong> In Amazon ElastiCache, the failure of a single cache node ca...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-created-a-vpc-with-cidr-20.0.0.0-16-using-the-wizard-the-user-has-created-a-public-subnet"><strong>Question 3:</strong> A user has created a VPC with CIDR 20.0.0.0/16 using the wiz...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-must-architect-the-migration-of-a-web-application-to-aws-the-application-consists-of-linux-web-server"><strong>Question 4:</strong> You must architect the migration of a web application to AWS...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-web-startup-runs-its-very-successful-social-news-application-on-amazon-ec2-with-an-elastic-load-balancer"><strong>Question 5:</strong> A web-startup runs its very successful social news applicati...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/to-scale-out-the-aws-resources-using-manual-autoscaling-which-of-the-below-mentioned-parameters-should"><strong>Question 6:</strong> To scale out the AWS resources using manual AutoScaling, whi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/by-default-amazon-cognito-maintains-the-last-written-version-of-the-data-you-can-override-this-behavior"><strong>Question 7:</strong> By default, Amazon Cognito maintains the last-written versio...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-has-hosted-an-application-on-the-ec2-instances-there-will-be-multiple-users-connecting"><strong>Question 8:</strong> An organization has hosted an application on the EC2 instanc...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/exhibit-refer-to-the-architecture-diagram-above-of-a-batch-processing-solution-using-simple-queue-servic"><strong>Question 9:</strong> (Exhibit) Refer to the architecture diagram above of a batch...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-has-4-people-in-the-it-operations-team-who-are-responsible-to-manage-the-aws-infrastructur"><strong>Question 10:</strong> An organization has 4 people in the IT operations team who a...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/within-the-iam-service-a-group-is-regarded-as-a"><strong>Question 11:</strong> Within the IAM service a GROUP is regarded as a:...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-migrating-a-legacy-client-server-application-to-aws-the-application-responds-to-a-specific-dns"><strong>Question 12:</strong> You are migrating a legacy client-server application to AWS....</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-website-is-serving-on-demand-training-videos-to-your-workforce-videos-are-uploaded-monthly-in-high"><strong>Question 13:</strong> Your website is serving on-demand training videos to your wo...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/identify-a-true-statement-about-the-statement-id-sid-in-iam"><strong>Question 14:</strong> Identify a true statement about the statement ID (Sid) in IA...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-developing-a-new-mobile-application-and-are-considering-storing-user-preferences-in-aws.2w-this"><strong>Question 15:</strong> You are developing a new mobile application and are consider...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-aws-customer-runs-a-public-blogging-website-the-site-users-upload-two-million-blog-entries-a-month"><strong>Question 16:</strong> An AWS customer runs a public blogging website. The site use...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-company-is-building-a-voting-system-for-a-popular-tv-show-viewers-win-watch-the-performances-then"><strong>Question 17:</strong> A company is building a voting system for a popular TV show,...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/company-b-is-launching-a-new-game-app-for-mobile-devices-users-will-log-into-the-game-using-their-existin"><strong>Question 18:</strong> Company B is launching a new game app for mobile devices. Us...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-statements-is-not-correct-when-working-with-your-aws-direct-connect-connection"><strong>Question 19:</strong> Which of the following statements is NOT correct when workin...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-need-to-develop-and-run-some-new-applications-on-aws-and-you-know-that-elastic-beanstalk-and-cloudform"><strong>Question 20:</strong> You need to develop and run some new applications on AWS and...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/iam-secure-and-scalable-is-an-organization-which-provides-scalable-and-secure-saas-to-its-clients-they"><strong>Question 21:</strong> IAM Secure and Scalable is an organization which provides sc...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-principal-element-of-an-iam-policy-refers-to-the-specific-entity-that-should-be-allowed-or-denied"><strong>Question 22:</strong> The Principal element of an IAM policy refers to the specifi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-want-to-define-permissions-for-a-role-in-an-iam-policy-which-of-the-following-configuration-formats"><strong>Question 23:</strong> You want to define permissions for a role in an IAM policy. ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-sys-admin-is-maintaining-an-application-on-aws-the-application-is-installed-on-ec2-and-user-has-configu"><strong>Question 24:</strong> A sys admin is maintaining an application on AWS. The applic...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/select-the-correct-set-of-options-these-are-the-initial-settings-for-the-default-security-group"><strong>Question 25:</strong> Select the correct set of options. These are the initial set...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-cloudformation-if-you-want-to-map-an-amazon-elastic-block-store-to-an-amazon-ec2-instance"><strong>Question 26:</strong> In CloudFormation, if you want to map an Amazon Elastic Bloc...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/for-amazon-ec2-issues-while-troubleshooting-aws-cloudformation-you-need-to-view-the-cloud-init-and"><strong>Question 27:</strong> For Amazon EC2 issues, while troubleshooting AWS CloudFormat...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/when-does-an-aws-data-pipeline-terminate-the-aws-data-pipeline-managed-compute-resources"><strong>Question 28:</strong> When does an AWS Data Pipeline terminate the AWS Data Pipeli...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-planning-to-host-a-web-server-as-well-as-an-app-server-on-a-single-ec2-instance-which-is-a"><strong>Question 29:</strong> A user is planning to host a web server as well as an app se...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-is-the-amazon-resource-name-arn-condition-operator-that-can-be-used-within-an"><strong>Question 30:</strong> Which of the following is the Amazon Resource Name (ARN) con...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-launched-an-ebs-optimized-instance-with-ec2-which-of-the-below-mentioned-options-is-the-correc"><strong>Question 31:</strong> A user has launched an EBS optimized instance with EC2. Whic...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-created-an-aws-ami-the-user-wants-the-ami-to-be-available-only-to-his-friend-and-not-anyone"><strong>Question 32:</strong> A user has created an AWS AMI. The user wants the AMI to be ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-want-to-use-aws-codedeploy-to-deploy-an-application-to-amazon-ec2-instances-running-within-an-amazon"><strong>Question 33:</strong> You want to use AWS CodeDeploy to deploy an application to A...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-the-context-of-aws-iam-identify-a-true-statement-about-user-passwords-login-profiles"><strong>Question 34:</strong> In the context of AWS IAM, identify a true statement about u...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-application-provides-data-transformation-services-files-containing-data-to-be-transformed-are-first"><strong>Question 35:</strong> Your application provides data transformation services. File...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-configured-ebs-volume-with-piops-the-user-is-not-experiencing-the-optimal-throughput-which"><strong>Question 36:</strong> A user has configured EBS volume with PIOPS. The user is not...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/cognito-sync-is-an-aws-service-that-you-can-use-to-synchronize-user-profile-data-across-mobile-devices"><strong>Question 37:</strong> Cognito Sync is an AWS service that you can use to synchroni...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/when-using-the-aws-cli-for-aws-cloudformation-which-of-the-following-commands-returns-a-description"><strong>Question 38:</strong> When using the AWS CLI for AWS CloudFormation, which of the ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-a-social-media-site-and-are-considering-how-to-mitigate-distributed-denial-of-service"><strong>Question 39:</strong> You are designing a social media site and are considering ho...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-an-application-running-on-an-ec2-instance-which-will-allow-users-to-download-files-from-a-private"><strong>Question 40:</strong> You have an application running on an EC2 instance which wil...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-types-of-identities-do-amazon-cognito-identity-pools-support"><strong>Question 41:</strong> What types of identities do Amazon Cognito identity pools su...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/by-default-temporary-security-credentials-for-an-iam-user-are-valid-for-a-maximum-of-12-hours-but-you"><strong>Question 42:</strong> By default, temporary security credentials for an IAM user a...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-has-created-5-iam-users-the-organization-wants-to-give-them-the-same-login-id-but-differe"><strong>Question 43:</strong> An organization has created 5 IAM users. The organization wa...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-bucket-owner-has-allowed-another-account-s-iam-users-to-upload-or-access-objects-in-his-bucket-the"><strong>Question 44:</strong> A bucket owner has allowed another account&#39;s IAM users to up...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-average-queue-length-recommended-by-aws-to-achieve-a-lower-latency-for-the-200-piops-ebs"><strong>Question 45:</strong> What is the average queue length recommended by AWS to achie...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-configured-two-security-groups-which-allow-traffic-as-given-below-1-secgrp1-inbound-on"><strong>Question 46:</strong> A user has configured two security groups which allow traffi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-trying-to-understand-the-detailed-cloudwatch-monitoring-concept-which-of-the-below-mentioned"><strong>Question 47:</strong> A user is trying to understand the detailed CloudWatch monit...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-having-an-application-which-can-start-and-stop-an-ec2-instance-as-per-schedule-the"><strong>Question 48:</strong> An organization is having an application which can start and...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/who-is-responsible-for-modifying-the-routing-tables-and-networking-acls-in-a-vpc-to-ensure-that-a-db"><strong>Question 49:</strong> Who is responsible for modifying the routing tables and netw...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-running-a-batch-process-on-ebs-backed-ec2-instances-the-batch-process-launches-few-ec2-instance"><strong>Question 50:</strong> A user is running a batch process on EBS backed EC2 instance...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-a-circular-dependency-in-aws-cloudformation"><strong>Question 51:</strong> What is a circular dependency in AWS CloudFormation?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-ve-been-brought-in-as-solutions-architect-to-assist-an-enterprise-customer-with-their-migration-of"><strong>Question 52:</strong> You&#39;ve been brought in as solutions architect to assist an e...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-is-getting-ready-to-do-a-major-public-announcement-of-a-social-media-site-on-aws-the-website"><strong>Question 53:</strong> Your company is getting ready to do a major public announcem...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-amazon-cognito-your-mobile-app-authenticates-with-the-identity-provider-idp-using-the-provider-s"><strong>Question 54:</strong> In Amazon Cognito, your mobile app authenticates with the Id...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-maximum-length-for-an-instance-profile-name-in-aws-iam"><strong>Question 55:</strong> What is the maximum length for an instance profile name in A...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/by-default-what-is-the-maximum-number-of-cache-nodes-you-can-run-in-amazon-elasticache"><strong>Question 56:</strong> By default, what is the maximum number of Cache Nodes you ca...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-planning-to-create-a-secure-scalable-application-with-aws-vpc-and-elb-the-organization"><strong>Question 57:</strong> An organization is planning to create a secure scalable appl...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/can-provisioned-iops-be-used-on-rds-instances-launched-in-a-vpc"><strong>Question 58:</strong> Can Provisioned IOPS be used on RDS instances launched in a ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-has-setup-rds-with-vpc-the-organization-wants-rds-to-be-accessible-from-the-internet"><strong>Question 59:</strong> An organization has setup RDS with VPC. The organization wan...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-authenticating-with-amazon-cognito-will-go-through-a-multi-step-process-to-bootstrap-their-credenti"><strong>Question 60:</strong> A user authenticating with Amazon Cognito will go through a ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/after-setting-an-aws-direct-connect-which-of-the-following-cannot-be-done-with-an-aws-direct-connect"><strong>Question 61:</strong> After setting an AWS Direct Connect, which of the following ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/can-a-user-configure-a-custom-health-check-with-auto-scaling"><strong>Question 62:</strong> Can a user configure a custom health check with Auto Scaling...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-hosts-a-social-media-website-for-storing-and-sharing-documents-the-web-application-allows"><strong>Question 63:</strong> Your company hosts a social media website for storing and sh...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-set-the-iam-policy-where-it-denies-all-requests-if-a-request-is-not-from-ip-10.10.10.1-32"><strong>Question 64:</strong> A user has set the IAM policy where it denies all requests i...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-ec2-functionality-allows-the-user-to-place-the-cluster-compute-instances-in-clusters"><strong>Question 65:</strong> Which EC2 functionality allows the user to place the Cluster...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/how-many-cg1.4xlarge-on-demand-instances-can-a-user-run-in-one-region-without-taking-any-limit-increase"><strong>Question 66:</strong> How many cg1.4xlarge on-demand instances can a user run in o...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-planning-to-host-a-web-application-in-the-aws-vpc-the-organization-does-not-want"><strong>Question 67:</strong> An organization is planning to host a web application in the...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-aws-instance-address-has-the-following-characteristics-if-you-stop-an-instance-its-elastic"><strong>Question 68:</strong> Which AWS instance address has the following characteristics...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-international-company-has-deployed-a-multi-tier-web-application-that-relies-on-dynamodb-in-a-single"><strong>Question 69:</strong> An International company has deployed a multi-tier web appli...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/how-can-multiple-compute-resources-be-used-on-the-same-pipeline-in-aws-data-pipeline"><strong>Question 70:</strong> How can multiple compute resources be used on the same pipel...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/while-implementing-the-policy-keys-in-aws-direct-connect-if-you-use-and-the-request-comes-from-an-amazon"><strong>Question 71:</strong> While implementing the policy keys in AWS Direct Connect, if...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/if-a-single-condition-within-an-iam-policy-includes-multiple-values-for-one-key-it-will-be-evaluated"><strong>Question 72:</strong> If a single condition within an IAM policy includes multiple...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/does-autoscaling-automatically-assign-tags-to-resources"><strong>Question 73:</strong> Does Autoscaling automatically assign tags to resources?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/while-assigning-a-tag-to-an-instance-which-of-the-below-mentioned-options-is-not-a-valid-tag-key-value"><strong>Question 74:</strong> While assigning a tag to an instance, which of the below men...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/for-aws-cloudformation-which-stack-state-refuses-updatestack-calls"><strong>Question 75:</strong> For AWS CloudFormation, which stack state refuses UpdateStac...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/can-you-configure-multiple-load-balancers-with-a-single-auto-scaling-group"><strong>Question 76:</strong> Can you configure multiple Load Balancers with a single Auto...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-an-ssl-tls-solution-that-requires-https-clients-to-be-authenticated-by-the-web-server"><strong>Question 77:</strong> You are designing an SSL/TLS solution that requires HTTPS cl...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-cache-engines-does-amazon-elasticache-support"><strong>Question 78:</strong> Which of the following cache engines does Amazon ElastiCache...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-previously-configured-a-heavily-used-dynamically-routed-vpn-connection-between-your-on"><strong>Question 79:</strong> Your company previously configured a heavily used, dynamical...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-running-a-news-website-in-the-eu-west-1-region-that-updates-every-15-minutes-the-website-has"><strong>Question 80:</strong> You are running a news website in the eu-west-1 region that ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-a-website-which-requires-international-presence-and-consequently-you-have-set-it-up-as-follows"><strong>Question 81:</strong> You have a website which requires international presence and...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-_______-service-is-targeted-at-organizations-with-multiple-users-or-systems-that-use-aws-products"><strong>Question 82:</strong> The ________ service is targeted at organizations with multi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-a-multi-platform-web-application-for-aws-the-application-will-run-on-ec2-instances"><strong>Question 83:</strong> You are designing a multi-platform web application for AWS T...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-planning-to-extend-their-data-center-by-connecting-their-dc-with-the-aws-vpc-using"><strong>Question 84:</strong> An organization is planning to extend their data center by c...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-created-a-vpc-with-public-and-private-subnets-using-the-vpc-wizard-the-vpc-has-cidr-20.0.0.0-1"><strong>Question 85:</strong> A user has created a VPC with public and private subnets usi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/true-or-false-in-amazon-elasticache-you-can-use-cache-security-groups-to-configure-the-cache-clusters"><strong>Question 86:</strong> True or False: In Amazon ElastiCache, you can use Cache Secu...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-is-not-an-advantage-of-using-aws-direct-connect"><strong>Question 87:</strong> Which of the following is NOT an advantage of using AWS Dire...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-statement-is-not-true-about-accessing-remote-aws-region-in-the-us-by-your-aws-direct-connect-which"><strong>Question 88:</strong> Which statement is NOT true about accessing remote AWS regio...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-planning-to-use-ebs-for-his-db-requirement-the-user-already-has-an-ec2-instance-running-in"><strong>Question 89:</strong> A user is planning to use EBS for his DB requirement. The us...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/if-you-have-a-running-instance-using-an-amazon-ebs-boot-partition-you-can-call-the-______-api-to-release"><strong>Question 90:</strong> If you have a running instance using an Amazon EBS boot part...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-accessing-an-ec2-instance-on-the-ssh-port-for-ip-10.20.30.40-32-which-one-is-a-secure-way"><strong>Question 91:</strong> A user is accessing an EC2 instance on the SSH port for IP 1...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-setting-up-a-web-application-with-the-jee-stack-the-application-uses-the-jboss-app"><strong>Question 92:</strong> An organization is setting up a web application with the JEE...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-been-asked-to-set-up-a-public-website-on-aws-with-the-following-criteria-you-want-the-database"><strong>Question 93:</strong> You have been asked to set up a public website on AWS with t...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-deployed-your-company-website-using-elastic-beanstalk-and-you-enabled-log-file-rotation-to-s3-an"><strong>Question 94:</strong> You deployed your company website using Elastic Beanstalk an...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-undergoing-a-security-audit-the-auditor-wants-to-view-the-aws-vpc-configurations"><strong>Question 95:</strong> An organization is undergoing a security audit. The auditor ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-creating-a-vpc-for-their-application-hosting-the-organization-has-created-two-private"><strong>Question 96:</strong> An organization is creating a VPC for their application host...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-trying-to-create-a-piops-ebs-volume-with-3-gb-size-and-90-iops-will-aws-create-the-volume"><strong>Question 97:</strong> A user is trying to create a PIOPS EBS volume with 3 GB size...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-auto-scaling-group-is-running-at-the-desired-capacity-of-5-instances-and-receives-a-trigger-from-the"><strong>Question 98:</strong> An Auto Scaling group is running at the desired capacity of ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-amazon-elasticache-which-of-the-following-statements-is-correct"><strong>Question 99:</strong> In Amazon ElastiCache, which of the following statements is ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-statement-is-not-true-about-a-stack-which-has-been-created-in-a-virtual-private-cloud-vpc-in"><strong>Question 100:</strong> Which statement is NOT true about a stack which has been cre...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-cfo-of-a-company-wants-to-allow-one-of-his-employees-to-view-only-the-aws-usage-report-page-which"><strong>Question 101:</strong> The CFO of a company wants to allow one of his employees to ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-a-data-leak-prevention-solution-for-your-vpc-environment-you-want-your-vpc-instances"><strong>Question 102:</strong> You are designing a data leak prevention solution for your V...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-an-intrusion-detection-prevention-ids-ips-solution-for-a-customer-web-application"><strong>Question 103:</strong> You are designing an intrusion detection prevention (IDS/IPS...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-created-a-vpc-with-cidr-20.0.0.0-16-using-the-vpc-wizard-the-user-has-created-public-and"><strong>Question 104:</strong> A user has created a VPC with CIDR 20.0.0.0/16 using the VPC...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-the-amazon-rds-oracle-db-engine-the-database-diagnostic-pack-and-the-database-tuning-pack-are-only"><strong>Question 105:</strong> In the Amazon RDS Oracle DB engine, the Database Diagnostic ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-trying-to-create-a-vault-in-aws-glacier-the-user-wants-to-enable-notifications-in-which-of"><strong>Question 106:</strong> A user is trying to create a vault in AWS Glacier. The user ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-maximum-length-for-a-certificate-id-in-aws-iam"><strong>Question 107:</strong> What is the maximum length for a certificate ID in AWS IAM?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-status-represents-a-failure-state-in-aws-cloudformation"><strong>Question 108:</strong> Which status represents a failure state in AWS CloudFormatio...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-just-added-a-new-instance-to-your-auto-scaling-group-which-receives-elb-health-checks-an-elb"><strong>Question 109:</strong> You have just added a new instance to your Auto Scaling grou...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-two-policies-that-you-attach-to-an-iam-role-are-the-access-policy-and-the-trust-policy-the-trust"><strong>Question 110:</strong> The two policies that you attach to an IAM role are the acce...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/when-you-resize-the-amazon-rds-db-instance-amazon-rds-will-perform-the-upgrade-during-the-next-maintenanc"><strong>Question 111:</strong> When you resize the Amazon RDS DB instance, Amazon RDS will ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-components-of-aws-data-pipeline-polls-for-tasks-and-then-performs-those-tasks"><strong>Question 112:</strong> Which of the following components of AWS Data Pipeline polls...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-want-to-use-amazon-redshift-and-you-are-planning-to-deploy-dw1.8xlarge-nodes-what-is-the-minimum"><strong>Question 113:</strong> You want to use Amazon Redshift and you are planning to depl...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-re-trying-to-delete-an-ssl-certificate-from-the-iam-certificate-store-and-you-re-getting-the-message"><strong>Question 114:</strong> You&#39;re trying to delete an SSL certificate from the IAM cert...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/does-an-aws-direct-connect-location-provide-access-to-amazon-web-services-in-the-region-it-is-associated"><strong>Question 115:</strong> Does an AWS Direct Connect location provide access to Amazon...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-planning-to-setup-a-management-network-on-the-aws-vpc-the-organization-is-trying"><strong>Question 116:</strong> An organization is planning to setup a management network on...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-amazon-iam-what-is-the-maximum-length-for-a-role-name"><strong>Question 117:</strong> In Amazon IAM, what is the maximum length for a role name?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-purchasing-licensed-software-the-software-license-can-be-registered-only-to-a-specific"><strong>Question 118:</strong> An organization is purchasing licensed software. The softwar...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-network-performance-offered-by-the-c4.8xlarge-instance-in-amazon-ec2"><strong>Question 119:</strong> What is the network performance offered by the c4.8xlarge in...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-planning-to-host-an-application-on-the-aws-vpc-the-organization-wants-dedicated-instan"><strong>Question 120:</strong> An organization is planning to host an application on the AW...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/how-many-g2.2xlarge-on-demand-instances-can-a-user-run-in-one-region-without-taking-any-limit-increase"><strong>Question 121:</strong> How many g2.2xlarge on-demand instances can a user run in on...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-a-connectivity-solution-between-on-premises-infrastructure-and-amazon-vpc-your-servers"><strong>Question 122:</strong> You are designing a connectivity solution between on-premise...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-3-tier-e-commerce-web-application-is-current-deployed-on-premises-and-will-be-migrated-to-aws-for-greate"><strong>Question 123:</strong> A 3-tier e-commerce web application is current deployed on-p...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-the-context-of-aws-cloudformation-which-of-the-following-statements-is-correct"><strong>Question 124:</strong> In the context of AWS CloudFormation, which of the following...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-suspended-the-scaling-process-on-the-auto-scaling-group-a-scaling-activity-to-increase-the"><strong>Question 125:</strong> A user has suspended the scaling process on the Auto Scaling...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-default-maximum-number-of-vpcs-allowed-per-region"><strong>Question 126:</strong> What is the default maximum number of VPCs allowed per regio...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-iam-which-of-the-following-is-true-of-temporary-security-credentials"><strong>Question 127:</strong> In IAM, which of the following is true of temporary security...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-account-id-123412341234-has-configured-the-iam-policy-to-allow-the-user-to-modify-his"><strong>Question 128:</strong> An organization (account ID 123412341234) has configured the...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/to-get-started-using-aws-direct-connect-in-which-of-the-following-steps-do-you-configure-border-gateway"><strong>Question 129:</strong> To get started using AWS Direct Connect, in which of the fol...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-an-aws-cloudformation-template-each-resource-declaration-includes"><strong>Question 130:</strong> In an AWS CloudFormation template, each resource declaration...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/over-which-of-the-following-ethernet-standards-does-aws-direct-connect-link-your-internal-network-to"><strong>Question 131:</strong> Over which of the following Ethernet standards does AWS Dire...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-is-a-valid-amazon-resource-name-arn-for-iam"><strong>Question 132:</strong> Which is a valid Amazon Resource name (ARN) for IAM?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-administrator-is-using-amazon-cloudformation-to-deploy-a-three-tier-web-application-that-consists"><strong>Question 133:</strong> An administrator is using Amazon CloudFormation to deploy a ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-written-a-cloudformation-template-that-creates-1-elastic-load-balancer-fronting-2-ec2-instances"><strong>Question 134:</strong> You have written a CloudFormation template that creates 1 El...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-system-is-used-by-amazon-machine-images-paravirtual-pv-virtualization-during-the-boot-process"><strong>Question 135:</strong> Which system is used by Amazon Machine Images paravirtual (P...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/amazon-ec2-provides-a-repository-of-public-data-sets-that-can-be-seamlessly-integrated-into-aws-cloud"><strong>Question 136:</strong> Amazon EC2 provides a repository of public data sets that ca...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-name-of-licensing-model-in-which-i-can-use-your-existing-oracle-database-licenses-to-run"><strong>Question 137:</strong> What is the name of licensing model in which I can use your ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-3-ber-e-commerce-web-application-is-currently-deployed-on-premises-and-will-be-migrated-to-aws-for"><strong>Question 138:</strong> A 3-Ber e-commerce web application is currently deployed on-...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-fortune-500-company-has-under-taken-a-tco-analysis-evaluating-the-use-of-amazon-s3-versus-acquiring"><strong>Question 139:</strong> Your fortune 500 company has under taken a TCO analysis eval...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-launched-a-dedicated-ebs-backed-instance-with-ec2-you-are-curious-where-the-ebs-volume-for"><strong>Question 140:</strong> A user has launched a dedicated EBS backed instance with EC2...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-a-possible-reason-you-would-need-to-edit-claims-issued-in-a-saml-token"><strong>Question 141:</strong> What is a possible reason you would need to edit claims issu...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-user-has-provisioned-the-piops-volume-with-an-ebs-optimized-instance-generally-speaking-in-which"><strong>Question 142:</strong> The user has provisioned the PIOPS volume with an EBS optimi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/true-or-false-in-cloudformation-you-cannot-create-an-amazon-rds-db-instance-from-a-snapshot"><strong>Question 143:</strong> True or false: In CloudFormation, you cannot create an Amazo...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-mysecuredata-company-has-five-branches-across-the-globe-they-want-to-expand-their-data-centers-such"><strong>Question 144:</strong> The MySecureData company has five branches across the globe....</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-are-characteristics-of-amazon-vpc-subnets-choose-2"><strong>Question 145:</strong> Which of the following are characteristics of Amazon VPC sub...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-supervisor-has-given-you-the-task-of-creating-an-elastic-network-interface-on-each-of-your-web-server"><strong>Question 146:</strong> Your supervisor has given you the task of creating an elasti...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/dave-is-the-main-administrator-in-example-corp-and-he-decides-to-use-paths-to-help-delineate-the-users"><strong>Question 147:</strong> Dave is the main administrator in Example Corp., and he deci...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-setup-an-auto-scaling-group-the-cool-down-period-for-the-auto-scaling-group-is-7-minutes-the"><strong>Question 148:</strong> You have setup an Auto Scaling group. The cool down period f...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-planning-to-host-a-wordpress-blog-as-well-a-joomla-cms-on-a-single-instance-launched"><strong>Question 149:</strong> An organization is planning to host a Wordpress blog as well...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-which-step-of-using-aws-direct-connect-should-the-user-determine-the-required-port-speed"><strong>Question 150:</strong> In which step of using AWS Direct Connect should the user de...</a></dd>
+            <dd><a class='active'  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-hosts-an-app-on-ec2-instances-which-multiple-developers-need-access-to-in-order-to-perform"><strong>Question 151:</strong> An organization hosts an app on EC2 instances which multiple...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-hosting-a-public-website-on-aws-the-user-wants-to-have-the-database-and-the-app-server-on"><strong>Question 152:</strong> A user is hosting a public website on AWS. The user wants to...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-configuring-mysql-rds-with-piops-what-should-be-the-minimum-size-of-db-storage-provided-by"><strong>Question 153:</strong> A user is configuring MySQL RDS with PIOPS. What should be t...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/is-there-any-way-to-own-a-direct-connection-to-amazon-web-services"><strong>Question 154:</strong> Is there any way to own a direct connection to Amazon Web Se...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-web-company-is-looking-to-implement-an-external-payment-service-into-their-highly-available-application"><strong>Question 155:</strong> A web company is looking to implement an external payment se...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-setting-a-website-on-the-aws-vpc-the-organization-has-blocked-a-few-ips-to-avoid"><strong>Question 156:</strong> An organization is setting a website on the AWS VPC. The org...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/true-or-false-in-a-cloudformation-template-you-can-reuse-the-same-logical-id-several-times-to-reference"><strong>Question 157:</strong> True or false: In a CloudFormation template, you can reuse t...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-trying-to-create-a-piops-ebs-volume-with-4000-iops-and-100-gb-size-aws-does-not-allow-the"><strong>Question 158:</strong> A user is trying to create a PIOPS EBS volume with 4000 IOPS...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-subscribed-to-the-aws-business-and-enterprise-support-plan-your-business-has-a-backlog-of-proble"><strong>Question 159:</strong> You have subscribed to the AWS Business and Enterprise suppo...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-amazon-elasticache-the-default-cache-port-is"><strong>Question 160:</strong> In Amazon ElastiCache, the default cache port is:...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-corporate-web-application-is-deployed-within-an-amazon-virtual-private-cloud-vpc-and-is-connected"><strong>Question 161:</strong> A corporate web application is deployed within an Amazon Vir...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/how-can-you-check-the-operational-validity-of-your-aws-cloudformation-template"><strong>Question 162:</strong> How can you check the operational validity of your AWS Cloud...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-wants-to-configure-autoscaling-which-scales-up-when-the-cpu-utilization-is-above-70-and-scales"><strong>Question 163:</strong> A user wants to configure AutoScaling which scales up when t...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-setting-up-their-website-on-aws-the-organization-is-working-on-various-security-measur"><strong>Question 164:</strong> An organization is setting up their website on AWS. The orga...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-role-of-the-pollfortask-action-when-it-is-called-by-a-task-runner-in-aws-data-pipeline"><strong>Question 165:</strong> What is the role of the PollForTask action when it is called...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-aws-which-security-aspects-are-the-customer-s-responsibility-choose-4"><strong>Question 166:</strong> In AWS, which security aspects are the customer&#39;s responsibi...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-playing-around-with-setting-up-stacks-using-json-templates-in-cloudformation-to-try-and-understand"><strong>Question 167:</strong> You are playing around with setting up stacks using JSON tem...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/one-of-the-components-that-is-part-of-ec2-net-utils-used-with-eni-s-is-ec2ifscan-which-of-the-following"><strong>Question 168:</strong> One of the components that is part of ec2-net-utils used wit...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-is-the-final-step-that-should-be-completed-to-start-using-aws-direct-connect"><strong>Question 169:</strong> Which of the following is the final step that should be comp...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-setting-up-an-application-on-aws-to-have-both-high-availability-ha-and-disaster"><strong>Question 170:</strong> An organization is setting up an application on AWS to have ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/if-no-explicit-deny-is-found-while-applying-iam-s-policy-evaluation-logic-the-enforcement-code-looks"><strong>Question 171:</strong> If no explicit deny is found while applying IAM&#39;s Policy Eva...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/after-launching-an-instance-that-you-intend-to-serve-as-a-nat-network-address-translation-device-in"><strong>Question 172:</strong> After launching an instance that you intend to serve as a NA...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/after-moving-an-e-commerce-website-for-a-client-from-a-dedicated-server-to-aws-you-have-also-set-up-auto"><strong>Question 173:</strong> After moving an E-Commerce website for a client from a dedic...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/aws-cloudformation-_____-are-special-actions-you-use-in-your-template-to-assign-values-to-properties"><strong>Question 174:</strong> AWS CloudFormation ______ are special actions you use in you...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-elastic-network-interface-eni-is-a-virtual-network-interface-that-you-can-attach-to-an-instance"><strong>Question 175:</strong> An elastic network interface (ENI) is a virtual network inte...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-benefits-enrollment-company-is-hosting-a-3-tier-web-application-running-in-a-vpc-on-aws-which-includes"><strong>Question 176:</strong> A benefits enrollment company is hosting a 3-tier web applic...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-deployed-a-three-tier-web-application-in-a-vpc-with-a-cidr-block-of-10.0.0.0-28-you-initially"><strong>Question 177:</strong> You have deployed a three-tier web application in a VPC with...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/identify-a-correct-statement-about-the-expiration-date-of-the-letter-of-authorization-and-connecting"><strong>Question 178:</strong> Identify a correct statement about the expiration date of th...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/true-or-false-amazon-elasticache-supports-the-redis-key-value-store"><strong>Question 179:</strong> True or False: Amazon ElastiCache supports the Redis key-val...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-bandwidths-do-aws-direct-connect-currently-support"><strong>Question 180:</strong> What bandwidths do AWS Direct Connect currently support?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/will-you-be-able-to-access-ec2-snapshots-using-the-regular-amazon-s3-apis"><strong>Question 181:</strong> Will you be able to access EC2 snapshots using the regular A...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/identify-a-benefit-of-using-auto-scaling-for-your-application"><strong>Question 182:</strong> Identify a benefit of using Auto Scaling for your applicatio...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-an-application-running-on-an-ec2-instance-which-will-allow-users-to-download-flies-from-a-private"><strong>Question 183:</strong> You have an application running on an EC2 Instance which wil...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/do-you-need-to-use-amazon-cognito-to-use-the-amazon-mobile-analytics-service"><strong>Question 184:</strong> Do you need to use Amazon Cognito to use the Amazon Mobile A...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-has-recently-extended-its-datacenter-into-a-vpc-on-aws-to-add-burst-computing-capacity-as"><strong>Question 185:</strong> Your company has recently extended its datacenter into a VPC...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-responsible-for-a-web-application-that-consists-of-an-elastic-load-balancing-elb-load-balancer"><strong>Question 186:</strong> You are responsible for a web application that consists of a...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-government-client-needs-you-to-set-up-secure-cryptographic-key-storage-for-some-of-their-extremely"><strong>Question 187:</strong> A government client needs you to set up secure cryptographic...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-need-a-persistent-and-durable-storage-to-trace-call-activity-of-an-ivr-interactive-voice-response"><strong>Question 188:</strong> You need a persistent and durable storage to trace call acti...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-company-is-running-a-batch-analysis-every-hour-on-their-main-transactional-db-running-on-an-rds-mysql"><strong>Question 189:</strong> A company is running a batch analysis every hour on their ma...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-iam-user-is-trying-to-perform-an-action-on-an-object-belonging-to-some-other-root-account-s-bucket"><strong>Question 190:</strong> An IAM user is trying to perform an action on an object belo...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-been-given-the-task-to-define-multiple-aws-data-pipeline-schedules-for-different-activities"><strong>Question 191:</strong> You have been given the task to define multiple AWS Data Pip...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-aws-services-can-be-used-to-define-alarms-to-trigger-on-a-certain-activity-such"><strong>Question 192:</strong> Which of the following AWS services can be used to define al...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-hosts-a-social-media-site-supporting-users-in-multiple-countries-you-have-been-asked-to"><strong>Question 193:</strong> Your company hosts a social media site supporting users in m...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/does-amazon-rds-api-provide-actions-to-modify-db-instances-inside-a-vpc-and-associate-them-with-db-securit"><strong>Question 194:</strong> Does Amazon RDS API provide actions to modify DB instances i...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/abc-has-three-separate-departments-and-each-department-has-their-own-aws-accounts-the-hr-department"><strong>Question 195:</strong> ABC has three separate departments and each department has t...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-created-a-mysql-rds-instance-with-piops-which-of-the-below-mentioned-statements-will-help"><strong>Question 196:</strong> A user has created a MySQL RDS instance with PIOPS. Which of...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/doug-has-created-a-vpc-with-cidr-10.201.0.0-16-in-his-aws-account-in-this-vpc-he-has-created-a-public"><strong>Question 197:</strong> Doug has created a VPC with CIDR 10.201.0.0/16 in his AWS ac...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-creating-a-piops-volume-what-is-the-maximum-ratio-the-user-should-configure-between-piops"><strong>Question 198:</strong> A user is creating a PIOPS volume. What is the maximum ratio...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-cannot-be-used-to-manage-amazon-elasticache-and-perform-administrative-tasks"><strong>Question 199:</strong> Which of the following cannot be used to manage Amazon Elast...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-which-step-of-start-using-aws-direct-connect-steps-is-the-virtual-interface-you-created-tagged-with"><strong>Question 200:</strong> In which step of &quot;start using AWS Direct Connect&quot; steps is t...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-produces-customer-commissioned-one-of-a-kind-skiing-helmets-combining-nigh-fashion-with"><strong>Question 201:</strong> Your company produces customer commissioned one-of-a-kind sk...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-feature-of-the-load-balancing-service-attempts-to-force-subsequent-connections-to-a-service-to-be"><strong>Question 202:</strong> What feature of the load balancing service attempts to force...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/when-you-put-objects-in-amazon-s3-what-is-the-indication-that-an-object-was-successfully-stored"><strong>Question 203:</strong> When you put objects in Amazon S3, what is the indication th...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-customer-has-established-an-aws-direct-connect-connection-to-aws-the-link-is-up-and-routes-are-being"><strong>Question 204:</strong> A customer has established an AWS Direct Connect connection ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-statements-is-correct-about-aws-direct-connect"><strong>Question 205:</strong> Which of the following statements is correct about AWS Direc...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/the-statement-element-of-an-aws-iam-policy-contains-an-array-of-individual-statements-each-individual"><strong>Question 206:</strong> The Statement element, of an AWS IAM policy, contains an arr...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-a-vpc-can-you-modify-a-set-of-dhcp-options-after-you-create-them"><strong>Question 207:</strong> In a VPC, can you modify a set of DHCP options after you cre...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-hosting-a-scalable-web-application-using-aws-the-organization-has-configured-elb"><strong>Question 208:</strong> An organization is hosting a scalable web application using ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-is-setting-up-a-backup-and-restore-system-in-aws-of-their-in-premise-system-the-organizat"><strong>Question 209:</strong> An organization is setting up a backup and restore system in...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/mapmysite-is-setting-up-a-web-application-in-the-aws-vpc-the-organization-has-decided-to-use-an-aws"><strong>Question 210:</strong> MapMySite is setting up a web application in the AWS VPC. Th...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-using-cloudformation-to-launch-an-ec2-instance-and-then-configure-an-application-after-the"><strong>Question 211:</strong> A user is using CloudFormation to launch an EC2 instance and...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-amazon-vpc-what-is-the-default-maximum-number-of-bgp-advertised-routes-allowed-per-route-table"><strong>Question 212:</strong> In Amazon VPC, what is the default maximum number of BGP adv...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-is-not-a-true-statement-about-auto-scaling"><strong>Question 213:</strong> Which of the following is NOT a true statement about Auto Sc...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-planning-to-host-a-highly-available-system-on-the-aws-vpc-which-of-the-below-mentioned-statemen"><strong>Question 214:</strong> A user is planning to host a Highly Available system on the ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-implementing-a-url-whitelisting-system-for-a-company-that-wants-to-restrict-outbound-http-s-connec"><strong>Question 215:</strong> You are implementing a URL whitelisting system for a company...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-running-a-successful-multitier-web-application-on-aws-and-your-marketing-department-has-asked"><strong>Question 216:</strong> You are running a successful multitier web application on AW...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/what-is-the-maximum-write-throughput-i-can-provision-for-a-single-dynamic-db-table"><strong>Question 217:</strong> What is the maximum write throughput I can provision for a s...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/aws-_______supports__________-environments-as-one-of-the-aws-resource-types"><strong>Question 218:</strong> AWS ________supports__________ environments as one of the AW...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/an-organization-which-has-the-aws-account-id-as-999988887777-has-created-50-iam-users-all-the-users"><strong>Question 219:</strong> An organization, which has the AWS account ID as 99998888777...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-are-designing-a-personal-document-archiving-solution-for-your-global-enterprise-with-thousands-of"><strong>Question 220:</strong> You are designing a personal document-archiving solution for...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/true-or-false-in-amazon-elasticache-replication-groups-of-redis-for-performance-tuning-reasons-you"><strong>Question 221:</strong> True or False: In Amazon ElastiCache replication groups of R...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-have-set-up-auto-scaling-to-automatically-scale-in-consequently-you-must-decide-which-instances"><strong>Question 222:</strong> You have set up Auto Scaling to automatically scale in. Cons...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/one-of-your-aws-data-pipeline-activities-has-failed-consequently-and-has-entered-a-hard-failure-state"><strong>Question 223:</strong> One of your AWS Data Pipeline activities has failed conseque...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/how-can-an-ebs-volume-that-is-currently-attached-to-an-ec2-instance-be-migrated-from-one-availability"><strong>Question 224:</strong> How can an EBS volume that is currently attached to an EC2 i...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-has-created-a-vpc-with-cidr-20.0.0.0-16-the-user-has-created-one-subnet-with-cidr-20.0.0.0-16"><strong>Question 225:</strong> A user has created a VPC with CIDR 20.0.0.0/16. The user has...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/how-much-memory-does-the-cr1.8xlarge-instance-type-provide"><strong>Question 226:</strong> How much memory does the cr1.8xlarge instance type provide?...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-statements-is-correct-about-the-number-of-security-groups-and-rules-applicable"><strong>Question 227:</strong> Which of the following statements is correct about the numbe...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-system-recently-experienced-down-time-during-the-troubleshooting-process-you-found-that-a-new-admini"><strong>Question 228:</strong> Your system recently experienced down time during the troubl...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-commands-accepts-binary-data-as-parameters"><strong>Question 229:</strong> Which of the following commands accepts binary data as param...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/regarding-amazon-sns-you-can-send-notification-messages-to-mobile-devices-through-any-of-the-following"><strong>Question 230:</strong> Regarding Amazon SNS, you can send notification messages to ...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-user-is-planning-to-launch-multiple-ec2-instance-same-as-current-running-instance-which-of-the-below"><strong>Question 231:</strong> A user is planning to launch multiple EC2 instance same as c...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-components-of-aws-data-pipeline-specifies-the-business-logic-of-your-data-managemen"><strong>Question 232:</strong> Which of the following components of AWS Data Pipeline speci...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/in-the-context-of-aws-cloud-hardware-security-module-hsm-does-your-application-need-to-reside-in-the"><strong>Question 233:</strong> In the context of AWS Cloud Hardware Security Module(HSM), d...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-plans-to-host-a-large-donation-website-on-amazon-web-services-aws-you-anticipate-a-large"><strong>Question 234:</strong> Your company plans to host a large donation website on Amazo...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/mike-is-appointed-as-cloud-consultant-in-abc.com-abc-has-the-following-vpcs-set-up-in-the-us-east-region"><strong>Question 235:</strong> Mike is appointed as Cloud Consultant in ABC.com. ABC has th...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/a-customer-has-a-website-which-shows-all-the-deals-available-across-the-market-the-site-experiences"><strong>Question 236:</strong> A customer has a website which shows all the deals available...</a></dd>
+            <dd><a  href="/question/Citrix.AWS-Architect.v2018-12-10.q237/you-require-the-ability-to-analyze-a-customer-s-clickstream-data-on-a-website-so-they-can-do-behavioral"><strong>Question 237:</strong> You require the ability to analyze a customer&#39;s clickstream ...</a></dd>
+        </dl>
+        <div style="min-height:100px;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Ad2 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4451409426014405"
+                 data-ad-slot="8977681759"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+</div>
+
+<div id="light2" style="position:fixed;top:15%;max-width:600px;width:100%;padding:16px;border:5px solid #CCC;background-color:white;z-index:999999;overflow:auto;font-size:14px;display:none;">
+    <span onclick="$('#light2,#fade').hide();" style="display:block;float:right;clear:both;display:none;"><img src="/imgs/btn_close.gif" style="cursor:pointer;" /></span>
+    <div id="light2ad" style="margin-top:10px;margin-bottom:20px;"></div>
+</div>
+<div id="fade" style="position:fixed;top:0%;left:0%;width:100%;height:100%;background-color:black;z-index:999998;-moz-opacity: 0.4;opacity:.40;filter:alpha(opacity=80);display:none;"></div>
+
+
+        <hr />
+		<div style="height:80px;">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Footer -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-4451409426014405"
+				 data-ad-slot="4578955486"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+        </div>
+		<hr />
+        <footer>
+            <p>&copy; 2018 - Free Practice Exam Collection - FreeCram.com</p>
+        </footer>
+    </div>
+
+    <script src="/bundles/bootstrap?v=y06_79Ad8PBEWhAqU8oC7bf_QdxhPF_kt4ClTo6bnGw1"></script>
+
+    
+    <script src="/bundles/jqueryval?v=uAfBJfRvihXVS4ogzhnXA6SiBDLYYjMN4O2KifwGop01"></script>
+<script src="/bundles/jquerycookie?v=a6jYJ4L4MbqXANAfByx_6GIqdspyK-YcG18GsIgmjQ41"></script>
+
+    <script type="text/javascript">
+        function displayAsEs(obj) {
+            var _display = $(obj).attr("display");
+            if (_display == "0") {
+                $(obj).addClass("btn-info");
+                $(obj).attr("display", "1");
+                $.cookie('showAnswer','1');
+                $(".qa-answerexp").show();
+                var _qaAnswer = "B,";
+                $(".qa-options label").each(function (i) {
+                    var _optionVal = $(this).find("input").val();
+                    if ($(this).find("input").is(':checked') && _qaAnswer.indexOf(_optionVal) == -1) {
+                        $(this).addClass("bg-danger");
+                    }
+                    else if (_qaAnswer.indexOf(_optionVal) != -1) {
+                        $(this).addClass("bg-success");
+                    }
+                });
+                $(".qa_explanation img").each(function(){ imgLoad(this); });
+            }
+            else {
+                $(obj).removeClass("btn-info");
+                $(obj).attr("display", "0");
+                $.cookie('showAnswer','0');
+                $(".qa-answerexp").hide();
+                $(".qa-options label").removeClass("bg-danger").removeClass("bg-success");
+            }
+            $(obj).val(_display == "1" ? "Show answers/explanations" : "Hide answers/explanations");
+        }
+        var _showAnswer = $.cookie('showAnswer');
+        if (_showAnswer != "0"){
+            $("#answerExp input").click();
+            $(".qa_explanation img").each(function(i){
+                imgLoad(this);
+            });
+        }
+
+        $('#commentForm').submit(function () {
+            if ($(this).valid()) {
+                $.post("/act.ashx?do=addcomment", { type: 2, id: 514017, comment: $("#iptComment").val(), name: $("#iptName").val(), email: $("#iptEmail").val(), rating: 5, vcode: $("#iptVCode").val() }, function (data) {
+                    $("#iptVCode").blur();
+                    $("#iptVCode").val("");
+                    $("#imgvcode").click();
+                    var json = eval("(" + data + ")");
+                    if (json["status"] == "error"){
+                        $("#errormessage").html(json["result"]);
+                    } else if (json["status"] == "success"){
+                        $("#iptComment").val("");
+                        $("#errormessage").html(json["result"]);
+                        alert(json["result"]);
+                    }
+                    return false;
+                });
+            }
+            return false;
+        });
+        $('#commentForm').validate();
+        if (location.hash != ""){
+            $('body').animate({ scrollTop: $(location.hash).offset().top - 50 }, 500);
+        }
+	</script>
+
+
+    <script type="text/javascript" src="https://www.freecram.com/stat.ashx"></script>
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+        var sc_project = 11603349;
+        var sc_invisible = 1;
+        var sc_security = "c56de844";
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" +
+        scJsHost +
+        "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript>
+        <div class="statcounter">
+            <a title="Web Analytics"
+               href="http://statcounter.com/" target="_blank">
+                <img class="statcounter"
+                     src="//c.statcounter.com/11603349/0/c56de844/1/" alt="Web
+Analytics">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of StatCounter Code for Default Guide -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5f46e4b6dd7f6e"></script>
+</body>
+</html>

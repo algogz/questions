@@ -34,7 +34,7 @@ public class JayendrapatilExtractorTests {
         String module = "aws-api-gateway";
         Path jsonPath = Paths.get(baseDir, "json",module + ".json");
         Path mdPath = Paths.get(baseDir,"md", module + ".md");
-        JayendrapatilUtils.convertToMarkdown(jsonPath, mdPath);
+        MarkdownUtils.convertToMarkdown(jsonPath, mdPath);
     }
 
     @Test
