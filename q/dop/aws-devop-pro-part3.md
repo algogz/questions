@@ -111,7 +111,7 @@ If a variable is assigned in the `vars` section of a playbook, where is the prop
 
 - A. Inventorygroupvar 
 - B. playbookhost_vars 
-C. roledefaults
+- C. roledefaults
 - D. extravars
 
 <details><summary>Answer:</summary><p> D
