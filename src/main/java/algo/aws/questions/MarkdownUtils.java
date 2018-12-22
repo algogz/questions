@@ -58,13 +58,17 @@ public class MarkdownUtils {
             Elements pElms = detailsElm.select("p");
 
             String answer = pElms.get(0).text();
-            answer = answer.replaceAll("[\\[,]]+", ""); // remove contents other than letters, like [],
+            answer = answer.replaceAll("[ \\[,]]+", ""); // remove contents other than letters, like [],
             answer.chars().forEach(c -> q.getAnswerList().add((char)c));
 
             if(pElms.size() > 2) {  // which has comments
                 pElms.remove(0);    // remove the answer p
                 pElms.remove(0);    // remove the Explain: p
-                pElms.forEach(pElm -> q.getChoiceList().add(pElm.text()));
+                pElms.forEach(pElm -> {
+                    if(pElm.text().length() > 0) {
+                        q.getCommentList().add(pElm.text());
+                    }
+                });
             }
         });
         return qList;

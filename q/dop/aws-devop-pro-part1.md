@@ -276,8 +276,9 @@ How can you configure your application running on that instance to retrieve the 
 - B. Within your application code, make a GET request to the IAM Service API to retrieve credentials for your user.
 - C. When using AWS SDKs and Amazon EC2 roles, you do not have to explicitly retrieve API keys, because the SDK handles retrieving them from the Amazon EC2 MetaData service.
 - D. Within your application code, configure the AWS SDK to get the API keys from environment
-variables, because assigning an Amazon EC2 role stores keys in environment variables on launch. <details><summary>
+variables, because assigning an Amazon EC2 role stores keys in environment variables on launch. 
 
+<details><summary>
 Answer:</summary><p> C
 
 </p></details><hr>

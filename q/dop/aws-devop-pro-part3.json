@@ -8,27 +8,15 @@
       "A. ansible-playbookplaybook.yml-ehost\u003d\"foo\"pkg\u003d\"bar\"",
       "B. ansible-playbookplaybook.yml-ehost:\"foo\",pkg:\"bar\"",
       "C. ansible-playbookplaybook.yml-ehost\u003d\"foo\"-epkg\u003d\"bar\"",
-      "D. ansible-playbookplaybook.yml--extra-vars\"host\u003dfoo\",\"pkg\u003dbar\"",
-      "Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command- line",
-      ""
+      "D. ansible-playbookplaybook.yml--extra-vars\"host\u003dfoo\",\"pkg\u003dbar\""
     ],
     "answerList": [
-      "A",
-      " ",
-      "E",
-      "x",
-      "p",
-      "l",
-      "a",
-      "n",
-      "a",
-      "t",
-      "i",
-      "o",
-      "n",
-      ":"
+      "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "Variables are passed in a single command line parameter, -e or --extra-vars. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: -e {\"key\": \"name\", \"array\": [\"value1\", \"value2\"]}.",
+      "Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command-line"
+    ],
     "categories": []
   },
   {
@@ -40,14 +28,14 @@
       "A. -with:",
       "B. -with_items:",
       "C. -only_when:",
-      "D. -items:",
-      "Ansible provides two methods for controlling tasks, loops and conditionals. The \"with_items\" context will allow the task to loop through a list of items, while the when context will allow a conditional requirement to be met for the task to run. Both can be used at the same time. Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals",
-      ""
+      "D. -items:"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible provides two methods for controlling tasks, loops and conditionals. The \"with_items\" context will allow the task to loop through a list of items, while the when context will allow a conditional requirement to be met for the task to run. Both can be used at the same time. Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals"
+    ],
     "categories": []
   },
   {
@@ -59,15 +47,15 @@
       "A. Extr a modules may one day be come core modules",
       "B. C or e modules are supported by the Ansible team",
       "C. C or e modules are shipped by default with Ansible",
-      "D. Extr a modules have no support",
-      "While extra modules are not official modules and thus not supported by the Ansible team, they are indeed supported by their writers and the community.",
-      "Reference: http://docs.ansible.com/ansible/modules_extra.html",
-      ""
+      "D. Extr a modules have no support"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "While extra modules are not official modules and thus not supported by the Ansible team, they are indeed supported by their writers and the community.",
+      "Reference: http://docs.ansible.com/ansible/modules_extra.html"
+    ],
     "categories": []
   },
   {
@@ -79,15 +67,15 @@
       "A. -hosts:all",
       "B. ...",
       "C. ###",
-      "D. ---",
-      "All YAML files can begin with --- and end with ... to indicate where YAML starts and ends. While this is optional it is considered best practice.",
-      "Reference: http://docs.ansible.com/ansible/YAMLSyntax.html",
-      ""
+      "D. ---"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "All YAML files can begin with --- and end with ... to indicate where YAML starts and ends. While this is optional it is considered best practice.",
+      "Reference: http://docs.ansible.com/ansible/YAMLSyntax.html"
+    ],
     "categories": []
   },
   {
@@ -99,15 +87,15 @@
       "A. Re move the old package and config file and reinstall and then rest a rt these rvice.",
       "B. T a ke no action on the target host.",
       "C. Check if the package is installed,check if the file match es the source file,ifnotreinstallit;restart the service.",
-      "D. At tempt to reinstall the package,copy the file and rest a rt these rvice.",
-      "Ansible follows an idempotence model and will not touch or change the system unless a change is warranted.",
-      "Reference: http://docs.ansible.com/ansible/glossary.html",
-      ""
+      "D. At tempt to reinstall the package,copy the file and rest a rt these rvice."
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible follows an idempotence model and will not touch or change the system unless a change is warranted.",
+      "Reference: http://docs.ansible.com/ansible/glossary.html"
+    ],
     "categories": []
   },
   {
@@ -119,14 +107,14 @@
       "A. facter",
       "B. lsb_release",
       "C. Ansiblesetupmodule",
-      "D. ohai",
-      "Ansible will use it\u0027s own setup module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with ohai_ or facter_ respectively. lsb_relase is a Linux tool for determining distribution information. Reference: http://docs.ansible.com/ansible/setup_module.html",
-      ""
+      "D. ohai"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible will use it\u0027s own setup module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with ohai_ or facter_ respectively. lsb_relase is a Linux tool for determining distribution information. Reference: http://docs.ansible.com/ansible/setup_module.html"
+    ],
     "categories": []
   },
   {
@@ -137,15 +125,15 @@
     "choiceList": [
       "A. Inventorygroupvar",
       "B. playbookhost_vars C. roledefaults",
-      "D. extravars",
-      "In Ansible\u0027s variable precedence, the highest precedence is the extra vars option on the command line.",
-      "Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i- put-a-variable",
-      ""
+      "D. extravars"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "In Ansible\u0027s variable precedence, the highest precedence is the extra vars option on the command line.",
+      "Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i- put-a-variable"
+    ],
     "categories": []
   },
   {
@@ -157,14 +145,14 @@
       "A. Idempotency",
       "B. Immutability",
       "C. Convergence",
-      "D. Infrastructure as Code",
-      "Idempotency states that changes are only made if a resource does not meet the requirement specifications. If a change is made, it is made in-place and will not break existing resources. Reference: http://docs.ansible.com/ansible/glossary.html",
-      ""
+      "D. Infrastructure as Code"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "Idempotency states that changes are only made if a resource does not meet the requirement specifications. If a change is made, it is made in-place and will not break existing resources. Reference: http://docs.ansible.com/ansible/glossary.html"
+    ],
     "categories": []
   },
   {
@@ -176,15 +164,15 @@
       "A. YAML",
       "B. Python",
       "C. XML",
-      "D. JSON",
-      "This can be bit of a trick question. While Ansible Playbooks in this course are written in YAML, Ansible will accept plays, tasks and playbooks in JSON, as JSON a subset of YAML. However, the prefered and fully supported method is YAML.",
-      "Reference: http://docs.ansible.com/ansible/YAMLSyntax.html",
-      ""
+      "D. JSON"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "This can be bit of a trick question. While Ansible Playbooks in this course are written in YAML, Ansible will accept plays, tasks and playbooks in JSON, as JSON a subset of YAML. However, the prefered and fully supported method is YAML.",
+      "Reference: http://docs.ansible.com/ansible/YAMLSyntax.html"
+    ],
     "categories": []
   },
   {
@@ -196,14 +184,14 @@
       "A. Ansible will at tempt to read the inventory file named localhost",
       "B. Ansible will run the plays local ly.",
       "C. Ansible will run the playbook on the host named localhost",
-      "D. Ansiblewon\u0027trun,this is in valid command line syntax",
-      "Ansible expects an inventory filename with the -i option, regardless if it\u0027s a valid hostname. For this to execute on the host localhost resolves to, a comma needs to be appended to the end. Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory",
-      ""
+      "D. Ansiblewon\u0027trun,this is in valid command line syntax"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible expects an inventory filename with the -i option, regardless if it\u0027s a valid hostname. For this to execute on the host localhost resolves to, a comma needs to be appended to the end. Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory"
+    ],
     "categories": []
   },
   {
@@ -215,15 +203,15 @@
       "A. Groupvariables",
       "B. Hostgroups",
       "C. Includevars",
-      "D. Childrengroups",
-      "Ansible inventory files cannot reference other files for additional data. If this functionality is needed, it must be done in as a script to create a dynamic inventory",
-      "Reference: http://docs.ansible.com/ansible/intro_inventory.html",
-      ""
+      "D. Childrengroups"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible inventory files cannot reference other files for additional data. If this functionality is needed, it must be done in as a script to create a dynamic inventory",
+      "Reference: http://docs.ansible.com/ansible/intro_inventory.html"
+    ],
     "categories": []
   },
   {
@@ -235,15 +223,15 @@
       "A. Python",
       "B. C++",
       "C. Bash",
-      "D. All of the language s list ed are supported",
-      "Ansible modules can be written in any language that is executable on the target system. The only requirement is that the module can write its results as JSON output to STDOUT for Ansible to consume.",
-      "Reference: http://docs.ansible.com/ansible/developing_modules.html",
-      ""
+      "D. All of the language s list ed are supported"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible modules can be written in any language that is executable on the target system. The only requirement is that the module can write its results as JSON output to STDOUT for Ansible to consume.",
+      "Reference: http://docs.ansible.com/ansible/developing_modules.html"
+    ],
     "categories": []
   },
   {
@@ -255,15 +243,15 @@
       "A. -when:foo\u003d\u003d\"hello\"andbar\u003d\u003d\"world\"",
       "B. -when:foo\u003d\u003d\"hello\"-when:bar\u003d\u003d\"world\"",
       "C. -when:foo\u003d\u003d\"hello\"\u0026\u0026bar\u003d\u003d\"world\"",
-      "D. -when:foois\"hello\"andbaris\"world\"",
-      "Ansible will allow you to stack conditionals using and and or. It requires it to be in the same when statement, comparisons must be \u003d\u003d for equals or !\u003d for not equals and the and/or must be written as such, not \u0026\u0026/||.",
-      "Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-statement",
-      ""
+      "D. -when:foois\"hello\"andbaris\"world\""
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible will allow you to stack conditionals using and and or. It requires it to be in the same when statement, comparisons must be \u003d\u003d for equals or !\u003d for not equals and the and/or must be written as such, not \u0026\u0026/||.",
+      "Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-statement"
+    ],
     "categories": []
   },
   {
@@ -275,14 +263,14 @@
       "A. Setting connection:local in the tasks that run locally.",
       "B. Specifying -typelocal on the command line.",
       "C. It does not need to be specified; it\u0027s the default.",
-      "D. Setting connection:local in the Playbook.",
-      "Ansible can be told to run locally on the command line with the -c option or can be told via the connection: local declaration in the playbook. The default connection method is remote. Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types",
-      ""
+      "D. Setting connection:local in the Playbook."
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible can be told to run locally on the command line with the -c option or can be told via the connection: local declaration in the playbook. The default connection method is remote. Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types"
+    ],
     "categories": []
   },
   {
@@ -294,15 +282,15 @@
       "A. ansible is for setting configuration and environment variables which ansible-playbook will use when running plays.",
       "B. ansible-playbook is for running entire Playbooks while ansible is for calling ad-hoc commands.",
       "C. ansible-playbook\u0027runs the playbook s by using the ansible\u0027command to run the individual plays",
-      "D. ansible is for running individual plays and ansible-playbook is for running the entire playbook.",
-      "The ansible command is for running Ansible ad-hoc commands remotely via SSH. ansible- playbook is for running Ansible Playbook projects.",
-      "Reference: http://docs.ansible.com/ansible/intro_adhoc.html",
-      ""
+      "D. ansible is for running individual plays and ansible-playbook is for running the entire playbook."
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "The ansible command is for running Ansible ad-hoc commands remotely via SSH. ansible- playbook is for running Ansible Playbook projects.",
+      "Reference: http://docs.ansible.com/ansible/intro_adhoc.html"
+    ],
     "categories": []
   },
   {
@@ -314,15 +302,15 @@
       "A. ansible-playbook-hhost1.example.com-iallplaybook.yml",
       "B. ansible-playbook-ihost1.example.complaybook.yml",
       "C. ansible-playbook -h host1.example.com,host2.example.com playbook.yml",
-      "D. ansible-playbook -i host1.example.com,host2.example.com playbook.yml",
-      "Ansible uses the -i flag for accepting an inventory file or host. To allow Ansible to determine if you are passing a host list versus an inventory file the list must be comma separated. If a single host is specified, a trailing comma must be present.",
-      "Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory",
-      ""
+      "D. ansible-playbook -i host1.example.com,host2.example.com playbook.yml"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "Ansible uses the -i flag for accepting an inventory file or host. To allow Ansible to determine if you are passing a host list versus an inventory file the list must be comma separated. If a single host is specified, a trailing comma must be present.",
+      "Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory"
+    ],
     "categories": []
   },
   {
@@ -334,17 +322,17 @@
       "A. scheduling services",
       "B. services warm node HTTP API endpoints",
       "C. executing containers",
-      "D. maintaining cluster state",
-      "Manager nodes handle cluster management tasks:",
-      "Worker nodes",
-      "Worker nodes are also instances of Docker Engine whose sole purpose is to execute containers. Worker nodes don\u0027t participate in the Raft distributed state, make scheduling decisions, or serve the swarm mode HTTP API.",
-      "Reference: https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#worker-nodes",
-      ""
+      "D. maintaining cluster state"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Manager nodes handle cluster management tasks:",
+      "Worker nodes",
+      "Worker nodes are also instances of Docker Engine whose sole purpose is to execute containers. Worker nodes don\u0027t participate in the Raft distributed state, make scheduling decisions, or serve the swarm mode HTTP API.",
+      "Reference: https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#worker-nodes"
+    ],
     "categories": []
   },
   {
@@ -356,14 +344,14 @@
       "A. 2",
       "B. 4",
       "C. 1",
-      "D. 3",
-      "FROM scratch CMD /app/hello.sh The image contains all the layers from the base image (only one in this case, since we\u0027re building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images",
-      ""
+      "D. 3"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "FROM scratch CMD /app/hello.sh The image contains all the layers from the base image (only one in this case, since we\u0027re building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images"
+    ],
     "categories": []
   },
   {
@@ -375,15 +363,15 @@
       "A. zfs",
       "B. btrfs",
       "C. aufs",
-      "D. overlay",
-      "After you have read the storage driver overview, the next step is to choose the best storage driver for your workloads. In making this decision, there are three high-level factors to consider: If multiple storage drivers are supported in your kernel, Docker has a prioritized list of which storage driver to use if no storage driver is explicitly configured, assuming that the prerequisites for that storage driver are met: If aufs is available, default to it, because it is the oldest storage driver. However, it is not universally available.",
-      "Reference: https://docs.docker.com/engine/userguide/storagedriver/selectadriver/",
-      ""
+      "D. overlay"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "After you have read the storage driver overview, the next step is to choose the best storage driver for your workloads. In making this decision, there are three high-level factors to consider: If multiple storage drivers are supported in your kernel, Docker has a prioritized list of which storage driver to use if no storage driver is explicitly configured, assuming that the prerequisites for that storage driver are met: If aufs is available, default to it, because it is the oldest storage driver. However, it is not universally available.",
+      "Reference: https://docs.docker.com/engine/userguide/storagedriver/selectadriver/"
+    ],
     "categories": []
   },
   {
@@ -395,15 +383,15 @@
       "A. distributedservices",
       "B. scaledservices",
       "C. replicatedservices",
-      "D. globalservices",
-      "A service is the definition of the tasks to execute on the worker nodes. It is the central structure of the swarm system and the primary root of user interaction with the swarm. When you create a service, you specify which container image to use and which commands to execute inside running containers. In the replicated services model, the swarm manager distributes a specific number of replica tasks among the nodes based upon the scale you set in the desired state. For global services, the swarm runs one task for the service on every available node in the cluster. A task carries a Docker container and the commands to run inside the container. It is the atomic scheduling unit of swarm. Manager nodes assign tasks to worker nodes according to the number of replicas set in the service scale. Once a task is assigned to a node, it cannot move to another node. It can only run on the assigned node or fail.",
-      "Reference: https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks",
-      ""
+      "D. globalservices"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "A service is the definition of the tasks to execute on the worker nodes. It is the central structure of the swarm system and the primary root of user interaction with the swarm. When you create a service, you specify which container image to use and which commands to execute inside running containers. In the replicated services model, the swarm manager distributes a specific number of replica tasks among the nodes based upon the scale you set in the desired state. For global services, the swarm runs one task for the service on every available node in the cluster. A task carries a Docker container and the commands to run inside the container. It is the atomic scheduling unit of swarm. Manager nodes assign tasks to worker nodes according to the number of replicas set in the service scale. Once a task is assigned to a node, it cannot move to another node. It can only run on the assigned node or fail.",
+      "Reference: https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks"
+    ],
     "categories": []
   },
   {
@@ -415,15 +403,15 @@
       "A. 127.0.0.1",
       "B. 127.0.0.111",
       "C. 127.0.0.254",
-      "D. 127.0.0.11",
-      "Note: If you need access to a host\u0027s localhost resolver, you must modify your DNS service on the host to listen on a non-localhost address that is reachable from within the container. Note: The DNS server is always at 127.0.0.11.",
-      "Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/",
-      ""
+      "D. 127.0.0.11"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "Note: If you need access to a host\u0027s localhost resolver, you must modify your DNS service on the host to listen on a non-localhost address that is reachable from within the container. Note: The DNS server is always at 127.0.0.11.",
+      "Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/"
+    ],
     "categories": []
   },
   {
@@ -435,16 +423,16 @@
       "A. Limitedmemory,limitedkernelmemory",
       "B. Unlimitedmemory,limitedkernelmemory",
       "C. Limitedmemory,unlimited kernel memory",
-      "D. Unlimitedmemory,unlimited kernel memory",
-      "Kernel memory limits are expressed in terms of the overall memory allocated to a container. Consider the following scenarios: Unlimited memory, unlimited kernel memory: This is the default behavior. Unlimited memory, limited kernel memory: This is appropriate when the amount of memory needed by all cgroups is greater than the amount of memory that actually exists on the host machine. You can configure the kernel memory to never go over what is available on the host machine, and containers which",
-      "need more memory need to wait for it. Limited memory, umlimited kernel memory: The overall memory is limited, but the kernel memory is not. Limited memory, limited kernel memory: Limiting both user and kernel memory can be useful for debugging memory-related problems. If a container is using an unexpected amount of either type of memory, it will run out of memory without affecting other containers or the host machine. Within this setting, if the kernel memory limit is lower than the user memory limit, running out of kernel memory will cause the container to experience an OOM error. If the kernel memory limit is higher than the user memory limit, the kernel limit will not cause the container to experience an OOM.",
-      "Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-memory-details",
-      ""
+      "D. Unlimitedmemory,unlimited kernel memory"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "Kernel memory limits are expressed in terms of the overall memory allocated to a container. Consider the following scenarios: Unlimited memory, unlimited kernel memory: This is the default behavior. Unlimited memory, limited kernel memory: This is appropriate when the amount of memory needed by all cgroups is greater than the amount of memory that actually exists on the host machine. You can configure the kernel memory to never go over what is available on the host machine, and containers which",
+      "need more memory need to wait for it. Limited memory, umlimited kernel memory: The overall memory is limited, but the kernel memory is not. Limited memory, limited kernel memory: Limiting both user and kernel memory can be useful for debugging memory-related problems. If a container is using an unexpected amount of either type of memory, it will run out of memory without affecting other containers or the host machine. Within this setting, if the kernel memory limit is lower than the user memory limit, running out of kernel memory will cause the container to experience an OOM error. If the kernel memory limit is higher than the user memory limit, the kernel limit will not cause the container to experience an OOM.",
+      "Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-memory-details"
+    ],
     "categories": []
   },
   {
@@ -456,15 +444,15 @@
       "A. add certificate authentication to the docker API",
       "B. change the encryption level to TLS",
       "C. enabletheTCPsocket",
-      "D. bind the Docker API to a unix socket",
-      "The Docker daemon can listen for Docker Remote API requests via three different types of Socket: unix, tcp, and fd. By default, a unix domain socket (or IPC socket) is created at /var/run/docker.sock, requiring either root permission, or docker group membership. If you need to access the Docker daemon remotely, you need to enable the tcp Socket. Beware that the default setup provides un- encrypted and un-authenticated direct access to the Docker daemon - and should be secured either using the built in HTTPS encrypted socket or by putting a secure web proxy in front of it.",
-      "Reference: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option",
-      ""
+      "D. bind the Docker API to a unix socket"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "The Docker daemon can listen for Docker Remote API requests via three different types of Socket: unix, tcp, and fd. By default, a unix domain socket (or IPC socket) is created at /var/run/docker.sock, requiring either root permission, or docker group membership. If you need to access the Docker daemon remotely, you need to enable the tcp Socket. Beware that the default setup provides un- encrypted and un-authenticated direct access to the Docker daemon - and should be secured either using the built in HTTPS encrypted socket or by putting a secure web proxy in front of it.",
+      "Reference: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option"
+    ],
     "categories": []
   },
   {
@@ -476,15 +464,15 @@
       "A. VOLUME",
       "B. USER",
       "C. ADD",
-      "D. CMD",
-      "When a developer builds an image from a Dockerfile or when she commits it, the developer can set a number of default parameters that take effect when the image starts up as a container. Four of the Dockerfile commands cannot be overridden at runtime: FROM, MAINTAINER, RUN, and ADD. Everything else has a corresponding override in docker run. We\u0027ll go through what the developer might have set in each Dockerfile instruction and how the operator can override that setting.",
-      "Reference: https://docs.docker.com/engine/reference/run/#overriding-dockerfile-image-defaults",
-      ""
+      "D. CMD"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "When a developer builds an image from a Dockerfile or when she commits it, the developer can set a number of default parameters that take effect when the image starts up as a container. Four of the Dockerfile commands cannot be overridden at runtime: FROM, MAINTAINER, RUN, and ADD. Everything else has a corresponding override in docker run. We\u0027ll go through what the developer might have set in each Dockerfile instruction and how the operator can override that setting.",
+      "Reference: https://docs.docker.com/engine/reference/run/#overriding-dockerfile-image-defaults"
+    ],
     "categories": []
   },
   {
@@ -496,15 +484,15 @@
       "A. services",
       "B. build",
       "C. deploy",
-      "D. args",
-      "Version 3 only. Specify configuration related to the deployment and running of services. This only takes effect when deploying to a swarm withdocker stack deploy, and is ignored by docker-compose up and docker-compose run.",
-      "Reference: https://docs.docker.com/compose/compose-file/#deploy",
-      ""
+      "D. args"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Version 3 only. Specify configuration related to the deployment and running of services. This only takes effect when deploying to a swarm withdocker stack deploy, and is ignored by docker-compose up and docker-compose run.",
+      "Reference: https://docs.docker.com/compose/compose-file/#deploy"
+    ],
     "categories": []
   },
   {
@@ -516,15 +504,15 @@
       "A. -TRACE",
       "B. -IOTRACE",
       "C. -SIGUSER1",
-      "D. -KILLTRACE",
-      "If the daemon is unresponsive, you can force a full stack trace to be logged by sending a SIGUSR1 signal to the daemon. Linux: $ sudo kill -SIGUSR1 $(pidof dockerd) Windows Server: Download docker-signal. Run the executable with the flag --pid\u003d.",
-      "Reference: https://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logged",
-      ""
+      "D. -KILLTRACE"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "If the daemon is unresponsive, you can force a full stack trace to be logged by sending a SIGUSR1 signal to the daemon. Linux: $ sudo kill -SIGUSR1 $(pidof dockerd) Windows Server: Download docker-signal. Run the executable with the flag --pid\u003d.",
+      "Reference: https://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logged"
+    ],
     "categories": []
   },
   {
@@ -536,16 +524,16 @@
       "A. random UUID simprove files ystem performance",
       "B. improvedsecurity",
       "C. guarantees data integrity after push,pull,load,andsaveoperations",
-      "D. avoid s content ID collisions",
-      "Docker 1.10 introduced a new content addressable storage model. This is a completely new way to address image and layer data on disk. Previously, image and layer data was referenced and stored using a randomly generated UUID. In the new model this is replaced by a secure content hash. The new model improves security, provides a built-in way to avoid ID collisions, and guarantees",
-      "data integrity after pull, push, load, and save operations. It also enables better sharing of layers by allowing many images to freely share their layers even if they didn\u0027t come from the same build.",
-      "Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#content-addressable-storage",
-      ""
+      "D. avoid s content ID collisions"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "Docker 1.10 introduced a new content addressable storage model. This is a completely new way to address image and layer data on disk. Previously, image and layer data was referenced and stored using a randomly generated UUID. In the new model this is replaced by a secure content hash. The new model improves security, provides a built-in way to avoid ID collisions, and guarantees",
+      "data integrity after pull, push, load, and save operations. It also enables better sharing of layers by allowing many images to freely share their layers even if they didn\u0027t come from the same build.",
+      "Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#content-addressable-storage"
+    ],
     "categories": []
   },
   {
@@ -557,15 +545,15 @@
       "A. -memory128m",
       "B. -m128m",
       "C. --memory-reservation128m",
-      "D. -m128MB",
-      "Docker can enforce hard memory limits, which allow the container to use no more than a given amount of user or system memory, or soft limits, which allow the container to use as much memory as it needs unless certain conditions are met, such as when the kernel detects low memory or contention on the host machine. Some of these options have different effects when used alone or when more than one option is set. Most of these options take a positive integer, followed by a suffix of b, k, m, g, to indicate bytes, kilobytes, megabytes, or gigabytes. Option -m or --memory\u003d Description The maximum amount of memory the container can use. If you set this option, the minimum allowed value is 4m (4 megabyte).",
-      "Reference: https://docs.docker.com/engine/admin/resource_constraints/#memory",
-      ""
+      "D. -m128MB"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "Docker can enforce hard memory limits, which allow the container to use no more than a given amount of user or system memory, or soft limits, which allow the container to use as much memory as it needs unless certain conditions are met, such as when the kernel detects low memory or contention on the host machine. Some of these options have different effects when used alone or when more than one option is set. Most of these options take a positive integer, followed by a suffix of b, k, m, g, to indicate bytes, kilobytes, megabytes, or gigabytes. Option -m or --memory\u003d Description The maximum amount of memory the container can use. If you set this option, the minimum allowed value is 4m (4 megabyte).",
+      "Reference: https://docs.docker.com/engine/admin/resource_constraints/#memory"
+    ],
     "categories": []
   },
   {
@@ -577,15 +565,15 @@
       "A. theyareallread-only",
       "B. noneareread-only",
       "C. thefirstlayer",
-      "D. thelastlayer",
-      "A Docker image is built up from a series of layers. Each layer represents an instruction in the image\u0027s Dockerfile. Each layer except the very last one is read-only.",
-      "Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and- layers",
-      ""
+      "D. thelastlayer"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "A Docker image is built up from a series of layers. Each layer represents an instruction in the image\u0027s Dockerfile. Each layer except the very last one is read-only.",
+      "Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and- layers"
+    ],
     "categories": []
   },
   {
@@ -597,14 +585,14 @@
       "A. the first grep command",
       "B. any one of them",
       "C. the second grep command",
-      "D. the cat command",
-      "Some RUN commands depend on the ability to pipe the output of one command into another, using the pipe character (|), as in the following example: RUN wget -O - https://some.site | wc -l \u003e /number Docker executes these commands using the /bin/sh -c interpreter, which only evaluates the exit code of the last operation in the pipe to determine success. In the example above this build step succeeds and produces a new image so long as the wc -lcommand succeeds, even if the wget command fails. Reference: https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run",
-      ""
+      "D. the cat command"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Some RUN commands depend on the ability to pipe the output of one command into another, using the pipe character (|), as in the following example: RUN wget -O - https://some.site | wc -l \u003e /number Docker executes these commands using the /bin/sh -c interpreter, which only evaluates the exit code of the last operation in the pipe to determine success. In the example above this build step succeeds and produces a new image so long as the wc -lcommand succeeds, even if the wget command fails. Reference: https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run"
+    ],
     "categories": []
   },
   {
@@ -616,15 +604,15 @@
       "A. allows communication between containers on the same host",
       "B. allows communication between swarm nodes on different hosts",
       "C. allows communication between swarm nodes on the same host",
-      "D. allows communication between containers on the different hosts",
-      "The docker_gwbridge is a local bridge network which is automatically created by Docker in two different circumstances: When you initialize or join a swarm, Docker creates the docker_gwbridge network and uses it for communication among swarm nodes on different hosts. When none of a container\u0027s networks can provide external connectivity, Docker connects the container to the docker_gwbridge network in addition to the container\u0027s other networks, so that the container can connect to external networks or other swarm nodes.",
-      "Reference: https://docs.docker.com/engine/userguide/networking/#the-docker_gwbridge-network",
-      ""
+      "D. allows communication between containers on the different hosts"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "The docker_gwbridge is a local bridge network which is automatically created by Docker in two different circumstances: When you initialize or join a swarm, Docker creates the docker_gwbridge network and uses it for communication among swarm nodes on different hosts. When none of a container\u0027s networks can provide external connectivity, Docker connects the container to the docker_gwbridge network in addition to the container\u0027s other networks, so that the container can connect to external networks or other swarm nodes.",
+      "Reference: https://docs.docker.com/engine/userguide/networking/#the-docker_gwbridge-network"
+    ],
     "categories": []
   },
   {
@@ -636,16 +624,16 @@
       "A. KMS,SNSandSES",
       "B. CloudWatch,S3andSNS",
       "C. KMS,CloudwatchandSNS",
-      "D. KMS,S3andCloudWatch",
-      "Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached. CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to",
-      "deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place",
-      "Reference: https://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html",
-      ""
+      "D. KMS,S3andCloudWatch"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached. CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to",
+      "deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place",
+      "Reference: https://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html"
+    ],
     "categories": []
   },
   {
@@ -657,15 +645,15 @@
       "A. A static library with CloudTrail log files in a movable format machine code that is directly executable",
       "B. An object library with CloudTrail log files in a movable format machine code that is usually not directly executable",
       "C. A Java library that makes it easy to build an application that reads and processes CloudTrail log files",
-      "D. A PHP library that renders various generic containers needed for CloudTrail log files",
-      "AWS CloudTrail Processing Library is a Java library that makes it easy to build an application that reads and processes CloudTrail log files. You can download CloudTrail Processing Library from GitHub.",
-      "Reference: http://aws.amazon.com/cloudtrail/faqs/",
-      ""
+      "D. A PHP library that renders various generic containers needed for CloudTrail log files"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "AWS CloudTrail Processing Library is a Java library that makes it easy to build an application that reads and processes CloudTrail log files. You can download CloudTrail Processing Library from GitHub.",
+      "Reference: http://aws.amazon.com/cloudtrail/faqs/"
+    ],
     "categories": []
   },
   {
@@ -677,15 +665,15 @@
       "A. awscloudtrailreturn-trails",
       "B. aws cloud trail valid at e-settings",
       "C. awscloudtrailget-settings",
-      "D. aws cloud trail describe-trails",
-      "You can retrieve trail settings and status using the cloudtrail describe-trails command. It will generate output similar to the example below.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html",
-      ""
+      "D. aws cloud trail describe-trails"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "You can retrieve trail settings and status using the cloudtrail describe-trails command. It will generate output similar to the example below.",
+      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html"
+    ],
     "categories": []
   },
   {
@@ -697,15 +685,15 @@
       "A. AmazonInspector",
       "B. AWSIoT",
       "C. AWSCodePipeline",
-      "D. AmazonGlacier",
-      "AWS IoT (Internet of Things) is integrated with CloudTrail to capture API calls from the AWS IoT console or from your code to the AWS IoT APIs. AWS IoT provides secure, bi-directional communication between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud. Using the information collected by CloudTrail, you can determine the request that was made to AWS IoT, the source IP address from which the request was made, who made the request, when it was made, and so on.",
-      "Reference: http://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using- cloudtrail",
-      ""
+      "D. AmazonGlacier"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "AWS IoT (Internet of Things) is integrated with CloudTrail to capture API calls from the AWS IoT console or from your code to the AWS IoT APIs. AWS IoT provides secure, bi-directional communication between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud. Using the information collected by CloudTrail, you can determine the request that was made to AWS IoT, the source IP address from which the request was made, who made the request, when it was made, and so on.",
+      "Reference: http://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using- cloudtrail"
+    ],
     "categories": []
   },
   {
@@ -717,15 +705,15 @@
       "A. Create a global AWS CloudTrail Trail. Configure a script to aggregate the log data into a report, publish it to S3 once per week and deliver this to the CTO.",
       "B. Use CloudWatch Events Rules with an SNS topic subscribed to all AWS API calls. Subscribe the CTO to an email type delivery on this SNS Topic.",
       "C. Use AWS IAM credential reports to deliver a CSV of all uses of IAM User Tokens over time to the CTO.",
-      "D. Use AWS Config with an SNS subscription on a Lambda, and insert these changes over time into a DynamoDB table. Generate reports based on the contents of this table.",
-      "This is the ideal use case for AWS CloudTrail. CloudTrail provides visibility into user activity by recording API calls made on your account. CloudTrail records important information about each API call, including the name of the API, the identity of the caller, the time of the API call, the request parameters, and the response elements returned by the AWS service. This information helps you to track changes made to your AWS resources and to troubleshoot operational issues. CloudTrail makes it easier to ensure compliance with internal policies and regulatory standards.",
-      "Reference: https://aws.amazon.com/cloudtrail/faqs/",
-      ""
+      "D. Use AWS Config with an SNS subscription on a Lambda, and insert these changes over time into a DynamoDB table. Generate reports based on the contents of this table."
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "This is the ideal use case for AWS CloudTrail. CloudTrail provides visibility into user activity by recording API calls made on your account. CloudTrail records important information about each API call, including the name of the API, the identity of the caller, the time of the API call, the request parameters, and the response elements returned by the AWS service. This information helps you to track changes made to your AWS resources and to troubleshoot operational issues. CloudTrail makes it easier to ensure compliance with internal policies and regulatory standards.",
+      "Reference: https://aws.amazon.com/cloudtrail/faqs/"
+    ],
     "categories": []
   },
   {
@@ -737,15 +725,15 @@
       "A. captured and processed in the same region as to which the API call is made and delivered to the region associated with your Amazon S3 bucket",
       "B. captured, processed, and delivered to the region associated with your Amazon S3 bucket",
       "C. captured in the same region as to which the API call is made and processed and delivered to the region associated with your Amazon S3 bucket",
-      "D. captured in the region where the endpoint is located, processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket",
-      "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall informationfor services with single endpoints(IAM,STSetc.)is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket.",
-      "Reference: https://aws.amazon.com/cloudtrail/faqs/",
-      ""
+      "D. captured in the region where the endpoint is located, processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall informationfor services with single endpoints(IAM,STSetc.)is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket.",
+      "Reference: https://aws.amazon.com/cloudtrail/faqs/"
+    ],
     "categories": []
   },
   {
@@ -757,14 +745,14 @@
       "A. captured in the same region as to which the API call is made and processed and delivered to the region associated with your Amazon S3 bucket",
       "B. captured and processed in the same region as to which the API call is made and delivered tothe region associated with your Amazon S3 bucket",
       "C. captured,processed,and delivered to the region associated with your Amazon S3 bucket",
-      "D. captured in the region where the endpoint is loc at ed,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket",
-      "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. Reference: https://aws.amazon.com/cloudtrail/faqs/",
-      ""
+      "D. captured in the region where the endpoint is loc at ed,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. Reference: https://aws.amazon.com/cloudtrail/faqs/"
+    ],
     "categories": []
   },
   {
@@ -776,16 +764,16 @@
       "A. awscreate-trail--nametrailname--s3-objectobjectname",
       "B. awscloudtrail--s3-region name IP address create-trail--nametrailname",
       "C. awscloudtrailcreate-trail--nametrailname--s3-bucket-namebucketname",
-      "D. awscloudtrailcreate-trail--nametrailname--s3-portnumberIPaddress",
-      "The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools",
-      "(CLI) on your system).",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html",
-      ""
+      "D. awscloudtrailcreate-trail--nametrailname--s3-portnumberIPaddress"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools",
+      "(CLI) on your system).",
+      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html"
+    ],
     "categories": []
   },
   {
@@ -797,15 +785,15 @@
       "A. mvnjavacmvn-installprocessor",
       "B. jarinstallprocessor",
       "C. buildjar-Dgpg.processor",
-      "D. mvncleaninstall-Dgpg.skip\u003dtrue",
-      "The CloudTrail Processing Library is a Java library that provides an easy way to process AWS CloudTrail logs in a fault-tolerant, scalable and flexible way. To set up the CloudTrail Processing Library, you first need to download CloudTrail Processing Library source from GitHub. You can then create the .jar file using this command.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing- library.html",
-      ""
+      "D. mvncleaninstall-Dgpg.skip\u003dtrue"
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "The CloudTrail Processing Library is a Java library that provides an easy way to process AWS CloudTrail logs in a fault-tolerant, scalable and flexible way. To set up the CloudTrail Processing Library, you first need to download CloudTrail Processing Library source from GitHub. You can then create the .jar file using this command.",
+      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing- library.html"
+    ],
     "categories": []
   },
   {
@@ -817,15 +805,15 @@
       "A. bucket-level;RESTful",
       "B. object-level;RESTful",
       "C. object-level;SDK",
-      "D. bucket-level;SDK",
-      "By default, CloudTrail logs bucket-level actions. Amazon S3 records are written together with other AWS service records in a log file. Amazon S3 bucket-level actions supported for logging by CloudTrail are defined in its RESTful API.",
-      "Reference: http://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html",
-      ""
+      "D. bucket-level;SDK"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "By default, CloudTrail logs bucket-level actions. Amazon S3 records are written together with other AWS service records in a log file. Amazon S3 bucket-level actions supported for logging by CloudTrail are defined in its RESTful API.",
+      "Reference: http://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html"
+    ],
     "categories": []
   },
   {
@@ -837,16 +825,16 @@
       "A. RegisterDomain",
       "B. RegisterWorkflowActivity",
       "C. RegisterActivityType",
-      "D. RegisterWorkflowType",
-      "Amazon SWF is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of Amazon SWF and delivers the log files to an Amazon S3 bucket that you specify. The API calls can be made indirectly by using the Amazon SWF console or directly by using the Amazon SWF API. When CloudTrail logging is enabled, calls made to Amazon SWF actions are tracked in log files. Amazon SWF records are written together with any other AWS service records in a log file. CloudTrail determines when to create and write to a new file based on a specified time period and file size.",
-      "The following actions are supported: DeprecateActivityType DeprecateDomain DeprecateWorkflowType RegisterActivityType RegisterDomain RegisterWorkflowType",
-      "Reference: http://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging.html",
-      ""
+      "D. RegisterWorkflowType"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "Amazon SWF is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of Amazon SWF and delivers the log files to an Amazon S3 bucket that you specify. The API calls can be made indirectly by using the Amazon SWF console or directly by using the Amazon SWF API. When CloudTrail logging is enabled, calls made to Amazon SWF actions are tracked in log files. Amazon SWF records are written together with any other AWS service records in a log file. CloudTrail determines when to create and write to a new file based on a specified time period and file size.",
+      "The following actions are supported: DeprecateActivityType DeprecateDomain DeprecateWorkflowType RegisterActivityType RegisterDomain RegisterWorkflowType",
+      "Reference: http://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging.html"
+    ],
     "categories": []
   },
   {
@@ -858,15 +846,15 @@
       "A. AWSconsolesign-in",
       "B. AWSlogoff",
       "C. AWSerror",
-      "D. AWSdeployment",
-      "CloudTrail records attempts to sign into the AWS Management Console, the AWS Discussion Forums and the AWS Support Center. Note, however, that CloudTrail does not record root sign-in failures.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws- console-sign-in-events.html",
-      ""
+      "D. AWSdeployment"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "CloudTrail records attempts to sign into the AWS Management Console, the AWS Discussion Forums and the AWS Support Center. Note, however, that CloudTrail does not record root sign-in failures.",
+      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws- console-sign-in-events.html"
+    ],
     "categories": []
   },
   {
@@ -878,15 +866,15 @@
       "A. AWSCloudTrail;CloudWatchEvents",
       "B. AWSConfig;AWSInspector",
       "C. AWSConfig;AWSLambda",
-      "D. AWSCloudTrail;AWSConfig",
-      "CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface.",
-      "Reference: https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/",
-      ""
+      "D. AWSCloudTrail;AWSConfig"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface.",
+      "Reference: https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/"
+    ],
     "categories": []
   },
   {
@@ -898,16 +886,16 @@
       "A. modify-trail",
       "B. change-trail",
       "C. update-trail",
-      "D. set-trail",
-      "The update-trail command is used to change the configuration settings for a trail. You can only",
-      "run update-trail command from the region in which the trail was created.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html",
-      ""
+      "D. set-trail"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "The update-trail command is used to change the configuration settings for a trail. You can only",
+      "run update-trail command from the region in which the trail was created.",
+      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html"
+    ],
     "categories": []
   },
   {
@@ -919,15 +907,15 @@
       "A. AmazonKinesisFirehose",
       "B. AmazonSimpleQueueService(AmazonSQS)",
       "C. AmazonSimpleEmailService(AmazonSES)",
-      "D. AmazonAppStream",
-      "As CloudTrail sends a notification each time a log file is written to the Amazon S3 bucket, an account that\u0027s very active can generate a large number of notifications. If you subscribe using email or SMS, you can end up receiving more messages than you can handle. AWS recommends that you subscribe using Amazon Simple Queue Service (Amazon SQS), which lets you handle notifications programmatically.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.ht ml",
-      ""
+      "D. AmazonAppStream"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "As CloudTrail sends a notification each time a log file is written to the Amazon S3 bucket, an account that\u0027s very active can generate a large number of notifications. If you subscribe using email or SMS, you can end up receiving more messages than you can handle. AWS recommends that you subscribe using Amazon Simple Queue Service (Amazon SQS), which lets you handle notifications programmatically.",
+      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.ht ml"
+    ],
     "categories": []
   },
   {
@@ -939,14 +927,14 @@
       "A. Yes,you can add an If Ex is ts condition at the end of a Null condition but not in all Region s.",
       "B. Yes,you can add an If Ex is ts condition at the end of a Null condition depending on the condition.",
       "C. No,you cannot add an If Ex is ts condition at the end of a Null condition.",
-      "D. Yes,you can add an If Ex is ts condition at the end of a Null condition.",
-      "Within an IAM policy, IfExists can be added to the end of any condition operator except the Null condition.It can be used to in dic at e that condition a l com p a r is on needs to h app en if the policy key is present in the context of a request; otherwise, it can be ignored. Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht ml",
-      ""
+      "D. Yes,you can add an If Ex is ts condition at the end of a Null condition."
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "Within an IAM policy, IfExists can be added to the end of any condition operator except the Null condition.It can be used to in dic at e that condition a l com p a r is on needs to h app en if the policy key is present in the context of a request; otherwise, it can be ignored. Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht ml"
+    ],
     "categories": []
   },
   {
@@ -958,14 +946,14 @@
       "A. Amazon Inspector is a global service that is not region-bound.YoucanincludeAWS resources from multiple regions in the same assessment target.",
       "B. Amazon Inspector is hosted within AWS regions behind a public endpoint.Allregionsare isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations.",
       "C. Amazon Inspector is hosted in each supported region.Tele met ry data and find in gs are shared across regions to provide complete assessment reports.",
-      "D. Amazon Inspector is hosted in each supported region separately. You have to create assessment targets using the same name and tags in each region and Amazon Inspector will run against each assessment target in each region.",
-      "At this time, Amazon Inspector supports assessment services for EC2 instances in only the following AWS regions: US West (Oregon) US East (N. Virginia) EU (Ireland) Asia Pacific (Seoul) Asia Pacific (Mumbai) Asia Pacific (Tokyo) Asia Pacific (Sydney) Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html #in spector_supported-regions",
-      ""
+      "D. Amazon Inspector is hosted in each supported region separately. You have to create assessment targets using the same name and tags in each region and Amazon Inspector will run against each assessment target in each region."
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "At this time, Amazon Inspector supports assessment services for EC2 instances in only the following AWS regions: US West (Oregon) US East (N. Virginia) EU (Ireland) Asia Pacific (Seoul) Asia Pacific (Mumbai) Asia Pacific (Tokyo) Asia Pacific (Sydney) Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html #in spector_supported-regions"
+    ],
     "categories": []
   },
   {
@@ -977,15 +965,15 @@
       "A. Block",
       "B. Stop",
       "C. Deny",
-      "D. Allow",
-      "By default, access to resources is denied. To allow access to a resource, you must set the Effect element to Allow. To override an allow (for example, to override an allow that is otherwise in force), you set the Effect element to Deny.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html",
-      ""
+      "D. Allow"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "By default, access to resources is denied. To allow access to a resource, you must set the Effect element to Allow. To override an allow (for example, to override an allow that is otherwise in force), you set the Effect element to Deny.",
+      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html"
+    ],
     "categories": []
   },
   {
@@ -997,15 +985,15 @@
       "A. PUT",
       "B. HTTPS",
       "C. POST",
-      "D. GET",
-      "The Query API for IAM and AWS STS lets you call service actions. Query API requests are HTTPS requests that must contain an Action parameter to indicate the action to be performed. IAM and AWS STS support GET and POST requests for all actions, that is, the API does not require you to use GET for some actions and POST for others.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/programming.html",
-      ""
+      "D. GET"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "The Query API for IAM and AWS STS lets you call service actions. Query API requests are HTTPS requests that must contain an Action parameter to indicate the action to be performed. IAM and AWS STS support GET and POST requests for all actions, that is, the API does not require you to use GET for some actions and POST for others.",
+      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/programming.html"
+    ],
     "categories": []
   },
   {
@@ -1017,15 +1005,15 @@
       "A. All ow this group to view the password policy of all the users added only to that group",
       "B. All ow all the users of IAM to modify their password",
       "C. All ow an IAM user in this group to view the password policy and modify only h is/herpassword",
-      "D. All ow this group to view the password policy of all the IAM users",
-      "This IAM policy grants access to the ChangePassword action, which lets the users use the console, the CLI, or the API to change their passwords. The Resource element uses a policy variable (aws:username), which is useful in policies that are attached to groups. The aws:username key resolves to the name of the current IAM user when a request is made, so that each user is allowed permission to change only his or her own password . This policy will allow all the users of this group to modify the passwords of all the IAM users.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/HowToPwdIAMUser.html",
-      ""
+      "D. All ow this group to view the password policy of all the IAM users"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "This IAM policy grants access to the ChangePassword action, which lets the users use the console, the CLI, or the API to change their passwords. The Resource element uses a policy variable (aws:username), which is useful in policies that are attached to groups. The aws:username key resolves to the name of the current IAM user when a request is made, so that each user is allowed permission to change only his or her own password . This policy will allow all the users of this group to modify the passwords of all the IAM users.",
+      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/HowToPwdIAMUser.html"
+    ],
     "categories": []
   },
   {
@@ -1037,15 +1025,15 @@
       "A. None.Amazon Inspector is an automated service and not monitor ed by CloudTrail.",
       "B. Both request and response information is logged.",
       "C. Only request information is logged.",
-      "D. Request information is always logged.Resp on se information is logged only for Completed assessment runs.",
-      "For the Amazon Inspector integration with CloudTrail, for the List* and Describe* APIs, only the request information is logged.",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/logging-using-cloudtrail.html",
-      ""
+      "D. Request information is always logged.Resp on se information is logged only for Completed assessment runs."
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "For the Amazon Inspector integration with CloudTrail, for the List* and Describe* APIs, only the request information is logged.",
+      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/logging-using-cloudtrail.html"
+    ],
     "categories": []
   },
   {
@@ -1057,15 +1045,15 @@
       "A. NotEffect",
       "B. SupportedDataTypes",
       "C. PrincipalResource",
-      "D. VersionManagement",
-      "A user can define various elements for an IAM policy. The elements include Version, ID, Statement, Sid, Effect, Principal, Not Principal, Action, Not Action, Resource, Not Resource, Condition, and Supported Data Types",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html",
-      ""
+      "D. VersionManagement"
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "A user can define various elements for an IAM policy. The elements include Version, ID, Statement, Sid, Effect, Principal, Not Principal, Action, Not Action, Resource, Not Resource, Condition, and Supported Data Types",
+      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html"
+    ],
     "categories": []
   },
   {
@@ -1077,15 +1065,15 @@
       "A. Amazon Inspector proxy support on Linux-based systems is achieve d through install in g proxy-enabled version of the agent which comes with pre-configured files that you need to edit to match your environment.",
       "B. Amazon Inspector agent does NOT support the use of proxy on Linux-basedsystems.",
       "C. Amazon Inspector proxy configuration on Linux-based system is include d in aws agent.envfile under /etc/init.d/",
-      "D. Amazon Inspector agent proxy settings on Linux-based systems are configured through W in HTTP proxy.",
-      "To install an AWS agent on an EC2 instance that uses a proxy server Create a file called awsagent.env and save it in the /etc/init.d/ directory. Edit awsagent.env to include these environment variables in the following format: export https_proxy\u003dhttps://hostname:port export http_proxy\u003dhttp://hostname:port export no_proxy\u003d 123.456.789.111",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector- agent-proxy",
-      ""
+      "D. Amazon Inspector agent proxy settings on Linux-based systems are configured through W in HTTP proxy."
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "To install an AWS agent on an EC2 instance that uses a proxy server Create a file called awsagent.env and save it in the /etc/init.d/ directory. Edit awsagent.env to include these environment variables in the following format: export https_proxy\u003dhttps://hostname:port export http_proxy\u003dhttp://hostname:port export no_proxy\u003d 123.456.789.111",
+      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector- agent-proxy"
+    ],
     "categories": []
   },
   {
@@ -1097,15 +1085,15 @@
       "A. OnlyWindows-based systems are supported as Linux-based systems use custom configuration s that are not supported by AWS Agent in the current release.",
       "B. OnlyLinux-based systems are supported,and AWS agent supports HTTPS proxy on these systems.",
       "C. No,AWS Agent does NOT support proxy environments.",
-      "D. Yes,AWS Agent supports proxy environments on both Linux-basedandWindows-basedsystems.",
-      "The AWS agent supports proxy environments. For Linux instances, Inspector supports HTTPS Proxy, and for Windows instances, it supports WinHTTP proxy.",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html",
-      ""
+      "D. Yes,AWS Agent supports proxy environments on both Linux-basedandWindows-basedsystems."
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "The AWS agent supports proxy environments. For Linux instances, Inspector supports HTTPS Proxy, and for Windows instances, it supports WinHTTP proxy.",
+      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html"
+    ],
     "categories": []
   },
   {
@@ -1117,15 +1105,15 @@
       "A. Tele met ry data is kept in S3 and encrypted with a pre-assessment test key configured in KMS,as long as you have access to that key you can download and decrypt telemetry data.",
       "B. Tele met ry data is stored in Amazon Inspector dedic at ed S3 bucket that does NOT be long to your account, Amazon Inspector currently does NOT provide an API or an S3 bucket access mechanism to collected telemetry. Data is retained temporarily only to allow for assistance with support requests.",
       "C. Tele met ry data is save do n S3 bucket in your account,the re for e telemetry data is access ible with proper permissions on that bucket.",
-      "D. Tele met ry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools.",
-      "The telemetry data stored in S3 is retained only to allow for assistance with support requests and is not used or aggregated by Amazon for any other purpose. After 30 days, telemetry data is permanently deleted per a standard Amazon Inspector-dedicated S3 bucket lifecycle policy. At present, Amazon Inspector does not provide an API or an S3 bucket access mechanism to collected telemetry.",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html",
-      ""
+      "D. Tele met ry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools."
     ],
     "answerList": [
       "B"
     ],
-    "commentList": [],
+    "commentList": [
+      "The telemetry data stored in S3 is retained only to allow for assistance with support requests and is not used or aggregated by Amazon for any other purpose. After 30 days, telemetry data is permanently deleted per a standard Amazon Inspector-dedicated S3 bucket lifecycle policy. At present, Amazon Inspector does not provide an API or an S3 bucket access mechanism to collected telemetry.",
+      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html"
+    ],
     "categories": []
   },
   {
@@ -1138,15 +1126,15 @@
       "B. Create a hier a rchy of the IAM users which are separate d based on the de part ment",
       "C. Createanestedgroup",
       "D. Use the path s to separate the users of the same group",
-      "E. It is not possible to de line at e within a group",
-      "The path functionality within an IAM group and user allows them to delineate by further levels. In this case the user needs to use the path with each user or group so that the ARN of the user will look similar to: arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/user1 arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/user2",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html#Identifiers_ARNs",
-      ""
+      "E. It is not possible to de line at e within a group"
     ],
     "answerList": [
       "C"
     ],
-    "commentList": [],
+    "commentList": [
+      "The path functionality within an IAM group and user allows them to delineate by further levels. In this case the user needs to use the path with each user or group so that the ARN of the user will look similar to: arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/user1 arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/user2",
+      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html#Identifiers_ARNs"
+    ],
     "categories": []
   },
   {
@@ -1158,15 +1146,15 @@
       "A. \"Version\":\"2014-01-01\"",
       "B. \"Version\":\"2011-10-17\"",
       "C. \"Version\":\"2013-10-17\"",
-      "D. \"Version\":\"2012-10-17\"",
-      "When defining an IAM Policy, the version element specifies the policy language version. Only the following values are allowed: 2012-10-17. This is the current version of the policy language, and the user should use this version number for all the policies. 2008-10-17. This was an earlier version of the policy language. The user might see this version on the existing policies. Do not use this version for any new policies or any existing policies that are being updated. If a version element is not included, the value defaults to 2008-10-17.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html",
-      ""
+      "D. \"Version\":\"2012-10-17\""
     ],
     "answerList": [
       "D"
     ],
-    "commentList": [],
+    "commentList": [
+      "When defining an IAM Policy, the version element specifies the policy language version. Only the following values are allowed: 2012-10-17. This is the current version of the policy language, and the user should use this version number for all the policies. 2008-10-17. This was an earlier version of the policy language. The user might see this version on the existing policies. Do not use this version for any new policies or any existing policies that are being updated. If a version element is not included, the value defaults to 2008-10-17.",
+      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html"
+    ],
     "categories": []
   },
   {
@@ -1176,14 +1164,14 @@
     "text": "Which command will start an assessment run?\n\n",
     "choiceList": [
       "A. awsinspectorstart-assessment-run--assessment-template-arn",
-      "B. awsinspectorstart-assessment-run--assessment-run-nameexamplerun--assessment-target",
-      "start-assessment-run command requires --assessment-template-arn, other parameters are optional start-assessment-run --assessment-template-arn [--assessment-run- name ] [--cli-input-json ] [--generate-cli-skeleton ] Reference: http://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html",
-      ""
+      "B. awsinspectorstart-assessment-run--assessment-run-nameexamplerun--assessment-target"
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "start-assessment-run command requires --assessment-template-arn, other parameters are optional start-assessment-run --assessment-template-arn [--assessment-run- name ] [--cli-input-json ] [--generate-cli-skeleton ] Reference: http://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html"
+    ],
     "categories": []
   },
   {
@@ -1195,14 +1183,14 @@
       "A. AmazonInspectoragentsupportsproxyusageonWindows-basedsystemsthroughtheuse of the WinHTTP proxy.",
       "B. AmazonInspectoragentsupportsproxyusageonLinux-basedsystemsbutnotonWindows.",
       "C. AmazonInspectorproxysupportonWindows-basedsystemsisachievedthroughinstalling proxy- enabled version of the agent which comes with preconfigured files that you need to edittomatch yourenvironment.",
-      "D. AmazonInspectoragentsupportsproxyusageonWindows-basedsystemsthrough aws agent. env configuration file.",
-      "Proxy support for AWS agents is achieved through the use of the WinHTTP proxy. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on- win.html#inspector- agent-proxy",
-      ""
+      "D. AmazonInspectoragentsupportsproxyusageonWindows-basedsystemsthrough aws agent. env configuration file."
     ],
     "answerList": [
       "A"
     ],
-    "commentList": [],
+    "commentList": [
+      "Proxy support for AWS agents is achieved through the use of the WinHTTP proxy. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on- win.html#inspector- agent-proxy"
+    ],
     "categories": []
   },
   {

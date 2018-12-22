@@ -18,8 +18,8 @@ public class MarkdownUtilsTests {
 
     @Test
     public void convertMarkdownPageToJson() throws IOException {
-        String mdPageUrl = "https://github.com/algogz/questions/blob/master/q/dop/aws-devop-pro-part3.md";
-        Path jsonFile = Paths.get("q/dop/aws-devop-pro-part3.json");
+        String mdPageUrl = "https://github.com/algogz/questions/blob/master/q/dop/aws-devop-pro-part2.md";
+        Path jsonFile = Paths.get("q/dop/aws-devop-pro-part2.json");
         List<Question> qList = MarkdownUtils.convertMarkdownPageToJson(mdPageUrl, jsonFile);
         Files.write(jsonFile, gson.toJson(qList).getBytes());
     }
