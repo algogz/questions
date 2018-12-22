@@ -401,8 +401,7 @@ Explanation:
 
 Kernel memory limits are expressed in terms of the overall memory allocated to a container. Consider the following scenarios:
 Unlimited memory, unlimited kernel memory: This is the default behavior. Unlimited memory, limited kernel memory: This is appropriate when the amount of memory needed by all cgroups is greater than the amount of memory that actually exists on the host machine. You can configure the kernel memory to never go over what is available on the host machine, and containers which
-  
- need more memory need to wait for it. Limited memory, umlimited kernel memory: The overall memory is limited, but the kernel memory is not.
+need more memory need to wait for it. Limited memory, umlimited kernel memory: The overall memory is limited, but the kernel memory is not.
 Limited memory, limited kernel memory: Limiting both user and kernel memory can be useful for debugging memory-related problems. If a container is using an unexpected amount of either type of memory, it will run out of memory without affecting other containers or the host machine. Within this setting, if the kernel memory limit is lower than the user memory limit, running out of kernel memory will cause the container to experience an OOM error. If the kernel memory limit is higher than the user memory limit, the kernel limit will not cause the container to experience an OOM. 
 
 Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-memory-details
@@ -449,7 +448,7 @@ Reference: https://docs.docker.com/engine/reference/run/#overriding-dockerfile-i
 
 ### QUESTION 225
     
- When deploying to a Docker swarm, which section of the docker-compose file defines configuration related to the deployment and running of services?
+When deploying to a Docker swarm, which section of the docker-compose file defines configuration related to the deployment and running of services?
 
 - A. services 
 - B. build
@@ -503,9 +502,7 @@ Which of the following is NOT an advantage of Docker's content addressable stora
 Explanation:
 
 Docker 1.10 introduced a new content addressable storage model. This is a completely new way to address image and layer data on disk. Previously, image and layer data was referenced and stored using a randomly generated UUID. In the new model this is replaced by a secure content hash.
-The new model improves security, provides a built-in way to avoid ID collisions, and guarantees
-  
- data integrity after pull, push, load, and save operations. It also enables better sharing of layers by allowing many images to freely share their layers even if they didn't come from the same build. 
+The new model improves security, provides a built-in way to avoid ID collisions, and guarantees data integrity after pull, push, load, and save operations. It also enables better sharing of layers by allowing many images to freely share their layers even if they didn't come from the same build. 
 
 Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#content-addressable-storage
 
@@ -601,9 +598,7 @@ Which services can be used as optional components of setting up a new Trail in C
 Explanation:
 
 Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached.
-CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to
-  
- deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place
+CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place
 
 Reference: https://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html
 
@@ -747,9 +742,7 @@ What is the correct syntax for the AWS command to create a single region trail?
 
 Explanation:
 
-The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools
-  
- (CLI) on your system).
+The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools (CLI) on your system).
 
 Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html
 
@@ -805,8 +798,7 @@ Explanation:
 
 Amazon SWF is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of Amazon SWF and delivers the log files to an Amazon S3 bucket that you specify. The API calls can be made indirectly by using the Amazon SWF console or directly by using the Amazon SWF API.
 When CloudTrail logging is enabled, calls made to Amazon SWF actions are tracked in log files. Amazon SWF records are written together with any other AWS service records in a log file. CloudTrail determines when to create and write to a new file based on a specified time period and file size.
-  
- The following actions are supported: DeprecateActivityType DeprecateDomain DeprecateWorkflowType RegisterActivityType RegisterDomain RegisterWorkflowType
+The following actions are supported: DeprecateActivityType DeprecateDomain DeprecateWorkflowType RegisterActivityType RegisterDomain RegisterWorkflowType
 
 Reference: http://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging.html
 
@@ -866,8 +858,7 @@ Using the AWS CLI, which command would you use to change the configuration setti
 Explanation:
 
 The update-trail command is used to change the configuration settings for a trail. You can only
-  
- run update-trail command from the region in which the trail was created.
+run update-trail command from the region in which the trail was created.
 
 Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html
 
@@ -918,7 +909,7 @@ You are hosting multiple environments in multiple regions and would like to use 
 - A. Amazon Inspector is a global service that is not region-bound.YoucanincludeAWS
 resources from multiple regions in the same assessment target.
 - B. Amazon Inspector is hosted within AWS regions behind a public endpoint.Allregionsare isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations.
-- C. Amazon Inspector is hosted in each supported region.Tele met ry data and find in gs are shared across regions to provide complete assessment reports.
+- C. Amazon Inspector is hosted in each supported region.Telemetry data and find in gs are shared across regions to provide complete assessment reports.
 - D. Amazon Inspector is hosted in each supported region separately. You have to create assessment targets using the same name and tags in each region and Amazon Inspector will run against each assessment target in each region. 
 
 <details><summary>Answer:</summary><p> B
@@ -987,12 +978,13 @@ A root account has created an IAM group and defined the policy as:
 ]
 
 ```
+
 What will this policy do?
 
-- A. All ow this group to view the password policy of all the users added only to that group
-- B. All ow all the users of IAM to modify their password
-- C. All ow an IAM user in this group to view the password policy and modify only h is/herpassword 
-- D. All ow this group to view the password policy of all the IAM users
+- A. Allow this group to view the password policy of all the users added only to that group
+- B. Allow all the users of IAM to modify their password
+- C. Allow an IAM user in this group to view the password policy and modify only h is/herpassword 
+- D. Allow this group to view the password policy of all the IAM users
 
 <details><summary>Answer:</summary><p> C
   
@@ -1087,12 +1079,12 @@ Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agen
 ### QUESTION 256
 Amazon Inspector agent collects telemetry data during assessment run and sends this data to Amazon Inspector dedicated S3 bucket for analysis. How can you access telemetry data out of Amazon Inspector and how can you benefit from this data in securing your resources?
 
-- A. Tele met ry data is kept in S3 and encrypted with a pre-assessment test key configured in KMS,as
+- A. Telemetry data is kept in S3 and encrypted with a pre-assessment test key configured in KMS,as
 long as you have access to that key you can download and decrypt telemetry data.
-- B. Tele met ry data is stored in Amazon Inspector dedic at ed S3 bucket that does NOT be long to your
+- B. Telemetry data is stored in Amazon Inspector dedic at ed S3 bucket that does NOT be long to your
 account, Amazon Inspector currently does NOT provide an API or an S3 bucket access mechanism to collected telemetry. Data is retained temporarily only to allow for assistance with support requests.
-- C. Tele met ry data is save do n S3 bucket in your account,the re for e telemetry data is access ible with proper permissions on that bucket.
-- D. Tele met ry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools.
+- C. Telemetry data is save do n S3 bucket in your account,the re for e telemetry data is access ible with proper permissions on that bucket.
+- D. Telemetry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools.
 
 <details><summary>Answer:</summary><p> B
     

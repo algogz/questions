@@ -69,7 +69,7 @@ A user can always create a new EBS volume of a higher size than the original sna
 
 ### QUESTION 105
     
- How long are the messages kept on an SQS queue by default?
+How long are the messages kept on an SQS queue by default?
 
 - A. If a message is not read, it is never deleted
 - B. 2 weeks
@@ -450,8 +450,7 @@ Explanation:
 
 Code is a property of the AWS::Lambda::Function resource that enables to you specify the source code of an AWS Lambda (Lambda) function.
 You can point to a file in an Amazon Simple Storage Service (Amazon S3) bucket or specify your
-  
- source code as inline text (for nodejs runtime environments only). http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom- resources.html
+source code as inline text (for nodejs runtime environments only). http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom- resources.html
 
 </p></details><hr>
 
@@ -574,8 +573,7 @@ Putting all resources in one stack is a bad idea, since different tiers have dif
 
 ### QUESTION 135
 You need to replicate API calls across two systems in real time. What tool should you use as a
-  
- buffer and transport mechanism for API call events?
+buffer and transport mechanism for API call events?
 
 - A. AWS SQS
 - B. AWS Lambda
@@ -622,7 +620,7 @@ Explanation:
 
 IAM resources are all global; there is not regional constraint.
    
- https://aws.amazon.com/iam/faqs/
+https://aws.amazon.com/iam/faqs/
 
 </p></details><hr>
 
@@ -658,7 +656,7 @@ Explanation:
 This is the ideal use case for AWS CloudTrail.
 CloudTrail provides visibility into user activity by recording API calls made on your account. CloudTrail records important information about each API call, including the name of the API, the identity of the caller, the time of the API call, the request parameters, and the response elements returned by the AWS service. This information helps you to track changes made to your AWS resources and to troubleshoot operational issues. CloudTrail makes it easier to ensure compliance with internal policies and regulatory standards.
   
- https://aws.amazon.com/cloudtrail/faqs/
+https://aws.amazon.com/cloudtrail/faqs/
 
 </p></details><hr>
 
@@ -839,7 +837,7 @@ All suggested periodic options are sensitive to server failure during or between
 
 ### QUESTION 150
     
- You need your API backed by DynamoDB to stay online during a total regional AWS failure. You can tolerate a couple minutes of lag or slowness during a large failure event, butthe system should recover with normal operation after those few minutes. What is a good approach?
+You need your API backed by DynamoDB to stay online during a total regional AWS failure. You can tolerate a couple minutes of lag or slowness during a large failure event, butthe system should recover with normal operation after those few minutes. What is a good approach?
 
 - A. Set up DynamoDB cross-region replication in a master-standby configuration, with a single standby in another region. Create an Auto Scaling Group behind an ELB in each of the two regions DynamoDB is running in. Add a Route53 Latency DNS Record with DNS Failover, using the ELBs in the two regions as the resource records.
 - B. Set up a DynamoDB Multi-Region table. Create an Auto Scaling Group behind an ELB in each of the two regions DynamoDB is running in. Add a Route53 Latency DNS Record with DNS Failover, using the ELBs in the two regions as the resource records.
@@ -1291,9 +1289,7 @@ Simply upload the new version of your application and let your deployment servic
 </p></details><hr>
 
 ### QUESTION 176
-You need to create a simple, holistic check for your system's general availablity and uptime. Your
-  
- system presents itself as an HTTP-speaking API. What is the most simple tool on AWS to achieve this with?
+You need to create a simple, holistic check for your system's general availablity and uptime. Your system presents itself as an HTTP-speaking API. What is the most simple tool on AWS to achieve this with?
 
 - A. Route53 Health Checks
 - B. CloudWatch Health Checks
@@ -1473,8 +1469,7 @@ You are designing a service that aggregates clickstream data in batch and delive
 Explanation:
 
 Because you only need to batch analyze, anything using streaming is a waste of money. CloudFront is a Gigabit-Scale HTTP(S) global request distribution service, so it can handle scale,
-  
- geo-spread, spikes, and unpredictability. The Access Logs will contain the GET data and work just fine for batch analysis and email using EMR.
+geo-spread, spikes, and unpredictability. The Access Logs will contain the GET data and work just fine for batch analysis and email using EMR.
 Can I use Amazon CloudFront if I expect usage peaks higher than 10 Gbps or 15,000 RPS? Yes. Complete our request for higher limits here, and we will add more capacity to your account within two business days.
 https://aws.amazon.com/cloudfront/faqs/
 
@@ -1581,7 +1576,7 @@ Explanation:
 
 A security group is tied to a region and can be assigned only to instances in the same region.
   
- You can't enable an instance to communicate with an instance outside its region using security group rules. Traffic from an instance in another region is seen as WAN bandwidth. Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
+You can't enable an instance to communicate with an instance outside its region using security group rules. Traffic from an instance in another region is seen as WAN bandwidth. Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 

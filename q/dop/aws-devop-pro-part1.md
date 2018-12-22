@@ -1158,9 +1158,7 @@ You set up a scalable continuous integration platform on AWS.
 The platform consists of a master node that can delegate project build jobs to multiple slave nodes, all running on Amazon EC2.
 The build output will be stored in Amazon S3.
 You always have five slave nodes deployed. Each slave node can handle 10 build jobs simultaneously.
-Your master node publishes a custom Amazon CloudWatch metric with the name
-  
- "RunningBuildiobs" that Slows you to programmatically track how many build jobs are running across your platform.
+Your master node publishes a custom Amazon CloudWatch metric with the name "RunningBuildiobs" that Slows you to programmatically track how many build jobs are running across your platform.
 Which two configuration options will allow you to flexibly scale your platform to support more than 50 simultaneous build jobs while minimizing costs? Choose 2 answers
 
 - A. Place your fleet of slave nodes in an Auto Scaling group.
@@ -1201,9 +1199,7 @@ Which two additional pieces of logic should you include to meet the CISO's requi
 
 ### QUESTION 68
 You are responsible for a large-scale video transcoding system that operates with an Auto Scaling group of video transcoding workers.
-The Auto Scaling group is configured with a minimum of 750 Amazon EC2 instances and a
-  
- maximum of 1000 Amazon EC2 instances.
+The Auto Scaling group is configured with a minimum of 750 Amazon EC2 instances and a maximum of 1000 Amazon EC2 instances.
 You are using Amazon SQS to pass a message containing the URI for a video stored in Amazon S3 to the transcoding workers.
 An Amazon CloudWatch alarm has notified you that the queue depth is becoming very large. How can you resolve the alarm without the risk of increasing the time to transcode videos? Choose 2 answers.
 
@@ -1475,9 +1471,7 @@ You are hired as the new head of operations for a SaaS company. Your CTO has ask
 Explanation:
 
 The Elasticsearch and Kibana 4 combination is called the ELK Stack, and is designed specifically for real-time, ad-hoc log analysis and aggregation. All other answers introduce extra delay or require pre-defined queries.
-Amazon Elasticsearch Service is a managed service that makes it easy to deploy, operate, and scale Elasticsearch in the AWS Cloud. Elasticsearch is a popular open-source search and
-  
- analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics.
+Amazon Elasticsearch Service is a managed service that makes it easy to deploy, operate, and scale Elasticsearch in the AWS Cloud. Elasticsearch is a popular open-source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics.
 https://aws.amazon.com/elasticsearch-service/
 
 </p></details><hr>
@@ -1512,9 +1506,7 @@ Deploy the ANN code to G2 instances in this tier. Set the desired capacity to 1.
 Explanation:
 
 The Elastic Beanstalk option is incorrect because it requires a constantly-polling instance, which may break and costs money.
-The Lambda fleet option is incorrect because AWS Lambda does not support GPU usage. The
-  
- OpsWorks stack option both requires a constantly-polling instance, and also requires complex timing and capacity planning logic.
+The Lambda fleet option is incorrect because AWS Lambda does not support GPU usage. The OpsWorks stack option both requires a constantly-polling instance, and also requires complex timing and capacity planning logic.
 The CloudFormation option requires no polling, has no always-on instances, and allows arbitrarily fast processing by simply setting the instance count as high as needed. http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html
 
 </p></details><hr>
@@ -1626,9 +1618,7 @@ resolution. Write deployment and integration testing automation following Rollin
 Explanation:
 
 AWS recommends Blue-Green for zero-downtime deploys. Since you use DynamoDB, and neither AWS OpsWorks nor AWS Elastic Beanstalk directly supports DynamoDB, the option selecting CloudFormation and Blue-Green is correct.
-You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. The deployment services like AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks are particularly useful as they provide a simple way to clone your running application stack. You can set up a new version of your application (green) by simply cloning current version of the application (blue). https://d0.awsstatic.com/whitepapers/overview-of-
-  
- deployment-options-on-aws.pdf
+You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. The deployment services like AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks are particularly useful as they provide a simple way to clone your running application stack. You can set up a new version of your application (green) by simply cloning current version of the application (blue). https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1760,9 +1750,7 @@ Which of the following are not valid sources for OpsWorks custom cookbook reposi
 
 Explanation:
 
-Linux stacks can install custom cookbooks from any of the following repository types: HTTP or Amazon S3 archives. They can be either public or private, but Amazon S3 is typically the preferred option for a private archive. Git and Subversion repositories provide source control and
-  
- the ability to have multiple versions. http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom- enable.html
+Linux stacks can install custom cookbooks from any of the following repository types: HTTP or Amazon S3 archives. They can be either public or private, but Amazon S3 is typically the preferred option for a private archive. Git and Subversion repositories provide source control and the ability to have multiple versions. http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom- enable.html
 
 </p></details><hr>
 
