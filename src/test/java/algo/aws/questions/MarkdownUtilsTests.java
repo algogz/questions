@@ -24,4 +24,11 @@ public class MarkdownUtilsTests {
         Files.write(jsonFile, gson.toJson(qList).getBytes());
     }
 
+    @Test
+    public void convertJsonToMarkdown() throws IOException {
+        Path jsonFile = Paths.get("q/dop/aws-devop-pro-part3.json");
+        Path mdFile = Paths.get("q/dop/aws-devop-pro-part3.md");
+        MarkdownUtils.convertJsonToMarkdown(jsonFile, mdFile);
+    }
+
 }

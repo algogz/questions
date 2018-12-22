@@ -15,7 +15,15 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "CloudWatch",
+      "SNS",
+      "EMR"
+    ]
   },
   {
     "url": "QUESTION 2",
@@ -33,7 +41,12 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "EC2"
+    ]
   },
   {
     "url": "QUESTION 3",
@@ -51,7 +64,13 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "IAM",
+      "EC2",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 4",
@@ -68,7 +87,12 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM",
+      "EBS",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 5",
@@ -85,7 +109,15 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "SQS",
+      "EC2",
+      "ElastiCache",
+      "CloudFormation",
+      "Route 53",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 6",
@@ -106,7 +138,13 @@
       "F"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "Glacier",
+      "ASG",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 7",
@@ -123,7 +161,12 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "SNS"
+    ]
   },
   {
     "url": "QUESTION 8",
@@ -141,7 +184,13 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "Glacier",
+      "CloudWatch",
+      "EBS",
+      "EMR"
+    ]
   },
   {
     "url": "QUESTION 9",
@@ -158,7 +207,11 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "ASG",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 10",
@@ -175,7 +228,11 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "Glacier",
+      "EC2",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 11",
@@ -193,7 +250,12 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "IAM",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 12",
@@ -210,7 +272,14 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "OpsWorks",
+      "ASG",
+      "CloudFormation",
+      "DynamoDB",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 13",
@@ -228,7 +297,14 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "Glacier",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "Redshift"
+    ]
   },
   {
     "url": "QUESTION 14 *",
@@ -245,7 +321,9 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 15",
@@ -259,16 +337,13 @@
       "D. Within your application code, configure the AWS SDK to get the API keys from environment variables, because assigning an Amazon EC2 role stores keys in environment variables on launch."
     ],
     "answerList": [
-      "A",
-      "n",
-      "s",
-      "w",
-      "e",
-      "r",
-      ":"
+      "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "IAM",
+      "EC2"
+    ]
   },
   {
     "url": "QUESTION 16",
@@ -287,7 +362,13 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 17",
@@ -304,7 +385,10 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 18",
@@ -325,7 +409,12 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "CloudWatch",
+      "SNS",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 19 *",
@@ -342,7 +431,14 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "OpsWorks",
+      "ASG",
+      "CloudFormation",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 20",
@@ -359,7 +455,12 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "IAM",
+      "EC2",
+      "CloudFormation",
+      "VPC"
+    ]
   },
   {
     "url": "QUESTION 21 *",
@@ -376,7 +477,11 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
+    ]
   },
   {
     "url": "QUESTION 22",
@@ -394,7 +499,10 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 23",
@@ -412,7 +520,13 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SQS",
+      "ElastiCache",
+      "SNS",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 24",
@@ -430,7 +544,16 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudWatch",
+      "ASG",
+      "Kinesis",
+      "CloudFormation",
+      "EMR"
+    ]
   },
   {
     "url": "QUESTION 25 x",
@@ -447,7 +570,12 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 26 x",
@@ -464,7 +592,10 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "OpsWorks",
+      "EC2"
+    ]
   },
   {
     "url": "QUESTION 27 x",
@@ -485,7 +616,13 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "SQS",
+      "CloudWatch",
+      "ASG",
+      "ElastiCache"
+    ]
   },
   {
     "url": "QUESTION 28",
@@ -504,7 +641,10 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 29 x",
@@ -521,7 +661,12 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "SQS",
+      "ASG",
+      "VPC"
+    ]
   },
   {
     "url": "QUESTION 30 x",
@@ -540,7 +685,16 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "IAM",
+      "EC2",
+      "CloudWatch",
+      "Kinesis",
+      "CloudFormation",
+      "CloudSearch",
+      "CloudTrail",
+      "Redshift"
+    ]
   },
   {
     "url": "QUESTION 31",
@@ -557,13 +711,18 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "IAM",
+      "CloudFormation",
+      "VPC"
+    ]
   },
   {
     "url": "QUESTION 32",
     "questionNumber": 32,
     "isProfessional": false,
-    "text": "You currently run your infrastructure on Amazon EC2 instances behind an Auto Scaling group\u003e All logs for you application are currently written to ephemeral storage. Recently your company experienced a major bug in code that made it through testing and was ultimately deployed to your fleet. This bug triggered your Auto Scaling group to scale up and back down before you could successfully retrieve the logs off your server to better assist you in troubleshooting the bug. Which technique should you use to make sure you are able to review your logs after your instances have shut down?\n\n",
+    "text": "You currently run your infrastructure on Amazon EC2 instances behind an Auto Scaling group\u0026gt; All logs for you application are currently written to ephemeral storage. Recently your company experienced a major bug in code that made it through testing and was ultimately deployed to your fleet. This bug triggered your Auto Scaling group to scale up and back down before you could successfully retrieve the logs off your server to better assist you in troubleshooting the bug. Which technique should you use to make sure you are able to review your logs after your instances have shut down?\n\n",
     "choiceList": [
       "A. Configure the ephemeral policies on your Auto Scaling group to back up on terminate.",
       "B. Configure your Auto Scaling policies to create a snapshot of all ephemeral storage on terminate.",
@@ -575,7 +734,12 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "SNS"
+    ]
   },
   {
     "url": "QUESTION 33",
@@ -592,7 +756,10 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "CloudWatch",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 34",
@@ -611,7 +778,13 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "EBS",
+      "SNS",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 35",
@@ -628,7 +801,15 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "EC2",
+      "ASG",
+      "CloudFormation",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 36",
@@ -645,7 +826,14 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "SNS"
+    ]
   },
   {
     "url": "QUESTION 37",
@@ -663,7 +851,14 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "EC2",
+      "CloudWatch",
+      "Kinesis",
+      "EMR"
+    ]
   },
   {
     "url": "QUESTION 38",
@@ -683,7 +878,13 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "Glacier",
+      "EC2",
+      "VPC"
+    ]
   },
   {
     "url": "QUESTION 39",
@@ -704,7 +905,13 @@
       "G"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "EC2",
+      "CloudWatch",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 40",
@@ -721,7 +928,11 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "CloudFormation",
+      "Route 53"
+    ]
   },
   {
     "url": "QUESTION 41",
@@ -738,7 +949,13 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "OpsWorks",
+      "ASG",
+      "CloudFormation",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 42",
@@ -760,7 +977,16 @@
       "G"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "SQS",
+      "CloudWatch",
+      "CloudSearch",
+      "SNS",
+      "Elastic Beanstalk",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 43",
@@ -777,7 +1003,13 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 44",
@@ -797,7 +1029,12 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "EC2",
+      "CloudWatch",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 45",
@@ -815,7 +1052,12 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 46",
@@ -834,7 +1076,13 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudWatch",
+      "ASG",
+      "EBS",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 47",
@@ -854,7 +1102,14 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 48",
@@ -871,7 +1126,12 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "OpsWorks",
+      "CloudFormation",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 49",
@@ -889,7 +1149,14 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "OpsWorks",
+      "EC2",
+      "CloudWatch",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 50",
@@ -906,7 +1173,10 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "CloudWatch",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 51",
@@ -923,7 +1193,12 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 52",
@@ -940,7 +1215,11 @@
       "A"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 53",
@@ -957,7 +1236,12 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "SWF",
+      "EC2",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 54",
@@ -974,7 +1258,13 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "Kinesis",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 55",
@@ -992,7 +1282,13 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "EC2",
+      "ASG",
+      "ElastiCache"
+    ]
   },
   {
     "url": "QUESTION 56",
@@ -1012,7 +1308,15 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "OpsWorks",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "CloudFormation",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 57",
@@ -1032,7 +1336,10 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 58",
@@ -1052,7 +1359,14 @@
       "F"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "CloudWatch",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 59",
@@ -1069,7 +1383,9 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 60",
@@ -1086,7 +1402,11 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "CloudFront",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 61",
@@ -1106,7 +1426,10 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 62",
@@ -1123,7 +1446,10 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 63",
@@ -1142,7 +1468,12 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "ASG",
+      "EBS",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 64",
@@ -1161,7 +1492,11 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "VPC",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 65",
@@ -1178,13 +1513,19 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "SNS"
+    ]
   },
   {
     "url": "QUESTION 66",
     "questionNumber": 66,
     "isProfessional": false,
-    "text": "You set up a scalable continuous integration platform on AWS. The platform consists of a master node that can delegate project build jobs to multiple slave nodes, all running on Amazon EC2. The build output will be stored in Amazon S3. You always have five slave nodes deployed. Each slave node can handle 10 build jobs simultaneously. Your master node publishes a custom Amazon CloudWatch metric with the name\n\n\"RunningBuildiobs\" that Slows you to programmatically track how many build jobs are running across your platform. Which two configuration options will allow you to flexibly scale your platform to support more than 50 simultaneous build jobs while minimizing costs? Choose 2 answers\n\n",
+    "text": "You set up a scalable continuous integration platform on AWS. The platform consists of a master node that can delegate project build jobs to multiple slave nodes, all running on Amazon EC2. The build output will be stored in Amazon S3. You always have five slave nodes deployed. Each slave node can handle 10 build jobs simultaneously. Your master node publishes a custom Amazon CloudWatch metric with the name \"RunningBuildiobs\" that Slows you to programmatically track how many build jobs are running across your platform. Which two configuration options will allow you to flexibly scale your platform to support more than 50 simultaneous build jobs while minimizing costs? Choose 2 answers\n\n",
     "choiceList": [
       "A. Place your fleet of slave nodes in an Auto Scaling group. Configure a CloudWatch alarm that triggers an Auto Scaling policy to launch Amazon EC2 Instances when \"RunningBuildJobs\" is greater than 45 for more than five minutes.",
       "B. Configure a CloudWatch alarm that sends an alert when \"RunningBuildJobs\" is greater than 45 for more than five minutes. Use Amazon Simple Queue Service to process additional build jobs when the CloudWatch alarm is triggered.",
@@ -1197,7 +1538,13 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 67",
@@ -1217,13 +1564,19 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "CloudFront",
+      "EC2",
+      "VPC",
+      "ELB",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 68",
     "questionNumber": 68,
     "isProfessional": false,
-    "text": "You are responsible for a large-scale video transcoding system that operates with an Auto Scaling group of video transcoding workers. The Auto Scaling group is configured with a minimum of 750 Amazon EC2 instances and a\n\nmaximum of 1000 Amazon EC2 instances. You are using Amazon SQS to pass a message containing the URI for a video stored in Amazon S3 to the transcoding workers. An Amazon CloudWatch alarm has notified you that the queue depth is becoming very large. How can you resolve the alarm without the risk of increasing the time to transcode videos? Choose 2 answers.\n\n",
+    "text": "You are responsible for a large-scale video transcoding system that operates with an Auto Scaling group of video transcoding workers. The Auto Scaling group is configured with a minimum of 750 Amazon EC2 instances and a maximum of 1000 Amazon EC2 instances. You are using Amazon SQS to pass a message containing the URI for a video stored in Amazon S3 to the transcoding workers. An Amazon CloudWatch alarm has notified you that the queue depth is becoming very large. How can you resolve the alarm without the risk of increasing the time to transcode videos? Choose 2 answers.\n\n",
     "choiceList": [
       "A. Create a second queue in Amazon SQS.",
       "B. Adjust the Amazon CloudWatch alarms for a higher queue depth.",
@@ -1237,7 +1590,13 @@
       "F"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 69",
@@ -1254,7 +1613,14 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "SQS",
+      "EC2",
+      "ASG",
+      "Elastic Transcoder"
+    ]
   },
   {
     "url": "QUESTION 70",
@@ -1272,7 +1638,13 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 71",
@@ -1289,7 +1661,14 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 72",
@@ -1306,7 +1685,13 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "OpsWorks",
+      "EC2",
+      "ASG",
+      "CloudFormation",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 73",
@@ -1323,7 +1708,13 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "SQS",
+      "EC2",
+      "ASG",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 74",
@@ -1340,7 +1731,12 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "EBS",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 75",
@@ -1357,7 +1753,16 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "Glacier",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "Kinesis",
+      "DynamoDB",
+      "Elastic Beanstalk",
+      "Redshift"
+    ]
   },
   {
     "url": "QUESTION 76",
@@ -1374,7 +1779,11 @@
       "B"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "CloudFormation",
+      "SNS"
+    ]
   },
   {
     "url": "QUESTION 77",
@@ -1392,7 +1801,14 @@
       "C"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "CloudFront",
+      "Elastic Beanstalk",
+      "Redshift"
+    ]
   },
   {
     "url": "QUESTION 78",
@@ -1411,7 +1827,9 @@
       "E"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 79",
@@ -1430,7 +1848,14 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "SES",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "CloudFormation",
+      "SNS"
+    ]
   },
   {
     "url": "QUESTION 80",
@@ -1449,7 +1874,10 @@
       "D"
     ],
     "commentList": [],
-    "categories": []
+    "categories": [
+      "EC2",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 81",
@@ -1466,9 +1894,11 @@
       "A"
     ],
     "commentList": [
-      "When Auto Scaling responds to a scale in event, it terminates one or more instances. These instances are detached from the Auto Scaling group and enter the Terminating state. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html"
+      "When Auto Scaling responds to a scale in event, it terminates one or more instances. These instances are detached from the Auto Scaling group and enter the Terminating state. \u003ca href\u003d\"http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 82",
@@ -1485,10 +1915,16 @@
       "D"
     ],
     "commentList": [
-      "The Elasticsearch and Kibana 4 combination is called the ELK Stack, and is designed specifically for real-time, ad-hoc log analysis and aggregation. All other answers introduce extra delay or require pre-defined queries. Amazon Elasticsearch Service is a managed service that makes it easy to deploy, operate, and scale Elasticsearch in the AWS Cloud. Elasticsearch is a popular open-source search and",
-      "analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics. https://aws.amazon.com/elasticsearch-service/"
+      "The Elasticsearch and Kibana 4 combination is called the ELK Stack, and is designed specifically for real-time, ad-hoc log analysis and aggregation. All other answers introduce extra delay or require pre-defined queries. Amazon Elasticsearch Service is a managed service that makes it easy to deploy, operate, and scale Elasticsearch in the AWS Cloud. Elasticsearch is a popular open-source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics. \u003ca href\u003d\"https://aws.amazon.com/elasticsearch-service/\" rel\u003d\"nofollow\"\u003ehttps://aws.amazon.com/elasticsearch-service/\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "Elasticsearch",
+      "CloudWatch",
+      "Kinesis",
+      "EMR",
+      "Lambda"
+    ]
   },
   {
     "url": "QUESTION 83",
@@ -1505,9 +1941,11 @@
       "C"
     ],
     "commentList": [
-      "Applications group logical services. Environments belong to Applications, and typically represent different deployment levels (dev, stage, prod, fo forth). Deployments belong to environments, and are pushes of bundles of code for the environments to run. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html"
+      "Applications group logical services. Environments belong to Applications, and typically represent different deployment levels (dev, stage, prod, fo forth). Deployments belong to environments, and are pushes of bundles of code for the environments to run. \u003ca href\u003d\"http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 84",
@@ -1524,10 +1962,20 @@
       "B"
     ],
     "commentList": [
-      "The Elastic Beanstalk option is incorrect because it requires a constantly-polling instance, which may break and costs money. The Lambda fleet option is incorrect because AWS Lambda does not support GPU usage. The",
-      "OpsWorks stack option both requires a constantly-polling instance, and also requires complex timing and capacity planning logic. The CloudFormation option requires no polling, has no always-on instances, and allows arbitrarily fast processing by simply setting the instance count as high as needed. http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html"
+      "The Elastic Beanstalk option is incorrect because it requires a constantly-polling instance, which may break and costs money. The Lambda fleet option is incorrect because AWS Lambda does not support GPU usage. The OpsWorks stack option both requires a constantly-polling instance, and also requires complex timing and capacity planning logic. The CloudFormation option requires no polling, has no always-on instances, and allows arbitrarily fast processing by simply setting the instance count as high as needed. \u003ca href\u003d\"http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "SQS",
+      "EC2",
+      "ASG",
+      "Kinesis",
+      "CloudFormation",
+      "Lambda",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 85",
@@ -1544,9 +1992,13 @@
       "C"
     ],
     "commentList": [
-      "You need to design for N+1 redundancy on Availability Zones. ZONE_COUNT \u003d (REQUIRED_INSTANCES / INSTANCE_COUNT_PER_ZONE) + 1. To minimize cost, spread the instances across as many possible zones as you can. By using a though e, you are allocating 5 zones. Using 2 instances, you have 10 total instances. If a single zone fails, you have 4 zones left, with 2 instances each, for a total of 8 instances. By spreading out as much as possible, you have increased cost by only 25% and significantly de-risked an availability zone failure. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability- zones.html#concepts- regions-availability-zones"
+      "You need to design for N+1 redundancy on Availability Zones. ZONE_COUNT \u003d (REQUIRED_INSTANCES / INSTANCE_COUNT_PER_ZONE) + 1. To minimize cost, spread the instances across as many possible zones as you can. By using a though e, you are allocating 5 zones. Using 2 instances, you have 10 total instances. If a single zone fails, you have 4 zones left, with 2 instances each, for a total of 8 instances. By spreading out as much as possible, you have increased cost by only 25% and significantly de-risked an availability zone failure. \u003ca href\u003d\"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-\u003c/a\u003e zones.html#concepts- regions-availability-zones"
     ],
-    "categories": []
+    "categories": [
+      "EC2",
+      "VPC",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 86",
@@ -1563,9 +2015,11 @@
       "A"
     ],
     "commentList": [
-      "The best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for records. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section- structure.html"
+      "The best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for records. \u003ca href\u003d\"http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-\u003c/a\u003e structure.html"
     ],
-    "categories": []
+    "categories": [
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 87",
@@ -1582,9 +2036,11 @@
       "B"
     ],
     "commentList": [
-      "... users of your app can sign in using a well-known identity provider (IdP) --such as Login with Amazon, Facebook, Google, or any other OpenID Connect (OIDC)-compatible IdP, receive an authentication token, and then exchange that token for temporary security credentials in AWS that map to an IAM role with permissions to use the resources in your AWS account. http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html"
+      "... users of your app can sign in using a well-known identity provider (IdP) --such as Login with Amazon, Facebook, Google, or any other OpenID Connect (OIDC)-compatible IdP, receive an authentication token, and then exchange that token for temporary security credentials in AWS that map to an IAM role with permissions to use the resources in your AWS account. \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 88",
@@ -1601,9 +2057,14 @@
       "A"
     ],
     "commentList": [
-      "Only CloudFormation\u0027s JSON Templates allow declarative version control of repeatably deployable models of entire AWS clouds. https://blogs.aws.amazon.com/application-management/blog/category/Best+practices"
+      "Only CloudFormation\u0027s JSON Templates allow declarative version control of repeatably deployable models of entire AWS clouds. \u003ca href\u003d\"https://blogs.aws.amazon.com/application-management/blog/category/Best+practices\" rel\u003d\"nofollow\"\u003ehttps://blogs.aws.amazon.com/application-management/blog/category/Best+practices\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "ECS",
+      "EC2",
+      "CloudFormation"
+    ]
   },
   {
     "url": "QUESTION 89",
@@ -1620,15 +2081,19 @@
       "D"
     ],
     "commentList": [
-      "Because the 100x read ratio is mostly driven by a small subset, with caching, only a roughly equal number of reads to writes will miss the cache, since the supermajority will hit the top 1% scores. Knowing we need to set the values roughly equal when using caching, we select AWS ElastiCache, because CloudFront cannot directly cache DynamoDB queries, and ElastiCache is an excellent in-memory cache for database queries, rather than a distributed proxy cache for content delivery. ... One solution would be to cache these reads at the application layer. Caching is a technique that is used in many high-throughput applications, offloading read activity on hot items to the cache rather than to the database. Your application can cache the most popular items in memory, or use a product such as ElastiCache to do the same. http://docs.aws.amazon.com/amazondynamodb/latest/dev eloperguide/GuidelinesForT ables.html# Guideli nesForTables.CachePopularItem"
+      "Because the 100x read ratio is mostly driven by a small subset, with caching, only a roughly equal number of reads to writes will miss the cache, since the supermajority will hit the top 1% scores. Knowing we need to set the values roughly equal when using caching, we select AWS ElastiCache, because CloudFront cannot directly cache DynamoDB queries, and ElastiCache is an excellent in-memory cache for database queries, rather than a distributed proxy cache for content delivery. ... One solution would be to cache these reads at the application layer. Caching is a technique that is used in many high-throughput applications, offloading read activity on hot items to the cache rather than to the database. Your application can cache the most popular items in memory, or use a product such as ElastiCache to do the same. \u003ca href\u003d\"http://docs.aws.amazon.com/amazondynamodb/latest/dev\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/amazondynamodb/latest/dev\u003c/a\u003e eloperguide/GuidelinesForT ables.html# Guideli nesForTables.CachePopularItem"
     ],
-    "categories": []
+    "categories": [
+      "CloudFront",
+      "ElastiCache",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 90",
     "questionNumber": 90,
     "isProfessional": false,
-    "text": "You were just hired as a DevOps Engineer for a startup. Your startup uses AWS for 100% of their infrastructure. They currently have no automation at all for deployment, and they have had many failures while trying to deploy to production. The company has told you deployment process risk mitigation is the most important thing now, and you have a lot of budget for tools and AWS resources. Their stack:\n\nThe scaling group properly varies between 4 and 12 EC2 servers. Which of the following approaches, given this company\u0027s stack and their priorities, best meets the company\u0027s needs?\n\n",
+    "text": "You were just hired as a DevOps Engineer for a startup. Your startup uses AWS for 100% of their infrastructure. They currently have no automation at all for deployment, and they have had many failures while trying to deploy to production. The company has told you deployment process risk mitigation is the most important thing now, and you have a lot of budget for tools and AWS resources. Their stack:\n\n\u003cpre\u003e\u003ccode\u003e2-tier API\nData stored in DynamoDB or S3, depending on type \nCompute layer is EC2 in Auto Scaling Groups \nThey use Route53 for DNS pointing to an ELB\nAn ELB balances load across the EC2 instances\n\u003c/code\u003e\u003c/pre\u003e\n\nThe scaling group properly varies between 4 and 12 EC2 servers. Which of the following approaches, given this company\u0027s stack and their priorities, best meets the company\u0027s needs?\n\n",
     "choiceList": [
       "A. Model the stack in AWS Elastic Beanstalk as a single Application with multiple Environments. Use Elastic Beanstalk\u0027s Rolling Deploy option to progressively roll out application code changes when promoting across environments.",
       "B. Model the stack in 3 CloudFormation templates: Data layer, compute layer, and networking layer. Write stack deployment and integration testing automation following Blue-Green methodologies.",
@@ -1639,10 +2104,19 @@
       "B"
     ],
     "commentList": [
-      "AWS recommends Blue-Green for zero-downtime deploys. Since you use DynamoDB, and neither AWS OpsWorks nor AWS Elastic Beanstalk directly supports DynamoDB, the option selecting CloudFormation and Blue-Green is correct. You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. The deployment services like AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks are particularly useful as they provide a simple way to clone your running application stack. You can set up a new version of your application (green) by simply cloning current version of the application (blue). https://d0.awsstatic.com/whitepapers/overview-of-",
-      "deployment-options-on-aws.pdf"
+      "AWS recommends Blue-Green for zero-downtime deploys. Since you use DynamoDB, and neither AWS OpsWorks nor AWS Elastic Beanstalk directly supports DynamoDB, the option selecting CloudFormation and Blue-Green is correct. You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. The deployment services like AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks are particularly useful as they provide a simple way to clone your running application stack. You can set up a new version of your application (green) by simply cloning current version of the application (blue). \u003ca href\u003d\"https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf\" rel\u003d\"nofollow\"\u003ehttps://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "EC2",
+      "ASG",
+      "CloudFormation",
+      "DynamoDB",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "QUESTION 91",
@@ -1659,9 +2133,12 @@
       "C"
     ],
     "commentList": [
-      "An EBS snapshot is tied to its region and can only be used to create volumes in the same region. You can copy a snapshot from one region to another. For more information, see Copying an Amazon EBS Snapshot. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html"
+      "An EBS snapshot is tied to its region and can only be used to create volumes in the same region. You can copy a snapshot from one region to another. For more information, see Copying an Amazon EBS Snapshot. \u003ca href\u003d\"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "EBS",
+      "VPC"
+    ]
   },
   {
     "url": "QUESTION 92",
@@ -1678,9 +2155,13 @@
       "C"
     ],
     "commentList": [
-      "When using multi-region DynamoDB systems, it is of paramount importance to make sure that all requests made to one Region are replicated to the other. Under normal operation, the system in question would correctly perform write replays into the other Region. If a whole Region went down, the system would be unable to perform these writes for the period of downtime. Without buffering write requests somehow, there would be no way for the system to replay dropped cross- region writes, and the requests would be serviced differently depending on the Region from which they were served after recovery. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl .html"
+      "When using multi-region DynamoDB systems, it is of paramount importance to make sure that all requests made to one Region are replicated to the other. Under normal operation, the system in question would correctly perform write replays into the other Region. If a whole Region went down, the system would be unable to perform these writes for the period of downtime. Without buffering write requests somehow, there would be no way for the system to replay dropped cross- region writes, and the requests would be serviced differently depending on the Region from which they were served after recovery. \u003ca href\u003d\"http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl\u003c/a\u003e .html"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "DynamoDB",
+      "Lambda"
+    ]
   },
   {
     "url": "QUESTION 93",
@@ -1698,7 +2179,7 @@
       "C"
     ],
     "commentList": [
-      "Spot instances are usually many, many times cheaper than on-demand prices. Reserved instances, depending on their term and utilization, can yield approximately 33% to 66% cost savings. On-Demand prices are the baseline price and are the most expensive way to purchase EC2 compute time. https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf"
+      "Spot instances are usually many, many times cheaper than on-demand prices. Reserved instances, depending on their term and utilization, can yield approximately 33% to 66% cost savings. On-Demand prices are the baseline price and are the most expensive way to purchase EC2 compute time. \u003ca href\u003d\"https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf\" rel\u003d\"nofollow\"\u003ehttps://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -1717,9 +2198,15 @@
       "C"
     ],
     "commentList": [
-      "Only the multi-master, multi-region DynamoDB answer makes sense. Multi-AZ deployments do not provide sufficient availability when a business loses USD 360,000 per hour of unavailability. As RDS does not natively support multi-region, and ACID does not perform well/at all over large distances between regions, only the DynamoDB answer works. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl .html"
+      "Only the multi-master, multi-region DynamoDB answer makes sense. Multi-AZ deployments do not provide sufficient availability when a business loses USD 360,000 per hour of unavailability. As RDS does not natively support multi-region, and ACID does not perform well/at all over large distances between regions, only the DynamoDB answer works. \u003ca href\u003d\"http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl\u003c/a\u003e .html"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "Kinesis",
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 95",
@@ -1736,9 +2223,11 @@
       "B"
     ],
     "commentList": [
-      "Global secondary index -- an index with a partition key and a sort key that can be different from those on the table. A global secondary index is considered \"global\" because queries on the index can span all of the data in a table, across all partitions. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html"
+      "Global secondary index -- an index with a partition key and a sort key that can be different from those on the table. A global secondary index is considered \"global\" because queries on the index can span all of the data in a table, across all partitions. \u003ca href\u003d\"http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "DynamoDB"
+    ]
   },
   {
     "url": "QUESTION 96",
@@ -1755,9 +2244,12 @@
       "A"
     ],
     "commentList": [
-      "Note that the bootstrapping process can be slower if you have a complex application or multiple applications to install. Managing a fleet of applications with several build tools and dependencies can be a challenging task during rollouts. Furthermore, your deployment service should be designed to do faster rollouts to take advantage of Auto Scaling. Prebaking is a process of embedding a significant portion of your application artifacts within your base AMI. During the deployment process you can customize application installations by using EC2 instance artifacts such as instance tags, instance metadata, and Auto Scaling groups. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf"
+      "Note that the bootstrapping process can be slower if you have a complex application or multiple applications to install. Managing a fleet of applications with several build tools and dependencies can be a challenging task during rollouts. Furthermore, your deployment service should be designed to do faster rollouts to take advantage of Auto Scaling. Prebaking is a process of embedding a significant portion of your application artifacts within your base AMI. During the deployment process you can customize application installations by using EC2 instance artifacts such as instance tags, instance metadata, and Auto Scaling groups. \u003ca href\u003d\"https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf\" rel\u003d\"nofollow\"\u003ehttps://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "EC2",
+      "ASG"
+    ]
   },
   {
     "url": "QUESTION 97",
@@ -1774,7 +2266,7 @@
       "D"
     ],
     "commentList": [
-      "AWS specifically recommends Blue-Green for super-fast, zero-downtime deploys - and thus rollbacks, which are redeploying old code. You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on- aws.pdf"
+      "AWS specifically recommends Blue-Green for super-fast, zero-downtime deploys - and thus rollbacks, which are redeploying old code. You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. \u003ca href\u003d\"https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-\" rel\u003d\"nofollow\"\u003ehttps://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-\u003c/a\u003e aws.pdf"
     ],
     "categories": []
   },
@@ -1793,10 +2285,12 @@
       "C"
     ],
     "commentList": [
-      "Linux stacks can install custom cookbooks from any of the following repository types: HTTP or Amazon S3 archives. They can be either public or private, but Amazon S3 is typically the preferred option for a private archive. Git and Subversion repositories provide source control and",
-      "the ability to have multiple versions. http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom- enable.html"
+      "Linux stacks can install custom cookbooks from any of the following repository types: HTTP or Amazon S3 archives. They can be either public or private, but Amazon S3 is typically the preferred option for a private archive. Git and Subversion repositories provide source control and the ability to have multiple versions. \u003ca href\u003d\"http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom-\u003c/a\u003e enable.html"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks",
+      "EBS"
+    ]
   },
   {
     "url": "QUESTION 99",
@@ -1813,9 +2307,14 @@
       "B"
     ],
     "commentList": [
-      "Since you are not using VPC endpoints, outbound requests for the code sitting in S3 are routed though the NAT for the VPC\u0027s private subnets. If this networking fails, runtime bootstrapping through code download will fail due to network unavailability and lack of access to the Internet, and thus Amazon S3. http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html"
+      "Since you are not using VPC endpoints, outbound requests for the code sitting in S3 are routed though the NAT for the VPC\u0027s private subnets. If this networking fails, runtime bootstrapping through code download will fail due to network unavailability and lack of access to the Internet, and thus Amazon S3. \u003ca href\u003d\"http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "VPC",
+      "ELB"
+    ]
   },
   {
     "url": "QUESTION 100",
@@ -1832,7 +2331,7 @@
       "D"
     ],
     "commentList": [
-      "Oracle is not open source, and requires a bring your own license model. http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Oracle.html"
+      "Oracle is not open source, and requires a bring your own license model. \u003ca href\u003d\"http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Oracle.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Oracle.html\u003c/a\u003e"
     ],
     "categories": []
   }

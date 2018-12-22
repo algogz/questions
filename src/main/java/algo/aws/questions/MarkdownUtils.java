@@ -4,9 +4,11 @@ import algo.aws.questions.jayendrapatil.Question;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import lombok.extern.log4j.Log4j2;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
@@ -14,9 +16,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@Log4j2
 public class MarkdownUtils {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
@@ -38,11 +42,13 @@ public class MarkdownUtils {
             do {
                 String tagName = nextElm.tagName();
                 if("p".equals(tagName)) {
-                    String text = nextElm.text();
+                    String text = nextElm.html();
                     sb.append(text).append("\n\n");
                 } else if("ul".equals(tagName)){
-                    nextElm.select("li").forEach(elm -> sb.append("- ").append(elm.text()).append("\n"));
+                    nextElm.select("li").forEach(elm -> sb.append("- ").append(elm.html()).append("\n"));
                     sb.append("\n");
+                } else {
+                    sb.append(nextElm.outerHtml()).append("\n\n");
                 }
                 nextElm = nextElm.nextElementSibling();
             } while(!nextElm.text().startsWith("A. "));
@@ -65,13 +71,33 @@ public class MarkdownUtils {
                 pElms.remove(0);    // remove the answer p
                 pElms.remove(0);    // remove the Explain: p
                 pElms.forEach(pElm -> {
-                    if(pElm.text().length() > 0) {
-                        q.getCommentList().add(pElm.text());
+                    String text = pElm.html();
+                    if(text.length() > 0) {
+                        q.getCommentList().add(text);
                     }
                 });
             }
+
+            Set<String> catList = QuestionUtils.categorize(q);
+            q.setCategories(catList);
+
+            // check options sequence
+            if(!checkOptions(q)){
+                log.warn("Question {} - option sequence wrong", q.getQuestionNumber());
+            }
         });
         return qList;
+    }
+
+    private static boolean checkOptions(Question q) {
+        char[] expected = {'A', 'B', 'C', 'D', 'E', 'F', 'G', };
+        for (int i=0; i<q.getChoiceList().size(); i++) {
+            String s = q.getChoiceList().get(i);
+            if (s.charAt(0) != expected[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void convertJsonToMarkdown(Path jsonPath, Path mdPath) throws IOException {

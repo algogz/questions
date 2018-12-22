@@ -49,6 +49,7 @@ public class QuestionUtils {
         category.put("Simple Workflow", "SWF");
         category.put("CloudFormation", "CloudFormation");
         category.put("Kinesis", "Kinesis");
+        category.put("playbook", "OpsWorks");
         category.put("OpsWorks", "OpsWorks");
         category.put("ElastiCache", "ElastiCache");
         category.put("WAF", "WAF");

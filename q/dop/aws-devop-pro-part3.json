@@ -5,19 +5,21 @@
     "isProfessional": false,
     "text": "When specifying multiple variable names and values for a playbook on the command line, which of the following is the correct syntax?\n\n",
     "choiceList": [
-      "A. ansible-playbookplaybook.yml-ehost\u003d\"foo\"pkg\u003d\"bar\"",
-      "B. ansible-playbookplaybook.yml-ehost:\"foo\",pkg:\"bar\"",
-      "C. ansible-playbookplaybook.yml-ehost\u003d\"foo\"-epkg\u003d\"bar\"",
+      "A. ansible-playbookplaybook.yml-e\u003ccode\u003ehost\u003d\"foo\"pkg\u003d\"bar\"\u003c/code\u003e",
+      "B. ansible-playbookplaybook.yml-e\u003ccode\u003ehost:\"foo\",pkg:\"bar\"\u003c/code\u003e",
+      "C. ansible-playbookplaybook.yml-e\u003ccode\u003ehost\u003d\"foo\"\u003c/code\u003e-e\u003ccode\u003epkg\u003d\"bar\"\u003c/code\u003e",
       "D. ansible-playbookplaybook.yml--extra-vars\"host\u003dfoo\",\"pkg\u003dbar\""
     ],
     "answerList": [
       "A"
     ],
     "commentList": [
-      "Variables are passed in a single command line parameter, -e or --extra-vars. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: -e {\"key\": \"name\", \"array\": [\"value1\", \"value2\"]}.",
-      "Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command-line"
+      "Variables are passed in a single command line parameter, \u003ccode\u003e-e\u003c/code\u003e or \u003ccode\u003e--extra-vars\u003c/code\u003e. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: \u003ccode\u003e-e {\"key\": \"name\", \"array\": [\"value1\", \"value2\"]}\u003c/code\u003e.",
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command-line\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command-line\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 202",
@@ -34,7 +36,7 @@
       "B"
     ],
     "commentList": [
-      "Ansible provides two methods for controlling tasks, loops and conditionals. The \"with_items\" context will allow the task to loop through a list of items, while the when context will allow a conditional requirement to be met for the task to run. Both can be used at the same time. Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals"
+      "Ansible provides two methods for controlling tasks, loops and conditionals. The \"with_items\" context will allow the task to loop through a list of items, while the \u003ccode\u003ewhen\u003c/code\u003e context will allow a conditional requirement to be met for the task to run. Both can be used at the same time. Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -44,17 +46,17 @@
     "isProfessional": false,
     "text": "Which difference between core modules and extra modules is not correct?\n\n",
     "choiceList": [
-      "A. Extr a modules may one day be come core modules",
-      "B. C or e modules are supported by the Ansible team",
-      "C. C or e modules are shipped by default with Ansible",
-      "D. Extr a modules have no support"
+      "A. Extra modules may one day be come core modules",
+      "B. Core modules are supported by the Ansible team",
+      "C. Core modules are shipped by default with Ansible",
+      "D. Extra modules have no support"
     ],
     "answerList": [
       "D"
     ],
     "commentList": [
       "While extra modules are not official modules and thus not supported by the Ansible team, they are indeed supported by their writers and the community.",
-      "Reference: http://docs.ansible.com/ansible/modules_extra.html"
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/modules_extra.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/modules_extra.html\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -73,10 +75,12 @@
       "D"
     ],
     "commentList": [
-      "All YAML files can begin with --- and end with ... to indicate where YAML starts and ends. While this is optional it is considered best practice.",
-      "Reference: http://docs.ansible.com/ansible/YAMLSyntax.html"
+      "All YAML files can begin with \u003ccode\u003e---\u003c/code\u003e and end with \u003ccode\u003e...\u003c/code\u003e to indicate where YAML starts and ends. While this is optional it is considered best practice.",
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/YAMLSyntax.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/YAMLSyntax.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 205",
@@ -84,8 +88,8 @@
     "isProfessional": false,
     "text": "You have a playbook that includes a task to install a package for a service, put a configuration file for that package on the system and restart the service. The playbook is then run twice in a row. What would you expect Ansible to do on the second run?\n\n",
     "choiceList": [
-      "A. Re move the old package and config file and reinstall and then rest a rt these rvice.",
-      "B. T a ke no action on the target host.",
+      "A. Remove the old package and config file and reinstall and then rest a rt these rvice.",
+      "B. Take no action on the target host.",
       "C. Check if the package is installed,check if the file match es the source file,ifnotreinstallit;restart the service.",
       "D. At tempt to reinstall the package,copy the file and rest a rt these rvice."
     ],
@@ -94,9 +98,11 @@
     ],
     "commentList": [
       "Ansible follows an idempotence model and will not touch or change the system unless a change is warranted.",
-      "Reference: http://docs.ansible.com/ansible/glossary.html"
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/glossary.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/glossary.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 206",
@@ -113,7 +119,7 @@
       "B"
     ],
     "commentList": [
-      "Ansible will use it\u0027s own setup module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with ohai_ or facter_ respectively. lsb_relase is a Linux tool for determining distribution information. Reference: http://docs.ansible.com/ansible/setup_module.html"
+      "Ansible will use it\u0027s own \u003ccode\u003esetup\u003c/code\u003e module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with \u003ccode\u003eohai_\u003c/code\u003e or \u003ccode\u003efacter_\u003c/code\u003e respectively. \u003ccode\u003elsb_relase\u003c/code\u003e is a Linux tool for determining distribution information. Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/setup_module.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/setup_module.html\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -121,10 +127,11 @@
     "url": "QUESTION 207",
     "questionNumber": 207,
     "isProfessional": false,
-    "text": "If a variable is assigned in the vars section of a playbook, where is the proper place to override that variable?\n\n",
+    "text": "If a variable is assigned in the \u003ccode\u003evars\u003c/code\u003e section of a playbook, where is the proper place to override that variable?\n\n",
     "choiceList": [
       "A. Inventorygroupvar",
-      "B. playbookhost_vars C. roledefaults",
+      "B. playbookhost_vars",
+      "C. roledefaults",
       "D. extravars"
     ],
     "answerList": [
@@ -132,9 +139,11 @@
     ],
     "commentList": [
       "In Ansible\u0027s variable precedence, the highest precedence is the extra vars option on the command line.",
-      "Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i- put-a-variable"
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-\u003c/a\u003e put-a-variable"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 208",
@@ -151,7 +160,7 @@
       "A"
     ],
     "commentList": [
-      "Idempotency states that changes are only made if a resource does not meet the requirement specifications. If a change is made, it is made in-place and will not break existing resources. Reference: http://docs.ansible.com/ansible/glossary.html"
+      "Idempotency states that changes are only made if a resource does not meet the requirement specifications. If a change is made, it is made \u003ccode\u003ein-place\u003c/code\u003e and will not break existing resources. Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/glossary.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/glossary.html\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -171,28 +180,32 @@
     ],
     "commentList": [
       "This can be bit of a trick question. While Ansible Playbooks in this course are written in YAML, Ansible will accept plays, tasks and playbooks in JSON, as JSON a subset of YAML. However, the prefered and fully supported method is YAML.",
-      "Reference: http://docs.ansible.com/ansible/YAMLSyntax.html"
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/YAMLSyntax.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/YAMLSyntax.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 210",
     "questionNumber": 210,
     "isProfessional": false,
-    "text": "What is the expected behavior if Ansible is called with ansible-playbook -i localhost playbook.yml?\n\n",
+    "text": "What is the expected behavior if Ansible is called with \u003ccode\u003eansible-playbook -i localhost playbook.yml\u003c/code\u003e?\n\n",
     "choiceList": [
-      "A. Ansible will at tempt to read the inventory file named localhost",
+      "A. Ansible will at tempt to read the inventory file named \u003ccode\u003elocalhost\u003c/code\u003e",
       "B. Ansible will run the plays local ly.",
-      "C. Ansible will run the playbook on the host named localhost",
+      "C. Ansible will run the playbook on the host named \u003ccode\u003elocalhost\u003c/code\u003e",
       "D. Ansiblewon\u0027trun,this is in valid command line syntax"
     ],
     "answerList": [
       "A"
     ],
     "commentList": [
-      "Ansible expects an inventory filename with the -i option, regardless if it\u0027s a valid hostname. For this to execute on the host localhost resolves to, a comma needs to be appended to the end. Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory"
+      "Ansible expects an inventory filename with the \u003ccode\u003e-i\u003c/code\u003e option, regardless if it\u0027s a valid hostname. For this to execute on the host \u003ccode\u003elocalhost\u003c/code\u003e resolves to, a comma needs to be appended to the end. Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/intro_inventory.html#inventory\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/intro_inventory.html#inventory\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 211",
@@ -210,7 +223,7 @@
     ],
     "commentList": [
       "Ansible inventory files cannot reference other files for additional data. If this functionality is needed, it must be done in as a script to create a dynamic inventory",
-      "Reference: http://docs.ansible.com/ansible/intro_inventory.html"
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/intro_inventory.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/intro_inventory.html\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -230,7 +243,7 @@
     ],
     "commentList": [
       "Ansible modules can be written in any language that is executable on the target system. The only requirement is that the module can write its results as JSON output to STDOUT for Ansible to consume.",
-      "Reference: http://docs.ansible.com/ansible/developing_modules.html"
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/developing_modules.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/developing_modules.html\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -242,15 +255,15 @@
     "choiceList": [
       "A. -when:foo\u003d\u003d\"hello\"andbar\u003d\u003d\"world\"",
       "B. -when:foo\u003d\u003d\"hello\"-when:bar\u003d\u003d\"world\"",
-      "C. -when:foo\u003d\u003d\"hello\"\u0026\u0026bar\u003d\u003d\"world\"",
+      "C. -when:foo\u003d\u003d\"hello\"\u0026amp;\u0026amp;bar\u003d\u003d\"world\"",
       "D. -when:foois\"hello\"andbaris\"world\""
     ],
     "answerList": [
       "A"
     ],
     "commentList": [
-      "Ansible will allow you to stack conditionals using and and or. It requires it to be in the same when statement, comparisons must be \u003d\u003d for equals or !\u003d for not equals and the and/or must be written as such, not \u0026\u0026/||.",
-      "Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-statement"
+      "Ansible will allow you to stack conditionals using \u003ccode\u003eand\u003c/code\u003e and \u003ccode\u003eor\u003c/code\u003e. It requires it to be in the same \u003ccode\u003ewhen\u003c/code\u003e statement, comparisons must be \u003ccode\u003e\u003d\u003d\u003c/code\u003e for equals or \u003ccode\u003e!\u003d\u003c/code\u003e for not equals and the \u003ccode\u003eand/or\u003c/code\u003e must be written as such, not \u003ccode\u003e\u0026amp;\u0026amp;/||\u003c/code\u003e.",
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-statement\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-statement\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -260,38 +273,42 @@
     "isProfessional": false,
     "text": "Ansible supports running Playbook on the host directly or via SSH. How can Ansible be told to run its playbooks directly on the host?\n\n",
     "choiceList": [
-      "A. Setting connection:local in the tasks that run locally.",
-      "B. Specifying -typelocal on the command line.",
+      "A. Setting \u003ccode\u003econnection:local\u003c/code\u003e in the tasks that run locally.",
+      "B. Specifying \u003ccode\u003e-typelocal\u003c/code\u003e on the command line.",
       "C. It does not need to be specified; it\u0027s the default.",
-      "D. Setting connection:local in the Playbook."
+      "D. Setting \u003ccode\u003econnection:local\u003c/code\u003e in the Playbook."
     ],
     "answerList": [
       "D"
     ],
     "commentList": [
-      "Ansible can be told to run locally on the command line with the -c option or can be told via the connection: local declaration in the playbook. The default connection method is remote. Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types"
+      "Ansible can be told to run locally on the command line with the \u003ccode\u003e-c\u003c/code\u003e option or can be told via the \u003ccode\u003econnection: local\u003c/code\u003e declaration in the playbook. The default connection method is \u003ccode\u003eremote\u003c/code\u003e. Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 215",
     "questionNumber": 215,
     "isProfessional": false,
-    "text": "What is the main difference between calling the commands ansible and ansible-playbook on the command line?\n\n",
+    "text": "What is the main difference between calling the commands \u003ccode\u003eansible\u003c/code\u003e and \u003ccode\u003eansible-playbook\u003c/code\u003e on the command line?\n\n",
     "choiceList": [
-      "A. ansible is for setting configuration and environment variables which ansible-playbook will use when running plays.",
-      "B. ansible-playbook is for running entire Playbooks while ansible is for calling ad-hoc commands.",
-      "C. ansible-playbook\u0027runs the playbook s by using the ansible\u0027command to run the individual plays",
-      "D. ansible is for running individual plays and ansible-playbook is for running the entire playbook."
+      "A. \u003ccode\u003eansible\u003c/code\u003e is for setting configuration and environment variables which \u003ccode\u003eansible-playbook\u003c/code\u003e will use when running plays.",
+      "B. \u003ccode\u003eansible-playbook\u003c/code\u003e is for running entire Playbooks while \u003ccode\u003eansible\u003c/code\u003e is for calling ad-hoc commands.",
+      "C. \u003ccode\u003eansible-playbook\u0027runs the playbook s by using the\u003c/code\u003e ansible\u0027command to run the individual plays",
+      "D. \u003ccode\u003eansible\u003c/code\u003e is for running individual plays and \u003ccode\u003eansible-playbook\u003c/code\u003e is for running the entire playbook."
     ],
     "answerList": [
       "B"
     ],
     "commentList": [
-      "The ansible command is for running Ansible ad-hoc commands remotely via SSH. ansible- playbook is for running Ansible Playbook projects.",
-      "Reference: http://docs.ansible.com/ansible/intro_adhoc.html"
+      "The \u003ccode\u003eansible\u003c/code\u003e command is for running Ansible ad-hoc commands remotely via SSH. \u003ccode\u003eansible- playbook\u003c/code\u003e is for running Ansible Playbook projects.",
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/intro_adhoc.html\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/intro_adhoc.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 216",
@@ -308,10 +325,12 @@
       "D"
     ],
     "commentList": [
-      "Ansible uses the -i flag for accepting an inventory file or host. To allow Ansible to determine if you are passing a host list versus an inventory file the list must be comma separated. If a single host is specified, a trailing comma must be present.",
-      "Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory"
+      "Ansible uses the \u003ccode\u003e-i\u003c/code\u003e flag for accepting an inventory file or host. To allow Ansible to determine if you are passing a host list versus an inventory file the list must be comma separated. If a single host is specified, a trailing comma must be present.",
+      "Reference: \u003ca href\u003d\"http://docs.ansible.com/ansible/intro_inventory.html#inventory\" rel\u003d\"nofollow\"\u003ehttp://docs.ansible.com/ansible/intro_inventory.html#inventory\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks"
+    ]
   },
   {
     "url": "QUESTION 217",
@@ -331,7 +350,7 @@
       "Manager nodes handle cluster management tasks:",
       "Worker nodes",
       "Worker nodes are also instances of Docker Engine whose sole purpose is to execute containers. Worker nodes don\u0027t participate in the Raft distributed state, make scheduling decisions, or serve the swarm mode HTTP API.",
-      "Reference: https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#worker-nodes"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#worker-nodes\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#worker-nodes\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -350,7 +369,7 @@
       "D"
     ],
     "commentList": [
-      "FROM scratch CMD /app/hello.sh The image contains all the layers from the base image (only one in this case, since we\u0027re building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images"
+      "FROM scratch CMD /app/hello.sh The image contains all the layers from the base image (only one in this case, since we\u0027re building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -370,7 +389,7 @@
     ],
     "commentList": [
       "After you have read the storage driver overview, the next step is to choose the best storage driver for your workloads. In making this decision, there are three high-level factors to consider: If multiple storage drivers are supported in your kernel, Docker has a prioritized list of which storage driver to use if no storage driver is explicitly configured, assuming that the prerequisites for that storage driver are met: If aufs is available, default to it, because it is the oldest storage driver. However, it is not universally available.",
-      "Reference: https://docs.docker.com/engine/userguide/storagedriver/selectadriver/"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/storagedriver/selectadriver/\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/storagedriver/selectadriver/\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -390,7 +409,7 @@
     ],
     "commentList": [
       "A service is the definition of the tasks to execute on the worker nodes. It is the central structure of the swarm system and the primary root of user interaction with the swarm. When you create a service, you specify which container image to use and which commands to execute inside running containers. In the replicated services model, the swarm manager distributes a specific number of replica tasks among the nodes based upon the scale you set in the desired state. For global services, the swarm runs one task for the service on every available node in the cluster. A task carries a Docker container and the commands to run inside the container. It is the atomic scheduling unit of swarm. Manager nodes assign tasks to worker nodes according to the number of replicas set in the service scale. Once a task is assigned to a node, it cannot move to another node. It can only run on the assigned node or fail.",
-      "Reference: https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -410,7 +429,7 @@
     ],
     "commentList": [
       "Note: If you need access to a host\u0027s localhost resolver, you must modify your DNS service on the host to listen on a non-localhost address that is reachable from within the container. Note: The DNS server is always at 127.0.0.11.",
-      "Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/networking/configure-dns/\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/networking/configure-dns/\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -429,9 +448,8 @@
       "D"
     ],
     "commentList": [
-      "Kernel memory limits are expressed in terms of the overall memory allocated to a container. Consider the following scenarios: Unlimited memory, unlimited kernel memory: This is the default behavior. Unlimited memory, limited kernel memory: This is appropriate when the amount of memory needed by all cgroups is greater than the amount of memory that actually exists on the host machine. You can configure the kernel memory to never go over what is available on the host machine, and containers which",
-      "need more memory need to wait for it. Limited memory, umlimited kernel memory: The overall memory is limited, but the kernel memory is not. Limited memory, limited kernel memory: Limiting both user and kernel memory can be useful for debugging memory-related problems. If a container is using an unexpected amount of either type of memory, it will run out of memory without affecting other containers or the host machine. Within this setting, if the kernel memory limit is lower than the user memory limit, running out of kernel memory will cause the container to experience an OOM error. If the kernel memory limit is higher than the user memory limit, the kernel limit will not cause the container to experience an OOM.",
-      "Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-memory-details"
+      "Kernel memory limits are expressed in terms of the overall memory allocated to a container. Consider the following scenarios: Unlimited memory, unlimited kernel memory: This is the default behavior. Unlimited memory, limited kernel memory: This is appropriate when the amount of memory needed by all cgroups is greater than the amount of memory that actually exists on the host machine. You can configure the kernel memory to never go over what is available on the host machine, and containers which need more memory need to wait for it. Limited memory, umlimited kernel memory: The overall memory is limited, but the kernel memory is not. Limited memory, limited kernel memory: Limiting both user and kernel memory can be useful for debugging memory-related problems. If a container is using an unexpected amount of either type of memory, it will run out of memory without affecting other containers or the host machine. Within this setting, if the kernel memory limit is lower than the user memory limit, running out of kernel memory will cause the container to experience an OOM error. If the kernel memory limit is higher than the user memory limit, the kernel limit will not cause the container to experience an OOM.",
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/admin/resource_constraints/#--kernel-memory-details\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/admin/resource_constraints/#--kernel-memory-details\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -451,7 +469,7 @@
     ],
     "commentList": [
       "The Docker daemon can listen for Docker Remote API requests via three different types of Socket: unix, tcp, and fd. By default, a unix domain socket (or IPC socket) is created at /var/run/docker.sock, requiring either root permission, or docker group membership. If you need to access the Docker daemon remotely, you need to enable the tcp Socket. Beware that the default setup provides un- encrypted and un-authenticated direct access to the Docker daemon - and should be secured either using the built in HTTPS encrypted socket or by putting a secure web proxy in front of it.",
-      "Reference: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -471,7 +489,7 @@
     ],
     "commentList": [
       "When a developer builds an image from a Dockerfile or when she commits it, the developer can set a number of default parameters that take effect when the image starts up as a container. Four of the Dockerfile commands cannot be overridden at runtime: FROM, MAINTAINER, RUN, and ADD. Everything else has a corresponding override in docker run. We\u0027ll go through what the developer might have set in each Dockerfile instruction and how the operator can override that setting.",
-      "Reference: https://docs.docker.com/engine/reference/run/#overriding-dockerfile-image-defaults"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/reference/run/#overriding-dockerfile-image-defaults\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/reference/run/#overriding-dockerfile-image-defaults\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -491,7 +509,7 @@
     ],
     "commentList": [
       "Version 3 only. Specify configuration related to the deployment and running of services. This only takes effect when deploying to a swarm withdocker stack deploy, and is ignored by docker-compose up and docker-compose run.",
-      "Reference: https://docs.docker.com/compose/compose-file/#deploy"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/compose/compose-file/#deploy\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/compose/compose-file/#deploy\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -511,9 +529,11 @@
     ],
     "commentList": [
       "If the daemon is unresponsive, you can force a full stack trace to be logged by sending a SIGUSR1 signal to the daemon. Linux: $ sudo kill -SIGUSR1 $(pidof dockerd) Windows Server: Download docker-signal. Run the executable with the flag --pid\u003d.",
-      "Reference: https://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logged"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logged\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logged\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SES"
+    ]
   },
   {
     "url": "QUESTION 227",
@@ -530,9 +550,8 @@
       "A"
     ],
     "commentList": [
-      "Docker 1.10 introduced a new content addressable storage model. This is a completely new way to address image and layer data on disk. Previously, image and layer data was referenced and stored using a randomly generated UUID. In the new model this is replaced by a secure content hash. The new model improves security, provides a built-in way to avoid ID collisions, and guarantees",
-      "data integrity after pull, push, load, and save operations. It also enables better sharing of layers by allowing many images to freely share their layers even if they didn\u0027t come from the same build.",
-      "Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#content-addressable-storage"
+      "Docker 1.10 introduced a new content addressable storage model. This is a completely new way to address image and layer data on disk. Previously, image and layer data was referenced and stored using a randomly generated UUID. In the new model this is replaced by a secure content hash. The new model improves security, provides a built-in way to avoid ID collisions, and guarantees data integrity after pull, push, load, and save operations. It also enables better sharing of layers by allowing many images to freely share their layers even if they didn\u0027t come from the same build.",
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#content-addressable-storage\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#content-addressable-storage\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -552,7 +571,7 @@
     ],
     "commentList": [
       "Docker can enforce hard memory limits, which allow the container to use no more than a given amount of user or system memory, or soft limits, which allow the container to use as much memory as it needs unless certain conditions are met, such as when the kernel detects low memory or contention on the host machine. Some of these options have different effects when used alone or when more than one option is set. Most of these options take a positive integer, followed by a suffix of b, k, m, g, to indicate bytes, kilobytes, megabytes, or gigabytes. Option -m or --memory\u003d Description The maximum amount of memory the container can use. If you set this option, the minimum allowed value is 4m (4 megabyte).",
-      "Reference: https://docs.docker.com/engine/admin/resource_constraints/#memory"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/admin/resource_constraints/#memory\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/admin/resource_constraints/#memory\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -572,7 +591,7 @@
     ],
     "commentList": [
       "A Docker image is built up from a series of layers. Each layer represents an instruction in the image\u0027s Dockerfile. Each layer except the very last one is read-only.",
-      "Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and- layers"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and-\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and-\u003c/a\u003e layers"
     ],
     "categories": []
   },
@@ -591,7 +610,7 @@
       "C"
     ],
     "commentList": [
-      "Some RUN commands depend on the ability to pipe the output of one command into another, using the pipe character (|), as in the following example: RUN wget -O - https://some.site | wc -l \u003e /number Docker executes these commands using the /bin/sh -c interpreter, which only evaluates the exit code of the last operation in the pipe to determine success. In the example above this build step succeeds and produces a new image so long as the wc -lcommand succeeds, even if the wget command fails. Reference: https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run"
+      "Some RUN commands depend on the ability to pipe the output of one command into another, using the pipe character (|), as in the following example: RUN wget -O - \u003ca href\u003d\"https://some.site\" rel\u003d\"nofollow\"\u003ehttps://some.site\u003c/a\u003e | wc -l \u0026gt; /number Docker executes these commands using the /bin/sh -c interpreter, which only evaluates the exit code of the last operation in the pipe to determine success. In the example above this build step succeeds and produces a new image so long as the wc -lcommand succeeds, even if the wget command fails. Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -611,7 +630,7 @@
     ],
     "commentList": [
       "The docker_gwbridge is a local bridge network which is automatically created by Docker in two different circumstances: When you initialize or join a swarm, Docker creates the docker_gwbridge network and uses it for communication among swarm nodes on different hosts. When none of a container\u0027s networks can provide external connectivity, Docker connects the container to the docker_gwbridge network in addition to the container\u0027s other networks, so that the container can connect to external networks or other swarm nodes.",
-      "Reference: https://docs.docker.com/engine/userguide/networking/#the-docker_gwbridge-network"
+      "Reference: \u003ca href\u003d\"https://docs.docker.com/engine/userguide/networking/#the-docker_gwbridge-network\" rel\u003d\"nofollow\"\u003ehttps://docs.docker.com/engine/userguide/networking/#the-docker_gwbridge-network\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -630,11 +649,17 @@
       "C"
     ],
     "commentList": [
-      "Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached. CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to",
-      "deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place",
-      "Reference: https://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html"
+      "Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached. CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place",
+      "Reference: \u003ca href\u003d\"https://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html\" rel\u003d\"nofollow\"\u003ehttps://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "KMS",
+      "CloudWatch",
+      "SNS",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 233",
@@ -652,9 +677,12 @@
     ],
     "commentList": [
       "AWS CloudTrail Processing Library is a Java library that makes it easy to build an application that reads and processes CloudTrail log files. You can download CloudTrail Processing Library from GitHub.",
-      "Reference: http://aws.amazon.com/cloudtrail/faqs/"
+      "Reference: \u003ca href\u003d\"http://aws.amazon.com/cloudtrail/faqs/\" rel\u003d\"nofollow\"\u003ehttp://aws.amazon.com/cloudtrail/faqs/\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 234",
@@ -672,9 +700,11 @@
     ],
     "commentList": [
       "You can retrieve trail settings and status using the cloudtrail describe-trails command. It will generate output similar to the example below.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-\u003c/a\u003e by-using-the-aws-cli.html"
     ],
-    "categories": []
+    "categories": [
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 235",
@@ -692,9 +722,13 @@
     ],
     "commentList": [
       "AWS IoT (Internet of Things) is integrated with CloudTrail to capture API calls from the AWS IoT console or from your code to the AWS IoT APIs. AWS IoT provides secure, bi-directional communication between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud. Using the information collected by CloudTrail, you can determine the request that was made to AWS IoT, the source IP address from which the request was made, who made the request, when it was made, and so on.",
-      "Reference: http://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using- cloudtrail"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using-\u003c/a\u003e cloudtrail"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "Glacier",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 236",
@@ -712,9 +746,18 @@
     ],
     "commentList": [
       "This is the ideal use case for AWS CloudTrail. CloudTrail provides visibility into user activity by recording API calls made on your account. CloudTrail records important information about each API call, including the name of the API, the identity of the caller, the time of the API call, the request parameters, and the response elements returned by the AWS service. This information helps you to track changes made to your AWS resources and to troubleshoot operational issues. CloudTrail makes it easier to ensure compliance with internal policies and regulatory standards.",
-      "Reference: https://aws.amazon.com/cloudtrail/faqs/"
+      "Reference: \u003ca href\u003d\"https://aws.amazon.com/cloudtrail/faqs/\" rel\u003d\"nofollow\"\u003ehttps://aws.amazon.com/cloudtrail/faqs/\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "IAM",
+      "CloudWatch",
+      "SNS",
+      "DynamoDB",
+      "Lambda",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 237",
@@ -732,9 +775,12 @@
     ],
     "commentList": [
       "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall informationfor services with single endpoints(IAM,STSetc.)is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket.",
-      "Reference: https://aws.amazon.com/cloudtrail/faqs/"
+      "Reference: \u003ca href\u003d\"https://aws.amazon.com/cloudtrail/faqs/\" rel\u003d\"nofollow\"\u003ehttps://aws.amazon.com/cloudtrail/faqs/\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 238",
@@ -751,9 +797,12 @@
       "D"
     ],
     "commentList": [
-      "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. Reference: https://aws.amazon.com/cloudtrail/faqs/"
+      "When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. Reference: \u003ca href\u003d\"https://aws.amazon.com/cloudtrail/faqs/\" rel\u003d\"nofollow\"\u003ehttps://aws.amazon.com/cloudtrail/faqs/\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 239",
@@ -770,11 +819,13 @@
       "C"
     ],
     "commentList": [
-      "The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools",
-      "(CLI) on your system).",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html"
+      "The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools (CLI) on your system).",
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-\u003c/a\u003e by-using-the-aws-cli.html"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 240",
@@ -792,9 +843,11 @@
     ],
     "commentList": [
       "The CloudTrail Processing Library is a Java library that provides an easy way to process AWS CloudTrail logs in a fault-tolerant, scalable and flexible way. To set up the CloudTrail Processing Library, you first need to download CloudTrail Processing Library source from GitHub. You can then create the .jar file using this command.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing- library.html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing-\u003c/a\u003e library.html"
     ],
-    "categories": []
+    "categories": [
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 241",
@@ -812,9 +865,11 @@
     ],
     "commentList": [
       "By default, CloudTrail logs bucket-level actions. Amazon S3 records are written together with other AWS service records in a log file. Amazon S3 bucket-level actions supported for logging by CloudTrail are defined in its RESTful API.",
-      "Reference: http://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 242",
@@ -831,11 +886,13 @@
       "B"
     ],
     "commentList": [
-      "Amazon SWF is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of Amazon SWF and delivers the log files to an Amazon S3 bucket that you specify. The API calls can be made indirectly by using the Amazon SWF console or directly by using the Amazon SWF API. When CloudTrail logging is enabled, calls made to Amazon SWF actions are tracked in log files. Amazon SWF records are written together with any other AWS service records in a log file. CloudTrail determines when to create and write to a new file based on a specified time period and file size.",
-      "The following actions are supported: DeprecateActivityType DeprecateDomain DeprecateWorkflowType RegisterActivityType RegisterDomain RegisterWorkflowType",
-      "Reference: http://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging.html"
+      "Amazon SWF is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of Amazon SWF and delivers the log files to an Amazon S3 bucket that you specify. The API calls can be made indirectly by using the Amazon SWF console or directly by using the Amazon SWF API. When CloudTrail logging is enabled, calls made to Amazon SWF actions are tracked in log files. Amazon SWF records are written together with any other AWS service records in a log file. CloudTrail determines when to create and write to a new file based on a specified time period and file size. The following actions are supported: DeprecateActivityType DeprecateDomain DeprecateWorkflowType RegisterActivityType RegisterDomain RegisterWorkflowType",
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SWF",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 243",
@@ -853,9 +910,11 @@
     ],
     "commentList": [
       "CloudTrail records attempts to sign into the AWS Management Console, the AWS Discussion Forums and the AWS Support Center. Note, however, that CloudTrail does not record root sign-in failures.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws- console-sign-in-events.html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws-\u003c/a\u003e console-sign-in-events.html"
     ],
-    "categories": []
+    "categories": [
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 244",
@@ -873,9 +932,13 @@
     ],
     "commentList": [
       "CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface.",
-      "Reference: https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/"
+      "Reference: \u003ca href\u003d\"https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/\" rel\u003d\"nofollow\"\u003ehttps://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "CloudWatch",
+      "Lambda",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 245",
@@ -892,11 +955,12 @@
       "C"
     ],
     "commentList": [
-      "The update-trail command is used to change the configuration settings for a trail. You can only",
-      "run update-trail command from the region in which the trail was created.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html"
+      "The update-trail command is used to change the configuration settings for a trail. You can only run update-trail command from the region in which the trail was created.",
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-\u003c/a\u003e by-using-the-aws-cli.html"
     ],
-    "categories": []
+    "categories": [
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 246",
@@ -914,9 +978,15 @@
     ],
     "commentList": [
       "As CloudTrail sends a notification each time a log file is written to the Amazon S3 bucket, an account that\u0027s very active can generate a large number of notifications. If you subscribe using email or SMS, you can end up receiving more messages than you can handle. AWS recommends that you subscribe using Amazon Simple Queue Service (Amazon SQS), which lets you handle notifications programmatically.",
-      "Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.ht ml"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.ht\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.ht\u003c/a\u003e ml"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "SQS",
+      "Kinesis",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 247",
@@ -933,9 +1003,11 @@
       "C"
     ],
     "commentList": [
-      "Within an IAM policy, IfExists can be added to the end of any condition operator except the Null condition.It can be used to in dic at e that condition a l com p a r is on needs to h app en if the policy key is present in the context of a request; otherwise, it can be ignored. Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht ml"
+      "Within an IAM policy, IfExists can be added to the end of any condition operator except the Null condition.It can be used to in dic at e that condition a l com p a r is on needs to h app en if the policy key is present in the context of a request; otherwise, it can be ignored. Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht\u003c/a\u003e ml"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 248",
@@ -945,16 +1017,18 @@
     "choiceList": [
       "A. Amazon Inspector is a global service that is not region-bound.YoucanincludeAWS resources from multiple regions in the same assessment target.",
       "B. Amazon Inspector is hosted within AWS regions behind a public endpoint.Allregionsare isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations.",
-      "C. Amazon Inspector is hosted in each supported region.Tele met ry data and find in gs are shared across regions to provide complete assessment reports.",
+      "C. Amazon Inspector is hosted in each supported region.Telemetry data and find in gs are shared across regions to provide complete assessment reports.",
       "D. Amazon Inspector is hosted in each supported region separately. You have to create assessment targets using the same name and tags in each region and Amazon Inspector will run against each assessment target in each region."
     ],
     "answerList": [
       "B"
     ],
     "commentList": [
-      "At this time, Amazon Inspector supports assessment services for EC2 instances in only the following AWS regions: US West (Oregon) US East (N. Virginia) EU (Ireland) Asia Pacific (Seoul) Asia Pacific (Mumbai) Asia Pacific (Tokyo) Asia Pacific (Sydney) Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html #in spector_supported-regions"
+      "At this time, Amazon Inspector supports assessment services for EC2 instances in only the following AWS regions: US West (Oregon) US East (N. Virginia) EU (Ireland) Asia Pacific (Seoul) Asia Pacific (Mumbai) Asia Pacific (Tokyo) Asia Pacific (Sydney) Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. Reference: \u003ca href\u003d\"https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html\" rel\u003d\"nofollow\"\u003ehttps://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html\u003c/a\u003e #in spector_supported-regions"
     ],
-    "categories": []
+    "categories": [
+      "SES"
+    ]
   },
   {
     "url": "QUESTION 249",
@@ -972,9 +1046,11 @@
     ],
     "commentList": [
       "By default, access to resources is denied. To allow access to a resource, you must set the Effect element to Allow. To override an allow (for example, to override an allow that is otherwise in force), you set the Effect element to Deny.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions\u003c/a\u003e. html"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 250",
@@ -992,7 +1068,7 @@
     ],
     "commentList": [
       "The Query API for IAM and AWS STS lets you call service actions. Query API requests are HTTPS requests that must contain an Action parameter to indicate the action to be performed. IAM and AWS STS support GET and POST requests for all actions, that is, the API does not require you to use GET for some actions and POST for others.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/programming.html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/programming.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/programming.html\u003c/a\u003e"
     ],
     "categories": []
   },
@@ -1000,21 +1076,23 @@
     "url": "QUESTION 251",
     "questionNumber": 251,
     "isProfessional": false,
-    "text": "A root account has created an IAM group and defined the policy as: \"Statement\":\n\nWhat will this policy do?\n\n",
+    "text": "A root account has created an IAM group and defined the policy as: \"Statement\":\n\n\u003cdiv class\u003d\"highlight highlight-source-json\"\u003e\n \u003cpre\u003e[\n  {\n    \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eEffect\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e: \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eAllow\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e,\n    \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eAction\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e: [\u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eiam:ChangePassword\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e],\n    \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eResource\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e: [\u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003earn:aws:iam::123123123123:user/${aws:username}\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e] },\n  {\n    \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eEffect\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e: \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eAllow\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e,\n    \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eAction\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e: [\u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eiam:GetAccountPasswordPolicy\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e],\n    \u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003eResource\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e: [\u003cspan class\u003d\"pl-s\"\u003e\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e*\u003cspan class\u003d\"pl-pds\"\u003e\"\u003c/span\u003e\u003c/span\u003e]\n  }\n]\n\u003c/pre\u003e\n\u003c/div\u003e\n\nWhat will this policy do?\n\n",
     "choiceList": [
-      "A. All ow this group to view the password policy of all the users added only to that group",
-      "B. All ow all the users of IAM to modify their password",
-      "C. All ow an IAM user in this group to view the password policy and modify only h is/herpassword",
-      "D. All ow this group to view the password policy of all the IAM users"
+      "A. Allow this group to view the password policy of all the users added only to that group",
+      "B. Allow all the users of IAM to modify their password",
+      "C. Allow an IAM user in this group to view the password policy and modify only h is/herpassword",
+      "D. Allow this group to view the password policy of all the IAM users"
     ],
     "answerList": [
       "C"
     ],
     "commentList": [
       "This IAM policy grants access to the ChangePassword action, which lets the users use the console, the CLI, or the API to change their passwords. The Resource element uses a policy variable (aws:username), which is useful in policies that are attached to groups. The aws:username key resolves to the name of the current IAM user when a request is made, so that each user is allowed permission to change only his or her own password . This policy will allow all the users of this group to modify the passwords of all the IAM users.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/HowToPwdIAMUser.html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/HowToPwdIAMUser.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/HowToPwdIAMUser.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 252",
@@ -1032,9 +1110,12 @@
     ],
     "commentList": [
       "For the Amazon Inspector integration with CloudTrail, for the List* and Describe* APIs, only the request information is logged.",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/logging-using-cloudtrail.html"
+      "Reference: \u003ca href\u003d\"https://docs.aws.amazon.com/inspector/latest/userguide/logging-using-cloudtrail.html\" rel\u003d\"nofollow\"\u003ehttps://docs.aws.amazon.com/inspector/latest/userguide/logging-using-cloudtrail.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "CloudTrail"
+    ]
   },
   {
     "url": "QUESTION 253",
@@ -1052,9 +1133,11 @@
     ],
     "commentList": [
       "A user can define various elements for an IAM policy. The elements include Version, ID, Statement, Sid, Effect, Principal, Not Principal, Action, Not Action, Resource, Not Resource, Condition, and Supported Data Types",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions\u003c/a\u003e. html"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 254",
@@ -1071,8 +1154,8 @@
       "C"
     ],
     "commentList": [
-      "To install an AWS agent on an EC2 instance that uses a proxy server Create a file called awsagent.env and save it in the /etc/init.d/ directory. Edit awsagent.env to include these environment variables in the following format: export https_proxy\u003dhttps://hostname:port export http_proxy\u003dhttp://hostname:port export no_proxy\u003d 123.456.789.111",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector- agent-proxy"
+      "To install an AWS agent on an EC2 instance that uses a proxy server Create a file called awsagent.env and save it in the /etc/init.d/ directory. Edit awsagent.env to include these environment variables in the following format: export https_proxy\u003d\u003ca href\u003d\"https://hostname:port\" rel\u003d\"nofollow\"\u003ehttps://hostname:port\u003c/a\u003e export http_proxy\u003d\u003ca href\u003d\"http://hostname:port\" rel\u003d\"nofollow\"\u003ehttp://hostname:port\u003c/a\u003e export no_proxy\u003d 123.456.789.111",
+      "Reference: \u003ca href\u003d\"https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector-\" rel\u003d\"nofollow\"\u003ehttps://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector-\u003c/a\u003e agent-proxy"
     ],
     "categories": []
   },
@@ -1092,9 +1175,12 @@
     ],
     "commentList": [
       "The AWS agent supports proxy environments. For Linux instances, Inspector supports HTTPS Proxy, and for Windows instances, it supports WinHTTP proxy.",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html"
+      "Reference: \u003ca href\u003d\"https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html\" rel\u003d\"nofollow\"\u003ehttps://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "EC2"
+    ]
   },
   {
     "url": "QUESTION 256",
@@ -1102,19 +1188,23 @@
     "isProfessional": false,
     "text": "Amazon Inspector agent collects telemetry data during assessment run and sends this data to Amazon Inspector dedicated S3 bucket for analysis. How can you access telemetry data out of Amazon Inspector and how can you benefit from this data in securing your resources?\n\n",
     "choiceList": [
-      "A. Tele met ry data is kept in S3 and encrypted with a pre-assessment test key configured in KMS,as long as you have access to that key you can download and decrypt telemetry data.",
-      "B. Tele met ry data is stored in Amazon Inspector dedic at ed S3 bucket that does NOT be long to your account, Amazon Inspector currently does NOT provide an API or an S3 bucket access mechanism to collected telemetry. Data is retained temporarily only to allow for assistance with support requests.",
-      "C. Tele met ry data is save do n S3 bucket in your account,the re for e telemetry data is access ible with proper permissions on that bucket.",
-      "D. Tele met ry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools."
+      "A. Telemetry data is kept in S3 and encrypted with a pre-assessment test key configured in KMS,as long as you have access to that key you can download and decrypt telemetry data.",
+      "B. Telemetry data is stored in Amazon Inspector dedic at ed S3 bucket that does NOT be long to your account, Amazon Inspector currently does NOT provide an API or an S3 bucket access mechanism to collected telemetry. Data is retained temporarily only to allow for assistance with support requests.",
+      "C. Telemetry data is save do n S3 bucket in your account,the re for e telemetry data is access ible with proper permissions on that bucket.",
+      "D. Telemetry data is deleted im media tely after assessment run,the re for e data can NOT be access ed or analyzed by any other tools."
     ],
     "answerList": [
       "B"
     ],
     "commentList": [
       "The telemetry data stored in S3 is retained only to allow for assistance with support requests and is not used or aggregated by Amazon for any other purpose. After 30 days, telemetry data is permanently deleted per a standard Amazon Inspector-dedicated S3 bucket lifecycle policy. At present, Amazon Inspector does not provide an API or an S3 bucket access mechanism to collected telemetry.",
-      "Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html"
+      "Reference: \u003ca href\u003d\"https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html\" rel\u003d\"nofollow\"\u003ehttps://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "KMS"
+    ]
   },
   {
     "url": "QUESTION 257",
@@ -1133,9 +1223,11 @@
     ],
     "commentList": [
       "The path functionality within an IAM group and user allows them to delineate by further levels. In this case the user needs to use the path with each user or group so that the ARN of the user will look similar to: arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/user1 arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/user2",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html#Identifiers_ARNs"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html#Identifiers_ARNs\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/Using_Identifiers.html#Identifiers_ARNs\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 258",
@@ -1153,9 +1245,11 @@
     ],
     "commentList": [
       "When defining an IAM Policy, the version element specifies the policy language version. Only the following values are allowed: 2012-10-17. This is the current version of the policy language, and the user should use this version number for all the policies. 2008-10-17. This was an earlier version of the policy language. The user might see this version on the existing policies. Do not use this version for any new policies or any existing policies that are being updated. If a version element is not included, the value defaults to 2008-10-17.",
-      "Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html"
+      "Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions\u003c/a\u003e. html"
     ],
-    "categories": []
+    "categories": [
+      "IAM"
+    ]
   },
   {
     "url": "QUESTION 259",
@@ -1170,9 +1264,11 @@
       "A"
     ],
     "commentList": [
-      "start-assessment-run command requires --assessment-template-arn, other parameters are optional start-assessment-run --assessment-template-arn [--assessment-run- name ] [--cli-input-json ] [--generate-cli-skeleton ] Reference: http://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html"
+      "start-assessment-run command requires --assessment-template-arn, other parameters are optional start-assessment-run --assessment-template-arn [--assessment-run- name ] [--cli-input-json ] [--generate-cli-skeleton ] Reference: \u003ca href\u003d\"http://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html\" rel\u003d\"nofollow\"\u003ehttp://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html\u003c/a\u003e"
     ],
-    "categories": []
+    "categories": [
+      "SES"
+    ]
   },
   {
     "url": "QUESTION 260",
@@ -1189,7 +1285,7 @@
       "A"
     ],
     "commentList": [
-      "Proxy support for AWS agents is achieved through the use of the WinHTTP proxy. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on- win.html#inspector- agent-proxy"
+      "Proxy support for AWS agents is achieved through the use of the WinHTTP proxy. Reference: \u003ca href\u003d\"https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-\" rel\u003d\"nofollow\"\u003ehttps://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-\u003c/a\u003e win.html#inspector- agent-proxy"
     ],
     "categories": []
   },
