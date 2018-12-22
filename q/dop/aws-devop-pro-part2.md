@@ -174,7 +174,7 @@ You need your CI to build AMIs with code pre-installed on the images on every ne
 machine.
 Use these credits whenever your create AMIs on instances.
       
- D. When the CI instance receives commits, attach a new EBS volume to the CI machine. Perform all setup on this EBS volume so you don't need a new EC2 instance to create the AMI.
+- D. When the CI instance receives commits, attach a new EBS volume to the CI machine. Perform all setup on this EBS volume so you don't need a new EC2 instance to create the AMI.
 
 <details><summary>Answer:</summary><p> A
 
@@ -224,8 +224,7 @@ What can you do to reduce this load?
 - A. Subscribe your queue to an SNS topic instead.
 - B. Use as long of a poll as possible, instead of short polls.
 - C. Alter your visibility timeout to be shorter.
-     
- D. Use <code>sqsd</code> on your EC2 instances.
+- D. Use <code>sqsd</code> on your EC2 instances.
 
 <details><summary>Answer:</summary><p> B
 
@@ -705,9 +704,7 @@ Snapshots shared with other users are usable in full by the recipient, including
 You need to deploy a new application version to production. Because the deployment is high-risk, you need to roll the new version out to users over a number of hours, to make sure everything is working correctly. You need to be able to control the proportion of users seeing the new version of the application down to the percentage point.
 You use ELB and EC2 with Auto Scaling Groups and custom AMIs with your code pre-installed assigned to Launch Configurations. There are no database-level changes during your deployment. You have been told you cannot spend too much money, so you must not increase the number of EC2 instances much at all during the deployment, but you also need to be able to switch back to the original version of code quickly if something goes wrong. What is the best way to meet these requirements?
 
-- A. Create a second ELB, Auto Scaling Launch Configuration, and Auto Scaling Group using the Launch Configuration. Create AMIs with all code pre-installed. Assign the new AMI to the second Auto Scaling Launch Configuration. Use Route53 Weighted Round Robin Records to adjust the
-  
- proportion of traffic hitting the two ELBs.
+- A. Create a second ELB, Auto Scaling Launch Configuration, and Auto Scaling Group using the Launch Configuration. Create AMIs with all code pre-installed. Assign the new AMI to the second Auto Scaling Launch Configuration. Use Route53 Weighted Round Robin Records to adjust the proportion of traffic hitting the two ELBs.
 - B. Use the Blue-Green deployment method to enable the fastest possible rollback if needed. Create
 a full second stack of instances and cut the DNS over to the new stack of instances, and change
 the DNS back if a rollback is needed.
@@ -747,8 +744,7 @@ If I want CloudFormation stack status updates to show up in a continuous deliver
 
 - A. Use a long-poll on the Resources object in your CloudFormation stack and display those state changes in the UI for the system.
 - B. Use a long-poll on the <code>ListStacks</code>API call for your CloudFormation stack and display those state changes in the UI for the system.
-  
- C. Subscribe your continuous delivery system to an SNS topic that you also tell your CloudFormation stack to publish events into.
+- C. Subscribe your continuous delivery system to an SNS topic that you also tell your CloudFormation stack to publish events into.
 - D. Subscribe your continuous delivery system to an SQS queue that you also tell your CloudFormation stack to publish events into.
 
 <details><summary>Answer:</summary><p> C
@@ -798,8 +794,7 @@ Which of these configuration or deployment practices is a security risk for RDS?
 - A. Storing SQL function code in plaintext
 - B. Non-Multi-AZ RDS instance
 - C. Having RDS and EC2 instances exist in the same subnet
-    
- D. RDS in a public subnet
+- D. RDS in a public subnet
 
 <details><summary>Answer:</summary><p> D
 
@@ -1047,8 +1042,7 @@ Your application's Auto Scaling Group scales up too quickly, too much, and stays
 
 - A. Set a longer cooldown period on the Group, so the system stops overshooting the target capacity. The issue is that the scaling system doesn't allow enough time for new instances to begin servic in g requests before me as ur in g a ggreg at e load a g a in.
 - B. Calculate the bottleneck or constraint on the compute layer, then select that as the new metric, and set them etric thresholds to the bounding values that begin to a ffect response latency.
-  
- C. Raise the CloudWatch Alarms threshold associated with your autoscaling group, so the scaling takes more of an increase in demand before beginning.
+- C. Raise the CloudWatch Alarms threshold associated with your autoscaling group, so the scaling takes more of an increase in demand before beginning.
 - D. Use larger instances instead of lots of smaller ones, so the Group stops scaling out so much and wasting resources as the OS level,since the OS uses a higher proportion of resources on smaller instances.
 
 <details><summary>Answer:</summary><p> B
@@ -1098,8 +1092,7 @@ If you're trying to configure an AWS Elastic Beanstalk worker tier for easy debu
 - A. Configure Rolling Deployments.
 - B. Configure Enhanced Health Reporting
 - C. Configure Blue-Green Deployments.
-    
- D. Configure a Dead Letter Queue
+- D. Configure a Dead Letter Queue
 
 <details><summary>Answer:</summary><p> D
 
@@ -1151,8 +1144,7 @@ Event driven systems are good for IFTTT logic, but only polling will make a scri
 Your application consists of 10% writes and 90% reads. You currently service all requests through a Route53 Alias Record directed towards an AWS ELB, which sits in front of an EC2 Auto Scaling Group. Your system is getting very expensive when there are large traffic spikes during certain news events, during which many more people request to read similar data all at the sametime.What is the simplest and che a pest way to reduce costs and scale with spikes like this?
 
 - A. Create an S3 bucket and asynchronously replicate common requests responses into S3 objects. When are quest comes in for a precomputed response,redirecttoAWSS3.
-  
- B. Create another ELB and Auto Scaling Group layer mounted on top of the other system, addinga tiertothesystem.Serve most read requests out of the top layer.
+- B. Create another ELB and Auto Scaling Group layer mounted on top of the other system, addinga tiertothesystem.Serve most read requests out of the top layer.
 - C. Create a CloudFront Distribution and direct Route53 to the Distribution.
 Use the ELB as an Origin and specify Cache Behaviours to proxy cache requests which can be servedlate.
 - D. Create a Memcached cluster in AWS ElastiCache. Create cache logic to serve requests which can be served late from the in-memory cache for increased performance.
@@ -1390,8 +1382,7 @@ Explanation:
 You need to perform ad-hoc analysis on log data, including searching quickly for specific error codes and reference numbers. Which should you evaluate first?
 
 - A. AWS Elasticsearch Service
-    
- B. AWS RedShift
+- B. AWS RedShift
 - C. AWS EMR
 - D. AWS DynamoDB
 
@@ -1440,8 +1431,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 For AWS Auto Scaling, what is the first transition state an existing instance enters after leaving steady state in Standby mode?
 
 - A. Detaching
-    
- B. T erminating:W ait
+- B. T erminating:W ait
 - C. Pending
 - D. EnteringStandby
 

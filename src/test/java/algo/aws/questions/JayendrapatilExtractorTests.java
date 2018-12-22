@@ -8,7 +8,6 @@ import lombok.extern.log4j.Log4j2;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
@@ -34,7 +33,7 @@ public class JayendrapatilExtractorTests {
         String module = "aws-api-gateway";
         Path jsonPath = Paths.get(baseDir, "json",module + ".json");
         Path mdPath = Paths.get(baseDir,"md", module + ".md");
-        MarkdownUtils.convertToMarkdown(jsonPath, mdPath);
+        MarkdownUtils.convertJsonToMarkdown(jsonPath, mdPath);
     }
 
     @Test

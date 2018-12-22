@@ -9,11 +9,13 @@ When specifying multiple variable names and values for a playbook on the command
 - C. ansible-playbookplaybook.yml-e`host="foo"`-e`pkg="bar"`
 - D. ansible-playbookplaybook.yml--extra-vars"host=foo","pkg=bar"
 
-<details><summary>Answer:</summary><p> A Explanation:
-    
- Variables are passed in a single command line parameter, `-e` or `--extra-vars`. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: `-e {"key": "name", "array": ["value1", "value2"]}`.
+<details><summary>Answer:</summary><p> A 
 
-Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command- line
+Explanation:
+
+Variables are passed in a single command line parameter, `-e` or `--extra-vars`. They are sent as a single string to the playbook and are space delimited. Because of the space delimeter, variable values must be encapsulated in quotes. Additionally, proper JSON or YAML can be passed, such as: `-e {"key": "name", "array": ["value1", "value2"]}`.
+
+Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-variables-on-the-command-line
 
 </p></details><hr>
 

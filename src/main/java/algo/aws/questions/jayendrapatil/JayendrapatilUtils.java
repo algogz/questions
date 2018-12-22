@@ -20,7 +20,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Predicate;
 
 @Log4j2
 public class JayendrapatilUtils {
@@ -64,7 +63,7 @@ public class JayendrapatilUtils {
                 if(!overwrite && Files.exists(mdFile)){
                     return;       // skip if file exists
                 }
-                MarkdownUtils.convertToMarkdown(jsonFile, mdFile);
+                MarkdownUtils.convertJsonToMarkdown(jsonFile, mdFile);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

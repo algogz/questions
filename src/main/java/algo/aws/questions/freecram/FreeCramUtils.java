@@ -4,7 +4,6 @@ import algo.aws.questions.MarkdownUtils;
 import algo.aws.questions.jayendrapatil.Question;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 import lombok.extern.log4j.Log4j2;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -32,7 +31,7 @@ public class FreeCramUtils {
         Path jsonFile = Paths.get(baseDir, "freecram-questions.json");
         log.info("Converting {}", jsonFile);
         Path mdFile = Paths.get(baseDir,"freecram-questions.md");
-        MarkdownUtils.convertToMarkdown(jsonFile, mdFile);
+        MarkdownUtils.convertJsonToMarkdown(jsonFile, mdFile);
     }
 
     static Pattern pattern = Pattern.compile("question-(\\d+)\\.html");

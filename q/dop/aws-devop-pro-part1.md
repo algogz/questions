@@ -371,7 +371,7 @@ does not change often, and then use AWS CloudFormation to define all other ephem
 
 </p></details><hr>
 
-### QUESTION 21
+### QUESTION 21 *
 Your development team wants account-level access to production instances in order to do live debugging of a highly secure environment.
 Which of the following should you do?
 
@@ -439,7 +439,7 @@ reduce job to retrieve the required information on user counts.
 
 </p></details><hr>
 
-### QUESTION 25
+### QUESTION 25 x
 You are using Elastic Beanstalk to manage your e-commerce store. The store is based on an open source e- commerce platform and is deployed across multiple instances in an Auto Scaling group. Your development team often creates new "extensions" for the e-commerce store.
 These extensions include PHP source code as well as an SQL upgrade script used to make any necessary updates to the database schema.
 You have noticed that some extension deployments fail due to an error when running the SQL upgrade script. After further investigation, you realize that this is because the SQL script is being
@@ -456,7 +456,7 @@ Only execute the script if "true" is returned.
 
 </p></details><hr>
 
-### QUESTION 26
+### QUESTION 26 x
 You are administering a continuous integration application that polls version control for changes and then launches new Amazon EC2 instances for a full suite of build tests.
 What should you do to ensure the lowest overall cost while being able to run as many tests in parallel as possible?
 
@@ -469,7 +469,7 @@ What should you do to ensure the lowest overall cost while being able to run as 
 
 </p></details><hr>
 
-### QUESTION 27
+### QUESTION 27 x
 You are doing a load testing exercise on your application hosted on AWS.
 While testing your Amazon RDS MySQL DB instance, you notice that when you hit 100% CPU utilization on it, your application becomes non- responsive.
 Your application is read-heavy.
@@ -502,7 +502,7 @@ You also need to manage the storage of these images. Which two of the following 
 
 </p></details><hr>
 
-### QUESTION 29
+### QUESTION 29 x
 You have an Auto Sealing group of Instances that processes messages from an Amazon Simple Queue Service (SQS) queue.
 The group scales on the size of the queue. Processing Involves calling a third-party web service. The web service is complaining about the number of failed and repeated calls it is receiving from you.
 You have noticed that when the group scales in, instances are being terminated while they are processing.
@@ -521,8 +521,8 @@ while it processes a task and return itself to InService when the processing is 
 
 </p></details><hr>
 
-### QUESTION 30 
-The operations team and the development team want as in gle place to view both operating system and application logs.
+### QUESTION 30 x
+The operations team and the development team want asingle place to view both operating system and application logs.
 How should you implement this using AWS services? Choose 2 answers
 
 - A. Using AWS CloudFormation, create a CloudWatch Logs LogGroup and send the operating system and application logs of interest using the CloudWatch Logs Agent.
@@ -650,7 +650,6 @@ the first topic so that on-call engineers receive alerts.
 member emails as subscribers.
 Create another Amazon SNS topic and configure your CloudWatch alarms to notify this topic when triggered.
 Create an HTTP subscriber to this topic that notifies your application via HTTP POST when an alarm is triggered.
-  
 Use the AWS SDK tools to integrate your application with Amazon SNS and send messages to the correct team topic when on shift.
 
 <details><summary>Answer:</summary><p> D
@@ -766,7 +765,6 @@ You are using AWS Elastic Beanstalk to deploy your application and must make dat
 - A. Add commands to a configuration file in the .ebextensions folder of your deployable archive that mount an additional Amazon EBS volume on launch.
 Also add a "BlockDeviceMappings" option, and specify the snapshot to use for the block device in the Auto Scaling launch configuration.
 - B. Add commands to a configuration file in the .ebextensions folder of your deployable archive that uses the create-volume Amazon EC2 API or CLI to create a new ephemeral volume based on the
-  
 specified snapshot and then mounts the volume on launch.
 - C. Add commands to the Amazon EC2 user data that will be executed by eb-init, which uses the
 create- volume Amazon EC2 API or CLI to create a new Amazon EBS volume based on the
@@ -1118,8 +1116,7 @@ The customer wants to be able to quickly access this metadata using an API witho
 Which of the following options will satisfy their requirements? Choose 2 answers
 
 - A. Create individual Amazon EC2 tags for each metadata item, and associate them with the Amazon EC2 instances.
-  
- Access the metadata by using the ec2-describe-instance API call.
+Access the metadata by using the ec2-describe-instance API call.
 - B. Create compound Amazon EC2 tags for the metadata items, where multiple items are joined
 together in individual tags, and associate them with the Amazon EC2 instances.
 Access the metadata by using the ec2-describe-tags API call.
@@ -1286,7 +1283,7 @@ You have been tasked to come up with a process to provide Blue/Green style deplo
 
 - A. Using Elastic Beanstalk re-deploy your application and configure Elastic Beanstalk Deployment types, and then use Amazon Route53's alias resource record set to swap between Elastic Beanstalk deployment types.
   
- B. Re-deploy your application behind a load balancer using an AWS CloudFormation template, launch a new AWS CloudFormation stack during each deployment, update your Amazon Route53 alias resource record set to point to the new load balancer, and finally, terminate your old AWS CloudFormation stack.
+- B. Re-deploy your application behind a load balancer using an AWS CloudFormation template, launch a new AWS CloudFormation stack during each deployment, update your Amazon Route53 alias resource record set to point to the new load balancer, and finally, terminate your old AWS CloudFormation stack.
 - C. Re-deploy your application behind a load balancer using Auto Scaling groups, create a new identical Auto Scaling group, and associate it to the load balancer.
 During deployment, create a new Amazon Route53 hosted zone, add this new load balancer to the zone in an alias resource record set, and then remove your old Auto Scaling group.
 - D. Re-deploy your application behind a load balancer using an OpsWorks stack, and use AWS OpsWorks stack versioning.
@@ -1322,7 +1319,7 @@ How do you scale your service to improve the load times and ensure the principle
 
 - A. Change your Auto Scaling group configuration to include multiple AZs.
     
- B. Change your Auto Scaling group configuration to include multiple AZs, and increase the number of Read Capacity Units in your DynamoDB table by a factor of three, because you will need to be calling DynarnoDB from three AZs.
+- B. Change your Auto Scaling group configuration to include multiple AZs, and increase the number of Read Capacity Units in your DynamoDB table by a factor of three, because you will need to be calling DynarnoDB from three AZs.
 - C. Add a second load balancer to your Auto Scaling group so that you can support more inbound connections per second.
 - D. Change your Auto Scaling group configuration to use larger instances and include multiple AZ's instead of one.
 
@@ -1357,8 +1354,7 @@ This way a tester does not waste time trying to test new features in a broken en
 - A. Specify your automated tests in the "tests" section of the AWS CloudFormation template.
 AWS CloudFormation will then execute the tests on your behalf as part of the environment build.
 - B. Configure a centralized test server that hosts an automated browser testing framework.
-  
- Use an AWS CloudFormation custom resource to notify the centralized test server, via an Amazon SNS topic, that a new environment has been initialized.
+Use an AWS CloudFormation custom resource to notify the centralized test server, via an Amazon SNS topic, that a new environment has been initialized.
 The centralized test server can then execute the tests before sending the results back to the AWS CloudFormation service.
 - C. Pass the test scripts to the cfn-init service via the "tests" section of the AWS::CloudFormation::Init metadata.
 Cfn-init will then execute these tests and return the result to the AWS CloudFormation service. 
