@@ -235,9 +235,7 @@ What two approaches will meet these requirements?
 Choose 2 answers
 
 - A. Install an Amazon Cloudwatch Logs Agent on every web server during the bootstrap process. Create a CloudWatch log group and define Metric Filters to create custom metrics that track unique visitors from the streaming web server logs.
-Create a scheduled task on an Amazon EC2 instance that runs every hour to generate a new
-  
-report based on the Cloudwatch custom metrics.
+Create a scheduled task on an Amazon EC2 instance that runs every hour to generate a new report based on the Cloudwatch custom metrics.
 - B. On the web servers, create a scheduled task that executes a script to rotate and transmit the logs
 to Amazon Glacier.
 Ensure that the operating system shutdown procedure triggers a logs transmission when the Amazon EC2 instance is stopped/terminated.
@@ -253,7 +251,7 @@ Create a log group object in AWS Data Pipeline, and define Metric Filters to mov
 
 </p></details><hr>
 
-### QUESTION 14
+### QUESTION 14 *
 You have been tasked with deploying a scalable distributed system using AWS OpsWorks.
 Your distributed system is required to scale on demand. As it is distributed, each node must hold a configuration file that includes the hostnames of the other instances within the layer.
 How should you configure AWS OpsWorks to manage scaling this application dynamically?
@@ -279,6 +277,7 @@ How can you configure your application running on that instance to retrieve the 
 - C. When using AWS SDKs and Amazon EC2 roles, you do not have to explicitly retrieve API keys, because the SDK handles retrieving them from the Amazon EC2 MetaData service.
 - D. Within your application code, configure the AWS SDK to get the API keys from environment
 variables, because assigning an Amazon EC2 role stores keys in environment variables on launch. <details><summary>
+
 Answer:</summary><p> C
 
 </p></details><hr>
@@ -340,7 +339,7 @@ is triggered.
 
 </p></details><hr>
 
-### QUESTION 19
+### QUESTION 19 *
 After a daily scrum with your development teams, you've agreed that using Blue/Green style deployments would benefit the team.
 Which technique should you use to deliver this new requirement?
 

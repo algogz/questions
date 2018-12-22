@@ -20,7 +20,7 @@ public class PassLeaderUtilsTests {
     public void testSplitWords() throws IOException {
         byte[] buf = Files.readAllBytes(Paths.get("q/aws-devop-pro.md"));
         String s = new String(buf);
-        Map<String, Integer> map = PassLeaderUtils.buildWordMap(s);
+        Map<String, Integer> map = StringUtils.buildWordCountMap(s);
         List<Entry<String, Integer>> list = PassLeaderUtils.sortWordEntrys(map);
         log.info(list.size());
         List<String> dict = list.stream()

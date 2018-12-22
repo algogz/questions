@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -33,6 +36,11 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -51,6 +59,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "CloudFormation",
+      "DynamoDB"
     ]
   },
   {
@@ -69,6 +82,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -90,6 +107,9 @@
       "A: no user separation, will just help generate temporary tokens",
       "B: Different policy with deny rules based on location, device and more restrictive wins",
       "C: Authorization should still be in developers control"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -109,6 +129,13 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "IAM",
+      "DynamoDB"
     ]
   },
   {
@@ -127,6 +154,12 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "SES",
+      "IAM",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -152,6 +185,12 @@
       "C: Custom Identity broker implementation, with authentication with LDAP and using federated token",
       "D: Can’t login to IAM using LDAP credentials",
       "E: Need to authenticate with LDAP"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "IAM",
+      "VPC"
     ]
   },
   {
@@ -170,6 +209,12 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -191,6 +236,10 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   },
   {
@@ -213,6 +262,11 @@
       "B: (Controlled access and admins cannot access the data as it needs authentication)",
       "C: Web team would have access to the data",
       "D: not the way SAML auth works and not sure if the centralized access management system is SAML complaint"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -232,6 +286,12 @@
     "commentList": [
       "Question 14@http://jayendrapatil.com/iam-role-identity-providers-federation/",
       "B: (Can work with JavaScript SDK, is scalable and cost effective)"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -255,6 +315,10 @@
       "C: Expensive",
       "D: https://aws.amazon.com/about-aws/whats-new/2015/08/amazon-s3-introduces-new-usability-enhancements/",
       "D: Creating bucket for each user is not a scalable model, also 100 buckets are a limit earlier without extending which has since changed"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   },
   {
@@ -275,6 +339,12 @@
     ],
     "commentList": [
       "Question 35@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -297,6 +367,11 @@
       "B: Needs to be published to internet",
       "C: Instances still in public subnet are internet accessible",
       "D: Cost effective and can be in private subnet as well"
+    ],
+    "categories": [
+      "VPC",
+      "ELB",
+      "Direct Connect"
     ]
   },
   {
@@ -320,6 +395,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -342,6 +421,20 @@
       "B: Storage Gateway does provide secure connectivity but still needs VPN. SNS alone cannot handle builds",
       "C: Storage Gateway does not provide secure connectivity, still needs VPN. EMR is not ideal for performing builds as it needs normal EC2 instances",
       "D: VPN gateway is required for secure connectivity. SQS for build queue and EC2 for builds"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "SQS",
+      "EC2",
+      "Storage Gateway",
+      "ASG",
+      "EBS",
+      "VPC",
+      "SNS",
+      "EMR"
     ]
   },
   {
@@ -362,6 +455,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ec2-instance-types/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -385,6 +482,11 @@
       "C: Need synchronous replication to prevent any data loss",
       "D: RAID 5 not recommended by AWS and Need synchronous replication to prevent any data loss",
       "E: Need synchronous replication to prevent any data loss"
+    ],
+    "categories": [
+      "EC2",
+      "Storage Gateway",
+      "EBS"
     ]
   },
   {
@@ -407,6 +509,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Spot instances impacts performance",
       "D: Spot instances impacts performance"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -428,6 +535,12 @@
       "B: Reserved Instance not cost effective for 4 hour job and data not needed in S3 once moved to RDS",
       "C: Reserved Instance not cost effective",
       "D: RRS provides not much cost benefits for a 4 hour job while the amount of input data would take time to upload and Output data to reproduce"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2"
     ]
   },
   {
@@ -450,6 +563,9 @@
       "B: 90% is not recommended as well RIs would increase the cost",
       "C: 90% is not recommended as high bid price would not guarantee instances and would increase cost",
       "D: Availability cannot be guaranteed"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -469,7 +585,8 @@
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
       "A: Because the instance will always be online during the day, in a predictable manner, and there are sequences of batch jobs to perform at any time, we should run the batch jobs when the account software is off. We can achieve Heavy Utilization by alternating these times, so we should purchase the reservation as such, as this represents the lowest cost. There is no such thing a “Full” level utilization purchases on EC2."
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-s3-storage-classes/",
@@ -491,6 +608,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Spot instances impacts performance",
       "D: Spot instances impacts performance"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -515,6 +637,17 @@
       "C: Standard S3 and Elastic Beanstalk provides availability and durability, Standard S3 and CloudSearch provides cost effective storage and search",
       "D: RDS is not ideal and cost effective to store files, Single AZ impacts availability",
       "E: CloudFront needs a source and using commercial search product is not cost effective"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "EBS",
+      "CloudFormation",
+      "CloudSearch",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -536,6 +669,12 @@
       "B: Master and Core must be RI or On Demand. Cannot be Spot",
       "C: Need better durability for ingest file. Spot instances can be used for task nodes for cost saving.",
       "D: Input must be in S3 standard"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2"
     ]
   },
   {
@@ -557,6 +696,11 @@
       "A: CloudWatch metrics are regional",
       "C: Can’t add SNMP traps to DynamoDB as it is a managed service",
       "D: Can’t add agents to DynamoDB as it is a managed service"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "DynamoDB"
     ]
   },
   {
@@ -578,6 +722,11 @@
       "A: Consolidation will not help limit per account",
       "B: many instances do not directly map to cost and would not give exact cost",
       "C: as each project already has a account, no need for resource tagging"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "SNS"
     ]
   },
   {
@@ -600,6 +749,14 @@
       "B: is not fast in search and introduces delay",
       "C: is not fast in search and introduces delay",
       "D: ELK – Elasticsearch, Kibana stack is designed specifically for real-time, ad-hoc log analysis and aggregation"
+    ],
+    "categories": [
+      "S3",
+      "Elasticsearch",
+      "CloudWatch",
+      "Kinesis",
+      "EMR",
+      "Lambda"
     ]
   },
   {
@@ -618,6 +775,11 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "SQS",
+      "EC2",
+      "CloudWatch"
     ]
   },
   {
@@ -638,6 +800,13 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-auto-scaling-elb/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -657,6 +826,14 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-cloudfront/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EBS",
+      "ELB",
+      "EMR",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -675,6 +852,11 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-cloudfront/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EBS"
     ]
   },
   {
@@ -693,6 +875,16 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-cloudfront/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "ASG",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -716,6 +908,13 @@
       "B: CloudFront logs are logged periodically and EMR not being real time, hence not suitable",
       "C: Distribution are not invalidated but Objects",
       "D: CloudFront logs are logged periodically and EMR not being real time, hence not suitable"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "EMR"
     ]
   },
   {
@@ -735,6 +934,11 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-cloudfront/",
       "B: http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web.html"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EC2"
     ]
   },
   {
@@ -753,6 +957,11 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-cloudfront/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "EC2"
     ]
   },
   {
@@ -776,6 +985,9 @@
       "A: Origin cannot be self signed",
       "B: CloudFront cert cannot be applied to origin",
       "E: Origin cannot be self signed"
+    ],
+    "categories": [
+      "CloudFront"
     ]
   },
   {
@@ -795,6 +1007,16 @@
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-cloudfront/",
       "C: CloudFront can server request from cache and multiple cache behavior can be defined based on rules for a given URL pattern based on file extensions, file names, or any portion of a URL. Each cache behavior can include the CloudFront configuration values: origin server name, viewer connection protocol, minimum expiration period, query string parameters, cookies, and trusted signers for private content."
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "ASG",
+      "ElastiCache",
+      "ELB"
     ]
   },
   {
@@ -813,6 +1035,16 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-cloudfront/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "ASG",
+      "Elastic Transcoder",
+      "EBS"
     ]
   },
   {
@@ -835,6 +1067,12 @@
       "B: RDS is connected using DNS endpoint only",
       "C: Security group allows instances to access the RDS with new instances launched without any changes",
       "D: Not optimal for security adding individual hosts"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "VPC",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -860,6 +1098,15 @@
       "C: Kinesis not needed",
       "D: Use Docker configuration with awslogs and EB with Docker",
       "E: Use VM Import/Export to create AMI and CloudWatch logs agent to log"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "EC2",
+      "CloudWatch",
+      "Kinesis",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -879,6 +1126,10 @@
     "commentList": [
       "Question 24@http://jayendrapatil.com/aws-auto-scaling/",
       "C: Loss of one AZ will handle only 66% if the autoscaling also fails"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -897,6 +1148,16 @@
     ],
     "commentList": [
       "Question 36@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -917,6 +1178,11 @@
       "B: Human and automated assessments with GPU and low latency networking",
       "C: C3 and SR-IOV won’t provide GPU as well as Enhanced networking needs to be enabled",
       "D: Involves mixture of human assessments"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF"
     ]
   },
   {
@@ -938,6 +1204,16 @@
       "A: Would use a SWF instead of BPM",
       "B: Decider sending emails might not be reliable",
       "D: Does not provide an ability to repeat a step"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -964,6 +1240,14 @@
       "D: IAM permissions need to be given explicitly to launch instances",
       "D: ( )",
       "E: Although stacks can be nested, Network group will need to have all the application group permissions"
+    ],
+    "categories": [
+      "RDS",
+      "IAM",
+      "EC2",
+      "CloudFormation",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -987,6 +1271,16 @@
       "A: IAM users are global",
       "B: DynamoDB names should be unique only within a region",
       "D: Don’t want the data to be retained"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "ASG",
+      "EBS",
+      "CloudFormation",
+      "DynamoDB",
+      "ELB",
+      "Redshift"
     ]
   },
   {
@@ -1010,6 +1304,11 @@
       "C: as the environment is required for limited time the automated backup will not serve the purpose",
       "D: read replica not needed and will be deleted when the stack is deleted",
       "E: UpdatePolicy does not apply to RDS"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "CloudFormation"
     ]
   },
   {
@@ -1030,6 +1329,11 @@
       "Question 14@http://jayendrapatil.com/aws-cloudformation/",
       "D: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html",
       "D: (Refer )"
+    ],
+    "categories": [
+      "CloudFormation",
+      "SNS",
+      "Lambda"
     ]
   },
   {
@@ -1049,6 +1353,11 @@
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-cloudformation/",
       "B: CloudFormation allows source controlled, declarative templates as the basis for stack automation and Nested Stacks help achieve clean separation of layers while simultaneously providing a method to control all layers at once when needed"
+    ],
+    "categories": [
+      "OpsWorks",
+      "CloudFormation",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -1070,6 +1379,12 @@
       "A: https://blogs.aws.amazon.com/application-management/blog/category/Best+practices",
       "A: Only CloudFormation’s JSON Templates allow declarative version control of repeatedly deployable models of entire AWS clouds",
       "A: (. Refer )"
+    ],
+    "categories": [
+      "SES",
+      "ECS",
+      "EC2",
+      "CloudFormation"
     ]
   },
   {
@@ -1091,6 +1406,12 @@
       "A: expensive and slow as it returns only 1000 items at a time",
       "C: not economical with volumes",
       "D: not economical with volumes"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "DynamoDB",
+      "ELB"
     ]
   },
   {
@@ -1113,6 +1434,9 @@
       "B: Single table and concatenation impacts performance",
       "C: Concatenation will cause queries would be slower, if at all",
       "D: Composite key with Sensor ID and timestamp would help for faster queries"
+    ],
+    "categories": [
+      "DynamoDB"
     ]
   },
   {
@@ -1135,6 +1459,13 @@
       "B: Handle 10K IOPS ingestion and store data into Redshift for analysis",
       "C: Does not handle the ingestion issue",
       "D: RDS instance will not support data for 2 years"
+    ],
+    "categories": [
+      "RDS",
+      "SQS",
+      "EC2",
+      "DynamoDB",
+      "Redshift"
     ]
   },
   {
@@ -1153,6 +1484,9 @@
     ],
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-dynamodb/"
+    ],
+    "categories": [
+      "DynamoDB"
     ]
   },
   {
@@ -1171,6 +1505,11 @@
     ],
     "commentList": [
       "Question 27@http://jayendrapatil.com/aws-dynamodb/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "DynamoDB"
     ]
   },
   {
@@ -1189,6 +1528,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-emr-certification/"
+    ],
+    "categories": [
+      "S3",
+      "EMR"
     ]
   },
   {
@@ -1211,6 +1554,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Only Spot instances impacts performance",
       "D: Spot instances impacts performance and Spot instance not available for Redshift"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -1232,6 +1580,12 @@
       "B: Master and Core must be RI or On Demand. Cannot be Spot",
       "C: Need better durability for ingest file. Spot instances can be used for task nodes for cost saving. RI will not provide cost saving in this case",
       "D: Input should be in S3 standard, as re-ingesting the input data might end up being more costly then holding the data for limited time in standard S3"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2"
     ]
   },
   {
@@ -1250,6 +1604,11 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-emr-certification/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "DynamoDB"
     ]
   },
   {
@@ -1268,6 +1627,16 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-simple-email-service-ses/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
     ]
   }
 ]

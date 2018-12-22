@@ -2,24 +2,13 @@ package algo.aws.questions.passleader;
 
 import lombok.extern.log4j.Log4j2;
 
-import java.util.*;
-import java.util.function.Consumer;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 @Log4j2
 public class PassLeaderUtils {
-    public static Map<String, Integer> buildWordMap(String s){
-        String[] tokens = s.split("[ ,.\n]+");
-        Map<String, Integer> map = new HashMap<>();
-        Arrays.asList(tokens).forEach(token -> {
-            Integer count = map.get(token);
-            if(null == count) {
-                count = 0;
-            }
-            map.put(token, ++count);
-        });
-
-        return map;
-    }
 
     public static List<Map.Entry<String, Integer>> sortWordEntrys(Map<String, Integer> map){
         Set<Map.Entry<String, Integer>> set = map.entrySet();
@@ -41,9 +30,6 @@ public class PassLeaderUtils {
         boolean leadingSpace = false;
         while(idx < sb.length()){
             int len = findDict(sb, idx, dict);
-//            if(len == sentence.length()){   // a single string
-//                break;
-//            }
             if(-1 == len) {
                 leadingSpace = true;
             } else if (len > 0) {
