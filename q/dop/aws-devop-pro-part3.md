@@ -38,10 +38,10 @@ Ansible provides two methods for controlling tasks, loops and conditionals. The 
 ### QUESTION 203
 Which difference between core modules and extra modules is not correct?
 
-- A. Extr a modules may one day be come core modules 
-- B. C or e modules are supported by the Ansible team 
-- C. C or e modules are shipped by default with Ansible 
-- D. Extr a modules have no support
+- A. Extra modules may one day be come core modules 
+- B. Core modules are supported by the Ansible team 
+- C. Core modules are shipped by default with Ansible 
+- D. Extra modules have no support
 
 <details><summary>Answer:</summary><p> D
 
@@ -67,15 +67,15 @@ Explanation:
 
 All YAML files can begin with `---` and end with `...` to indicate where YAML starts and ends. While this is optional it is considered best practice.
   
- Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
+Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 
 </p></details><hr>
 
 ### QUESTION 205
 You have a playbook that includes a task to install a package for a service, put a configuration file for that package on the system and restart the service. The playbook is then run twice in a row. What would you expect Ansible to do on the second run?
 
-- A. Re move the old package and config file and reinstall and then rest a rt these rvice.
-- B. T a ke no action on the target host.
+- A. Remove the old package and config file and reinstall and then rest a rt these rvice.
+- B. Take no action on the target host.
 - C. Check if the package is installed,check if the file match es the source file,ifnotreinstallit;restart
 the service.
 - D. At tempt to reinstall the package,copy the file and rest a rt these rvice.
