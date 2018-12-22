@@ -37,13 +37,8 @@ You are using a configuration management system to manage your Amazon EC2 instan
 On your Amazon EC2 Instances, you want to store credentials for connecting to an Amazon RDS DB instance.
 How should you securely store these credentials?
 
-- A. Give the Amazon EC2 instances an IAM role that allows read access to a private Amazon S3
-bucket.
-Store a file with database credentials in the Amazon S3 bucket.
-Have your configuration management system pull the file from the bucket when it is needed.
-- B. Launch an Amazon EC2 instance and use the configuration management system to bootstrap the instance with the Amazon RDS DB credentials.
-Create an AMI from this instance.
-  
+- A. Give the Amazon EC2 instances an IAM role that allows read access to a private Amazon S3 bucket. Store a file with database credentials in the Amazon S3 bucket. Have your configuration management system pull the file from the bucket when it is needed.
+- B. Launch an Amazon EC2 instance and use the configuration management system to bootstrap the instance with the Amazon RDS DB credentials. Create an AMI from this instance.
 - C. Store the Amazon RDS DB credentials in Amazon EC2 user data. Import the credentials into the Instance on boot.
 - D. Assign an IAM role to your Amazon RDS instance, and use this IAM role to access the Amazon RDS DB from your Amazon EC2 instances.
 - E. Store your credentials in your version control system, in plaintext.
@@ -186,7 +181,6 @@ Use the ec2-describe-volumes API to enumerate existing backup volumes.
 Call the ec2-delete-volume API to prune backup volumes that are tagged with a date-tine group older than 30 days.
 - B. Write the script to call the Amazon Glacier upload archive API, and tag the backup archive with the current date-time group.
 Use the list vaults API to enumerate existing backup archives Call the delete vault API to prune backup archives that are tagged with a date-time group older than 30 days.
-  
 - C. Write the script to call the ec2-create-snapshot API, and tag the Amazon EBS snapshot with the current date-time group.
 Use the ec2-describe-snapshot API to enumerate existing Amazon EBS snapshots.
 Call the ec2-delete-snapShot API to prune Amazon EBS snapshots that are tagged with a date- time group older than 30 days.
