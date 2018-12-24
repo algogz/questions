@@ -1331,8 +1331,8 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 </p></details><hr>
 
 ### QUESTION 172
-Fill the blanks:___helps us track AWS API calls and transitions, ___helps to
-understand what resources we have now, and ___ allows auditing credentials and logins.
+Fill the blanks:______helps us track AWS API calls and transitions, ______helps to
+understand what resources we have now, and ______allows auditing credentials and logins.
 
 - A. AWS Config, CloudTrail, IAM Credential Reports
 - B. CloudTrail, IAM Credential Reports, AWS Config
@@ -1346,8 +1346,6 @@ Explanation:
 You can use AWS CloudTrail to get a history of AWS API calls and related events for your account. This includes calls made by using the AWS Management Console, AWS SDKs, command line tools, and higher-level AWS services. 
 
 http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
-
-allows auditing credentials and logins.
   
 </p></details><hr>
 
@@ -1405,7 +1403,7 @@ https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
-### QUESTION 176
+### QUESTION 176 x
 You need to create a simple, holistic check for your system's general availablity and uptime. Your system presents itself as an HTTP-speaking API. What is the most simple tool on AWS to achieve this with?
 
 - A. Route53 Health Checks
@@ -1459,6 +1457,7 @@ Explanation:
 
 Because the instance will always be online during the day, in a predictable manner, and there are a sequence of batch jobs to perform at any time, we should run the batch jobs when the account software is off. We can achieve Heavy Utilization by alternating these times, so we should purchase the reservation as such, as this represents the lowest cost. There is no such thing a "Full" level utilization purchases on EC2. 
 
+Have to check this [Additional Reserved Instance Options for Amazon EC2](https://amazonaws-china.com/blogs/aws/reserved-instance-options-for-amazon-ec2/)
 https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf
 
 </p></details><hr>
@@ -1517,7 +1516,7 @@ http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-a
 
 </p></details><hr>
 
-### QUESTION 182
+### QUESTION 182 x
 Which status represents a failure state in AWS CloudFormation?
 
 - A. <code>UPDATE_COMPLETE_CLEANUP_IN_PROGRESS</code> 
@@ -1553,7 +1552,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 
-### QUESTION 184
+### QUESTION 184 x
 For AWS Auto Scaling, what is the first transition state an existing instance enters after leaving steady state in Standby mode?
 
 - A. Detaching
@@ -1571,7 +1570,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLif
 
 </p></details><hr>
 
-### QUESTION 185
+### QUESTION 185 *
 You want to pass queue messages that are 1GB each. How should you achieve this?
 
 - A. Use Kinesis as a buffer stream for message bodies. Store the checkpoint id for the placement in the Kinesis Stream in SQS.
@@ -1590,7 +1589,7 @@ http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/s3-mes
 
 </p></details><hr>
 
-### QUESTION 186
+### QUESTION 186 x
 You are designing a service that aggregates clickstream data in batch and delivers reports to subscribers via email only once per week. Data is extremely spikey, geographically distributed, high-scale, and unpredictable. How should you design this system?
 
 - A. Use a large RedShift cluster to perform the analysis, and a fleet of Lambdas to perform record inserts into the RedShift tables. Lambda will scale rapidly enough for the traffic spikes.
@@ -1629,8 +1628,8 @@ http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_vpc
 </p></details><hr>
 
 ### QUESTION 188
-To monitor API calls against our AWS account by different users and entities, we can use
-to create a history of calls in bulk for later review, and use   for reacting to
+To monitor API calls against our AWS account by different users and entities, we can use______
+to create a history of calls in bulk for later review, and use______for reacting to
 AWS API calls in real-time.
 
 - A. AWS Config; AWS Inspector
