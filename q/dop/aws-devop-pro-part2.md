@@ -1,7 +1,7 @@
 # AWS DevOps Engineer Professional - 2/3
 Version: 18.122
 
-### QUESTION 101
+### QUESTION 101 x
 What is the maximum supported single-volume throughput on EBS?
 
 - A. 320MiB/s 
@@ -169,7 +169,7 @@ When a user is trying to mount a blank EBS volume, it is required that the user 
 
 </p></details><hr>
 
-### QUESTION 111
+### QUESTION 111 x
 You need your CI to build AMIs with code pre-installed on the images on every new code push. You need to do this as cheaply as possible. How do you do this?
 
 - A. Bid on spot instances just above the asking price as soon as new commits come in, perform all instance configuration and setup, then create an AMI based on the spot instance.
@@ -320,7 +320,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-snapshot.html
 
 </p></details><hr>
 
-### QUESTION 119
+### QUESTION 119 x
 For AWS CloudFormation, which stack state refuses UpdateStack calls? 
 
 - A. <code>UPDATE_ROLLBACK_FAILED</code>
@@ -393,7 +393,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-r
 
 </p></details><hr>
 
-### QUESTION 123
+### QUESTION 123 x
 What is the scope of an EBS volume?
 
 - A. VPC
@@ -450,7 +450,7 @@ https://aws.amazon.com/cloudwatch/faqs/
 
 </p></details><hr>
 
-### QUESTION 126
+### QUESTION 126 x
 Which of these is not an intrinsic function in AWS CloudFormation?
 
 - A. Fn::Split
@@ -469,7 +469,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function
 
 </p></details><hr>
 
-### QUESTION 127
+### QUESTION 127 x
 For AWS CloudFormation, which is true?
 
 - A. Custom resources using SNS have a default timeout of 3 minutes.
@@ -620,7 +620,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.htm
 
 </p></details><hr>
 
-### QUESTION 135
+### QUESTION 135 x
 You need to replicate API calls across two systems in real time. What tool should you use as a
 buffer and transport mechanism for API call events?
 
@@ -695,7 +695,7 @@ https://blogs.aws.amazon.com/security/post/Tx3SYCORF5EKRC0/How-Does-Amazon-Cogni
 
 </p></details><hr>
 
-### QUESTION 139
+### QUESTION 139 x
 Your CTO has asked you to make sure that you know what all users of your AWS account are doing to change resources at all times. She wants a report of who is doing what over time, reported to her once per week, for as broad a resource type group as possible. How should you do this?
 
 - A. Create a global AWS CloudTrail Trail. Configure a script to aggregate the log data delivered to S3 once per week and deliver this to the CTO.
@@ -737,7 +737,7 @@ https://aws.amazon.com/lambda/faqs/
 
 </p></details><hr>
 
-### QUESTION 141
+### QUESTION 141 x
 Which is not a restriction on AWS EBS Snapshots?
 
 - A. Snapshots which are shared cannot be used as a basis for other snapshots.
@@ -755,7 +755,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot-permis
 
 </p></details><hr>
 
-### QUESTION 142
+### QUESTION 142 x
 You need to deploy a new application version to production. Because the deployment is high-risk, you need to roll the new version out to users over a number of hours, to make sure everything is working correctly. You need to be able to control the proportion of users seeing the new version of the application down to the percentage point.
 You use ELB and EC2 with Auto Scaling Groups and custom AMIs with your code pre-installed assigned to Launch Configurations. There are no database-level changes during your deployment. You have been told you cannot spend too much money, so you must not increase the number of EC2 instances much at all during the deployment, but you also need to be able to switch back to the original version of code quickly if something goes wrong. What is the best way to meet these requirements?
 
@@ -797,7 +797,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 </p></details><hr>
 
-### QUESTION 144
+### QUESTION 144 x
 If I want CloudFormation stack status updates to show up in a continuous delivery system in as close to real time as possible, how should I achieve this?
 
 - A. Use a long-poll on the Resources object in your CloudFormation stack and display those state changes in the UI for the system.
@@ -815,7 +815,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating
 
 </p></details><hr>
 
-### QUESTION 145
+### QUESTION 145 x
 What does it mean if you have zero IOPS and a non-empty I/O queue for all EBS volumes attached to a running EC2 instance?
 
 - A. The I/O queue is buffer flushing.
@@ -833,7 +833,7 @@ https://aws.amazon.com/ec2/sla/
 
 </p></details><hr>
 
-### QUESTION 146
+### QUESTION 146 x
 From a compliance and security perspective, which of these statements is true?
 
 - A. You do not ever need to rotate access keys for AWS IAM Users.
@@ -983,7 +983,7 @@ protect from system floods.
 
 Explanation:
 
-S3 stores all snapshots. If S3 is unavailable, snapshots are unavailable. Amazon EC2 also uses Amazon S3 to store snapshots (backup copies) of the data volumes. You can use snapshotsfor rec over in g data quickly and reli a bly in case of application or system failures. Youcanalsouse snapshots as a base line to create multiple new data volumes,expandthe size of an existing data volume,or move data volumes across multiple Availability Zones, thereby making your data usage highly scalable. For more information about using data volumesandsnapshots,see AmazonElasticBlockStore. 
+S3 stores all snapshots. If S3 is unavailable, snapshots are unavailable. Amazon EC2 also uses Amazon S3 to store snapshots (backup copies) of the data volumes. You can use snapshots for recovering data quickly and reli a bly in case of application or system failures. You can also use snapshots as a base line to create multiple new data volumes, expand the size of an existing data volume,or move data volumes across multiple Availability Zones, thereby making your data usage highly scalable. For more information about using data volumes and snapshots, see Amazon Elastic Block Store. 
 
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonS3.html
 
@@ -1039,7 +1039,7 @@ Explanation:
 
 To declaratively model build and destroy of a cluster, you need to use AWS CloudFormation. OpsWorks and Elastic Beanstalk cannot directly model EMR Clusters. The CLI is not declarative, and CLI Composer does not exist. 
 
-http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr- cluster.html
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-cluster.html
 
 </p></details><hr>
 
@@ -1102,7 +1102,7 @@ http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-en
 
 </p></details><hr>
 
-### QUESTION 160
+### QUESTION 160 x
 Your company needs to automate 3 layers of a large cloud deployment. You want to be able to track this deployment's evolution as it changes over time, and carefully control any alterations. What is a good way to automate a stack to meet these requirements?
 
 - A. Use OpsWorks Stacks with three layers to model the layering in your stack.
@@ -1122,11 +1122,11 @@ https://blogs.aws.amazon.com/application-management/post/Tx1T9JYQOS8AB9I/Use-Nes
 
 </p></details><hr>
 
-### QUESTION 161
-Your application's Auto Scaling Group scales up too quickly, too much, and stays scaled when trafficdecreases.What should you do to fix this?
+### QUESTION 161 x
+Your application's Auto Scaling Group scales up too quickly, too much, and stays scaled when traffic decreases.What should you do to fix this?
 
-- A. Set a longer cooldown period on the Group, so the system stops overshooting the target capacity. The issue is that the scaling system doesn't allow enough time for new instances to begin servic in g requests before me as ur in g a ggreg at e load a g a in.
-- B. Calculate the bottleneck or constraint on the compute layer, then select that as the new metric, and set them etric thresholds to the bounding values that begin to a ffect response latency.
+- A. Set a longer cooldown period on the Group, so the system stops overshooting the target capacity. The issue is that the scaling system doesn't allow enough time for new instances to begin servicin g requests before measuring aggregate load again.
+- B. Calculate the bottleneck or constraint on the compute layer, then select that as the new metric, and set the metric thresholds to the bounding values that begin to affect response latency.
 - C. Raise the CloudWatch Alarms threshold associated with your autoscaling group, so the scaling takes more of an increase in demand before beginning.
 - D. Use larger instances instead of lots of smaller ones, so the Group stops scaling out so much and wasting resources as the OS level,since the OS uses a higher proportion of resources on smaller instances.
 
@@ -1134,14 +1134,14 @@ Your application's Auto Scaling Group scales up too quickly, too much, and stays
 
 Explanation:
 
-Systems will always over-scale unless you choose the metric that runs out first and becomes constrainedfirst.You also need to set the thresholds of them etric based on whetherornot latency is affected by the change,to justify adding capacity instead of wasting money. 
+Systems will always over-scale unless you choose the metric that runs out first and becomes constrained first. You also need to set the thresholds of the metric based on whether or not latency is affected by the change,to justify adding capacity instead of wasting money. 
 
 http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html
 
 </p></details><hr>
 
 ### QUESTION 162
-You need the absolute highest possible network performance for a cluster computing application. You already selected homogeneous instance types supporting 10 gigabit enhancednetworking, made sure that your work load was network bound,andputthe instances in a placement group. What is the last optimization you can make?
+You need the absolute highest possible network performance for a cluster computing application. You already selected homogeneous instance types supporting 10 gigabit enhanced networking, made sure that your work load was network bound, and put the instances in a placement group. What is the last optimization you can make?
 
 - A. Use 9001 MTU instead of 1500 for Jumbo Frames, to raise packet body to packet overhead ratios.
 - B. Segregate the instances into different peered VPCs while keeping them all in a placement group, so each one has its own Internet Gateway.
@@ -1189,13 +1189,13 @@ If you're trying to configure an AWS Elastic Beanstalk worker tier for easy debu
 
 Explanation:
 
-Elastic Beanstalk worker environments support Amazon Simple Queue Service (SQS) dead letter queues. A dead letter queue is a queue where other (source) queues can send messages that for some reason could not be successfully processed. A primary benefit of using a dead letter queue is the ability to sideline and isolate the unsuccessfully processed messages. You canthen analyze any messages sent to the de a d letter queue to try to determine why they were not successfully processed. 
+Elastic Beanstalk worker environments support Amazon Simple Queue Service (SQS) dead letter queues. A dead letter queue is a queue where other (source) queues can send messages that for some reason could not be successfully processed. A primary benefit of using a dead letter queue is the ability to sideline and isolate the unsuccessfully processed messages. You can then analyze any messages sent to the dead letter queue to try to determine why they were not successfully processed. 
 
 http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-env-tiers.html#worker-deadletter
 
 </p></details><hr>
 
-### QUESTION 165
+### QUESTION 165 x
 You have a high security requirement for your AWS accounts. What is the most rapid and
 sophisticated setup you can use to react to AWS API calls to your account?
 
@@ -1206,7 +1206,7 @@ notifications, pushing into a Lambda, which inserts records into an ELK stack fo
 analysis.
 - C. Use a CloudWatch Rule ScheduleExpression to periodically analyze IAM credential logs.
 Push the deltas for events into an ELK stack and perform ad-hoc analysis there.
-- D. CloudWatch Events Rules which trigger based on all AWS API calls, submitting all events to an AWS Kinesis Stre a m for arbitrary down stream analysis. 
+- D. CloudWatch Events Rules which trigger based on all AWS API calls, submitting all events to an AWS Kinesis Stream for arbitrary down stream analysis. 
 
 <details><summary>Answer:</summary><p> D
 
@@ -1237,7 +1237,7 @@ http://docs.aws.amazon.com/cli/latest/reference/cloudformation/list-stacks.html
 </p></details><hr>
 
 ### QUESTION 167
-Your application consists of 10% writes and 90% reads. You currently service all requests through a Route53 Alias Record directed towards an AWS ELB, which sits in front of an EC2 Auto Scaling Group. Your system is getting very expensive when there are large traffic spikes during certain news events, during which many more people request to read similar data all at the sametime.What is the simplest and che a pest way to reduce costs and scale with spikes like this?
+Your application consists of 10% writes and 90% reads. You currently service all requests through a Route53 Alias Record directed towards an AWS ELB, which sits in front of an EC2 Auto Scaling Group. Your system is getting very expensive when there are large traffic spikes during certain news events, during which many more people request to read similar data all at the sametime.What is the simplest and cheapest way to reduce costs and scale with spikes like this?
 
 - A. Create an S3 bucket and asynchronously replicate common requests responses into S3 objects. When are quest comes in for a precomputed response,redirecttoAWSS3.
 - B. Create another ELB and Auto Scaling Group layer mounted on top of the other system, addinga tiertothesystem.Serve most read requests out of the top layer.
@@ -1331,8 +1331,8 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 </p></details><hr>
 
 ### QUESTION 172
-Fill the blanks:   helps us track AWS API calls and transitions,   helps to
-understand what resources we have now, and
+Fill the blanks:___helps us track AWS API calls and transitions, ___helps to
+understand what resources we have now, and ___ allows auditing credentials and logins.
 
 - A. AWS Config, CloudTrail, IAM Credential Reports
 - B. CloudTrail, IAM Credential Reports, AWS Config

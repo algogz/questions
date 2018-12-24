@@ -1585,7 +1585,7 @@ https://blogs.aws.amazon.com/application-management/blog/category/Best+practices
 
 </p></details><hr>
 
-### QUESTION 89
+### QUESTION 89 x
 You are creating a new API for video game scores. Reads are 100 times more common than writes, and the top 1% of scores are read 100 times more frequently than the rest of the scores. What's the best design for this system, using DynamoDB?
 
 - A. DynamoDB table with 100x higher read than write throughput, with CloudFront caching.
@@ -1603,7 +1603,7 @@ http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForT a
 
 </p></details><hr>
 
-### QUESTION 90
+### QUESTION 90 x
 You were just hired as a DevOps Engineer for a startup. Your startup uses AWS for 100% of their infrastructure. They currently have no automation at all for deployment, and they have had many failures while trying to deploy to production. The company has told you deployment process risk mitigation is the most important thing now, and you have a lot of budget for tools and AWS resources.
 Their stack:
 ```
@@ -1652,7 +1652,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 
-### QUESTION 92
+### QUESTION 92 x
 Your system uses a multi-master, multi-region DynamoDB configuration spanning two regions to achieve high availablity. For the first time since launching your system, one of the AWS Regions in which you operate over went down for 3 hours, and the failover worked correctly. However, after recovery, your users are experiencing strange bugs, in which users on different sides of the globe see different data. What is a likely design issue that was not accounted for when launching?
 
 - A. The system does not have Lambda Functor Repair Automatons, to perform table scans and chack for corrupted partition blocks inside the Table in the recovered Region.
@@ -1689,7 +1689,7 @@ https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf
 
 </p></details><hr>
 
-### QUESTION 94
+### QUESTION 94 x
 You run operations for a company that processes digital wallet payments at a very high volume. One second of downtime, during which you drop payments or are otherwise unavailable, loses you on average USD 100. You balance the financials of the transaction system once per day. Which database setup is best suited to address this business risk?
 
 - A. A multi-AZ RDS deployment with synchronous replication to multiple standbys and read-replicas for fast failover and ACID properties.
