@@ -31,7 +31,9 @@ Ansible provides some methods for controlling how or when a task is ran. Which o
 
 Explanation:
 
-Ansible provides two methods for controlling tasks, loops and conditionals. The "with_items" context will allow the task to loop through a list of items, while the `when` context will allow a conditional requirement to be met for the task to run. Both can be used at the same time. Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals
+Ansible provides two methods for controlling tasks, loops and conditionals. The "with_items" context will allow the task to loop through a list of items, while the `when` context will allow a conditional requirement to be met for the task to run. Both can be used at the same time. 
+
+Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and-conditionals
 
 </p></details><hr>
 
@@ -102,7 +104,9 @@ Which tool will Ansible not use, even if available, to gather facts?
 
 Explanation:
 
-Ansible will use it's own `setup` module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with `ohai_` or `facter_` respectively. `lsb_relase` is a Linux tool for determining distribution information. Reference: http://docs.ansible.com/ansible/setup_module.html
+Ansible will use it's own `setup` module to gather facts for the local system. Additionally, if ohai or facter are installed, those will also be used and all variables will be prefixed with `ohai_` or `facter_` respectively. `lsb_relase` is a Linux tool for determining distribution information. 
+
+Reference: http://docs.ansible.com/ansible/setup_module.html
 
 </p></details><hr>
 
@@ -120,7 +124,7 @@ Explanation:
 
 In Ansible's variable precedence, the highest precedence is the extra vars option on the command line.
 
-Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i- put-a-variable
+Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
   
 </p></details><hr>
 
@@ -136,7 +140,9 @@ If Ansible encounters a resource that does not meet the requirements specified i
 
 Explanation:
 
-Idempotency states that changes are only made if a resource does not meet the requirement specifications. If a change is made, it is made `in-place` and will not break existing resources. Reference: http://docs.ansible.com/ansible/glossary.html
+Idempotency states that changes are only made if a resource does not meet the requirement specifications. If a change is made, it is made `in-place` and will not break existing resources. 
+
+Reference: http://docs.ansible.com/ansible/glossary.html
 
 </p></details><hr>
 
@@ -170,7 +176,9 @@ What is the expected behavior if Ansible is called with `ansible-playbook -i loc
 
 Explanation:
 
-Ansible expects an inventory filename with the `-i` option, regardless if it's a valid hostname. For this to execute on the host `localhost` resolves to, a comma needs to be appended to the end. Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory
+Ansible expects an inventory filename with the `-i` option, regardless if it's a valid hostname. For this to execute on the host `localhost` resolves to, a comma needs to be appended to the end. 
+
+Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory
 
 </p></details><hr>
 
@@ -241,7 +249,9 @@ Ansible supports running Playbook on the host directly or via SSH. How can Ansib
 
 Explanation:
 
-Ansible can be told to run locally on the command line with the `-c` option or can be told via the `connection: local` declaration in the playbook. The default connection method is `remote`. Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types
+Ansible can be told to run locally on the command line with the `-c` option or can be told via the `connection: local` declaration in the playbook. The default connection method is `remote`. 
+
+Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connection-types
 
 </p></details><hr>
 
@@ -323,7 +333,9 @@ Explanation:
 
 FROM scratch
 CMD /app/hello.sh
-The image contains all the layers from the base image (only one in this case, since we're building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images
+The image contains all the layers from the base image (only one in this case, since we're building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. 
+
+Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images
 
 </p></details><hr>
 
@@ -543,7 +555,7 @@ Explanation:
 
 A Docker image is built up from a series of layers. Each layer represents an instruction in the image's Dockerfile. Each layer except the very last one is read-only.
 
-Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and- layers
+Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and-layers
 
 </p></details><hr>
 
@@ -562,8 +574,8 @@ Explanation:
 Some RUN commands depend on the ability to pipe the output of one command into another, using the pipe character (|), as in the following example:
 RUN wget -O - https://some.site | wc -l > /number
 Docker executes these commands using the /bin/sh -c interpreter, which only evaluates the exit code of the last operation in the pipe to determine success. In the example above this build step succeeds and produces a new image so long as the wc -lcommand succeeds, even if the wget command fails.
-Reference:
-https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run
+
+Reference: https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#run
 
 </p></details><hr>
 
@@ -654,7 +666,7 @@ You can retrieve trail settings and status using the cloudtrail describe-trails 
 }
 ```
   
-Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html
+Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-by-using-the-aws-cli.html
 
 </p></details><hr>
 
@@ -672,7 +684,7 @@ Explanation:
 
 AWS IoT (Internet of Things) is integrated with CloudTrail to capture API calls from the AWS IoT console or from your code to the AWS IoT APIs. AWS IoT provides secure, bi-directional communication between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud. Using the information collected by CloudTrail, you can determine the request that was made to AWS IoT, the source IP address from which the request was made, who made the request, when it was made, and so on.
 
-Reference: http://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using- cloudtrail
+Reference: http://docs.aws.amazon.com/iot/latest/developerguide/monitoring_overview.html#iot-using-cloudtrail
 
 </p></details><hr>
 
@@ -727,7 +739,9 @@ bucket
 
 Explanation:
 
-When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. Reference: https://aws.amazon.com/cloudtrail/faqs/
+When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. 
+
+Reference: https://aws.amazon.com/cloudtrail/faqs/
 
 </p></details><hr>
 
@@ -744,7 +758,7 @@ Explanation:
 
 The command aws cloudtrail create-trail --name trailname --s3-bucket-name bucketname will create a single region trail. You must create a S3 bucket before you execute the command, with proper CloudTrail permissions applied to it (and you must have the AWS command line tools (CLI) on your system).
 
-Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html
+Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-by-using-the-aws-cli.html
 
 </p></details><hr>
 
@@ -762,7 +776,7 @@ Explanation:
 
 The CloudTrail Processing Library is a Java library that provides an easy way to process AWS CloudTrail logs in a fault-tolerant, scalable and flexible way. To set up the CloudTrail Processing Library, you first need to download CloudTrail Processing Library source from GitHub. You can then create the .jar file using this command.
 
-Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing- library.html
+Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-cloudtrail-processing-library.html
 
 </p></details><hr>
 
@@ -821,7 +835,7 @@ Explanation:
 
 CloudTrail records attempts to sign into the AWS Management Console, the AWS Discussion Forums and the AWS Support Center. Note, however, that CloudTrail does not record root sign-in failures.
 
-Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws- console-sign-in-events.html
+Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-aws-console-sign-in-events.html
 
 </p></details><hr>
 
@@ -860,7 +874,7 @@ Explanation:
 The update-trail command is used to change the configuration settings for a trail. You can only
 run update-trail command from the region in which the trail was created.
 
-Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail- by-using-the-aws-cli.html
+Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-by-using-the-aws-cli.html
 
 </p></details><hr>
 
@@ -878,7 +892,7 @@ Explanation:
 
 As CloudTrail sends a notification each time a log file is written to the Amazon S3 bucket, an account that's very active can generate a large number of notifications. If you subscribe using email or SMS, you can end up receiving more messages than you can handle. AWS recommends that you subscribe using Amazon Simple Queue Service (Amazon SQS), which lets you handle notifications programmatically.
 
-Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.ht ml
+Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_configuration.html
 
 </p></details><hr>
 
@@ -897,9 +911,8 @@ Explanation:
 Within an IAM policy, IfExists can be added to the end of any condition operator except the
 Null condition.It can be used to in dic at e that condition a l com p a r is on needs to h app en if the
 policy key is present in the context of a request; otherwise, it can be ignored.
-Reference:
-http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.ht
-ml
+
+Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html
 
 </p></details><hr>
 
@@ -921,7 +934,9 @@ US West
 (Oregon) US
 East (N. Virginia) EU (Ireland)
 Asia Pacific (Seoul) Asia Pacific (Mumbai) Asia Pacific (Tokyo) Asia Pacific (Sydney)
-Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html #in spector_supported-regions
+Amazon Inspector is hosted within AWS regions behind a public endpoint. All regions are isolated from each other, and the telemetry and findings for all assessments performed within aregion rem a in in that region and are not distributed by these rvice too the r Amazon Inspector locations. 
+
+Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supported_os_regions.html#inspectorsupported-regions
 
 </p></details><hr>
 
@@ -939,7 +954,7 @@ Explanation:
 
 By default, access to resources is denied. To allow access to a resource, you must set the Effect element to Allow. To override an allow (for example, to override an allow that is otherwise in force), you set the Effect element to Deny.
 
-Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html
+Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions.html
 
 </p></details><hr>
 
@@ -1030,7 +1045,7 @@ Explanation:
 
 A user can define various elements for an IAM policy. The elements include Version, ID, Statement, Sid, Effect, Principal, Not Principal, Action, Not Action, Resource, Not Resource, Condition, and Supported Data Types
 
-Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html
+Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions.html
 
 </p></details><hr>
 
@@ -1052,7 +1067,7 @@ export https_proxy=https://hostname:port
 export http_proxy=http://hostname:port
 export no_proxy= 123.456.789.111
 
-Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector- agent-proxy
+Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector-agent-proxy
 
 </p></details><hr>
 
@@ -1135,7 +1150,7 @@ When defining an IAM Policy, the version element specifies the policy language v
 2008-10-17. This was an earlier version of the policy language. The user might see this version on the existing policies. Do not use this version for any new policies or any existing policies that are being updated.
 If a version element is not included, the value defaults to 2008-10-17.
 
-Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions. html
+Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions.html
   
 </p></details><hr>
 
@@ -1161,7 +1176,9 @@ start-assessment-run
 name <value>]
 [--cli-input-json <value>]
 [--generate-cli-skeleton
-<value>] Reference: http://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html
+<value>] 
+
+Reference: http://docs.aws.amazon.com/cli/latest/reference/inspector/start-assessment-run.html
 
 </p></details><hr>
 
@@ -1180,7 +1197,9 @@ edittomatch yourenvironment.
 
 Explanation:
 
-Proxy support for AWS agents is achieved through the use of the WinHTTP proxy. Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on- win.html#inspector- agent-proxy
+Proxy support for AWS agents is achieved through the use of the WinHTTP proxy. 
+
+Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_agents-on-win.html#inspector-agent-proxy
 
 </p></details><hr>
 

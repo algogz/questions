@@ -13,7 +13,9 @@ What is the maximum supported single-volume throughput on EBS?
 
 Explanation:
 
-The ceiling throughput for PIOPS on EBS is 320MiB/s. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
+The ceiling throughput for PIOPS on EBS is 320MiB/s. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
     
 </p></details><hr>
 
@@ -30,7 +32,9 @@ For AWS Auto Scaling, what is the first transition state a new instance enters a
 Explanation:
 
 When a scale out event occurs, the Auto Scaling group launches the required number of EC2 instances, using its assigned launch configuration. These instances start in the Pending state.
-If you add a lifecycle hook to your Auto Scaling group, you can perform a custom action here. For more information, see Lifecycle Hooks. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html
+If you add a lifecycle hook to your Auto Scaling group, you can perform a custom action here. For more information, see Lifecycle Hooks. 
+
+http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html
 
 </p></details><hr>
 
@@ -181,7 +185,9 @@ Use these credits whenever your create AMIs on instances.
 Explanation:
 
 Spot instances are the cheapest option, and you can use minimum run duration if your AMI takes more than a few minutes to create.
-Spot instances are also available to run for a predefined duration - in hourly increments up to six hours in length - at a significant discount (30-45%) compared to On-Demand pricing plus an additional 5% during off-peak times1 for a total of up to 50% savings. https://aws.amazon.com/ec2/spot/pricing/
+Spot instances are also available to run for a predefined duration - in hourly increments up to six hours in length - at a significant discount (30-45%) compared to On-Demand pricing plus an additional 5% during off-peak times1 for a total of up to 50% savings. 
+
+https://aws.amazon.com/ec2/spot/pricing/
 
 </p></details><hr>
 
@@ -197,7 +203,9 @@ When thinking of DynamoDB, what are true of Global Secondary Key properties?
 
 Explanation:
 
-Global secondary index -- an index with a partition key and a sort key that can be different from those on the table. A global secondary index is considered "global" because queries on the index can span all of the data in a table, across all partitions. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
+Global secondary index -- an index with a partition key and a sort key that can be different from those on the table. A global secondary index is considered "global" because queries on the index can span all of the data in a table, across all partitions. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
 
 </p></details><hr>
 
@@ -213,7 +221,9 @@ You need to process long-running jobs once and only once. How might you do this?
 
 Explanation:
 
-The message timeout defines how long after a successful receive request SQS waits before allowing jobs to be seen by other components, and proper configuration prevents duplicate processing. http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/MessageLife cycle.ht ml
+The message timeout defines how long after a successful receive request SQS waits before allowing jobs to be seen by other components, and proper configuration prevents duplicate processing. 
+
+http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/MessageLifecycle.html
 
 </p></details><hr>
 
@@ -230,7 +240,9 @@ What can you do to reduce this load?
 
 Explanation:
 
-One benefit of long polling with Amazon SQS is the reduction of the number of empty responses, when there are no messages available to return, in reply to a ReceiveMessage request sent to an Amazon SQS queue. Long polling allows the Amazon SQS service to wait until a message is available in the queue before sending a response. http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long- polling.html
+One benefit of long polling with Amazon SQS is the reduction of the number of empty responses, when there are no messages available to return, in reply to a ReceiveMessage request sent to an Amazon SQS queue. Long polling allows the Amazon SQS service to wait until a message is available in the queue before sending a response. 
+
+http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html
 
 </p></details><hr>
 
@@ -247,7 +259,9 @@ exceeded, email the manager.
 
 Explanation:
 
-Even if you're careful to stay within the free tier, it's a good idea to create a billing alarm to notify you if you exceed the limits of the free tier. Billing alarms can help to protect you against unknowingly accruing charges if you inadvertently use a service outside of the free tier or if traffic exceeds your expectations. http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free- tier-alarms.html
+Even if you're careful to stay within the free tier, it's a good idea to create a billing alarm to notify you if you exceed the limits of the free tier. Billing alarms can help to protect you against unknowingly accruing charges if you inadvertently use a service outside of the free tier or if traffic exceeds your expectations. 
+
+http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-alarms.html
 
 </p></details><hr>
 
@@ -263,7 +277,9 @@ You need to grant a vendor access to your AWS account. They need to be able to r
 
 Explanation:
 
-When third parties require access to your organization's AWS resources, you can use roles to delegate access to them. For example, a third party might provide a service for managing your AWS resources. With IAM roles, you can grant these third parties access to your AWS resources without sharing your AWS security credentials. Instead, the third party can access your AWS resources by assuming a role that you create in your AWS account. http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_third-party.html
+When third parties require access to your organization's AWS resources, you can use roles to delegate access to them. For example, a third party might provide a service for managing your AWS resources. With IAM roles, you can grant these third parties access to your AWS resources without sharing your AWS security credentials. Instead, the third party can access your AWS resources by assuming a role that you create in your AWS account. 
+
+http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_third-party.html
   
 </p></details><hr>
 
@@ -280,7 +296,9 @@ Your serverless architecture using AWS API Gateway, AWS Lambda, and AWS DynamoDB
 Explanation:
 
 AWS API Gateway by default throttles at 500 requests per second steady-state, and 1000 requests per second at spike. Lambda, by default, throttles at 100 concurrent requests for safety. At 500 milliseconds (half of a second) per request, you can expect to support 200 requests per second at 100 concurrency. This is less than the 400 requests per second your system now requires. Make a limit increase request via the AWS Support Console.
-AWS Lambda: Concurrent requests safety throttle per account -> 100 http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_lambda
+AWS Lambda: Concurrent requests safety throttle per account -> 100 
+
+http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_lambda
 
 </p></details><hr>
 
@@ -296,7 +314,9 @@ Why are more frequent snapshots or EBS Volumes faster?
 
 Explanation:
 
-After writing data to an EBS volume, you can periodically create a snapshot of the volume to use as a baseline for new volumes or for data backup. If you make periodic snapshots of a volume, the snapshots are incremental so that only the blocks on the device that have changed after your last snapshot are saved in the new snapshot. Even though snapshots are saved incrementally, the snapshot deletion process is designed so that you need to retain only the most recent snapshot in order to restore the volume. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-snapshot.html
+After writing data to an EBS volume, you can periodically create a snapshot of the volume to use as a baseline for new volumes or for data backup. If you make periodic snapshots of a volume, the snapshots are incremental so that only the blocks on the device that have changed after your last snapshot are saved in the new snapshot. Even though snapshots are saved incrementally, the snapshot deletion process is designed so that you need to retain only the most recent snapshot in order to restore the volume. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-snapshot.html
 
 </p></details><hr>
 
@@ -312,7 +332,9 @@ For AWS CloudFormation, which stack state refuses UpdateStack calls?
 
 Explanation:
 
-When a stack is in the UPDATE_ROLLBACK_FAILED state, you can continue rolling it back to return it to a working state (to UPDATE_ROLLBACK_COMPLETE). You cannot update a stack that is in the UPDATE_ROLLBACK_FAILED state. However, if you can continue to roll it back, you can return the stack to its original settings and try to update it again. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks- continueu pdaterollback.html
+When a stack is in the UPDATE_ROLLBACK_FAILED state, you can continue rolling it back to return it to a working state (to UPDATE_ROLLBACK_COMPLETE). You cannot update a stack that is in the UPDATE_ROLLBACK_FAILED state. However, if you can continue to roll it back, you can return the stack to its original settings and try to update it again. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html
 
 </p></details><hr>
 
@@ -328,7 +350,9 @@ You need to migrate 10 million records in one hour into DynamoDB. All records ar
 
 Explanation:
 
-You need 2 units to make a 1.5KB write, since you round up. You need 20 million total units to perform this load. You have 3600 seconds to do so. Divide and round up for 5556. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ProvisionedT hroughp ut.html
+You need 2 units to make a 1.5KB write, since you round up. You need 20 million total units to perform this load. You have 3600 seconds to do so. Divide and round up for 5556. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ProvisionedThroughput.html
 
 </p></details><hr>
 
@@ -345,7 +369,9 @@ Your CTO thinks your AWS account was hacked. What is the only way to know for ce
 Explanation:
 
 You must use CloudTrail Log File Validation (default or custom implementation), as any other tracking method is subject to forgery in the event of a full account compromise by sophisticated enough hackers. Validated log files are invaluable in security and forensic investigations.
-For example, a validated log file enables you to assert positively that the log file itself has not changed, or that particular user credentials performed specific API activity. The CloudTrail log file integrity validation process also lets you know if a log file has been deleted or changed, or assert positively that no log files were delivered to your account during a given period of time. http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html
+For example, a validated log file enables you to assert positively that the log file itself has not changed, or that particular user credentials performed specific API activity. The CloudTrail log file integrity validation process also lets you know if a log file has been deleted or changed, or assert positively that no log files were delivered to your account during a given period of time. 
+
+http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html
   
 </p></details><hr>
 
@@ -361,7 +387,9 @@ Which of these is not a Pseudo Parameter in AWS CloudFormation?
 
 Explanation:
 
-This is the complete list of Pseudo Parameters: AWS::AccountId, AWS::NotificationARNs, AWS::NoValue, AWS::Region, AWS::StackId, AWS::StackName http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter- reference.html
+This is the complete list of Pseudo Parameters: AWS::AccountId, AWS::NotificationARNs, AWS::NoValue, AWS::Region, AWS::StackId, AWS::StackName 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html
 
 </p></details><hr>
 
@@ -377,7 +405,9 @@ What is the scope of an EBS volume?
 
 Explanation:
 
-An Amazon EBS volume is tied to its Availability Zone and can be attached only to instances in the same Availability Zone. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
+An Amazon EBS volume is tied to its Availability Zone and can be attached only to instances in the same Availability Zone. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 
@@ -395,7 +425,8 @@ What is the most likely problem?
 Explanation:
 
 The primary key selection dramatically affects performance consistency when reading or writing to DynamoDB. By selecting a key that is tied to the identity of the game, you forced DynamoDB to create a hotspot in the table partitions, and over-request against the primary key partition for the popular game. When it stores data, DynamoDB divides a table's items into multiple partitions, and distributes the data primarily based upon the partition key value. The provisioned throughput associated with a table is also divided evenly among the partitions, with no sharing of provisioned throughput across partitions.
-http://docs.aws.amazon.com/amazondynamodb/latest/dev eloperguide/GuidelinesForT ables.html# Guideli nesForTables.UniformWorkload
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForTables.html#GuidelinesForTables.UniformWorkload
   
 </p></details><hr>
 
@@ -414,6 +445,7 @@ Which of the following techniques will NOT help you figure out what happened?
 Explanation:
 
 Metrics data are available for 2 weeks. If you want to store metrics data beyond that duration, you can retrieve it using our GetMetricStatistics API as well as a number of applications and tools offered by AWS partners.
+
 https://aws.amazon.com/cloudwatch/faqs/
 
 </p></details><hr>
@@ -431,7 +463,9 @@ Which of these is not an intrinsic function in AWS CloudFormation?
 Explanation:
 
 This is the complete list of Intrinsic Functions...: Fn::Base64, Fn::And, Fn::Equals, Fn::If, Fn::Not, Fn::Or,
-Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Ref http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function- reference.html
+Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Ref 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html
 
 </p></details><hr>
 
@@ -450,7 +484,9 @@ Explanation:
 
 Code is a property of the AWS::Lambda::Function resource that enables to you specify the source code of an AWS Lambda (Lambda) function.
 You can point to a file in an Amazon Simple Storage Service (Amazon S3) bucket or specify your
-source code as inline text (for nodejs runtime environments only). http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom- resources.html
+source code as inline text (for nodejs runtime environments only). 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html
 
 </p></details><hr>
 
@@ -466,7 +502,9 @@ Your API requires the ability to stay online during AWS regional failures. Your 
 
 Explanation:
 
-Latency Based Records allow request distribution when all is well with both regions, and the Failover component enables fallbacks between regions. By adding in the ELB and ASG, your system in the surviving region can expand to meet 100% of demand instead of the original fraction, whenever failover occurs. http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html
+Latency Based Records allow request distribution when all is well with both regions, and the Failover component enables fallbacks between regions. By adding in the ELB and ASG, your system in the surviving region can expand to meet 100% of demand instead of the original fraction, whenever failover occurs. 
+
+http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html
 
 </p></details><hr>
 
@@ -482,7 +520,9 @@ You are designing an enterprise data storage system. Your data management softwa
 
 Explanation:
 
-standard volumes, or Magnetic volumes, are best for: Cold workloads where data is infrequently accessed, or scenarios where the lowest storage cost is important. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
+standard volumes, or Magnetic volumes, are best for: Cold workloads where data is infrequently accessed, or scenarios where the lowest storage cost is important. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
 
 </p></details><hr>
 
@@ -499,7 +539,9 @@ You need to deploy an AWS stack in a repeatable manner across multiple environme
 
 Explanation:
 
-Custom resources provide a way for you to write custom provisioning logic in AWS CloudFormation template and have AWS CloudFormation run it during a stack operation, such as when you create, update or delete a stack. For more information, see Custom Resources. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom- resources.html
+Custom resources provide a way for you to write custom provisioning logic in AWS CloudFormation template and have AWS CloudFormation run it during a stack operation, such as when you create, update or delete a stack. For more information, see Custom Resources. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html
 
 </p></details><hr>
 
@@ -515,7 +557,9 @@ You run a 2000-engineer organization. You are about to begin using AWS at a larg
 
 Explanation:
 
-You must use AD Connector as a power-user of Microsoft Active Directory. Simple AD only works with a subset of AD functionality. Sync Domains do not exist; they are made up answers. AD Connector is a directory gateway that allows you to proxy directory requests to your on-premises Microsoft Active Directory, without caching any information in the cloud. AD Connector comes in 2 sizes; small and large. A small AD Connector is designed for smaller organizations of up to 500 users. A large AD Connector is designed for larger organizations of up to 5,000 users. https://aws.amazon.com/directoryservice/details/
+You must use AD Connector as a power-user of Microsoft Active Directory. Simple AD only works with a subset of AD functionality. Sync Domains do not exist; they are made up answers. AD Connector is a directory gateway that allows you to proxy directory requests to your on-premises Microsoft Active Directory, without caching any information in the cloud. AD Connector comes in 2 sizes; small and large. A small AD Connector is designed for smaller organizations of up to 500 users. A large AD Connector is designed for larger organizations of up to 5,000 users. 
+
+https://aws.amazon.com/directoryservice/details/
 
 </p></details><hr>
 
@@ -532,7 +576,9 @@ When thinking of AWS OpsWorks, which of the following is not an instance type yo
 
 Explanation:
 
-AWS OpsWorks supports the following instance types, which are characterized by how they are started and stopped. 24/7 instances are started manually and run until you stop them.Time-based instances are run by AWS OpsWorks on a specified daily and weekly schedule. They allow your stack to automatically adjust the number of instances to accommodate predictable usage patterns. Load-based instances are automatically started and stopped by AWS OpsWorks, based on specified load metrics, such as CPU utilization. They allow your stack to automatically adjust the number of instances to accommodate variations in incoming traffic. Load-based instances are available only for Linux-based stacks. http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
+AWS OpsWorks supports the following instance types, which are characterized by how they are started and stopped. 24/7 instances are started manually and run until you stop them.Time-based instances are run by AWS OpsWorks on a specified daily and weekly schedule. They allow your stack to automatically adjust the number of instances to accommodate predictable usage patterns. Load-based instances are automatically started and stopped by AWS OpsWorks, based on specified load metrics, such as CPU utilization. They allow your stack to automatically adjust the number of instances to accommodate variations in incoming traffic. Load-based instances are available only for Linux-based stacks. 
+
+http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
 
 </p></details><hr>
 
@@ -549,7 +595,8 @@ Which of these is not a CloudFormation Helper Script?
 Explanation:
 
 This is the complete list of CloudFormation Helper Scripts: cfn-init, cfn-signal, cfn-get-metadata, cfn-hup
-http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts- reference.html
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts-reference.html
 
 </p></details><hr>
 
@@ -567,7 +614,9 @@ Which of the following is NOT a best practice for using CloudFormation in a cont
 
 Explanation:
 
-Putting all resources in one stack is a bad idea, since different tiers have different life cycles and frequencies of change. For additional guidance about organizing your stacks, you can use two common frameworks: a multi-layered architecture and service-oriented architecture (SOA). http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best- practices.html#organizingstack s
+Putting all resources in one stack is a bad idea, since different tiers have different life cycles and frequencies of change. For additional guidance about organizing your stacks, you can use two common frameworks: a multi-layered architecture and service-oriented architecture (SOA). 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#organizingstacks
 
 </p></details><hr>
 
@@ -585,6 +634,7 @@ buffer and transport mechanism for API call events?
 Explanation:
 
 AWS Kinesis is an event stream service. Streams can act as buffers and transport across systems for in-order programmatic events, making it ideal for replicating API calls across systems. A typical Amazon Kinesis Streams application reads data from an Amazon Kinesis stream as data records. These applications can use the Amazon Kinesis Client Library, and they can run on Amazon EC2 instances. The processed records can be sent to dashboards, used to generate alerts, dynamically change pricing and advertising strategies, or send data to a variety of other AWS services. For information about Streams features and pricing, see Amazon Kinesis Streams.
+
 http://docs.aws.amazon.com/kinesis/latest/dev/introduction.html
 
 </p></details><hr>
@@ -602,7 +652,9 @@ You are building a Ruby on Rails application for internal, non-production use wh
 Explanation:
 
 Elastic Beanstalk's primary mode of operation exactly supports this use case out of the box. It is simpler than all the other options for this question.
-With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS cloud without worrying about the infrastructure that runs those applications. AWS Elastic Beanstalk reduces management complexity without restricting choice or control. You simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Ruby_rails.html
+With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS cloud without worrying about the infrastructure that runs those applications. AWS Elastic Beanstalk reduces management complexity without restricting choice or control. You simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring. 
+
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Ruby_rails.html
 
 </p></details><hr>
 
@@ -637,7 +689,9 @@ You will be storing the images in AWS S3. You want to run the system very cheapl
 
 Explanation:
 
-The short answer is that Amazon Cognito is a superset of the functionality provided by web identity federation. It supports the same providers, and you configure your app and authenticate with those providers in the same way. But Amazon Cognito includes a variety of additional features. For example, it enables your users to start using the app as a guest user and later sign in using one of the supported identity providers. https://blogs.aws.amazon.com/security/post/Tx3SYCORF5EKRC0/How-Does-Amazon-Cognito- Relate-to-Existing-Web-Identity-Federatio
+The short answer is that Amazon Cognito is a superset of the functionality provided by web identity federation. It supports the same providers, and you configure your app and authenticate with those providers in the same way. But Amazon Cognito includes a variety of additional features. For example, it enables your users to start using the app as a guest user and later sign in using one of the supported identity providers. 
+
+https://blogs.aws.amazon.com/security/post/Tx3SYCORF5EKRC0/How-Does-Amazon-Cognito-Relate-to-Existing-Web-Identity-Federatio
 
 </p></details><hr>
 
@@ -678,6 +732,7 @@ c) RDS
 Explanation:
 
 Lambda is designed to scale instantly. EC2 + ELB + Auto Scaling require single-digit minutes to scale out. RDS will take at least 15 minutes, and will apply OS patches or any other updates when applied.
+
 https://aws.amazon.com/lambda/faqs/
 
 </p></details><hr>
@@ -694,7 +749,9 @@ Which is not a restriction on AWS EBS Snapshots?
 
 Explanation:
 
-Snapshots shared with other users are usable in full by the recipient, including but limited to the ability to base modified volumes and snapshots. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot- permissions.html
+Snapshots shared with other users are usable in full by the recipient, including but limited to the ability to base modified volumes and snapshots. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot-permissions.html
 
 </p></details><hr>
 
@@ -714,7 +771,9 @@ Configuration, to replace the old one. Gradually terminate instances running the
 
 Explanation:
 
-Only Weighted Round Robin DNS Records and reverse proxies allow such fine-grained tuning of traffic splits. The Blue-Green option does not meet the requirement that we mitigate costs and keep overall EC2 fleet size consistent, so we must select the 2 ELB and ASG option with WRR DNS tuning. This method is called A/B deployment and/or Canary deployment. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
+Only Weighted Round Robin DNS Records and reverse proxies allow such fine-grained tuning of traffic splits. The Blue-Green option does not meet the requirement that we mitigate costs and keep overall EC2 fleet size consistent, so we must select the 2 ELB and ASG option with WRR DNS tuning. This method is called A/B deployment and/or Canary deployment. 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -733,6 +792,7 @@ same Availability Zone.
 Explanation:
 
 You are not guaranteed 10gigabit performance, except within a placement group. A placement group is a logical grouping of instances within a single Availability Zone. Using placement groups enables applications to participate in a low-latency, 10 Gbps network. Placement groups are recommended for applications that benefit from low network latency, high network throughput, or both.
+
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 </p></details><hr>
@@ -749,7 +809,9 @@ If I want CloudFormation stack status updates to show up in a continuous deliver
 
 Explanation:
 
-Use NotificationARNs.member.N when making a CreateStack call to push stack events into SNS in nearly real-time. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks- monitor-stack.html
+Use NotificationARNs.member.N when making a CreateStack call to push stack events into SNS in nearly real-time. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-monitor-stack.html
 
 </p></details><hr>
 
@@ -766,6 +828,7 @@ What does it mean if you have zero IOPS and a non-empty I/O queue for all EBS vo
 Explanation:
 
 This is the definition of Unavailable from the EC2 and EBS SLA. "Unavailable" and "Unavailability" mean... For Amazon EBS, when all of your attached volumes perform zero read write IO, with pending IO in the queue.
+
 https://aws.amazon.com/ec2/sla/
 
 </p></details><hr>
@@ -782,7 +845,9 @@ From a compliance and security perspective, which of these statements is true?
 
 Explanation:
 
-IAM Role Access Keys are auto-rotated by AWS on your behalf; you do not need to rotate them. The application is granted the permissions for the actions and resources that you've defined for the role through the security credentials associated with the role. These security credentials are temporary and we rotate them automatically. We make new credentials available at least five minutes prior to the expiration of the old credentials. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
+IAM Role Access Keys are auto-rotated by AWS on your behalf; you do not need to rotate them. The application is granted the permissions for the actions and resources that you've defined for the role through the security credentials associated with the role. These security credentials are temporary and we rotate them automatically. We make new credentials available at least five minutes prior to the expiration of the old credentials. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
 
 </p></details><hr>
 
@@ -799,7 +864,9 @@ Which of these configuration or deployment practices is a security risk for RDS?
 Explanation:
 
 Making RDS accessible to the public internet in a public subnet poses a security risk, by making your database directly addressable and spammable.
-DB instances deployed within a VPC can be configured to be accessible from the Internet or from EC2 instances outside the VPC. If a VPC security group specifies a port access such as TCP port 22, you would not be able to access the DB instance because the firewall for the DB instance provides access only via the IP addresses specified by the DB security groups the instance is a member of and the port defined when the DB instance was created. http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.RDSSecurityGroups.html
+DB instances deployed within a VPC can be configured to be accessible from the Internet or from EC2 instances outside the VPC. If a VPC security group specifies a port access such as TCP port 22, you would not be able to access the DB instance because the firewall for the DB instance provides access only via the IP addresses specified by the DB security groups the instance is a member of and the port defined when the DB instance was created. 
+
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.RDSSecurityGroups.html
 
 </p></details><hr>
 
@@ -815,7 +882,9 @@ Which of these is not a reason a Multi-AZ RDS instance will failover?
 
 Explanation:
 
-The primary DB instance switches over automatically to the standby replica if any of the > following conditions occur: An Availability Zone outage, the primary DB instance fails, the DB instance's server type is changed, the operating system of the DB instance is, undergoing software patching, a manual failover of the DB instance was initiated using Reboot with failover http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+The primary DB instance switches over automatically to the standby replica if any of the > following conditions occur: An Availability Zone outage, the primary DB instance fails, the DB instance's server type is changed, the operating system of the DB instance is, undergoing software patching, a manual failover of the DB instance was initiated using Reboot with failover 
+
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
 
 </p></details><hr>
 
@@ -831,7 +900,9 @@ You need to create an audit log of all changes to customer banking data. You use
 
 Explanation:
 
-All suggested periodic options are sensitive to server failure during or between periodic flushes. Streaming to Lambda and then logging to CloudWatch Logs will make the system resilient to instance and Availability Zone failures. http://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html
+All suggested periodic options are sensitive to server failure during or between periodic flushes. Streaming to Lambda and then logging to CloudWatch Logs will make the system resilient to instance and Availability Zone failures. 
+
+http://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html
 
 </p></details><hr>
 
@@ -848,8 +919,9 @@ You need your API backed by DynamoDB to stay online during a total regional AWS 
 
 Explanation:
 
-There is no such thing as a cross-region ELB, nor such thing as a cross-region Auto Scaling Group, nor such thing as a DynamoDB Multi-Region Table. The only option that makes sense is the cross-regional replication version with two ELBs and ASGs with Route53 Failover and Latency DNS. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionR epl
-.html
+There is no such thing as a cross-region ELB, nor such thing as a cross-region Auto Scaling Group, nor such thing as a DynamoDB Multi-Region Table. The only option that makes sense is the cross-regional replication version with two ELBs and ASGs with Route53 Failover and Latency DNS. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl.html
 
 </p></details><hr>
 
@@ -869,7 +941,7 @@ Explanation:
 
 The IAM Role must be fine, as if it were broken, NO jobs would be processed since the system would never be able to get any queue messages. The same reasoning applies to the routing table change. The scaling metric is fine, as instance count increased when the queue depth increased due to more messages entering than exiting. Thus, the only reasonable option is that some of the recent messages must be malformed and unprocessable. 
 
-https://github.com/andrew-templeton/cloudacademy/blob/fc a 920b45234b be 99cc0e8efb9c65134884dd489/questions/null
+https://github.com/andrew-templeton/cloudacademy/blob/fca920b45234bbe99cc0e8efb9c65134884dd489/questions/null
 
 </p></details><hr>
 
@@ -911,7 +983,9 @@ protect from system floods.
 
 Explanation:
 
-S3 stores all snapshots. If S3 is unavailable, snapshots are unavailable. Amazon EC2 also uses Amazon S3 to store snapshots (backup copies) of the data volumes. You can use snapshotsfor rec over in g data quickly and reli a bly in case of application or system failures. Youcanalsouse snapshots as a base line to create multiple new data volumes,expandthe size of an existing data volume,or move data volumes across multiple Availability Zones, thereby making your data usage highly scalable. For more information about using data volumesandsnapshots,see AmazonElasticBlockStore. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonS3.html
+S3 stores all snapshots. If S3 is unavailable, snapshots are unavailable. Amazon EC2 also uses Amazon S3 to store snapshots (backup copies) of the data volumes. You can use snapshotsfor rec over in g data quickly and reli a bly in case of application or system failures. Youcanalsouse snapshots as a base line to create multiple new data volumes,expandthe size of an existing data volume,or move data volumes across multiple Availability Zones, thereby making your data usage highly scalable. For more information about using data volumesandsnapshots,see AmazonElasticBlockStore. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonS3.html
 
 </p></details><hr>
 
@@ -927,7 +1001,9 @@ Which of the following tools does not directly support AWS OpsWorks, for monitor
 
 Explanation:
 
-You can monitor your stacks in the following ways: AWS OpsWorks uses Amazon CloudWatch to provide thirteen custom metrics with detailed monitoring for each instance in the stack; AWS OpsWorks integrates with AWS CloudTrail to log every AWS OpsWorks API call and store the data in an Amazon S3 bucket; You can use Amazon CloudWatch Logs to monitor your stack's system, application, and custom logs. http://docs.aws.amazon.com/opsworks/latest/userguide/monitoring.html
+You can monitor your stacks in the following ways: AWS OpsWorks uses Amazon CloudWatch to provide thirteen custom metrics with detailed monitoring for each instance in the stack; AWS OpsWorks integrates with AWS CloudTrail to log every AWS OpsWorks API call and store the data in an Amazon S3 bucket; You can use Amazon CloudWatch Logs to monitor your stack's system, application, and custom logs. 
+
+http://docs.aws.amazon.com/opsworks/latest/userguide/monitoring.html
   
 </p></details><hr>
 
@@ -943,7 +1019,9 @@ What is a circular dependency in AWS CloudFormation?
 
 Explanation:
 
-To resolve a dependency error, add a DependsOn attribute to resources that depend on other resources in your template. In some cases, you must explicitly declare dependencies so that AWS CloudFormation can create or delete resources in the correct order. For example, if you create an Elastic IP and a VPC with an Internet gateway in the same stack, the Elastic IP must depend on the Internet gateway attachment. For additional information, see DependsOn Attribute. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#trouble shootin g-errors-dependence-error
+To resolve a dependency error, add a DependsOn attribute to resources that depend on other resources in your template. In some cases, you must explicitly declare dependencies so that AWS CloudFormation can create or delete resources in the correct order. For example, if you create an Elastic IP and a VPC with an Internet gateway in the same stack, the Elastic IP must depend on the Internet gateway attachment. For additional information, see DependsOn Attribute. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-dependence-error
 
 </p></details><hr>
 
@@ -959,7 +1037,9 @@ You need to run a very large batch data processing job one time per day. The sou
 
 Explanation:
 
-To declaratively model build and destroy of a cluster, you need to use AWS CloudFormation. OpsWorks and Elastic Beanstalk cannot directly model EMR Clusters. The CLI is not declarative, and CLI Composer does not exist. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr- cluster.html
+To declaratively model build and destroy of a cluster, you need to use AWS CloudFormation. OpsWorks and Elastic Beanstalk cannot directly model EMR Clusters. The CLI is not declarative, and CLI Composer does not exist. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr- cluster.html
 
 </p></details><hr>
 
@@ -980,6 +1060,7 @@ restoring an encrypted snapshot always creates an encrypted volume.
 Explanation:
 
 Snapshots that are taken from encrypted volumes are automatically encrypted. Volumes that are created from encrypted snapshots are also automatically encrypted. Your encrypted volumes and any associated snapshots always remain protected. For more information, see Amazon EBS Encryption.
+
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html
 
 </p></details><hr>
@@ -997,7 +1078,9 @@ When thinking of AWS OpsWorks, which of the following is true?
 
 Explanation:
 
-The stack is the core AWS OpsWorks component. It is basically a container for AWS resources-- Amazon EC2 instances, Amazon RDS database instances, and so on--that have a common purpose and should be logically managed together. You define the stack's constituents by adding one or more layers. A layer represents a set of Amazon EC2 instances that serve a particular purpose, such as serving applications or hosting a database server. An instance represents a single computing resource, such as an Amazon EC2 instance. http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
+The stack is the core AWS OpsWorks component. It is basically a container for AWS resources-- Amazon EC2 instances, Amazon RDS database instances, and so on--that have a common purpose and should be logically managed together. You define the stack's constituents by adding one or more layers. A layer represents a set of Amazon EC2 instances that serve a particular purpose, such as serving applications or hosting a database server. An instance represents a single computing resource, such as an Amazon EC2 instance. 
+
+http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html
 
 </p></details><hr>
 
@@ -1013,7 +1096,9 @@ When thinking of AWS Elastic Beanstalk, which statement is true?
 
 Explanation:
 
-Elastic Beanstalk installs a daemon on each Amazon EC2 instance in the Auto Scaling group to process Amazon SQS messages in the worker environment. The daemon pulls data off the Amazon SQS queue, inserts it into the message body of an HTTP POST request, and sends it to a user-configurable URL path on the local host. The content type for the message body within an HTTP POST request is application/json by default. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-env-tiers.html
+Elastic Beanstalk installs a daemon on each Amazon EC2 instance in the Auto Scaling group to process Amazon SQS messages in the worker environment. The daemon pulls data off the Amazon SQS queue, inserts it into the message body of an HTTP POST request, and sends it to a user-configurable URL path on the local host. The content type for the message body within an HTTP POST request is application/json by default. 
+
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-env-tiers.html
 
 </p></details><hr>
 
@@ -1031,7 +1116,9 @@ layers using the metadata interface.
 
 Explanation:
 
-Only CloudFormation allows source controlled, declarative templates as the basis for stack automation. Nested Stacks help achieve clean separation of layers while simultaneously providing a method to control all layers at once when needed. https://blogs.aws.amazon.com/application-management/post/Tx1T9JYQOS8AB9I/Use- Nested- Stacks-to- Create-Reusable-Templates-and-Support-Role-Specialization
+Only CloudFormation allows source controlled, declarative templates as the basis for stack automation. Nested Stacks help achieve clean separation of layers while simultaneously providing a method to control all layers at once when needed. 
+
+https://blogs.aws.amazon.com/application-management/post/Tx1T9JYQOS8AB9I/Use-Nested-Stacks-to-Create-Reusable-Templates-and-Support-Role-Specialization
 
 </p></details><hr>
 
@@ -1047,7 +1134,9 @@ Your application's Auto Scaling Group scales up too quickly, too much, and stays
 
 Explanation:
 
-Systems will always over-scale unless you choose the metric that runs out first and becomes constrainedfirst.You also need to set the thresholds of them etric based on whetherornot latency is affected by the change,to justify adding capacity instead of wasting money. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html
+Systems will always over-scale unless you choose the metric that runs out first and becomes constrainedfirst.You also need to set the thresholds of them etric based on whetherornot latency is affected by the change,to justify adding capacity instead of wasting money. 
+
+http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/policy_creating.html
 
 </p></details><hr>
 
@@ -1064,7 +1153,9 @@ You need the absolute highest possible network performance for a cluster computi
 Explanation:
 
 For instances that are collocated inside a placement group, jumbo frames help to achieve the maximum network throughput possible, and they are recommended in this case.
-For more information, see Placement Groups. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/network_mtu.html#jumbo_frame_instanc es
+For more information, see Placement Groups. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/network_mtu.html#jumbo_frame_instances
 
 </p></details><hr>
 
@@ -1080,7 +1171,9 @@ Your CTO is very worried about the security of your AWS account. How best can yo
 
 Explanation:
 
-For increased security, we recommend that you configure multi-factor authentication (MFA) to help protect your AWS resources. MFA adds extra security because it requires users to enter a unique authentication code from an approved authentication device or SMS text message when they access AWS websites or services. http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html
+For increased security, we recommend that you configure multi-factor authentication (MFA) to help protect your AWS resources. MFA adds extra security because it requires users to enter a unique authentication code from an approved authentication device or SMS text message when they access AWS websites or services. 
+
+http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html
 
 </p></details><hr>
 
@@ -1096,8 +1189,9 @@ If you're trying to configure an AWS Elastic Beanstalk worker tier for easy debu
 
 Explanation:
 
-Elastic Beanstalk worker environments support Amazon Simple Queue Service (SQS) dead letter queues. A dead letter queue is a queue where other (source) queues can send messages that for some reason could not be successfully processed. A primary benefit of using a dead letter queue is the ability to sideline and isolate the unsuccessfully processed messages. You canthen analyze any messages sent to the de a d letter queue to try to determine why they were not successfully processed. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-
-env- tiers.html#worker-d eadletter
+Elastic Beanstalk worker environments support Amazon Simple Queue Service (SQS) dead letter queues. A dead letter queue is a queue where other (source) queues can send messages that for some reason could not be successfully processed. A primary benefit of using a dead letter queue is the ability to sideline and isolate the unsuccessfully processed messages. You canthen analyze any messages sent to the de a d letter queue to try to determine why they were not successfully processed. 
+
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-env-tiers.html#worker-deadletter
 
 </p></details><hr>
 
@@ -1118,7 +1212,9 @@ Push the deltas for events into an ELK stack and perform ad-hoc analysis there.
 
 Explanation:
 
-CloudWatch Events allow subscription to AWS API calls, and direction of these events into Kinesis Streams. This allows a unified, near real-time stream for all API calls, which can be analyzed with any tool(s) of your choosing downstream. http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/EventTypes.html#api_event_type
+CloudWatch Events allow subscription to AWS API calls, and direction of these events into Kinesis Streams. This allows a unified, near real-time stream for all API calls, which can be analyzed with any tool(s) of your choosing downstream. 
+
+http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/EventTypes.html#api_event_type
 
 </p></details><hr>
 
@@ -1134,7 +1230,9 @@ What method should I use to author automation if I want to wait for a CloudForma
 
 Explanation:
 
-Event driven systems are good for IFTTT logic, but only polling will make a script wait to complete. ListStacks / list-stacks is a real method, GetStackStatus / get-stack-status is not. http://docs.aws.amazon.com/cli/latest/reference/cloudformation/list-stacks.html
+Event driven systems are good for IFTTT logic, but only polling will make a script wait to complete. ListStacks / list-stacks is a real method, GetStackStatus / get-stack-status is not. 
+
+http://docs.aws.amazon.com/cli/latest/reference/cloudformation/list-stacks.html
 
 </p></details><hr>
 
@@ -1153,7 +1251,9 @@ Explanation:
 
 CloudFront is ideal for scenarios in which entire requests can be served out of a cache and usage patterns involve heavy reads and spikiness in demand.
 A cache behavior is the set of rules you configure for a given URL pattern based on file extensions, file names, or any portion of a URL path on your website (e.g., \*.jpg). You can configure multiple cache behaviors for your web distribution. Amazon CloudFront will match incoming viewer requests with your list of URL patterns, and if there is a match, the service will honor the cache behavior you configure for that URL pattern. Each cache behavior can include the following Amazon CloudFront configuration values:
-origin server name, viewer connection protocol, minimum expiration period, query string parameters, cookies, and trusted signers for private content. https://aws.amazon.com/cloudfront/dynamic-content/
+origin server name, viewer connection protocol, minimum expiration period, query string parameters, cookies, and trusted signers for private content. 
+
+https://aws.amazon.com/cloudfront/dynamic-content/
 
 </p></details><hr>
 
@@ -1169,7 +1269,9 @@ You need to perform ad-hoc business analytics queries on well-structured data. D
 
 Explanation:
 
-Kinesis Firehose provides a managed service for aggregating streaming data and inserting it into RedShift. RedShift also supports ad-hoc queries over well-structured data using a SQL-compliant wire protocol, so the business team should be able to adopt this system easily. https://aws.amazon.com/kinesis/firehose/details/
+Kinesis Firehose provides a managed service for aggregating streaming data and inserting it into RedShift. RedShift also supports ad-hoc queries over well-structured data using a SQL-compliant wire protocol, so the business team should be able to adopt this system easily. 
+
+https://aws.amazon.com/kinesis/firehose/details/
 
 </p></details><hr>
 
@@ -1185,7 +1287,9 @@ You are building a game high score table in DynamoDB. You will store each user's
 
 Explanation:
 
-Since access and storage for games is uniform, and you need to have ordering within each game for the scores (to access the highest value), your hash (partition) key should be the GameID, and there should be a range key for HighestScore. http://docs.aws.amazon.com/amazondynamodb/latest/dev eloperguide/GuidelinesForT ables.html# Guideli nesForTables.Partitions
+Since access and storage for games is uniform, and you need to have ordering within each game for the scores (to access the highest value), your hash (partition) key should be the GameID, and there should be a range key for HighestScore. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForTables.html#GuidelinesForTables.Partitions
 
 </p></details><hr>
 
@@ -1202,7 +1306,9 @@ What is server immutability?
 
 Explanation:
 
-... disposable upgrades offer a simpler way to know if your application has unknown dependencies. The underlying EC2 instance usage is considered temporary or ephemeral in nature for the period of deployment until the current release is active. During the new release, a new set of EC2 instances are rolled out by terminating older instances. This type of upgrade technique is more common in an immutable infrastructure. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
+... disposable upgrades offer a simpler way to know if your application has unknown dependencies. The underlying EC2 instance usage is considered temporary or ephemeral in nature for the period of deployment until the current release is active. During the new release, a new set of EC2 instances are rolled out by terminating older instances. This type of upgrade technique is more common in an immutable infrastructure. 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1218,7 +1324,9 @@ You run a clustered NoSQL database on AWS EC2 using AWS EBS. You need to reduce 
 
 Explanation:
 
-For the highest possible performance, all instances in a clustered database like this one should be in a single Availability Zone in a placement group, using EBS optimized instances, and using PIOPS SSD EBS Volumes. The particular Availability Zone the system is running in should not be important, as long as it is the same as the requesting resources. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
+For the highest possible performance, all instances in a clustered database like this one should be in a single Availability Zone in a placement group, using EBS optimized instances, and using PIOPS SSD EBS Volumes. The particular Availability Zone the system is running in should not be important, as long as it is the same as the requesting resources. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 </p></details><hr>
 
@@ -1235,7 +1343,10 @@ understand what resources we have now, and
 
 Explanation:
 
-You can use AWS CloudTrail to get a history of AWS API calls and related events for your account. This includes calls made by using the AWS Management Console, AWS SDKs, command line tools, and higher-level AWS services. http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
+You can use AWS CloudTrail to get a history of AWS API calls and related events for your account. This includes calls made by using the AWS Management Console, AWS SDKs, command line tools, and higher-level AWS services. 
+
+http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
+
 allows auditing credentials and logins.
   
 </p></details><hr>
@@ -1252,7 +1363,9 @@ You are creating an application which stores extremely sensitive financial infor
 
 Explanation:
 
-Terminating SSL terminates the security of a connection over HTTP, removing the S for "Secure" in HTTPS. This violates the "encryption in transit" requirement in the scenario. http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/elb-listener-config.html
+Terminating SSL terminates the security of a connection over HTTP, removing the S for "Secure" in HTTPS. This violates the "encryption in transit" requirement in the scenario. 
+
+http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/elb-listener-config.html
 
 </p></details><hr>
 
@@ -1268,7 +1381,9 @@ You need to scale an RDS deployment. You are operating at 10% writes and 90% rea
 
 Explanation:
 
-The high-availability feature is not a scaling solution for read-only scenarios; you cannot use a standby replica to serve read traffic. To service read-only traffic, you should use a Read Replica. For more information, see Working with PostgreSQL, MySQL, and MariaDB Read Replicas. http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+The high-availability feature is not a scaling solution for read-only scenarios; you cannot use a standby replica to serve read traffic. To service read-only traffic, you should use a Read Replica. For more information, see Working with PostgreSQL, MySQL, and MariaDB Read Replicas. 
+
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
 
 </p></details><hr>
 
@@ -1284,7 +1399,9 @@ When thinking of AWS Elastic Beanstalk, the 'Swap Environment URLs' feature most
 
 Explanation:
 
-Simply upload the new version of your application and let your deployment service (AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks) deploy a new version (green). To cut over to the new version, you simply replace the ELB URLs in your DNS records. Elastic Beanstalk has a Swap Environment URLs feature to facilitate a simpler cutover process. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
+Simply upload the new version of your application and let your deployment service (AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks) deploy a new version (green). To cut over to the new version, you simply replace the ELB URLs in your DNS records. Elastic Beanstalk has a Swap Environment URLs feature to facilitate a simpler cutover process. 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1301,7 +1418,9 @@ You need to create a simple, holistic check for your system's general availablit
 Explanation:
 
 You can create a health check that will run into perpetuity using Route53, in one API call, which will ping your service via HTTP every 10 or 30 seconds.
-Amazon Route 53 must be able to establish a TCP connection with the endpoint within four seconds. In addition, the endpoint must respond with an HTTP status code of 200 or greater and less than 400 within two seconds after connecting. http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-determining-health-of- endpoint s.html
+Amazon Route 53 must be able to establish a TCP connection with the endpoint within four seconds. In addition, the endpoint must respond with an HTTP status code of 200 or greater and less than 400 within two seconds after connecting. 
+
+http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-determining-health-of-endpoints.html
 
 </p></details><hr>
 
@@ -1338,7 +1457,9 @@ Run the batch jobs with the same instance class, so the Reserved Instance credit
 
 Explanation:
 
-Because the instance will always be online during the day, in a predictable manner, and there are a sequence of batch jobs to perform at any time, we should run the batch jobs when the account software is off. We can achieve Heavy Utilization by alternating these times, so we should purchase the reservation as such, as this represents the lowest cost. There is no such thing a "Full" level utilization purchases on EC2. https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf
+Because the instance will always be online during the day, in a predictable manner, and there are a sequence of batch jobs to perform at any time, we should run the batch jobs when the account software is off. We can achieve Heavy Utilization by alternating these times, so we should purchase the reservation as such, as this represents the lowest cost. There is no such thing a "Full" level utilization purchases on EC2. 
+
+https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf
 
 </p></details><hr>
 
@@ -1354,7 +1475,9 @@ Which EBS volume type is best for high performance NoSQL cluster deployments?
 
 Explanation:
 
-io1 volumes, or Provisioned IOPS (PIOPS) SSDs, are best for: Critical business applications that require sustained IOPS performance, or more than 10,000 IOPS or 160 MiB/s of throughput per volume, like large database workloads, such as MongoDB. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
+io1 volumes, or Provisioned IOPS (PIOPS) SSDs, are best for: Critical business applications that require sustained IOPS performance, or more than 10,000 IOPS or 160 MiB/s of throughput per volume, like large database workloads, such as MongoDB. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
 
 </p></details><hr>
 
@@ -1370,7 +1493,9 @@ You are building out a layer in a software stack on AWS that needs to be able to
 
 Explanation:
 
-... the bootstrapping process can be slower if you have a complex application or multiple applications to install. Managing a fleet of applications with several build tools and dependencies can be a challenging task during rollouts. Furthermore, your deployment service should be designed to do faster rollouts to take advantage of Auto Scaling. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
+... the bootstrapping process can be slower if you have a complex application or multiple applications to install. Managing a fleet of applications with several build tools and dependencies can be a challenging task during rollouts. Furthermore, your deployment service should be designed to do faster rollouts to take advantage of Auto Scaling. 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1386,7 +1511,9 @@ You need to perform ad-hoc analysis on log data, including searching quickly for
 
 Explanation:
 
-Amazon Elasticsearch Service (Amazon ES) is a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS cloud. Elasticsearch is a popular open- source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics. http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-amazon- elasticsearch-s ervice.html
+Amazon Elasticsearch Service (Amazon ES) is a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS cloud. Elasticsearch is a popular open- source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics. 
+
+http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-amazon-elasticsearch-service.html
 
 </p></details><hr>
 
@@ -1402,7 +1529,9 @@ Which status represents a failure state in AWS CloudFormation?
 
 Explanation:
 
-ROLLBACK_IN_PROGRESS means an UpdateStack operation failed and the stack is in the process of trying to return to the valid, pre-update state. UPDATE_COMPLETE_CLEANUP_IN_PROGRESS means an update was successful, and CloudFormation is deleting any replaced, no longer used resources. ROLLBACK_FAILED is not a CloudFormation state (but UPDATE_ROLLBACK_FAILED is). DELETE_COMPLETE_WITH_ARTIFACTS does not exist at all. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating- stacks.html
+ROLLBACK_IN_PROGRESS means an UpdateStack operation failed and the stack is in the process of trying to return to the valid, pre-update state. UPDATE_COMPLETE_CLEANUP_IN_PROGRESS means an update was successful, and CloudFormation is deleting any replaced, no longer used resources. ROLLBACK_FAILED is not a CloudFormation state (but UPDATE_ROLLBACK_FAILED is). DELETE_COMPLETE_WITH_ARTIFACTS does not exist at all. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks.html
 
 </p></details><hr>
 
@@ -1419,6 +1548,7 @@ What is the scope of an EC2 EIP?
 Explanation:
 
 An Elastic IP address is tied to a region and can be associated only with an instance in the same region.
+
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
@@ -1435,7 +1565,9 @@ For AWS Auto Scaling, what is the first transition state an existing instance en
 
 Explanation:
 
-You can put any instance that is in an InService state into a Standby state. This enables you to remove the instance from service, troubleshoot or make changes to it, and then put it back into service. Instances in a Standby state continue to be managed by the Auto Scaling group. However, they are not an active part of your application until you put them back into service. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html
+You can put any instance that is in an InService state into a Standby state. This enables you to remove the instance from service, troubleshoot or make changes to it, and then put it back into service. Instances in a Standby state continue to be managed by the Auto Scaling group. However, they are not an active part of your application until you put them back into service. 
+
+http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html
 
 </p></details><hr>
 
@@ -1452,7 +1584,9 @@ the SQS message bodies.
 
 Explanation:
 
-You can manage Amazon SQS messages with Amazon S3. This is especially useful for storing and retrieving messages with a message size of up to 2 GB. To manage Amazon SQS messages with Amazon S3, use the Amazon SQS Extended Client Library for Java. http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/s3- messages.html
+You can manage Amazon SQS messages with Amazon S3. This is especially useful for storing and retrieving messages with a message size of up to 2 GB. To manage Amazon SQS messages with Amazon S3, use the Amazon SQS Extended Client Library for Java. 
+
+http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/s3-messages.html
 
 </p></details><hr>
 
@@ -1471,6 +1605,7 @@ Explanation:
 Because you only need to batch analyze, anything using streaming is a waste of money. CloudFront is a Gigabit-Scale HTTP(S) global request distribution service, so it can handle scale,
 geo-spread, spikes, and unpredictability. The Access Logs will contain the GET data and work just fine for batch analysis and email using EMR.
 Can I use Amazon CloudFront if I expect usage peaks higher than 10 Gbps or 15,000 RPS? Yes. Complete our request for higher limits here, and we will add more capacity to your account within two business days.
+
 https://aws.amazon.com/cloudfront/faqs/
 
 </p></details><hr>
@@ -1487,7 +1622,9 @@ Your system automatically provisions EIPs to EC2 instances in a VPC on boot. The
 
 Explanation:
 
-There is a soft limit of 5 EIPs per Region for VPC on new accounts. The third environment could not allocate the 6th EIP. http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_vpc
+There is a soft limit of 5 EIPs per Region for VPC on new accounts. The third environment could not allocate the 6th EIP. 
+
+http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_vpc
 
 </p></details><hr>
 
@@ -1506,6 +1643,7 @@ AWS API calls in real-time.
 Explanation:
 
 CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface.
+
 https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/
 
 </p></details><hr>
@@ -1522,7 +1660,9 @@ How does Amazon RDS multi Availability Zone model work?
 
 Explanation:
 
-In a Multi-AZ deployment, Amazon RDS automatically provisions and maintains a synchronous standby replica in a different Availability Zone. http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+In a Multi-AZ deployment, Amazon RDS automatically provisions and maintains a synchronous standby replica in a different Availability Zone. 
+
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
 
 </p></details><hr>
 
@@ -1539,7 +1679,9 @@ Which of these is not an instrinsic function in AWS CloudFormation?
 Explanation:
 
 This is the complete list of Intrinsic Functions...: Fn::Base64, Fn::And, Fn::Equals, Fn::If, Fn::Not, Fn::Or,
-Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Ref http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function- reference.html
+Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, 
+
+Ref http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html
 
 </p></details><hr>
 
@@ -1557,8 +1699,8 @@ Secret Access Key.
 Explanation:
 
 Shapshots shared with other users are usable in full by the recipient, including but limited to the ability to base modified volumes and snapshots.
-Reference:
-http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot- permissions.html
+
+Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot-permissions.html
 
 </p></details><hr>
 
@@ -1576,7 +1718,9 @@ Explanation:
 
 A security group is tied to a region and can be assigned only to instances in the same region.
   
-You can't enable an instance to communicate with an instance outside its region using security group rules. Traffic from an instance in another region is seen as WAN bandwidth. Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
+You can't enable an instance to communicate with an instance outside its region using security group rules. Traffic from an instance in another region is seen as WAN bandwidth. 
+
+Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 
@@ -1610,7 +1754,9 @@ Which is the proper syntax for referencing a variable's value in an Ansible task
 
 Explanation:
 
-We use the variable's name to reference the variable which we encapsulate in curly brackets `{{ }}`; however, the YAML syntax dictates that a string beginning with a curly bracket denotes a dictionary value. To get around this it's proper to wrap the variable declaration in quotes. Reference: http://docs.ansible.com/ansible/playbooks_variables.html#hey-wait-a-yaml-gotcha
+We use the variable's name to reference the variable which we encapsulate in curly brackets `{{ }}`; however, the YAML syntax dictates that a string beginning with a curly bracket denotes a dictionary value. To get around this it's proper to wrap the variable declaration in quotes. 
+
+Reference: http://docs.ansible.com/ansible/playbooks_variables.html#hey-wait-a-yaml-gotcha
 
 </p></details><hr>
 
@@ -1662,7 +1808,9 @@ What are the bare minimum requirements for a valid Ansible playbook?
 
 Explanation:
 
-Ansible Playbooks are a series of plays and must contain at a minimum, one play. A play generally consists of hosts to run on, a list of tasks, variables and roles, and any additional instructions, such as connection type, fact gathering, remote username, etc. that the tasks will need to complete. The only requirement for a valid play is to declare the hosts. Reference: http://docs.ansible.com/ansible/playbooks_intro.html
+Ansible Playbooks are a series of plays and must contain at a minimum, one play. A play generally consists of hosts to run on, a list of tasks, variables and roles, and any additional instructions, such as connection type, fact gathering, remote username, etc. that the tasks will need to complete. The only requirement for a valid play is to declare the hosts. 
+
+Reference: http://docs.ansible.com/ansible/playbooks_intro.html
 
 </p></details><hr>
 
@@ -1696,7 +1844,9 @@ When Ansible's connection state is set to `remote`, what method of communication
 
 Explanation:
 
-Ansible does not require a client/server architecture and makes all remote connections over SSH. Ansible utilizes the Paramiko Python libraries for SSH when the native system OpenSSH libraries do not meet the requirements. Also note, Ansible does require Python be installed on the target host. When the target host is Windows, it uses WinRS Reference: http://docs.ansible.com/ansible/intro_getting_started.html#remote-connection-information
+Ansible does not require a client/server architecture and makes all remote connections over SSH. Ansible utilizes the Paramiko Python libraries for SSH when the native system OpenSSH libraries do not meet the requirements. Also note, Ansible does require Python be installed on the target host. When the target host is Windows, it uses WinRS 
+
+Reference: http://docs.ansible.com/ansible/intro_getting_started.html#remote-connection-information
 
 </p></details><hr>
 

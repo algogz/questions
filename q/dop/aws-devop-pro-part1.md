@@ -564,7 +564,7 @@ automated CloudWatch Log copy.
 
 </p></details><hr>
 
-### QUESTION 33
+### QUESTION 33 x
 Management has reported an increase in the monthly bill from Amazon web services, and they are extremely concerned with this increased cost.
 Management has asked you to determine the exact cause of this increase.
 After reviewing the billing report, you notice an increase in the data transfer cost.
@@ -603,7 +603,7 @@ granularity to allow auto scaling to trigger faster.
 
 </p></details><hr>
 
-### QUESTION 35
+### QUESTION 35 x
 You are responsible for your company's large multi-tiered Windows-based web application running on Amazon EC2 instances situated behind a load balancer.
   
 While reviewing metrics, you've started noticing an upwards trend for slow customer page load time.
@@ -623,7 +623,7 @@ Configure the Auto Scaling template to spin up a new Elastic Beanstalk applicati
 
 </p></details><hr>
 
-### QUESTION 36
+### QUESTION 36 x
 Your company has multiple applications running on AWS.
 Your company wants to develop a tool that notifies on-call teams immediately via email when an alarm is triggered in your environment.
 You have multiple on-cal teams that work different shifts, and the tool should handle notifying the correct teams at the correct times.
@@ -667,7 +667,7 @@ live analysis.
 
 </p></details><hr>
 
-### QUESTION 38
+### QUESTION 38 x
 You have a code repository that uses Amazon S3 as a data store. During a recent audit of your security controls, some concerns were raised about maintaining the integrity of the data in the Amazon S3 bucket. Another concern was raised around securely deploying code from Amazon S3 to applications running on Amazon EC2 in a virtual private cloud.
 What are some measures that you can implement to mitigate these concerns? Choose 2 answers.
 
@@ -713,7 +713,7 @@ How should you implement this for each deployment?
 
 </p></details><hr>
 
-### QUESTION 41
+### QUESTION 41 x
 Your company currently runs a large multi-tier web application. One component is an API service that all other components of your application rely on to perform read/write operations.
 This service must have high availability and zero downtime during deployments.
 Which technique should you use to provide cost-effective, zero-downtime deployments for this component?
@@ -754,7 +754,7 @@ queue to facilitate batch processing new API call log files retrieved from an Am
 
 </p></details><hr>
 
-### QUESTION 43
+### QUESTION 43 x
 You are using AWS Elastic Beanstalk to deploy your application and must make data stored on an Amazon Elastic Block Store (EBS) volume snapshot available to the Amazon Elastic Compute Cloud (EC2) instances. How can you modify your Elastic Beanstalk environment so that the data is added to the Amazon EC2 instances every time you deploy your application?
 
 - A. Add commands to a configuration file in the .ebextensions folder of your deployable archive that mount an additional Amazon EBS volume on launch.
@@ -771,7 +771,7 @@ Amazon EC2 API or CLI to create a new Amazon EBS volume based on the specified s
 
 </p></details><hr>
 
-### QUESTION 44
+### QUESTION 44 x
 You would like to run automated, continuous application level integration tests on all members of an Auto Scaling group. Which two options should you use?
 Choose 2 answers.
 
@@ -800,7 +800,7 @@ Your application Amazon Elastic Compute Cloud (EC2) instances bootstrap by using
 
 </p></details><hr>
 
-### QUESTION 46
+### QUESTION 46 x
 Your company operates a website for promoters to sell tickets for entertainment events.
 You are using a load balancer in front of an Auto Scaling group of web servers. Promotion of popular events can cause surges of website visitors.
 During scaling-out at these times, newly launched instances are unable to complete configuration quickly enough, leading to user disappointment.
@@ -837,7 +837,7 @@ What steps should you take to ensure that your application tier scales based on 
 
 </p></details><hr>
 
-### QUESTION 48
+### QUESTION 48 x
 Your DevOps team is responsible for a multi-tier, Windows-based web application consisting of web servers, Amazon RDS database instances, and a load balancer behind Amazon Route53. You've been asked by your manager to build a cost-effective rolling deployment solution for this web application.
 What method should you use?
 
@@ -882,7 +882,7 @@ How should you determine which back-end Amazon Elastic Compute Cloud application
 
 </p></details><hr>
 
-### QUESTION 51
+### QUESTION 51 x
 Your company operates an application consisting of an AWS CloudFormation stack that contains a load balancer, an Auto Scaling group of web servers, and an Amazon RDS instance.
 To save time and costs, you update the current test stack when testing minor changes, and create a new stack for major changes.
 As part of the testing procedure of your application, each version needs to be registered once and only once with a Configuration Management Database (CMDB).
@@ -916,7 +916,7 @@ are healthy.
 
 </p></details><hr>
 
-### QUESTION 53
+### QUESTION 53 x
 Your organization has decided to implement a third-party configuration management tool that uses a master server from which nodes pull configuration.
 You have built a custom base Amazon Machine Image that already has the third-party configuration management agent installed.
 You want to use the same base AMI in Development, Test and Production environments, each of which has its own master server.
@@ -934,7 +934,7 @@ Use an Environment tag in Amazon EC2 to register instances with the correct mast
 
 </p></details><hr>
 
-### QUESTION 54
+### QUESTION 54 x
 You have been asked to handle a large data migration from multiple Amazon RDS MySQL instances to a DynamoDB table.
 You have been given a short amount of time to complete the data migration.
 What will allow you to complete this complex data processing workflow?
@@ -955,7 +955,6 @@ Which approach should you use to satisfy these requirements?
 - A. Securely copy the content from a running Amazon EC2 instance.
 - B. Use an Amazon EC2 UserData script to copy the configurations from an Amazon Storage
 Services (S3) bucket.
-    
 - C. Use a script via cfn-init to pull content hosted in an Amazon ElastiCache cluster.
 - D. Use a script via cfn-init to pull content hosted on your on-premises server.
 - E. Use an Amazon EC2 UserData script to pull content hosted on your on-premises server.
@@ -980,7 +979,7 @@ Which techniques could you use to provide a cost-effective rolling deployment pr
 
 </p></details><hr>
 
-### QUESTION 57
+### QUESTION 57 x
 You manage a web advertising platform on a single AWS account. This platform produces real- time ad-click data that you store as objects in an Amazon S3 bucket called "dick-data."
 Your advertising partners want to use Amazon Elastic MapReduce in their own AWS accounts to do analytics on the ad-click data.
 They' ve asked for immediate access to the ad-dick data so that they can run analytics. Which two choices are required to facilitate secure access to this data? Choose 2 answers.
@@ -1029,7 +1028,7 @@ What should you do to enable this and still be able to roll back to the previous
 
 </p></details><hr>
 
-### QUESTION 60
+### QUESTION 60 x
 Your Company wants to perform A/B testing on a new website feature for 20 percent of its users. The website uses CloudFront for whole site delivery, with some content cached for up to 24 hours.
 How do you enable this testing for the required proportion of users while minimizing performance impact?
   
@@ -1049,7 +1048,7 @@ The web servers set "Cache-Control: no-cache" on all of these responses.
 
 </p></details><hr>
 
-### QUESTION 61
+### QUESTION 61 x
 You have been asked to use your departments existing continuous Integration (CI) tool to test a three-tier web architecture defined In an AWS CloudFormation template.
 The tool already supports AWS APIs and can launch new AWS CloudFormation stacks after polling version control.
 The CI tool reports on the success of the AWS CloudFormation stack creation by using the Describe Stacks API to look for the CREATE COMPLETE status.
@@ -1252,7 +1251,7 @@ task.
 
 </p></details><hr>
 
-### QUESTION 71
+### QUESTION 71 x
 Your application has an Auto Scaling group of m3.large instances running an application that receives messages born an Amazon SQS queue.
 After a while, the number of instances reaches the maximum set for the group and the number of messages on the queue continues to increase.
 You have discovered that a third- party library used by the application has a bug that causes a memory leak.
@@ -1380,7 +1379,7 @@ Launch an Amazon Redshift cluster, and point your application to its JDBC endpoi
 
 </p></details><hr>
 
-### QUESTION 78
+### QUESTION 78 x
 You are building an AWS CloudFormation template for a multi-tier web application.
 The user data of your Linux web server resource contains a complex script that can take a long time to run.
 Which techniques could you use to ensure that these servers are fully configured and running before attaching them to the load balancer? Choose 2 answers
@@ -1398,7 +1397,7 @@ When the UserData script finishes on the web servers, use the command "cfn-signa
 
 </p></details><hr>
 
-### QUESTION 79
+### QUESTION 79 x
 Customers have recently been complaining that your web application has randomly stopped responding.
 During a deep dive of your logs, the team has discovered a major bug in your new Java web application.
 This bug is causing a memory leak that eventually causes the application to crash.
@@ -1417,7 +1416,7 @@ Create a Cloudwatch alarm that triggers an Amazon SNS notification to page your 
 
 </p></details><hr>
 
-### QUESTION 80
+### QUESTION 80 x
 You have an ASP.NET web application running in Amazon Elastic Beanstalk.
 Your next version of the application requires a third-party Windows Installer package to be installed on the instance on first boot and before the application launches.
 Which options are possible? Choose 2 answers
@@ -1436,7 +1435,7 @@ Place the package in the folder.
 
 </p></details><hr>
 
-### QUESTION 81
+### QUESTION 81 x
 For AWS Auto Scaling, what is the first transition state an instance enters after leaving steady state when scaling in due to health check failure or decreased load?
 
 - A. T erminating
@@ -1448,7 +1447,9 @@ For AWS Auto Scaling, what is the first transition state an instance enters afte
 
 Explanation:
 
-When Auto Scaling responds to a scale in event, it terminates one or more instances. These instances are detached from the Auto Scaling group and enter the Terminating state. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html
+When Auto Scaling responds to a scale in event, it terminates one or more instances. These instances are detached from the Auto Scaling group and enter the Terminating state. 
+
+http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html
 
 </p></details><hr>
 
@@ -1466,6 +1467,7 @@ Explanation:
 
 The Elasticsearch and Kibana 4 combination is called the ELK Stack, and is designed specifically for real-time, ad-hoc log analysis and aggregation. All other answers introduce extra delay or require pre-defined queries.
 Amazon Elasticsearch Service is a managed service that makes it easy to deploy, operate, and scale Elasticsearch in the AWS Cloud. Elasticsearch is a popular open-source search and analytics engine for use cases such as log analytics, real-time application monitoring, and click stream analytics.
+
 https://aws.amazon.com/elasticsearch-service/
 
 </p></details><hr>
@@ -1482,7 +1484,9 @@ When thinking of AWS Elastic Beanstalk's model, which is true?
 
 Explanation:
 
-Applications group logical services. Environments belong to Applications, and typically represent different deployment levels (dev, stage, prod, fo forth). Deployments belong to environments, and are pushes of bundles of code for the environments to run. http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+Applications group logical services. Environments belong to Applications, and typically represent different deployment levels (dev, stage, prod, fo forth). Deployments belong to environments, and are pushes of bundles of code for the environments to run. 
+
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
 
 </p></details><hr>
 
@@ -1501,7 +1505,9 @@ Explanation:
 
 The Elastic Beanstalk option is incorrect because it requires a constantly-polling instance, which may break and costs money.
 The Lambda fleet option is incorrect because AWS Lambda does not support GPU usage. The OpsWorks stack option both requires a constantly-polling instance, and also requires complex timing and capacity planning logic.
-The CloudFormation option requires no polling, has no always-on instances, and allows arbitrarily fast processing by simply setting the instance count as high as needed. http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html
+The CloudFormation option requires no polling, has no always-on instances, and allows arbitrarily fast processing by simply setting the instance count as high as needed. 
+
+http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html
 
 </p></details><hr>
 
@@ -1518,7 +1524,9 @@ Your VPC account can utilize us-east-1's AZ's a through f, inclusive.
 
 Explanation:
 
-You need to design for N+1 redundancy on Availability Zones. ZONE_COUNT = (REQUIRED_INSTANCES / INSTANCE_COUNT_PER_ZONE) + 1. To minimize cost, spread the instances across as many possible zones as you can. By using a though e, you are allocating 5 zones. Using 2 instances, you have 10 total instances. If a single zone fails, you have 4 zones left, with 2 instances each, for a total of 8 instances. By spreading out as much as possible, you have increased cost by only 25% and significantly de-risked an availability zone failure. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability- zones.html#concepts- regions-availability-zones
+You need to design for N+1 redundancy on Availability Zones. ZONE_COUNT = (REQUIRED_INSTANCES / INSTANCE_COUNT_PER_ZONE) + 1. To minimize cost, spread the instances across as many possible zones as you can. By using a though e, you are allocating 5 zones. Using 2 instances, you have 10 total instances. If a single zone fails, you have 4 zones left, with 2 instances each, for a total of 8 instances. By spreading out as much as possible, you have increased cost by only 25% and significantly de-risked an availability zone failure. 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability- zones.html#concepts-regions-availability-zones
 
 </p></details><hr>
 
@@ -1534,7 +1542,9 @@ You need to create a Route53 record automatically in CloudFormation when not run
 
 Explanation:
 
-The best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for records. http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section- structure.html
+The best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for records. 
+
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-structure.html
   
 </p></details><hr>
 
@@ -1551,7 +1561,9 @@ credentials.
 
 Explanation:
 
-... users of your app can sign in using a well-known identity provider (IdP) --such as Login with Amazon, Facebook, Google, or any other OpenID Connect (OIDC)-compatible IdP, receive an authentication token, and then exchange that token for temporary security credentials in AWS that map to an IAM role with permissions to use the resources in your AWS account. http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html
+... users of your app can sign in using a well-known identity provider (IdP) --such as Login with Amazon, Facebook, Google, or any other OpenID Connect (OIDC)-compatible IdP, receive an authentication token, and then exchange that token for temporary security credentials in AWS that map to an IAM role with permissions to use the resources in your AWS account. 
+
+http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html
 
 </p></details><hr>
 
@@ -1567,7 +1579,9 @@ You have been asked to de-risk deployments at your company. Specifically, the CE
 
 Explanation:
 
-Only CloudFormation's JSON Templates allow declarative version control of repeatably deployable models of entire AWS clouds. https://blogs.aws.amazon.com/application-management/blog/category/Best+practices
+Only CloudFormation's JSON Templates allow declarative version control of repeatably deployable models of entire AWS clouds. 
+
+https://blogs.aws.amazon.com/application-management/blog/category/Best+practices
 
 </p></details><hr>
 
@@ -1583,7 +1597,9 @@ You are creating a new API for video game scores. Reads are 100 times more commo
 
 Explanation:
 
-Because the 100x read ratio is mostly driven by a small subset, with caching, only a roughly equal number of reads to writes will miss the cache, since the supermajority will hit the top 1% scores. Knowing we need to set the values roughly equal when using caching, we select AWS ElastiCache, because CloudFront cannot directly cache DynamoDB queries, and ElastiCache is an excellent in-memory cache for database queries, rather than a distributed proxy cache for content delivery. ... One solution would be to cache these reads at the application layer. Caching is a technique that is used in many high-throughput applications, offloading read activity on hot items to the cache rather than to the database. Your application can cache the most popular items in memory, or use a product such as ElastiCache to do the same. http://docs.aws.amazon.com/amazondynamodb/latest/dev eloperguide/GuidelinesForT ables.html# Guideli nesForTables.CachePopularItem
+Because the 100x read ratio is mostly driven by a small subset, with caching, only a roughly equal number of reads to writes will miss the cache, since the supermajority will hit the top 1% scores. Knowing we need to set the values roughly equal when using caching, we select AWS ElastiCache, because CloudFront cannot directly cache DynamoDB queries, and ElastiCache is an excellent in-memory cache for database queries, rather than a distributed proxy cache for content delivery. ... One solution would be to cache these reads at the application layer. Caching is a technique that is used in many high-throughput applications, offloading read activity on hot items to the cache rather than to the database. Your application can cache the most popular items in memory, or use a product such as ElastiCache to do the same. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForT ables.html# Guideli nesForTables.CachePopularItem
 
 </p></details><hr>
 
@@ -1612,7 +1628,9 @@ resolution. Write deployment and integration testing automation following Rollin
 Explanation:
 
 AWS recommends Blue-Green for zero-downtime deploys. Since you use DynamoDB, and neither AWS OpsWorks nor AWS Elastic Beanstalk directly supports DynamoDB, the option selecting CloudFormation and Blue-Green is correct.
-You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. The deployment services like AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks are particularly useful as they provide a simple way to clone your running application stack. You can set up a new version of your application (green) by simply cloning current version of the application (blue). https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
+You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. The deployment services like AWS Elastic Beanstalk, AWS CloudFormation, or AWS OpsWorks are particularly useful as they provide a simple way to clone your running application stack. You can set up a new version of your application (green) by simply cloning current version of the application (blue). 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1629,6 +1647,7 @@ What is the scope of an EBS snapshot?
 Explanation:
 
 An EBS snapshot is tied to its region and can only be used to create volumes in the same region. You can copy a snapshot from one region to another. For more information, see Copying an Amazon EBS Snapshot.
+
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
@@ -1645,7 +1664,9 @@ Your system uses a multi-master, multi-region DynamoDB configuration spanning tw
 
 Explanation:
 
-When using multi-region DynamoDB systems, it is of paramount importance to make sure that all requests made to one Region are replicated to the other. Under normal operation, the system in question would correctly perform write replays into the other Region. If a whole Region went down, the system would be unable to perform these writes for the period of downtime. Without buffering write requests somehow, there would be no way for the system to replay dropped cross- region writes, and the requests would be serviced differently depending on the Region from which they were served after recovery. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl .html
+When using multi-region DynamoDB systems, it is of paramount importance to make sure that all requests made to one Region are replicated to the other. Under normal operation, the system in question would correctly perform write replays into the other Region. If a whole Region went down, the system would be unable to perform these writes for the period of downtime. Without buffering write requests somehow, there would be no way for the system to replay dropped cross- region writes, and the requests would be serviced differently depending on the Region from which they were served after recovery. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl.html
 
 </p></details><hr>
 
@@ -1663,6 +1684,7 @@ There are a number of ways to purchase compute capacity on AWS. Which orders the
 Explanation:
 
 Spot instances are usually many, many times cheaper than on-demand prices. Reserved instances, depending on their term and utilization, can yield approximately 33% to 66% cost savings. On-Demand prices are the baseline price and are the most expensive way to purchase EC2 compute time.
+
 https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf
 
 </p></details><hr>
@@ -1679,7 +1701,9 @@ You run operations for a company that processes digital wallet payments at a ver
 
 Explanation:
 
-Only the multi-master, multi-region DynamoDB answer makes sense. Multi-AZ deployments do not provide sufficient availability when a business loses USD 360,000 per hour of unavailability. As RDS does not natively support multi-region, and ACID does not perform well/at all over large distances between regions, only the DynamoDB answer works. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl .html
+Only the multi-master, multi-region DynamoDB answer makes sense. Multi-AZ deployments do not provide sufficient availability when a business loses USD 360,000 per hour of unavailability. As RDS does not natively support multi-region, and ACID does not perform well/at all over large distances between regions, only the DynamoDB answer works. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.CrossRegionRepl.html
 
 </p></details><hr>
 
@@ -1695,7 +1719,9 @@ When thinking of DynamoDB, what are true of Local Secondary Key properties?
 
 Explanation:
 
-Global secondary index -- an index with a partition key and a sort key that can be different from those on the table. A global secondary index is considered "global" because queries on the index can span all of the data in a table, across all partitions. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
+Global secondary index -- an index with a partition key and a sort key that can be different from those on the table. A global secondary index is considered "global" because queries on the index can span all of the data in a table, across all partitions. 
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
   
 </p></details><hr>
 
@@ -1711,7 +1737,9 @@ Which deployment method, when using AWS Auto Scaling Groups and Auto Scaling Lau
 
 Explanation:
 
-Note that the bootstrapping process can be slower if you have a complex application or multiple applications to install. Managing a fleet of applications with several build tools and dependencies can be a challenging task during rollouts. Furthermore, your deployment service should be designed to do faster rollouts to take advantage of Auto Scaling. Prebaking is a process of embedding a significant portion of your application artifacts within your base AMI. During the deployment process you can customize application installations by using EC2 instance artifacts such as instance tags, instance metadata, and Auto Scaling groups. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
+Note that the bootstrapping process can be slower if you have a complex application or multiple applications to install. Managing a fleet of applications with several build tools and dependencies can be a challenging task during rollouts. Furthermore, your deployment service should be designed to do faster rollouts to take advantage of Auto Scaling. Prebaking is a process of embedding a significant portion of your application artifacts within your base AMI. During the deployment process you can customize application installations by using EC2 instance artifacts such as instance tags, instance metadata, and Auto Scaling groups. 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1728,7 +1756,9 @@ Which of these techniques enables the fastest possible rollback times in the eve
 Explanation:
 
 AWS specifically recommends Blue-Green for super-fast, zero-downtime deploys - and thus rollbacks, which are redeploying old code.
-You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on- aws.pdf
+You use various strategies to migrate the traffic from your current application stack (blue) to a new version of the application (green). This is a popular technique for deploying applications with zero downtime. 
+
+https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
@@ -1744,7 +1774,9 @@ Which of the following are not valid sources for OpsWorks custom cookbook reposi
 
 Explanation:
 
-Linux stacks can install custom cookbooks from any of the following repository types: HTTP or Amazon S3 archives. They can be either public or private, but Amazon S3 is typically the preferred option for a private archive. Git and Subversion repositories provide source control and the ability to have multiple versions. http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom- enable.html
+Linux stacks can install custom cookbooks from any of the following repository types: HTTP or Amazon S3 archives. They can be either public or private, but Amazon S3 is typically the preferred option for a private archive. Git and Subversion repositories provide source control and the ability to have multiple versions. 
+
+http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom-enable.html
 
 </p></details><hr>
 
@@ -1760,7 +1792,9 @@ You are building a deployment system on AWS. You will deploy new code by bootstr
 
 Explanation:
 
-Since you are not using VPC endpoints, outbound requests for the code sitting in S3 are routed though the NAT for the VPC's private subnets. If this networking fails, runtime bootstrapping through code download will fail due to network unavailability and lack of access to the Internet, and thus Amazon S3. http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html
+Since you are not using VPC endpoints, outbound requests for the code sitting in S3 are routed though the NAT for the VPC's private subnets. If this networking fails, runtime bootstrapping through code download will fail due to network unavailability and lack of access to the Internet, and thus Amazon S3. 
+
+http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html
 
 </p></details><hr>
 
@@ -1776,6 +1810,8 @@ Which major database needs a BYO license?
 
 Explanation:
 
-Oracle is not open source, and requires a bring your own license model. http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Oracle.html
+Oracle is not open source, and requires a bring your own license model. 
+
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Oracle.html
 
 </p></details><hr>
