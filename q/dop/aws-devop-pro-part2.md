@@ -1684,14 +1684,13 @@ Ref http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-func
 
 </p></details><hr>
 
-### QUESTION 191
+### QUESTION 191 x
 Which one of the following is a restriction of AWS EBS Snapshots?
 
-- A. Sn a pshot rest or at i on s are rest ricted to the region in which the snapshots are created.
+- A. Snapshot restorations are restricted to the region in which the snapshots are created.
 - B. You cannot share unencrypted snapshots.
-- C. To share as n a pshot with a user in other region the snapshot has to be created in that region first.
-- D. You cannot share as n a pshot containing sensitive data such as an AWS Access Key ID or AWS
-Secret Access Key.
+- C. To share a snapshot with a user in other region the snapshot has to be created in that region first.
+- D. You cannot share a snapshot containing sensitive data such as an AWS Access Key ID or AWS Secret Access Key.
 
 <details><summary>Answer:</summary><p> C
 
@@ -1708,7 +1707,7 @@ What option below is the geographic limit of an EC2 security group?
 
 - A. Security groups are global.
 - B. They are confined to Placement Groups. 
-- C. They are confined to Region s.
+- C. They are confined to Regions.
 - D. They are confined to Availability Zones.
 
 <details><summary>Answer:</summary><p> C
@@ -1741,7 +1740,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html
 
 </p></details><hr>
 
-### QUESTION 194
+### QUESTION 194 x
 Which is the proper syntax for referencing a variable's value in an Ansible task?
 
 - A. ${variable_name}
@@ -1759,10 +1758,10 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#hey-wait-a-y
 
 </p></details><hr>
 
-### QUESTION 195
+### QUESTION 195 x
 If Erin has three clusters of server types that are all managed by Ansible and she needs to provision each cluster so that they are configured with their appropriate NTP server addresses. What is the best method Erin should use in Ansible for managing this?
 
-- A. Write at as k that s can s then e two rk in the target hosts'region for the NTP server,registerthe resulting address so that the next task can write the NTP configuration.
+- A. Write a task that scans the network in the target hosts' region for the NTP server,register the resulting address so that the next task can write the NTP configuration.
 - B. Bre a k down the hosts by region in the Ansible inventory file and assign an inventory group variable the NTP address value for the respective region. The playbook can contain just the single play referencing the NTP variable from the inventory.
 - C. Create a playbook for each different region and store the NTP address in a variable in the play in the event the NTP server changes.
 - D. Createthreeplays,each one has the hosts for their respective regions and set the NTP server address in each task.
@@ -1777,7 +1776,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#group-variables
 
 </p></details><hr>
 
-### QUESTION 196
+### QUESTION 196 x
 Which of the following is an invalid variable name in Ansible?
 
 - A. host1st_ref 
@@ -1795,7 +1794,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#what-makes-a
 
 </p></details><hr>
 
-### QUESTION 197
+### QUESTION 197 *
 What are the bare minimum requirements for a valid Ansible playbook?
 
 - A. The hosts, connection type, fact gathering, vars and tasks. 
@@ -1813,7 +1812,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_intro.html
 
 </p></details><hr>
 
-### QUESTION 198
+### QUESTION 198 *
 When running a playbook on a remote target host you receive a Python error similar to "[Errno 13] Permission denied: `/home/nick/.ansible/tmp`. What would be the most likely cause of this problem?
 
 - A. The user's home or `.ansible` directory on the Ansible system is not writeable by the user running the play.
@@ -1831,7 +1830,7 @@ Reference: http://docs.ansible.com/ansible/modules_intro.html
 
 </p></details><hr>
 
-### QUESTION 199
+### QUESTION 199 *
 When Ansible's connection state is set to `remote`, what method of communication does Ansible utilize to run commands on the remote target host?
 
 - A. SSH
@@ -1849,7 +1848,7 @@ Reference: http://docs.ansible.com/ansible/intro_getting_started.html#remote-con
 
 </p></details><hr>
 
-### QUESTION 200
+### QUESTION 200 *
 Which resource can not be defined in an Ansible Playbook?
 
 - A. FactGatheringState 

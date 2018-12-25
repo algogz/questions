@@ -1,7 +1,7 @@
 # AWS DevOps Engineer Professional 3/3
 Version: 18.122
 
-### QUESTION 201
+### QUESTION 201 *
 When specifying multiple variable names and values for a playbook on the command line, which of the following is the correct syntax?
 
 - A. ansible-playbookplaybook.yml-e`host="foo"pkg="bar"`
@@ -19,7 +19,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-vari
 
 </p></details><hr>
 
-### QUESTION 202
+### QUESTION 202 *
 Ansible provides some methods for controlling how or when a task is ran. Which of the following is a valid method for controlling a task with a loop?
 
 - A. -with:<value>
@@ -37,7 +37,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and
 
 </p></details><hr>
 
-### QUESTION 203
+### QUESTION 203 *
 Which difference between core modules and extra modules is not correct?
 
 - A. Extra modules may one day be come core modules 
@@ -55,7 +55,7 @@ Reference: http://docs.ansible.com/ansible/modules_extra.html
 
 </p></details><hr>
 
-### QUESTION 204
+### QUESTION 204 *
 What is the proper (best practice) way to begin a playbook?
 
 - A. -hosts:all 
@@ -73,7 +73,7 @@ Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 
 </p></details><hr>
 
-### QUESTION 205
+### QUESTION 205 *
 You have a playbook that includes a task to install a package for a service, put a configuration file for that package on the system and restart the service. The playbook is then run twice in a row. What would you expect Ansible to do on the second run?
 
 - A. Remove the old package and config file and reinstall and then rest a rt these rvice.
@@ -92,7 +92,7 @@ Reference: http://docs.ansible.com/ansible/glossary.html
 
 </p></details><hr>
 
-### QUESTION 206
+### QUESTION 206 *
 Which tool will Ansible not use, even if available, to gather facts?
 
 - A. facter
@@ -110,7 +110,7 @@ Reference: http://docs.ansible.com/ansible/setup_module.html
 
 </p></details><hr>
 
-### QUESTION 207
+### QUESTION 207 *
 If a variable is assigned in the `vars` section of a playbook, where is the proper place to override that variable?
 
 - A. Inventorygroupvar 
@@ -128,7 +128,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-pre
   
 </p></details><hr>
 
-### QUESTION 208
+### QUESTION 208 *
 If Ansible encounters a resource that does not meet the requirements specified in the play it makes the necessary changes to the resource; however if the resource is already in the desired state Ansible will do nothing. This is an example of which methodology?
 
 - A. Idempotency
@@ -146,7 +146,7 @@ Reference: http://docs.ansible.com/ansible/glossary.html
 
 </p></details><hr>
 
-### QUESTION 209
+### QUESTION 209 *
 When writing plays, tasks and playbooks, Ansible fully supports which high level language to describe these?
 
 - A. YAML 
@@ -164,7 +164,7 @@ Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 
 </p></details><hr>
 
-### QUESTION 210
+### QUESTION 210 *
 What is the expected behavior if Ansible is called with `ansible-playbook -i localhost playbook.yml`?
 
 - A. Ansible will at tempt to read the inventory file named `localhost`
@@ -182,7 +182,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory
 
 </p></details><hr>
 
-### QUESTION 211
+### QUESTION 211 *
 The Ansible Inventory system allows many attributes to be defined within it. Which item below is not one of these?
   
 
@@ -201,7 +201,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html
 
 </p></details><hr>
 
-### QUESTION 212
+### QUESTION 212 *
 When writing custom Ansible modules, which language is not supported?
 
 - A. Python
@@ -219,7 +219,7 @@ Reference: http://docs.ansible.com/ansible/developing_modules.html
 
 </p></details><hr>
 
-### QUESTION 213
+### QUESTION 213 *
 When specifying more than one conditional requirements for a task, what is the proper method?
 
 - A. -when:foo=="hello"andbar=="world"
@@ -237,7 +237,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-
 
 </p></details><hr>
 
-### QUESTION 214
+### QUESTION 214 *
 Ansible supports running Playbook on the host directly or via SSH. How can Ansible be told to run its playbooks directly on the host?
 
 - A. Setting `connection:local` in the tasks that run locally. 
@@ -255,7 +255,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connecti
 
 </p></details><hr>
 
-### QUESTION 215
+### QUESTION 215 *
 What is the main difference between calling the commands `ansible` and `ansible-playbook` on the command line?
 
 - A. `ansible` is for setting configuration and environment variables which `ansible-playbook` will use when running plays.
@@ -273,7 +273,7 @@ Reference: http://docs.ansible.com/ansible/intro_adhoc.html
 
 </p></details><hr>
 
-### QUESTION 216
+### QUESTION 216 *
 Which answer is the proper syntax for specifying two target hosts on the command line when running an Ansible Playbook?
 
 - A. ansible-playbook-hhost1.example.com-iallplaybook.yml
@@ -291,7 +291,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory
 
 </p></details><hr>
 
-### QUESTION 217
+### QUESTION 217 x
 What is the purpose of a Docker swarm worker node?
 
 - A. scheduling services
@@ -317,10 +317,12 @@ Reference: https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#work
 
 </p></details><hr>
 
-### QUESTION 218
+### QUESTION 218 x
 You are building a Docker image with the following Dockerfile. How many layers will the resulting image have?
+```bash
 FROM scratch
 CMD /app/hello.sh
+```
 
 - A. 2 
 - B. 4 
@@ -331,15 +333,17 @@ CMD /app/hello.sh
 
 Explanation:
 
+```bash
 FROM scratch
 CMD /app/hello.sh
+```
 The image contains all the layers from the base image (only one in this case, since we're building rom scratch), plus a new layer with the CMD instruction, and a read-write container layer. 
 
 Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#sharing-promotes-smaller-images
 
 </p></details><hr>
 
-### QUESTION 219
+### QUESTION 219 x
 What storage driver does Docker generally recommend that you use if it is available?
 
 - A. zfs
@@ -359,14 +363,14 @@ Reference: https://docs.docker.com/engine/userguide/storagedriver/selectadriver/
 
 </p></details><hr>
 
-### QUESTION 220
+### QUESTION 220 C?
 In which Docker Swarm model does the swarm manager distribute a specific number of replica tasks among the nodes based upon the scale you set in the desired state?
   
 
-- A. distributedservices 
-- B. scaledservices
-- C. replicatedservices 
-- D. globalservices
+- A. distributed services 
+- B. scaled services
+- C. replicated services 
+- D. global services
 
 <details><summary>Answer:</summary><p> D
 
@@ -380,7 +384,7 @@ Reference: https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks
 
 </p></details><hr>
 
-### QUESTION 221
+### QUESTION 221 x
 On which local address does the Docker DNS server listen?
 
 - A. 127.0.0.1 
@@ -402,10 +406,10 @@ Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/
 ### QUESTION 222
 What are the default memory limit policies for a Docker container?
 
-- A. Limitedmemory,limitedkernelmemory
-- B. Unlimitedmemory,limitedkernelmemory 
-- C. Limitedmemory,unlimited kernel memory 
-- D. Unlimitedmemory,unlimited kernel memory
+- A. Limited memory,limited kernel memory
+- B. Unlimited memory,limited kernel memory 
+- C. Limited memory,unlimited kernel memory 
+- D. Unlimited memory,unlimited kernel memory
 
 <details><summary>Answer:</summary><p> D
 
@@ -597,19 +601,22 @@ Reference: https://docs.docker.com/engine/userguide/networking/#the-docker_gwbri
 
 </p></details><hr>
 
-### QUESTION 232
+### QUESTION 232 x
 Which services can be used as optional components of setting up a new Trail in CloudTrail?
 
-- A. KMS,SNSandSES
-- B. CloudWatch,S3andSNS 
-- C. KMS,CloudwatchandSNS 
-- D. KMS,S3andCloudWatch
+- A. KMS,SNS and SES
+- B. CloudWatch,S3 and SNS 
+- C. KMS,Cloudwatch and SNS 
+- D. KMS,S3 and CloudWatch
 
 <details><summary>Answer:</summary><p> C
 
 Explanation:
 
-Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached.
+Key Management Service: The use of AWS KMS is an optional element of CloudTrail, but it allows additional encryption to be added to your Log files when stored on S3 
+
+Simple Notification Service: Amazon SNS is also an optional component for CloudTrail, but it allows for you to create notifications, for example when a new log file is delivered to S3 SNS could notify someone or a team via an e-mail. Or it could be used in conjunction with CloudWatch when metric thresholds have been reached.
+
 CloudWatch Logs: Again, this is another optional component, but AWS CloudTrail allows you to deliver its logs to AWS Cloudwatch Logs as well as S3 for specific monitoring metrics to take place
 
 Reference: https://cloudacademy.com/amazon-web-services/aws-cloudtrail-introduction-course/how-does-aws-cloudtrail-work.html
@@ -635,13 +642,13 @@ Reference: http://aws.amazon.com/cloudtrail/faqs/
 
 </p></details><hr>
 
-### QUESTION 234
+### QUESTION 234 x
 Using the AWS CLI, which command retrieves CloudTrail trail settings, including the status of the trail itself?
 
-- A. awscloudtrailreturn-trails
-- B. aws cloud trail valid at e-settings 
-- C. awscloudtrailget-settings
-- D. aws cloud trail describe-trails
+- A. aws cloudtrail return-trails
+- B. aws cloudtrail validat e-settings 
+- C. aws cloudtrail get-settings
+- D. aws cloudtrail describe-trails
 
 <details><summary>Answer:</summary><p> D
 
@@ -673,10 +680,10 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-
 ### QUESTION 235
 You are running Amazon CloudTrail on an Amazon S3 bucket and look at your most recent log. You notice that the entries include the ListThings and CreateThings actions and wonder if your devices have been hacked. Based on these entries, what service would you be concerned may have been hacked?
 
-- A. AmazonInspector 
-- B. AWSIoT
-- C. AWSCodePipeline 
-- D. AmazonGlacier
+- A. Amazon Inspector 
+- B. AWS IoT
+- C. AWS Code Pipeline 
+- D. Amazon Glacier
 
 <details><summary>Answer:</summary><p> B
 
@@ -707,7 +714,7 @@ Reference: https://aws.amazon.com/cloudtrail/faqs/
   
 </p></details><hr>
 
-### QUESTION 237
+### QUESTION 237 x
 When logging with Amazon CloudTrail, API call information for services with regional end points is ___ .
 
 - A. captured and processed in the same region as to which the API call is made and delivered to the region associated with your Amazon S3 bucket
@@ -719,7 +726,7 @@ When logging with Amazon CloudTrail, API call information for services with regi
 
 Explanation:
 
-When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall informationfor services with single endpoints(IAM,STSetc.)is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. 
+When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API call is made and delivered to the region associated with your Amazon S3 bucket.API call information for services with single endpoints(IAM,STSetc.)is captured in the region where the endpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. 
 
 Reference: https://aws.amazon.com/cloudtrail/faqs/
 
@@ -731,7 +738,7 @@ When logging with Amazon CloudTrail, API call information for services with sing
 - A. captured in the same region as to which the API call is made and processed and delivered to the region associated with your Amazon S3 bucket
 - B. captured and processed in the same region as to which the API call is made and delivered tothe region associated with your Amazon S3 bucket
 - C. captured,processed,and delivered to the region associated with your Amazon S3 bucket
-- D. captured in the region where the endpoint is loc at ed,processed in the region where the
+- D. captured in the region where the endpoint is located,processed in the region where the
 CloudTrail trail is configured, and delivered to the region associated with your Amazon S3
 bucket
 
@@ -739,7 +746,7 @@ bucket
 
 Explanation:
 
-When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API callismade and delivered to the region associated with your Amazon S3 bucket.APIcall information for services with single end points (IAM, STS etc.) is captured in the region wheretheendpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. 
+When logging with Amazon CloudTrail, API call information for services with regional end points (EC2, RDS etc.) is captured and processed in the same region as to which the API call is made and delivered to the region associated with your Amazon S3 bucket. API call information for services with single end points (IAM, STS etc.) is captured in the region where the endpointis located,processed in the region where the CloudTrail trail is configured, and delivered to the region associated with your Amazon S3 bucket. 
 
 Reference: https://aws.amazon.com/cloudtrail/faqs/
 
@@ -747,10 +754,10 @@ Reference: https://aws.amazon.com/cloudtrail/faqs/
 
 ### QUESTION 239
 What is the correct syntax for the AWS command to create a single region trail? 
-- A. awscreate-trail--nametrailname--s3-objectobjectname
-- B. awscloudtrail--s3-region name IP address create-trail--nametrailname
-- C. awscloudtrailcreate-trail--nametrailname--s3-bucket-namebucketname 
-- D. awscloudtrailcreate-trail--nametrailname--s3-portnumberIPaddress
+- A. aws create-trail --name trailname --s3-object objectname
+- B. aws cloudtrail --s3-region name IP address create-trail --name trailname
+- C. awsc loudtrail create-trail --name trailname --s3-bucket-name bucketname 
+- D. aws cloudtrail create-trail --name trailname --s3-portnumberIPaddress
 
 <details><summary>Answer:</summary><p> C
 
@@ -765,10 +772,10 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-
 ### QUESTION 240
 You want to set up the CloudTrail Processing Library to log your bucket operations. Which command will build a .jar file from the CloudTrail Processing Library source code?
 
-- A. mvnjavacmvn-installprocessor
-- B. jarinstallprocessor
-- C. buildjar-Dgpg.processor
-- D. mvncleaninstall-Dgpg.skip=true
+- A. mvn javac mvn -install processor
+- B. jar install processor
+- C. build jar -Dgpg.processor
+- D. mvn clean install -Dgpg.skip=true
 
 <details><summary>Answer:</summary><p> D
 
@@ -780,8 +787,8 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-the-clo
 
 </p></details><hr>
 
-### QUESTION 241
-By default, Amazon CloudTrail logs   actions defined by the CloudTrail   APIs. 
+### QUESTION 241 x
+By default, Amazon CloudTrail logs______actions defined by the CloudTrail______APIs. 
 
 - A. bucket-level;RESTful
 - B. object-level;RESTful
@@ -798,7 +805,7 @@ Reference: http://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.htm
 
 </p></details><hr>
 
-### QUESTION 242
+### QUESTION 242 x
 You want to build an application that coordinates work across distributed components, and you find Amazon Simple Workflow Service (Amazon SWF) does this easily. You have enabled logging in CloudTrail, but you are unsure about Amazon SWF actions supported. Which of the following actions is NOT supported?
 
 - A. RegisterDomain
@@ -819,15 +826,18 @@ Reference: http://docs.aws.amazon.com/amazonswf/latest/developerguide/ct-logging
 </p></details><hr>
 
 ### QUESTION 243
-Consider the portion of a CloudTrail log file below. Which type of event is being captured? "eventTime":"2016-07-16T17:35:32Z",
+Consider the portion of a CloudTrail log file below. Which type of event is being captured? 
+```
+"eventTime":"2016-07-16T17:35:32Z",
 "eventSource":"signin.amazonaws.com",
 "eventName":"ConsoleLogin",
 "awsRegion":"us-west-1", "sourceIPAddress":"192.1.2.10", ...
+```
 
-- A. AWSconsolesign-in
-- B. AWSlogoff
-- C. AWSerror
-- D. AWSdeployment
+- A. AWS console sign-in
+- B. AWS log off
+- C. AWS error
+- D. AWS deployment
 
 <details><summary>Answer:</summary><p> A
 
@@ -840,14 +850,14 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-
 </p></details><hr>
 
 ### QUESTION 244
-To monitor API calls against our AWS account by different users and entities, we can use
-to create a history of calls in bulk for later review, and use   for reacting to
+To monitor API calls against our AWS account by different users and entities, we can use______
+to create a history of calls in bulk for later review, and use______for reacting to
 AWS API calls in real-time.
 
-- A. AWSCloudTrail;CloudWatchEvents 
-- B. AWSConfig;AWSInspector
-- C. AWSConfig;AWSLambda
-- D. AWSCloudTrail;AWSConfig 
+- A. AWS CloudTrail;CloudWatch Events 
+- B. AWS Config;AWS Inspector
+- C. AWS Config;AWS Lambda
+- D. AWS CloudTrail;AWS Config 
 
 <details><summary>Answer:</summary><p> A
 
@@ -881,10 +891,10 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-
 ### QUESTION 246
 As CloudTrail sends a notification each time a log file is written to the Amazon S3 bucket, an account that's very active can generate a large number of notifications. If you subscribe using email or SMS, you may end up receiving a large volume of messages. Which of the following should you use to handle notifications programmatically?
 
-- A. AmazonKinesisFirehose
-- B. AmazonSimpleQueueService(AmazonSQS)
-- C. AmazonSimpleEmailService(AmazonSES)
-- D. AmazonAppStream
+- A. Amazon Kinesis Firehose
+- B. Amazon Simple Queue Service(Amazon SQS)
+- C. Amazon Simple Email Service(Amazon SES)
+- D. Amazon App Stream
 
 <details><summary>Answer:</summary><p> B
 
@@ -899,10 +909,10 @@ Reference: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_not
 ### QUESTION 247
 Within an IAM policy, can you add an IfExists condition at the end of a Null condition?
 
-- A. Yes,you can add an If Ex is ts condition at the end of a Null condition but not in all Region s.
-- B. Yes,you can add an If Ex is ts condition at the end of a Null condition depending on the condition. 
-- C. No,you cannot add an If Ex is ts condition at the end of a Null condition.
-- D. Yes,you can add an If Ex is ts condition at the end of a Null condition.
+- A. Yes,you can add an IfExists condition at the end of a Null condition but not in all Region s.
+- B. Yes,you can add an IfExists condition at the end of a Null condition depending on the condition. 
+- C. No,you cannot add an IfExists condition at the end of a Null condition.
+- D. Yes,you can add an IfExists condition at the end of a Null condition.
 
 <details><summary>Answer:</summary><p> C
 
@@ -941,7 +951,7 @@ Reference: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_supp
 </p></details><hr>
 
 ### QUESTION 249
-To override an allow in an IAM policy, you set the Effect element to   .
+To override an allow in an IAM policy, you set the Effect element to______.
 
 - A. Block
 - B. Stop
@@ -959,7 +969,7 @@ Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_
 </p></details><hr>
 
 ### QUESTION 250
-To access the AWS Security Token Service (STS) you can issue calls directly to the AWS STS Query API. This API is a web service interface that accepts   requests.
+To access the AWS Security Token Service (STS) you can issue calls directly to the AWS STS Query API. This API is a web service interface that accepts______requests.
 
 - A. PUT
 - B. HTTPS
@@ -1157,11 +1167,11 @@ Reference: http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_
 ### QUESTION 259
 Which command will start an assessment run?
 
-- A. awsinspectorstart-assessment-run--assessment-template-arn<template-arn>
-- B. awsinspectorstart-assessment-run--assessment-run-nameexamplerun--assessment-target
-<target-arn>
-- C. awsinspectorstart-assessment-run--assessment-run-nameexamplerun
-- D. awsinspectorstart-assessment-run--assessment-run-nameexamplerun--assessment-
+- A. aws inspector start-assessment-run--assessment-template-arn[template-arn]
+- B. aws inspector start-assessment-run--assessment-run-nameexamplerun--assessment-target
+[target-arn]
+- C. aws inspector start-assessment-run--assessment-run-nameexamplerun
+- D. aws inspector start-assessment-run--assessment-run-nameexamplerun--assessment-
 duration
 <duration-in-seconds>
 
