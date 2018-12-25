@@ -72,7 +72,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario3.html
 
 </p></details><hr>
 
-### Question 4:
+### Question 4: x
 
 You must architect the migration of a web application to AWS. The application consists of Linux web servers running a custom web server. You are required to save the logs generated from the application to a durable location.
 
@@ -270,23 +270,17 @@ Explanation:
 
 A Virtual Private Cloud (VPC) is a virtual network dedicated to the user's AWS account. The user can create subnets as per the requirement within a VPC. The VPC also work with IAM and the organization can create IAM users who have access to various VPC services. The organization can setup access for the IAM user who can modify the security groups of the VPC. The sample policy is given below:
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement":
-
-[{ "Effect": "Allow",
-
-"Action": "ec2:RunInstances", "Resource":
-
-["arn:aws:ec2:region::image/ami-*", "arn:aws:ec2:region:account:subnet/subnet-1a2b3c4d",
-
-"arn:aws:ec2:region:account:network-interface/*", "arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:key-pair/*", "arn:aws:ec2:region:account:security-group/sg-123abc123" ] }]
-
+  "Version": "2012-10-17",
+  "Statement":
+  [{ "Effect": "Allow",
+    "Action": "ec2:RunInstances", "Resource":
+    ["arn:aws:ec2:region::image/ami-*", "arn:aws:ec2:region:account:subnet/subnet-1a2b3c4d",
+      "arn:aws:ec2:region:account:network-interface/*", "arn:aws:ec2:region:account:volume/*",
+      "arn:aws:ec2:region:account:key-pair/*", "arn:aws:ec2:region:account:security-group/sg-123abc123" ] }]
 }
+```
 
 With this policy the user can create four subnets in separate zones and provide IAM user access to each subnet.
 
