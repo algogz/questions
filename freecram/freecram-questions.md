@@ -2374,7 +2374,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_IAM.html
 
 </p></details><hr>
 
-### Question 96:
+### Question 96: x
 
 An organization is creating a VPC for their application hosting. The organization has created two private subnets in the same AZ and created one subnet in a separate zone.
 
@@ -2456,7 +2456,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html#he
 
 </p></details><hr>
 
-### Question 99:
+### Question 99: *
 
 In Amazon ElastiCache, which of the following statements is correct?
 
@@ -2492,6 +2492,8 @@ Which statement is NOT true about a stack which has been created in a Virtual Pr
 
 Explanation:
 
+Correct answer should be `B` according to the comments below.
+
 In AWS OpsWorks, you can control user access to a stack's instances by creating it in a virtual private cloud (VPC). For example, you might not want users to have direct access to your stack's app servers or databases and instead require that all public traffic be channeled through an Elastic Load Balancer. A VPC consists of one or more subnets, each of which contains one or more instances. Each subnet has an associated routing table that directs outbound traffic based on its destination IP address. Instances within a VPC can generally communicate with each other, regardless of their subnet. Subnets whose instances can communicate with the Internet are referred to as public subnets. Subnets whose instances can communicate only with other instances in the VPC and cannot communicate directly with the Internet are referred to as private subnets. AWS OpsWorks requires the VPC to be configured so that every instance in the stack, including instances in private subnets, has access to the following endpoints:
 
 The AWS OpsWorks service, https://opsworks-instance-service.us-east-1.amazonaws.com . Amazon S3 The package repositories for Amazon Linux or Ubuntu 12.04 LTS, depending on which operating system you specify.
@@ -2504,7 +2506,7 @@ http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-vpc.html#work
 
 </p></details><hr>
 
-### Question 101:
+### Question 101: x
 
 The CFO of a company wants to allow one of his employees to view only the AWS usage report page.
 
@@ -2522,27 +2524,20 @@ Explanation:
 
 AWS Identity and Access Management is a web service which allows organizations to manage users and user permissions for various AWS services. If the CFO wants to allow only AWS usage report page access, the policy for that IAM user will be as given below:
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [
-
-{
-
-"Effect": "Allow", "Action": [
-
-"aws-portal:ViewUsage"
-
-],
-
-"Resource": "*"
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "aws-portal:ViewUsage"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
-
-]
-
-}
+```
 
 http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-permissions-ref.html
 
@@ -3202,19 +3197,22 @@ Explanation:
 
 AWS Identity and Access Management is a web service which allows organizations to manage users and user permissions for various AWS services. If the organization (account ID 123412341234) wants their users to manage their subscription to the groups, they should create a relevant policy for that. The below mentioned policy allows the respective IAM user to update the membership of the group called MarketingGroup.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow", "Action": [ "iam:AddUserToGroup",
-
-"iam:RemoveUserFromGroup", "iam:GetGroup"
-
-],
-
-"Resource": "arn:aws:iam:: 123412341234:group/ TestingGroup " }]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:AddUserToGroup",
+        "iam:RemoveUserFromGroup",
+        "iam:GetGroup"
+      ],
+      "Resource": "arn:aws:iam:: 123412341234:group/ TestingGroup "
+    }
+  ]
+}
+```
 
 http://docs.aws.amazon.com/IAM/latest/UserGuide/Credentials-Permissions-examples.html#creds- policies-credentials
 
@@ -3680,53 +3678,36 @@ He assigns it the /marketing path. The group's ARN is arn:aws:iam::123456789012:
 
 Dave assigns the following policy to the Marketing_Admin group that gives the group permission to use all IAM actions with all groups and users in the /marketing path. The policy also gives the Marketing_Admin group permission to perform any AWS S3 actions on the objects in the portion of the corporate bucket.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [
-
-{
-
-"Effect": "Deny",
-
-"Action": "iam:*",
-
-"Resource": [
-
-"arn:aws:iam::123456789012:group/marketing/*",
-
-"arn:aws:iam::123456789012:user/marketing/*"
-
-]
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "s3:*",
-
-"Resource": "arn:aws:s3:::example_bucket/marketing/*"
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "s3:ListBucket*",
-
-"Resource": "arn:aws:s3:::example_bucket",
-
-"Condition":{"StringLike":{"s3:prefix": "marketing/*"}}
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": "iam:*",
+      "Resource": [
+        "arn:aws:iam::123456789012:group/marketing/*",
+        "arn:aws:iam::123456789012:user/marketing/*"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::example_bucket/marketing/*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:ListBucket*",
+      "Resource": "arn:aws:s3:::example_bucket",
+      "Condition": {
+        "StringLike": {
+          "s3:prefix": "marketing/*"
+        }
+      }
+    }
+  ]
 }
-
-]
-
-}
+```
 
 - A. True
 - B. False
@@ -5661,65 +5642,39 @@ When an API action requires a caller to specify multiple resources, you must cre
 
 The following policy allows users to attach volumes with the tag "volume_user=iam-user-name" to instances with the tag "department=dev", and to detach those volumes from those instances. If you attach this policy to an IAM group, the aws:username policy variable gives each IAM user in the group permission to attach or detach volumes from the instances with a tag named volume_user that has his or her IAM user name as a value.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow",
-
-"Action": [
-
-"ec2:AttachVolume",
-
-"ec2:DetachVolume"
-
-],
-
-"Resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
-
-"Condition": {
-
-"StringEquals": {
-
-"ec2:ResourceTag/department": "dev"
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AttachVolume",
+        "ec2:DetachVolume"
+      ],
+      "Resource": "arn:aws:ec2:us-east-1:123456789012:instance/*",
+      "Condition": {
+        "StringEquals": {
+          "ec2:ResourceTag/department": "dev"
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AttachVolume",
+        "ec2:DetachVolume"
+      ],
+      "Resource": "arn:aws:ec2:us-east-1:123456789012:volume/*",
+      "Condition": {
+        "StringEquals": {
+          "ec2:ResourceTag/volume_user": "${aws:username}"
+        }
+      }
+    }
+  ]
 }
-
-}
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": [
-
-"ec2:AttachVolume",
-
-"ec2:DetachVolume"
-
-],
-
-"Resource": "arn:aws:ec2:us-east-1:123456789012:volume/*",
-
-"Condition": {
-
-"StringEquals": {
-
-"ec2:ResourceTag/volume_user": "${aws:username}"
-
-}
-
-}
-
-}
-
-]
-
-}
+```
 
 Launching instances (RunInstances)
 
@@ -5735,271 +5690,170 @@ The following policy allows users to launch instances using only the AMIs that h
 
 "department=dev", associated with them. The users can't launch instances using other AMIs because the Condition element of the first statement requires that users specify an AMI that has this tag. The users also can't launch into a subnet, as the policy does not grant permissions for the subnet and network interface resources. They can, however, launch into EC2-Classic. The second statement uses a wildcard to enable users to create instance resources, and requires users to specify the key pair project_keypair and the security group sg-1a2b3c4d. Users are still able to launch instances without a key pair.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region::image/ami-*"
-
-],
-
-"Condition": {
-
-"StringEquals": {
-
-"ec2:ResourceTag/department": "dev"
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "ec2:ResourceTag/department": "dev"
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region:account:instance/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:key-pair/project_keypair",
+        "arn:aws:ec2:region:account:security-group/sg-1a2b3c4d"
+      ]
+    }
+  ]
 }
-
-}
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region:account:instance/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:key-pair/project_keypair",
-
-"arn:aws:ec2:region:account:security-group/sg-1a2b3c4d"
-
-]
-
-}
-
-]
-
-}
+```
 
 Alternatively, the following policy allows users to launch instances using only the specified AMIs, ami-
 
 9e1670f7 and ami-45cf5c3c. The users can't launch an instance using other AMIs (unless another statement grants the users permission to do so), and the users can't launch an instance into a subnet.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region::image/ami-9e1670f7",
-
-"arn:aws:ec2:region::image/ami-45cf5c3c",
-
-"arn:aws:ec2:region:account:instance/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:key-pair/*",
-
-"arn:aws:ec2:region:account:security-group/*"
-
-]
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-9e1670f7",
+        "arn:aws:ec2:region::image/ami-45cf5c3c",
+        "arn:aws:ec2:region:account:instance/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/*"
+      ]
+    }
+  ]
 }
-
-]
-
-}
+```
 
 Alternatively, the following policy allows users to launch instances from all AMIs owned by Amazon. The Condition element of the first statement tests whether ec2:Owner is amazon. The users can't launch an instance using other AMIs (unless another statement grants the users permission to do so). The users are able to launch an instance into a subnet.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region::image/ami-*"
-
-],
-
-"Condition": {
-
-"StringEquals": {
-
-"ec2:Owner": "amazon"
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "ec2:Owner": "amazon"
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region:account:instance/*",
+        "arn:aws:ec2:region:account:subnet/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:network-interface/*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/*"
+      ]
+    }
+  ]
 }
-
-}
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region:account:instance/*",
-
-"arn:aws:ec2:region:account:subnet/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:network-interface/*",
-
-"arn:aws:ec2:region:account:key-pair/*",
-
-"arn:aws:ec2:region:account:security-group/*"
-
-]
-
-}
-
-]
-
-}
+```
 
 b. Instance type
 
 The following policy allows users to launch instances using only the t2.micro or t2.small instance type, which you might do to control costs. The users can't launch larger instances because the Condition element of the first statement tests whether ec2:InstanceType is either t2.micro or t2.small.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region:account:instance/*"
-
-],
-
-"Condition": {
-
-"StringEquals": {
-
-"ec2:InstanceType": ["t2.micro", "t2.small"]
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region:account:instance/*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "ec2:InstanceType": [
+            "t2.micro",
+            "t2.small"
+          ]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-*",
+        "arn:aws:ec2:region:account:subnet/*",
+        "arn:aws:ec2:region:account:network-interface/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/*"
+      ]
+    }
+  ]
 }
-
-}
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region::image/ami-*",
-
-"arn:aws:ec2:region:account:subnet/*",
-
-"arn:aws:ec2:region:account:network-interface/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:key-pair/*",
-
-"arn:aws:ec2:region:account:security-group/*"
-
-]
-
-}
-
-]
-
-}
+```
 
 Alternatively, you can create a policy that denies users permission to launch any instances except t2.micro and t2.small instance types.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Deny",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region:account:instance/*"
-
-],
-
-"Condition": {
-
-"StringNotEquals": {
-
-"ec2:InstanceType": ["t2.micro", "t2.small"]
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region:account:instance/*"
+      ],
+      "Condition": {
+        "StringNotEquals": {
+          "ec2:InstanceType": [
+            "t2.micro",
+            "t2.small"
+          ]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-*",
+        "arn:aws:ec2:region:account:network-interface/*",
+        "arn:aws:ec2:region:account:instance/*",
+        "arn:aws:ec2:region:account:subnet/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/*"
+      ]
+    }
+  ]
 }
-
-}
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region::image/ami-*",
-
-"arn:aws:ec2:region:account:network-interface/*",
-
-"arn:aws:ec2:region:account:instance/*",
-
-"arn:aws:ec2:region:account:subnet/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:key-pair/*",
-
-"arn:aws:ec2:region:account:security-group/*"
-
-]
-
-}
-
-]
-
-}
+```
 
 c. Subnet
 
@@ -6007,99 +5861,61 @@ The following policy allows users to launch instances using only the specified s
 
 The group can't launch instances into any another subnet (unless another statement grants the users permission to do so). Users are still able to launch instances into EC2-Classic.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region:account:subnet/subnet-12345678",
-
-"arn:aws:ec2:region:account:network-interface/*",
-
-"arn:aws:ec2:region:account:instance/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region::image/ami-*",
-
-"arn:aws:ec2:region:account:key-pair/*",
-
-"arn:aws:ec2:region:account:security-group/*"
-
-]
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region:account:subnet/subnet-12345678",
+        "arn:aws:ec2:region:account:network-interface/*",
+        "arn:aws:ec2:region:account:instance/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region::image/ami-*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/*"
+      ]
+    }
+  ]
 }
-
-]
-
-}
+```
 
 Alternatively, you could create a policy that denies users permission to launch an instance into any other subnet. The statement does this by denying permission to create a network interface, except where subnet subnet-12345678 is specified. This denial overrides any other policies that are created to allow launching instances into other subnets. Users are still able to launch instances into EC2-Classic.
 
+```json
 {
-
-"Version": "2012-10-17",
-
-"Statement": [{
-
-"Effect": "Deny",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region:account:network-interface/*"
-
-],
-
-"Condition": {
-
-"ArnNotEquals": {
-
-"ec2:Subnet": "arn:aws:ec2:region:account:subnet/subnet-12345678"
-
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region:account:network-interface/*"
+      ],
+      "Condition": {
+        "ArnNotEquals": {
+          "ec2:Subnet": "arn:aws:ec2:region:account:subnet/subnet-12345678"
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-*",
+        "arn:aws:ec2:region:account:network-interface/*",
+        "arn:aws:ec2:region:account:instance/*",
+        "arn:aws:ec2:region:account:subnet/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/*"
+      ]
+    }
+  ]
 }
-
-}
-
-},
-
-{
-
-"Effect": "Allow",
-
-"Action": "ec2:RunInstances",
-
-"Resource": [
-
-"arn:aws:ec2:region::image/ami-*",
-
-"arn:aws:ec2:region:account:network-interface/*",
-
-"arn:aws:ec2:region:account:instance/*",
-
-"arn:aws:ec2:region:account:subnet/*",
-
-"arn:aws:ec2:region:account:volume/*",
-
-"arn:aws:ec2:region:account:key-pair/*",
-
-"arn:aws:ec2:region:account:security-group/*"
-
-]
-
-}
-
-]
-
-}
+```
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/your-system-recently-experienced-down-time-during-the-troubleshooting-process-you-found-that-a-new-admini)
 
