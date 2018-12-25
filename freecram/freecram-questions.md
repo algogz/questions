@@ -1406,7 +1406,7 @@ In Amazon ElastiCache, you can run a maximum of 20 Cache Nodes.
 
 </p></details><hr>
 
-### Question 57:
+### Question 57: x
 
 An organization is planning to create a secure scalable application with AWS VPC and ELB. The organization has two instances already running and each instance has an ENI attached to it in addition to a primary network interface. The primary network interface and additional ENI both have an elastic IP attached to it.
 
@@ -1456,7 +1456,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDSFAQ.PIOPS.html
 
 </p></details><hr>
 
-### Question 59:
+### Question 59: x
 
 An organization has setup RDS with VPC. The organization wants RDS to be accessible from the internet.
 
@@ -1486,7 +1486,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html
 
 </p></details><hr>
 
-### Question 60:
+### Question 60: x
 
 A user authenticating with Amazon Cognito will go through a multi-step process to bootstrap their credentials.
 
@@ -1512,7 +1512,7 @@ http://docs.aws.amazon.com/cognito/devguide/identity/concepts/authentication-flo
 
 </p></details><hr>
 
-### Question 61:
+### Question 61: x
 
 After setting an AWS Direct Connect, which of the following cannot be done with an AWS Direct Connect Virtual Interface?
 
@@ -1536,7 +1536,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInte
 
 </p></details><hr>
 
-### Question 62:
+### Question 62: *
 
 Can a user configure a custom health check with Auto Scaling?
 
@@ -1573,6 +1573,8 @@ Which architecture change could you introduce to reduce costs and still keep you
 [A]
 
 Explanation:
+
+Prefer C as the correct answer.
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-hosts-a-social-media-website-for-storing-and-sharing-documents-the-web-application-allows)
 
@@ -1722,7 +1724,7 @@ Explanation:
 
 </p></details><hr>
 
-### Question 70:
+### Question 70: x
 
 How can multiple compute resources be used on the same pipeline in AWS Data Pipeline?
 
@@ -1788,7 +1790,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html
 
 </p></details><hr>
 
-### Question 73:
+### Question 73: x
 
 Does Autoscaling automatically assign tags to resources?
 
@@ -1825,6 +1827,8 @@ While assigning a tag to an instance, which of the below mentioned options is no
 [A]
 
 Explanation:
+
+Prefer answer `B` according to this: Don't use the aws: prefix for either keys or values; it's reserved for AWS use. You can't edit or delete tag keys or values with this prefix. Tags with this prefix do not count against your tags per resource limit.
 
 In Amazon Web Services, to help manage EC2 instances as well their usage in a better way, the user can tag the instances. The tags are metadata assigned by the user which consists of a key and value. The tag key cannot have a prefix as "aws:", although it can have only "aws".
 
@@ -1882,9 +1886,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html
 
 You are designing an SSL/TLS solution that requires HTTPS clients to be authenticated by the Web server using client certificate authentication. The solution must be resilient.
 
-Which of the following options would you consider for configuring the web server infrastructure? (Choose
-
-2)
+Which of the following options would you consider for configuring the web server infrastructure? (Choose 2)
 
 - A. Configure ELB with TCP listeners on TCP/443. And place the Web servers behind it.
 - B. Configure your web servers as the origins for a CloudFront distribution. Use custom SSL certificates on your CloudFront distribution.
@@ -1948,7 +1950,7 @@ https://aws.amazon.com/directconnect/faqs/
 
 </p></details><hr>
 
-### Question 80:
+### Question 80: x
 
 You are running a news website in the eu-west-1 region that updates every 15 minutes. The website has a world-wide audience. It uses an Auto Scaling group behind an Elastic Load Balancer and an Amazon RDS database. Static content resides on Amazon S3, and is distributed through Amazon CloudFront. Your Auto Scaling group is set to trigger a scale up event at 60% CPU utilization. You use an Amazon RDS extra large DB instance with 10.000 Provisioned IOPS, its CPU utilization is around 80%, while freeable memory is in the 2 GB range.
 
@@ -2099,7 +2101,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario2.html
 
 </p></details><hr>
 
-### Question 86:
+### Question 86: x
 
 True or False: In Amazon ElastiCache, you can use Cache Security Groups to configure the cache clusters that are part of a VPC.
 
@@ -2145,7 +2147,7 @@ http://aws.amazon.com/directconnect/#details
 
 </p></details><hr>
 
-### Question 88:
+### Question 88: *
 
 Which statement is NOT true about accessing remote AWS region in the US by your AWS Direct Connect which is located in the US?
 
@@ -2318,13 +2320,15 @@ How do you fix your usage dashboard?
 
 Explanation:
 
+Prefer answer `A`, see question 2 at http://jayendrapatil.com/aws-cloudfront/
+
 http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/you-deployed-your-company-website-using-elastic-beanstalk-and-you-enabled-log-file-rotation-to-s3-an)
 
 </p></details><hr>
 
-### Question 95:
+### Question 95: x
 
 An organization is undergoing a security audit. The auditor wants to view the AWS VPC configurations as the organization has hosted all the applications in the AWS VPC. The auditor is from a remote place and wants to have access to AWS to view all the VPC records.
 
@@ -2342,23 +2346,27 @@ Explanation:
 
 A Virtual Private Cloud (VPC) is a virtual network dedicated to the user's AWS account. The user can create subnets as per the requirement within a VPC. The VPC also works with IAM and the organization can create IAM users who have access to various VPC services. If an auditor wants to have access to the AWS VPC to verify the rules, the organization should be careful before sharing any data which can allow making updates to the AWS infrastructure. In this scenario it is recommended that the organization creates an IAM user who will have read only access to the VPC. Share the above mentioned credentials with the auditor as it cannot harm the organization. The sample policy is given below:
 
+```json
 {
-
-"Effect":"Allow", "Action": [ "ec2:DescribeVpcs", "ec2:DescribeSubnets",
-
-"ec2: DescribeInternetGateways", "ec2:DescribeCustomerGateways", "ec2:DescribeVpnGateways",
-
-"ec2:DescribeVpnConnections", "ec2:DescribeRouteTables", "ec2:DescribeAddresses",
-
-"ec2:DescribeSecurityGroups", "ec2:DescribeNetworkAcls", "ec2:DescribeDhcpOptions",
-
-"ec2:DescribeTags", "ec2:DescribeInstances"
-
-],
-
-"Resource":"*"
-
+  "Effect": "Allow",
+  "Action": [
+    "ec2:DescribeVpcs",
+    "ec2:DescribeSubnets",
+    "ec2: DescribeInternetGateways",
+    "ec2:DescribeCustomerGateways",
+    "ec2:DescribeVpnGateways",
+    "ec2:DescribeVpnConnections",
+    "ec2:DescribeRouteTables",
+    "ec2:DescribeAddresses",
+    "ec2:DescribeSecurityGroups",
+    "ec2:DescribeNetworkAcls",
+    "ec2:DescribeDhcpOptions",
+    "ec2:DescribeTags",
+    "ec2:DescribeInstances"
+  ],
+  "Resource": "*"
 }
+```
 
 http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_IAM.html
 
