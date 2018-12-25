@@ -273,12 +273,20 @@ A Virtual Private Cloud (VPC) is a virtual network dedicated to the user's AWS a
 ```json
 {
   "Version": "2012-10-17",
-  "Statement":
-  [{ "Effect": "Allow",
-    "Action": "ec2:RunInstances", "Resource":
-    ["arn:aws:ec2:region::image/ami-*", "arn:aws:ec2:region:account:subnet/subnet-1a2b3c4d",
-      "arn:aws:ec2:region:account:network-interface/*", "arn:aws:ec2:region:account:volume/*",
-      "arn:aws:ec2:region:account:key-pair/*", "arn:aws:ec2:region:account:security-group/sg-123abc123" ] }]
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:RunInstances",
+      "Resource": [
+        "arn:aws:ec2:region::image/ami-*",
+        "arn:aws:ec2:region:account:subnet/subnet-1a2b3c4d",
+        "arn:aws:ec2:region:account:network-interface/*",
+        "arn:aws:ec2:region:account:volume/*",
+        "arn:aws:ec2:region:account:key-pair/*",
+        "arn:aws:ec2:region:account:security-group/sg-123abc123"
+      ]
+    }
+  ]
 }
 ```
 
@@ -354,7 +362,7 @@ Explanation:
 
 </p></details><hr>
 
-### Question 14:
+### Question 14: x
 
 Identify a true statement about the statement ID (Sid) in IAM.
 
@@ -508,7 +516,7 @@ When your app accesses an AWS resource, pass the credentials provider instance t
 
 </p></details><hr>
 
-### Question 19:
+### Question 19: x
 
 Which of the following statements is NOT correct when working with your AWS Direct Connect connection after it is set up completely?
 
@@ -554,7 +562,7 @@ https://aws.amazon.com/cloudformation/faqs
 
 </p></details><hr>
 
-### Question 21:
+### Question 21: x
 
 IAM Secure and Scalable is an organization which provides scalable and secure SAAS to its clients. They are planning to host a web server and App server on AWS VPC as separate tiers. The organization wants to implement the scalability by configuring Auto Scaling and load balancer with their app servers (middle tier) too.
 
@@ -690,7 +698,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/concept-resources.
 
 </p></details><hr>
 
-### Question 27:
+### Question 27: x
 
 For Amazon EC2 issues, while troubleshooting AWS CloudFormation, you need to view the cloud-init and cfn logs for more information. Identify a directory to which these logs are published.
 
@@ -768,7 +776,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/MultipleIP.html
 
 </p></details><hr>
 
-### Question 30:
+### Question 30: x
 
 Which of the following is the Amazon Resource Name (ARN) condition operator that can be used within an Identity and Access Management (IAM) policy to check the case-insensitive matching of the ARN?
 
@@ -902,7 +910,7 @@ Explanation:
 
 </p></details><hr>
 
-### Question 36:
+### Question 36: x
 
 A user has configured EBS volume with PIOPS. The user is not experiencing the optimal throughput.
 
@@ -926,7 +934,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-io-characteristics.html
 
 </p></details><hr>
 
-### Question 37:
+### Question 37: x
 
 Cognito Sync is an AWS service that you can use to synchronize user profile data across mobile devices without requiring your own backend. When the device is online, you can synchronize data.
 
@@ -974,7 +982,7 @@ http://docs.aws.amazon.com/cli/latest/reference/cloudformation/describe-stack-re
 
 </p></details><hr>
 
-### Question 39:
+### Question 39: x
 
 You are designing a social media site and are considering how to mitigate distributed denial-of-service (DDoS) attacks.
 
@@ -1038,7 +1046,7 @@ Reference: http://docs.aws.amazon.com/cognito/devguide/identity/identity-pools/
 
 </p></details><hr>
 
-### Question 42:
+### Question 42: x
 
 By default, temporary security credentials for an IAM user are valid for a maximum of 12 hours, but you can request a duration as long as _________ hours.
 
@@ -1276,39 +1284,25 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.ht
 
 ### Question 52:
 
-You've been brought in as solutions architect to assist an enterprise customer with their migration of an e- commerce platform to Amazon Virtual Private Cloud (VPC) The previous architect has already deployed a
-
-3-tier VPC.
+You've been brought in as solutions architect to assist an enterprise customer with their migration of an e- commerce platform to Amazon Virtual Private Cloud (VPC) The previous architect has already deployed a 3-tier VPC.
 
 The configuration is as follows:
-
+```properties
 VPC: vpc-2f8bc447
-
 IGW: igw-2d8bc445
-
 NACL: ad-208bc448
-
 Subnets and Route Tables:
-
 Web servers: subnet-258bc44d
-
 Application servers: subnet-248bc44c
-
 Database servers: subnet-9189c6f9
-
 Route Tables:
-
 rrb-218bc449
-
 rtb-238bc44b
-
 Associations:
-
 subnet-258bc44d : rtb-218bc449
-
 subnet-248bc44c : rtb-238bc44b
-
 subnet-9189c6f9 : rtb-238bc44b
+```
 
 You are now ready to begin deploying EC2 instances into the VPC Web servers must have direct access to the internet Application and database servers cannot have direct access to the internet.
 
