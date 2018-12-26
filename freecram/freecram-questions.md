@@ -2633,7 +2633,7 @@ https://www.pythian.com/blog/a-most-simple-cloud-is-amazon-rds-for-oracle-right-
 
 </p></details><hr>
 
-### Question 106:
+### Question 106: *
 
 A user is trying to create a vault in AWS Glacier. The user wants to enable notifications.
 
@@ -2703,7 +2703,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-describi
 
 </p></details><hr>
 
-### Question 109:
+### Question 109: x
 
 You have just added a new instance to your Auto Scaling group, which receives ELB health checks. An ELB heath check says the new instance's state is out of Service.
 
@@ -2791,7 +2791,7 @@ http://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeli
 
 </p></details><hr>
 
-### Question 113:
+### Question 113: x
 
 You want to use Amazon Redshift and you are planning to deploy dw1.8xlarge nodes. What is the minimum amount of nodes that you need to deploy with this kind of configuration?
 
@@ -2955,7 +2955,7 @@ http://aws.amazon.com/ec2/instance-types/
 
 </p></details><hr>
 
-### Question 120:
+### Question 120: x
 
 An organization is planning to host an application on the AWS VPC. The organization wants dedicated instances. However, an AWS consultant advised the organization not to use dedicated instances with VPC as the design has a few limitations.
 
@@ -3025,7 +3025,7 @@ Explanation:
 
 </p></details><hr>
 
-### Question 123:
+### Question 123: x
 
 A 3-tier e-commerce web application is current deployed on-premises and will be migrated to AWS for greater scalability and elasticity. The web server currently shares read-only data using a network distributed file system. The app server tier uses a clustering mechanism for discovery and shared session state that depends on IP multicast. The database tier uses shared-storage clustering to provide database fall over capability, and uses several read slaves for scaling. Data on all servers and the distributed file system directory is backed up weekly to off-site tapes.
 
@@ -3040,6 +3040,8 @@ Which AWS storage and database architecture meets the requirements of the applic
 [C]
 
 Explanation:
+
+The same with Q138, yet the answer are different, it's `A` for Q138, prefer `C`.
 
 Amazon RDS Multi-AZ deployments provide enhanced availability and durability for Database (DB) Instances, making them a natural fit for production database workloads. When you provision a Multi-AZ DB Instance, Amazon RDS automatically creates a primary DB Instance and synchronously replicates the data to a standby instance in a different Availability Zone (AZ). Each AZ runs on its own physically distinct, independent infrastructure, and is engineered to be highly reliable. In case of an infrastructure failure (for example, instance hardware failure, storage failure, or network disruption), Amazon RDS performs an automatic failover to the standby, so that you can resume database operations as soon as the failover is complete. Since the endpoint for your DB Instance remains the same after a failover, your application can resume database operation without the need for manual administrative intervention.
 
@@ -3109,7 +3111,7 @@ https://aws.amazon.com/cloudformation/faqs/
 
 </p></details><hr>
 
-### Question 125:
+### Question 125: x
 
 A user has suspended the scaling process on the Auto Scaling group. A scaling activity to increase the instance count was already in progress.
 
@@ -3177,13 +3179,11 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-acce
 
 </p></details><hr>
 
-### Question 128:
+### Question 128: x
 
 An organization (account ID 123412341234) has configured the IAM policy to allow the user to modify his credentials.
 
 What will the below mentioned statement allow the user to perform?
-
-
 
 - A. Allow the IAM user to update the membership of the group called TestingGroup
 - B. The IAM policy will throw an error due to an invalid resource name
@@ -3264,7 +3264,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/concept-resources.
 
 </p></details><hr>
 
-### Question 131:
+### Question 131: x
 
 Over which of the following Ethernet standards does AWS Direct Connect link your internal network to an AWS Direct Connect location?
 
@@ -3326,7 +3326,7 @@ The region portion of the ARN is blank because IAM resources are global.
 
 </p></details><hr>
 
-### Question 133:
+### Question 133: x
 
 An administrator is using Amazon CloudFormation to deploy a three tier web application that consists of a web tier and application tier that will utilize Amazon DynamoDB for storage when creating the CloudFormation template.
 
@@ -3366,23 +3366,27 @@ You can use AWS CloudFormation's sample templates or create your own templates t
 
 In the following example, the output named BackupLoadBalancerDNSName returns the DNS name for the resource with the logical ID BackupLoadBalancer only when the CreateProdResources condition is true.
 
-(The second output shows how to specify multiple outputs.) "Outputs" : {
-
-"BackupLoadBalancerDNSName" : {
-
-"Description": "The DNSName of the backup load balancer", "Value" : { "Fn::GetAtt" :
-
-["BackupLoadBalancer", "DNSName" ]}, "Condition" : "CreateProdResources"
-
-},
-
-"InstanceID" : {
-
-"Description": "The Instance ID", "Value" : { "Ref" : "EC2Instance" }
-
+(The second output shows how to specify multiple outputs.) "Outputs" : 
+```json
+{
+  "BackupLoadBalancerDNSName": {
+    "Description": "The DNSName of the backup load balancer",
+    "Value": {
+      "Fn::GetAtt": [
+        "BackupLoadBalancer",
+        "DNSName"
+      ]
+    },
+    "Condition": "CreateProdResources"
+  },
+  "InstanceID": {
+    "Description": "The Instance ID",
+    "Value": {
+      "Ref": "EC2Instance"
+    }
+  }
 }
-
-}
+```
 
 http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.htmlxx
 
@@ -3469,6 +3473,8 @@ Which AWS storage and database architecture meets the requirements of the applic
 [A]
 
 Explanation:
+
+The same with Q123, yet the answer are different, it's `C` for Q123, prefer `C`.
 
 https://d0.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf Amazon Glacier doesn't suit all storage situations. Listed following are a few storage needs for which you should consider other AWS storage options instead of Amazon Glacier.
 
