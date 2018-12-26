@@ -42,6 +42,12 @@ public class QuestionRepository {
                 .anyMatch(v -> v >= 0.9);
     }
 
+    public List<Question> findSimilar(String text){
+        return questionList.stream()
+                .filter(q -> StringUtils.similarity(q.getText(), text) >= 0.9)
+                .collect(Collectors.toList());
+    }
+
     public List<Question> findSimilar(Question question){
         return questionList.stream()
                 .filter(q -> StringUtils.similarity(q.getText(), question.getText()) >= 0.9)

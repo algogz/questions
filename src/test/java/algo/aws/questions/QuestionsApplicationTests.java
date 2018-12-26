@@ -56,6 +56,26 @@ public class QuestionsApplicationTests {
     }
 
     @Test
+    public void findSimilarQuestions1() throws IOException {
+        String text = "You were just hired as a DevOps Engineer for a startup. Your startup uses AWS for 100% of their infrastructure. They currently have no automation at all for deployment, and they have had many failures while trying to deploy to production. \n" +
+                "The company has told you deployment process risk mitigation is the most important thing now, and you have a lot of budget for tools and AWS resources. \n" +
+                "Their stack: \n" +
+                "2-tier API \n" +
+                "Data stored in DynamoDB or S3, depending on type \n" +
+                "Compute layer is EC2 in Auto Scaling Groups \n" +
+                "They use Route53 for DNS pointing to an ELB \n" +
+                "An ELB balances load across the EC2 instances \n" +
+                "The scaling group properly varies between 4 and 12 EC2 servers. Which of the following approaches, given this company’s stack and their priorities, best meets the company’s needs?";
+        QuestionRepository repo = new QuestionRepository("q/dop/aws-devop-pro-full.json");
+        List<Question> similarList = repo.findSimilar(text);
+        int[] similars = similarList
+                .stream()
+                .mapToInt(q1 -> q1.getQuestionNumber())
+                .toArray();
+        log.info("Similar questions {}", similars);
+    }
+
+    @Test
     public void categorize() throws IOException {
         Path path = Paths.get("jayendrapatil/json/professional-questions.json");
         List<Question> qList = QuestionUtils.readQuestions(path);

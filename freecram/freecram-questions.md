@@ -1,4 +1,4 @@
-### QUESTION 1:
+### QUESTION 1
 
 If I write the below command, what does it do?
 
@@ -18,7 +18,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 2:
+### QUESTION 2
 
 In Amazon ElastiCache, the failure of a single cache node can have an impact on the availability of your application and the load on your back-end database while ElastiCache provisions a replacement for the failed cache node and it get repopulated.
 
@@ -44,7 +44,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/CacheNode.Memcache
 
 </p></details><hr>
 
-### QUESTION 3:
+### QUESTION 3
 
 A user has created a VPC with CIDR 20.0.0.0/16 using the wizard. The user has created a public subnet CIDR (20.0.0.0/24) and VPN only subnets CIDR (20.0.1.0/24) along with the VPN gateway (vgw-123456) to connect to the user's data centre. The user's data centre has CIDR 172.28.0.0/12. The user has also setup a NAT instance (i-123456) to allow traffic to the internet from the VPN subnet.
 
@@ -72,7 +72,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario3.html
 
 </p></details><hr>
 
-### QUESTION 4: x
+### QUESTION 4 x
 
 You must architect the migration of a web application to AWS. The application consists of Linux web servers running a custom web server. You are required to save the logs generated from the application to a durable location.
 
@@ -93,7 +93,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 5:
+### QUESTION 5
 
 A web-startup runs its very successful social news application on Amazon EC2 with an Elastic Load Balancer, an Auto-Scaling group of Java/Tomcat application-servers, and DynamoDB as data store. The main web-application best runs on m2 x large instances since it is highly memory- bound Each new deployment requires semi-automated creation and testing of a new AMI for the application servers which takes quite a while ana is therefore only done once per week.
 
@@ -115,7 +115,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 6:
+### QUESTION 6
 
 To scale out the AWS resources using manual AutoScaling, which of the below mentioned parameters should the user change?
 
@@ -139,7 +139,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-manual-scaling.h
 
 </p></details><hr>
 
-### QUESTION 7:
+### QUESTION 7
 
 By default, Amazon Cognito maintains the last-written version of the data. You can override this behavior and resolve data conflicts programmatically.
 
@@ -161,7 +161,7 @@ http://aws.amazon.com/cognito/faqs/
 
 </p></details><hr>
 
-### QUESTION 8:
+### QUESTION 8
 
 An organization has hosted an application on the EC2 instances. There will be multiple users connecting to the instance for setup and configuration of application. The organization is planning to implement certain security best practices.
 
@@ -191,7 +191,7 @@ http://aws.amazon.com/articles/1233/
 
 </p></details><hr>
 
-### QUESTION 9:
+### QUESTION 9
 
 ![architecture](images/q9-1.jpg)
 
@@ -252,7 +252,7 @@ Depending on the balance between the number of EC2 instances for performing the 
 
 </p></details><hr>
 
-### QUESTION 10:
+### QUESTION 10
 
 An organization has 4 people in the IT operations team who are responsible to manage the AWS infrastructure. The organization wants to setup that each user will have access to launch and manage an instance in a zone which the other user cannot modify.
 
@@ -298,7 +298,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_IAM.html
 
 </p></details><hr>
 
-### QUESTION 11:
+### QUESTION 11
 
 Within the IAM service a GROUP is regarded as a:
 
@@ -320,7 +320,7 @@ Instead of defining permissions for individual IAM users, it's usually more conv
 
 </p></details><hr>
 
-### QUESTION 12:
+### QUESTION 12
 
 You are migrating a legacy client-server application to AWS. The application responds to a specific DNS domain (e.g. www.example.com) and has a 2-tier architecture, with multiple application servers and a database server. Remote clients use TCP to connect to the application servers. The application servers need to know the IP address of the clients in order to function properly and are currently taking that information from the TCP socket. A Multi-AZ RDS MySQL instance will be used for the database.
 
@@ -342,7 +342,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 13:
+### QUESTION 13
 
 Your website is serving on-demand training videos to your workforce. Videos are uploaded monthly in high resolution MP4 format. Your workforce is distributed globally often on the move and using company- provided tablets that require the HTTP Live Streaming (HLS) protocol to watch a video. Your company has no video transcoding expertise and it required you may need to pay for a consultant.
 
@@ -362,7 +362,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 14: x
+### QUESTION 14 x
 
 Identify a true statement about the statement ID (Sid) in IAM.
 
@@ -384,7 +384,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html
 
 </p></details><hr>
 
-### QUESTION 15:
+### QUESTION 15
 
 You are developing a new mobile application and are considering storing user preferences in AWS.2w This would provide a more uniform cross-device experience to users using multiple mobile devices to access the application. The preference data for each user is estimated to be 50KB in size Additionally 5 million customers are expected to use the application on a regular basis.
 
@@ -404,7 +404,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 16:
+### QUESTION 16
 
 An AWS customer runs a public blogging website. The site users upload two million blog entries a month.
 
@@ -428,7 +428,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 17:
+### QUESTION 17
 
 A company is building a voting system for a popular TV show, viewers win watch the performances then visit the show's website to vote for their favorite performer. It is expected that in a short period of time after the show has finished the site will receive millions of visitors. The visitors will first login to the site using their Amazon.com credentials and then submit their vote. After the voting is completed the page will display the vote totals. The company needs to build the site such that can handle the rapid influx of traffic while maintaining good performance but also wants to keep costs to a minimum.
 
@@ -448,7 +448,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 18:
+### QUESTION 18
 
 Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly save player data and scoring information from the mobile app to a DynamoDS table named Score Data When a user saves their game the progress data will be stored to the Game state S3 bucket.
 
@@ -516,7 +516,7 @@ When your app accesses an AWS resource, pass the credentials provider instance t
 
 </p></details><hr>
 
-### QUESTION 19: x
+### QUESTION 19 x
 
 Which of the following statements is NOT correct when working with your AWS Direct Connect connection after it is set up completely?
 
@@ -538,7 +538,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/viewdetails.html
 
 </p></details><hr>
 
-### QUESTION 20:
+### QUESTION 20
 
 You need to develop and run some new applications on AWS and you know that Elastic Beanstalk and CloudFormation can both help as a deployment mechanism for a broad range of AWS resources.
 
@@ -562,7 +562,7 @@ https://aws.amazon.com/cloudformation/faqs
 
 </p></details><hr>
 
-### QUESTION 21: x
+### QUESTION 21 x
 
 IAM Secure and Scalable is an organization which provides scalable and secure SAAS to its clients. They are planning to host a web server and App server on AWS VPC as separate tiers. The organization wants to implement the scalability by configuring Auto Scaling and load balancer with their app servers (middle tier) too.
 
@@ -588,7 +588,7 @@ Reference: http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide
 
 </p></details><hr>
 
-### QUESTION 22:
+### QUESTION 22
 
 The Principal element of an IAM policy refers to the specific entity that should be allowed or denied permission, whereas the translates to everyone except the specified entity.
 
@@ -610,7 +610,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html
 
 </p></details><hr>
 
-### QUESTION 23:
+### QUESTION 23
 
 You want to define permissions for a role in an IAM policy. Which of the following configuration formats should you use?
 
@@ -632,7 +632,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html
 
 </p></details><hr>
 
-### QUESTION 24:
+### QUESTION 24
 
 A sys admin is maintaining an application on AWS. The application is installed on EC2 and user has configured ELB and Auto Scaling. Considering future load increase, the user is planning to launch new servers proactively so that they get registered with ELB.
 
@@ -656,7 +656,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-manual-scaling.h
 
 </p></details><hr>
 
-### QUESTION 25:
+### QUESTION 25
 
 Select the correct set of options. These are the initial settings for the default security group:
 
@@ -674,7 +674,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 26:
+### QUESTION 26
 
 In CloudFormation, if you want to map an Amazon Elastic Block Store to an Amazon EC2 instance,
 
@@ -698,7 +698,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/concept-resources.
 
 </p></details><hr>
 
-### QUESTION 27: x
+### QUESTION 27 x
 
 For Amazon EC2 issues, while troubleshooting AWS CloudFormation, you need to view the cloud-init and cfn logs for more information. Identify a directory to which these logs are published.
 
@@ -726,7 +726,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.ht
 
 </p></details><hr>
 
-### QUESTION 28:
+### QUESTION 28
 
 When does an AWS Data Pipeline terminate the AWS Data Pipeline-managed compute resources?
 
@@ -748,7 +748,7 @@ https://aws.amazon.com/datapipeline/faqs/
 
 </p></details><hr>
 
-### QUESTION 29:
+### QUESTION 29
 
 A user is planning to host a web server as well as an app server on a single EC2 instance which is a part of the public subnet of a VPC.
 
@@ -776,7 +776,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/MultipleIP.html
 
 </p></details><hr>
 
-### QUESTION 30: x
+### QUESTION 30 x
 
 Which of the following is the Amazon Resource Name (ARN) condition operator that can be used within an Identity and Access Management (IAM) policy to check the case-insensitive matching of the ARN?
 
@@ -798,7 +798,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDesc
 
 </p></details><hr>
 
-### QUESTION 31:
+### QUESTION 31
 
 A user has launched an EBS optimized instance with EC2. Which of the below mentioned options is the correct statement?
 
@@ -820,7 +820,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSOptimized.html
 
 </p></details><hr>
 
-### QUESTION 32:
+### QUESTION 32
 
 A user has created an AWS AMI. The user wants the AMI to be available only to his friend and not anyone else. How can the user manage this?
 
@@ -842,7 +842,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sharingamis-explicit.html
 
 </p></details><hr>
 
-### QUESTION 33:
+### QUESTION 33
 
 You want to use AWS CodeDeploy to deploy an application to Amazon EC2 instances running within an Amazon Virtual Private Cloud (VPC).
 
@@ -868,7 +868,7 @@ http://aws.amazon.com/codedeploy/faqs/
 
 </p></details><hr>
 
-### QUESTION 34:
+### QUESTION 34
 
 In the context of AWS IAM, identify a true statement about user passwords (login profiles).
 
@@ -890,7 +890,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html
 
 </p></details><hr>
 
-### QUESTION 35:
+### QUESTION 35
 
 Your application provides data transformation services. Files containing data to be transformed are first uploaded to Amazon S3 and then transformed by a fleet of spot EC2 instances. Files submitted by your premium customers must be transformed with the highest priority.
 
@@ -910,7 +910,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 36: x
+### QUESTION 36 x
 
 A user has configured EBS volume with PIOPS. The user is not experiencing the optimal throughput.
 
@@ -934,7 +934,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-io-characteristics.html
 
 </p></details><hr>
 
-### QUESTION 37: x
+### QUESTION 37 x
 
 Cognito Sync is an AWS service that you can use to synchronize user profile data across mobile devices without requiring your own backend. When the device is online, you can synchronize data.
 
@@ -958,7 +958,7 @@ http://docs.aws.amazon.com/cognito/devguide/sync/
 
 </p></details><hr>
 
-### QUESTION 38:
+### QUESTION 38
 
 When using the AWS CLI for AWS CloudFormation, which of the following commands returns a description of the specified resource in the specified stack?
 
@@ -982,7 +982,7 @@ http://docs.aws.amazon.com/cli/latest/reference/cloudformation/describe-stack-re
 
 </p></details><hr>
 
-### QUESTION 39: x
+### QUESTION 39 x
 
 You are designing a social media site and are considering how to mitigate distributed denial-of-service (DDoS) attacks.
 
@@ -1004,7 +1004,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 40:
+### QUESTION 40
 
 You have an application running on an EC2 instance which will allow users to download files from a private S3 bucket using a pre-signed URL. Before generating the URL, the application should verify the existence of the file in S3.
 
@@ -1024,7 +1024,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 41:
+### QUESTION 41
 
 What types of identities do Amazon Cognito identity pools support?
 
@@ -1046,7 +1046,7 @@ Reference: http://docs.aws.amazon.com/cognito/devguide/identity/identity-pools/
 
 </p></details><hr>
 
-### QUESTION 42: x
+### QUESTION 42 x
 
 By default, temporary security credentials for an IAM user are valid for a maximum of 12 hours, but you can request a duration as long as _________ hours.
 
@@ -1068,7 +1068,7 @@ http://docs.aws.amazon.com/STS/latest/UsingSTS/CreatingSessionTokens.html
 
 </p></details><hr>
 
-### QUESTION 43:
+### QUESTION 43
 
 An organization has created 5 IAM users. The organization wants to give them the same login ID but different passwords. How can the organization achieve this?
 
@@ -1092,7 +1092,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_SettingUpUser.html
 
 </p></details><hr>
 
-### QUESTION 44:
+### QUESTION 44
 
 A bucket owner has allowed another account's IAM users to upload or access objects in his bucket. The IAM user of Account A is trying to access an object created by the IAM user of account B What will happen in this scenario?
 
@@ -1114,7 +1114,7 @@ http://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-auth-workflow-obje
 
 </p></details><hr>
 
-### QUESTION 45:
+### QUESTION 45
 
 What is the average queue length recommended by AWS to achieve a lower latency for the 200 PIOPS EBS volume?
 
@@ -1140,7 +1140,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-workload-demand.html
 
 </p></details><hr>
 
-### QUESTION 46:
+### QUESTION 46
 
 A user has configured two security groups which allow traffic as given below: 1: SecGrp1:
 
@@ -1168,7 +1168,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
 
 </p></details><hr>
 
-### QUESTION 47:
+### QUESTION 47
 
 A user is trying to understand the detailed CloudWatch monitoring concept. Which of the below mentioned services does not provide detailed monitoring with CloudWatch?
 
@@ -1190,7 +1190,7 @@ http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/supported_serv
 
 </p></details><hr>
 
-### QUESTION 48:
+### QUESTION 48
 
 An organization is having an application which can start and stop an EC2 instance as per schedule. The organization needs the MAC address of the instance to be registered with its software. The instance is launched in EC2-CLASSIC.
 
@@ -1214,7 +1214,7 @@ Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-inst
 
 </p></details><hr>
 
-### QUESTION 49:
+### QUESTION 49
 
 Who is responsible for modifying the routing tables and networking ACLs in a VPC to ensure that a DB instance is reachable from other instances in the VPC?
 
@@ -1236,7 +1236,7 @@ http://aws.amazon.com/rds/faqs/
 
 </p></details><hr>
 
-### QUESTION 50:
+### QUESTION 50
 
 A user is running a batch process on EBS backed EC2 instances. The batch process launches few EC2 instances to process Hadoop Map reduce jobs which can run between 50 ?600 minutes or sometimes for even more time. The user wants a configuration that can terminate the instance only when the process is completed.
 
@@ -1260,7 +1260,7 @@ http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/UsingAlarmActi
 
 </p></details><hr>
 
-### QUESTION 51:
+### QUESTION 51
 
 What is a circular dependency in AWS CloudFormation?
 
@@ -1282,7 +1282,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.ht
 
 </p></details><hr>
 
-### QUESTION 52:
+### QUESTION 52
 
 You've been brought in as solutions architect to assist an enterprise customer with their migration of an e- commerce platform to Amazon Virtual Private Cloud (VPC) The previous architect has already deployed a 3-tier VPC.
 
@@ -1322,7 +1322,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 53:
+### QUESTION 53
 
 Your company is getting ready to do a major public announcement of a social media site on AWS. The website is running on EC2 instances deployed across multiple Availability Zones with a Multi-AZ RDS MySQL Extra Large DB Instance. The site performs a high number of small reads and writes per second and relies on an eventual consistency model. After comprehensive tests you discover that there is read contention on RDS MySQL.
 
@@ -1342,7 +1342,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 54:
+### QUESTION 54
 
 In Amazon Cognito, your mobile app authenticates with the Identity Provider (IdP) using the provider's SDK. Once the end user is authenticated with the IdP, the OAuth or OpenID Connect token returned from the IdP is passed by your app to Amazon Cognito, which returns a new _____ for the user and a set of temporary, limited-privilege AWS credentials.
 
@@ -1364,7 +1364,7 @@ http://aws.amazon.com/cognito/faqs/
 
 </p></details><hr>
 
-### QUESTION 55:
+### QUESTION 55
 
 What is the maximum length for an instance profile name in AWS IAM?
 
@@ -1386,7 +1386,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html
 
 </p></details><hr>
 
-### QUESTION 56:
+### QUESTION 56
 
 By default, what is the maximum number of Cache Nodes you can run in Amazon ElastiCache?
 
@@ -1406,7 +1406,7 @@ In Amazon ElastiCache, you can run a maximum of 20 Cache Nodes.
 
 </p></details><hr>
 
-### QUESTION 57: x
+### QUESTION 57 x
 
 An organization is planning to create a secure scalable application with AWS VPC and ELB. The organization has two instances already running and each instance has an ENI attached to it in addition to a primary network interface. The primary network interface and additional ENI both have an elastic IP attached to it.
 
@@ -1432,7 +1432,7 @@ http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/gs-ec2VPC.
 
 </p></details><hr>
 
-### QUESTION 58:
+### QUESTION 58
 
 Can Provisioned IOPS be used on RDS instances launched in a VPC?
 
@@ -1456,7 +1456,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDSFAQ.PIOPS.html
 
 </p></details><hr>
 
-### QUESTION 59: x
+### QUESTION 59 x
 
 An organization has setup RDS with VPC. The organization wants RDS to be accessible from the internet.
 
@@ -1486,7 +1486,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html
 
 </p></details><hr>
 
-### QUESTION 60: x
+### QUESTION 60 x
 
 A user authenticating with Amazon Cognito will go through a multi-step process to bootstrap their credentials.
 
@@ -1512,7 +1512,7 @@ http://docs.aws.amazon.com/cognito/devguide/identity/concepts/authentication-flo
 
 </p></details><hr>
 
-### QUESTION 61: x
+### QUESTION 61 x
 
 After setting an AWS Direct Connect, which of the following cannot be done with an AWS Direct Connect Virtual Interface?
 
@@ -1536,7 +1536,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInte
 
 </p></details><hr>
 
-### QUESTION 62: *
+### QUESTION 62 *
 
 Can a user configure a custom health check with Auto Scaling?
 
@@ -1558,7 +1558,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/healthcheck.html
 
 </p></details><hr>
 
-### QUESTION 63:
+### QUESTION 63
 
 Your company hosts a social media website for storing and sharing documents. The web application allows user to upload large files while resuming and pausing the upload as needed. Currently, files are uploaded to your PHP front end backed by Elastic Load Balancing and an autoscaling fleet of Amazon Elastic Compute Cloud (EC2) instances that scale upon average of bytes received (NetworkIn). After a file has been uploaded, it is copied to Amazon Simple Storage Service (S3). Amazon EC2 instances use an AWS Identity and Access Management (IAM) role that allows Amazon S3 uploads. Over the last six months, your user base and scale have increased significantly, forcing you to increase the Auto Scaling group's Max parameter a few times. Your CFO is concerned about rising costs and has asked you to adjust the architecture where needed to better optimize costs.
 
@@ -1574,13 +1574,13 @@ Which architecture change could you introduce to reduce costs and still keep you
 
 Explanation:
 
-Prefer C as the correct answer.
+JW: Prefer C as the correct answer.
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/your-company-hosts-a-social-media-website-for-storing-and-sharing-documents-the-web-application-allows)
 
 </p></details><hr>
 
-### QUESTION 64:
+### QUESTION 64
 
 A user has set the IAM policy where it denies all requests if a request is not from IP 10.10.10.1/32. The other policy says allow all requests between 5 PM to 7 PM.
 
@@ -1608,7 +1608,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationL
 
 </p></details><hr>
 
-### QUESTION 65:
+### QUESTION 65
 
 Which EC2 functionality allows the user to place the Cluster Compute instances in clusters?
 
@@ -1630,7 +1630,7 @@ https://aws.amazon.com/ec2/faqs/
 
 </p></details><hr>
 
-### QUESTION 66:
+### QUESTION 66
 
 How many cg1.4xlarge on-demand instances can a user run in one region without taking any limit increase approval from AWS?
 
@@ -1654,7 +1654,7 @@ http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_ec2
 
 </p></details><hr>
 
-### QUESTION 67:
+### QUESTION 67
 
 An organization is planning to host a web application in the AWS VPC. The organization does not want to host a database in the public cloud due to statutory requirements.
 
@@ -1678,7 +1678,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html
 
 </p></details><hr>
 
-### QUESTION 68:
+### QUESTION 68
 
 Which AWS instance address has the following characteristics? :"If you stop an instance, its Elastic IP address is unmapped, and you must remap it when you restart the instance."
 
@@ -1702,7 +1702,7 @@ If you stop an instance, its Elastic IP address remains associated.
 
 </p></details><hr>
 
-### QUESTION 69:
+### QUESTION 69
 
 An International company has deployed a multi-tier web application that relies on DynamoDB in a single region. For regulatory reasons they need disaster recovery capability in a separate region with a Recovery Time Objective of 2 hours and a Recovery Point Objective of 24 hours. They should synchronize their data on a regular basis and be able to provision me web application rapidly using CloudFormation.
 
@@ -1724,7 +1724,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 70: x
+### QUESTION 70 x
 
 How can multiple compute resources be used on the same pipeline in AWS Data Pipeline?
 
@@ -1746,7 +1746,7 @@ https://aws.amazon.com/datapipeline/faqs/
 
 </p></details><hr>
 
-### QUESTION 71:
+### QUESTION 71
 
 While implementing the policy keys in AWS Direct Connect, if you use and the request comes from an Amazon EC2 instance, the instance's public IP address is evaluated to determine if access is allowed.
 
@@ -1768,7 +1768,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/using_iam.html
 
 </p></details><hr>
 
-### QUESTION 72:
+### QUESTION 72
 
 If a single condition within an IAM policy includes multiple values for one key, it will be evaluated using a logical______.
 
@@ -1790,7 +1790,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html
 
 </p></details><hr>
 
-### QUESTION 73: x
+### QUESTION 73 x
 
 Does Autoscaling automatically assign tags to resources?
 
@@ -1814,7 +1814,7 @@ http://docs.amazonwebservices.com/AWSEC2/latest/UserGuide/Using_Tags.html
 
 </p></details><hr>
 
-### QUESTION 74:
+### QUESTION 74
 
 While assigning a tag to an instance, which of the below mentioned options is not a valid tag key/value pair?
 
@@ -1838,7 +1838,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html
 
 </p></details><hr>
 
-### QUESTION 75:
+### QUESTION 75
 
 For AWS CloudFormation, which stack state refuses UpdateStack calls?
 
@@ -1860,7 +1860,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating
 
 </p></details><hr>
 
-### QUESTION 76:
+### QUESTION 76
 
 Can you configure multiple Load Balancers with a single Auto Scaling group?
 
@@ -1882,7 +1882,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html
 
 </p></details><hr>
 
-### QUESTION 77:
+### QUESTION 77
 
 You are designing an SSL/TLS solution that requires HTTPS clients to be authenticated by the Web server using client certificate authentication. The solution must be resilient.
 
@@ -1902,7 +1902,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 78:
+### QUESTION 78
 
 Which of the following cache engines does Amazon ElastiCache support?
 
@@ -1924,7 +1924,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/SelectEngine.html
 
 </p></details><hr>
 
-### QUESTION 79:
+### QUESTION 79
 
 Your company previously configured a heavily used, dynamically routed VPN connection between your on- premises data center and AWS. You recently provisioned a DirectConnect connection and would like to start using the new connection.
 
@@ -1950,7 +1950,7 @@ https://aws.amazon.com/directconnect/faqs/
 
 </p></details><hr>
 
-### QUESTION 80: x
+### QUESTION 80 x
 
 You are running a news website in the eu-west-1 region that updates every 15 minutes. The website has a world-wide audience. It uses an Auto Scaling group behind an Elastic Load Balancer and an Amazon RDS database. Static content resides on Amazon S3, and is distributed through Amazon CloudFront. Your Auto Scaling group is set to trigger a scale up event at 60% CPU utilization. You use an Amazon RDS extra large DB instance with 10.000 Provisioned IOPS, its CPU utilization is around 80%, while freeable memory is in the 2 GB range.
 
@@ -1973,7 +1973,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 81:
+### QUESTION 81
 
 You have a website which requires international presence and consequently you have set it up as follows.
 
@@ -2003,7 +2003,7 @@ http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#rou
 
 </p></details><hr>
 
-### QUESTION 82:
+### QUESTION 82
 
 The ________ service is targeted at organizations with multiple users or systems that use AWS products such as Amazon EC2, Amazon SimpleDB, and the AWS Management Console.
 
@@ -2023,7 +2023,7 @@ https://aws.amazon.com/documentation/iam/?nc1=h_ls
 
 </p></details><hr>
 
-### QUESTION 83:
+### QUESTION 83
 
 You are designing a multi-platform web application for AWS The application will run on EC2 instances and will be accessed from PCs. Tablets and smart phones Supported accessing platforms are Windows, MacOS, IOS and Android Separate sticky session and SSL certificate setups are required for different platform types.
 
@@ -2047,7 +2047,7 @@ The way the Elastic Load Balancer does session stickiness is on a HTTP/HTTPS lis
 
 </p></details><hr>
 
-### QUESTION 84:
+### QUESTION 84
 
 An organization is planning to extend their data center by connecting their DC with the AWS VPC using the VPN gateway. The organization is setting up a dynamically routed VPN connection.
 
@@ -2073,7 +2073,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_VPN.html
 
 </p></details><hr>
 
-### QUESTION 85:
+### QUESTION 85
 
 A user has created a VPC with public and private subnets using the VPC wizard. The VPC has CIDR
 
@@ -2101,7 +2101,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario2.html
 
 </p></details><hr>
 
-### QUESTION 86: x
+### QUESTION 86 x
 
 True or False: In Amazon ElastiCache, you can use Cache Security Groups to configure the cache clusters that are part of a VPC.
 
@@ -2123,7 +2123,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/CacheSecurityGroup
 
 </p></details><hr>
 
-### QUESTION 87:
+### QUESTION 87
 
 Which of the following is NOT an advantage of using AWS Direct Connect?
 
@@ -2147,7 +2147,7 @@ http://aws.amazon.com/directconnect/#details
 
 </p></details><hr>
 
-### QUESTION 88: *
+### QUESTION 88 *
 
 Which statement is NOT true about accessing remote AWS region in the US by your AWS Direct Connect which is located in the US?
 
@@ -2173,7 +2173,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/remote_regions.html
 
 </p></details><hr>
 
-### QUESTION 89:
+### QUESTION 89
 
 A user is planning to use EBS for his DB requirement. The user already has an EC2 instance running in the VPC private subnet.
 
@@ -2197,7 +2197,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#VPCSubnet
 
 </p></details><hr>
 
-### QUESTION 90:
+### QUESTION 90
 
 If you have a running instance using an Amazon EBS boot partition, you can call the _______ API to release the compute resources but preserve the data on the boot partition.
 
@@ -2219,7 +2219,7 @@ https://aws.amazon.com/ec2/faqs/#How_quickly_will_systems_be_running
 
 </p></details><hr>
 
-### QUESTION 91:
+### QUESTION 91
 
 A user is accessing an EC2 instance on the SSH port for IP 10.20.30.40/32.
 
@@ -2247,7 +2247,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
 
 </p></details><hr>
 
-### QUESTION 92:
+### QUESTION 92
 
 An organization is setting up a web application with the JEE stack. The application uses the JBoss app server and MySQL DB. The application has a logging module which logs all the activities whenever a business function of the JEE application is called. The logging activity takes some time due to the large size of the log file.
 
@@ -2271,7 +2271,7 @@ http://www.awsarchitectureblog.com/2014/03/aws-and-compartmentalization.html
 
 </p></details><hr>
 
-### QUESTION 93:
+### QUESTION 93
 
 You have been asked to set up a public website on AWS with the following criteria:
 
@@ -2299,7 +2299,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario2.html
 
 </p></details><hr>
 
-### QUESTION 94:
+### QUESTION 94
 
 You deployed your company website using Elastic Beanstalk and you enabled log file rotation to S3. An Elastic Map Reduce job is periodically analyzing the logs on S3 to build a usage dashboard that you share with your CIO.
 
@@ -2328,7 +2328,7 @@ http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.htm
 
 </p></details><hr>
 
-### QUESTION 95: x
+### QUESTION 95 x
 
 An organization is undergoing a security audit. The auditor wants to view the AWS VPC configurations as the organization has hosted all the applications in the AWS VPC. The auditor is from a remote place and wants to have access to AWS to view all the VPC records.
 
@@ -2374,7 +2374,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_IAM.html
 
 </p></details><hr>
 
-### QUESTION 96: x
+### QUESTION 96 x
 
 An organization is creating a VPC for their application hosting. The organization has created two private subnets in the same AZ and created one subnet in a separate zone.
 
@@ -2408,7 +2408,7 @@ http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/USVPC_crea
 
 </p></details><hr>
 
-### QUESTION 97:
+### QUESTION 97
 
 A user is trying to create a PIOPS EBS volume with 3 GB size and 90 IOPS. Will AWS create the volume?
 
@@ -2432,7 +2432,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html#EBSVolume
 
 </p></details><hr>
 
-### QUESTION 98:
+### QUESTION 98
 
 An Auto Scaling group is running at the desired capacity of 5 instances and receives a trigger from the Cloudwatch Alarm to increase the capacity by 1. The cool down period is 5 minutes. Cloudwatch sends another trigger after 2 minutes to decrease the desired capacity by 1.
 
@@ -2456,7 +2456,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html#he
 
 </p></details><hr>
 
-### QUESTION 99: *
+### QUESTION 99 *
 
 In Amazon ElastiCache, which of the following statements is correct?
 
@@ -2478,7 +2478,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/AmazonVPC.EC.html
 
 </p></details><hr>
 
-### QUESTION 100:
+### QUESTION 100
 
 Which statement is NOT true about a stack which has been created in a Virtual Private Cloud (VPC) in AWS OpsWorks?
 
@@ -2506,7 +2506,7 @@ http://docs.aws.amazon.com/opsworks/latest/userguide/workingstacks-vpc.html#work
 
 </p></details><hr>
 
-### QUESTION 101: x
+### QUESTION 101 x
 
 The CFO of a company wants to allow one of his employees to view only the AWS usage report page.
 
@@ -2545,7 +2545,7 @@ http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-permissions-
 
 </p></details><hr>
 
-### QUESTION 102:
+### QUESTION 102
 
 You are designing a data leak prevention solution for your VPC environment. You want your VPC Instances to be able to access software depots and distributions on the Internet for product updates. The depots and distributions are accessible via third party CDNs by their URLs.
 
@@ -2567,7 +2567,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 103:
+### QUESTION 103
 
 You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing IOS IPS protection for traffic coming from the Internet.
 
@@ -2589,7 +2589,7 @@ EC2 does not allow promiscuous mode, and you cannot put something in between the
 
 </p></details><hr>
 
-### QUESTION 104:
+### QUESTION 104
 
 A user has created a VPC with CIDR 20.0.0.0/16 using the VPC wizard. The user has created public and VPN only subnets along with hardware VPN access to connect to the user's data centre. The user has not yet launched any instance as well as modified or deleted any setup. He wants to delete this VPC from the console.
 
@@ -2613,7 +2613,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#VPC_Delet
 
 </p></details><hr>
 
-### QUESTION 105:
+### QUESTION 105
 
 In the Amazon RDS Oracle DB engine, the Database Diagnostic Pack and the Database Tuning Pack are only available with __________.
 
@@ -2633,7 +2633,7 @@ https://www.pythian.com/blog/a-most-simple-cloud-is-amazon-rds-for-oracle-right-
 
 </p></details><hr>
 
-### QUESTION 106: *
+### QUESTION 106 *
 
 A user is trying to create a vault in AWS Glacier. The user wants to enable notifications.
 
@@ -2657,7 +2657,7 @@ http://docs.aws.amazon.com/amazonglacier/latest/dev/configuring-notifications-co
 
 </p></details><hr>
 
-### QUESTION 107:
+### QUESTION 107
 
 What is the maximum length for a certificate ID in AWS IAM?
 
@@ -2679,7 +2679,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html
 
 </p></details><hr>
 
-### QUESTION 108:
+### QUESTION 108
 
 Which status represents a failure state in AWS CloudFormation?
 
@@ -2703,7 +2703,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-describi
 
 </p></details><hr>
 
-### QUESTION 109: x
+### QUESTION 109 x
 
 You have just added a new instance to your Auto Scaling group, which receives ELB health checks. An ELB heath check says the new instance's state is out of Service.
 
@@ -2727,7 +2727,7 @@ http://docs.aws.amazon.com/autoscaling/latest/userguide/healthcheck.html
 
 </p></details><hr>
 
-### QUESTION 110:
+### QUESTION 110
 
 The two policies that you attach to an IAM role are the access policy and the trust policy. The trust policy identifies who can assume the role and grants the permission in the AWS Lambda account principal by adding the _______ action.
 
@@ -2749,7 +2749,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage_modify.html
 
 </p></details><hr>
 
-### QUESTION 111:
+### QUESTION 111
 
 When you resize the Amazon RDS DB instance, Amazon RDS will perform the upgrade during the next maintenance window. If you want the upgrade to be performed now, rather than waiting for the maintenance window, specify the option.
 
@@ -2769,7 +2769,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modify
 
 </p></details><hr>
 
-### QUESTION 112:
+### QUESTION 112
 
 Which of the following components of AWS Data Pipeline polls for tasks and then performs those tasks?
 
@@ -2791,7 +2791,7 @@ http://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeli
 
 </p></details><hr>
 
-### QUESTION 113: x
+### QUESTION 113 x
 
 You want to use Amazon Redshift and you are planning to deploy dw1.8xlarge nodes. What is the minimum amount of nodes that you need to deploy with this kind of configuration?
 
@@ -2813,7 +2813,7 @@ http://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html
 
 </p></details><hr>
 
-### QUESTION 114:
+### QUESTION 114
 
 You're trying to delete an SSL certificate from the IAM certificate store, and you're getting the message
 
@@ -2839,7 +2839,7 @@ http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Troubleshootin
 
 </p></details><hr>
 
-### QUESTION 115:
+### QUESTION 115
 
 Does an AWS Direct Connect location provide access to Amazon Web Services in the region it is associated with as well as access to other US regions?
 
@@ -2861,7 +2861,7 @@ Reference: http://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.htm
 
 </p></details><hr>
 
-### QUESTION 116:
+### QUESTION 116
 
 An organization is planning to setup a management network on the AWS VPC. The organization is trying to secure the webserver on a single VPC instance such that it allows the internet traffic as well as the back-end management traffic. The organization wants to make so that the back end management network interface can receive the SSH traffic only from a selected IP range, while the internet facing webserver will have an IP address which can receive traffic from all the internet IPs.
 
@@ -2887,7 +2887,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 
 </p></details><hr>
 
-### QUESTION 117:
+### QUESTION 117
 
 In Amazon IAM, what is the maximum length for a role name?
 
@@ -2909,7 +2909,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html
 
 </p></details><hr>
 
-### QUESTION 118:
+### QUESTION 118
 
 An organization is purchasing licensed software. The software license can be registered only to a specific MAC Address. The organization is going to host the software in the AWS environment.
 
@@ -2933,7 +2933,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 
 </p></details><hr>
 
-### QUESTION 119:
+### QUESTION 119
 
 What is the network performance offered by the c4.8xlarge instance in Amazon EC2?
 
@@ -2955,7 +2955,7 @@ http://aws.amazon.com/ec2/instance-types/
 
 </p></details><hr>
 
-### QUESTION 120: x
+### QUESTION 120 x
 
 An organization is planning to host an application on the AWS VPC. The organization wants dedicated instances. However, an AWS consultant advised the organization not to use dedicated instances with VPC as the design has a few limitations.
 
@@ -2979,7 +2979,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/dedicated-instance.html
 
 </p></details><hr>
 
-### QUESTION 121:
+### QUESTION 121
 
 How many g2.2xlarge on-demand instances can a user run in one region without taking any limit increase approval from AWS?
 
@@ -3001,7 +3001,7 @@ http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_ec2
 
 </p></details><hr>
 
-### QUESTION 122:
+### QUESTION 122
 
 You are designing a connectivity solution between on-premises infrastructure and Amazon VPC. Your servers on-premises will be communicating with your VPC instances. You will be establishing IPSec tunnels over the Internet You will be using VPN gateways, and terminating the IPSec tunnels on AWS supported customer gateways.
 
@@ -3025,7 +3025,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 123: x
+### QUESTION 123 x
 
 A 3-tier e-commerce web application is current deployed on-premises and will be migrated to AWS for greater scalability and elasticity. The web server currently shares read-only data using a network distributed file system. The app server tier uses a clustering mechanism for discovery and shared session state that depends on IP multicast. The database tier uses shared-storage clustering to provide database fall over capability, and uses several read slaves for scaling. Data on all servers and the distributed file system directory is backed up weekly to off-site tapes.
 
@@ -3041,7 +3041,7 @@ Which AWS storage and database architecture meets the requirements of the applic
 
 Explanation:
 
-The same with Q138, yet the answer are different, it's `A` for Q138, prefer `C`.
+JW: The same with Q138, yet the answer are different, it's `A` for Q138, prefer `C`.
 
 Amazon RDS Multi-AZ deployments provide enhanced availability and durability for Database (DB) Instances, making them a natural fit for production database workloads. When you provision a Multi-AZ DB Instance, Amazon RDS automatically creates a primary DB Instance and synchronously replicates the data to a standby instance in a different Availability Zone (AZ). Each AZ runs on its own physically distinct, independent infrastructure, and is engineered to be highly reliable. In case of an infrastructure failure (for example, instance hardware failure, storage failure, or network disruption), Amazon RDS performs an automatic failover to the standby, so that you can resume database operations as soon as the failover is complete. Since the endpoint for your DB Instance remains the same after a failover, your application can resume database operation without the need for manual administrative intervention.
 
@@ -3089,7 +3089,7 @@ Note: When operations such as DB Instance scaling or system upgrades like OS pat
 
 </p></details><hr>
 
-### QUESTION 124:
+### QUESTION 124
 
 In the context of AWS CloudFormation, which of the following statements is correct?
 
@@ -3111,7 +3111,7 @@ https://aws.amazon.com/cloudformation/faqs/
 
 </p></details><hr>
 
-### QUESTION 125: x
+### QUESTION 125 x
 
 A user has suspended the scaling process on the Auto Scaling group. A scaling activity to increase the instance count was already in progress.
 
@@ -3135,7 +3135,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html
 
 </p></details><hr>
 
-### QUESTION 126:
+### QUESTION 126
 
 What is the default maximum number of VPCs allowed per region?
 
@@ -3157,7 +3157,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html
 
 </p></details><hr>
 
-### QUESTION 127:
+### QUESTION 127
 
 In IAM, which of the following is true of temporary security credentials?
 
@@ -3179,7 +3179,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-acce
 
 </p></details><hr>
 
-### QUESTION 128: x
+### QUESTION 128 x
 
 An organization (account ID 123412341234) has configured the IAM policy to allow the user to modify his credentials.
 
@@ -3220,7 +3220,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/Credentials-Permissions-examples
 
 </p></details><hr>
 
-### QUESTION 129:
+### QUESTION 129
 
 To get started using AWS Direct Connect, in which of the following steps do you configure Border Gateway Protocol (BGP)?
 
@@ -3242,7 +3242,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/getstarted.html#create
 
 </p></details><hr>
 
-### QUESTION 130:
+### QUESTION 130
 
 In an AWS CloudFormation template, each resource declaration includes:
 
@@ -3264,7 +3264,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/concept-resources.
 
 </p></details><hr>
 
-### QUESTION 131: x
+### QUESTION 131 x
 
 Over which of the following Ethernet standards does AWS Direct Connect link your internal network to an AWS Direct Connect location?
 
@@ -3286,7 +3286,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
 
 </p></details><hr>
 
-### QUESTION 132:
+### QUESTION 132
 
 Which is a valid Amazon Resource name (ARN) for IAM?
 
@@ -3326,7 +3326,7 @@ The region portion of the ARN is blank because IAM resources are global.
 
 </p></details><hr>
 
-### QUESTION 133: x
+### QUESTION 133 x
 
 An administrator is using Amazon CloudFormation to deploy a three tier web application that consists of a web tier and application tier that will utilize Amazon DynamoDB for storage when creating the CloudFormation template.
 
@@ -3346,7 +3346,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 134:
+### QUESTION 134
 
 You have written a CloudFormation template that creates 1 Elastic Load Balancer fronting 2 EC2 Instances.
 
@@ -3394,7 +3394,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-st
 
 </p></details><hr>
 
-### QUESTION 135: x
+### QUESTION 135 x
 
 Which system is used by Amazon Machine Images paravirtual (PV) virtualization during the boot process?
 
@@ -3418,7 +3418,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/UserProvidedKernels.html
 
 </p></details><hr>
 
-### QUESTION 136:
+### QUESTION 136
 
 Amazon EC2 provides a repository of public data sets that can be seamlessly integrated into AWS cloud- based applications.
 
@@ -3438,7 +3438,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 137:
+### QUESTION 137
 
 What is the name of licensing model in which I can use your existing Oracle Database licenses to run Oracle deployments on Amazon RDS?
 
@@ -3458,7 +3458,7 @@ https://aws.amazon.com/oracle/
 
 </p></details><hr>
 
-### QUESTION 138:
+### QUESTION 138
 
 A 3-Ber e-commerce web application is currently deployed on-premises, and will be migrated to AWS for greater scalability and elasticity. The web tier currently shares read-only data using a network distributed file system. The app server tier uses a clustering mechanism for discovery and shared session state that depends on IP multicast. The database tier uses shared-storage clustering to provide database failover capability, and uses several read slaves for scaling. Data on all servers and the distributed file system directory is backed up weekly to off-site tapes.
 
@@ -3474,7 +3474,7 @@ Which AWS storage and database architecture meets the requirements of the applic
 
 Explanation:
 
-The same with Q123, yet the answer are different, it's `C` for Q123, prefer `C`.
+JW: The same with Q123, yet the answer are different, it's `C` for Q123, prefer `C`.
 
 https://d0.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf Amazon Glacier doesn't suit all storage situations. Listed following are a few storage needs for which you should consider other AWS storage options instead of Amazon Glacier.
 
@@ -3484,7 +3484,7 @@ Data that must be updated very frequently might be better served by a storage so
 
 </p></details><hr>
 
-### QUESTION 139:
+### QUESTION 139
 
 Your fortune 500 company has under taken a TCO analysis evaluating the use of Amazon S3 versus acquiring more hardware The outcome was that ail employees would be granted access to use Amazon S3 for storage of their personal documents.
 
@@ -3505,7 +3505,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 140:
+### QUESTION 140
 
 A user has launched a dedicated EBS backed instance with EC2. You are curious where the EBS volume for this instance will be created.
 
@@ -3529,7 +3529,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/dedicated-instance.html
 
 </p></details><hr>
 
-### QUESTION 141: x
+### QUESTION 141 x
 
 What is a possible reason you would need to edit claims issued in a SAML token?
 
@@ -3553,7 +3553,7 @@ https://azure.microsoft.com/en-us/documentation/articles/active-directory-saml-c
 
 </p></details><hr>
 
-### QUESTION 142: x
+### QUESTION 142 x
 
 The user has provisioned the PIOPS volume with an EBS optimized instance.
 
@@ -3577,7 +3577,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-io-characteristics.html
 
 </p></details><hr>
 
-### QUESTION 143:
+### QUESTION 143
 
 True or false: In CloudFormation, you cannot create an Amazon RDS DB instance from a snapshot.
 
@@ -3601,7 +3601,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/concept-resources.
 
 </p></details><hr>
 
-### QUESTION 144:
+### QUESTION 144
 
 The MySecureData company has five branches across the globe. They want to expand their data centers such that their web server will be in the AWS and each branch would have their own database in the local data center. Based on the user login, the company wants to connect to the data center.
 
@@ -3627,7 +3627,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPN_CloudHub.html
 
 </p></details><hr>
 
-### QUESTION 145:
+### QUESTION 145
 
 Which of the following are characteristics of Amazon VPC subnets? (Choose 2)
 
@@ -3642,13 +3642,13 @@ Which of the following are characteristics of Amazon VPC subnets? (Choose 2)
 
 Explanation:
 
-The correct answer should be D,E
+JW: The correct answer should be D,E
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-are-characteristics-of-amazon-vpc-subnets-choose-2)
 
 </p></details><hr>
 
-### QUESTION 146:
+### QUESTION 146
 
 Your supervisor has given you the task of creating an elastic network interface on each of your web servers that connect to a mid-tier network where an application server resides. He also wants this set up as a Dual-homed Instance on Distinct Subnets. Instead of routing network packets through the dual-homed instances, where should each dual-homed instance receive and process requests to fulfil his criteria?
 
@@ -3670,7 +3670,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 
 </p></details><hr>
 
-### QUESTION 147:
+### QUESTION 147
 
 Dave is the main administrator in Example Corp., and he decides to use paths to help delineate the users in the company and set up a separate administrator group for each path-based division. Following is a subset of the full list of paths he plans to use:
 
@@ -3729,7 +3729,7 @@ Effect Deny
 
 </p></details><hr>
 
-### QUESTION 148: x
+### QUESTION 148 x
 
 You have setup an Auto Scaling group. The cool down period for the Auto Scaling group is 7 minutes. The first scaling activity request for the Auto Scaling group is to launch two instances. It receives the activity question at time "t", and the first instance is launched at t+3 minutes, while the second instance is launched at t+4 minutes.
 
@@ -3753,7 +3753,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html
 
 </p></details><hr>
 
-### QUESTION 149:
+### QUESTION 149
 
 An organization is planning to host a Wordpress blog as well a joomla CMS on a single instance launched with VPC. The organization wants to have separate domains for each application and assign them using Route 53. The organization may have about ten instances each with two applications as mentioned above.
 
@@ -3779,7 +3779,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 
 </p></details><hr>
 
-### QUESTION 150:
+### QUESTION 150
 
 In which step of using AWS Direct Connect should the user determine the required port speed?
 
@@ -3807,7 +3807,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/getstarted.html#Connec
 
 </p></details><hr>
 
-### QUESTION 151:
+### QUESTION 151
 
 An organization hosts an app on EC2 instances which multiple developers need access to in order to perform updates.
 
@@ -3847,7 +3847,7 @@ http://aws.amazon.com/articles/1233/
 
 </p></details><hr>
 
-### QUESTION 152:
+### QUESTION 152
 
 A user is hosting a public website on AWS. The user wants to have the database and the app server on the AWS VPC. The user wants to setup a database that can connect to the Internet for any patch upgrade but cannot receive any request from the internet. How can the user set this up?
 
@@ -3869,7 +3869,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html
 
 </p></details><hr>
 
-### QUESTION 153:
+### QUESTION 153
 
 A user is configuring MySQL RDS with PIOPS. What should be the minimum size of DB storage provided by the user?
 
@@ -3891,7 +3891,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.html
 
 </p></details><hr>
 
-### QUESTION 154:
+### QUESTION 154
 
 Is there any way to own a direct connection to Amazon Web Services?
 
@@ -3913,7 +3913,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
 
 </p></details><hr>
 
-### QUESTION 155:
+### QUESTION 155
 
 A web company is looking to implement an external payment service into their highly available application deployed in a VPC Their application EC2 instances are behind a public facing ELB. Auto scaling is used to add additional instances as traffic increases under normal load the application runs 2 instances in the Auto Scaling group but at peak it can scale 3x in size. The application instances need to communicate with the payment service over the Internet which requires whitelisting of all public IP addresses used to communicate with it. A maximum of 4 whitelisting IP addresses are allowed at a time and can be added through an API.
 
@@ -3933,7 +3933,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 156:
+### QUESTION 156
 
 An organization is setting a website on the AWS VPC. The organization has blocked a few IPs to avoid a D-DOS attack.
 
@@ -3957,7 +3957,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html
 
 </p></details><hr>
 
-### QUESTION 157: x
+### QUESTION 157 x
 
 True or false: In a CloudFormation template, you can reuse the same logical ID several times to reference the resources in other parts of the template.
 
@@ -3981,7 +3981,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/concept-resources.
 
 </p></details><hr>
 
-### QUESTION 158:
+### QUESTION 158
 
 A user is trying to create a PIOPS EBS volume with 4000 IOPS and 100 GB size. AWS does not allow the user to create this volume.
 
@@ -4007,7 +4007,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html#EBSVolume
 
 </p></details><hr>
 
-### QUESTION 159: x
+### QUESTION 159 x
 
 You have subscribed to the AWS Business and Enterprise support plan.
 
@@ -4033,7 +4033,7 @@ https://aws.amazon.com/premiumsupport/faqs/
 
 </p></details><hr>
 
-### QUESTION 160:
+### QUESTION 160
 
 In Amazon ElastiCache, the default cache port is:
 
@@ -4057,7 +4057,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/GettingStarted.Aut
 
 </p></details><hr>
 
-### QUESTION 161:
+### QUESTION 161
 
 A corporate web application is deployed within an Amazon Virtual Private Cloud (VPC) and is connected to the corporate data center via an IPSec VPN. The application must authenticate against the on-premises LDAP server. After authentication, each logged-in user can only access an Amazon Simple Storage Space (S3) keyspace specific to that user.
 
@@ -4080,7 +4080,7 @@ Imagine that in your organization, you want to provide a way for users to copy d
 
 </p></details><hr>
 
-### QUESTION 162:
+### QUESTION 162
 
 How can you check the operational validity of your AWS CloudFormation template?
 
@@ -4102,7 +4102,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-validate
 
 </p></details><hr>
 
-### QUESTION 163:
+### QUESTION 163
 
 A user wants to configure AutoScaling which scales up when the CPU utilization is above 70% and scales down when the CPU utilization is below 30%.
 
@@ -4126,7 +4126,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-scale-based-on-d
 
 </p></details><hr>
 
-### QUESTION 164:
+### QUESTION 164
 
 An organization is setting up their website on AWS. The organization is working on various security measures to be performed on the AWS EC2 instances.
 
@@ -4152,7 +4152,7 @@ http://aws.amazon.com/security/penetration-testing/
 
 </p></details><hr>
 
-### QUESTION 165:
+### QUESTION 165
 
 What is the role of the PollForTask action when it is called by a task runner in AWS Data Pipeline?
 
@@ -4174,7 +4174,7 @@ http://docs.aws.amazon.com/datapipeline/latest/APIReference/API_PollForTask.html
 
 </p></details><hr>
 
-### QUESTION 166:
+### QUESTION 166
 
 In AWS, which security aspects are the customer's responsibility? (Choose 4)
 
@@ -4198,7 +4198,7 @@ Reference: http://media.amazonwebservices.com/AWS_Security_Best_Practices.pdf
 
 </p></details><hr>
 
-### QUESTION 167:
+### QUESTION 167
 
 You are playing around with setting up stacks using JSON templates in CloudFormation to try and understand them a little better. You have set up about 5 or 6 but now start to wonder if you are being charged for these stacks.
 
@@ -4222,7 +4222,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacks.html
 
 </p></details><hr>
 
-### QUESTION 168: x
+### QUESTION 168 x
 
 One of the components that is part of ec2-net-utils used with ENI's is ec2ifscan.
 
@@ -4248,7 +4248,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 
 </p></details><hr>
 
-### QUESTION 169: x
+### QUESTION 169 x
 
 Which of the following is the final step that should be completed to start using AWS Direct Connect?
 
@@ -4278,7 +4278,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/getstarted.html#connec
 
 </p></details><hr>
 
-### QUESTION 170:
+### QUESTION 170
 
 An organization is setting up an application on AWS to have both High Availability (HA) and Disaster Recovery (DR). The organization wants to have both Recovery point objective (RPO) and Recovery time objective (RTO) of 10 minutes.
 
@@ -4302,7 +4302,7 @@ Reference: http://d36cz9buwru1tt.cloudfront.net/AWS_Disaster_Recovery.pdf
 
 </p></details><hr>
 
-### QUESTION 171:
+### QUESTION 171
 
 If no explicit deny is found while applying IAM's Policy Evaluation Logic, the enforcement code looks for any ______ instructions that would apply to the request.
 
@@ -4324,7 +4324,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationL
 
 </p></details><hr>
 
-### QUESTION 172:
+### QUESTION 172
 
 After launching an instance that you intend to serve as a NAT (Network Address Translation) device in a public subnet you modify your route tables to have the NAT device be the target of internet bound traffic of your private subnet. When you try and make an outbound connection to the internet from an instance in the private subnet, you are not successful.
 
@@ -4348,7 +4348,7 @@ http://docs.aws.amazon.com/workspaces/latest/adminguide/gsg_create_vpc.html
 
 </p></details><hr>
 
-### QUESTION 173:
+### QUESTION 173
 
 After moving an E-Commerce website for a client from a dedicated server to AWS you have also set up auto scaling to perform health checks on the instances in your group and replace instances that fail these checks. Your client has come to you with his own health check system that he wants you to use as it has proved to be very useful prior to his site running on AWS.
 
@@ -4378,7 +4378,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/healthcheck.html
 
 </p></details><hr>
 
-### QUESTION 174:
+### QUESTION 174
 
 AWS CloudFormation ______ are special actions you use in your template to assign values to properties that are not available until runtime.
 
@@ -4400,7 +4400,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-fuctions
 
 </p></details><hr>
 
-### QUESTION 175:
+### QUESTION 175
 
 An elastic network interface (ENI) is a virtual network interface that you can attach to an instance in a VPC.
 
@@ -4424,7 +4424,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 
 </p></details><hr>
 
-### QUESTION 176:
+### QUESTION 176
 
 A benefits enrollment company is hosting a 3-tier web application running in a VPC on AWS which includes a NAT (Network Address Translation) instance in the public Web tier. There is enough provisioned capacity for the expected workload tor the new fiscal year benefit enrollment period plus some extra overhead Enrollment proceeds nicely for two days and then the web tier becomes unresponsive, upon investigation using CloudWatch and other monitoring tools it is discovered that there is an extremely large and unanticipated amount of inbound traffic coming from a set of 15 specific IP addresses over port 80 from a country where the benefits company has no customers. The web tier instances are so overloaded that benefit enrollment administrators cannot even SSH into them.
 
@@ -4446,7 +4446,7 @@ Use AWS Identity and Access Management (IAM) to control who in your organization
 
 </p></details><hr>
 
-### QUESTION 177:
+### QUESTION 177
 
 You have deployed a three-tier web application in a VPC with a CIDR block of 10.0.0.0/28. You initially deploy two web servers, two application servers, two database servers and one NAT instance tor a total of seven EC2 instances. The web, application and database servers are deployed across two availability zones (AZs). You also deploy an ELB in front of the two web servers, and use Route53 for DNS Web (raffle gradually increases in the first few days following the deployment, so you attempt to double the number of instances in each tier of the application to handle the new load unfortunately some of these new instances fail to launch.
 
@@ -4467,7 +4467,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 178: x
+### QUESTION 178 x
 
 Identify a correct statement about the expiration date of the "Letter of Authorization and Connecting Facility Assignment (LOA-CFA)," which lets you complete the Cross Connect step of setting up your AWS Direct Connect.
 
@@ -4489,7 +4489,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/Colocation.html
 
 </p></details><hr>
 
-### QUESTION 179:
+### QUESTION 179
 
 True or False: Amazon ElastiCache supports the Redis key-value store.
 
@@ -4514,7 +4514,7 @@ Reference: https://aws.amazon.com/elasticache/
 
 </p></details><hr>
 
-### QUESTION 180:
+### QUESTION 180
 
 What bandwidths do AWS Direct Connect currently support?
 
@@ -4536,7 +4536,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
 
 </p></details><hr>
 
-### QUESTION 181: x
+### QUESTION 181 x
 
 Will you be able to access EC2 snapshots using the regular Amazon S3 APIs?
 
@@ -4558,7 +4558,7 @@ https://aws.amazon.com/ec2/faqs/
 
 </p></details><hr>
 
-### QUESTION 182:
+### QUESTION 182
 
 Identify a benefit of using Auto Scaling for your application.
 
@@ -4580,7 +4580,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/how-as-works.html
 
 </p></details><hr>
 
-### QUESTION 183:
+### QUESTION 183
 
 You have an application running on an EC2 Instance which will allow users to download flies from a private S3 bucket using a pre-signed URL. Before generating the URL the application should verify the existence of the file in S3.
 
@@ -4600,7 +4600,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 184:
+### QUESTION 184
 
 Do you need to use Amazon Cognito to use the Amazon Mobile Analytics service?
 
@@ -4622,7 +4622,7 @@ http://aws.amazon.com/mobileanalytics/faqs/
 
 </p></details><hr>
 
-### QUESTION 185:
+### QUESTION 185
 
 Your company has recently extended its datacenter into a VPC on AWS to add burst computing capacity as needed Members of your Network Operations Center need to be able to go to the AWS Management Console and administer Amazon EC2 instances as necessary. You don't want to create new IAM users for each NOC member and make those users sign in again to the AWS Management Console.
 
@@ -4644,7 +4644,7 @@ Correct answer should be `C`
 
 </p></details><hr>
 
-### QUESTION 186:
+### QUESTION 186
 
 You are responsible for a web application that consists of an Elastic Load Balancing (ELB) load balancer in front of an Auto Scaling group of Amazon Elastic Compute Cloud (EC2) instances. For a recent deployment of a new version of the application, a new Amazon Machine Image (AMI) was created, and the Auto Scaling group was updated with a new launch configuration that refers to this new AMI. During the deployment, you received complaints from users that the website was responding with errors. All instances passed the ELB health checks.
 
@@ -4665,7 +4665,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 187: x
+### QUESTION 187 x
 
 A government client needs you to set up secure cryptographic key storage for some of their extremely confidential data. You decide that the AWS CloudHSM is the best service for this.
 
@@ -4701,7 +4701,7 @@ A security group that has port 22 (for SSH) or port 3389 (for RDP) open to your 
 
 </p></details><hr>
 
-### QUESTION 188:
+### QUESTION 188
 
 You need a persistent and durable storage to trace call activity of an IVR (Interactive Voice Response) system. Call duration is mostly in the 2-3 minutes timeframe. Each traced call can be either active or terminated. An external application needs to know each minute the list of currently active calls. Usually there are a few calls/second, but once per month there is a periodic peak up to 1000 calls/second for a few hours. The system is open 24/7 and any downtime should be avoided. Historical data is periodically archived to files. Cost saving is a priority for this project.
 
@@ -4731,7 +4731,7 @@ Reference: https://aws.amazon.com/dynamodb/faqs/
 
 </p></details><hr>
 
-### QUESTION 189:
+### QUESTION 189
 
 A company is running a batch analysis every hour on their main transactional DB, running on an RDS MySQL instance, to populate their central Data Warehouse running on Redshift. During the execution of the batch, their transactional applications are very slow. When the batch completes they need to update the top management dashboard with the new data. The dashboard is produced by another system running on-premises that is currently started when a manually-sent email notifies that an update is required. The on-premises system cannot be modified because is managed by another team.
 
@@ -4751,7 +4751,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 190:
+### QUESTION 190
 
 An IAM user is trying to perform an action on an object belonging to some other root account's bucket.
 
@@ -4767,6 +4767,8 @@ Which of the below mentioned options will AWS S3 not verify?
 
 Explanation:
 
+Correct answer should be `D`?
+
 If the IAM user is trying to perform some action on the object belonging to another AWS user's bucket, S3 will verify whether the owner of the IAM user has given sufficient permission to him. It also verifies the policy for the bucket as well as the policy defined by the object owner.
 
 http://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-auth-workflow-object-operation.html
@@ -4775,7 +4777,7 @@ http://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-auth-workflow-obje
 
 </p></details><hr>
 
-### QUESTION 191:
+### QUESTION 191 x
 
 You have been given the task to define multiple AWS Data Pipeline schedules for different activities in the same pipeline.
 
@@ -4799,7 +4801,7 @@ https://aws.amazon.com/datapipeline/faqs/
 
 </p></details><hr>
 
-### QUESTION 192:
+### QUESTION 192
 
 Which of the following AWS services can be used to define alarms to trigger on a certain activity, such as activity success, failure, or delay in AWS Data Pipeline?
 
@@ -4821,7 +4823,7 @@ https://aws.amazon.com/datapipeline/faqs/
 
 </p></details><hr>
 
-### QUESTION 193:
+### QUESTION 193
 
 Your company hosts a social media site supporting users in multiple countries. You have been asked to provide a highly available design tor the application that leverages multiple regions tor the most recently accessed content and latency sensitive portions of the wet) site The most latency sensitive component of the application involves reading user preferences to support web site personalization and ad selection.
 
@@ -4841,7 +4843,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 194:
+### QUESTION 194
 
 Does Amazon RDS API provide actions to modify DB instances inside a VPC and associate them with DB Security Groups?
 
@@ -4863,7 +4865,7 @@ Reference: http://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_ModifyDB
 
 </p></details><hr>
 
-### QUESTION 195:
+### QUESTION 195 x
 
 ABC has three separate departments and each department has their own AWS accounts. The HR department has created a file sharing site where all the on roll employees' data is uploaded. The Admin department uploads data about the employee presence in the office to their DB hosted in the VPC. The Finance department needs to access data from the HR department to know the on roll employees to calculate the salary based on the number of days that an employee is present in the office.
 
@@ -4887,7 +4889,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/PeeringGuide/peering-configurations-
 
 </p></details><hr>
 
-### QUESTION 196:
+### QUESTION 196
 
 A user has created a MySQL RDS instance with PIOPS. Which of the below mentioned statements will help user understand the advantage of PIOPS?
 
@@ -4909,7 +4911,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 
 </p></details><hr>
 
-### QUESTION 197:
+### QUESTION 197
 
 Doug has created a VPC with CIDR 10.201.0.0/16 in his AWS account. In this VPC he has created a public subnet with CIDR block 10.201.31.0/24.
 
@@ -4927,7 +4929,11 @@ Which is the most likely reason for this issue?
 
 Explanation:
 
-In Amazon VPC, you can assign any Private IP address to your instance as long as it is: Part of the associated subnet's IP address range Not reserved by Amazon for IP networking purposes Not currently assigned to another interface
+In Amazon VPC, you can assign any Private IP address to your instance as long as it is: 
+
+1. Part of the associated subnet's IP address range 
+2. Not reserved by Amazon for IP networking purposes 
+3. Not currently assigned to another interface
 
 http://aws.amazon.com/vpc/faqs/
 
@@ -4935,7 +4941,7 @@ http://aws.amazon.com/vpc/faqs/
 
 </p></details><hr>
 
-### QUESTION 198:
+### QUESTION 198
 
 A user is creating a PIOPS volume. What is the maximum ratio the user should configure between PIOPS and the volume size?
 
@@ -4959,7 +4965,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
 
 </p></details><hr>
 
-### QUESTION 199:
+### QUESTION 199
 
 Which of the following cannot be used to manage Amazon ElastiCache and perform administrative tasks?
 
@@ -4973,6 +4979,8 @@ Which of the following cannot be used to manage Amazon ElastiCache and perform a
 
 Explanation:
 
+JW: How come `B` be a right one?
+
 CloudWatch is a monitoring tool and doesn't give users access to manage Amazon ElastiCache.
 
 http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/WhatIs.Managing.html
@@ -4981,7 +4989,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/WhatIs.Managing.ht
 
 </p></details><hr>
 
-### QUESTION 200:
+### QUESTION 200
 
 In which step of "start using AWS Direct Connect" steps is the virtual interface you created tagged with a customer-provided tag that complies with the Ethernet 802.1Q standard?
 
@@ -5003,7 +5011,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/getstarted.html#create
 
 </p></details><hr>
 
-### QUESTION 201:
+### QUESTION 201
 
 Your company produces customer commissioned one-of-a-kind skiing helmets combining nigh fashion with custom technical enhancements Customers can show off their Individuality on the ski slopes and have access to head-up-displays. GPS rear-view cams and any other technical innovation they wish to embed in the helmet.
 
@@ -5025,7 +5033,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 202:
+### QUESTION 202
 
 What feature of the load balancing service attempts to force subsequent connections to a service to be redirected to the same node as long as it is online?
 
@@ -5047,7 +5055,7 @@ Reference: http://docs.rackspace.com/loadbalancers/api/v1.0/clb-devguide/content
 
 </p></details><hr>
 
-### QUESTION 203:
+### QUESTION 203
 
 When you put objects in Amazon S3, what is the indication that an object was successfully stored?
 
@@ -5065,7 +5073,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 204:
+### QUESTION 204
 
 A customer has established an AWS Direct Connect connection to AWS. The link is up and routes are being advertised from the customer's end, however the customer is unable to connect from EC2 instances inside its VPC to servers residing in its datacenter.
 
@@ -5086,7 +5094,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 205:
+### QUESTION 205
 
 Which of the following statements is correct about AWS Direct Connect?
 
@@ -5110,7 +5118,7 @@ http://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
 
 </p></details><hr>
 
-### QUESTION 206:
+### QUESTION 206
 
 The Statement element, of an AWS IAM policy, contains an array of individual statements. Each individual statement is a(n) _________ block enclosed in braces { }.
 
@@ -5132,7 +5140,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDesc
 
 </p></details><hr>
 
-### QUESTION 207:
+### QUESTION 207 x
 
 In a VPC, can you modify a set of DHCP options after you create them?
 
@@ -5154,7 +5162,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_DHCP_Options.html
 
 </p></details><hr>
 
-### QUESTION 208:
+### QUESTION 208 x
 
 An organization is hosting a scalable web application using AWS. The organization has configured ELB and Auto Scaling to make the application scalable.
 
@@ -5178,7 +5186,7 @@ http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/CreateVPCF
 
 </p></details><hr>
 
-### QUESTION 209:
+### QUESTION 209
 
 An organization is setting up a backup and restore system in AWS of their in premise system. The organization needs High Availability(HA) and Disaster Recovery(DR) but is okay to have a longer recovery time to save costs.
 
@@ -5204,7 +5212,7 @@ http://d36cz9buwru1tt.cloudfront.net/AWS_Disaster_Recovery.pdf
 
 </p></details><hr>
 
-### QUESTION 210:
+### QUESTION 210
 
 MapMySite is setting up a web application in the AWS VPC. The organization has decided to use an AWS RDS instead of using its own DB instance for HA and DR requirements.
 
@@ -5232,7 +5240,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html
 
 </p></details><hr>
 
-### QUESTION 211:
+### QUESTION 211
 
 A user is using CloudFormation to launch an EC2 instance and then configure an application after the instance is launched. The user wants the stack creation of ELB and AutoScaling to wait until the EC2 instance is launched and configured properly.
 
@@ -5256,7 +5264,7 @@ http://aws.amazon.com/cloudformation/faqs
 
 </p></details><hr>
 
-### QUESTION 212:
+### QUESTION 212
 
 In Amazon VPC, what is the default maximum number of BGP advertised routes allowed per route table?
 
@@ -5278,7 +5286,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html
 
 </p></details><hr>
 
-### QUESTION 213:
+### QUESTION 213
 
 Which of the following is NOT a true statement about Auto Scaling?
 
@@ -5300,7 +5308,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-dg.pdf
 
 </p></details><hr>
 
-### QUESTION 214:
+### QUESTION 214
 
 A user is planning to host a Highly Available system on the AWS VPC. Which of the below mentioned statements is helpful in this scenario?
 
@@ -5322,7 +5330,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#VPCSubnet
 
 </p></details><hr>
 
-### QUESTION 215:
+### QUESTION 215
 
 You are implementing a URL whitelisting system for a company that wants to restrict outbound HTTP'S connections to specific domains from their EC2-hosted applications. You deploy a single EC2 instance running proxy software and configure It to accept traffic from all subnets and EC2 instances in the VPC.
 
@@ -5351,7 +5359,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 216:
+### QUESTION 216
 
 You are running a successful multitier web application on AWS and your marketing department has asked you to add a reporting tier to the application. The reporting tier will aggregate and publish status reports every 30 minutes from user-generated information that is being stored in your web application s database.
 
@@ -5377,7 +5385,7 @@ Note that for Multi-AZ deployments, you have the option to create your read repl
 
 </p></details><hr>
 
-### QUESTION 217:
+### QUESTION 217
 
 What is the maximum write throughput I can provision for a single Dynamic DB table?
 
@@ -5397,9 +5405,9 @@ https://aws.amazon.com/dynamodb/faqs/
 
 </p></details><hr>
 
-### QUESTION 218:
+### QUESTION 218
 
-AWS ________supports__________ environments as one of the AWS resource types.
+AWS ________ supports __________ environments as one of the AWS resource types.
 
 - A. Elastic Beanstalk; Elastic Beanstalk application
 - B. CloudFormation; Elastic Beanstalk application
@@ -5419,7 +5427,7 @@ http://aws.amazon.com/cloudformation/faqs/
 
 </p></details><hr>
 
-### QUESTION 219:
+### QUESTION 219
 
 An organization, which has the AWS account ID as 999988887777, has created 50 IAM users. All the users are added to the same group ABC.
 
@@ -5443,7 +5451,7 @@ http://docs.aws.amazon.com/IAM/latest/UserGuide/AccountAlias.html
 
 </p></details><hr>
 
-### QUESTION 220:
+### QUESTION 220
 
 You are designing a personal document-archiving solution for your global enterprise with thousands of employee. Each employee has potentially gigabytes of data to be backed up in this archiving solution. The solution will be exposed to the employees as an application, where they can just drag and drop their files to the archiving system. Employees can retrieve their archives through a web interface. The corporate network has high bandwidth AWS Direct Connect connectivity to AWS.
 
@@ -5465,7 +5473,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 221:
+### QUESTION 221 x
 
 True or False: In Amazon ElastiCache replication groups of Redis, for performance tuning reasons, you can change the roles of the cache nodes within the replication group, with the primary and one of the replicas exchanging roles.
 
@@ -5487,7 +5495,7 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Replication.Redis.
 
 </p></details><hr>
 
-### QUESTION 222:
+### QUESTION 222
 
 You have set up Auto Scaling to automatically scale in. Consequently, you must decide which instances Auto Scaling should end first.
 
@@ -5513,7 +5521,7 @@ AutoScalingBehavior.InstanceTermination.html
 
 </p></details><hr>
 
-### QUESTION 223:
+### QUESTION 223
 
 One of your AWS Data Pipeline activities has failed consequently and has entered a hard failure state after retrying thrice.
 
@@ -5537,7 +5545,7 @@ https://aws.amazon.com/datapipeline/faqs/
 
 </p></details><hr>
 
-### QUESTION 224:
+### QUESTION 224
 
 How can an EBS volume that is currently attached to an EC2 instance be migrated from one Availability Zone to another?
 
@@ -5555,7 +5563,7 @@ Explanation:
 
 </p></details><hr>
 
-### QUESTION 225:
+### QUESTION 225
 
 A user has created a VPC with CIDR 20.0.0.0/16. The user has created one subnet with CIDR 20.0.0.0/16 by mistake. The user is trying to create another subnet of CIDR 20.0.1.0/24.
 
@@ -5579,7 +5587,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html
 
 </p></details><hr>
 
-### QUESTION 226:
+### QUESTION 226
 
 How much memory does the cr1.8xlarge instance type provide?
 
@@ -5601,7 +5609,7 @@ http://aws.amazon.com/ec2/instance-types/
 
 </p></details><hr>
 
-### QUESTION 227:
+### QUESTION 227
 
 Which of the following statements is correct about the number of security groups and rules applicable for an EC2-Classic instance and an EC2-VPC network interface?
 
@@ -5623,7 +5631,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
 
 </p></details><hr>
 
-### QUESTION 228:
+### QUESTION 228
 
 Your system recently experienced down time during the troubleshooting process. You found that a new administrator mistakenly terminated several production EC2 instances.
 
@@ -5934,7 +5942,7 @@ Alternatively, you could create a policy that denies users permission to launch 
 
 </p></details><hr>
 
-### QUESTION 229:
+### QUESTION 229
 
 Which of the following commands accepts binary data as parameters?
 
@@ -5960,7 +5968,7 @@ http://docs.aws.amazon.com/cli/latest/userguide/aws-cli.pdf
 
 </p></details><hr>
 
-### QUESTION 230:
+### QUESTION 230
 
 Regarding Amazon SNS, you can send notification messages to mobile devices through any of the following supported push notification services, EXCEPT:
 
@@ -5984,7 +5992,7 @@ http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html
 
 </p></details><hr>
 
-### QUESTION 231:
+### QUESTION 231
 
 A user is planning to launch multiple EC2 instance same as current running instance.
 
@@ -6022,7 +6030,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html
 
 </p></details><hr>
 
-### QUESTION 232:
+### QUESTION 232
 
 Which of the following components of AWS Data Pipeline specifies the business logic of your data management?
 
@@ -6044,7 +6052,7 @@ Reference: http://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is
 
 </p></details><hr>
 
-### QUESTION 233:
+### QUESTION 233 x
 
 In the context of AWS Cloud Hardware Security Module(HSM), does your application need to reside in the same VPC as the CloudHSM instance?
 
@@ -6066,7 +6074,7 @@ https://aws.amazon.com/cloudhsm/faqs/
 
 </p></details><hr>
 
-### QUESTION 234:
+### QUESTION 234
 
 Your company plans to host a large donation website on Amazon Web Services (AWS). You anticipate a large and undetermined amount of traffic that will create many database writes. To be certain that you do not drop any writes to a database hosted on AWS.
 
@@ -6100,7 +6108,7 @@ Keep notifications of significant events in a business process in an Amazon SQS 
 
 </p></details><hr>
 
-### QUESTION 235:
+### QUESTION 235
 
 Mike is appointed as Cloud Consultant in ABC.com. ABC has the following VPCs set- up in the US East Region:
 
@@ -6126,7 +6134,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-peering.html
 
 </p></details><hr>
 
-### QUESTION 236:
+### QUESTION 236
 
 A customer has a website which shows all the deals available across the market. The site experiences a load of 5 large EC2 instances generally.
 
@@ -6144,13 +6152,15 @@ Which of the below mentioned solutions is cost effective as well as help the web
 
 Explanation:
 
+JW: The correct answer should be `D`, according to the comments below.
+
 AWS provides an on demand, scalable infrastructure. AWS EC2 allows the user to launch On- Demand instances and the organization should create an AMI of the running instance. When the organization is experiencing varying loads and the time of the load is not known but it is higher than the routine traffic it is recommended that the organization launches a few instances beforehand and then setups AutoScaling with policies which scale up and down as per the EC2 metrics, such as Network I/O or CPU utilization. If the organization keeps all 10 additional instances as a part of the AutoScaling policy sometimes during a sudden higher load it may take time to launch instances and may not give an optimal performance. This is the reason it is recommended that the organization keeps an additional 5 instances running and the next 5 instances scheduled as per the AutoScaling policy for cost effectiveness.
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/a-customer-has-a-website-which-shows-all-the-deals-available-across-the-market-the-site-experiences)
 
 </p></details><hr>
 
-### QUESTION 237:
+### QUESTION 237
 
 You require the ability to analyze a customer's clickstream data on a website so they can do behavioral analysis. Your customer needs to know what sequence of pages and ads their customer clicked on. This data will be used in real time to modify the page layouts as customers click through the site to increase stickiness and advertising click-through.
 
