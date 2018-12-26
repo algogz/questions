@@ -18,6 +18,10 @@ public class Question {
     List<String> commentList = new ArrayList<>();
     Set<String> categories = new HashSet<>();
 
+    public Set<String> getCategories() {
+        return null == categories ? new HashSet<>() : categories;
+    }
+
     public Question(String url, int questionNumber, String text) {
         this.url = url;
         this.questionNumber = questionNumber;

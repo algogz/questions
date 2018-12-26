@@ -1,6 +1,7 @@
 package algo.aws.questions.jayendrapatil;
 
 import algo.aws.questions.MarkdownUtils;
+import algo.aws.questions.QuestionUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -20,22 +21,25 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Log4j2
 public class JayendrapatilUtils {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
     static String jsonDir = "/Users/algo/aws/questions/jayendrapatil/json";
     static String baseDir = "jayendrapatil/";
+    public static String WHITEPAPER = "whitepaper";
+    public static String SERVICE = "service";
 
-    public static void saveAllQuestions(boolean overwrite) throws IOException {
-        Path htmlDir = Paths.get(baseDir, "html");
+    public static void saveAllQuestions(String part, boolean overwrite) throws IOException {
+        Path htmlDir = Paths.get(baseDir, "html/" + part);
         Files.list(htmlDir).forEach(htmlFile -> {
             try {
                 log.info("Handling {}", htmlFile);
 
                 String module = getModule(htmlFile);
                 String url = String.format("http://jayendrapatil.com/%s/", module);
-                Path jsonFile = Paths.get(baseDir,"json", module + ".json");
+                Path jsonFile = Paths.get(baseDir,"json/" + part, module + ".json");
                 if(!overwrite && Files.exists(jsonFile)){
                     return;       // skip if file exists
                 }
@@ -53,13 +57,13 @@ public class JayendrapatilUtils {
     }
 
 
-    public static void convertAllToMarkdown(boolean overwrite) throws IOException {
-        Path jsonlDir = Paths.get(baseDir, "json");
+    public static void convertAllToMarkdown(String part, boolean overwrite) throws IOException {
+        Path jsonlDir = Paths.get(baseDir, "json/" + part);
         Files.list(jsonlDir).forEach(jsonFile -> {
             try {
                 log.info("Converting {}", jsonFile);
                 String module = getModule(jsonFile);
-                Path mdFile = Paths.get(baseDir,"md", module + ".md");
+                Path mdFile = Paths.get(baseDir,"md/" + part, module + ".md");
                 if(!overwrite && Files.exists(mdFile)){
                     return;       // skip if file exists
                 }
@@ -70,12 +74,12 @@ public class JayendrapatilUtils {
         });
     }
 
-    public static void saveAllHtml(boolean overwrite) throws IOException {
-        Map<String, String> urls = retrieveUrls();
+    public static void saveAllHtml(String part, boolean overwrite) throws IOException {
+        Map<String, String> urls = retrieveUrls(part);
         for(String url:urls.keySet()){
             log.info("retriving {}", url);
             String module = getModule(url);
-            Path path = Paths.get(baseDir,"html", module + ".html");
+            Path path = Paths.get(baseDir,"html/" + part, module + ".html");
             if(!overwrite && Files.exists(path)){
                 continue;       // skip if file exists
             }
@@ -97,12 +101,26 @@ public class JayendrapatilUtils {
     }
 
     public static void saveAllProfessionalQuestions() throws IOException {
-        Map<String, String> urls = retrieveUrls();
+        Map<String, String> urls = retrieveUrls("Service");
         List<Question> proList = new ArrayList<>();
         for(String url:urls.keySet()){
             log.info("retriving {}", url);
             List<Question> list = retrieveQuestions(url);
             list.stream().filter(q -> q.isProfessional).forEach(proList::add);
+        }
+        String json = gson.toJson(proList);
+        Path path = Paths.get(jsonDir, "/professional-questions.json");
+        Files.write(path, json.getBytes());
+    }
+
+    public static void pickProfessionalQuestions() throws IOException {
+        String[] parts = {"service", "whitepaper"};
+        List<Question> proList = new ArrayList<>();
+        for(String part: parts) {
+            Path path = Paths.get("jayendrapatil/json/" + part);
+            for (Path jsonFile : Files.list(path).collect(Collectors.toList())) {
+                proList.addAll(QuestionUtils.readQuestions(jsonFile).stream().filter(q -> q.isProfessional()).collect(Collectors.toList()));
+            }
         }
         String json = gson.toJson(proList);
         Path path = Paths.get(jsonDir, "/professional-questions.json");
@@ -128,11 +146,16 @@ public class JayendrapatilUtils {
      * @return Map[url, service name]
      * @throws IOException
      */
-    public static Map<String, String> retrieveUrls() throws IOException {
+    public static Map<String, String> retrieveUrls(String part) throws IOException {
         Map<String, String> urlMap = new LinkedHashMap<>();
         Document doc = Jsoup.connect("http://jayendrapatil.com/").get();
-        Element servicesElm = doc.select("#post-9555 > div > ul:nth-child(8)").get(0);
-        Elements aElms = servicesElm.select("a");
+        Element ulElm;
+        if(WHITEPAPER.equalsIgnoreCase(part)){
+            ulElm = doc.select("#post-9555 > div > ul:nth-child(6)").get(0);
+        } else {
+            ulElm = doc.select("#post-9555 > div > ul:nth-child(8)").get(0);
+        }
+        Elements aElms = ulElm.select("a");
         log.debug(aElms.size());
         for(Element aElm:aElms){
             String href = aElm.attr("href");

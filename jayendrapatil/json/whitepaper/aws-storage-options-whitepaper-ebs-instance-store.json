@@ -1,0 +1,22 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-storage-options-whitepaper-ebs-instance-store/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "Which of the following provides the fastest storage medium?",
+    "choiceList": [
+      "A. Amazon S3",
+      "B. Amazon EBS using Provisioned IOPS (PIOPS)",
+      "C. SSD Instance (ephemeral) store",
+      "D. AWS Storage Gateway"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-storage-options-whitepaper-ebs-instance-store/",
+      "C: SSD Instance Storage provides 100,000 IOPS on some instance types, much faster than any network-attached storage"
+    ],
+    "categories": []
+  }
+]

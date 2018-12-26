@@ -24,13 +24,13 @@ public class JayendrapatilExtractorTests {
 
     @Test
     public void testConvertAllToMarkdown() throws IOException {
-        JayendrapatilUtils.convertAllToMarkdown(true);
+        JayendrapatilUtils.convertAllToMarkdown(JayendrapatilUtils.WHITEPAPER,true);
     }
 
     @Test
     public void testConvertToMarkdown() throws IOException {
         String baseDir = "jayendrapatil/";
-        String module = "aws-api-gateway";
+        String module = "professional-questions";
         Path jsonPath = Paths.get(baseDir, "json",module + ".json");
         Path mdPath = Paths.get(baseDir,"md", module + ".md");
         MarkdownUtils.convertJsonToMarkdown(jsonPath, mdPath);
@@ -38,12 +38,12 @@ public class JayendrapatilExtractorTests {
 
     @Test
     public void testSaveAllHtml() throws IOException {
-        JayendrapatilUtils.saveAllHtml(true);
+        JayendrapatilUtils.saveAllHtml(JayendrapatilUtils.WHITEPAPER,true);
     }
 
     @Test
     public void testSaveAllQuestions() throws IOException {
-        JayendrapatilUtils.saveAllQuestions(true);
+        JayendrapatilUtils.saveAllQuestions(JayendrapatilUtils.WHITEPAPER, true);
     }
 
     @Test
@@ -52,8 +52,13 @@ public class JayendrapatilExtractorTests {
     }
 
     @Test
+    public void pickProfessionalQuestions() throws IOException {
+        JayendrapatilUtils.pickProfessionalQuestions();
+    }
+
+    @Test
     public void testRetrieveUrls() throws IOException {
-        Map<String, String> urls = JayendrapatilUtils.retrieveUrls();
+        Map<String, String> urls = JayendrapatilUtils.retrieveUrls(JayendrapatilUtils.WHITEPAPER);
         log.info(gson.toJson(urls));
     }
     @Test

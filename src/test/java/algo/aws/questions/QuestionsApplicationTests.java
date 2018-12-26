@@ -40,9 +40,7 @@ public class QuestionsApplicationTests {
     @Test
     public void categorize() throws IOException {
         Path path = Paths.get("jayendrapatil/json/professional-questions.json");
-        byte[] buf = Files.readAllBytes(path);
-        String json = new String(buf);
-        List<Question> qList = gson.fromJson(json, new TypeToken<List<Question>>(){}.getType());
+        List<Question> qList = QuestionUtils.readQuestions(path);
         qList.forEach(q -> {
             Set<String> catList = QuestionUtils.categorize(q);
             q.setCategories(catList);

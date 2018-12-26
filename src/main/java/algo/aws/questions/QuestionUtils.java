@@ -1,11 +1,18 @@
 package algo.aws.questions;
 
 import algo.aws.questions.jayendrapatil.Question;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.function.BiConsumer;
 
 public class QuestionUtils {
+    static Gson gson = new GsonBuilder().setPrettyPrinting().create();
     static Map<String, String> category;
 
     static {
@@ -87,5 +94,11 @@ public class QuestionUtils {
             }
         });
         return catList;
+    }
+
+    public static List<Question> readQuestions(Path jsonPath) throws IOException {
+        byte[] buf = Files.readAllBytes(jsonPath);
+        String json = new String(buf);
+        return gson.fromJson(json, new TypeToken<List<Question>>(){}.getType());
     }
 }

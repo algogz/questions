@@ -8,7 +8,6 @@ import lombok.extern.log4j.Log4j2;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
@@ -124,7 +123,7 @@ public class MarkdownUtils {
         sb.append("\n");
         sb.append("<details><summary>Answer:</summary><p>\n");
         sb.append(q.getAnswerList().toString()).append("\n\n");
-        sb.append(q.getCategories().toString()).append("\n\n");
+        sb.append("Categories:\n").append(q.getCategories().toString()).append("\n\n");
         sb.append("Explanation:\n\n");
         List<String> commentList = q.getCommentList();
         for(String comment:commentList){

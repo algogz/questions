@@ -1,0 +1,235 @@
+[
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 1,
+    "isProfessional": false,
+    "text": "Which AWS services belong to the Compute services? Choose 2 answers",
+    "choiceList": [
+      "A. Lambda",
+      "B. EC2",
+      "C. S3",
+      "D. EMR",
+      "E. CloudFront"
+    ],
+    "answerList": [
+      "A",
+      "B"
+    ],
+    "commentList": [
+      "Question 1@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 2,
+    "isProfessional": false,
+    "text": "Which AWS service provides low cost storage option for archival and long-term backup?",
+    "choiceList": [
+      "A. Glacier",
+      "B. S3",
+      "C. EBS",
+      "D. CloudFront"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 2@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 3,
+    "isProfessional": false,
+    "text": "Which AWS services belong to the Storage services? Choose 2 answers",
+    "choiceList": [
+      "A. EFS",
+      "B. IAM",
+      "C. EMR",
+      "D. S3",
+      "E. CloudFront"
+    ],
+    "answerList": [
+      "A",
+      "D"
+    ],
+    "commentList": [
+      "Question 3@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 4,
+    "isProfessional": false,
+    "text": "A Company allows users to upload videos on its platform. They want to convert the videos to multiple formats supported on multiple devices and platforms. Which AWS service can they leverage for the requirement?",
+    "choiceList": [
+      "A. AWS SWF",
+      "B. AWS Video Converter",
+      "C. AWS Elastic Transcoder",
+      "D. AWS Data Pipeline"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 4@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 5,
+    "isProfessional": false,
+    "text": "Which analytic service helps analyze data in S3 using standard SQL?",
+    "choiceList": [
+      "A. Athena",
+      "B. EMR",
+      "C. Elasticsearch",
+      "D. Kinesis"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 5@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 6,
+    "isProfessional": false,
+    "text": "What features does AWS’s Route 53 service provide? Choose the 2 correct answers:",
+    "choiceList": [
+      "A. Content Caching",
+      "B. Domain Name System (DNS) service",
+      "C. Database Management",
+      "D. Domain Registration"
+    ],
+    "answerList": [
+      "B",
+      "D"
+    ],
+    "commentList": [
+      "Question 6@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 7,
+    "isProfessional": false,
+    "text": "You are trying to organize and import (to AWS) gigabytes of data that are currently structured in JSON-like, name-value documents. What AWS service would best fit your needs?",
+    "choiceList": [
+      "A. Lambda",
+      "B. DynamoDB",
+      "C. RDS",
+      "D. Aurora"
+    ],
+    "answerList": [
+      "B"
+    ],
+    "commentList": [
+      "Question 7@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 8,
+    "isProfessional": false,
+    "text": "What AWS database is primarily used to analyze data using standard SQL formatting with compatibility for your existing business intelligence tools? Choose the correct answer:",
+    "choiceList": [
+      "A. Redshift",
+      "B. RDS",
+      "C. DynamoDB",
+      "D. ElastiCache"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 8@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 9,
+    "isProfessional": false,
+    "text": "A company wants their application to use pre-configured machine image with software installed and configured. which AWS feature can help for the same?",
+    "choiceList": [
+      "A. Amazon Machine Image",
+      "B. AWS CloudFormation",
+      "C. AWS Lambda",
+      "D. AWS Lightsail"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 9@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 10,
+    "isProfessional": false,
+    "text": "What AWS service can be used for track API event calls for security analysis, resource change tracking?",
+    "choiceList": [
+      "A. AWS CloudWatch",
+      "B. AWS CloudFormation",
+      "C. AWS CloudTrail",
+      "D. AWS OpsWorks"
+    ],
+    "answerList": [
+      "C"
+    ],
+    "commentList": [
+      "Question 10@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 11,
+    "isProfessional": false,
+    "text": "Which AWS service can help Offload the read traffic from your database in order to reduce latency caused by read-heavy workload?",
+    "choiceList": [
+      "A. ElastiCache",
+      "B. DynamoDB",
+      "C. S3",
+      "D. EFS"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 11@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  },
+  {
+    "url": "http://jayendrapatil.com/aws-services-overview/",
+    "questionNumber": 12,
+    "isProfessional": false,
+    "text": "What service allows system administrators to run “Infrastructure as code”?",
+    "choiceList": [
+      "A. CloudFormation",
+      "B. CloudWatch",
+      "C. CloudTrail",
+      "D. CodeDeploy"
+    ],
+    "answerList": [
+      "A"
+    ],
+    "commentList": [
+      "Question 12@http://jayendrapatil.com/aws-services-overview/"
+    ],
+    "categories": []
+  }
+]
