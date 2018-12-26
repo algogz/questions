@@ -3529,7 +3529,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/dedicated-instance.html
 
 </p></details><hr>
 
-### Question 141:
+### Question 141: x
 
 What is a possible reason you would need to edit claims issued in a SAML token?
 
@@ -3553,7 +3553,7 @@ https://azure.microsoft.com/en-us/documentation/articles/active-directory-saml-c
 
 </p></details><hr>
 
-### Question 142:
+### Question 142: x
 
 The user has provisioned the PIOPS volume with an EBS optimized instance.
 
@@ -3642,6 +3642,8 @@ Which of the following are characteristics of Amazon VPC subnets? (Choose 2)
 
 Explanation:
 
+The correct answer should be D,E
+
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/which-of-the-following-are-characteristics-of-amazon-vpc-subnets-choose-2)
 
 </p></details><hr>
@@ -3673,9 +3675,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
 Dave is the main administrator in Example Corp., and he decides to use paths to help delineate the users in the company and set up a separate administrator group for each path-based division. Following is a subset of the full list of paths he plans to use:
 
 * /marketing
-
 * /sales
-
 * /legal
 
 Dave creates an administrator group for the marketing part of the company and calls it Marketing_Admin.
@@ -3729,7 +3729,7 @@ Effect Deny
 
 </p></details><hr>
 
-### Question 148:
+### Question 148: x
 
 You have setup an Auto Scaling group. The cool down period for the Auto Scaling group is 7 minutes. The first scaling activity request for the Auto Scaling group is to launch two instances. It receives the activity question at time "t", and the first instance is launched at t+3 minutes, while the second instance is launched at t+4 minutes.
 
@@ -3957,7 +3957,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html
 
 </p></details><hr>
 
-### Question 157:
+### Question 157: x
 
 True or false: In a CloudFormation template, you can reuse the same logical ID several times to reference the resources in other parts of the template.
 
@@ -4007,7 +4007,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html#EBSVolume
 
 </p></details><hr>
 
-### Question 159:
+### Question 159: x
 
 You have subscribed to the AWS Business and Enterprise support plan.
 
@@ -4190,9 +4190,9 @@ In AWS, which security aspects are the customer's responsibility? (Choose 4)
 
 Explanation:
 
-Reference:
+Correct answer should be [A, C, D, F]
 
-http://media.amazonwebservices.com/AWS_Security_Best_Practices.pdf
+Reference: http://media.amazonwebservices.com/AWS_Security_Best_Practices.pdf
 
 [Free Cram Question Link](https://www.freecram.com/question/Citrix.AWS-Architect.v2018-12-10.q237/in-aws-which-security-aspects-are-the-customer-s-responsibility-choose-4)
 
@@ -4222,7 +4222,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacks.html
 
 </p></details><hr>
 
-### Question 168:
+### Question 168: x
 
 One of the components that is part of ec2-net-utils used with ENI's is ec2ifscan.
 
@@ -4262,9 +4262,15 @@ Which of the following is the final step that should be completed to start using
 
 Explanation:
 
-You can get started using AWS Direct Connect by completing the following steps. Step 1: Sign Up for Amazon Web Services Step 2: Submit AWS Direct Connect Connection Request Step 3: Complete the Cross Connect (optional) Step 4: Configure Redundant Connections with AWS Direct Connect Step 5:
+You can get started using AWS Direct Connect by completing the following steps. Step 
 
-Create a Virtual Interface Step 6: Download Router Configuration Step 7: Verify Your Virtual Interface
+1. Sign Up for Amazon Web Services Step 
+2. Submit AWS Direct Connect Connection Request Step 
+3. Complete the Cross Connect (optional) Step 
+4. Configure Redundant Connections with AWS Direct Connect Step 
+5. Create a Virtual Interface Step 
+6. Download Router Configuration Step 
+7. Verify Your Virtual Interface
 
 http://docs.aws.amazon.com/directconnect/latest/UserGuide/getstarted.html#connected
 
