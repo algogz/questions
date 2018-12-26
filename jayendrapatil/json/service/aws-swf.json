@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SWF"
     ]
   },
   {
@@ -33,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SWF"
     ]
   },
   {
@@ -53,6 +59,13 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SES",
+      "SWF",
+      "EC2",
+      "EBS",
+      "SNS"
     ]
   },
   {
@@ -71,6 +84,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SWF"
     ]
   },
   {
@@ -89,6 +105,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SWF"
     ]
   },
   {
@@ -109,6 +128,11 @@
       "B: Human and automated assessments with GPU and low latency networking",
       "C: C3 and SR-IOV won’t provide GPU as well as Enhanced networking needs to be enabled",
       "D: Involves mixture of human assessments"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF"
     ]
   },
   {
@@ -130,6 +154,16 @@
       "A: Would use a SWF instead of BPM",
       "B: Decider sending emails might not be reliable",
       "D: Does not provide an ability to repeat a step"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -149,6 +183,13 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "SWF",
+      "SQS",
+      "EC2"
     ]
   },
   {
@@ -167,6 +208,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SWF"
     ]
   },
   {
@@ -185,6 +229,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "SWF"
     ]
   },
   {
@@ -207,6 +254,13 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-swf/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "SWF",
+      "EC2",
+      "SNS"
     ]
   }
 ]

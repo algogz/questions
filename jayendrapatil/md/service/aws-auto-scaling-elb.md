@@ -10,6 +10,9 @@ A company is building a two-tier web application to serve dynamic transaction-ba
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, RDS, EC2, ASG, DynamoDB, ELB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-auto-scaling-elb/
@@ -27,6 +30,9 @@ You have been given a scope to deploy some AWS infrastructure for a large organi
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[CloudFront, EC2, CloudWatch, ASG, ELB, Elastic Beanstalk, CloudTrail]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user has configured ELB with Auto Scaling. The user suspended the Auto Scaling
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[ASG, ELB]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-auto-scaling-elb/
@@ -63,6 +72,9 @@ You have an Auto Scaling group associated with an Elastic Load Balancer (ELB). Y
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[ASG, ELB]
 
 Explanation:
 
@@ -83,6 +95,9 @@ You are responsible for a web application that consists of an Elastic Load Balan
 <details><summary>Answer:</summary><p>
 [C, D]
 
+Categories:
+[EC2, CloudWatch, ASG, EBS, ELB]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-auto-scaling-elb/
@@ -100,6 +115,9 @@ What is the order of most-to-least rapidly-scaling (fastest to scale first)? A) 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS, EC2, ASG, ELB, Lambda]
 
 Explanation:
 
@@ -120,6 +138,9 @@ A user has hosted an application on EC2 instances. The EC2 instances are configu
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, EC2, ASG, ELB]
 
 Explanation:
 

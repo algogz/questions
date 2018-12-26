@@ -18,7 +18,11 @@
       "B: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/s3-messages.html",
       "B: (Amazon SQS messages with Amazon S3 can be useful for storing and retrieving messages with a message size of up to 2 GB. To manage Amazon SQS messages with Amazon S3, use the Amazon SQS Extended Client Library for Java. Refer )"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SQS",
+      "Kinesis"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper-s3-glacier/",
@@ -37,6 +41,9 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-storage-options-whitepaper-s3-glacier/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "DynamoDB"
+    ]
   }
 ]

@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -35,6 +38,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -53,6 +59,13 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3",
+      "Glacier",
+      "EC2",
+      "EBS",
+      "Instance Store"
     ]
   },
   {
@@ -72,6 +85,9 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/",
       "D: NOTE – Its no longer supported by AWS"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -90,6 +106,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3",
+      "SES"
     ]
   },
   {
@@ -108,6 +128,13 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EC2",
+      "EBS",
+      "Instance Store"
     ]
   },
   {
@@ -126,6 +153,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EBS"
     ]
   },
   {
@@ -144,6 +176,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -162,6 +197,12 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "CloudFront",
+      "IAM"
     ]
   },
   {
@@ -180,6 +221,11 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EBS"
     ]
   },
   {
@@ -198,6 +244,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -218,6 +267,10 @@
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/",
       "C: http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   },
   {
@@ -243,6 +296,11 @@
       "B: using pre-signed urls the contractors account don’t need to have access but only the creator of the pre-signed urls",
       "D: developers are not uploading the objects but its using pre-signed urls",
       "E: does not matter as long as the user has permission to upload"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
     ]
   }
 ]

@@ -19,6 +19,14 @@
       "B: Missing Global Services for IAM",
       "C: Existing bucket prevents confidentiality",
       "D: 3 buckets not needed, Missing Global services options"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "IAM",
+      "EC2",
+      "SNS",
+      "CloudTrail"
     ]
   },
   {
@@ -50,6 +58,10 @@
       "D: once enabled it is applicable for all the supported services, service can’t be selected",
       "F: is enabled only for CloudTrail supported services",
       "G: can be logged to bucket in any region"
+    ],
+    "categories": [
+      "S3",
+      "CloudTrail"
     ]
   },
   {
@@ -68,6 +80,12 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-cloudtrail/"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "CloudWatch",
+      "CloudTrail"
     ]
   },
   {
@@ -87,6 +105,12 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-cloudtrail/",
       "B: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/aws-namespaces.html"
+    ],
+    "categories": [
+      "SWF",
+      "CloudWatch",
+      "ElastiCache",
+      "CloudTrail"
     ]
   },
   {
@@ -107,6 +131,12 @@
       "Question 5@http://jayendrapatil.com/aws-cloudtrail/",
       "A: http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html",
       "A: . "
+    ],
+    "categories": [
+      "S3",
+      "Glacier",
+      "SNS",
+      "CloudTrail"
     ]
   },
   {
@@ -125,6 +155,16 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-cloudtrail/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "IAM",
+      "CloudWatch",
+      "SNS",
+      "DynamoDB",
+      "Lambda",
+      "CloudTrail"
     ]
   }
 ]

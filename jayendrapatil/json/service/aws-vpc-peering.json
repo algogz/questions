@@ -13,6 +13,10 @@
     "answerList": [],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-vpc-peering/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   }
 ]

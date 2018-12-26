@@ -19,6 +19,12 @@
       "B: Not cost effective",
       "C: With CSE-KMS the encryption happens at client side before the object is upload to S3 and KMS is cost effective as well",
       "D: Not cost effective"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "KMS",
+      "Glacier"
     ]
   },
   {
@@ -37,6 +43,15 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-key-management-service-kms/"
+    ],
+    "categories": [
+      "S3",
+      "KMS",
+      "IAM",
+      "EC2",
+      "ASG",
+      "VPC",
+      "SNS"
     ]
   }
 ]

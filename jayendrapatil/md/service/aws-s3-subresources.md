@@ -10,6 +10,9 @@ An organization’s security policy requires multiple copies of all critical dat
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-subresources/
@@ -27,6 +30,9 @@ A customer wants to track access to their Amazon Simple Storage Service (S3) buc
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, CloudTrail]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user is enabling a static website hosting on an S3 bucket. Which of the below 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-s3-subresources/
@@ -63,6 +72,9 @@ Company ABCD is running their corporate website on Amazon S3 accessed from http/
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, EBS]
 
 Explanation:
 
@@ -82,6 +94,9 @@ Company ABCD is currently hosting their corporate site in an Amazon S3 bucket wi
 
 <details><summary>Answer:</summary><p>
 [A, C]
+
+Categories:
+[S3, EBS]
 
 Explanation:
 

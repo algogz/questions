@@ -11,6 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class QuestionRepository {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -18,7 +19,7 @@ public class QuestionRepository {
     List<Question> questionList = new ArrayList<>();
 
     public QuestionRepository(String file) throws IOException {
-        path = Paths.get("file");
+        path = Paths.get(file);
         if(Files.exists(path)){
             byte[] buf = Files.readAllBytes(path);
             String json = new String(buf);
@@ -39,5 +40,11 @@ public class QuestionRepository {
         return questionList.stream()
                 .mapToDouble(q -> StringUtils.similarity(q.getText(), question.getText()))
                 .anyMatch(v -> v >= 0.9);
+    }
+
+    public List<Question> findSimilar(Question question){
+        return questionList.stream()
+                .filter(q -> StringUtils.similarity(q.getText(), question.getText()) >= 0.9)
+                .collect(Collectors.toList());
     }
 }

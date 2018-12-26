@@ -10,6 +10,9 @@ An admin is planning to monitor the ELB. Which of the below mentioned services d
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch, ELB, CloudTrail]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elb-monitoring/
@@ -28,6 +31,9 @@ A customer needs to capture all client connection information from their load ba
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch, CloudTrail]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-elb-monitoring/
@@ -45,6 +51,9 @@ Your supervisor has requested a way to analyze traffic patterns for your applica
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[CloudWatch, CloudTrail]
 
 Explanation:
 

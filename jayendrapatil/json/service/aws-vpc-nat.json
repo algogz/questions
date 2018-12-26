@@ -15,7 +15,8 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-vpc-nat/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-vpc-nat/",
@@ -33,7 +34,8 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-vpc-nat/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-vpc-nat/",
@@ -52,6 +54,10 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-vpc-nat/",
       "C: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html#NATSG"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -73,6 +79,13 @@
       "B: Internet gateway is only to route traffic",
       "C: ELB does not have a fixed IP address",
       "D: would exceed the allowed 4 IP addresses"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "ASG",
+      "VPC",
+      "ELB"
     ]
   }
 ]

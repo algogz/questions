@@ -11,6 +11,9 @@ You have in total 5 offices, and the entire employee related information is stor
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/
@@ -29,6 +32,9 @@ You have in total 15 offices, and the entire employee related information is sto
 
 <details><summary>Answer:</summary><p>
 [E]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -56,6 +62,9 @@ You have been asked to virtually extend two existing data centers into AWS to su
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SES]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/
@@ -75,6 +84,9 @@ You are designing network connectivity for your fat client application. The appl
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[VPC, ELB, Direct Connect]
 
 Explanation:
 
@@ -104,6 +116,9 @@ You are designing a connectivity solution between on-premises infrastructure and
 <details><summary>Answer:</summary><p>
 [C, D, E, F]
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/
@@ -121,6 +136,9 @@ A development team that is currently doing a nightly six-hour build which is len
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, SES, RDS, CloudFront, SQS, EC2, Storage Gateway, ASG, EBS, VPC, SNS, EMR]
 
 Explanation:
 

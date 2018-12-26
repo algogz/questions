@@ -11,6 +11,9 @@ Which features can be used to restrict access to data in S3? Choose 2 answers
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[S3, CloudFront, IAM]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-permisions/
@@ -28,6 +31,9 @@ Which method can be used to prevent an IP address block from accessing public ob
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, IAM, VPC]
 
 Explanation:
 
@@ -47,6 +53,9 @@ A user has granted read/write permission of his S3 bucket using ACL. Which of th
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, IAM]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-s3-permisions/
@@ -64,6 +73,9 @@ A root account owner has given full access of his S3 bucket to one of the IAM us
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, IAM]
 
 Explanation:
 
@@ -83,6 +95,9 @@ A root AWS account owner is trying to understand various options to set the perm
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-s3-permisions/
@@ -101,6 +116,9 @@ A system admin is managing buckets, objects and folders with AWS S3. Which of th
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-s3-permisions/
@@ -118,6 +136,9 @@ A user has created an S3 bucket which is not publicly accessible. The bucket is 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -138,6 +159,9 @@ You need to configure an Amazon S3 bucket to serve static assets for your public
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-s3-permisions/
@@ -155,6 +179,9 @@ Amazon S3 doesn’t automatically give a user who creates _____ permission to pe
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -174,6 +201,9 @@ A root account owner is trying to understand the S3 bucket ACL. Which of the bel
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-s3-permisions/
@@ -191,6 +221,9 @@ A user is enabling logging on a particular bucket. Which of the below mentioned 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, IAM]
 
 Explanation:
 
@@ -210,6 +243,9 @@ A user is trying to configure access with S3. Which of the following options is 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, IAM]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-s3-permisions/
@@ -228,6 +264,9 @@ A user is having access to objects of an S3 bucket, which is not owned by him. I
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, IAM]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-s3-permisions/
@@ -245,6 +284,9 @@ A bucket owner has allowed another account’s IAM users to upload or access obj
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, SES, IAM]
 
 Explanation:
 

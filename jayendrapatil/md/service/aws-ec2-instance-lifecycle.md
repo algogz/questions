@@ -10,6 +10,9 @@ What does Amazon EC2 provide?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-instance-lifecycle/
@@ -27,6 +30,9 @@ A user has enabled termination protection on an EC2 instance. The user has also 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user has launched an EC2 instance and deployed a production application in it.
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-instance-lifecycle/
@@ -63,6 +72,9 @@ You have been doing a lot of testing of your VPC Network by deliberately failing
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, EC2, VPC]
 
 Explanation:
 

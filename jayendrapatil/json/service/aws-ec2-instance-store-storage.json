@@ -14,6 +14,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "Instance Store"
     ]
   },
   {
@@ -32,6 +36,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "Instance Store"
     ]
   },
   {
@@ -50,6 +58,11 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -68,6 +81,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "Instance Store"
     ]
   },
   {
@@ -86,6 +103,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -104,6 +125,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "Instance Store"
     ]
   },
   {
@@ -124,6 +149,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-ec2-instance-store-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS",
+      "VPC"
     ]
   }
 ]

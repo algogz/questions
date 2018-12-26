@@ -10,6 +10,9 @@ A company is building software on AWS that requires access to various AWS servic
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[IAM, EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-iam-role/
@@ -29,6 +32,9 @@ A company is preparing to give AWS Management Console access to developers. Comp
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-iam-role/
@@ -47,6 +53,9 @@ A customer needs corporate IT governance and cost oversight of all AWS resources
 
 <details><summary>Answer:</summary><p>
 [B, D]
+
+Categories:
+[S3, IAM, CloudWatch, VPC, CloudTrail]
 
 Explanation:
 
@@ -71,6 +80,9 @@ Which of the following items are required to allow an application deployed on an
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[IAM, EC2, DynamoDB]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-iam-role/
@@ -93,6 +105,9 @@ You are looking to migrate your Development (Dev) and Test environments to AWS. 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-iam-role/
@@ -110,6 +125,9 @@ You have an application running on an EC2 Instance which will allow users to dow
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, IAM, EC2]
 
 Explanation:
 
@@ -129,6 +147,9 @@ An administrator is using Amazon CloudFormation to deploy a three tier web appli
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[IAM, CloudFormation, DynamoDB]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-iam-role/
@@ -146,6 +167,9 @@ An enterprise wants to use a third-party SaaS application. The SaaS application 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM, EC2]
 
 Explanation:
 
@@ -165,6 +189,9 @@ A user has created an application which will be hosted on EC2. The application m
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[IAM, EC2, DynamoDB]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-iam-role/
@@ -182,6 +209,9 @@ A customer is in the process of deploying multiple applications to AWS that are 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -206,6 +236,9 @@ You are creating an Auto Scaling group whose Instances need to insert a custom m
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM, CloudWatch, ASG]
 
 Explanation:
 

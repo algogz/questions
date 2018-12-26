@@ -12,7 +12,8 @@ Which of the following are use cases for Amazon DynamoDB? Choose 3 answers
 <details><summary>Answer:</summary><p>
 [B, C, D]
 
-[]
+Categories:
+[S3, SES, DynamoDB]
 
 Explanation:
 
@@ -32,7 +33,8 @@ A client application requires operating system privileges on a relational databa
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[RDS, EC2]
 
 Explanation:
 
@@ -52,7 +54,8 @@ You are developing a new mobile application and are considering storing user pre
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, RDS, DynamoDB]
 
 Explanation:
 
@@ -74,7 +77,8 @@ A customer is running an application in US-West (Northern California) region and
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[RDS]
 
 Explanation:
 
@@ -94,7 +98,8 @@ You are designing a file -sharing service. This service will have millions of fi
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, RDS, DynamoDB, ELB]
 
 Explanation:
 
@@ -114,7 +119,8 @@ Company ABCD has recently launched an online commerce site for bicycles on AWS. 
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[S3, DynamoDB]
 
 Explanation:
 

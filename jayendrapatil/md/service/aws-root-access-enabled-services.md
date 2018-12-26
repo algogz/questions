@@ -11,6 +11,9 @@ Which services allow the customer to retain full administrative privileges of th
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[RDS, EC2, ElastiCache, ELB, EMR, Elastic Beanstalk]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-root-access-enabled-services/
@@ -32,6 +35,9 @@ Which for the services provide root access
 <details><summary>Answer:</summary><p>
 [A, B, C, D]
 
+Categories:
+[S3, RDS, EC2, DynamoDB, Elastic Beanstalk]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-root-access-enabled-services/
@@ -49,6 +55,9 @@ A client application requires operating system privileges on a relational databa
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS, EC2]
 
 Explanation:
 

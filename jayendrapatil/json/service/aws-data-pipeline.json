@@ -20,6 +20,13 @@
       "B: No Schedule and throughput control",
       "C: With AWS Data pipeline the data can be copied directly to other DynamoDB table",
       "D: Not Automated to replay the write"
+    ],
+    "categories": [
+      "S3",
+      "SQS",
+      "CloudFormation",
+      "DynamoDB",
+      "EMR"
     ]
   },
   {
@@ -40,6 +47,11 @@
       "B: Human and automated assessments with GPU and low latency networking",
       "C: C3 and SR-IOV won’t provide GPU as well as Enhanced networking needs to be enabled",
       "D: Involves mixture of human assessments"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF"
     ]
   }
 ]

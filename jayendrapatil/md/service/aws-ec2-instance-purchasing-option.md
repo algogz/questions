@@ -10,6 +10,9 @@ If I want my instance to run on a single-tenant hardware, which value do I have 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/
@@ -28,6 +31,9 @@ You have a video transcoding application running on Amazon EC2. Each instance po
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/
@@ -44,6 +50,9 @@ The one-time payment for Reserved Instances is __________ refundable if the rese
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[]
 
 Explanation:
 
@@ -62,6 +71,9 @@ You run a web application where web servers on EC2 Instances are In an Auto Scal
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, ASG]
 
 Explanation:
 
@@ -87,6 +99,9 @@ A user is running one instance for only 3 hours every day. The user wants to sav
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/
@@ -107,6 +122,9 @@ Which of the following are characteristics of a reserved instance? Choose 3 answ
 
 <details><summary>Answer:</summary><p>
 [A, C, E]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -136,6 +154,9 @@ You have a distributed application that periodically processes large volumes of 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, EC2]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/
@@ -154,6 +175,9 @@ Can I move a Reserved Instance from one Region to another?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/
@@ -171,6 +195,9 @@ An application you maintain consists of multiple EC2 instances in a default tena
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -191,6 +218,9 @@ Your department creates regular analytics reports from your company’s log file
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, EMR, Redshift]
 
 Explanation:
 
@@ -218,6 +248,9 @@ A research scientist is planning for the one-time launch of an Elastic MapReduce
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, RDS, Glacier, EC2]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/
@@ -241,6 +274,9 @@ A company currently has a highly available web application running in production
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -267,6 +303,9 @@ You run accounting software in the AWS cloud. This software needs to be online c
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[]
 
 Explanation:
 

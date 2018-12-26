@@ -8,6 +8,9 @@ REST or Query requests are HTTP or HTTPS requests that use an HTTP verb (such as
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-interaction-tools/
@@ -28,6 +31,9 @@ Through which of the following interfaces is AWS Identity and Access Management 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-interaction-tools/
@@ -47,6 +53,9 @@ Which of the following programming languages have an officially supported AWS SD
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-interaction-tools/
@@ -64,6 +73,9 @@ HTTP Query-based requests are HTTP requests that use the HTTP verb GET or POST a
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[]
 
 Explanation:
 

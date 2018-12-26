@@ -15,6 +15,11 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-bastion-host/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -33,6 +38,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-bastion-host/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -55,6 +64,10 @@
       "B: Adding IGW to routertb-238bc44b would expose the Application and Database server to internet. Bastion and NAT should be in public subnet",
       "C: Route should point to NAT and not Internet Gateway else it would be internet accessible.",
       "D: Bastion and NAT should be in the public subnet. As Web Server has direct access to Internet, the subnet subnet-258bc44d should be public and Route rtb-2i8bc449 pointing to IGW. Route rtb-238bc44b for private subnets should point to NAT for outgoing internet access"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -73,6 +86,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-bastion-host/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   }
 ]

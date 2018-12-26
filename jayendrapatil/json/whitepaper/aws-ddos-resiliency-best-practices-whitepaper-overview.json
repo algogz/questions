@@ -20,7 +20,14 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ddos-resiliency-best-practices-whitepaper-overview/"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "CloudWatch",
+      "ASG"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-ddos-resiliency-best-practices-whitepaper-overview/",
@@ -42,6 +49,17 @@
       "B: does not protect against new source",
       "D: No advanced protocol filtering in ELB"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "EC2",
+      "VPC",
+      "DynamoDB",
+      "Route 53",
+      "ELB",
+      "EMR",
+      "WAF"
+    ]
   }
 ]

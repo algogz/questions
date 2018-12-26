@@ -10,6 +10,9 @@ A company needs to deploy virtual desktops to its customers in a virtual private
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[Directory Services, VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-workspace/

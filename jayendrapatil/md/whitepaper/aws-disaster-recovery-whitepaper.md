@@ -9,6 +9,7 @@ Which of these Disaster Recovery options costs the least?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
 []
 
 Explanation:
@@ -31,7 +32,8 @@ Your company currently has a 2-tier web application running in an on-premises da
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[S3, SES, EC2, ASG, EBS, ELB, Direct Connect]
 
 Explanation:
 
@@ -59,7 +61,8 @@ You are designing an architecture that can recover from a disaster very quickly 
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[Route 53]
 
 Explanation:
 
@@ -79,7 +82,8 @@ Your customer wishes to deploy an enterprise application to AWS that will consis
 <details><summary>Answer:</summary><p>
 []
 
-[]
+Categories:
+[S3, RDS, Glacier, EC2, EBS]
 
 Explanation:
 
@@ -107,6 +111,7 @@ Which statements are true about the Pilot Light Disaster recovery architecture p
 <details><summary>Answer:</summary><p>
 [B, C, D]
 
+Categories:
 []
 
 Explanation:
@@ -129,7 +134,8 @@ An ERP application is deployed across multiple AZs in a single region. In the ev
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, Glacier, EC2, Instance Store]
 
 Explanation:
 
@@ -155,7 +161,8 @@ Your company’s on-premises content management system has the following archite
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, SES, RDS, Glacier, EC2, Storage Gateway, EBS]
 
 Explanation:
 

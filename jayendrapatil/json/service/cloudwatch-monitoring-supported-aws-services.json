@@ -16,6 +16,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -34,6 +37,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "EBS"
     ]
   },
   {
@@ -52,6 +59,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -70,6 +80,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -89,6 +102,10 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/",
       "B: Detailed monitoring is enabled when you create the launch configuration using the AWS CLI or an API"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG"
     ]
   },
   {
@@ -107,6 +124,13 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "SNS",
+      "Route 53",
+      "EMR"
     ]
   },
   {
@@ -125,6 +149,12 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "RDS",
+      "CloudWatch",
+      "ELB",
+      "EMR"
     ]
   },
   {
@@ -143,6 +173,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "SNS"
     ]
   },
   {
@@ -161,6 +195,11 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "ELB"
     ]
   }
 ]

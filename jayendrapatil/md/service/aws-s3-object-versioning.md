@@ -10,6 +10,9 @@ Which set of Amazon S3 features helps to prevent and recover from accidental dat
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-object-versioning/
@@ -27,6 +30,9 @@ You use S3 to store critical data for your company Several users within your gro
 
 <details><summary>Answer:</summary><p>
 [A, B]
+
+Categories:
+[S3, Glacier]
 
 Explanation:
 
@@ -47,6 +53,9 @@ To protect S3 data from both accidental deletion and accidental overwriting, you
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, IAM]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-s3-object-versioning/
@@ -65,6 +74,9 @@ A user has not enabled versioning on an S3 bucket. What will be the version ID o
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-s3-object-versioning/
@@ -82,6 +94,9 @@ A user is trying to find the state of an S3 bucket with respect to versioning. W
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3]
 
 Explanation:
 

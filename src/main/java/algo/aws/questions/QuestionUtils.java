@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 import java.util.function.BiConsumer;
+import java.util.stream.Collectors;
 
 public class QuestionUtils {
     static Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -96,9 +97,21 @@ public class QuestionUtils {
         return catList;
     }
 
-    public static List<Question> readQuestions(Path jsonPath) throws IOException {
-        byte[] buf = Files.readAllBytes(jsonPath);
-        String json = new String(buf);
-        return gson.fromJson(json, new TypeToken<List<Question>>(){}.getType());
+    public static void categorize(List<Question> questionList){
+        questionList.forEach(q -> {
+            Set<String> catList = QuestionUtils.categorize(q);
+            q.setCategories(catList);
+        });
+    }
+
+    public static List<Question> readQuestions(Path jsonPath) {
+        try {
+            byte[] buf = Files.readAllBytes(jsonPath);
+            String json = new String(buf);
+            return gson.fromJson(json, new TypeToken<List<Question>>() {
+            }.getType());
+        } catch(Exception e){
+            throw new RuntimeException(e);
+        }
     }
 }

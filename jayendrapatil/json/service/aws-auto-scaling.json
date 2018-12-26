@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -33,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -51,6 +57,11 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG"
     ]
   },
   {
@@ -69,6 +80,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -87,6 +102,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -105,6 +123,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "SES",
+      "ASG"
     ]
   },
   {
@@ -123,6 +145,10 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -141,6 +167,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -159,6 +189,11 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -177,6 +212,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -195,6 +233,11 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG",
+      "SNS",
+      "ELB"
     ]
   },
   {
@@ -213,6 +256,9 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -231,6 +277,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -249,6 +298,10 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "SES",
+      "ASG"
     ]
   },
   {
@@ -267,6 +320,10 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "SES",
+      "ASG"
     ]
   },
   {
@@ -285,6 +342,11 @@
     ],
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -303,6 +365,13 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -321,6 +390,9 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -339,6 +411,10 @@
     ],
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "EC2",
+      "ASG"
     ]
   },
   {
@@ -357,6 +433,9 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -375,6 +454,9 @@
     ],
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -393,6 +475,11 @@
     ],
     "commentList": [
       "Question 22@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "EC2",
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -413,6 +500,10 @@
     ],
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG"
     ]
   },
   {
@@ -432,6 +523,10 @@
     "commentList": [
       "Question 24@http://jayendrapatil.com/aws-auto-scaling/",
       "C: Loss of one AZ will handle only 66% if the autoscaling also fails"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -450,6 +545,10 @@
     ],
     "commentList": [
       "Question 25@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG"
     ]
   },
   {
@@ -468,6 +567,11 @@
     ],
     "commentList": [
       "Question 26@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG"
     ]
   },
   {
@@ -486,6 +590,11 @@
     ],
     "commentList": [
       "Question 27@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "EC2",
+      "ASG",
+      "EBS"
     ]
   },
   {
@@ -504,6 +613,9 @@
     ],
     "commentList": [
       "Question 28@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -522,7 +634,8 @@
     ],
     "commentList": [
       "Question 29@http://jayendrapatil.com/aws-auto-scaling/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-auto-scaling/",
@@ -539,6 +652,11 @@
     "commentList": [
       "Question 30@http://jayendrapatil.com/aws-auto-scaling/",
       "B: Auto Scaling Launch config does not cost anything"
+    ],
+    "categories": [
+      "ASG",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -557,6 +675,9 @@
     ],
     "commentList": [
       "Question 31@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -577,6 +698,9 @@
       "Question 32@http://jayendrapatil.com/aws-auto-scaling/",
       "C: http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html",
       "C: (You can put any instance that is in an InService state into a Standby state. This enables you to remove the instance from service, troubleshoot or make changes to it, and then put it back into service. Instances in a Standby state continue to be managed by the Auto Scaling group. However, they are not an active part of your application until you put them back into service. Refer )"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -597,6 +721,9 @@
       "Question 33@http://jayendrapatil.com/aws-auto-scaling/",
       "A: http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLifecycle.html",
       "A: (When Auto Scaling responds to a scale in event, it terminates one or more instances. These instances are detached from the Auto Scaling group and enter the Terminating state. Refer )"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -615,6 +742,13 @@
     ],
     "commentList": [
       "Question 34@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "SNS",
+      "ELB"
     ]
   },
   {
@@ -634,6 +768,10 @@
     "commentList": [
       "Question 35@http://jayendrapatil.com/aws-auto-scaling/",
       "A: http://docs.aws.amazon.com/autoscaling/latest/userguide/as-instance-monitoring.html#as-group-metrics"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG"
     ]
   },
   {
@@ -652,6 +790,16 @@
     ],
     "commentList": [
       "Question 36@http://jayendrapatil.com/aws-auto-scaling/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
     ]
   }
 ]

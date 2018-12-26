@@ -17,6 +17,13 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-cloudhsm/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "ElastiCache",
+      "DynamoDB",
+      "Redshift"
     ]
   },
   {
@@ -39,6 +46,11 @@
       "B: (Controlled access and admins cannot access the data as it needs authentication)",
       "C: Web team would have access to the data",
       "D: not the way SAML auth works and not sure if the centralized access management system is SAML complaint"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
     ]
   }
 ]

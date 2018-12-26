@@ -10,6 +10,9 @@ EC2 EBS-backed (EBS root) instance is stopped, what happens to the data on any e
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ebs-vs-instance-store/
@@ -27,6 +30,9 @@ When an EC2 instance that is backed by an S3-based AMI is terminated, what happe
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[S3, EC2, EBS]
 
 Explanation:
 
@@ -47,6 +53,9 @@ Which of the following will occur when an EC2 instance in a VPC (Virtual Private
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[EC2, EBS, VPC]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ebs-vs-instance-store/
@@ -64,6 +73,9 @@ Which of the following provides the fastest storage medium?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, Storage Gateway, EBS]
 
 Explanation:
 

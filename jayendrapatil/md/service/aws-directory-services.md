@@ -10,6 +10,9 @@ The majority of your Infrastructure is on premises and you have a small footprin
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[SES]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-directory-services/
@@ -37,6 +40,9 @@ A company is preparing to give AWS Management Console access to developers Compa
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-directory-services/
@@ -56,6 +62,9 @@ An Enterprise customer is starting their migration to the cloud, their main reas
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[SES, EC2, VPC]
 
 Explanation:
 
@@ -83,6 +92,9 @@ A company needs to deploy virtual desktops to its customers in a virtual private
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[Directory Services, VPC]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-directory-services/
@@ -109,6 +121,9 @@ An Enterprise customer is starting their migration to the cloud, their main reas
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, EC2, VPC]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-directory-services/
@@ -130,6 +145,9 @@ You run a 2000-engineer organization. You are about to begin using AWS at a larg
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[Lambda]
 
 Explanation:
 

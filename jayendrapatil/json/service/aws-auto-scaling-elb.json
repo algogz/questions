@@ -15,6 +15,14 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-auto-scaling-elb/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EC2",
+      "ASG",
+      "DynamoDB",
+      "ELB"
     ]
   },
   {
@@ -33,6 +41,15 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-auto-scaling-elb/"
+    ],
+    "categories": [
+      "CloudFront",
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "ELB",
+      "Elastic Beanstalk",
+      "CloudTrail"
     ]
   },
   {
@@ -51,6 +68,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-auto-scaling-elb/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -69,6 +90,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-auto-scaling-elb/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -89,6 +114,13 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-auto-scaling-elb/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -108,6 +140,13 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-auto-scaling-elb/",
       "A: (Lambda is designed to scale instantly. EC2 + ELB + Auto Scaling require single-digit minutes to scale out. RDS will take at least 15 minutes, and will apply OS patches or any other updates when applied.)"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "ELB",
+      "Lambda"
     ]
   },
   {
@@ -127,6 +166,12 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-auto-scaling-elb/",
       "B: max allowed is 3600 secs that is close to 2 hours to keep the in flight requests alive"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "ASG",
+      "ELB"
     ]
   }
 ]

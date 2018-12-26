@@ -10,6 +10,9 @@ The Trusted Advisor service provides insight regarding which four categories of 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[Trusted Advisor]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-trusted-advisor-categories/

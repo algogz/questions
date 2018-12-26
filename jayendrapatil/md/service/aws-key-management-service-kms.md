@@ -10,6 +10,9 @@ You are designing a personal document-archiving solution for your global enterpr
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, SES, KMS, Glacier]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-key-management-service-kms/
@@ -35,6 +38,9 @@ An AWS customer is deploying an application that is composed of an Auto Scaling 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, KMS, IAM, EC2, ASG, VPC, SNS]
 
 Explanation:
 

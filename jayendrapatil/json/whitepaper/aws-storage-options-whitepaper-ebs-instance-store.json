@@ -17,6 +17,10 @@
       "Question 1@http://jayendrapatil.com/aws-storage-options-whitepaper-ebs-instance-store/",
       "C: SSD Instance Storage provides 100,000 IOPS on some instance types, much faster than any network-attached storage"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "Storage Gateway",
+      "EBS"
+    ]
   }
 ]

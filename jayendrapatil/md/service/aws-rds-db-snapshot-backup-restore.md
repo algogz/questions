@@ -8,6 +8,9 @@ Amazon RDS automated backups and DB Snapshots are currently supported for only t
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -23,6 +26,9 @@ Automated backups are enabled by default for a new DB Instance.
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[]
 
 Explanation:
 
@@ -42,6 +48,9 @@ Amazon RDS DB snapshots and automated backups are stored in
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, RDS, EBS, EMR]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -60,6 +69,9 @@ You receive a frantic call from a new DBA who accidentally dropped a table conta
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -76,6 +88,9 @@ Disabling automated backups ______ disable the point-in-time recovery.
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[]
 
 Explanation:
 
@@ -95,6 +110,9 @@ Changes to the backup window take effect ______.
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -113,6 +131,9 @@ You can modify the backup retention period; valid values are 0 (for no backup re
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -128,6 +149,9 @@ Amazon RDS automated backups and DB Snapshots are currently supported for only t
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -147,6 +171,9 @@ What happens to the I/O operations while you take a database snapshot?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -163,6 +190,9 @@ True or False: When you perform a restore operation to a point in time or from a
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-rds-db-snapshot-backup-restore/
@@ -178,6 +208,9 @@ True or False: Manually created DB Snapshots are deleted after the DB Instance i
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[]
 
 Explanation:
 
@@ -196,6 +229,9 @@ A user is running a MySQL RDS instance. The user will not use the DB for the nex
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS]
 
 Explanation:
 

@@ -16,6 +16,13 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-vm-importexport/",
       "B: Import/Export is used to transfer large amount of data"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "EC2",
+      "EBS",
+      "Instance Store"
     ]
   },
   {
@@ -44,6 +51,12 @@
       "D: IP address cannot conflict",
       "E: Route 53 is not required",
       "F: VM Import to copy the VM to AWS as there is no documentation it can’t be configured from scratch"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Route 53",
+      "Direct Connect"
     ]
   }
 ]

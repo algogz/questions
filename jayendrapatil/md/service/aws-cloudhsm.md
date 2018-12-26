@@ -11,6 +11,9 @@ With which AWS services CloudHSM can be used (select 2)
 <details><summary>Answer:</summary><p>
 [C, E]
 
+Categories:
+[S3, RDS, ElastiCache, DynamoDB, Redshift]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloudhsm/
@@ -28,6 +31,9 @@ An AWS customer is deploying a web application that is composed of a front-end r
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, IAM, EC2]
 
 Explanation:
 

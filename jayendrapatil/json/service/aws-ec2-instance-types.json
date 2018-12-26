@@ -17,6 +17,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-instance-types/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -35,6 +38,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-instance-types/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS",
+      "Instance Store"
     ]
   },
   {
@@ -52,6 +60,11 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-instance-types/"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -75,6 +88,11 @@
       "Question 4@http://jayendrapatil.com/aws-ec2-instance-types/",
       "A: (Striping to increase throughput)",
       "D: RAID 5 is not recommended as it provides parity and EBS volumes are already replicated across multiple servers in an Availability Zone for availability and durability, so AWS recommends striping for performance rather than durability"
+    ],
+    "categories": [
+      "EC2",
+      "ASG",
+      "EBS"
     ]
   },
   {
@@ -93,6 +111,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ec2-instance-types/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -113,6 +135,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ec2-instance-types/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -136,6 +162,11 @@
       "C: Need synchronous replication to prevent any data loss",
       "D: RAID 5 not recommended by AWS and Need synchronous replication to prevent any data loss",
       "E: Need synchronous replication to prevent any data loss"
+    ],
+    "categories": [
+      "EC2",
+      "Storage Gateway",
+      "EBS"
     ]
   }
 ]

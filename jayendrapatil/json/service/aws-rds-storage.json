@@ -14,6 +14,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-rds-storage/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -31,7 +34,8 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-rds-storage/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-storage/",
@@ -48,6 +52,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-rds-storage/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -66,6 +73,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-rds-storage/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -85,6 +96,7 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-rds-storage/",
       "D: (The limit keeps on changing so please check the latest always)"
-    ]
+    ],
+    "categories": []
   }
 ]

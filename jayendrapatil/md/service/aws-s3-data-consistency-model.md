@@ -11,6 +11,9 @@ Which of the following are valid statements about Amazon S3? Choose 2 answers
 <details><summary>Answer:</summary><p>
 [C, E]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-data-consistency-model/
@@ -29,6 +32,9 @@ A customer is leveraging Amazon Simple Storage Service in eu-west-1 to store sta
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-s3-data-consistency-model/
@@ -46,6 +52,9 @@ A user has an S3 object in the US Standard region with the content â€œcolor=redâ
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3]
 
 Explanation:
 

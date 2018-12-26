@@ -17,6 +17,10 @@
       "Question 1@http://jayendrapatil.com/aws-intrusion-detection-prevention-idsips/",
       "A: virtual instance running in promiscuous mode to receive or“sniff” traffic",
       "C: host based routing is not allowed"
+    ],
+    "categories": [
+      "VPC",
+      "IDS"
     ]
   },
   {
@@ -38,6 +42,11 @@
       "Question 2@http://jayendrapatil.com/aws-intrusion-detection-prevention-idsips/",
       "B: virtual instance running in promiscuous mode to receive or“sniff” traffic",
       "C: ELB with SSL does not serve as IDS/IPS"
+    ],
+    "categories": [
+      "VPC",
+      "IDS",
+      "ELB"
     ]
   }
 ]

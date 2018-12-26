@@ -10,6 +10,9 @@ You need to perform ad-hoc analysis on log data, including searching quickly for
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[Elasticsearch, DynamoDB, EMR, Redshift]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elasticsearch/
@@ -31,6 +34,9 @@ You are hired as the new head of operations for a SaaS company. Your CTO has ask
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, Elasticsearch, CloudWatch, Kinesis, EMR, Lambda]
 
 Explanation:
 

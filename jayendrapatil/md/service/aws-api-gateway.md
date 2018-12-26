@@ -11,6 +11,9 @@ You are running a mobile media application and are considering API Gateway for t
 <details><summary>Answer:</summary><p>
 [A, E]
 
+Categories:
+[SES, IDP, API Gateway]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-api-gateway/

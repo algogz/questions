@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   },
   {
@@ -36,6 +40,10 @@
       "Question 2@http://jayendrapatil.com/iam-role-identity-providers-federation/",
       "C: https://aws.amazon.com/blogs/aws/aws-identity-and-access-management-now-with-identity-federation/",
       "C: . "
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -55,6 +63,13 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "IAM",
+      "DynamoDB"
     ]
   },
   {
@@ -73,6 +88,12 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "SES",
+      "IAM",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -98,6 +119,12 @@
       "C: Custom Identity broker implementation, with authentication with LDAP and using federated token",
       "D: Can’t login to IAM using LDAP credentials",
       "E: Need to authenticate with LDAP"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "IAM",
+      "VPC"
     ]
   },
   {
@@ -116,6 +143,12 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -134,6 +167,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -152,6 +190,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -173,6 +215,10 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   },
   {
@@ -195,6 +241,11 @@
       "B: (Controlled access and admins cannot access the data as it needs authentication)",
       "C: Web team would have access to the data",
       "D: not the way SAML auth works and not sure if the centralized access management system is SAML complaint"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -213,6 +264,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -231,6 +285,10 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/iam-role-identity-providers-federation/"
+    ],
+    "categories": [
+      "IAM",
+      "DynamoDB"
     ]
   },
   {
@@ -251,6 +309,11 @@
       "Question 13@http://jayendrapatil.com/iam-role-identity-providers-federation/",
       "A: https://blogs.aws.amazon.com/security/post/Tx3SYCORF5EKRC0/How-Does-Amazon-Cognito-Relate-to-Existing-Web-Identity-Federation",
       "A: Amazon Cognito is a superset of the functionality provided by web identity federation. Refer"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "API Gateway"
     ]
   },
   {
@@ -270,6 +333,12 @@
     "commentList": [
       "Question 14@http://jayendrapatil.com/iam-role-identity-providers-federation/",
       "B: (Can work with JavaScript SDK, is scalable and cost effective)"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   }
 ]

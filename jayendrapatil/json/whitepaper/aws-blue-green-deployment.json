@@ -39,7 +39,13 @@
       "B: Full second stack is expensive",
       "C: Cannot modify the existing launch config"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-blue-green-deployment/",
@@ -59,7 +65,9 @@
       "Question 3@http://jayendrapatil.com/aws-blue-green-deployment/",
       "D: Complete switch from one environment to other"
     ],
-    "categories": []
+    "categories": [
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-blue-green-deployment/",
@@ -81,7 +89,17 @@
       "C: Does not support DynamoDB also need Blue Green deployment for zero downtime deployment as cost is not a constraint",
       "D: Need Blue Green deployment for zero downtime deployment as cost is not a constraint"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "EC2",
+      "ASG",
+      "CloudFormation",
+      "DynamoDB",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-blue-green-deployment/",
@@ -104,7 +122,12 @@
       "C: is slow",
       "D: is slow"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "EC2",
+      "ASG",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-blue-green-deployment/",
@@ -126,7 +149,11 @@
       "Question 6@http://jayendrapatil.com/aws-blue-green-deployment/",
       "B: Blue-Green Deployment"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "OpsWorks",
+      "EC2"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-blue-green-deployment/",
@@ -154,6 +181,13 @@
       "D: Termination protection does not work with Auto Scaling",
       "E: Does not prevent Auto Scaling to terminate the instances"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "EC2",
+      "ASG",
+      "ELB",
+      "Elastic Beanstalk"
+    ]
   }
 ]

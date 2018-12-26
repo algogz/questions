@@ -10,6 +10,9 @@ Which two AWS services provide out-of-the-box user configurable automatic backup
 <details><summary>Answer:</summary><p>
 [B, D]
 
+Categories:
+[S3, RDS, EBS, Redshift]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-automated-backups/
@@ -27,6 +30,9 @@ You have been asked to automate many routine systems administrator backup and re
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS, EC2, EBS]
 
 Explanation:
 

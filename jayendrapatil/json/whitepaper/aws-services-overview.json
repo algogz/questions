@@ -18,7 +18,13 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EC2",
+      "EMR",
+      "Lambda"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -37,7 +43,12 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudFront",
+      "Glacier",
+      "EBS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -58,7 +69,12 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudFront",
+      "IAM",
+      "EMR"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -77,7 +93,10 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "SWF",
+      "Elastic Transcoder"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -96,7 +115,12 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "Elasticsearch",
+      "Kinesis",
+      "EMR"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -116,7 +140,9 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "Route 53"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -135,7 +161,11 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "DynamoDB",
+      "Lambda"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -154,7 +184,12 @@
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "ElastiCache",
+      "DynamoDB",
+      "Redshift"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -173,7 +208,10 @@
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "CloudFormation",
+      "Lambda"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -192,7 +230,12 @@
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "OpsWorks",
+      "CloudWatch",
+      "CloudFormation",
+      "CloudTrail"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -211,7 +254,11 @@
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "ElastiCache",
+      "DynamoDB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-services-overview/",
@@ -230,6 +277,10 @@
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-services-overview/"
     ],
-    "categories": []
+    "categories": [
+      "CloudWatch",
+      "CloudFormation",
+      "CloudTrail"
+    ]
   }
 ]

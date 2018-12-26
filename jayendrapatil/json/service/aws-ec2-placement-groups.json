@@ -16,6 +16,10 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-placement-groups/",
       "D: (You are not guaranteed 10 gigabit performance, except within a placement group. Using placement groups enables applications to participate in a low-latency, 10 Gbps network)"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -35,6 +39,9 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ec2-placement-groups/",
       "A: (For instances that are collocated inside a placement group, jumbo frames help to achieve the maximum network throughput possible, and they are recommended in this case)"
+    ],
+    "categories": [
+      "VPC"
     ]
   }
 ]

@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-emr-certification/"
+    ],
+    "categories": [
+      "S3",
+      "EMR"
     ]
   },
   {
@@ -36,6 +40,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-emr-certification/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "EMR"
     ]
   },
   {
@@ -58,6 +67,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Only Spot instances impacts performance",
       "D: Spot instances impacts performance and Spot instance not available for Redshift"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -79,6 +93,12 @@
       "B: Master and Core must be RI or On Demand. Cannot be Spot",
       "C: Need better durability for ingest file. Spot instances can be used for task nodes for cost saving. RI will not provide cost saving in this case",
       "D: Input should be in S3 standard, as re-ingesting the input data might end up being more costly then holding the data for limited time in standard S3"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2"
     ]
   },
   {
@@ -97,6 +117,11 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-emr-certification/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "DynamoDB"
     ]
   }
 ]

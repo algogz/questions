@@ -1,4 +1,4 @@
-### Question 1:
+### Question 9:
 
 An organization has 10 departments. The organization wants to track the AWS usage of each department. Which of the below mentioned options meets the requirement?
 
@@ -9,6 +9,9 @@ An organization has 10 departments. The organization wants to track the AWS usag
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM]
 
 Explanation:
 

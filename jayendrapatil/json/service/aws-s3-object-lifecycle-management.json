@@ -16,6 +16,10 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-object-lifecycle-management/",
       "D: Any object uploaded to S3 must first be placed into either the Standard, Reduced Redundancy, or Infrequent Access storage class. Once in S3 the only way to move the object to glacier is through a lifecycle policy"
+    ],
+    "categories": [
+      "S3",
+      "Glacier"
     ]
   },
   {
@@ -34,6 +38,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-object-lifecycle-management/"
+    ],
+    "categories": [
+      "S3",
+      "Glacier",
+      "EBS"
     ]
   },
   {
@@ -55,6 +64,14 @@
       "A: Need to replace On-Premises Tape functionality",
       "B: Need to replace On-Premises Tape functionality",
       "C: Glacier suitable for Tape backup"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "SNS"
     ]
   },
   {
@@ -75,6 +92,13 @@
       "B: Not cost effective",
       "C: Store in S3 for seven days and then archive to Glacier",
       "D: Not Cost effective as local storage as well as S3 storage"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Glacier",
+      "Storage Gateway",
+      "EBS"
     ]
   }
 ]

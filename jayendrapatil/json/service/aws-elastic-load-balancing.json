@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -33,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -51,6 +57,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -69,6 +78,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -87,6 +99,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -105,6 +120,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "SES",
+      "ELB"
     ]
   },
   {
@@ -123,6 +142,12 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -141,6 +166,11 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -159,6 +189,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -177,6 +210,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -195,6 +231,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -213,6 +252,11 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "ELB"
     ]
   },
   {
@@ -231,6 +275,10 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ASG",
+      "ELB"
     ]
   },
   {
@@ -252,6 +300,12 @@
       "Question 14@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "A: its not by default",
       "C: DNS TTL would only impact the ELB instances if scaled and not the EC2 instances to which the traffic is routed"
+    ],
+    "categories": [
+      "SES",
+      "ASG",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -271,6 +325,14 @@
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "A: DNS TTL would only impact the ELB instances if scaled and not the EC2 instances to which the traffic is routed"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "CloudFront",
+      "ASG",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -290,6 +352,12 @@
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "D: Session stickiness requires HTTPS listener with SSL termination on the ELB and ELB does not support multiple SSL certs so one is required for each cert"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -309,6 +377,11 @@
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "A: (ELB with TCP listener and proxy protocol will allow IP to be passed )"
+    ],
+    "categories": [
+      "RDS",
+      "Route 53",
+      "ELB"
     ]
   },
   {
@@ -328,6 +401,9 @@
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "C: One for ELB to allow inbound and Outbound to listener and health check port of instances and One for the Instances to allow inbound from ELB"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -349,6 +425,14 @@
       "B: Does not improve the response time and performance",
       "C: Data tier is responding fast",
       "D: Data tier is responding fast"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "EC2",
+      "ElastiCache",
+      "VPC",
+      "DynamoDB"
     ]
   },
   {
@@ -370,6 +454,12 @@
       "B: VPC can be attached only 1 IGW",
       "C: ELB scales by itself with multiple availability zones configured with it",
       "D: Multi AZ requires 2 different AZ for setup and already has a standby"
+    ],
+    "categories": [
+      "RDS",
+      "ASG",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -391,6 +481,12 @@
       "A: max limit 5 EIP and a service request needs to be submitted",
       "C: Will cause 175 instances to be launched and running but not gradually scale",
       "D: Does not need pre warming as the load is increasing steadily"
+    ],
+    "categories": [
+      "SES",
+      "Trusted Advisor",
+      "EC2",
+      "ASG"
     ]
   },
   {
@@ -411,6 +507,11 @@
       "Question 22@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "B: does not control traffic to EC2 instance",
       "D: does not control traffic to EC2 instance"
+    ],
+    "categories": [
+      "EC2",
+      "Route 53",
+      "ELB"
     ]
   },
   {
@@ -431,6 +532,10 @@
       "Question 23@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "A: it is done by Autoscaling",
       "C: it is done by Autoscaling"
+    ],
+    "categories": [
+      "EC2",
+      "ELB"
     ]
   },
   {
@@ -452,6 +557,10 @@
       "A: Single AZ will not provide High Availability",
       "B: Different region, AMI would not be available unless copied",
       "D: Different region, AMI would not be available unless copied"
+    ],
+    "categories": [
+      "SES",
+      "EC2"
     ]
   },
   {
@@ -476,6 +585,10 @@
       "C: ELB with HTTPs does not support Client-Side certificates",
       "D: http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#RequestCustomClientSideSslAuth",
       "D: CloudFront Client-Side ssl certificates"
+    ],
+    "categories": [
+      "CloudFront",
+      "ELB"
     ]
   },
   {
@@ -498,6 +611,12 @@
       "Question 26@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "A: connection between ELB and EC2 not encrypted",
       "D: Does not mention EBS encryption"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -520,6 +639,14 @@
       "Question 27@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "C: https://aws.amazon.com/articles/1636185810492479",
       "E: https://aws.amazon.com/articles/1636185810492479"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "ASG",
+      "EBS",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -541,6 +668,13 @@
       "B: increase cost as you still pay for the RI",
       "C: will not still use the capacity effectively",
       "D: Increases cost, as you still pay for the 10 m1.large RI"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "CloudWatch",
+      "Route 53",
+      "ELB"
     ]
   },
   {
@@ -559,6 +693,10 @@
     ],
     "commentList": [
       "Question 29@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "EC2",
+      "ELB"
     ]
   },
   {
@@ -578,6 +716,9 @@
     "commentList": [
       "Question 30@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "A: ELB provides HA to route traffic to healthy instances only it does not provide scalability"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -597,6 +738,9 @@
     "commentList": [
       "Question 31@http://jayendrapatil.com/aws-elastic-load-balancing/",
       "C: Will give error “Load Balancer protocol is an application layer protocol, but instance protocol is not. Both the Load Balancer protocol and the instance protocol should be at the same layer. Please fix.”"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -615,6 +759,9 @@
     ],
     "commentList": [
       "Question 32@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "ELB"
     ]
   },
   {
@@ -633,6 +780,11 @@
     ],
     "commentList": [
       "Question 33@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "SES",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -651,6 +803,11 @@
     ],
     "commentList": [
       "Question 34@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS",
+      "ELB"
     ]
   },
   {
@@ -669,7 +826,8 @@
     ],
     "commentList": [
       "Question 35@http://jayendrapatil.com/aws-elastic-load-balancing/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-elastic-load-balancing/",
@@ -687,6 +845,10 @@
     ],
     "commentList": [
       "Question 36@http://jayendrapatil.com/aws-elastic-load-balancing/"
+    ],
+    "categories": [
+      "EC2",
+      "ELB"
     ]
   }
 ]

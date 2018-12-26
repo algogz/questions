@@ -10,6 +10,9 @@ Which AWS service can help design architecture to persist in-flight transactions
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SQS, CloudWatch, ElastiCache]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -28,6 +31,9 @@ A company has a workflow that sends video files from their on-premise system to 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SQS, EC2]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -45,6 +51,9 @@ Which statement best describes an Amazon SQS use case?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SQS, EC2, EBS]
 
 Explanation:
 
@@ -72,6 +81,9 @@ Your application provides data transformation services. Files containing data to
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, SES, SQS, EC2, DynamoDB, Route 53]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -89,6 +101,9 @@ Your company plans to host a large donation website on Amazon Web Services (AWS)
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, SQS, ElastiCache, EBS, DynamoDB]
 
 Explanation:
 
@@ -108,6 +123,9 @@ A customer has a 10 GB AWS Direct Connect connection to an AWS region where they
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SES, RDS, SQS, EC2, DynamoDB, Direct Connect, EMR]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -125,6 +143,9 @@ An organization has created a Queue named “modularqueue” with SQS. The organ
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SQS]
 
 Explanation:
 
@@ -144,6 +165,9 @@ A user is using the AWS SQS to decouple the services. Which of the below mention
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SQS]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -161,6 +185,9 @@ A user has created a queue named “awsmodule” with SQS. One of the consumers 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SQS]
 
 Explanation:
 
@@ -180,6 +207,9 @@ A user has created a queue named “queue2” in US-East region with AWS SQS. Th
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SQS]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -197,6 +227,9 @@ A user has created a queue named “myqueue” with SQS. There are four messages
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SQS]
 
 Explanation:
 
@@ -216,6 +249,9 @@ A user has developed an application, which is required to send the data to a NoS
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SWF, SQS, SNS]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -234,6 +270,9 @@ You are building an online store on AWS that uses SQS to process your customer o
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, SWF, SQS]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -251,6 +290,9 @@ A user has created a photo editing software and hosted it on EC2. The software a
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, SQS, Glacier, EC2, Elastic Transcoder, SNS]
 
 Explanation:
 
@@ -271,6 +313,9 @@ Refer to the architecture diagram of a batch processing solution using Simple Qu
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, SQS, EC2, ASG]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -288,6 +333,9 @@ How does Amazon SQS allow multiple readers to access the same message queue with
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SQS]
 
 Explanation:
 
@@ -307,6 +355,9 @@ A user has created photo editing software and hosted it on EC2. The software acc
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, SQS, Glacier, EC2, Elastic Transcoder, SNS]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -325,6 +376,9 @@ How do you configure SQS to support longer message retention?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SQS, Lambda]
+
 Explanation:
 
 Question 18@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -342,6 +396,9 @@ A user has developed an application, which is required to send the data to a NoS
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SWF, SQS, SNS]
 
 Explanation:
 
@@ -362,6 +419,9 @@ If a message is retrieved from a queue in Amazon SQS, how long is the message in
 <details><summary>Answer:</summary><p>
 [E]
 
+Categories:
+[SQS]
+
 Explanation:
 
 Question 20@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -379,6 +439,9 @@ Which of the following statements about SQS is true?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SQS]
 
 Explanation:
 
@@ -400,6 +463,9 @@ How long can you keep your Amazon SQS messages in Amazon SQS queues?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SQS, ECS]
+
 Explanation:
 
 Question 22@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -417,6 +483,9 @@ When a Simple Queue Service message triggers a task that takes 5 minutes to comp
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SQS]
 
 Explanation:
 
@@ -436,6 +505,9 @@ You need to process long-running jobs once and only once. How might you do this?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SQS, SNS]
+
 Explanation:
 
 Question 24@http://jayendrapatil.com/aws-sqs-simple-queue-service/
@@ -453,6 +525,9 @@ You are getting a lot of empty receive requests when using Amazon SQS. This is m
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SQS, EC2, SNS]
 
 Explanation:
 
@@ -473,6 +548,9 @@ You have an asynchronous processing application using an Auto Scaling Group and 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM, SQS, ASG]
 
 Explanation:
 
@@ -499,6 +577,9 @@ Company B provides an online image recognition service and utilizes SQS to decou
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, SQS]
 
 Explanation:
 

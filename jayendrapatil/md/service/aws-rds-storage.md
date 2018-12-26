@@ -9,6 +9,9 @@ When should I choose Provisioned IOPS over Standard RDS storage?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-rds-storage/
@@ -26,6 +29,9 @@ Is decreasing the storage size of a DB Instance permitted?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-rds-storage/
@@ -42,6 +48,9 @@ Because of the extensibility limitations of striped storage attached to Windows 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -61,6 +70,9 @@ If I want to run a database in an Amazon instance, which is the most recommended
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-rds-storage/
@@ -78,6 +90,9 @@ For each DB Instance class, what is the maximum size of associated storage capac
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[]
 
 Explanation:
 

@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/"
+    ],
+    "categories": [
+      "DynamoDB"
     ]
   },
   {
@@ -33,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/"
+    ],
+    "categories": [
+      "DynamoDB"
     ]
   },
   {
@@ -52,6 +58,9 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/",
       "B: (AWS now allows you to modify global secondary indexes after creation)"
+    ],
+    "categories": [
+      "DynamoDB"
     ]
   },
   {
@@ -70,6 +79,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/"
+    ],
+    "categories": [
+      "DynamoDB"
     ]
   }
 ]

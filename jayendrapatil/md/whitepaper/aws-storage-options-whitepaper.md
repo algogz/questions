@@ -12,7 +12,8 @@ You are developing a highly available web application using stateless web server
 <details><summary>Answer:</summary><p>
 [B, D, E]
 
-[]
+Categories:
+[SES, RDS, Storage Gateway, CloudWatch, ElastiCache, DynamoDB, ELB]
 
 Explanation:
 
@@ -32,7 +33,8 @@ Your firm has uploaded a large amount of aerial image data to S3. In the past, i
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[S3, SES, SQS, Glacier, EC2, SNS]
 
 Explanation:
 
@@ -52,7 +54,8 @@ You are developing a new mobile application and are considering storing user pre
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, RDS, DynamoDB]
 
 Explanation:
 
@@ -72,7 +75,8 @@ A company is building a voting system for a popular TV show, viewers would watch
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[S3, RDS, CloudFront, IAM, SQS, EC2, EBS, DynamoDB]
 
 Explanation:
 
@@ -92,7 +96,8 @@ A large real-estate brokerage is exploring the option to adding a cost-effective
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[RDS, SQS, EC2, DynamoDB, ELB, Direct Connect]
 
 Explanation:
 
@@ -113,7 +118,8 @@ You are running a news website in the eu-west-1 region that updates every 15 min
 <details><summary>Answer:</summary><p>
 [B, C, D]
 
-[]
+Categories:
+[S3, SES, RDS, CloudFront, ASG, ElastiCache, EBS, Route 53]
 
 Explanation:
 
@@ -133,7 +139,8 @@ A read only news reporting site with a combined web and application tier and a d
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[RDS, CloudWatch, ElastiCache]
 
 Explanation:
 
@@ -153,7 +160,8 @@ You have a periodic Image analysis application that gets some files as input, an
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, SQS, EC2, ASG, EBS, SNS]
 
 Explanation:
 
@@ -173,7 +181,8 @@ A 3-tier e-commerce web application is current deployed on-premises and will be 
 <details><summary>Answer:</summary><p>
 []
 
-[]
+Categories:
+[S3, SES, RDS, Glacier, EC2, DynamoDB]
 
 Explanation:
 
@@ -199,7 +208,8 @@ Our company is getting ready to do a major public announcement of a social media
 <details><summary>Answer:</summary><p>
 [A, D]
 
-[]
+Categories:
+[RDS, EC2, EBS]
 
 Explanation:
 
@@ -224,7 +234,8 @@ Run 2-tier app with the following: an ELB, three web app server on EC2, and 1 My
 <details><summary>Answer:</summary><p>
 [A, B, D]
 
-[]
+Categories:
+[RDS, CloudFront, EC2, ElastiCache, ELB]
 
 Explanation:
 
@@ -245,7 +256,8 @@ You have a web application leveraging an Elastic Load Balancer (ELB) In front of
 <details><summary>Answer:</summary><p>
 [A, B, C]
 
-[]
+Categories:
+[S3, SES, RDS, CloudFront, SQS, ASG, ELB]
 
 Explanation:
 
@@ -269,7 +281,8 @@ Your website is serving on-demand training videos to your workforce. Videos are 
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, CloudFront, SQS, Glacier, EC2, ASG, Elastic Transcoder, EBS]
 
 Explanation:
 
@@ -292,7 +305,8 @@ To meet regulatory requirements, a pharmaceuticals company needs to archive data
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[S3, RDS, Glacier]
 
 Explanation:
 
@@ -320,7 +334,8 @@ A document storage company is deploying their application to AWS and changing th
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, SES, SWF, SQS]
 
 Explanation:
 
@@ -340,7 +355,8 @@ Your company has been contracted to develop and operate a website that tracks NB
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[S3, RDS, CloudFront, ElastiCache, EBS, DynamoDB]
 
 Explanation:
 

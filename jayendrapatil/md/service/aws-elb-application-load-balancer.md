@@ -10,6 +10,9 @@ You are designing an application which requires websockets support, to exchange 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EBS, ELB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elb-application-load-balancer/

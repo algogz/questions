@@ -10,6 +10,9 @@ What does Amazon ElastiCache provide?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, ElastiCache]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elasticache-certification/
@@ -30,6 +33,9 @@ You are developing a highly available web application using stateless web server
 <details><summary>Answer:</summary><p>
 [B, D, E]
 
+Categories:
+[SES, RDS, Storage Gateway, CloudWatch, ElastiCache, DynamoDB, ELB]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-elasticache-certification/
@@ -47,6 +53,9 @@ Which statement best describes ElastiCache?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[ElastiCache]
 
 Explanation:
 
@@ -66,6 +75,9 @@ Our company is getting ready to do a major public announcement of a social media
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[RDS, EC2, ElastiCache, EBS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-elasticache-certification/
@@ -84,6 +96,9 @@ You are using ElastiCache Memcached to store session state and cache database qu
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[SES, CloudWatch, ElastiCache]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-elasticache-certification/
@@ -101,6 +116,9 @@ You have been tasked with moving an ecommerce web application from a customer’
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, RDS, ElastiCache, VPC, ELB]
 
 Explanation:
 
@@ -125,6 +143,9 @@ When you are designing to support a 24-hour flash sale, which one of the followi
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, ElastiCache, DynamoDB, Elastic Beanstalk]
 
 Explanation:
 
@@ -152,6 +173,9 @@ You are configuring your company’s application to use Auto Scaling and need to
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, EC2, ASG, ElastiCache, DynamoDB]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-elasticache-certification/
@@ -171,6 +195,9 @@ Your application is using an ELB in front of an Auto Scaling group of web/applic
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS, ASG, ElastiCache, ELB]
 
 Explanation:
 
@@ -196,6 +223,9 @@ A read only news reporting site with a combined web and application tier and a d
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS, CloudWatch, ElastiCache]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-elasticache-certification/
@@ -220,6 +250,9 @@ You have written an application that uses the Elastic Load Balancing service to 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, Glacier, ElastiCache, EBS, ELB]
 
 Explanation:
 

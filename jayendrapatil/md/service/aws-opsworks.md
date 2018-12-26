@@ -10,6 +10,9 @@ You are working with a customer who is using Chef configuration management in th
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[OpsWorks, SWF, CloudFormation, Elastic Beanstalk]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-opsworks/
@@ -28,6 +31,9 @@ Your mission is to create a lights-out datacenter environment, and you plan to u
 
 <details><summary>Answer:</summary><p>
 [A, C, E]
+
+Categories:
+[RDS, OpsWorks]
 
 Explanation:
 
@@ -53,6 +59,9 @@ You are tasked with the migration of a highly trafficked node.js application to 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS, OpsWorks, EC2, Elastic Beanstalk]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-opsworks/
@@ -72,6 +81,9 @@ A web-startup runs its very successful social news application on Amazon EC2 wit
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[OpsWorks, EC2, DynamoDB]
 
 Explanation:
 
@@ -96,6 +108,9 @@ You company runs a complex customer relations management system that consists of
 <details><summary>Answer:</summary><p>
 [B, E]
 
+Categories:
+[RDS, OpsWorks, EC2]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-opsworks/
@@ -118,6 +133,9 @@ When thinking of AWS OpsWorks, which of the following is not an instance type yo
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[OpsWorks]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-opsworks/
@@ -139,6 +157,9 @@ Which of the following tools does not directly support AWS OpsWorks, for monitor
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[OpsWorks, CloudWatch, CloudTrail]
 
 Explanation:
 
@@ -165,6 +186,9 @@ When thinking of AWS OpsWorks, which of the following is true?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[OpsWorks]
 
 Explanation:
 

@@ -11,7 +11,8 @@ How can you secure data at rest on an EBS volume?
 <details><summary>Answer:</summary><p>
 [E]
 
-[]
+Categories:
+[S3, IAM, EC2, EBS]
 
 Explanation:
 
@@ -32,7 +33,8 @@ Your company policies require encryption of sensitive data at rest. You are cons
 <details><summary>Answer:</summary><p>
 [A, C, D]
 
-[]
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -56,7 +58,8 @@ A company is storing data on Amazon Simple Storage Service (S3). The company’s
 <details><summary>Answer:</summary><p>
 [A, B, E]
 
-[]
+Categories:
+[S3, KMS, EC2]
 
 Explanation:
 
@@ -77,7 +80,8 @@ Which 2 services provide native encryption
 <details><summary>Answer:</summary><p>
 [B, E]
 
-[]
+Categories:
+[RDS, Glacier, Storage Gateway, EBS, Redshift]
 
 Explanation:
 
@@ -102,7 +106,8 @@ With which AWS services CloudHSM can be used (select 2)
 <details><summary>Answer:</summary><p>
 [C, E]
 
-[]
+Categories:
+[S3, RDS, ElastiCache, DynamoDB, Redshift]
 
 Explanation:
 

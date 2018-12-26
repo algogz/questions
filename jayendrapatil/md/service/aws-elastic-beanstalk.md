@@ -10,6 +10,9 @@ An organization is planning to use AWS for their production roll out. The organi
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, CloudFront, CloudFormation, ELB, Elastic Beanstalk]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -27,6 +30,9 @@ What does Amazon Elastic Beanstalk provide?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, Elastic Beanstalk]
 
 Explanation:
 
@@ -46,6 +52,9 @@ You want to have multiple versions of your application running at the same time,
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[Elastic Beanstalk]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -64,6 +73,9 @@ A .NET application that you manage is running in Elastic Beanstalk. Your develop
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, Elastic Beanstalk]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -81,6 +93,9 @@ Your team has a tomcat-based Java application you need to deploy into developmen
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS, EC2, VPC, Elastic Beanstalk]
 
 Explanation:
 
@@ -108,6 +123,9 @@ Your must architect the migration of a web application to AWS. The application c
 
 <details><summary>Answer:</summary><p>
 [D, E]
+
+Categories:
+[S3, SES, OpsWorks, EC2, CloudWatch, Kinesis, Elastic Beanstalk]
 
 Explanation:
 
@@ -137,6 +155,9 @@ Which of the following groups is AWS Elastic Beanstalk best suited for?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[Elastic Beanstalk]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -154,6 +175,9 @@ When thinking of AWS Elastic Beanstalk’s model, which is true?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[Elastic Beanstalk]
 
 Explanation:
 
@@ -174,6 +198,9 @@ If you’re trying to configure an AWS Elastic Beanstalk worker tier for easy de
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[Elastic Beanstalk]
 
 Explanation:
 
@@ -197,6 +224,9 @@ When thinking of AWS Elastic Beanstalk, which statement is true?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SQS, SNS, Elastic Beanstalk]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -219,6 +249,9 @@ You are building a Ruby on Rails application for internal, non-production use, w
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, OpsWorks, EC2, CloudFormation, ELB, Elastic Beanstalk]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -239,6 +272,9 @@ What AWS products and features can be deployed by Elastic Beanstalk? Choose 3 an
 <details><summary>Answer:</summary><p>
 [A, C, D]
 
+Categories:
+[SES, RDS, SQS, ASG, Route 53, Elastic Beanstalk]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -257,6 +293,9 @@ AWS Elastic Beanstalk stores your application files and optionally server log fi
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, Glacier, EC2, Storage Gateway, Elastic Beanstalk]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-elastic-beanstalk/
@@ -274,6 +313,9 @@ When you use the AWS Elastic Beanstalk console to deploy a new application ____.
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[Elastic Beanstalk]
 
 Explanation:
 

@@ -10,6 +10,9 @@ After launching an instance that you intend to serve as a NAT (Network Address T
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-vpc-nat/
@@ -28,6 +31,9 @@ You manually launch a NAT AMI in a public subnet. The network is properly config
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-vpc-nat/
@@ -45,6 +51,9 @@ A user has created a VPC with public and private subnets. The VPC has CIDR 20.0.
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, VPC]
 
 Explanation:
 
@@ -65,6 +74,9 @@ A web company is looking to implement an external payment service into their hig
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, EC2, ASG, VPC, ELB]
 
 Explanation:
 

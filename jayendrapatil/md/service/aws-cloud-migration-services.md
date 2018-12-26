@@ -11,6 +11,9 @@ Your must architect the migration of a web application to AWS. The application c
 <details><summary>Answer:</summary><p>
 [D, E]
 
+Categories:
+[S3, SES, OpsWorks, EC2, CloudWatch, Kinesis, Elastic Beanstalk]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloud-migration-services/
@@ -39,6 +42,9 @@ Your company hosts an on-premises legacy engineering application with 900GB of d
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[S3, SES, Storage Gateway, EBS]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-cloud-migration-services/
@@ -66,6 +72,9 @@ You are tasked with moving a legacy application from a virtual machine running i
 
 <details><summary>Answer:</summary><p>
 [A, D, F]
+
+Categories:
+[SES, VPC, Route 53, Direct Connect]
 
 Explanation:
 

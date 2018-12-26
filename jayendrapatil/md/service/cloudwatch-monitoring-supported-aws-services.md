@@ -11,6 +11,9 @@ What is the minimum time Interval for the data that Amazon CloudWatch receives a
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/
@@ -28,6 +31,9 @@ In the ‘Detailed’ monitoring data available for your Amazon EBS volumes, Pro
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[CloudWatch, EBS]
 
 Explanation:
 
@@ -47,6 +53,9 @@ Using Amazon CloudWatch’s Free Tier, what is the frequency of metric updates, 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/
@@ -65,6 +74,9 @@ What is the type of monitoring data (for Amazon EBS volumes) which is available 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/
@@ -82,6 +94,9 @@ A user has created an Auto Scaling group using CLI. The user wants to enable Clo
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[CloudWatch, ASG]
 
 Explanation:
 
@@ -103,6 +118,9 @@ A user is trying to understand the detailed CloudWatch monitoring concept. Which
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch, ASG, SNS, Route 53, EMR]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/
@@ -120,6 +138,9 @@ A user is trying to understand the detailed CloudWatch monitoring concept. Which
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS, CloudWatch, ELB, EMR]
 
 Explanation:
 
@@ -139,6 +160,9 @@ A user has enabled detailed CloudWatch monitoring with the AWS Simple Notificati
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[CloudWatch, SNS]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/cloudwatch-monitoring-supported-aws-services/
@@ -156,6 +180,9 @@ A user has configured an Auto Scaling group with ELB. The user has enabled detai
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[CloudWatch, ASG, ELB]
 
 Explanation:
 

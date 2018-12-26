@@ -10,6 +10,9 @@ You are responsible for a legacy web application whose server environment is app
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SES, EC2, EBS, Instance Store]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-vm-importexport/
@@ -31,6 +34,9 @@ You are tasked with moving a legacy application from a virtual machine running i
 
 <details><summary>Answer:</summary><p>
 [A, D, F]
+
+Categories:
+[SES, VPC, Route 53, Direct Connect]
 
 Explanation:
 

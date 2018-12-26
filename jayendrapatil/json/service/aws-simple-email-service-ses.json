@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-simple-email-service-ses/"
+    ],
+    "categories": [
+      "SES"
     ]
   },
   {
@@ -33,6 +36,16 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-simple-email-service-ses/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SWF",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Elastic Beanstalk"
     ]
   }
 ]

@@ -10,6 +10,9 @@ How can software determine the public and private IP addresses of the Amazon EC2
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, EC2, CloudWatch]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/
@@ -27,6 +30,9 @@ The base URI for all requests for instance metadata is ___________
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[]
 
 Explanation:
 
@@ -46,6 +52,9 @@ Which Amazon Elastic Compute Cloud feature can you query from within the instanc
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/
@@ -63,6 +72,9 @@ You need to pass a custom script to new Amazon Linux instances created in your A
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM, EC2, ASG]
 
 Explanation:
 
@@ -82,6 +94,9 @@ By default, when an EBS volume is attached to a Windows instance, it may show up
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-instance-metadata-userdata/
@@ -99,6 +114,9 @@ How can software determine the public and private IP addresses of the Amazon EC2
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, EC2, CloudWatch]
 
 Explanation:
 

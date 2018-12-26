@@ -10,6 +10,9 @@ What does Amazon S3 stand for?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -29,6 +32,9 @@ What are characteristics of Amazon S3? Choose 2 answers
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -47,6 +53,9 @@ You are building an automated transcription service in which Amazon EC2 worker i
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, Glacier, EC2, EBS, Instance Store]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -64,6 +73,9 @@ A user wants to upload a complete folder to AWS S3 using the S3 Management conso
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -85,6 +97,9 @@ A media company produces new video files on-premises every day with a total size
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SES]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -102,6 +117,9 @@ A company is deploying a two-tier, highly available web application to AWS. Whic
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, RDS, EC2, EBS, Instance Store]
 
 Explanation:
 
@@ -121,6 +139,9 @@ You have an application running on an Amazon Elastic Compute Cloud instance, tha
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, CloudFront, EBS]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -138,6 +159,9 @@ When you put objects in Amazon S3, what is the indication that an object was suc
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -157,6 +181,9 @@ You have private video content in S3 that you want to serve to subscribed users 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, RDS, CloudFront, IAM]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -174,6 +201,9 @@ You run an ad-supported photo sharing website using S3 to serve photos to visito
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, CloudFront, EBS]
 
 Explanation:
 
@@ -193,6 +223,9 @@ You are designing a web application that stores static assets in an Amazon Simpl
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-simple-storage-service-s3-overview/
@@ -211,6 +244,9 @@ What is the maximum number of S3 buckets available per AWS Account?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, IAM]
 
 Explanation:
 
@@ -233,6 +269,9 @@ Your customer needs to create an application to allow contractors to upload vide
 
 <details><summary>Answer:</summary><p>
 [C, F]
+
+Categories:
+[S3, IAM, EC2]
 
 Explanation:
 

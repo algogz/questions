@@ -10,6 +10,9 @@ In the basic monitoring package for EC2, Amazon CloudWatch provides the followin
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, CloudWatch]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-monitoring/
@@ -27,6 +30,9 @@ Which of the following requires a custom CloudWatch metric to monitor?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, CloudWatch]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user has configured CloudWatch monitoring on an EBS backed EC2 instance. If th
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, CloudWatch, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-monitoring/
@@ -63,6 +72,9 @@ A user is running a batch process on EBS backed EC2 instances. The batch process
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, CloudWatch, ASG, EBS]
 
 Explanation:
 
@@ -82,6 +94,9 @@ An AWS account owner has setup multiple IAM users. One IAM user only has CloudWa
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM, EC2, CloudWatch]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-monitoring/
@@ -99,6 +114,9 @@ A user has launched 10 instances from the same AMI ID using Auto Scaling. The us
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[CloudWatch, ASG]
 
 Explanation:
 

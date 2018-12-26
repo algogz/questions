@@ -15,6 +15,10 @@
       "Question 1@http://jayendrapatil.com/aws-iam-best-practices/",
       "A: (May not be needed as can use Roles as well)",
       "D: (Must be assigned only if using console or through command line)"
+    ],
+    "categories": [
+      "SES",
+      "IAM"
     ]
   },
   {
@@ -36,6 +40,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-iam-best-practices/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -54,6 +61,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-iam-best-practices/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -73,6 +83,9 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-iam-best-practices/",
       "C: For increased security, it is recommend to configure MFA to help protect AWS resources"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -91,6 +104,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-iam-best-practices/"
+    ],
+    "categories": [
+      "IAM",
+      "CloudTrail"
     ]
   }
 ]

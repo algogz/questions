@@ -18,6 +18,18 @@
       "A: Not cost effective",
       "B: does not protect against new source",
       "D: No advanced protocol filtering in ELB"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "EC2",
+      "VPC",
+      "DynamoDB",
+      "Route 53",
+      "ELB",
+      "EMR",
+      "WAF"
     ]
   }
 ]

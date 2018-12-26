@@ -10,6 +10,9 @@ Your organization is preparing for a security assessment of your use of AWS. In 
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[SES, IAM]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-iam-best-practices/
@@ -33,6 +36,9 @@ What are the recommended best practices for IAM? (Choose 3 answers)
 <details><summary>Answer:</summary><p>
 [A, C, E]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-iam-best-practices/
@@ -51,6 +57,9 @@ Which of the below mentioned options is not a best practice to securely manage t
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-iam-best-practices/
@@ -68,6 +77,9 @@ Your CTO is very worried about the security of your AWS account. How best can yo
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -88,6 +100,9 @@ Fill the blanks: ____ helps us track AWS API calls and transitions, ____ helps t
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM, CloudTrail]
 
 Explanation:
 

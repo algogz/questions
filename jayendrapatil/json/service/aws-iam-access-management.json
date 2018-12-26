@@ -14,6 +14,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-iam-access-management/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -32,6 +35,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-iam-access-management/"
+    ],
+    "categories": [
+      "IAM",
+      "DynamoDB"
     ]
   },
   {
@@ -50,6 +57,12 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-iam-access-management/"
+    ],
+    "categories": [
+      "SES",
+      "IAM",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -68,6 +81,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-iam-access-management/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -86,7 +102,8 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-iam-access-management/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-access-management/",
@@ -104,7 +121,8 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-iam-access-management/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-access-management/",
@@ -121,6 +139,10 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-iam-access-management/",
       "B: http://docs.aws.amazon.com/directconnect/latest/UserGuide/using_iam.html#keys"
+    ],
+    "categories": [
+      "RDS",
+      "IAM"
     ]
   },
   {
@@ -139,6 +161,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-iam-access-management/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -159,7 +184,8 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-iam-access-management/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-access-management/",
@@ -182,6 +208,10 @@
       "C: Expensive",
       "D: https://aws.amazon.com/about-aws/whats-new/2015/08/amazon-s3-introduces-new-usability-enhancements/",
       "D: Creating bucket for each user is not a scalable model, also 100 buckets are a limit earlier without extending which has since changed"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   }
 ]

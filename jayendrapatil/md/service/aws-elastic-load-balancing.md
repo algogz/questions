@@ -10,6 +10,9 @@ A user has configured an HTTPS listener on an ELB. The user has not configured a
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -27,6 +30,9 @@ A user has configured ELB with SSL using a security policy for secure negotiatio
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[ELB]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user has configured ELB with SSL using a security policy for secure negotiatio
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -63,6 +72,9 @@ A user has configured ELB with SSL using a security policy for secure negotiatio
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[ELB]
 
 Explanation:
 
@@ -82,6 +94,9 @@ A user has configured ELB with a TCP listener at ELB as well as on the back-end 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -99,6 +114,9 @@ A user has enabled session stickiness with ELB. The user does not want ELB to ma
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, ELB]
 
 Explanation:
 
@@ -118,6 +136,9 @@ A user has created an ELB with Auto Scaling. Which of the below mentioned offeri
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, EC2, ASG, ELB]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -135,6 +156,9 @@ When using an Elastic Load Balancer to serve traffic to web servers, which one o
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, VPC, ELB]
 
 Explanation:
 
@@ -154,6 +178,9 @@ A user has configured Elastic Load Balancing by enabling a Secure Socket Layer (
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -171,6 +198,9 @@ A user has created an ELB with the availability zone us-east-1. The user wants t
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[ELB]
 
 Explanation:
 
@@ -190,6 +220,9 @@ A user has launched an ELB which has 5 instances registered with it. The user de
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -207,6 +240,9 @@ A Sys-admin has created a shopping cart application and hosted it on EC2. The EC
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, EC2, ELB]
 
 Explanation:
 
@@ -226,6 +262,9 @@ A user has setup connection draining with ELB to allow in-flight requests to con
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ASG, ELB]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -243,6 +282,9 @@ A customer has a web application that uses cookie Based sessions to track logged
 
 <details><summary>Answer:</summary><p>
 [B, D]
+
+Categories:
+[SES, ASG, EBS, ELB]
 
 Explanation:
 
@@ -266,6 +308,9 @@ A customer has an online store that uses the cookie-based sessions to track logg
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, RDS, CloudFront, ASG, EBS, ELB]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -285,6 +330,9 @@ You are designing a multi-platform web application for AWS. The application will
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, EC2, VPC, ELB]
 
 Explanation:
 
@@ -306,6 +354,9 @@ You are migrating a legacy client-server application to AWS. The application res
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS, Route 53, ELB]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -326,6 +377,9 @@ A user has created an ELB with three instances. How many security groups will EL
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 18@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -345,6 +399,9 @@ You have a web-style application with a stateless but CPU and memory-intensive w
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, RDS, EC2, ElastiCache, VPC, DynamoDB]
 
 Explanation:
 
@@ -370,6 +427,9 @@ An organization has configured a VPC with an Internet Gateway (IGW). pairs of pu
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS, ASG, VPC, ELB]
+
 Explanation:
 
 Question 20@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -393,6 +453,9 @@ Your application currently leverages AWS Auto Scaling to grow and shrink as load
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, Trusted Advisor, EC2, ASG]
 
 Explanation:
 
@@ -418,6 +481,9 @@ Which of the following features ensures even distribution of traffic to Amazon E
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, Route 53, ELB]
+
 Explanation:
 
 Question 22@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -440,6 +506,9 @@ Your web application front end consists of multiple EC2 instances behind an Elas
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, ELB]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -461,6 +530,9 @@ You have a web application running on six Amazon EC2 instances, consuming about 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, EC2]
 
 Explanation:
 
@@ -485,6 +557,9 @@ You are designing an SSL/TLS solution that requires HTTPS clients to be authenti
 
 <details><summary>Answer:</summary><p>
 [A, B]
+
+Categories:
+[CloudFront, ELB]
 
 Explanation:
 
@@ -515,6 +590,9 @@ You are designing an application that contains protected health information. Sec
 <details><summary>Answer:</summary><p>
 [C, E]
 
+Categories:
+[S3, SES, EC2, EBS]
+
 Explanation:
 
 Question 26@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -538,6 +616,9 @@ A startup deploys its photo-sharing site in a VPC. An elastic load balancer dist
 <details><summary>Answer:</summary><p>
 [C, E]
 
+Categories:
+[SES, EC2, ASG, EBS, VPC, ELB]
+
 Explanation:
 
 Question 27@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -559,6 +640,9 @@ To serve Web traffic for a popular product your chief financial officer and IT d
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, EC2, CloudWatch, Route 53, ELB]
 
 Explanation:
 
@@ -584,6 +668,9 @@ Which header received at the EC2 instance identifies the port used by the client
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, ELB]
+
 Explanation:
 
 Question 29@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -601,6 +688,9 @@ A user has configured ELB with two instances running in separate AZs of the same
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[ELB]
 
 Explanation:
 
@@ -622,6 +712,9 @@ A user is configuring the HTTPS protocol on a front end ELB and the SSL protocol
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 31@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -642,6 +735,9 @@ An ELB is diverting traffic across 5 instances. One of the instances was unhealt
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ELB]
+
 Explanation:
 
 Question 32@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -659,6 +755,9 @@ A user has hosted a website on AWS and uses ELB to load balance the multiple ins
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, EBS, ELB]
 
 Explanation:
 
@@ -678,6 +777,9 @@ A user has configured a website and launched it using the Apache web server on p
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2, EBS, ELB]
+
 Explanation:
 
 Question 34@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -696,6 +798,9 @@ AWS Elastic Load Balancer supports SSL termination.
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 35@http://jayendrapatil.com/aws-elastic-load-balancing/
@@ -713,6 +818,9 @@ User has launched five instances with ELB. How can the user add the sixth EC2 in
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, ELB]
 
 Explanation:
 

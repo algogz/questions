@@ -15,6 +15,11 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -33,6 +38,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -51,6 +59,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -69,6 +80,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -87,6 +101,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -105,7 +122,8 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ec2-ebs-storage/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ec2-ebs-storage/",
@@ -123,6 +141,9 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -141,6 +162,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -158,6 +183,10 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -176,6 +205,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -194,6 +226,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -215,6 +250,10 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -237,6 +276,9 @@
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-ec2-ebs-storage/",
       "E: Shared volumes can be encrypted"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -256,6 +298,12 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -274,6 +322,10 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -294,6 +346,10 @@
       "Question 16@http://jayendrapatil.com/aws-ec2-ebs-storage/",
       "A: Encryption is allowed on micro instances",
       "B: Encryption was not allowed on micro instances before"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -312,6 +368,10 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -330,6 +390,10 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -348,6 +412,10 @@
     ],
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -366,6 +434,9 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -385,6 +456,10 @@
     ],
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -403,6 +478,11 @@
     ],
     "commentList": [
       "Question 22@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "S3",
+      "EBS",
+      "Redshift"
     ]
   },
   {
@@ -421,6 +501,9 @@
     ],
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -439,6 +522,9 @@
     ],
     "commentList": [
       "Question 24@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -458,6 +544,11 @@
     "commentList": [
       "Question 25@http://jayendrapatil.com/aws-ec2-ebs-storage/",
       "B: Should be in the same AZ"
+    ],
+    "categories": [
+      "EC2",
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -477,6 +568,9 @@
     "commentList": [
       "Question 26@http://jayendrapatil.com/aws-ec2-ebs-storage/",
       "C: AMI is created from the snapshot"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -495,6 +589,10 @@
     ],
     "commentList": [
       "Question 27@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -513,6 +611,10 @@
     ],
     "commentList": [
       "Question 28@http://jayendrapatil.com/aws-ec2-ebs-storage/"
+    ],
+    "categories": [
+      "EBS",
+      "VPC"
     ]
   }
 ]

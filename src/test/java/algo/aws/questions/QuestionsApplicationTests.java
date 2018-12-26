@@ -16,6 +16,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Set;
+import java.util.function.ToIntFunction;
+import java.util.stream.Collectors;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -26,15 +28,31 @@ public class QuestionsApplicationTests {
     @Test
     public void buildQuestionRepository() throws IOException {
         QuestionRepository repo = new QuestionRepository("q/sap/aws-sap-full.json");
-        byte[] buf = Files.readAllBytes(Paths.get("jayendrapatil/json/professional-questions.json"));
-        String json = new String(buf);
-        List<Question> qList = gson.fromJson(json, new TypeToken<List<Question>>(){}.getType());
+        Path path = Paths.get("jayendrapatil/json/professional-questions.json");
+        List<Question> qList = QuestionUtils.readQuestions(path);
         qList.forEach(q -> {
             if(!repo.hasSimilar(q)){
                 repo.add(q);
             }
         });
         repo.save();
+    }
+
+    @Test
+    public void findSimilarQuestions() throws IOException {
+        QuestionRepository repo = new QuestionRepository("freecram/freecram-questions.json");
+        Path pathJayen = Paths.get("jayendrapatil/json/professional-questions.json");
+        List<Question> jayenList = QuestionUtils.readQuestions(pathJayen);
+        jayenList.forEach(q -> {
+            List<Question> similarList = repo.findSimilar(q);
+            if(similarList.size()>0) {
+                int[] similars = similarList
+                        .stream()
+                        .mapToInt(q1 -> q1.getQuestionNumber())
+                        .toArray();
+                log.info("{}{} -> freecram {}", q.getUrl(), q.getQuestionNumber(), similars);
+            }
+        });
     }
 
     @Test
@@ -46,5 +64,16 @@ public class QuestionsApplicationTests {
             q.setCategories(catList);
         });
         Files.write(path, gson.toJson(qList).getBytes());
+    }
+
+    @Test
+    public void categorizeJsonInPath() throws IOException {
+        Path path = Paths.get("jayendrapatil/json/service");
+
+        for(Path jsonFile: Files.list(path).collect(Collectors.toList())){
+            List<Question> qList = QuestionUtils.readQuestions(jsonFile);
+            QuestionUtils.categorize(qList);
+            Files.write(jsonFile, gson.toJson(qList).getBytes());
+        }
     }
 }

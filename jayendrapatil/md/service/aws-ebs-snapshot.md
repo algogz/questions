@@ -10,6 +10,9 @@ An existing application stores sensitive information on a non-boot Amazon EBS da
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -30,6 +33,9 @@ Is it possible to access your EBS snapshots?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, EC2, EBS]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -47,6 +53,9 @@ Which of the following approaches provides the lowest cost for Amazon Elastic Bl
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[Glacier]
 
 Explanation:
 
@@ -67,6 +76,9 @@ Which procedure for backing up a relational database on EC2 that is using a set 
 <details><summary>Answer:</summary><p>
 [E]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -84,6 +96,9 @@ How can an EBS volume that is currently attached to an EC2 instance be migrated 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -103,6 +118,9 @@ How are the EBS snapshots saved on Amazon S3?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -119,6 +137,9 @@ EBS Snapshots occur _____
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -138,6 +159,9 @@ What will be the status of the snapshot until the snapshot is complete?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -155,6 +179,9 @@ Before I delete an EBS volume, what can I do if I want to recreate the volume la
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -175,6 +202,9 @@ Which of the following are true regarding encrypted Amazon Elastic Block Store (
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -192,6 +222,9 @@ Amazon EBS snapshots have which of the following two characteristics? (Choose 2.
 
 <details><summary>Answer:</summary><p>
 [A, B, D]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -219,6 +252,9 @@ A user is planning to schedule a backup for an EBS volume. The user wants securi
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -239,6 +275,9 @@ A sys admin is trying to understand EBS snapshots. Which of the below mentioned 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -256,6 +295,9 @@ When creation of an EBS snapshot is initiated but not completed, the EBS volume
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -275,6 +317,9 @@ You have a server with a 5O0GB Amazon EBS data volume. The volume is 80% full. Y
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, Glacier, EC2, EBS]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -292,6 +337,9 @@ A user is creating a snapshot of an EBS volume. Which of the below statements is
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -313,6 +361,9 @@ A user has created a snapshot of an EBS volume. Which of the below mentioned usa
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, EBS]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -330,6 +381,9 @@ What is true of the way that encryption works with EBS?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -349,6 +403,9 @@ Why are more frequent snapshots of EBS Volumes faster?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 19@http://jayendrapatil.com/aws-ebs-snapshot/
@@ -366,6 +423,9 @@ Which is not a restriction on AWS EBS Snapshots?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -388,6 +448,9 @@ There is a very serious outage at AWS. EC2 is not affected, but your EC2 instanc
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, EC2, EBS]
 
 Explanation:
 

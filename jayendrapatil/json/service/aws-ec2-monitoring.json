@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-monitoring/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch"
     ]
   },
   {
@@ -33,6 +37,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-monitoring/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch"
     ]
   },
   {
@@ -51,6 +59,11 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-monitoring/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "EBS"
     ]
   },
   {
@@ -69,6 +82,12 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ec2-monitoring/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "EBS"
     ]
   },
   {
@@ -87,6 +106,11 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ec2-monitoring/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "CloudWatch"
     ]
   },
   {
@@ -107,6 +131,10 @@
       "Question 6@http://jayendrapatil.com/aws-ec2-monitoring/",
       "A: https://docs.aws.amazon.com/autoscaling/latest/userguide/as-instance-monitoring.html",
       "B: Works but needs detailed monitoring enabled"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG"
     ]
   }
 ]

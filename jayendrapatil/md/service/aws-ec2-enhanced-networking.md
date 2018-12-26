@@ -12,6 +12,9 @@ You have multiple Amazon EC2 instances running in a cluster across multiple Avai
 <details><summary>Answer:</summary><p>
 [B, D, F]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-enhanced-networking/
@@ -41,6 +44,9 @@ A group of researchers is studying the migration pattern of a beetle that eats a
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[]
 
 Explanation:
 

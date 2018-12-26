@@ -21,6 +21,12 @@
       "C: are specific to a region",
       "D: are specific to a region",
       "F: are specific to a region"
+    ],
+    "categories": [
+      "SES",
+      "IAM",
+      "EC2",
+      "Route 53"
     ]
   },
   {
@@ -44,6 +50,13 @@
       "A: already replicates across AZs",
       "D: Global Managed Service",
       "E: Global Managed Service"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "SNS",
+      "DynamoDB",
+      "ELB"
     ]
   },
   {
@@ -62,6 +75,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/"
+    ],
+    "categories": [
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -81,6 +98,9 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
       "A: IAM resources are all global; there is not regional constraint"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -101,6 +121,10 @@
       "Question 5@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
       "C: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html",
       "C: An Elastic IP address is tied to a region and can be associated only with an instance in the same region. Refer"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -120,6 +144,10 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/",
       "C: A security group is tied to a region and can be assigned only to instances in the same region"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   }
 ]

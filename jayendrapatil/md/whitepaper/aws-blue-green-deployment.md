@@ -10,6 +10,7 @@ What is server immutability?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
 []
 
 Explanation:
@@ -32,7 +33,8 @@ You need to deploy a new application version to production. Because the deployme
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[RDS, EC2, ASG, ELB, Elastic Beanstalk]
 
 Explanation:
 
@@ -58,7 +60,8 @@ When thinking of AWS Elastic Beanstalk, the ‘Swap Environment URLs’ feature 
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[Elastic Beanstalk]
 
 Explanation:
 
@@ -80,7 +83,8 @@ You were just hired as a DevOps Engineer for a startup. Your startup uses AWS fo
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, SES, OpsWorks, EC2, ASG, CloudFormation, DynamoDB, ELB, Elastic Beanstalk]
 
 Explanation:
 
@@ -106,7 +110,8 @@ You are building out a layer in a software stack on AWS that needs to be able to
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, EC2, ASG, ELB]
 
 Explanation:
 
@@ -135,7 +140,8 @@ You company runs a complex customer relations management system that consists of
 <details><summary>Answer:</summary><p>
 [B, E]
 
-[]
+Categories:
+[RDS, OpsWorks, EC2]
 
 Explanation:
 
@@ -158,7 +164,8 @@ Your company runs an event management SaaS application that uses Amazon EC2, Aut
 <details><summary>Answer:</summary><p>
 [B, C]
 
-[]
+Categories:
+[SES, RDS, EC2, ASG, ELB, Elastic Beanstalk]
 
 Explanation:
 

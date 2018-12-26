@@ -9,6 +9,9 @@ What does Amazon RDS stand for?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-relational-database-service-rds/
@@ -27,6 +30,9 @@ How many relational database engines does RDS currently support?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-relational-database-service-rds/
@@ -42,6 +48,9 @@ If I modify a DB Instance or the DB parameter group associated with the instance
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[]
 
 Explanation:
 
@@ -61,6 +70,9 @@ What is the name of licensing model in which I can use your existing Oracle Data
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, RDS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-relational-database-service-rds/
@@ -78,6 +90,9 @@ Will I be charged if the DB instance is idle?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -97,6 +112,9 @@ What is the minimum charge for the data transferred between Amazon RDS and Amazo
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS, EC2]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-relational-database-service-rds/
@@ -113,6 +131,9 @@ Does Amazon RDS allow direct host access via Telnet, Secure Shell (SSH), or Wind
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, VPC]
 
 Explanation:
 
@@ -132,6 +153,9 @@ What are the two types of licensing options available for using Amazon RDS for O
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-relational-database-service-rds/
@@ -149,6 +173,9 @@ A user plans to use RDS as a managed DB platform. Which of the below mentioned f
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -168,6 +195,9 @@ A user is launching an AWS RDS with MySQL. Which of the below mentioned options 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-relational-database-service-rds/
@@ -185,6 +215,9 @@ A user is planning to use the AWS RDS with MySQL. Which of the below mentioned s
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, CloudWatch]
 
 Explanation:
 

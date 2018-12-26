@@ -17,6 +17,13 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-redshift/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "ElastiCache",
+      "DynamoDB",
+      "Redshift"
     ]
   },
   {
@@ -39,6 +46,13 @@
       "B: Handle 10K IOPS ingestion and store data into Redshift for analysis",
       "C: Does not handle the ingestion issue",
       "D: RDS instance will not support data for 2 years"
+    ],
+    "categories": [
+      "RDS",
+      "SQS",
+      "EC2",
+      "DynamoDB",
+      "Redshift"
     ]
   },
   {
@@ -58,6 +72,12 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-redshift/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EBS",
+      "Redshift"
     ]
   },
   {
@@ -80,6 +100,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Spot instances impacts performance",
       "D: Spot instances impacts performance and Spot instance not available for Redshift"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   }
 ]

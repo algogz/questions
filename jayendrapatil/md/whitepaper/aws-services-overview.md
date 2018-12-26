@@ -11,7 +11,8 @@ Which AWS services belong to the Compute services? Choose 2 answers
 <details><summary>Answer:</summary><p>
 [A, B]
 
-[]
+Categories:
+[S3, CloudFront, EC2, EMR, Lambda]
 
 Explanation:
 
@@ -31,7 +32,8 @@ Which AWS service provides low cost storage option for archival and long-term ba
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, CloudFront, Glacier, EBS]
 
 Explanation:
 
@@ -52,7 +54,8 @@ Which AWS services belong to the Storage services? Choose 2 answers
 <details><summary>Answer:</summary><p>
 [A, D]
 
-[]
+Categories:
+[S3, CloudFront, IAM, EMR]
 
 Explanation:
 
@@ -72,7 +75,8 @@ A Company allows users to upload videos on its platform. They want to convert th
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[SWF, Elastic Transcoder]
 
 Explanation:
 
@@ -92,7 +96,8 @@ Which analytic service helps analyze data in S3 using standard SQL?
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, Elasticsearch, Kinesis, EMR]
 
 Explanation:
 
@@ -112,7 +117,8 @@ What features does AWS’s Route 53 service provide? Choose the 2 correct answer
 <details><summary>Answer:</summary><p>
 [B, D]
 
-[]
+Categories:
+[Route 53]
 
 Explanation:
 
@@ -132,7 +138,8 @@ You are trying to organize and import (to AWS) gigabytes of data that are curren
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[RDS, DynamoDB, Lambda]
 
 Explanation:
 
@@ -152,7 +159,8 @@ What AWS database is primarily used to analyze data using standard SQL formattin
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[RDS, ElastiCache, DynamoDB, Redshift]
 
 Explanation:
 
@@ -172,7 +180,8 @@ A company wants their application to use pre-configured machine image with softw
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[CloudFormation, Lambda]
 
 Explanation:
 
@@ -192,7 +201,8 @@ What AWS service can be used for track API event calls for security analysis, re
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[OpsWorks, CloudWatch, CloudFormation, CloudTrail]
 
 Explanation:
 
@@ -212,7 +222,8 @@ Which AWS service can help Offload the read traffic from your database in order 
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[S3, ElastiCache, DynamoDB]
 
 Explanation:
 
@@ -232,7 +243,8 @@ What service allows system administrators to run “Infrastructure as code”?
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[CloudWatch, CloudFormation, CloudTrail]
 
 Explanation:
 

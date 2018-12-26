@@ -9,6 +9,9 @@ A user has launched an RDS MySQL DB with the Multi AZ feature. The user has sche
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/
@@ -25,6 +28,9 @@ Can I control if and when MySQL based RDS Instance is upgraded to new supported 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS, VPC]
 
 Explanation:
 
@@ -44,6 +50,9 @@ A user has scheduled the maintenance window of an RDS DB on Monday at 3 AM. Whic
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/
@@ -62,6 +71,9 @@ A user has launched an RDS postgreSQL DB with AWS. The user did not specify the 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/
@@ -78,6 +90,9 @@ Can I test my DB Instance against a new version before upgrading?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 

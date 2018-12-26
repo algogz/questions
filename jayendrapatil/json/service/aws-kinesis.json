@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-kinesis/"
+    ],
+    "categories": [
+      "SQS",
+      "Kinesis"
     ]
   },
   {
@@ -33,6 +37,12 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-kinesis/"
+    ],
+    "categories": [
+      "SQS",
+      "Kinesis",
+      "DynamoDB",
+      "Redshift"
     ]
   },
   {
@@ -53,6 +63,15 @@
       "Question 3@http://jayendrapatil.com/aws-kinesis/",
       "B: https://aws.amazon.com/about-aws/whats-new/2014/02/20/analyze-streaming-data-from-amazon-kinesis-with-amazon-elastic-mapreduce/",
       "B: refer"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "SQS",
+      "Kinesis",
+      "DynamoDB",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -72,6 +91,15 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-kinesis/",
       "B: Can perform real time analysis and stores data for 24 hours which can be extended to 7 days"
+    ],
+    "categories": [
+      "S3",
+      "SQS",
+      "EC2",
+      "ASG",
+      "Kinesis",
+      "EMR",
+      "CloudTrail"
     ]
   },
   {
@@ -90,6 +118,15 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-kinesis/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "SQS",
+      "Kinesis",
+      "EBS",
+      "Redshift"
     ]
   },
   {
@@ -108,6 +145,14 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-kinesis/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Kinesis",
+      "EBS",
+      "DynamoDB",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -127,6 +172,12 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-kinesis/",
       "C: AWS Kinesis is an event stream service. Streams can act as buffers and transport across systems for in-order programmatic events, making it ideal for replicating API calls across systems"
+    ],
+    "categories": [
+      "SQS",
+      "Kinesis",
+      "SNS",
+      "Lambda"
     ]
   },
   {
@@ -147,6 +198,12 @@
       "Question 8@http://jayendrapatil.com/aws-kinesis/",
       "B: https://aws.amazon.com/kinesis/firehose/details/",
       "B: Kinesis Firehose provides a managed service for aggregating streaming data and inserting it into RedShift. RedShift also supports ad-hoc queries over well-structured data using a SQL-compliant wire protocol, so the business team should be able to adopt this system easily. Refer"
+    ],
+    "categories": [
+      "RDS",
+      "Kinesis",
+      "EMR",
+      "Redshift"
     ]
   }
 ]

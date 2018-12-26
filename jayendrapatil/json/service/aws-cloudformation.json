@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudFormation"
     ]
   },
   {
@@ -33,6 +37,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -51,6 +58,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -76,6 +86,14 @@
       "C: Application stack can be deleted before network stack",
       "D: IAM permissions need to be given explicitly to launch instances",
       "E: Although stacks can be nested, Network group will need to have all the application group permissions"
+    ],
+    "categories": [
+      "RDS",
+      "IAM",
+      "EC2",
+      "CloudFormation",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -94,6 +112,12 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "SES",
+      "OpsWorks",
+      "CloudWatch",
+      "CloudFormation"
     ]
   },
   {
@@ -112,6 +136,11 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudFormation",
+      "ELB"
     ]
   },
   {
@@ -130,6 +159,12 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "CloudFormation",
+      "ELB"
     ]
   },
   {
@@ -148,6 +183,16 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "IAM",
+      "EC2",
+      "EBS",
+      "CloudFormation",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -166,6 +211,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -189,6 +237,16 @@
       "A: IAM users are global",
       "B: DynamoDB names should be unique only within a region",
       "D: Don’t want the data to be retained"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "ASG",
+      "EBS",
+      "CloudFormation",
+      "DynamoDB",
+      "ELB",
+      "Redshift"
     ]
   },
   {
@@ -212,6 +270,11 @@
       "C: as the environment is required for limited time the automated backup will not serve the purpose",
       "D: read replica not needed and will be deleted when the stack is deleted",
       "E: UpdatePolicy does not apply to RDS"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "CloudFormation"
     ]
   },
   {
@@ -232,6 +295,9 @@
       "Question 12@http://jayendrapatil.com/aws-cloudformation/",
       "C: https://aws.amazon.com/cloudformation/faqs/",
       "C: (Refer – The limit keeps on changing to check for the latest)"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -250,6 +316,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-cloudformation/"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -270,6 +339,11 @@
       "Question 14@http://jayendrapatil.com/aws-cloudformation/",
       "D: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html",
       "D: (Refer )"
+    ],
+    "categories": [
+      "CloudFormation",
+      "SNS",
+      "Lambda"
     ]
   },
   {
@@ -290,6 +364,9 @@
       "Question 15@http://jayendrapatil.com/aws-cloudformation/",
       "C: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-dependence-error",
       "C: to resolve a dependency error, add a DependsOn attribute to resources that depend on other resources in the template. Some cases for e.g. EIP and VPC with IGW where EIP depends on IGW need explicitly declaration for the resources to be created in correct order"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -313,6 +390,13 @@
       "B: (EMR cluster can be modeled using CloudFormation. Refer )",
       "C: cannot directly model EMR Clusters",
       "D: does not exist"
+    ],
+    "categories": [
+      "S3",
+      "OpsWorks",
+      "CloudFormation",
+      "EMR",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -332,6 +416,11 @@
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-cloudformation/",
       "B: CloudFormation allows source controlled, declarative templates as the basis for stack automation and Nested Stacks help achieve clean separation of layers while simultaneously providing a method to control all layers at once when needed"
+    ],
+    "categories": [
+      "OpsWorks",
+      "CloudFormation",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -352,6 +441,12 @@
       "Question 18@http://jayendrapatil.com/aws-cloudformation/",
       "A: https://blogs.aws.amazon.com/application-management/blog/category/Best+practices",
       "A: Only CloudFormation’s JSON Templates allow declarative version control of repeatedly deployable models of entire AWS clouds"
+    ],
+    "categories": [
+      "SES",
+      "ECS",
+      "EC2",
+      "CloudFormation"
     ]
   },
   {
@@ -371,6 +466,9 @@
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-cloudformation/",
       "A: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -390,6 +488,10 @@
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-cloudformation/",
       "A: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html"
+    ],
+    "categories": [
+      "SES",
+      "CloudFormation"
     ]
   },
   {
@@ -409,6 +511,9 @@
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-cloudformation/",
       "C: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -428,6 +533,9 @@
     "commentList": [
       "Question 22@http://jayendrapatil.com/aws-cloudformation/",
       "A: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -447,6 +555,9 @@
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-cloudformation/",
       "C: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-helper-scripts-reference.html"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -468,6 +579,11 @@
       "C: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/list-stacks.html",
       "C: Only polling will make a script wait to complete. ListStacks / list-stacks is a real method. Refer",
       "D: GetStackStatus / get-stack-status does not exist"
+    ],
+    "categories": [
+      "SQS",
+      "CloudFormation",
+      "SNS"
     ]
   },
   {
@@ -491,6 +607,9 @@
       "C: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks.html",
       "C: ROLLBACK_IN_PROGRESS means an UpdateStack operation failed and the stack is in the process of trying to return to the valid, pre-update state Refer",
       "D: ROLLBACK_FAILED is not a CloudFormation state but UPDATE_ROLLBACK_FAILED is"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -511,6 +630,9 @@
       "Question 26@http://jayendrapatil.com/aws-cloudformation/",
       "D: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html",
       "D: Complete list of Intrinsic Functions: Fn::Base64, Fn::And, Fn::Equals, Fn::If, Fn::Not, Fn::Or, Fn::FindInMap, Fn::GetAtt, Fn::GetAZs, Fn::Join, Fn::Select, Refer"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   },
   {
@@ -531,6 +653,9 @@
       "Question 27@http://jayendrapatil.com/aws-cloudformation/",
       "A: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-structure.html",
       "A: Best way to do this is with one template, and a Condition on the resource. Route53 does not allow null strings for Refer"
+    ],
+    "categories": [
+      "CloudFormation"
     ]
   }
 ]

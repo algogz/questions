@@ -15,6 +15,11 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS",
+      "CloudWatch",
+      "ElastiCache"
     ]
   },
   {
@@ -33,6 +38,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS",
+      "EC2"
     ]
   },
   {
@@ -55,6 +64,11 @@
       "B: SQS provides loose coupling",
       "C: SWF – Steps in order and might need manual steps",
       "D: CloudFront + S3"
+    ],
+    "categories": [
+      "SQS",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -73,6 +87,14 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "SQS",
+      "EC2",
+      "DynamoDB",
+      "Route 53"
     ]
   },
   {
@@ -91,6 +113,13 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "RDS",
+      "SQS",
+      "ElastiCache",
+      "EBS",
+      "DynamoDB"
     ]
   },
   {
@@ -109,6 +138,16 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "SQS",
+      "EC2",
+      "DynamoDB",
+      "Direct Connect",
+      "EMR"
     ]
   },
   {
@@ -127,6 +166,9 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -145,6 +187,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -163,6 +208,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -181,6 +229,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -199,6 +250,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -217,6 +271,11 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SWF",
+      "SQS",
+      "SNS"
     ]
   },
   {
@@ -235,6 +294,11 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SES",
+      "SWF",
+      "SQS"
     ]
   },
   {
@@ -253,6 +317,14 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "S3",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "Elastic Transcoder",
+      "SNS"
     ]
   },
   {
@@ -272,6 +344,12 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "S3",
+      "SQS",
+      "EC2",
+      "ASG"
     ]
   },
   {
@@ -290,6 +368,9 @@
     ],
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -308,6 +389,14 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "S3",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "Elastic Transcoder",
+      "SNS"
     ]
   },
   {
@@ -326,6 +415,10 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS",
+      "Lambda"
     ]
   },
   {
@@ -344,6 +437,11 @@
     ],
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SWF",
+      "SQS",
+      "SNS"
     ]
   },
   {
@@ -363,6 +461,9 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -382,6 +483,9 @@
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-sqs-simple-queue-service/",
       "D: Before the introduction of FIFO queues"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -400,6 +504,10 @@
     ],
     "commentList": [
       "Question 22@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS",
+      "ECS"
     ]
   },
   {
@@ -418,6 +526,9 @@
     ],
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS"
     ]
   },
   {
@@ -436,6 +547,10 @@
     ],
     "commentList": [
       "Question 24@http://jayendrapatil.com/aws-sqs-simple-queue-service/"
+    ],
+    "categories": [
+      "SQS",
+      "SNS"
     ]
   },
   {
@@ -455,6 +570,11 @@
     "commentList": [
       "Question 25@http://jayendrapatil.com/aws-sqs-simple-queue-service/",
       "B: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html"
+    ],
+    "categories": [
+      "SQS",
+      "EC2",
+      "SNS"
     ]
   },
   {
@@ -477,6 +597,11 @@
       "B: If changed, none of the jobs would be processed",
       "C: If IAM role changed no jobs would be processed",
       "D: scaling metric did work fine as the autoscaling caused the instances to increase"
+    ],
+    "categories": [
+      "IAM",
+      "SQS",
+      "ASG"
     ]
   },
   {
@@ -498,6 +623,10 @@
       "B: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html",
       "B: Refer",
       "B: (Long polling. )"
+    ],
+    "categories": [
+      "SES",
+      "SQS"
     ]
   }
 ]

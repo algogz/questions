@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-config/"
+    ],
+    "categories": [
+      "CloudTrail"
     ]
   },
   {
@@ -33,6 +36,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-config/"
+    ],
+    "categories": [
+      "IAM",
+      "CloudTrail"
     ]
   }
 ]

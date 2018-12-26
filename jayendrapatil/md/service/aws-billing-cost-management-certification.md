@@ -1,4 +1,4 @@
-### Question 1:
+### Question 2:
 
 Your company wants to understand where cost is coming from in the company’s production AWS account. There are a number of applications and services running at any given time. Without expending too much initial development time, how best can you give the business a good understanding of which applications cost the most per month to operate?
 
@@ -10,6 +10,9 @@ Your company wants to understand where cost is coming from in the company’s pr
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-billing-cost-management-certification/
@@ -18,7 +21,7 @@ C: http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.h
 
 </p></details><hr>
 
-### Question 2:
+### Question 3:
 
 You need to know when you spend $1000 or more on AWS. What’s the easy way for you to see that notification?
 
@@ -30,13 +33,16 @@ You need to know when you spend $1000 or more on AWS. What’s the easy way for 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudWatch, Kinesis, SNS, Lambda]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-billing-cost-management-certification/
 
 </p></details><hr>
 
-### Question 3:
+### Question 4:
 
 A user is planning to use AWS services for his web application. If the user is trying to set up his own billing management system for AWS, how can he configure it?
 
@@ -48,13 +54,16 @@ A user is planning to use AWS services for his web application. If the user is t
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-billing-cost-management-certification/
 
 </p></details><hr>
 
-### Question 4:
+### Question 5:
 
 An organization is setting up programmatic billing access for their AWS account. Which of the below mentioned services is not required or enabled when the organization wants to use programmatic access?
 
@@ -66,13 +75,16 @@ An organization is setting up programmatic billing access for their AWS account.
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-billing-cost-management-certification/
 
 </p></details><hr>
 
-### Question 5:
+### Question 6:
 
 A user has setup a billing alarm using CloudWatch for $200. The usage of AWS exceeded $200 after some days. The user wants to increase the limit from $200 to $400? What should the user do?
 
@@ -84,6 +96,9 @@ A user has setup a billing alarm using CloudWatch for $200. The usage of AWS exc
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-billing-cost-management-certification/
@@ -92,7 +107,7 @@ C: http://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimat
 
 </p></details><hr>
 
-### Question 6:
+### Question 7:
 
 A user is trying to configure the CloudWatch billing alarm. Which of the below mentioned steps should be performed by the user for the first time alarm creation in the AWS Account Management section?
 
@@ -103,6 +118,9 @@ A user is trying to configure the CloudWatch billing alarm. Which of the below m
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[CloudWatch]
 
 Explanation:
 

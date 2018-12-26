@@ -10,6 +10,9 @@ A user is launching an EC2 instance in the US East region. Which of the below me
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-network/
@@ -29,6 +32,9 @@ You have multiple Amazon EC2 instances running in a cluster across multiple Avai
 
 <details><summary>Answer:</summary><p>
 [B, D, F]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -57,6 +63,9 @@ Regarding the attaching of ENI to an instance, what does ‘warm attach’ refer
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-network/
@@ -73,6 +82,9 @@ Can I detach the primary (eth0) network interface when the instance is running o
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[]
 
 Explanation:
 
@@ -92,6 +104,9 @@ By default what are ENIs that are automatically created and attached to instance
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-network/
@@ -109,6 +124,9 @@ Select the incorrect statement
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, EC2, VPC]
 
 Explanation:
 
@@ -128,6 +146,9 @@ To ensure failover capabilities, consider using a _____ for incoming traffic on 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-ec2-network/
@@ -146,6 +167,9 @@ Which statements are true about Elastic Network Interface (ENI)? (Choose 2 answe
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-ec2-network/
@@ -163,6 +187,9 @@ A user is planning to host a web server as well as an app server on a single EC2
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, VPC, ELB]
 
 Explanation:
 
@@ -184,6 +211,9 @@ An organization has created multiple components of a single application for comp
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, EC2, VPC]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-ec2-network/
@@ -201,6 +231,9 @@ Your system automatically provisions EIPs to EC2 instances in a VPC on boot. The
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -221,6 +254,9 @@ A user has created a VPC with a public subnet. The user has terminated all the i
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 

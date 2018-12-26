@@ -20,7 +20,15 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "RDS",
+      "Storage Gateway",
+      "CloudWatch",
+      "ElastiCache",
+      "DynamoDB",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -39,7 +47,14 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "SNS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -58,7 +73,11 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "DynamoDB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -77,7 +96,16 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "CloudFront",
+      "IAM",
+      "SQS",
+      "EC2",
+      "EBS",
+      "DynamoDB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -96,7 +124,14 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "SQS",
+      "EC2",
+      "DynamoDB",
+      "ELB",
+      "Direct Connect"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -118,7 +153,16 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "ASG",
+      "ElastiCache",
+      "EBS",
+      "Route 53"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -137,7 +181,11 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "CloudWatch",
+      "ElastiCache"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -156,7 +204,14 @@
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SQS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "SNS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -176,7 +231,14 @@
       "C: Need Read replicas for scalability and elasticity",
       "D: IP multicast not available in AWS"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "Glacier",
+      "EC2",
+      "DynamoDB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -198,7 +260,11 @@
       "B: Would distributed read write both, focus is on read contention",
       "C: Would distributed read write both, focus is on read contention"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "EBS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -220,7 +286,13 @@
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "ElastiCache",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -244,7 +316,15 @@
       "D: does not process and would not be real time",
       "E: more of an error handling then availability"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "SQS",
+      "ASG",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -264,7 +344,16 @@
       "Question 13@http://jayendrapatil.com/aws-storage-options-whitepaper/",
       "A: Elastic Transcoder for High quality, S3 to host videos cheaply, Glacier for archives and CloudFront for high availability"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "CloudFront",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "ASG",
+      "Elastic Transcoder",
+      "EBS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -288,7 +377,11 @@
       "C: Individual files and Multi-AZ is expensive",
       "E: Once the data is moved from S3 to Glacier the metadata is lost, as Glacier does not have metadata and must be maintained externally"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -307,7 +400,12 @@
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-storage-options-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "SWF",
+      "SQS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-whitepaper/",
@@ -327,6 +425,13 @@
       "Question 16@http://jayendrapatil.com/aws-storage-options-whitepaper/",
       "C: Offline task with S3 storage and CloudFront cache"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "CloudFront",
+      "ElastiCache",
+      "EBS",
+      "DynamoDB"
+    ]
   }
 ]

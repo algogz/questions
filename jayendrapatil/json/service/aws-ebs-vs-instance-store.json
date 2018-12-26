@@ -13,6 +13,10 @@
     "answerList": [],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ebs-vs-instance-store/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -29,6 +33,11 @@
     "answerList": [],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ebs-vs-instance-store/"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -46,6 +55,11 @@
     "answerList": [],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ebs-vs-instance-store/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -65,6 +79,11 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ebs-vs-instance-store/",
       "C: (SSD Instance Storage provides 100,000 IOPS on some instance types, much faster than any network-attached storage)"
+    ],
+    "categories": [
+      "S3",
+      "Storage Gateway",
+      "EBS"
     ]
   }
 ]

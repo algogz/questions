@@ -11,6 +11,9 @@ Which of the following services natively encrypts data at rest within an AWS reg
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[CloudFront, SQS, Glacier, Storage Gateway, DynamoDB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-storage-gateway/
@@ -29,6 +32,9 @@ What does the AWS Storage Gateway provide?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SES, Storage Gateway]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-storage-gateway/
@@ -46,6 +52,9 @@ You’re running an application on-premises due to its dependency on non-x86 har
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, SES, Glacier, Storage Gateway]
 
 Explanation:
 
@@ -67,6 +76,9 @@ A customer has a single 3-TB volume on-premises that is used to hold a large rep
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SES, Glacier, Storage Gateway]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-storage-gateway/
@@ -84,6 +96,9 @@ You have a proprietary data store on-premises that must be backed up daily by du
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[S3, SES, Glacier, Storage Gateway, EBS]
 
 Explanation:
 
@@ -112,6 +127,9 @@ A customer implemented AWS Storage Gateway with a gateway-cached volume at their
 
 <details><summary>Answer:</summary><p>
 [D, E, F]
+
+Categories:
+[S3, Glacier, EC2, Storage Gateway, EBS]
 
 Explanation:
 

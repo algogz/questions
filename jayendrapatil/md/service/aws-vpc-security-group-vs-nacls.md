@@ -10,6 +10,9 @@ Instance A and instance B are running in two different subnets A and B of a VPC.
 <details><summary>Answer:</summary><p>
 [B, D]
 
+Categories:
+[IAM, VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -27,6 +30,9 @@ An instance is launched into a VPC subnet with the network ACL configured to all
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -48,6 +54,9 @@ From what services I can block incoming/outgoing IPs?
 <details><summary>Answer:</summary><p>
 [F]
 
+Categories:
+[VPC, ELB]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -67,6 +76,9 @@ What is the difference between a security group in VPC and a network ACL in VPC 
 <details><summary>Answer:</summary><p>
 [B, D, E]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -84,6 +96,9 @@ You are currently hosting multiple applications in a VPC and have logged numerou
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, VPC]
 
 Explanation:
 
@@ -103,6 +118,9 @@ You have two Elastic Compute Cloud (EC2) instances inside a Virtual Private Clou
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -121,6 +139,9 @@ A benefits enrollment company is hosting a 3-tier web application running in a V
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, CloudWatch, VPC]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -138,6 +159,9 @@ Which of the following statements describes network ACLs? (Choose 2 answers)
 
 <details><summary>Answer:</summary><p>
 [B, C]
+
+Categories:
+[SES]
 
 Explanation:
 
@@ -161,6 +185,9 @@ You are designing security inside your VPC. You are considering the options for 
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -182,6 +209,9 @@ Your entire AWS infrastructure lives inside of one Amazon VPC. You have an Infra
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -209,6 +239,9 @@ A user has configured a VPC with a new subnet. The user has created a security g
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/
@@ -226,6 +259,9 @@ You are designing a data leak prevention solution for your VPC environment. You 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -246,6 +282,9 @@ You have an EC2 Security Group with several running EC2 instances. You change th
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2]
 
 Explanation:
 

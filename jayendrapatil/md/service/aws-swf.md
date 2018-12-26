@@ -10,6 +10,9 @@ What does Amazon SWF stand for?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SWF]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-swf/
@@ -27,6 +30,9 @@ Regarding Amazon SWF, the coordination logic in a workflow is contained in a sof
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SWF]
 
 Explanation:
 
@@ -47,6 +53,9 @@ For which of the following use cases are Simple Workflow Service (SWF) and Amazo
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, SWF, EC2, EBS, SNS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-swf/
@@ -64,6 +73,9 @@ Amazon SWF is designed to help users…
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SWF]
 
 Explanation:
 
@@ -83,6 +95,9 @@ What does a “Domain” refer to in Amazon SWF?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SWF]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-swf/
@@ -100,6 +115,9 @@ Your company produces customer commissioned one-of-a-kind skiing helmets combini
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[SES, RDS, SWF]
 
 Explanation:
 
@@ -127,6 +145,9 @@ Your startup wants to implement an order fulfillment process for selling a perso
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, RDS, SWF, SQS, EC2, ASG, EBS, Elastic Beanstalk]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-swf/
@@ -151,6 +172,9 @@ Select appropriate use cases for SWF with Amazon EC2? (Choose 2)
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[S3, SES, SWF, SQS, EC2]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-swf/
@@ -169,6 +193,9 @@ When you register an activity in Amazon SWF, you provide the following informati
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SWF]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-swf/
@@ -186,6 +213,9 @@ Regarding Amazon SWF, at times you might want to record information in the workf
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SWF]
 
 Explanation:
 
@@ -206,6 +236,9 @@ Which of the following statements about SWF are true? Choose 3 answers.
 
 <details><summary>Answer:</summary><p>
 [A, C, E]
+
+Categories:
+[S3, SES, SWF, EC2, SNS]
 
 Explanation:
 

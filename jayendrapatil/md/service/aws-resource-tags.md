@@ -10,6 +10,9 @@ Fill in the blanks: _________ let you categorize your EC2 resources in different
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS, EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-resource-tags/
@@ -27,6 +30,9 @@ Please select the Amazon EC2 resource, which can be tagged.
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, EC2, EBS]
 
 Explanation:
 
@@ -46,6 +52,9 @@ Can the string value of ‘Key’ be prefixed with aws:?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, EC2]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-resource-tags/
@@ -64,6 +73,9 @@ What is the maximum key length of a tag?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-resource-tags/
@@ -81,6 +93,9 @@ An organization has launched 5 instances: 2 for production and 3 for testing. Th
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -108,6 +123,9 @@ A user has launched multiple EC2 instances for the purpose of development and te
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-resource-tags/
@@ -125,6 +143,9 @@ An organization is using cost allocation tags to find the cost distribution of d
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[]
 
 Explanation:
 
@@ -144,6 +165,9 @@ A user is launching an instance. He is on the “Tag the instance” screen. Whi
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-resource-tags/
@@ -161,6 +185,9 @@ Your system recently experienced down time during the troubleshooting process. Y
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM, EC2]
 
 Explanation:
 
@@ -188,6 +215,9 @@ Your manager has requested you to tag EC2 instances to organize and manage a loa
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-resource-tags/
@@ -209,6 +239,9 @@ What is the maximum number of tags that a user can assign to an EC2 instance?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2]
 
 Explanation:
 

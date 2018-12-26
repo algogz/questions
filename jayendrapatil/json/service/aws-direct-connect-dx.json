@@ -15,6 +15,11 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -33,6 +38,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -51,6 +60,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "SES",
+      "Direct Connect"
     ]
   },
   {
@@ -69,6 +82,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "Direct Connect"
     ]
   },
   {
@@ -92,6 +108,12 @@
       "A: (deals with VPN)",
       "C: (route propagation is enabled on VGW)",
       "D: (no route command available)"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -115,6 +137,11 @@
       "A: Peered VPC does not support Edge to Edge Routing",
       "C: Peered VPC does not support Edge to Edge Routing",
       "D: need to be in the same region as VPC-1"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -133,6 +160,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -154,6 +186,11 @@
       "A: propagating default route would cause conflict",
       "C: there cannot be 2 default routes",
       "D: as the instances has to be in public subnet and should have a single routing table associated with them"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -172,6 +209,11 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "S3",
+      "VPC",
+      "Direct Connect"
     ]
   },
   {
@@ -190,6 +232,12 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-direct-connect-dx/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -218,6 +266,12 @@
       "D: IP address cannot conflict",
       "E: Route 53 is not required",
       "F: VM Import to copy the VM to AWS as there is no documentation it can’t be configured from scratch"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Route 53",
+      "Direct Connect"
     ]
   }
 ]

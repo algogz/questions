@@ -10,6 +10,9 @@ You currently operate a web application in the AWS US-East region. The applicati
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, RDS, IAM, EC2, SNS, CloudTrail]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloudtrail/
@@ -38,6 +41,9 @@ Which of the following are true regarding AWS CloudTrail? Choose 3 answers
 
 <details><summary>Answer:</summary><p>
 [A, B, C, E]
+
+Categories:
+[S3, CloudTrail]
 
 Explanation:
 
@@ -71,6 +77,9 @@ An organization has configured the custom metric upload with CloudWatch. The org
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, IAM, CloudWatch, CloudTrail]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-cloudtrail/
@@ -88,6 +97,9 @@ A user is trying to understand the CloudWatch metrics for the AWS services. It i
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SWF, CloudWatch, ElastiCache, CloudTrail]
 
 Explanation:
 
@@ -108,6 +120,9 @@ Your CTO thinks your AWS account was hacked. What is the only way to know for ce
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, Glacier, SNS, CloudTrail]
 
 Explanation:
 
@@ -130,6 +145,9 @@ Your CTO has asked you to make sure that you know what all users of your AWS acc
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, SES, IAM, CloudWatch, SNS, DynamoDB, Lambda, CloudTrail]
 
 Explanation:
 

@@ -14,6 +14,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -32,6 +35,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -49,6 +55,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -67,7 +76,8 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-iam-overview/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-overview/",
@@ -85,6 +95,11 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "EMR"
     ]
   },
   {
@@ -103,6 +118,15 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "S3",
+      "KMS",
+      "IAM",
+      "EC2",
+      "ASG",
+      "VPC",
+      "SNS"
     ]
   },
   {
@@ -125,6 +149,10 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-iam-overview/",
       "E: required for EC2 instance access"
+    ],
+    "categories": [
+      "SES",
+      "RDS"
     ]
   },
   {
@@ -143,6 +171,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "RDS",
+      "IAM"
     ]
   },
   {
@@ -161,6 +193,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -182,6 +217,10 @@
       "Question 10@http://jayendrapatil.com/aws-iam-overview/",
       "B: can set password policy",
       "D: no such option the password expiration can be set from 1 to 1095 days"
+    ],
+    "categories": [
+      "RDS",
+      "IAM"
     ]
   },
   {
@@ -201,6 +240,10 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "SES",
+      "IAM"
     ]
   },
   {
@@ -219,6 +262,11 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -237,6 +285,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -256,6 +307,9 @@
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-iam-overview/",
       "A: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-limits.html"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -274,6 +328,10 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -292,7 +350,8 @@
     ],
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-iam-overview/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-overview/",
@@ -310,7 +369,8 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-iam-overview/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-overview/",
@@ -327,6 +387,9 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -350,6 +413,11 @@
       "Question 19@http://jayendrapatil.com/aws-iam-overview/",
       "B: needs ssh keys",
       "D: need to authenticate using blog authentication"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EC2"
     ]
   },
   {
@@ -368,6 +436,9 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-iam-overview/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -388,6 +459,10 @@
       "Question 21@http://jayendrapatil.com/aws-iam-overview/",
       "B: http://aws.amazon.com/articles/1233/",
       "B: . "
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   }
 ]

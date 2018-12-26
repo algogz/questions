@@ -17,7 +17,12 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-securing-data-at-rest/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2",
+      "EBS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-securing-data-at-rest/",
@@ -40,7 +45,10 @@
       "Question 2@http://jayendrapatil.com/aws-securing-data-at-rest/",
       "A: —"
     ],
-    "categories": []
+    "categories": [
+      "EC2",
+      "EBS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-securing-data-at-rest/",
@@ -63,7 +71,11 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-securing-data-at-rest/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "KMS",
+      "EC2"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-securing-data-at-rest/",
@@ -86,7 +98,13 @@
       "C: is optional",
       "D: is optional"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "Glacier",
+      "Storage Gateway",
+      "EBS",
+      "Redshift"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-securing-data-at-rest/",
@@ -107,6 +125,12 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-securing-data-at-rest/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "ElastiCache",
+      "DynamoDB",
+      "Redshift"
+    ]
   }
 ]

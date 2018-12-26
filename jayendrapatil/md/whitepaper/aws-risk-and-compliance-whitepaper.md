@@ -11,7 +11,8 @@ When preparing for a compliance assessment of your system built inside of AWS. W
 <details><summary>Answer:</summary><p>
 [A, B, D]
 
-[]
+Categories:
+[SES]
 
 Explanation:
 
@@ -42,6 +43,7 @@ In the shared security model, AWS is responsible for which of the following secu
 <details><summary>Answer:</summary><p>
 [A, C, E]
 
+Categories:
 []
 
 Explanation:
@@ -62,7 +64,8 @@ You are running a web-application on AWS consisting of the following components 
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[RDS, EC2, ELB]
 
 Explanation:
 
@@ -88,7 +91,8 @@ Which of the following statements is true about achieving PCI certification on t
 <details><summary>Answer:</summary><p>
 [A, D]
 
-[]
+Categories:
+[EC2]
 
 Explanation:
 

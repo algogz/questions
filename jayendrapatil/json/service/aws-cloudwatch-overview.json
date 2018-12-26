@@ -18,6 +18,14 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "A: Cannot be integrated with CloudWatch directly"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SQS",
+      "CloudWatch",
+      "SNS",
+      "Route 53"
     ]
   },
   {
@@ -38,6 +46,10 @@
       "Question 2@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "B: https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/access-log-collection.html",
       "D: does not provide Client connection information"
+    ],
+    "categories": [
+      "CloudWatch",
+      "CloudTrail"
     ]
   },
   {
@@ -56,6 +68,12 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "EBS"
     ]
   },
   {
@@ -74,6 +92,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch"
     ]
   },
   {
@@ -92,6 +114,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -112,6 +137,9 @@
       "Question 6@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "C: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html#publishingZero",
       "C: (Refer"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -132,6 +160,9 @@
       "Question 7@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "B: http://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html",
       "B: refer"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -150,6 +181,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -168,6 +202,12 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ASG",
+      "SNS"
     ]
   },
   {
@@ -186,6 +226,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -204,6 +247,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -222,6 +268,11 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "SNS"
     ]
   },
   {
@@ -240,6 +291,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "CloudWatch"
     ]
   },
   {
@@ -261,6 +315,11 @@
       "A: CloudWatch metrics are regional",
       "C: Can’t add SNMP traps to DynamoDB as it is a managed service",
       "D: Can’t add agents to DynamoDB as it is a managed service"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "DynamoDB"
     ]
   },
   {
@@ -282,6 +341,11 @@
       "A: Consolidation will not help limit per account",
       "B: many instances do not directly map to cost and would not give exact cost",
       "C: as each project already has a account, no need for resource tagging"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ASG",
+      "SNS"
     ]
   },
   {
@@ -301,6 +365,16 @@
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "B: Metrics data was available for 2 weeks before, however it has been extended now before, however it has been extended now"
+    ],
+    "categories": [
+      "S3",
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "EBS",
+      "DynamoDB",
+      "ELB",
+      "CloudTrail"
     ]
   },
   {
@@ -321,6 +395,16 @@
       "Question 17@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "D: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/EventTypes.html#api_event_type",
       "D: CloudWatch Events allow subscription to AWS API calls, and direction of these events into Kinesis Streams. This allows a unified, near real-time stream for all API calls, which can be analyzed with any tool(s). Refer"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "IAM",
+      "CloudWatch",
+      "Kinesis",
+      "SNS",
+      "Lambda",
+      "CloudTrail"
     ]
   },
   {
@@ -341,6 +425,11 @@
       "Question 18@http://jayendrapatil.com/aws-cloudwatch-overview/",
       "C: https://aws.amazon.com/whitepapers/security-at-scale-governance-in-aws/",
       "C: CloudTrail is a batch API call collection service, CloudWatch Events enables real-time monitoring of calls through the Rules object interface. Refer"
+    ],
+    "categories": [
+      "CloudWatch",
+      "Lambda",
+      "CloudTrail"
     ]
   },
   {
@@ -363,6 +452,14 @@
       "B: is not fast in search and introduces delay",
       "C: is not fast in search and introduces delay",
       "D: ELK – Elasticsearch, Kibana stack is designed specifically for real-time, ad-hoc log analysis and aggregation"
+    ],
+    "categories": [
+      "S3",
+      "Elasticsearch",
+      "CloudWatch",
+      "Kinesis",
+      "EMR",
+      "Lambda"
     ]
   },
   {
@@ -381,6 +478,11 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-cloudwatch-overview/"
+    ],
+    "categories": [
+      "SQS",
+      "EC2",
+      "CloudWatch"
     ]
   }
 ]

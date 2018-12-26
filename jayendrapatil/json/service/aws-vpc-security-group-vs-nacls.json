@@ -16,6 +16,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "IAM",
+      "VPC"
     ]
   },
   {
@@ -34,6 +38,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -54,6 +61,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -75,6 +86,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -93,6 +108,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -112,6 +131,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -130,6 +153,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "SES",
+      "CloudWatch",
+      "VPC"
     ]
   },
   {
@@ -151,6 +179,9 @@
       "Question 8@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/",
       "A: are stateless",
       "D: associated with Subnet"
+    ],
+    "categories": [
+      "SES"
     ]
   },
   {
@@ -172,6 +203,10 @@
       "Question 9@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/",
       "A: Security group does not allow deny rules",
       "D: default routes are unmodifiable"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -194,6 +229,9 @@
       "B: Need not have to be part of same security group",
       "C: is stateful, so just allow outbound ICMP from monitoring and inbound ICMP on monitored instance",
       "D: Security groups are stateful"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -212,6 +250,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -231,6 +272,9 @@
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/",
       "A: Security group and NACL cannot have URLs in the rules nor does the route"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -249,6 +293,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-vpc-security-group-vs-nacls/"
+    ],
+    "categories": [
+      "EC2"
     ]
   }
 ]

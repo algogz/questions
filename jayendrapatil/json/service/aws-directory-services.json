@@ -17,6 +17,9 @@
       "B: not a low latency solution",
       "C: RODCs low latency and minimal setup",
       "D: Not minimal effort"
+    ],
+    "categories": [
+      "SES"
     ]
   },
   {
@@ -38,7 +41,8 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-directory-services/",
       "A: for Corporate Active directory"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-directory-services/",
@@ -58,6 +62,11 @@
       "B: highly available with 2 AZ’s, secure with VPN connection and minimal changes",
       "C: not minimal on-premises hardware changes",
       "D: not a central location, but a copy"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -80,6 +89,10 @@
       "B: WorkSpaces for Virtual desktops, and AWS Directory Services to authenticate to an existing on-premises AD through VPN",
       "C: AD service needs a VPN connection to interact with an On-premise AD directory",
       "D: Need WorkSpaces for virtual desktops"
+    ],
+    "categories": [
+      "Directory Services",
+      "VPC"
     ]
   },
   {
@@ -100,6 +113,11 @@
       "Question 5@http://jayendrapatil.com/aws-directory-services/",
       "C: not a minimal change to the existing infrastructure",
       "D: Standalone cannot use the same security"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -119,6 +137,9 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-directory-services/",
       "B: AD Connector can be used as power-user of Microsoft Active Directory. Simple AD only works with a subset of AD functionality"
+    ],
+    "categories": [
+      "Lambda"
     ]
   }
 ]

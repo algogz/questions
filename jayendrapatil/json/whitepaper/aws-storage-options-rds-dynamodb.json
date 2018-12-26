@@ -20,7 +20,11 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-storage-options-rds-dynamodb/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "DynamoDB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-rds-dynamodb/",
@@ -39,7 +43,10 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-storage-options-rds-dynamodb/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-rds-dynamodb/",
@@ -59,7 +66,11 @@
       "Question 3@http://jayendrapatil.com/aws-storage-options-rds-dynamodb/",
       "B: DynamoDB provides high availability as it synchronously replicates data across three facilities within an AWS Region and scalability as it is designed to scale its provisioned throughput up or down while still remaining available. Also suitable for storing user preference data"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "DynamoDB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-rds-dynamodb/",
@@ -78,7 +89,9 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-storage-options-rds-dynamodb/"
     ],
-    "categories": []
+    "categories": [
+      "RDS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-rds-dynamodb/",
@@ -97,7 +110,12 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-storage-options-rds-dynamodb/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "DynamoDB",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-storage-options-rds-dynamodb/",
@@ -116,6 +134,9 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-storage-options-rds-dynamodb/"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "DynamoDB"
+    ]
   }
 ]

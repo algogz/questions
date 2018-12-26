@@ -24,7 +24,7 @@ public class JayendrapatilExtractorTests {
 
     @Test
     public void testConvertAllToMarkdown() throws IOException {
-        JayendrapatilUtils.convertAllToMarkdown(JayendrapatilUtils.WHITEPAPER,true);
+        JayendrapatilUtils.convertAllToMarkdown(JayendrapatilUtils.SERVICE,true);
     }
 
     @Test

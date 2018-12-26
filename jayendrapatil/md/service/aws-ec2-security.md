@@ -10,6 +10,9 @@ You launch an Amazon EC2 instance without an assigned AWS identity and Access Ma
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[IAM, EC2, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-security/
@@ -34,6 +37,9 @@ What does the following command do with respect to the Amazon EC2 security group
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-ec2-security/
@@ -51,6 +57,9 @@ Which of the following cannot be used in Amazon EC2 to control who has access to
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, IAM, EC2]
 
 Explanation:
 
@@ -70,6 +79,9 @@ You must assign each server to at least _____ security group
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-ec2-security/
@@ -87,6 +99,9 @@ A company is building software on AWS that requires access to various AWS servic
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM, EC2]
 
 Explanation:
 
@@ -106,6 +121,9 @@ Which of the following items are required to allow an application deployed on an
 
 <details><summary>Answer:</summary><p>
 [A, B]
+
+Categories:
+[IAM, EC2, DynamoDB]
 
 Explanation:
 
@@ -131,6 +149,9 @@ You have an application running on an EC2 Instance, which will allow users to do
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, IAM, EC2]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-ec2-security/
@@ -148,6 +169,9 @@ A user has created an application, which will be hosted on EC2. The application 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM, EC2, DynamoDB]
 
 Explanation:
 
@@ -167,6 +191,9 @@ Your application is leveraging IAM Roles for EC2 for accessing object stored in 
 
 <details><summary>Answer:</summary><p>
 [A, B]
+
+Categories:
+[S3, IAM, EC2]
 
 Explanation:
 
@@ -191,6 +218,9 @@ You have an application running on an EC2 Instance, which will allow users to do
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, IAM, EC2]
 
 Explanation:
 

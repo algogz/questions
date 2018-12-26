@@ -10,6 +10,9 @@ One of the challenges in managing AWS resources is to keep track of changes in t
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudTrail]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-config/
@@ -27,6 +30,9 @@ Fill the blanks: ____ helps us track AWS API calls and transitions, ____ helps t
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM, CloudTrail]
 
 Explanation:
 

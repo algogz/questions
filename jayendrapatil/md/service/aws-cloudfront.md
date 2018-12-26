@@ -10,6 +10,9 @@ Your company Is moving towards tracking web page users with a small tracking Ima
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[S3, RDS, CloudFront, EC2, EBS, Route 53]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloudfront/
@@ -29,6 +32,9 @@ You deployed your company website using Elastic Beanstalk and you enabled log fi
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, CloudFront, EBS, ELB, EMR, Elastic Beanstalk]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-cloudfront/
@@ -46,6 +52,9 @@ An AWS customer runs a public blogging website. The site users upload two millio
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, CloudFront, EBS]
 
 Explanation:
 
@@ -65,6 +74,9 @@ Your company has on-premises multi-tier PHP web application, which recently expe
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SES, RDS, CloudFront, EC2, ASG, EBS, ELB]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-cloudfront/
@@ -82,6 +94,9 @@ You are building a system to distribute confidential training videos to employee
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, CloudFront, IAM]
 
 Explanation:
 
@@ -101,6 +116,9 @@ A media production company wants to deliver high-definition raw video for prepro
 
 <details><summary>Answer:</summary><p>
 [A, E]
+
+Categories:
+[S3, RDS, CloudFront, EC2, EMR]
 
 Explanation:
 
@@ -126,6 +144,9 @@ Your customer is implementing a video on-demand streaming platform on AWS. The r
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, CloudFront, EC2]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-cloudfront/
@@ -146,6 +167,9 @@ You are an architect for a news -sharing mobile application. Anywhere in the wor
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, SES, EC2]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-cloudfront/
@@ -164,6 +188,9 @@ To enable end-to-end HTTPS connections from the user‘s browser to the origin v
 
 <details><summary>Answer:</summary><p>
 [C, D]
+
+Categories:
+[CloudFront]
 
 Explanation:
 
@@ -189,6 +216,9 @@ Your application consists of 10% writes and 90% reads. You currently service all
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, SES, RDS, CloudFront, EC2, ASG, ElastiCache, ELB]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-cloudfront/
@@ -209,6 +239,9 @@ You are designing a service that aggregates clickstream data in batch and delive
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, RDS, CloudFront, Elasticsearch, EC2, ASG, Kinesis, EMR, Lambda, Redshift, API Gateway]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-cloudfront/
@@ -228,6 +261,9 @@ Your website is serving on-demand training videos to your workforce. Videos are 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, CloudFront, SQS, Glacier, EC2, ASG, Elastic Transcoder, EBS]
 
 Explanation:
 

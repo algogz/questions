@@ -12,6 +12,9 @@ Which of the following are use cases for Amazon DynamoDB? Choose 3 answers
 <details><summary>Answer:</summary><p>
 [B, C, D]
 
+Categories:
+[S3, SES, DynamoDB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-dynamodb/
@@ -29,6 +32,9 @@ You are configuring your company’s application to use Auto Scaling and need to
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, EC2, ASG, ElastiCache, DynamoDB]
 
 Explanation:
 
@@ -54,6 +60,9 @@ Does Dynamo DB support in-place atomic updates?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-dynamodb/
@@ -71,6 +80,9 @@ What is the maximum write throughput I can provision for a single Dynamic DB tab
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[]
 
 Explanation:
 
@@ -90,6 +102,9 @@ For a DynamoDB table, what happens if the application performs more reads or wri
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-dynamodb/
@@ -108,6 +123,9 @@ In which of the following situations might you benefit from using DynamoDB? (Cho
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, DynamoDB]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-dynamodb/
@@ -125,6 +143,9 @@ You are designing a file-sharing service. This service will have millions of fil
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, RDS, DynamoDB, ELB]
 
 Explanation:
 
@@ -149,6 +170,9 @@ A utility company is building an application that stores data coming from more t
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -176,6 +200,9 @@ You have recently joined a startup company building sensors to measure street no
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS, SQS, EC2, DynamoDB, Redshift]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-dynamodb/
@@ -202,6 +229,9 @@ Does Amazon DynamoDB support both increment and decrement atomic operations?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-dynamodb/
@@ -220,6 +250,9 @@ What is the data model of DynamoDB?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-dynamodb/
@@ -237,6 +270,9 @@ In regard to DynamoDB, for which one of the following parameters does Amazon not
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -257,6 +293,9 @@ Which statements about DynamoDB are true? Choose 2 answers.
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, DynamoDB]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-dynamodb/
@@ -274,6 +313,9 @@ Which of the following is an example of a good DynamoDB hash key schema for prov
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -293,6 +335,9 @@ You are inserting 1000 new items every second in a DynamoDB table. Once an hour 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-dynamodb/
@@ -310,6 +355,9 @@ When using a large Scan operation in DynamoDB, what technique can be used to min
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -331,6 +379,9 @@ In regard to DynamoDB, which of the following statements is correct?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-dynamodb/
@@ -348,6 +399,9 @@ Which one of the following statements is NOT an advantage of DynamoDB being buil
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, DynamoDB]
 
 Explanation:
 
@@ -369,6 +423,9 @@ Which one of the following operations is NOT a DynamoDB operation?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 19@http://jayendrapatil.com/aws-dynamodb/
@@ -389,6 +446,9 @@ What item operation allows the retrieval of multiple items from a DynamoDB table
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[DynamoDB, EMR]
+
 Explanation:
 
 Question 20@http://jayendrapatil.com/aws-dynamodb/
@@ -407,6 +467,9 @@ An application stores payroll information nightly in DynamoDB for a large number
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 21@http://jayendrapatil.com/aws-dynamodb/
@@ -424,6 +487,9 @@ You need to migrate 10 million records in one hour into DynamoDB. All records ar
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS, DynamoDB]
 
 Explanation:
 
@@ -448,6 +514,9 @@ A meteorological system monitors 600 temperature gauges, obtaining temperature s
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-dynamodb/
@@ -467,6 +536,9 @@ You are building a game high score table in DynamoDB. You will store each user�
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -489,6 +561,9 @@ You are experiencing performance issues writing to a DynamoDB table. Your system
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -513,6 +588,9 @@ You are writing to a DynamoDB table and receive the following exception:” Prov
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudWatch, ASG, DynamoDB]
+
 Explanation:
 
 Question 26@http://jayendrapatil.com/aws-dynamodb/
@@ -532,6 +610,9 @@ Your company sells consumer devices and needs to record the first activation of 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, RDS, DynamoDB]
 
 Explanation:
 

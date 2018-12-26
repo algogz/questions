@@ -17,6 +17,13 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-storage-gateway/"
+    ],
+    "categories": [
+      "CloudFront",
+      "SQS",
+      "Glacier",
+      "Storage Gateway",
+      "DynamoDB"
     ]
   },
   {
@@ -35,6 +42,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-storage-gateway/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Storage Gateway"
     ]
   },
   {
@@ -54,6 +66,12 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-storage-gateway/",
       "D: Data is hosted on the On-premise server as well. The requirement for 140TB is for file server On-Premise more to confuse and not in AWS. Just need a backup solution hence stored instead of cached volumes"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Glacier",
+      "Storage Gateway"
     ]
   },
   {
@@ -72,6 +90,12 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-storage-gateway/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Glacier",
+      "Storage Gateway"
     ]
   },
   {
@@ -92,6 +116,13 @@
       "B: Not cost effective",
       "C: Store in S3 for seven days and then archive to Glacier",
       "D: Not Cost effective as local storage as well as S3 storage"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Glacier",
+      "Storage Gateway",
+      "EBS"
     ]
   },
   {
@@ -115,6 +146,13 @@
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-storage-gateway/",
       "A: gateway volumes are only accessible from the AWS Storage Gateway and cannot be directly accessed using Amazon S3 APIs"
+    ],
+    "categories": [
+      "S3",
+      "Glacier",
+      "EC2",
+      "Storage Gateway",
+      "EBS"
     ]
   }
 ]

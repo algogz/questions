@@ -10,6 +10,9 @@ You require the ability to analyze a large amount of data, which is stored on Am
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, EMR]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-emr-certification/
@@ -30,6 +33,9 @@ A customer’s nightly EMR job processes a single 2-TB data file stored on Amazo
 <details><summary>Answer:</summary><p>
 [B, E]
 
+Categories:
+[S3, SES, EMR]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-emr-certification/
@@ -47,6 +53,9 @@ Your department creates regular analytics reports from your company’s log file
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, EMR, Redshift]
 
 Explanation:
 
@@ -74,6 +83,9 @@ A research scientist is planning for the one-time launch of an Elastic MapReduce
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, RDS, Glacier, EC2]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-emr-certification/
@@ -97,6 +109,9 @@ Your company sells consumer devices and needs to record the first activation of 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, RDS, DynamoDB]
 
 Explanation:
 

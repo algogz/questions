@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-storage-classes/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -33,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-storage-classes/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -51,6 +57,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-s3-storage-classes/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -70,6 +80,11 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-s3-storage-classes/",
       "D: Reduced Redundancy Storage (RRS) is an Amazon S3 storage option that enables customers to store noncritical, reproducible data at lower levels of redundancy than Amazon S3’s standard storage. RRS is designed to sustain the loss of data in a single facility."
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier"
     ]
   },
   {
@@ -90,6 +105,10 @@
       "Question 5@http://jayendrapatil.com/aws-s3-storage-classes/",
       "B: http://docs.aws.amazon.com/AmazonS3/latest/dev/restoring-objects.html",
       "B: After the object is restored the storage class still remains GLACIER."
+    ],
+    "categories": [
+      "SES",
+      "Glacier"
     ]
   },
   {
@@ -112,6 +131,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Spot instances impacts performance",
       "D: Spot instances impacts performance"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -130,7 +154,8 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-s3-storage-classes/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-s3-storage-classes/",
@@ -154,6 +179,17 @@
       "C: Standard S3 and Elastic Beanstalk provides availability and durability, Standard S3 and CloudSearch provides cost effective storage and search",
       "D: RDS is not ideal and cost effective to store files, Single AZ impacts availability",
       "E: CloudFront needs a source and using commercial search product is not cost effective"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "EBS",
+      "CloudFormation",
+      "CloudSearch",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -175,6 +211,12 @@
       "B: Master and Core must be RI or On Demand. Cannot be Spot",
       "C: Need better durability for ingest file. Spot instances can be used for task nodes for cost saving.",
       "D: Input must be in S3 standard"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2"
     ]
   }
 ]

@@ -24,7 +24,9 @@
       "D: AWS requires prior approval to be taken to perform penetration tests",
       "E: Customers can request the reports and certifications produced by our third-party auditors or can request more information about AWS Compliance"
     ],
-    "categories": []
+    "categories": [
+      "SES"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-risk-and-compliance-whitepaper/",
@@ -68,7 +70,11 @@
       "C: Customer owned",
       "D: Customer owned"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-risk-and-compliance-whitepaper/",
@@ -88,6 +94,8 @@
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-risk-and-compliance-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "EC2"
+    ]
   }
 ]

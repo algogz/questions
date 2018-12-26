@@ -11,6 +11,9 @@ Which of the following notification endpoints or clients does Amazon Simple Noti
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[CloudFront, SNS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-sns-simple-notification-service/
@@ -28,6 +31,9 @@ What happens when you create a topic on Amazon SNS?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SQS, SNS]
 
 Explanation:
 
@@ -47,6 +53,9 @@ A user has deployed an application on his private cloud. The user is using his o
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, SNS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-sns-simple-notification-service/
@@ -64,6 +73,9 @@ A user wants to make so that whenever the CPU utilization of the AWS EC2 instanc
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, EC2, CloudWatch, SNS]
 
 Explanation:
 
@@ -83,6 +95,9 @@ A user is trying to understand AWS SNS. To which of the below mentioned end poin
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, SQS, SNS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-sns-simple-notification-service/
@@ -100,6 +115,9 @@ A user is running a webserver on EC2. The user wants to receive the SMS when the
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, SQS, EC2, CloudWatch, EBS, SNS]
 
 Explanation:
 
@@ -119,6 +137,9 @@ A user is planning to host a mobile game on EC2 which sends notifications to act
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, SQS, EC2, SNS]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-sns-simple-notification-service/
@@ -136,6 +157,9 @@ You are providing AWS consulting service for a company developing a new mobile a
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SNS]
 
 Explanation:
 
@@ -157,6 +181,9 @@ A company is running a batch analysis every hour on their main transactional DB 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, RDS, SQS, SNS, Redshift]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-sns-simple-notification-service/
@@ -176,6 +203,9 @@ Which of the following are valid SNS delivery transports? Choose 2 answers.
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[SNS, DynamoDB]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-sns-simple-notification-service/
@@ -193,6 +223,9 @@ What is the format of structured notification messages sent by Amazon SNS?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SNS]
 
 Explanation:
 
@@ -213,6 +246,9 @@ Which of the following are valid arguments for an SNS Publish request? Choose 3 
 
 <details><summary>Answer:</summary><p>
 [A, B, E]
+
+Categories:
+[SNS]
 
 Explanation:
 

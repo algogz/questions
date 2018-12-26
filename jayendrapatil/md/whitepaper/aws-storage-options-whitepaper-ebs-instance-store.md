@@ -10,7 +10,8 @@ Which of the following provides the fastest storage medium?
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[S3, Storage Gateway, EBS]
 
 Explanation:
 

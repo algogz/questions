@@ -10,6 +10,9 @@ Your website is serving on-demand training videos to your workforce. Videos are 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, CloudFront, SQS, Glacier, EC2, ASG, Elastic Transcoder, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elastic-transcoder/

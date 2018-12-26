@@ -10,6 +10,9 @@ You are designing an enterprise data storage system. Your data management softwa
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ebs-volume-types/
@@ -30,6 +33,9 @@ Which EBS volume type is best for high performance NoSQL cluster deployments?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-ebs-volume-types/
@@ -47,6 +53,9 @@ Provisioned IOPS Costs: you are charged for the IOPS and storage whether or not 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[]
 
 Explanation:
 
@@ -66,6 +75,9 @@ A user is trying to create a PIOPS EBS volume with 8 GB size and 200 IOPS. Will 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-ebs-volume-types/
@@ -84,6 +96,9 @@ A user has provisioned 2000 IOPS to the EBS volume. The application hosted on th
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ebs-volume-types/
@@ -101,6 +116,9 @@ A user is trying to create a PIOPS EBS volume with 4000 IOPS and 100 GB size. AW
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EBS]
 
 Explanation:
 

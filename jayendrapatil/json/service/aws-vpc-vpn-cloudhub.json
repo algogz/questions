@@ -16,6 +16,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -39,6 +43,9 @@
       "B: soft limit can be extended",
       "C: Can route the traffic to correct connection",
       "D: can be configured"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -58,6 +65,10 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/",
       "B: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_VPN.html"
+    ],
+    "categories": [
+      "S3",
+      "SES"
     ]
   },
   {
@@ -80,6 +91,11 @@
       "B: Needs to be published to internet",
       "C: Instances still in public subnet are internet accessible",
       "D: Cost effective and can be in private subnet as well"
+    ],
+    "categories": [
+      "VPC",
+      "ELB",
+      "Direct Connect"
     ]
   },
   {
@@ -103,6 +119,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-vpc-vpn-cloudhub/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -125,6 +145,20 @@
       "B: Storage Gateway does provide secure connectivity but still needs VPN. SNS alone cannot handle builds",
       "C: Storage Gateway does not provide secure connectivity, still needs VPN. EMR is not ideal for performing builds as it needs normal EC2 instances",
       "D: VPN gateway is required for secure connectivity. SQS for build queue and EC2 for builds"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "SQS",
+      "EC2",
+      "Storage Gateway",
+      "ASG",
+      "EBS",
+      "VPC",
+      "SNS",
+      "EMR"
     ]
   }
 ]

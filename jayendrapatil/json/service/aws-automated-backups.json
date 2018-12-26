@@ -16,6 +16,12 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-automated-backups/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EBS",
+      "Redshift"
     ]
   },
   {
@@ -34,6 +40,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-automated-backups/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "EBS"
     ]
   }
 ]

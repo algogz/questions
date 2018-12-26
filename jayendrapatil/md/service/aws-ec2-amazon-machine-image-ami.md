@@ -10,6 +10,9 @@ A user has launched an EC2 instance from an instance store backed AMI. The infra
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, Instance Store]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/
@@ -27,6 +30,9 @@ A user has launched an EC2 Windows instance from an instance store backed AMI. T
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, EBS, Instance Store]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user has launched two EBS backed EC2 instances in the US-East-1a region. The u
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/
@@ -63,6 +72,9 @@ A user has launched a large EBS backed EC2 instance in the US-East-1a region. Th
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -82,6 +94,9 @@ A user has launched an EC2 instance store backed instance in the US-East-1a zone
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, Instance Store]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/
@@ -100,6 +115,9 @@ George has shared an EC2 AMI created in the US East region from his AWS account 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/
@@ -117,6 +135,9 @@ EC2 instances are launched from Amazon Machine images (AMIS). A given public AMI
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2]
 
 Explanation:
 

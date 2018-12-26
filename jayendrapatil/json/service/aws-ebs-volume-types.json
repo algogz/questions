@@ -16,6 +16,10 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ebs-volume-types/",
       "C: (Standard or Magnetic volumes are suited for cold workloads where data is infrequently accessed, or scenarios where the lowest storage cost is important)"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -35,6 +39,9 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ebs-volume-types/",
       "A: (io1 volumes, or Provisioned IOPS (PIOPS) SSDs, are best for: Critical business applications that require sustained IOPS performance, or more than 10,000 IOPS or 160 MiB/s of throughput per volume, like large database workloads, such as MongoDB.)"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -51,7 +58,8 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ebs-volume-types/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ebs-volume-types/",
@@ -69,6 +77,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ebs-volume-types/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -87,6 +98,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ebs-volume-types/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -105,6 +120,9 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ebs-volume-types/"
+    ],
+    "categories": [
+      "EBS"
     ]
   }
 ]

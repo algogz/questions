@@ -10,6 +10,9 @@ What are the two permission types used by AWS?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-iam-roles-vs-resource-based-policies/
@@ -26,6 +29,9 @@ What’s the policy used for cross account access? (Choose 2)
 
 <details><summary>Answer:</summary><p>
 [A, B]
+
+Categories:
+[]
 
 Explanation:
 

@@ -10,6 +10,9 @@ You’ve been hired to enhance the overall security posture for a very large e-c
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, SES, RDS, EC2, VPC, DynamoDB, Route 53, ELB, EMR, WAF]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-waf/

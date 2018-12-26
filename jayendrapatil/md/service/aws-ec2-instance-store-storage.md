@@ -9,6 +9,9 @@ Please select the most correct answer regarding the persistence of the Amazon In
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, Instance Store]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-instance-store-storage/
@@ -26,6 +29,9 @@ A user has launched an EC2 instance from an instance store backed AMI. The user 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, Instance Store]
 
 Explanation:
 
@@ -45,6 +51,9 @@ When an EC2 instance that is backed by an S3-based AMI Is terminated, what happe
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, EC2, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-instance-store-storage/
@@ -62,6 +71,9 @@ A user has launched an EC2 instance from an instance store backed AMI. If the us
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, Instance Store]
 
 Explanation:
 
@@ -81,6 +93,9 @@ When an EC2 EBS-backed instance is stopped, what happens to the data on any ephe
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-instance-store-storage/
@@ -98,6 +113,9 @@ A user has launched an EC2 Windows instance from an instance store backed AMI. T
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, Instance Store]
 
 Explanation:
 
@@ -117,6 +135,9 @@ Which of the following will occur when an EC2 instance in a VPC (Virtual Private
 
 <details><summary>Answer:</summary><p>
 [B, E]
+
+Categories:
+[EC2, EBS, VPC]
 
 Explanation:
 

@@ -10,6 +10,9 @@ You have a business-to-business web application running in a VPC consisting of a
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, VPC, ELB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -38,6 +41,9 @@ A user has created a VPC with public and private subnets using the VPC Wizard. T
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -55,6 +61,9 @@ A user has created a VPC with two subnets: one public and one private. The user 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -74,6 +83,9 @@ A user has launched an EC2 instance and installed a website with the Apache webs
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -91,6 +103,9 @@ A user has created a VPC with public and private subnets using the VPC wizard. W
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -110,6 +125,9 @@ A user has created a VPC with public and private subnets. The VPC has CIDR 20.0.
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -127,6 +145,9 @@ A user has created a VPC with CIDR 20.0.0.0/24. The user has used all the IPs of
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -148,6 +169,9 @@ A user has created a VPC with the public and private subnets using the VPC wizar
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, EBS, VPC]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -166,6 +190,9 @@ A user has created a VPC with CIDR 20.0.0.0/16. The user has created one subnet 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -183,6 +210,9 @@ A user has setup a VPC with CIDR 20.0.0.0/16. The VPC has a private subnet (20.0
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -204,6 +234,9 @@ A user has created a VPC with public and private subnets using the VPC wizard. T
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -221,6 +254,9 @@ A user has created a VPC with CIDR 20.0.0.0/16 using the wizard. The user has cr
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -240,6 +276,9 @@ A user has created a VPC with CIDR 20.0.0.0/16. The user has created one subnet 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -257,6 +296,9 @@ A user has created a VPC with CIDR 20.0.0.0/16 using the wizard. The user has cr
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -276,6 +318,9 @@ A user has created a VPC with the public and private subnets using the VPC wizar
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, EBS, VPC]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -293,6 +338,9 @@ A user has created a VPC with a subnet and a security group. The user has launch
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -312,6 +360,9 @@ A user has created a subnet in VPC and launched an EC2 instance within it. The u
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -329,6 +380,9 @@ A user has created a VPC with public and private subnets using the VPC wizard. W
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -348,6 +402,9 @@ A user has created a VPC with the public subnet. The user has created a security
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, RDS, VPC]
+
 Explanation:
 
 Question 19@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -365,6 +422,9 @@ A user has created a VPC with CIDR 20.0.0.0/16 using VPC Wizard. The user has cr
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -384,6 +444,9 @@ A user has created a VPC with public and private subnets using the VPC wizard. T
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 21@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -401,6 +464,9 @@ A user has created a public subnet with VPC and launched an EC2 instance within 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -420,6 +486,9 @@ A user has created a VPC with CIDR 20.0.0.0/24. The user has created a public su
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -437,6 +506,9 @@ A user has created a VPC with CIDR 20.0.0.0/16. The user has created public and 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -456,6 +528,9 @@ A user has created a VPC with CIDR 20.0.0.0/16 using the wizard. The user has cr
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 25@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -473,6 +548,9 @@ Which two components provide connectivity with external networks? When attached 
 
 <details><summary>Answer:</summary><p>
 [C, D]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -496,6 +574,9 @@ You are attempting to connect to an instance in Amazon VPC without success You h
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 27@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -515,6 +596,9 @@ If you want to launch Amazon Elastic Compute Cloud (EC2) Instances and assign ea
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 28@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -532,6 +616,9 @@ A user has recently started using EC2. The user launched one EC2 instance in the
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -551,6 +638,9 @@ A user has created a VPC with CIDR 20.0.0.0/24. The user has created a public su
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 30@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -569,6 +659,9 @@ A user has created a VPC with CIDR 20.0.0.0/16 with only a private subnet and VP
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 31@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -586,6 +679,9 @@ A company wants to implement their website in a virtual private cloud (VPC). The
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS, ASG, EBS, VPC]
 
 Explanation:
 
@@ -608,6 +704,9 @@ Which of the following are characteristics of Amazon VPC subnets? Choose 2 answe
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 33@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -625,6 +724,9 @@ You need to design a VPC for a web-application consisting of an Elastic Load Bal
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS, VPC, ELB]
 
 Explanation:
 
@@ -645,6 +747,9 @@ You have deployed a three-tier web application in a VPC with a CIDR block of 10.
 <details><summary>Answer:</summary><p>
 [D, E]
 
+Categories:
+[SES, EC2, VPC, ELB]
+
 Explanation:
 
 Question 35@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -662,6 +767,9 @@ A user wants to access RDS from an EC2 instance using IP addresses. Both RDS and
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, RDS, EC2]
 
 Explanation:
 
@@ -685,6 +793,9 @@ In regards to VPC, select the correct statement:
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[RDS, VPC]
+
 Explanation:
 
 Question 37@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -702,6 +813,9 @@ You need to design a VPC for a web-application consisting of an ELB a fleet of w
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS, VPC, ELB]
 
 Explanation:
 
@@ -721,6 +835,9 @@ You have an Amazon VPC with one private subnet and one public subnet with a Netw
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, EC2, VPC]
+
 Explanation:
 
 Question 39@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -739,6 +856,9 @@ You have launched an Amazon Elastic Compute Cloud (EC2) instance into a public s
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 40@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -756,6 +876,9 @@ You have an environment that consists of a public subnet using Amazon VPC and 3 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -776,6 +899,9 @@ You have a load balancer configured for VPC, and all back-end Amazon EC2 instanc
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[SES, EC2, VPC]
+
 Explanation:
 
 Question 42@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/
@@ -793,6 +919,9 @@ When will you incur costs with an Elastic IP address (EIP)?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[]
 
 Explanation:
 

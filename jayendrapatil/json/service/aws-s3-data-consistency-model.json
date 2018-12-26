@@ -17,6 +17,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-data-consistency-model/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -33,6 +36,9 @@
     "answerList": [],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-data-consistency-model/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -52,6 +58,9 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-s3-data-consistency-model/",
       "D: Eventual Consistency"
+    ],
+    "categories": [
+      "S3"
     ]
   }
 ]

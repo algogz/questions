@@ -10,6 +10,9 @@ What does RRS stand for when talking about S3?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-storage-classes/
@@ -27,6 +30,9 @@ What is the durability of S3 RRS?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -46,6 +52,9 @@ What is the Reduced Redundancy option in Amazon S3?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-s3-storage-classes/
@@ -63,6 +72,9 @@ An application is generating a log file every 5 minutes. The log file is not cri
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, RDS, Glacier]
 
 Explanation:
 
@@ -83,6 +95,9 @@ A user has moved an object to Glacier using the life cycle rules. The user reque
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, Glacier]
 
 Explanation:
 
@@ -105,6 +120,9 @@ Your department creates regular analytics reports from your company’s log file
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, EMR, Redshift]
 
 Explanation:
 
@@ -132,6 +150,9 @@ Which of the below mentioned options can be a good use case for storing content 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-s3-storage-classes/
@@ -150,6 +171,9 @@ A newspaper organization has an on-premises application which allows the public 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, SES, RDS, CloudFront, EC2, EBS, CloudFormation, CloudSearch, Elastic Beanstalk]
 
 Explanation:
 
@@ -178,6 +202,9 @@ A research scientist is planning for the one-time launch of an Elastic MapReduce
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, RDS, Glacier, EC2]
 
 Explanation:
 

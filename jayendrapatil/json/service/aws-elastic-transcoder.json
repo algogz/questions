@@ -15,6 +15,16 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elastic-transcoder/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "SQS",
+      "Glacier",
+      "EC2",
+      "ASG",
+      "Elastic Transcoder",
+      "EBS"
     ]
   }
 ]

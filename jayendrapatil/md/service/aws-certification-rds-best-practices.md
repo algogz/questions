@@ -10,6 +10,9 @@ You are running a database on an EC2 instance, with the data stored on Elastic B
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-certification-rds-best-practices/
@@ -25,6 +28,9 @@ Amazon RDS automated backups and DB Snapshots are currently supported for only t
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS]
 
 Explanation:
 

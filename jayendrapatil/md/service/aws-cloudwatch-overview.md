@@ -11,6 +11,9 @@ A company needs to monitor the read and write IOPs metrics for their AWS MySQL R
 <details><summary>Answer:</summary><p>
 [B, E]
 
+Categories:
+[SES, RDS, SQS, CloudWatch, SNS, Route 53]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -30,6 +33,9 @@ A customer needs to capture all client connection information from their load ba
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[CloudWatch, CloudTrail]
 
 Explanation:
 
@@ -53,6 +59,9 @@ A user is running a batch process on EBS backed EC2 instances. The batch process
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, CloudWatch, ASG, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -70,6 +79,9 @@ A user has two EC2 instances running in two separate regions. The user is runnin
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, CloudWatch]
 
 Explanation:
 
@@ -89,6 +101,9 @@ A user is sending the data to CloudWatch using the CloudWatch API. The user is s
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -106,6 +121,9 @@ A user is having data generated randomly based on a certain event. The user want
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[CloudWatch]
 
 Explanation:
 
@@ -129,6 +147,9 @@ A user has a weighing plant. The user measures the weight of some goods every 5 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -151,6 +172,9 @@ A user has a refrigerator plant. The user is measuring the temperature of the pl
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -168,6 +192,9 @@ A user has launched an EC2 instance. The user is planning to setup the CloudWatc
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, CloudWatch, ASG, SNS]
 
 Explanation:
 
@@ -187,6 +214,9 @@ A user has a refrigerator plant. The user is measuring the temperature of the pl
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -204,6 +234,9 @@ A user is trying to aggregate all the CloudWatch metric data of the last 1 week.
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[CloudWatch]
 
 Explanation:
 
@@ -223,6 +256,9 @@ A user has setup a CloudWatch alarm on an EC2 action when the CPU utilization is
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, CloudWatch, SNS]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -241,6 +277,9 @@ A user is publishing custom metrics to CloudWatch. Which of the below mentioned 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -258,6 +297,9 @@ An application that you are managing has EC2 instances and DynamoDB tables deplo
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, CloudWatch, DynamoDB]
 
 Explanation:
 
@@ -283,6 +325,9 @@ You have set up Individual AWS accounts for each project. You have been asked to
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[CloudWatch, ASG, SNS]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -307,6 +352,9 @@ You meet once per month with your operations team to review the past month’s d
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SQS, EC2, CloudWatch, EBS, DynamoDB, ELB, CloudTrail]
+
 Explanation:
 
 Question 16@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -326,6 +374,9 @@ You have a high security requirement for your AWS accounts. What is the most rap
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, RDS, IAM, CloudWatch, Kinesis, SNS, Lambda, CloudTrail]
 
 Explanation:
 
@@ -349,6 +400,9 @@ To monitor API calls against our AWS account by different users and entities, we
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudWatch, Lambda, CloudTrail]
+
 Explanation:
 
 Question 18@http://jayendrapatil.com/aws-cloudwatch-overview/
@@ -370,6 +424,9 @@ You are hired as the new head of operations for a SaaS company. Your CTO has ask
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, Elasticsearch, CloudWatch, Kinesis, EMR, Lambda]
 
 Explanation:
 
@@ -396,6 +453,9 @@ Your EC2-Based Multi-tier application includes a monitoring instance that period
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SQS, EC2, CloudWatch]
 
 Explanation:
 

@@ -1,4 +1,4 @@
-### Question 1:
+### Question 3:
 
 What is required to achieve gigabit network throughput on EC2? You already selected cluster-compute, 10GB instances with enhanced networking, and your workload is already network-bound, but you are not seeing 10 gigabit speeds.
 
@@ -10,6 +10,9 @@ What is required to achieve gigabit network throughput on EC2? You already selec
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-placement-groups/
@@ -18,7 +21,7 @@ D: (You are not guaranteed 10 gigabit performance, except within a placement gro
 
 </p></details><hr>
 
-### Question 2:
+### Question 4:
 
 You need the absolute highest possible network performance for a cluster computing application. You already selected homogeneous instance types supporting 10 gigabit enhanced networking, made sure that your workload was network bound, and put the instances in a placement group. What is the last optimization you can make?
 
@@ -29,6 +32,9 @@ You need the absolute highest possible network performance for a cluster computi
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[VPC]
 
 Explanation:
 

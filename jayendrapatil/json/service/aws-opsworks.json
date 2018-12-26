@@ -15,6 +15,12 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-opsworks/"
+    ],
+    "categories": [
+      "OpsWorks",
+      "SWF",
+      "CloudFormation",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -39,6 +45,10 @@
       "A: http://docs.aws.amazon.com/opsworks/latest/userguide/customizing-rds.html",
       "C: http://docs.aws.amazon.com/opsworks/latest/userguide/customizing-rds.html",
       "E: http://docs.aws.amazon.com/opsworks/latest/userguide/customizing-rds.html"
+    ],
+    "categories": [
+      "RDS",
+      "OpsWorks"
     ]
   },
   {
@@ -58,6 +68,12 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-opsworks/",
       "B: need to comply with chef recipes"
+    ],
+    "categories": [
+      "RDS",
+      "OpsWorks",
+      "EC2",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -78,6 +94,11 @@
       "Question 4@http://jayendrapatil.com/aws-opsworks/",
       "B: http://docs.aws.amazon.com/opsworks/latest/userguide/other-services.html",
       "B: Single environment stack, two layers for java and node.js application using built-in recipes and custom recipe for DynamoDB connectivity only as other configuration. Refer"
+    ],
+    "categories": [
+      "OpsWorks",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -100,6 +121,11 @@
       "Question 5@http://jayendrapatil.com/aws-opsworks/",
       "B: Blue-Green Deployment",
       "D: Will lead to downtime"
+    ],
+    "categories": [
+      "RDS",
+      "OpsWorks",
+      "EC2"
     ]
   },
   {
@@ -120,6 +146,9 @@
       "Question 6@http://jayendrapatil.com/aws-opsworks/",
       "B: https://forums.aws.amazon.com/thread.jspa?threadID\u003d117372",
       "B: (Does not support spot instance directly but can be used with auto scaling Refer )"
+    ],
+    "categories": [
+      "OpsWorks"
     ]
   },
   {
@@ -142,6 +171,11 @@
       "B: AWS OpsWorks uses CloudWatch to provide thirteen custom metrics with detailed monitoring for each instance in the stack",
       "C: AWS OpsWorks integrates with CloudTrail to log every AWS OpsWorks API call and store the data in an S3 bucket",
       "D: You can use Amazon CloudWatch Logs to monitor your stack’s system, application, and custom logs."
+    ],
+    "categories": [
+      "OpsWorks",
+      "CloudWatch",
+      "CloudTrail"
     ]
   },
   {
@@ -160,6 +194,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-opsworks/"
+    ],
+    "categories": [
+      "OpsWorks"
     ]
   }
 ]

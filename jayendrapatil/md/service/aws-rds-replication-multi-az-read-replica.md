@@ -10,6 +10,9 @@ You are running a successful multi-tier web application on AWS and your marketin
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, RDS, ElastiCache]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -31,6 +34,9 @@ A company is deploying a new two-tier web application in AWS. The company has li
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, EC2, ElastiCache, DynamoDB]
 
 Explanation:
 
@@ -56,6 +62,9 @@ Your company is getting ready to do a major public announcement of a social medi
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[RDS, EC2, ElastiCache, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -79,6 +88,9 @@ Your company has HQ in Tokyo and branch offices all over the world and is using 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SES, RDS, EC2, EBS, Direct Connect]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -96,6 +108,9 @@ What would happen to an RDS (Relational Database Service) multi-Availability Zon
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -115,6 +130,9 @@ Your business is building a new application that will store its entire customer 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, RDS, ElastiCache]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -132,6 +150,9 @@ Will my standby RDS instance be in the same Availability Zone as my primary?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -151,6 +172,9 @@ Is creating a Read Replica of another Read Replica supported?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -168,6 +192,9 @@ A user is planning to set up the Multi-AZ feature of RDS. Which of the below men
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -187,6 +214,9 @@ When you run a DB Instance as a Multi-AZ deployment, the “_____” serves data
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -204,6 +234,9 @@ When running my DB Instance as a Multi-AZ deployment, can I use the standby for 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -223,6 +256,9 @@ Read Replicas require a transactional storage engine and are only supported for 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -241,6 +277,9 @@ A user is configuring the Multi-AZ feature of an RDS DB. The user came to know t
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, RDS]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -257,6 +296,9 @@ If I have multiple Read Replicas for my master DB Instance and I promote one of 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[]
 
 Explanation:
 
@@ -276,6 +318,9 @@ If you have chosen Multi-AZ deployment, in the event of a planned or unplanned o
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -294,6 +339,9 @@ When automatic failover occurs, Amazon RDS will emit a DB Instance event to info
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 16@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -309,6 +357,9 @@ The new DB Instance that is created when you promote a Read Replica retains the 
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[]
 
 Explanation:
 
@@ -328,6 +379,9 @@ Will I be alerted when automatic failover occurs?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudWatch, SNS]
+
 Explanation:
 
 Question 18@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -345,6 +399,9 @@ Can I initiate a “forced failover” for my MySQL Multi-AZ DB Instance deploym
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -364,6 +421,9 @@ A user is accessing RDS from an application. The user has enabled the Multi-AZ f
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, RDS]
+
 Explanation:
 
 Question 20@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -381,6 +441,9 @@ Which of the following is part of the failover process for a Multi-AZ Amazon Rel
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -400,6 +463,9 @@ Which of these is not a reason a Multi-AZ RDS instance will failover?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -421,6 +487,9 @@ You need to scale an RDS deployment. You are operating at 10% writes and 90% rea
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, RDS, CloudFront]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -438,6 +507,9 @@ How does Amazon RDS multi Availability Zone model work?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -459,6 +531,9 @@ A customer is running an application in US-West (Northern California) region and
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 25@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -477,6 +552,9 @@ A user is using a small MySQL RDS DB. The user is experiencing high latency due 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 26@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -493,6 +571,9 @@ Are Reserved Instances available for Multi-AZ Deployments?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[]
 
 Explanation:
 
@@ -512,6 +593,9 @@ My Read Replica appears “stuck” after a Multi-AZ failover and is unable to o
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 28@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -529,6 +613,9 @@ What is the charge for the data transfer incurred in replicating data between yo
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[]
 
 Explanation:
 
@@ -548,6 +635,9 @@ A user has enabled the Multi AZ feature with the MS SQL RDS database server. Whi
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 30@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/
@@ -565,6 +655,9 @@ A company is running a batch analysis every hour on their main transactional DB 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, RDS, SQS, SNS, Redshift]
 
 Explanation:
 

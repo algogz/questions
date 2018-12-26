@@ -16,6 +16,9 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ebs-snapshot/",
       "D: Need to create a snapshot, create an encrypted copy of snapshot and then create a EBS volume and mount it"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -34,6 +37,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -52,6 +60,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "Glacier"
     ]
   },
   {
@@ -71,6 +82,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -89,6 +104,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -107,6 +126,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -124,6 +147,9 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -142,7 +168,8 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-ebs-snapshot/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ebs-snapshot/",
@@ -160,6 +187,10 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -180,6 +211,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -204,6 +238,10 @@
       "C: EBS volume restored from snapshots need to be of the same size of larger size",
       "D: Snapshots are specific to Region and can be used to create a volume in any AZ and does not depend on the original EBS volume AZ",
       "D: EBS snapshots can only be restored and mounted to an instance in the same Availability Zone as the original EBS volume"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -223,6 +261,10 @@
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-ebs-snapshot/",
       "A: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -241,6 +283,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -259,6 +304,10 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -277,6 +326,12 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "S3",
+      "Glacier",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -296,6 +351,9 @@
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-ebs-snapshot/",
       "C: stored in the same region"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -314,6 +372,10 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "SES",
+      "EBS"
     ]
   },
   {
@@ -332,6 +394,9 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -350,6 +415,9 @@
     ],
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-ebs-snapshot/"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -370,6 +438,9 @@
       "Question 20@http://jayendrapatil.com/aws-ebs-snapshot/",
       "A: Snapshots shared with other users are usable in full by the recipient, including but limited to the ability to base modified volumes and snapshots",
       "C: NOTE: this has be updated partially where you can share a encrypted snapshot with other accounts"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -389,6 +460,11 @@
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-ebs-snapshot/",
       "B: EBS volume snapshots are stored in S3. If S3 is unavailable, snapshots are unavailable"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "EBS"
     ]
   }
 ]

@@ -12,7 +12,8 @@ You are designing a social media site and are considering how to mitigate distri
 <details><summary>Answer:</summary><p>
 [C, D, E]
 
-[]
+Categories:
+[SES, RDS, CloudFront, EC2, CloudWatch, ASG]
 
 Explanation:
 
@@ -32,7 +33,8 @@ You’ve been hired to enhance the overall security posture for a very large e-c
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[S3, SES, RDS, EC2, VPC, DynamoDB, Route 53, ELB, EMR, WAF]
 
 Explanation:
 

@@ -10,6 +10,9 @@ A media company produces new video files on-premises every day with a total size
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SES]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-best-practices/
@@ -27,6 +30,9 @@ You are designing a web application that stores static assets in an Amazon Simpl
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -46,6 +52,9 @@ You have an application running on an Amazon Elastic Compute Cloud instance, tha
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, CloudFront, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-s3-best-practices/
@@ -63,6 +72,9 @@ Which of the following methods gives you protection against accidental loss of d
 
 <details><summary>Answer:</summary><p>
 [A, D]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -85,6 +97,9 @@ A startup company hired you to help them build a mobile application that will ul
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, SES]
 
 Explanation:
 
@@ -110,6 +125,9 @@ A document storage company is deploying their application to AWS and changing th
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SES, SWF, SQS, SNS]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-s3-best-practices/
@@ -133,6 +151,9 @@ Your company host a social media website for storing and sharing documents. the 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, RDS, EC2, ASG, EBS, VPC, Route 53, ELB]
 
 Explanation:
 
@@ -160,6 +181,9 @@ If an application is storing hourly log files from thousands of instances from a
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3]
 
 Explanation:
 

@@ -10,6 +10,9 @@ What does Amazon SES stand for?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-simple-email-service-ses/
@@ -27,6 +30,9 @@ Your startup wants to implement an order fulfillment process for selling a perso
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, RDS, SWF, SQS, EC2, ASG, EBS, Elastic Beanstalk]
 
 Explanation:
 

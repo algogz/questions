@@ -17,6 +17,9 @@
       "Question 1@http://jayendrapatil.com/aws-trusted-advisor-categories/",
       "C: Note Service limits is a latest addition",
       "C: ( – )"
+    ],
+    "categories": [
+      "Trusted Advisor"
     ]
   }
 ]

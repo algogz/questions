@@ -14,6 +14,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -31,6 +34,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ],
+    "categories": [
+      "RDS",
+      "VPC"
     ]
   },
   {
@@ -49,6 +56,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -67,6 +77,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -84,6 +97,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-rds-db-maintenance-upgrades/"
+    ],
+    "categories": [
+      "VPC"
     ]
   }
 ]

@@ -12,6 +12,9 @@ You would like to create a mirror image of your production environment in anothe
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[SES, IAM, EC2, Route 53]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/
@@ -37,6 +40,9 @@ When using the following AWS services, which should be implemented in multiple A
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[S3, EC2, SNS, DynamoDB, ELB]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/
@@ -61,6 +67,9 @@ What is the scope of an EBS volume?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EBS, VPC]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-global-vs-regional-vs-az-resources/
@@ -78,6 +87,9 @@ What is the scope of AWS IAM?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -98,6 +110,9 @@ What is the scope of an EC2 EIP?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -120,6 +135,9 @@ What is the scope of an EC2 security group?
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 

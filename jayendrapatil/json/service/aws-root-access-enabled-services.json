@@ -17,6 +17,14 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-root-access-enabled-services/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "ElastiCache",
+      "ELB",
+      "EMR",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -41,6 +49,13 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-root-access-enabled-services/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EC2",
+      "DynamoDB",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -59,6 +74,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-root-access-enabled-services/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2"
     ]
   }
 ]

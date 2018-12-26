@@ -14,6 +14,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -32,6 +35,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -48,7 +54,8 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-relational-database-service-rds/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-relational-database-service-rds/",
@@ -66,6 +73,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "SES",
+      "RDS"
     ]
   },
   {
@@ -84,6 +95,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -102,6 +116,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2"
     ]
   },
   {
@@ -119,6 +137,10 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS",
+      "VPC"
     ]
   },
   {
@@ -137,6 +159,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -155,6 +180,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -173,6 +201,9 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -191,6 +222,10 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-relational-database-service-rds/"
+    ],
+    "categories": [
+      "RDS",
+      "CloudWatch"
     ]
   }
 ]

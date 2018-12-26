@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elasticache-certification/"
+    ],
+    "categories": [
+      "EC2",
+      "ElastiCache"
     ]
   },
   {
@@ -37,6 +41,15 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-elasticache-certification/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "Storage Gateway",
+      "CloudWatch",
+      "ElastiCache",
+      "DynamoDB",
+      "ELB"
     ]
   },
   {
@@ -55,6 +68,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-elasticache-certification/"
+    ],
+    "categories": [
+      "ElastiCache"
     ]
   },
   {
@@ -74,6 +90,12 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-elasticache-certification/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "ElastiCache",
+      "EBS"
     ]
   },
   {
@@ -93,6 +115,11 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-elasticache-certification/"
+    ],
+    "categories": [
+      "SES",
+      "CloudWatch",
+      "ElastiCache"
     ]
   },
   {
@@ -114,6 +141,13 @@
       "A: scalable and makes the web applications stateless",
       "C: RDS solution not highly scalable",
       "D: affects user experience if the instance goes down"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "ElastiCache",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -136,6 +170,12 @@
       "B: just simplifies architecture",
       "C: only minimizes download for applications and ease of rollback",
       "D: scalable, faster read/writes and in memory storage"
+    ],
+    "categories": [
+      "SES",
+      "ElastiCache",
+      "DynamoDB",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -155,6 +195,13 @@
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-elasticache-certification/",
       "A: does not provide durability as if the node is gone the data is gone"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "ASG",
+      "ElastiCache",
+      "DynamoDB"
     ]
   },
   {
@@ -176,6 +223,12 @@
       "B: does not provide high availability, as data is lost if the node is lost",
       "C: Single AZ affects availability as DB is Multi AZ and would be overloaded is the AZ goes down",
       "D: Will overload the database affecting availability"
+    ],
+    "categories": [
+      "RDS",
+      "ASG",
+      "ElastiCache",
+      "ELB"
     ]
   },
   {
@@ -197,6 +250,11 @@
       "B: Stateful instances will not allow for scaling",
       "C: Stateful instances will allow not for scaling \u0026 multi-AZ is for high availability and not scaling)",
       "D: multi-AZ is for high availability and not scaling"
+    ],
+    "categories": [
+      "RDS",
+      "CloudWatch",
+      "ElastiCache"
     ]
   },
   {
@@ -216,6 +274,13 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-elasticache-certification/"
+    ],
+    "categories": [
+      "SES",
+      "Glacier",
+      "ElastiCache",
+      "EBS",
+      "ELB"
     ]
   }
 ]

@@ -19,7 +19,10 @@
       "C: ELB does not have feature for Min and Max 1 and Cross Zone allows just the equal distribution of load across instances",
       "D: Read Replica does not provide HA and write capability"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -40,7 +43,12 @@
       "Question 2@http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
       "A: NAT is for internet connectivity for instances in private subnet"
     ],
-    "categories": []
+    "categories": [
+      "SES",
+      "CloudFront",
+      "VPC",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -60,7 +68,15 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/"
     ],
-    "categories": []
+    "categories": [
+      "EC2",
+      "Storage Gateway",
+      "ASG",
+      "VPC",
+      "Route 53",
+      "ELB",
+      "Direct Connect"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -83,7 +99,15 @@
       "C: does not create a load balancer",
       "D: Need to create a aliased record without which the Route 53 pointing to ELB would not work"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "Route 53"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -102,7 +126,12 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -122,7 +151,12 @@
       "Question 6@http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
       "A: As it needs Fault Tolerance with minimal 6 servers always available"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2",
+      "ASG",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -143,7 +177,11 @@
       "C: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regionsavailability- zones",
       "C: You need to design for N+1 redundancy on Availability Zones. ZONE_COUNT \u003d (REQUIRED_INSTANCES / INSTANCE_COUNT_PER_ZONE) + 1. To minimize cost, spread the instances across as many possible zones as you can. By using a though e, you are allocating 5 zones. Using 2 instances, you have 10 total instances. If a single zone fails, you have 4 zones left, with 2 instances each, for a total of 8 instances. By spreading out as much as possible, you have increased cost by only 25% and significantly de-risked an availability zone failure. Refer"
     ],
-    "categories": []
+    "categories": [
+      "EC2",
+      "VPC",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -167,7 +205,12 @@
       "C: No such thing as Cross Region ELB or cross-region ASG",
       "D: No such thing as DynamoDB cross-region table or cross-region ELB"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "ASG",
+      "DynamoDB",
+      "ELB"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -186,7 +229,10 @@
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/"
     ],
-    "categories": []
+    "categories": [
+      "RDS",
+      "EC2"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
@@ -206,6 +252,19 @@
       "Question 10@http://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/",
       "D: (VPN gateway is required for secure connectivity. SQS for build queue and EC2 for builds)"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "SQS",
+      "EC2",
+      "Storage Gateway",
+      "ASG",
+      "EBS",
+      "VPC",
+      "SNS",
+      "EMR"
+    ]
   }
 ]

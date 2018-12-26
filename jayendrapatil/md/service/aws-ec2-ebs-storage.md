@@ -10,6 +10,9 @@ _____ is a durable, block-level storage volume that you can attach to a single, 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, EC2, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -27,6 +30,9 @@ Which Amazon storage do you think is the best for my database-style applications
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -46,6 +52,9 @@ What does Amazon EBS stand for?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -63,6 +72,9 @@ Which Amazon Storage behaves like raw, unformatted, external block devices that 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -82,6 +94,9 @@ A user has created numerous EBS volumes. What is the general limit for each AWS 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -99,6 +114,9 @@ Select the correct set of steps for exposing the snapshot only to specific AWS a
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[]
 
 Explanation:
 
@@ -118,6 +136,9 @@ If an Amazon EBS volume is the root device of an instance, can I detach it witho
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -136,6 +157,9 @@ Can we attach an EBS volume to more than one EC2 instance at the same time?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -152,6 +176,9 @@ Do the Amazon EBS volumes persist independently from the running life of an Amaz
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -171,6 +198,9 @@ Can I delete a snapshot of the root device of an EBS volume used by a registered
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 10@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -188,6 +218,9 @@ By default, EBS volumes that are created and attached to an instance at launch a
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -208,6 +241,9 @@ Your company policies require encryption of sensitive data at rest. You are cons
 <details><summary>Answer:</summary><p>
 [A, C, D]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -226,6 +262,9 @@ Which of the following are true regarding encrypted Amazon Elastic Block Store (
 
 <details><summary>Answer:</summary><p>
 [A, B, E]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -248,6 +287,9 @@ How can you secure data at rest on an EBS volume?
 <details><summary>Answer:</summary><p>
 [E]
 
+Categories:
+[S3, IAM, EC2, EBS]
+
 Explanation:
 
 Question 14@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -266,6 +308,9 @@ A user has deployed an application on an EBS backed EC2 instance. For a better p
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -283,6 +328,9 @@ A user is trying to launch an EBS backed EC2 instance under free usage. The user
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -306,6 +354,9 @@ A user is planning to schedule a backup for an EBS volume. The user wants securi
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, EBS]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -323,6 +374,9 @@ A user has launched an EBS backed EC2 instance. The user has rebooted the instan
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -342,6 +396,9 @@ A user has launched an EBS backed EC2 instance. What will be the difference whil
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 19@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -359,6 +416,9 @@ A user has launched an EBS backed instance. The user started the instance at 9 A
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -378,6 +438,9 @@ You are running a database on an EC2 instance, with the data stored on Elastic B
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 21@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -395,6 +458,9 @@ An organization wants to move to Cloud. They are looking for a secure encrypted 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, EBS, Redshift]
 
 Explanation:
 
@@ -414,6 +480,9 @@ A user has stored data on an encrypted EBS volume. The user wants to share the d
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -432,6 +501,9 @@ A user is using an EBS backed instance. Which of the below mentioned statements 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 24@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -449,6 +521,9 @@ A user is planning to use EBS for his DB requirement. The user already has an EC
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, EBS, VPC]
 
 Explanation:
 
@@ -470,6 +545,9 @@ A user is creating an EBS volume. He asks for your advice. Which advice mentione
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 26@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -490,6 +568,9 @@ An EC2 instance has one additional EBS volume attached to it. How can a user att
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 27@http://jayendrapatil.com/aws-ec2-ebs-storage/
@@ -507,6 +588,9 @@ What is the scope of an EBS volume?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EBS, VPC]
 
 Explanation:
 

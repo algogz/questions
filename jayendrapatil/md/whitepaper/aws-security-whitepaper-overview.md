@@ -11,6 +11,7 @@ In the shared security model, AWS is responsible for which of the following secu
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
 []
 
 Explanation:
@@ -37,7 +38,8 @@ You are running a web-application on AWS consisting of the following components 
 <details><summary>Answer:</summary><p>
 []
 
-[]
+Categories:
+[RDS, EC2, ELB]
 
 Explanation:
 
@@ -65,7 +67,8 @@ In AWS, which security aspects are the customer’s responsibility? Choose 4 ans
 <details><summary>Answer:</summary><p>
 []
 
-[]
+Categories:
+[IAM, EC2, EBS]
 
 Explanation:
 
@@ -90,7 +93,8 @@ Per the AWS Acceptable Use Policy, penetration testing of EC2 instances:
 <details><summary>Answer:</summary><p>
 []
 
-[]
+Categories:
+[EC2]
 
 Explanation:
 
@@ -111,7 +115,8 @@ Which is an operational process performed by AWS for data security?
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[EBS]
 
 Explanation:
 

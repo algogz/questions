@@ -17,6 +17,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-route-53-routing-policy/"
+    ],
+    "categories": [
+      "SES",
+      "Route 53"
     ]
   },
   {
@@ -38,6 +42,11 @@
       "A: should be in 2 different regions – US and Europe",
       "B: Latency based routing policy would not guarantee the compliance requirement",
       "D: should be in 2 different regions – US and Europe"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "Route 53"
     ]
   },
   {
@@ -56,6 +65,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-route-53-routing-policy/"
+    ],
+    "categories": [
+      "SES",
+      "Route 53"
     ]
   },
   {
@@ -74,6 +87,11 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-route-53-routing-policy/"
+    ],
+    "categories": [
+      "ASG",
+      "Route 53",
+      "ELB"
     ]
   },
   {
@@ -93,6 +111,14 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-route-53-routing-policy/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "EBS",
+      "Route 53"
     ]
   },
   {
@@ -113,6 +139,12 @@
       "Question 6@http://jayendrapatil.com/aws-route-53-routing-policy/",
       "D: http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html",
       "D: Refer"
+    ],
+    "categories": [
+      "SES",
+      "CloudFront",
+      "ASG",
+      "ELB"
     ]
   }
 ]

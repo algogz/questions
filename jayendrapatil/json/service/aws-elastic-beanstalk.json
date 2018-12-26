@@ -15,6 +15,13 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "CloudFormation",
+      "ELB",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -33,6 +40,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "EC2",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -51,6 +62,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -69,6 +83,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "S3",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -91,6 +109,12 @@
       "B: RDS is connected using DNS endpoint only",
       "C: Security group allows instances to access the RDS with new instances launched without any changes",
       "D: Not optimal for security adding individual hosts"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "VPC",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -116,6 +140,15 @@
       "C: Kinesis not needed",
       "D: Use Docker configuration with awslogs and EB with Docker",
       "E: Use VM Import/Export to create AMI and CloudWatch logs agent to log"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "EC2",
+      "CloudWatch",
+      "Kinesis",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -134,6 +167,9 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -153,6 +189,9 @@
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-elastic-beanstalk/",
       "C: (Applications group logical services. Environments belong to Applications, and typically represent different deployment levels (dev, stage, prod, forth). Deployments belong to environments, and are pushes of bundles of code for the environments to run.)"
+    ],
+    "categories": [
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -173,6 +212,9 @@
       "Question 9@http://jayendrapatil.com/aws-elastic-beanstalk/",
       "D: http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-env-tiers.html#worker-deadletter",
       "D: (Elastic Beanstalk worker environments support SQS dead letter queues, where worker can send messages that for some reason could not be successfully processed. Dead letter queue provides the ability to sideline, isolate and analyze the unsuccessfully processed messages. Refer )"
+    ],
+    "categories": [
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -193,6 +235,11 @@
       "Question 10@http://jayendrapatil.com/aws-elastic-beanstalk/",
       "D: http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-env-tiers.html",
       "D: (Elastic Beanstalk installs a daemon on each EC2 instance in the Auto Scaling group to process SQS messages in the worker environment. Refer )"
+    ],
+    "categories": [
+      "SQS",
+      "SNS",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -211,6 +258,14 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "SES",
+      "OpsWorks",
+      "EC2",
+      "CloudFormation",
+      "ELB",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -233,6 +288,14 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SQS",
+      "ASG",
+      "Route 53",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -251,6 +314,13 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "S3",
+      "Glacier",
+      "EC2",
+      "Storage Gateway",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -269,6 +339,9 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-elastic-beanstalk/"
+    ],
+    "categories": [
+      "Elastic Beanstalk"
     ]
   }
 ]

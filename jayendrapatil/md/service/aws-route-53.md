@@ -10,6 +10,9 @@ What does Amazon Route53 provide?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-route-53/
@@ -28,6 +31,9 @@ Does Amazon Route 53 support NS Records?
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[RDS, Route 53]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-route-53/
@@ -45,6 +51,9 @@ Does Route 53 support MX Records?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS, Route 53]
 
 Explanation:
 
@@ -65,6 +74,9 @@ Which of the following statements are true about Amazon Route 53 resource record
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[RDS, Route 53]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-route-53/
@@ -82,6 +94,9 @@ Which statements are true about Amazon Route 53? (Choose 2 answers)
 
 <details><summary>Answer:</summary><p>
 [B, C]
+
+Categories:
+[Route 53]
 
 Explanation:
 
@@ -101,6 +116,9 @@ A customer is hosting their company website on a cluster of web servers that are
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, EBS, Route 53]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-route-53/
@@ -118,6 +136,9 @@ A user has configured ELB with three instances. The user wants to achieve High A
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[ASG, Route 53, ELB, EMR]
 
 Explanation:
 
@@ -137,6 +158,9 @@ How can the domain’s zone apex for example “myzoneapexdomain com” be point
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[RDS, Route 53]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-route-53/
@@ -154,6 +178,9 @@ You need to create a simple, holistic check for your system’s general availabi
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, CloudWatch, ELB]
 
 Explanation:
 

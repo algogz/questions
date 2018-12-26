@@ -22,6 +22,15 @@
       "C: Kinesis not needed",
       "D: Use Docker configuration with awslogs and EB with Docker",
       "E: Use VM Import/Export to create AMI and CloudWatch logs agent to log"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "OpsWorks",
+      "EC2",
+      "CloudWatch",
+      "Kinesis",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -42,6 +51,12 @@
       "B: Works best as the data changes can be propagated over the week and are fractional and downtime would be know",
       "C: Downtime is not known when the data upload would be done, although Amazon says the same day the package is received",
       "D: Still uses the internet"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "Storage Gateway",
+      "EBS"
     ]
   },
   {
@@ -65,6 +80,12 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-cloud-migration-services/",
       "B: Virtual and Customer gateway is needed"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "Route 53",
+      "Direct Connect"
     ]
   }
 ]

@@ -21,6 +21,11 @@
       "B: get the customer IPs and create a custom filter to restrict access. Refer",
       "C: ELB will see the customer IPs so can restrict access, deny all is basically have no rules in outbound traffic, implicit, and its stateful so would work",
       "D: NACL is stateless, deny all will not work"
+    ],
+    "categories": [
+      "SES",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -39,6 +44,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -57,6 +66,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -75,6 +87,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -93,6 +109,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -111,6 +130,10 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -130,6 +153,9 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/",
       "B: https://aws.amazon.com/about-aws/whats-new/2017/08/amazon-virtual-private-cloud-vpc-now-allows-customers-to-expand-their-existing-vpcs/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -148,6 +174,11 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -166,6 +197,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -185,6 +219,9 @@
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/",
       "D: as the CIDR block would be overlapping"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -203,6 +240,10 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "VPC"
     ]
   },
   {
@@ -221,6 +262,9 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -239,6 +283,9 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -257,6 +304,9 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -275,6 +325,11 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -293,6 +348,9 @@
     ],
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -311,6 +369,10 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -329,6 +391,9 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -347,6 +412,11 @@
     ],
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "VPC"
     ]
   },
   {
@@ -365,6 +435,9 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -383,6 +456,9 @@
     ],
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -401,6 +477,10 @@
     ],
     "commentList": [
       "Question 22@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -419,6 +499,9 @@
     ],
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -437,6 +520,9 @@
     ],
     "commentList": [
       "Question 24@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -455,6 +541,9 @@
     ],
     "commentList": [
       "Question 25@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -476,6 +565,9 @@
       "Question 26@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/",
       "A: Does not provide connectivity, public IP address will do as well",
       "B: Not Attached to VPC and still needs IGW"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -494,6 +586,9 @@
     ],
     "commentList": [
       "Question 27@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -513,6 +608,10 @@
     ],
     "commentList": [
       "Question 28@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -531,6 +630,10 @@
     ],
     "commentList": [
       "Question 29@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -549,6 +652,9 @@
     ],
     "commentList": [
       "Question 30@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -567,6 +673,10 @@
     ],
     "commentList": [
       "Question 31@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -586,6 +696,12 @@
     "commentList": [
       "Question 32@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/",
       "D: 2 public subnets for web instances in multiple AZs and 2 private subnets for RDS Multi-AZ"
+    ],
+    "categories": [
+      "RDS",
+      "ASG",
+      "EBS",
+      "VPC"
     ]
   },
   {
@@ -606,6 +722,9 @@
     ],
     "commentList": [
       "Question 33@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -624,6 +743,11 @@
     ],
     "commentList": [
       "Question 34@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "RDS",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -644,6 +768,12 @@
     ],
     "commentList": [
       "Question 35@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -664,6 +794,11 @@
       "Question 36@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/",
       "A: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithSecurityGroups.html#USER_WorkingWithSecurityGroups.Authorizing\\",
       "A: (Recommended as the data is transferred within the the Amazon network and not through internet – Refer )"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "EC2"
     ]
   },
   {
@@ -682,6 +817,10 @@
     ],
     "commentList": [
       "Question 37@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "RDS",
+      "VPC"
     ]
   },
   {
@@ -700,6 +839,11 @@
     ],
     "commentList": [
       "Question 38@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "RDS",
+      "VPC",
+      "ELB"
     ]
   },
   {
@@ -718,6 +862,11 @@
     ],
     "commentList": [
       "Question 39@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "S3",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -736,6 +885,10 @@
     ],
     "commentList": [
       "Question 40@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -754,6 +907,9 @@
     ],
     "commentList": [
       "Question 41@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -774,6 +930,11 @@
     ],
     "commentList": [
       "Question 42@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -792,6 +953,7 @@
     ],
     "commentList": [
       "Question 43@http://jayendrapatil.com/aws-virtual-private-cloud-vpc/"
-    ]
+    ],
+    "categories": []
   }
 ]

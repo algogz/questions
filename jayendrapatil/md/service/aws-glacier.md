@@ -10,6 +10,9 @@ What is Amazon Glacier?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[Glacier, EC2, EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-glacier/
@@ -29,6 +32,9 @@ Amazon Glacier is designed for: (Choose 2 answers)
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, Glacier]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-glacier/
@@ -47,6 +53,9 @@ An organization is generating digital policy files which are required by the adm
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, RDS, Glacier]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-glacier/
@@ -64,6 +73,9 @@ A user has moved an object to Glacier using the life cycle rules. The user reque
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, Glacier]
 
 Explanation:
 
@@ -87,6 +99,9 @@ To meet regulatory requirements, a pharmaceuticals company needs to archive data
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3, RDS, Glacier]
 
 Explanation:
 
@@ -113,6 +128,9 @@ A user is uploading archives to Glacier. The user is trying to understand key Gl
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[Glacier]
 
 Explanation:
 

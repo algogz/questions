@@ -16,6 +16,10 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-importexport/",
       "D: (Normal upload will take ~900 days as the internet max speed is capped)"
+    ],
+    "categories": [
+      "Glacier",
+      "Storage Gateway"
     ]
   }
 ]

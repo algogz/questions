@@ -10,6 +10,9 @@ A company has an AWS account that contains three VPCs (Dev, Test, and Prod) in t
 <details><summary>Answer:</summary><p>
 []
 
+Categories:
+[SES, VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-vpc-peering/

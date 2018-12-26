@@ -11,6 +11,9 @@ A newspaper organization has an on-premises application which allows the public 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, SES, RDS, CloudFront, EC2, EBS, CloudFormation, CloudSearch, Elastic Beanstalk]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloudsearch/

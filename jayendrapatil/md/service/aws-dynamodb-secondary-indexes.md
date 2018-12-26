@@ -10,6 +10,9 @@ In DynamoDB, a secondary index is a data structure that contains a subset of att
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/
@@ -28,6 +31,9 @@ In regard to DynamoDB, what is the Global secondary index?
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[DynamoDB]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-dynamodb-secondary-indexes/
@@ -45,6 +51,9 @@ In regard to DynamoDB, can I modify the index once it is created?
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 
@@ -65,6 +74,9 @@ When thinking of DynamoDB, what are true of Global Secondary Key properties?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[DynamoDB]
 
 Explanation:
 

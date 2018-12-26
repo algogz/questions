@@ -10,6 +10,9 @@ An International company has deployed a multi-tier web application that relies o
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, SQS, CloudFormation, DynamoDB, EMR]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-data-pipeline/
@@ -37,6 +40,9 @@ Your company produces customer commissioned one-of-a-kind skiing helmets combini
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[SES, RDS, SWF]
 
 Explanation:
 

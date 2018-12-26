@@ -19,6 +19,10 @@
       "B: WorkSpaces for Virtual desktops, and AWS Directory Services to authenticate to an existing on-premises AD through VPN",
       "C: AD service needs a VPN connection to interact with an On-premise AD directory",
       "D: Need WorkSpaces for virtual desktops"
+    ],
+    "categories": [
+      "Directory Services",
+      "VPC"
     ]
   }
 ]

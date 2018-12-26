@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/"
+    ],
+    "categories": [
+      "EC2",
+      "Instance Store"
     ]
   },
   {
@@ -33,6 +37,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS",
+      "Instance Store"
     ]
   },
   {
@@ -51,6 +60,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -69,6 +82,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -87,6 +104,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/"
+    ],
+    "categories": [
+      "EC2",
+      "Instance Store"
     ]
   },
   {
@@ -105,6 +126,9 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -124,6 +148,9 @@
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-ec2-amazon-machine-image-ami/",
       "C: (An AMI is tied to the region where its files are located within Amazon S3)"
+    ],
+    "categories": [
+      "EC2"
     ]
   }
 ]

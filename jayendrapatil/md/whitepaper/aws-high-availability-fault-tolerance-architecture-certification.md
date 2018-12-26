@@ -10,7 +10,8 @@ You are moving an existing traditional system to AWS, and during the migration d
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[RDS, ELB]
 
 Explanation:
 
@@ -36,7 +37,8 @@ You are designing Internet connectivity for your VPC. The Web servers must be av
 <details><summary>Answer:</summary><p>
 [C, D]
 
-[]
+Categories:
+[SES, CloudFront, VPC, ELB]
 
 Explanation:
 
@@ -59,7 +61,8 @@ When deploying a highly available 2-tier web application on AWS, which combinati
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[EC2, Storage Gateway, ASG, VPC, Route 53, ELB, Direct Connect]
 
 Explanation:
 
@@ -79,7 +82,8 @@ Company A has hired you to assist with the migration of an interactive website t
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, SES, RDS, EC2, ASG, EBS, Route 53]
 
 Explanation:
 
@@ -107,7 +111,8 @@ Your company runs a customer facing event registration site. This site is built 
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[RDS, EC2, ASG, ELB]
 
 Explanation:
 
@@ -127,7 +132,8 @@ For a 3-tier, customer facing, inclement weather site utilizing a MySQL database
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[RDS, EC2, ASG, ELB]
 
 Explanation:
 
@@ -149,7 +155,8 @@ You are designing a system which needs, at minimum, 8 m4.large instances operati
 <details><summary>Answer:</summary><p>
 [C]
 
-[]
+Categories:
+[EC2, VPC, ELB]
 
 Explanation:
 
@@ -173,7 +180,8 @@ You need your API backed by DynamoDB to stay online during a total regional AWS 
 <details><summary>Answer:</summary><p>
 [A]
 
-[]
+Categories:
+[RDS, ASG, DynamoDB, ELB]
 
 Explanation:
 
@@ -203,7 +211,8 @@ You are putting together a WordPress site for a local charity and you are using 
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[RDS, EC2]
 
 Explanation:
 
@@ -223,7 +232,8 @@ A development team that is currently doing a nightly six-hour build which is len
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[S3, SES, RDS, CloudFront, SQS, EC2, Storage Gateway, ASG, EBS, VPC, SNS, EMR]
 
 Explanation:
 

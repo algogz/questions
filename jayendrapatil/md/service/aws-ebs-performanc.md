@@ -10,6 +10,9 @@ A user is trying to pre-warm a blank EBS volume attached to a Linux instance. Wh
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ebs-performanc/
@@ -29,6 +32,9 @@ A user has created an EBS volume of 10 GB and attached it to a running instance.
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EBS]
 
 Explanation:
 
@@ -50,6 +56,9 @@ You are running a database on an EC2 instance, with the data stored on Elastic B
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-ebs-performanc/
@@ -68,6 +77,9 @@ You have launched an EC2 instance with four (4) 500 GB EBS Provisioned IOPS volu
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 
@@ -90,6 +102,9 @@ A user has deployed an application on an EBS backed EC2 instance. For a better p
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, EBS]
 
 Explanation:
 

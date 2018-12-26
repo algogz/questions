@@ -11,6 +11,9 @@ Which of the following instance types are available as Amazon EBS-backed only? C
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[EBS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-instance-types/
@@ -29,6 +32,9 @@ A t2.medium EC2 instance type must be launched with what type of Amazon Machine 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, EBS, Instance Store]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-ec2-instance-types/
@@ -45,6 +51,9 @@ You have identified network throughput as a bottleneck on your m1.small EC2 inst
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, EC2, EBS]
 
 Explanation:
 
@@ -65,6 +74,9 @@ You are using an m1.small EC2 Instance with one 300 GB EBS volume to host a rela
 
 <details><summary>Answer:</summary><p>
 [A, E]
+
+Categories:
+[EC2, ASG, EBS]
 
 Explanation:
 
@@ -88,6 +100,9 @@ You are tasked with setting up a cluster of EC2 Instances for a NoSQL database. 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, EBS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-ec2-instance-types/
@@ -107,6 +122,9 @@ You are implementing a URL whitelisting system for a company that wants to restr
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[EC2, VPC]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-ec2-instance-types/
@@ -125,6 +143,9 @@ You have been asked to design the storage layer for an application. The applicat
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, Storage Gateway, EBS]
 
 Explanation:
 

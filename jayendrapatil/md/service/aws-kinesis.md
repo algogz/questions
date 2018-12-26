@@ -10,6 +10,9 @@ You are deploying an application to track GPS coordinates of delivery trucks in 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SQS, Kinesis]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-kinesis/
@@ -28,6 +31,9 @@ You are deploying an application to collect votes for a very popular television 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SQS, Kinesis, DynamoDB, Redshift]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-kinesis/
@@ -45,6 +51,9 @@ Your company is in the process of developing a next generation pet collar that c
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, RDS, SQS, Kinesis, DynamoDB, EMR, Redshift]
 
 Explanation:
 
@@ -68,6 +77,9 @@ Your customer is willing to consolidate their log streams (access logs, applicat
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SQS, EC2, ASG, Kinesis, EMR, CloudTrail]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-kinesis/
@@ -88,6 +100,9 @@ You require the ability to analyze a customer’s clickstream data on a website 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SES, RDS, SQS, Kinesis, EBS, Redshift]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-kinesis/
@@ -106,6 +121,9 @@ Your social media monitoring application uses a Python app running on AWS Elasti
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, SES, Kinesis, EBS, DynamoDB, Elastic Beanstalk]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-kinesis/
@@ -123,6 +141,9 @@ You need to replicate API calls across two systems in real time. What tool shoul
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SQS, Kinesis, SNS, Lambda]
 
 Explanation:
 
@@ -143,6 +164,9 @@ You need to perform ad-hoc business analytics queries on well-structured data. D
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, Kinesis, EMR, Redshift]
 
 Explanation:
 

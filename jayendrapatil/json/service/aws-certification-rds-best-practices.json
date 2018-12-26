@@ -16,6 +16,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-certification-rds-best-practices/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -32,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-certification-rds-best-practices/"
+    ],
+    "categories": [
+      "RDS"
     ]
   }
 ]

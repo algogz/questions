@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-best-practices/"
+    ],
+    "categories": [
+      "S3",
+      "SES"
     ]
   },
   {
@@ -33,6 +37,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-best-practices/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -51,6 +58,11 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-s3-best-practices/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "EBS"
     ]
   },
   {
@@ -72,6 +84,9 @@
       "Question 4@http://jayendrapatil.com/aws-s3-best-practices/",
       "B: Not enabled by default",
       "C: improves performance only"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -93,6 +108,10 @@
       "A: No. of customers do not matter",
       "C: Size does not relate to the key namespace design but the count does",
       "D: S3 provided unlimited storage the key namespace design would depend on the number)"
+    ],
+    "categories": [
+      "S3",
+      "SES"
     ]
   },
   {
@@ -114,6 +133,13 @@
       "B: Good Approach to use RDS but with so many objects might not be a good option",
       "C: List operations on S3 not feasible",
       "D: List operations on S3 not feasible as well as SNS does not address email requirement"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "SWF",
+      "SQS",
+      "SNS"
     ]
   },
   {
@@ -136,6 +162,16 @@
       "B: will not provide the ability to handle pause and restarts",
       "C: ELB is not the bottleneck",
       "D: multipart allows one to start uploading directly to S3 before the actual size is known or complete data is downloaded"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "EC2",
+      "ASG",
+      "EBS",
+      "VPC",
+      "Route 53",
+      "ELB"
     ]
   },
   {
@@ -156,6 +192,9 @@
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-s3-best-practices/",
       "D: HH will give some randomness to start with instead of instaneId where the first characters would be i-"
+    ],
+    "categories": [
+      "S3"
     ]
   }
 ]

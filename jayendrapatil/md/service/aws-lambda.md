@@ -10,6 +10,9 @@ Your serverless architecture using AWS API Gateway, AWS Lambda, and AWS DynamoDB
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[DynamoDB, Lambda, API Gateway]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-lambda/

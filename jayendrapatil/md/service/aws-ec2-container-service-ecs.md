@@ -10,6 +10,9 @@ You need a solution to distribute traffic evenly across all of the containers fo
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudFront, ECS, ELB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-container-service-ecs/
@@ -27,6 +30,9 @@ Your security team requires each Amazon ECS task to have an IAM policy that limi
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM, ECS]
 
 Explanation:
 

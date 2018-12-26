@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -33,6 +36,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "RDS",
+      "Route 53"
     ]
   },
   {
@@ -51,6 +58,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "RDS",
+      "Route 53"
     ]
   },
   {
@@ -71,6 +82,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "RDS",
+      "Route 53"
     ]
   },
   {
@@ -90,6 +105,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "Route 53"
     ]
   },
   {
@@ -108,6 +126,11 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "SES",
+      "EBS",
+      "Route 53"
     ]
   },
   {
@@ -126,6 +149,12 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "ASG",
+      "Route 53",
+      "ELB",
+      "EMR"
     ]
   },
   {
@@ -144,6 +173,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-route-53/"
+    ],
+    "categories": [
+      "RDS",
+      "Route 53"
     ]
   },
   {
@@ -163,6 +196,11 @@
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-route-53/",
       "A: http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-determining-health-of-endpoints.html"
+    ],
+    "categories": [
+      "EC2",
+      "CloudWatch",
+      "ELB"
     ]
   }
 ]

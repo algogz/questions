@@ -10,6 +10,9 @@ Can I encrypt connections between my application and my DB Instance using SSL?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-rds-security/
@@ -27,6 +30,9 @@ Which of these configuration or deployment practices is a security risk for RDS?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS, EC2]
 
 Explanation:
 

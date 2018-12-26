@@ -16,6 +16,9 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-storage-options-whitepaper-storage-gateway-importexport/"
     ],
-    "categories": []
+    "categories": [
+      "Glacier",
+      "Storage Gateway"
+    ]
   }
 ]

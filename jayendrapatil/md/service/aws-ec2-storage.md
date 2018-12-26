@@ -10,6 +10,9 @@ When you view the block device mapping for your instance, you can see only the E
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EBS, Instance Store]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-storage/

@@ -10,6 +10,9 @@ A customer is running a multi-tier web application farm in a virtual private clo
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, EC2, VPC]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-bastion-host/
@@ -28,6 +31,9 @@ You are designing a system that has a Bastion host. This component needs to be h
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ASG, ELB]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-bastion-host/
@@ -45,6 +51,9 @@ You’ve been brought in as solutions architect to assist an enterprise customer
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 
@@ -71,6 +80,9 @@ You are tasked with setting up a Linux bastion host for access to Amazon EC2 ins
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, VPC]
 
 Explanation:
 

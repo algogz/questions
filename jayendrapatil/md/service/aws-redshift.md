@@ -11,6 +11,9 @@ With which AWS services CloudHSM can be used (select 2)
 <details><summary>Answer:</summary><p>
 [C, E]
 
+Categories:
+[S3, RDS, ElastiCache, DynamoDB, Redshift]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-redshift/
@@ -28,6 +31,9 @@ You have recently joined a startup company building sensors to measure street no
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, SQS, EC2, DynamoDB, Redshift]
 
 Explanation:
 
@@ -55,6 +61,9 @@ Which two AWS services provide out-of-the-box user configurable automatic backup
 <details><summary>Answer:</summary><p>
 [B, D]
 
+Categories:
+[S3, RDS, EBS, Redshift]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-redshift/
@@ -72,6 +81,9 @@ Your department creates regular analytics reports from your company’s log file
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, EMR, Redshift]
 
 Explanation:
 

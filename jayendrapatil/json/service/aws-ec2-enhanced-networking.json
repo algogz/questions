@@ -25,6 +25,10 @@
       "D: Requires HVM",
       "E: Can be on others as well",
       "F: works only in VPC, can’t enable enhanced networking if the instance is in EC2-Classic"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -43,6 +47,7 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-enhanced-networking/"
-    ]
+    ],
+    "categories": []
   }
 ]

@@ -10,6 +10,9 @@ A web company is looking to implement an intrusion detection and prevention syst
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[VPC, IDS]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-intrusion-detection-prevention-idsips/
@@ -31,6 +34,9 @@ You are designing an intrusion detection prevention (IDS/IPS) solution for a cus
 
 <details><summary>Answer:</summary><p>
 [A, D]
+
+Categories:
+[VPC, IDS, ELB]
 
 Explanation:
 

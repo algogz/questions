@@ -10,6 +10,9 @@ If an object is stored in the Standard S3 storage class and you want to move it 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, Glacier]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-object-lifecycle-management/
@@ -30,6 +33,9 @@ A company wants to store their documents in AWS. Initially, these documents will
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, Glacier, EBS]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-s3-object-lifecycle-management/
@@ -47,6 +53,9 @@ Your firm has uploaded a large amount of aerial image data to S3. In the past, i
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, SES, SQS, Glacier, EC2, SNS]
 
 Explanation:
 
@@ -71,6 +80,9 @@ You have a proprietary data store on-premises that must be backed up daily by du
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[S3, SES, Glacier, Storage Gateway, EBS]
 
 Explanation:
 

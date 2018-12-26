@@ -15,6 +15,11 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elb-monitoring/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "ELB",
+      "CloudTrail"
     ]
   },
   {
@@ -33,6 +38,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-elb-monitoring/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "CloudTrail"
     ]
   },
   {
@@ -51,6 +60,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-elb-monitoring/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "CloudTrail"
     ]
   }
 ]

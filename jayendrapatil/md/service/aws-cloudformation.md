@@ -10,6 +10,9 @@ What does Amazon CloudFormation provide?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2, CloudFormation]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-cloudformation/
@@ -27,6 +30,9 @@ A user is planning to use AWS CloudFormation for his automatic deployment requir
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[CloudFormation]
 
 Explanation:
 
@@ -46,6 +52,9 @@ In regard to AWS CloudFormation, what is a stack?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-cloudformation/
@@ -64,6 +73,9 @@ A large enterprise wants to adopt CloudFormation to automate administrative task
 
 <details><summary>Answer:</summary><p>
 [A, D]
+
+Categories:
+[RDS, IAM, EC2, CloudFormation, VPC, ELB]
 
 Explanation:
 
@@ -93,6 +105,9 @@ Your team is excited about the use of AWS because now they have access to progra
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, OpsWorks, CloudWatch, CloudFormation]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-cloudformation/
@@ -110,6 +125,9 @@ A user is usingCloudFormation to launch an EC2 instance and then configure an ap
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[EC2, CloudFormation, ELB]
 
 Explanation:
 
@@ -129,6 +147,9 @@ A user has created a CloudFormation stack. The stack creates AWS services, such 
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS, EC2, CloudFormation, ELB]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-cloudformation/
@@ -146,6 +167,9 @@ A user is planning to use AWS CloudFormation. Which of the below mentioned funct
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, RDS, IAM, EC2, EBS, CloudFormation, VPC, ELB]
 
 Explanation:
 
@@ -165,6 +189,9 @@ A customer is using AWS for Dev and Test. The customer wants to setup the Dev en
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-cloudformation/
@@ -183,6 +210,9 @@ A marketing research company has developed a tracking system that collects user 
 
 <details><summary>Answer:</summary><p>
 [C, E]
+
+Categories:
+[IAM, EC2, ASG, EBS, CloudFormation, DynamoDB, ELB, Redshift]
 
 Explanation:
 
@@ -209,6 +239,9 @@ A gaming company adopted AWS CloudFormation to automate load -testing of their g
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[RDS, EC2, CloudFormation]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-cloudformation/
@@ -233,6 +266,9 @@ When working with AWS CloudFormation Templates what is the maximum number of sta
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/aws-cloudformation/
@@ -255,6 +291,9 @@ What happens, by default, when one of the resources in a CloudFormation stack ca
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-cloudformation/
@@ -272,6 +311,9 @@ You need to deploy an AWS stack in a repeatable manner across multiple environme
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[CloudFormation, SNS, Lambda]
 
 Explanation:
 
@@ -295,6 +337,9 @@ What is a circular dependency in AWS CloudFormation?
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-cloudformation/
@@ -316,6 +361,9 @@ You need to run a very large batch data processing job one time per day. The sou
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, OpsWorks, CloudFormation, EMR, Elastic Beanstalk]
 
 Explanation:
 
@@ -345,6 +393,9 @@ Your company needs to automate 3 layers of a large cloud deployment. You want to
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[OpsWorks, CloudFormation, Elastic Beanstalk]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-cloudformation/
@@ -364,6 +415,9 @@ You have been asked to de-risk deployments at your company. Specifically, the CE
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, ECS, EC2, CloudFormation]
 
 Explanation:
 
@@ -387,6 +441,9 @@ Which code snippet below returns the URL of a load balanced web site created in 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 19@http://jayendrapatil.com/aws-cloudformation/
@@ -406,6 +463,9 @@ For AWS CloudFormation, which stack state refuses UpdateStack calls? [Developer]
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[SES, CloudFormation]
 
 Explanation:
 
@@ -427,6 +487,9 @@ Which of these is not a Pseudo Parameter in AWS CloudFormation? [Developer]
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 21@http://jayendrapatil.com/aws-cloudformation/
@@ -446,6 +509,9 @@ Which of these is not an intrinsic function in AWS CloudFormation? [Developer]
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[CloudFormation]
 
 Explanation:
 
@@ -467,6 +533,9 @@ Which of these is not a CloudFormation Helper Script? [Developer]
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-cloudformation/
@@ -486,6 +555,9 @@ What method should I use to author automation if I want to wait for a CloudForma
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SQS, CloudFormation, SNS]
 
 Explanation:
 
@@ -510,6 +582,9 @@ Which status represents a failure state in AWS CloudFormation? [Developer]
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[CloudFormation]
 
 Explanation:
 
@@ -539,6 +614,9 @@ Which of these is not an intrinsic function in AWS CloudFormation? [Developer]
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[CloudFormation]
+
 Explanation:
 
 Question 26@http://jayendrapatil.com/aws-cloudformation/
@@ -560,6 +638,9 @@ You need to create a Route53 record automatically in CloudFormation when not run
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[CloudFormation]
 
 Explanation:
 

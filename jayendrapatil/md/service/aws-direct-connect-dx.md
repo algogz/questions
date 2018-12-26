@@ -10,6 +10,9 @@ You are building a solution for a customer to extend their on-premises data cent
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, VPC, Direct Connect]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-direct-connect-dx/
@@ -27,6 +30,9 @@ Is there any way to own a direct connection to Amazon Web Services?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[VPC, Direct Connect]
 
 Explanation:
 
@@ -46,6 +52,9 @@ An organization has established an Internet-based VPN connection between their o
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, Direct Connect]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-direct-connect-dx/
@@ -63,6 +72,9 @@ Does AWS Direct Connect allow you access to all Availabilities Zones within a Re
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[Direct Connect]
 
 Explanation:
 
@@ -82,6 +94,9 @@ A customer has established an AWS Direct Connect connection to AWS. The link is 
 
 <details><summary>Answer:</summary><p>
 [B, E]
+
+Categories:
+[SES, EC2, VPC, Direct Connect]
 
 Explanation:
 
@@ -108,6 +123,9 @@ A company has configured and peered two VPCs: VPC-1 and VPC-2. VPC-1 contains on
 <details><summary>Answer:</summary><p>
 [B, E]
 
+Categories:
+[SES, VPC, Direct Connect]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-direct-connect-dx/
@@ -132,6 +150,9 @@ Your company previously configured a heavily used, dynamically routed VPN connec
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, VPC, Direct Connect]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-direct-connect-dx/
@@ -149,6 +170,9 @@ You are designing the network infrastructure for an application server in Amazon
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[SES, VPC, Direct Connect]
 
 Explanation:
 
@@ -174,6 +198,9 @@ You are implementing AWS Direct Connect. You intend to use AWS public service en
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, VPC, Direct Connect]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-direct-connect-dx/
@@ -191,6 +218,9 @@ You have been asked to design network connectivity between your existing data ce
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, EC2, VPC, ELB]
 
 Explanation:
 
@@ -211,6 +241,9 @@ You are tasked with moving a legacy application from a virtual machine running i
 
 <details><summary>Answer:</summary><p>
 [A, D, F]
+
+Categories:
+[SES, VPC, Route 53, Direct Connect]
 
 Explanation:
 

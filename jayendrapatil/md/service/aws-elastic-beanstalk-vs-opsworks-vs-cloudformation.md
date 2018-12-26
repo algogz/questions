@@ -10,6 +10,9 @@ Your team is excited about the use of AWS because now they have access to progra
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, OpsWorks, CloudWatch, CloudFormation, Elastic Beanstalk]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-elastic-beanstalk-vs-opsworks-vs-cloudformation/
@@ -28,6 +31,9 @@ An organization is planning to use AWS for their production roll out. The organi
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3, CloudFront, CloudFormation, ELB, Elastic Beanstalk]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-elastic-beanstalk-vs-opsworks-vs-cloudformation/
@@ -45,6 +51,9 @@ You are working with a customer who is using Chef configuration management in th
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[OpsWorks, SWF, CloudFormation, Elastic Beanstalk]
 
 Explanation:
 

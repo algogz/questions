@@ -21,6 +21,17 @@
       "C: Cost effective S3 storage, CloudSearch for Search and Highly available and durable web application",
       "D: MySQL not an ideal solution to sore index and JPEG images for cost and performance",
       "E: Web Application not scalable, whats the source for JPEGs files through CloudFront"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "CloudFront",
+      "EC2",
+      "EBS",
+      "CloudFormation",
+      "CloudSearch",
+      "Elastic Beanstalk"
     ]
   }
 ]

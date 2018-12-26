@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-object-versioning/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -34,6 +38,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-object-versioning/"
+    ],
+    "categories": [
+      "S3",
+      "Glacier"
     ]
   },
   {
@@ -53,6 +61,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-s3-object-versioning/"
+    ],
+    "categories": [
+      "S3",
+      "IAM"
     ]
   },
   {
@@ -71,6 +83,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-s3-object-versioning/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -89,6 +104,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-s3-object-versioning/"
+    ],
+    "categories": [
+      "S3"
     ]
   }
 ]

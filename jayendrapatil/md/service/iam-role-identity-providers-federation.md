@@ -10,6 +10,9 @@ A photo-sharing service stores pictures in Amazon Simple Storage Service (S3) an
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3, IAM]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -28,6 +31,9 @@ Which technique can be used to integrate AWS IAM (Identity and Access Management
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM, EC2]
 
 Explanation:
 
@@ -52,6 +58,9 @@ You are designing a photo sharing mobile app the application will store all pict
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, SES, RDS, IAM, DynamoDB]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -69,6 +78,9 @@ Your company has recently extended its datacenter into a VPC on AWS to add burst
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, IAM, EC2, VPC]
 
 Explanation:
 
@@ -88,6 +100,9 @@ A corporate web application is deployed within an Amazon Virtual Private Cloud (
 
 <details><summary>Answer:</summary><p>
 [B, C]
+
+Categories:
+[S3, SES, IAM, VPC]
 
 Explanation:
 
@@ -117,6 +132,9 @@ Company B is launching a new game app for mobile devices. Users will log into th
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[S3, IAM, EC2, DynamoDB]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -135,6 +153,9 @@ A user has created a mobile application which makes calls to DynamoDB to fetch c
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[IAM, EC2, DynamoDB]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -152,6 +173,9 @@ You are managing the AWS account of a big organization. The organization has mor
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[IAM, EC2]
 
 Explanation:
 
@@ -172,6 +196,9 @@ Your fortune 500 company has under taken a TCO analysis evaluating the use of Am
 <details><summary>Answer:</summary><p>
 [A, B, D]
 
+Categories:
+[S3, IAM]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -189,6 +216,9 @@ An AWS customer is deploying a web application that is composed of a front-end r
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, IAM, EC2]
 
 Explanation:
 
@@ -216,6 +246,9 @@ What is web identity federation?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -234,6 +267,9 @@ Games-R-Us is launching a new game app for mobile devices. Users will log into t
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[IAM, DynamoDB]
+
 Explanation:
 
 Question 12@http://jayendrapatil.com/iam-role-identity-providers-federation/
@@ -251,6 +287,9 @@ You are building a mobile app for consumers to post cat pictures online. You wil
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, SES, API Gateway]
 
 Explanation:
 
@@ -273,6 +312,9 @@ The Marketing Director in your company asked you to create a mobile app that let
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3, IAM, EC2, DynamoDB]
 
 Explanation:
 

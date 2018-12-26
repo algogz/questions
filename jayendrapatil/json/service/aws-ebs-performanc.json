@@ -16,6 +16,9 @@
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ebs-performanc/",
       "B: This used to be the case before, but pre warming is not necessary now"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -35,6 +38,9 @@
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ebs-performanc/",
       "B: the volume needed to be wiped cleaned before for new volumes, however pre warming is not needed any more"
+    ],
+    "categories": [
+      "EBS"
     ]
   },
   {
@@ -54,6 +60,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ebs-performanc/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -75,6 +85,10 @@
       "Question 4@http://jayendrapatil.com/aws-ebs-performanc/",
       "B: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-ec2-config.html",
       "B: have limit on max throughput and would require larger instance types to provide 24000 IOPS "
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -93,6 +107,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ebs-performanc/"
+    ],
+    "categories": [
+      "EC2",
+      "EBS"
     ]
   }
 ]

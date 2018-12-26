@@ -17,6 +17,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "CloudFront",
+      "SNS"
     ]
   },
   {
@@ -35,6 +39,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SQS",
+      "SNS"
     ]
   },
   {
@@ -53,6 +61,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SES",
+      "SNS"
     ]
   },
   {
@@ -71,6 +83,12 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "CloudWatch",
+      "SNS"
     ]
   },
   {
@@ -89,6 +107,11 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SES",
+      "SQS",
+      "SNS"
     ]
   },
   {
@@ -107,6 +130,14 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SES",
+      "SQS",
+      "EC2",
+      "CloudWatch",
+      "EBS",
+      "SNS"
     ]
   },
   {
@@ -125,6 +156,12 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SES",
+      "SQS",
+      "EC2",
+      "SNS"
     ]
   },
   {
@@ -144,6 +181,9 @@
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-sns-simple-notification-service/",
       "D: http://docs.aws.amazon.com/sns/latest/dg/mobile-push-send-devicetoken.html"
+    ],
+    "categories": [
+      "SNS"
     ]
   },
   {
@@ -162,6 +202,13 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SQS",
+      "SNS",
+      "Redshift"
     ]
   },
   {
@@ -182,6 +229,10 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SNS",
+      "DynamoDB"
     ]
   },
   {
@@ -200,6 +251,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SNS"
     ]
   },
   {
@@ -222,6 +276,9 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-sns-simple-notification-service/"
+    ],
+    "categories": [
+      "SNS"
     ]
   }
 ]

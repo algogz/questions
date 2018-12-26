@@ -19,6 +19,11 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3",
+      "KMS",
+      "EC2"
     ]
   },
   {
@@ -37,6 +42,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -55,6 +63,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -73,6 +84,9 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -91,6 +105,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -109,6 +126,9 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -131,6 +151,12 @@
       "B: Not cost effective",
       "C: with CSE-KMS the encryption happens at client side before the object is upload to S3 and KMS is cost effective as well",
       "D: Not cost effective"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "KMS",
+      "Glacier"
     ]
   },
   {
@@ -149,6 +175,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -167,6 +196,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-s3-data-protection/"
+    ],
+    "categories": [
+      "S3"
     ]
   }
 ]

@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-instance-lifecycle/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -33,6 +36,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-instance-lifecycle/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -51,6 +57,9 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-instance-lifecycle/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -69,6 +78,11 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-ec2-instance-lifecycle/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "VPC"
     ]
   }
 ]

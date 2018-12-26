@@ -15,6 +15,13 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-elastic-beanstalk-vs-opsworks-vs-cloudformation/"
+    ],
+    "categories": [
+      "SES",
+      "OpsWorks",
+      "CloudWatch",
+      "CloudFormation",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -33,6 +40,13 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-elastic-beanstalk-vs-opsworks-vs-cloudformation/"
+    ],
+    "categories": [
+      "S3",
+      "CloudFront",
+      "CloudFormation",
+      "ELB",
+      "Elastic Beanstalk"
     ]
   },
   {
@@ -51,6 +65,12 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-elastic-beanstalk-vs-opsworks-vs-cloudformation/"
+    ],
+    "categories": [
+      "OpsWorks",
+      "SWF",
+      "CloudFormation",
+      "Elastic Beanstalk"
     ]
   }
 ]

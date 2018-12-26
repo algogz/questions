@@ -12,6 +12,9 @@ A company is storing data on Amazon Simple Storage Service (S3). The company’s
 <details><summary>Answer:</summary><p>
 [A, B, E]
 
+Categories:
+[S3, KMS, EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-s3-data-protection/
@@ -29,6 +32,9 @@ A user has enabled versioning on an S3 bucket. The user is using server side enc
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -48,6 +54,9 @@ A storage admin wants to encrypt all the objects stored in S3 using server side 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-s3-data-protection/
@@ -65,6 +74,9 @@ A user has enabled versioning on an S3 bucket. The user is using server side enc
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3]
 
 Explanation:
 
@@ -84,6 +96,9 @@ A system admin is planning to encrypt all objects being uploaded to S3 from an a
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-s3-data-protection/
@@ -102,6 +117,9 @@ A customer is leveraging Amazon Simple Storage Service in eu-west-1 to store sta
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-s3-data-protection/
@@ -119,6 +137,9 @@ You are designing a personal document-archiving solution for your global enterpr
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[S3, SES, KMS, Glacier]
 
 Explanation:
 
@@ -146,6 +167,9 @@ A user has enabled server side encryption with S3. The user downloads the encryp
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[S3]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-s3-data-protection/
@@ -163,6 +187,9 @@ When uploading an object, what request header can be explicitly specified in a r
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[S3]
 
 Explanation:
 

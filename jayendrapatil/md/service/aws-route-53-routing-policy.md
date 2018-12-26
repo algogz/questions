@@ -11,6 +11,9 @@ You have deployed a web application targeting a global audience across multiple 
 <details><summary>Answer:</summary><p>
 [B, E]
 
+Categories:
+[SES, Route 53]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-route-53-routing-policy/
@@ -28,6 +31,9 @@ The compliance department within your multi-national organization requires that 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, EC2, Route 53]
 
 Explanation:
 
@@ -53,6 +59,9 @@ A US-based company is expanding their web presence into Europe. The company want
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[SES, Route 53]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-route-53-routing-policy/
@@ -70,6 +79,9 @@ You have been asked to propose a multi-region deployment of a web-facing applica
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[ASG, Route 53, ELB]
 
 Explanation:
 
@@ -89,6 +101,9 @@ Your company is moving towards tracking web page users with a small tracking ima
 <details><summary>Answer:</summary><p>
 [A, B]
 
+Categories:
+[S3, RDS, CloudFront, EC2, EBS, Route 53]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-route-53-routing-policy/
@@ -106,6 +121,9 @@ Your API requires the ability to stay online during AWS regional failures. Your 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, CloudFront, ASG, ELB]
 
 Explanation:
 

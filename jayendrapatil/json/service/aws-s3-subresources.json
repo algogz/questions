@@ -15,6 +15,9 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-s3-subresources/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -33,6 +36,10 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-s3-subresources/"
+    ],
+    "categories": [
+      "S3",
+      "CloudTrail"
     ]
   },
   {
@@ -51,6 +58,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-s3-subresources/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -69,6 +80,10 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-s3-subresources/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   },
   {
@@ -89,6 +104,10 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-s3-subresources/"
+    ],
+    "categories": [
+      "S3",
+      "EBS"
     ]
   }
 ]

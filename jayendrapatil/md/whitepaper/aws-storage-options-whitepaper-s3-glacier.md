@@ -10,7 +10,8 @@ You want to pass queue messages that are 1GB each. How should you achieve this?
 <details><summary>Answer:</summary><p>
 [B]
 
-[]
+Categories:
+[S3, SQS, Kinesis]
 
 Explanation:
 
@@ -34,7 +35,8 @@ Company ABCD has recently launched an online commerce site for bicycles on AWS. 
 <details><summary>Answer:</summary><p>
 [D]
 
-[]
+Categories:
+[S3, DynamoDB]
 
 Explanation:
 

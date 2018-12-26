@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -35,7 +39,8 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-iam-role/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-iam-role/",
@@ -57,6 +62,13 @@
       "Question 3@http://jayendrapatil.com/aws-iam-role/",
       "B: Provides IT governance",
       "D: Will provide cost oversight"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "CloudWatch",
+      "VPC",
+      "CloudTrail"
     ]
   },
   {
@@ -79,6 +91,11 @@
       "Question 4@http://jayendrapatil.com/aws-iam-role/",
       "B: (With latest enhancement from AWS, IAM role can be assigned to a running EC2 instance)",
       "E: (This was the correct answer before, as AWS did not allow IAM role to be added to an existing instance)"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -97,6 +114,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -115,6 +135,11 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "S3",
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -133,6 +158,11 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "CloudFormation",
+      "DynamoDB"
     ]
   },
   {
@@ -151,6 +181,10 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -169,6 +203,11 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "EC2",
+      "DynamoDB"
     ]
   },
   {
@@ -190,6 +229,9 @@
       "A: no user separation, will just help generate temporary tokens",
       "B: Different policy with deny rules based on location, device and more restrictive wins",
       "C: Authorization should still be in developers control"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -208,6 +250,11 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-iam-role/"
+    ],
+    "categories": [
+      "IAM",
+      "CloudWatch",
+      "ASG"
     ]
   }
 ]

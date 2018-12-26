@@ -39,7 +39,15 @@
       "C: While VPN can be setup quickly asynchronous replication using VPN would work, running instances in DR is expensive",
       "D: Pilot Light approach with only DB running and replicate while you have preconfigured AMI and autoscaling config"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "EC2",
+      "ASG",
+      "EBS",
+      "ELB",
+      "Direct Connect"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-disaster-recovery-whitepaper/",
@@ -58,7 +66,9 @@
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-disaster-recovery-whitepaper/"
     ],
-    "categories": []
+    "categories": [
+      "Route 53"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-disaster-recovery-whitepaper/",
@@ -79,7 +89,13 @@
       "C: Glacier not an option with the 2 hours RTO",
       "D: Will use RMAN only if Database hosted on EC2 and not when using RDS"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2",
+      "EBS"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-disaster-recovery-whitepaper/",
@@ -123,7 +139,12 @@
       "C: Instance store not a preferred storage",
       "D: Glacier does not meet the RTO"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "Glacier",
+      "EC2",
+      "Instance Store"
+    ]
   },
   {
     "url": "http://jayendrapatil.com/aws-disaster-recovery-whitepaper/",
@@ -145,6 +166,14 @@
       "C: No need to attach the Storage Gateway as an iSCSI volume can just create a EBS volume",
       "D: VTL is Virtual Tape library and doesn’t fit the RTO"
     ],
-    "categories": []
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "Glacier",
+      "EC2",
+      "Storage Gateway",
+      "EBS"
+    ]
   }
 ]

@@ -9,6 +9,9 @@ IAM’s Policy Evaluation Logic always starts with a default ____________ for ev
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-iam-access-management/
@@ -26,6 +29,9 @@ An organization has created 10 IAM users. The organization wants each of the IAM
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM, DynamoDB]
 
 Explanation:
 
@@ -45,6 +51,9 @@ An organization has setup multiple IAM users. The organization wants that each I
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[SES, IAM, EC2, VPC]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-iam-access-management/
@@ -62,6 +71,9 @@ Can I attach more than one policy to a particular entity?
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[VPC]
 
 Explanation:
 
@@ -81,6 +93,9 @@ A __________ is a document that provides a formal statement of one or more permi
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-iam-access-management/
@@ -99,6 +114,9 @@ A __________ is the concept of allowing (or disallowing) an entity such as a use
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-iam-access-management/
@@ -114,6 +132,9 @@ True or False: When using IAM to control access to your RDS resources, the key n
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS, IAM]
 
 Explanation:
 
@@ -135,6 +156,9 @@ A user has set an IAM policy where it allows all requests if a request from IP 1
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-iam-access-management/
@@ -154,6 +178,9 @@ Which of the following are correct statements with policy evaluation logic in AW
 <details><summary>Answer:</summary><p>
 [A, C]
 
+Categories:
+[]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-iam-access-management/
@@ -171,6 +198,9 @@ A web design company currently runs several FTP servers that their 250 customers
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[S3, IAM]
 
 Explanation:
 

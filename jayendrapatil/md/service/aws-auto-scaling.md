@@ -10,6 +10,9 @@ A user is trying to setup a scheduled scaling activity using Auto Scaling. The u
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[ASG]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-auto-scaling/
@@ -27,6 +30,9 @@ A user has configured Auto Scaling with 3 instances. The user had created a new 
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -46,6 +52,9 @@ A user is planning to scale up an application by 8 AM and scale down by 7 PM dai
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, CloudWatch, ASG]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-auto-scaling/
@@ -63,6 +72,9 @@ An organization has setup Auto Scaling with ELB. Due to some manual error, one o
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[ASG, ELB]
 
 Explanation:
 
@@ -82,6 +94,9 @@ A user has configured Auto Scaling with the minimum capacity as 2 and the desire
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[ASG]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-auto-scaling/
@@ -99,6 +114,9 @@ An organization has configured Auto Scaling for hosting their application. The s
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, ASG]
 
 Explanation:
 
@@ -118,6 +136,9 @@ A user has configured ELB with Auto Scaling. The user suspended the Auto Scaling
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[ASG, ELB]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-auto-scaling/
@@ -135,6 +156,9 @@ An organization has configured Auto Scaling with ELB. There is a memory issue in
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[ASG, ELB]
 
 Explanation:
 
@@ -154,6 +178,9 @@ A user has configured ELB with Auto Scaling. The user suspended the Auto Scaling
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch, ASG, ELB]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-auto-scaling/
@@ -171,6 +198,9 @@ An organization has configured two single availability zones. The Auto Scaling g
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -190,6 +220,9 @@ An organization has configured Auto Scaling with ELB. One of the instance health
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[ASG, SNS, ELB]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-auto-scaling/
@@ -207,6 +240,9 @@ A user has setup an Auto Scaling group. The group has failed to launch a single 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -226,6 +262,9 @@ A user is planning to setup infrastructure on AWS for the Christmas sales. The u
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[ASG]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-auto-scaling/
@@ -243,6 +282,9 @@ A user is trying to setup a recurring Auto Scaling process. The user has setup o
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[SES, ASG]
 
 Explanation:
 
@@ -262,6 +304,9 @@ A sys admin is trying to understand the Auto Scaling activities. Which of the be
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[SES, ASG]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-auto-scaling/
@@ -279,6 +324,9 @@ You have started a new job and are reviewing your company’s infrastructure on 
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[CloudWatch, ASG, ELB]
 
 Explanation:
 
@@ -298,6 +346,9 @@ You have been asked to leverage Amazon VPC EC2 and SQS to implement an applicati
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SQS, EC2, ASG, EBS, VPC]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-auto-scaling/
@@ -315,6 +366,9 @@ You have decided to change the Instance type for instances running in your appli
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -334,6 +388,9 @@ A user is trying to delete an Auto Scaling group from CLI. Which of the below me
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[EC2, ASG]
+
 Explanation:
 
 Question 19@http://jayendrapatil.com/aws-auto-scaling/
@@ -351,6 +408,9 @@ A user has created a web application with Auto Scaling. The user is regularly mo
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -370,6 +430,9 @@ A user has configured the Auto Scaling group with the minimum capacity as 3 and 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[ASG]
+
 Explanation:
 
 Question 21@http://jayendrapatil.com/aws-auto-scaling/
@@ -387,6 +450,9 @@ A sys admin is maintaining an application on AWS. The application is installed o
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[EC2, ASG, ELB]
 
 Explanation:
 
@@ -407,6 +473,9 @@ In reviewing the auto scaling events for your application you notice that your a
 <details><summary>Answer:</summary><p>
 [A, D]
 
+Categories:
+[CloudWatch, ASG]
+
 Explanation:
 
 Question 23@http://jayendrapatil.com/aws-auto-scaling/
@@ -424,6 +493,9 @@ You have a business critical two tier web app currently deployed in two availabi
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[ASG, ELB]
 
 Explanation:
 
@@ -445,6 +517,9 @@ A user has created a launch configuration for Auto Scaling where CloudWatch deta
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[CloudWatch, ASG]
+
 Explanation:
 
 Question 25@http://jayendrapatil.com/aws-auto-scaling/
@@ -462,6 +537,9 @@ A user has created an Auto Scaling group with default configurations from CLI. T
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2, CloudWatch, ASG]
 
 Explanation:
 
@@ -481,6 +559,9 @@ A customer has a website which shows all the deals available across the market. 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2, ASG, EBS]
+
 Explanation:
 
 Question 27@http://jayendrapatil.com/aws-auto-scaling/
@@ -498,6 +579,9 @@ When Auto Scaling is launching a new instance based on condition, which of the b
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -517,6 +601,9 @@ The user has created multiple AutoScaling groups. The user is trying to create a
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 29@http://jayendrapatil.com/aws-auto-scaling/
@@ -534,6 +621,9 @@ A user is trying to save some cost on the AWS services. Which of the below menti
 
 <details><summary>Answer:</summary><p>
 []
+
+Categories:
+[ASG, EBS, ELB]
 
 Explanation:
 
@@ -555,6 +645,9 @@ To scale up the AWS resources using manual Auto Scaling, which of the below ment
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[ASG]
+
 Explanation:
 
 Question 31@http://jayendrapatil.com/aws-auto-scaling/
@@ -572,6 +665,9 @@ For AWS Auto Scaling, what is the first transition state an existing instance en
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[ASG]
 
 Explanation:
 
@@ -595,6 +691,9 @@ For AWS Auto Scaling, what is the first transition state an instance enters afte
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[ASG]
+
 Explanation:
 
 Question 33@http://jayendrapatil.com/aws-auto-scaling/
@@ -617,6 +716,9 @@ A user has setup Auto Scaling with ELB on the EC2 instances. The user wants to c
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2, CloudWatch, ASG, SNS, ELB]
+
 Explanation:
 
 Question 34@http://jayendrapatil.com/aws-auto-scaling/
@@ -634,6 +736,9 @@ A user has enabled detailed CloudWatch metric monitoring on an Auto Scaling grou
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[CloudWatch, ASG]
 
 Explanation:
 
@@ -654,6 +759,9 @@ Your startup wants to implement an order fulfillment process for selling a perso
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[SES, RDS, SWF, SQS, EC2, ASG, EBS, Elastic Beanstalk]
 
 Explanation:
 

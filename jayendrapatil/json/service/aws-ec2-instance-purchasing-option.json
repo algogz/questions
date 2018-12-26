@@ -15,7 +15,8 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
@@ -33,6 +34,9 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -50,7 +54,8 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
@@ -71,6 +76,10 @@
       "B: (don’t go for spot as availability not guaranteed)",
       "C: (don’t go for spot as availability not guaranteed)",
       "D: (don’t go for spot as availability not guaranteed)"
+    ],
+    "categories": [
+      "EC2",
+      "ASG"
     ]
   },
   {
@@ -90,7 +99,8 @@
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
       "A: (seems question before the introduction of the Scheduled Reserved instances in Jan 2016, which can be used in this case)"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
@@ -116,6 +126,9 @@
       "C: (are allowed)",
       "D: (specific to instance family but instance type can be changed) ( specific to instance family but instance type can be changed )",
       "E: (helps to reduce cost)"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -134,6 +147,10 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/"
+    ],
+    "categories": [
+      "SES",
+      "EC2"
     ]
   },
   {
@@ -152,7 +169,8 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
@@ -171,6 +189,10 @@
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
       "A: (possible but impact not minimal)"
+    ],
+    "categories": [
+      "EC2",
+      "VPC"
     ]
   },
   {
@@ -193,6 +215,11 @@
       "B: Combination of the Spot and reserved with guarantee performance and help reduce cost. Also, RRS would reduce cost and guarantee data integrity, which is different from data durability",
       "C: Spot instances impacts performance",
       "D: Spot instances impacts performance"
+    ],
+    "categories": [
+      "S3",
+      "EMR",
+      "Redshift"
     ]
   },
   {
@@ -214,6 +241,12 @@
       "B: Reserved Instance not cost effective for 4 hour job and data not needed in S3 once moved to RDS",
       "C: Reserved Instance not cost effective",
       "D: RRS provides not much cost benefits for a 4 hour job while the amount of input data would take time to upload and Output data to reproduce"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "Glacier",
+      "EC2"
     ]
   },
   {
@@ -236,6 +269,9 @@
       "B: 90% is not recommended as well RIs would increase the cost",
       "C: 90% is not recommended as high bid price would not guarantee instances and would increase cost",
       "D: Availability cannot be guaranteed"
+    ],
+    "categories": [
+      "ASG"
     ]
   },
   {
@@ -255,6 +291,7 @@
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-ec2-instance-purchasing-option/",
       "A: Because the instance will always be online during the day, in a predictable manner, and there are sequences of batch jobs to perform at any time, we should run the batch jobs when the account software is off. We can achieve Heavy Utilization by alternating these times, so we should purchase the reservation as such, as this represents the lowest cost. There is no such thing a “Full” level utilization purchases on EC2."
-    ]
+    ],
+    "categories": []
   }
 ]

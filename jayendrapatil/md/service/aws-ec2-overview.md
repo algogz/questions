@@ -10,6 +10,9 @@ What are the Amazon EC2 API tools?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-ec2-overview/
@@ -27,6 +30,9 @@ When a user is launching an instance with EC2, which of the below mentioned opti
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[EC2]
 
 Explanation:
 

@@ -11,6 +11,9 @@ You run a web application with the following components Elastic Load Balancer (E
 <details><summary>Answer:</summary><p>
 [A, B, D]
 
+Categories:
+[S3, RDS, CloudWatch, ELB]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-rds-monitoring-notification/
@@ -27,6 +30,9 @@ Typically, you want your application to check whether a request generated an err
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -46,6 +52,9 @@ In the Amazon CloudWatch, which metric should I be checking to ensure that your 
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[CloudWatch]
+
 Explanation:
 
 Question 3@http://jayendrapatil.com/aws-rds-monitoring-notification/
@@ -63,6 +72,9 @@ A user is receiving a notification from the RDS DB whenever there is a change in
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -82,6 +94,9 @@ A sys admin is planning to subscribe to the RDS event notifications. For which o
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS]
+
 Explanation:
 
 Question 5@http://jayendrapatil.com/aws-rds-monitoring-notification/
@@ -99,6 +114,9 @@ A user is planning to setup notifications on the RDS DB for a snapshot. Which of
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[RDS]
 
 Explanation:
 
@@ -120,6 +138,9 @@ A system admin is planning to setup event notifications on RDS. Which of the bel
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[SES, RDS, CloudWatch, SNS, CloudTrail]
+
 Explanation:
 
 Question 7@http://jayendrapatil.com/aws-rds-monitoring-notification/
@@ -138,6 +159,9 @@ A user has setup an RDS DB with Oracle. The user wants to get notifications when
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[RDS, CloudWatch, SNS]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-rds-monitoring-notification/
@@ -155,6 +179,9 @@ It is advised that you watch the Amazon CloudWatch “_____” metric (available
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[CloudWatch]
 
 Explanation:
 

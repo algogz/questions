@@ -10,6 +10,9 @@ You are working with a customer who has 10 TB of archival data that they want to
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[Glacier, Storage Gateway]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-importexport/

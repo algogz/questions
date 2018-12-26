@@ -17,6 +17,11 @@
       "Question 1@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
       "B: Standby instance cannot be used as a scaling solution",
       "D: ElasticCache does not maintain full data and is simply a caching solution"
+    ],
+    "categories": [
+      "S3",
+      "RDS",
+      "ElastiCache"
     ]
   },
   {
@@ -38,6 +43,12 @@
       "A: does not provide High Availaility out of the box",
       "C: Just a caching solution",
       "D: Not suitable for complex queries and joins"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "ElastiCache",
+      "DynamoDB"
     ]
   },
   {
@@ -59,6 +70,12 @@
       "Question 3@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
       "B: this is only a read contention, the writes work fine",
       "C: not scalable this is only a read contention, the writes work fine"
+    ],
+    "categories": [
+      "RDS",
+      "EC2",
+      "ElastiCache",
+      "EBS"
     ]
   },
   {
@@ -78,6 +95,14 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "S3",
+      "SES",
+      "RDS",
+      "EC2",
+      "EBS",
+      "Direct Connect"
     ]
   },
   {
@@ -96,6 +121,9 @@
     ],
     "commentList": [
       "Question 5@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -114,6 +142,11 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "ElastiCache"
     ]
   },
   {
@@ -132,6 +165,9 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -150,6 +186,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -168,6 +207,9 @@
     ],
     "commentList": [
       "Question 9@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -186,7 +228,8 @@
     ],
     "commentList": [
       "Question 10@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -204,6 +247,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -222,7 +268,8 @@
     ],
     "commentList": [
       "Question 12@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -240,6 +287,10 @@
     ],
     "commentList": [
       "Question 13@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "SES",
+      "RDS"
     ]
   },
   {
@@ -257,7 +308,8 @@
     ],
     "commentList": [
       "Question 14@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -275,6 +327,9 @@
     ],
     "commentList": [
       "Question 15@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -293,6 +348,9 @@
     ],
     "commentList": [
       "Question 16@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -309,7 +367,8 @@
     ],
     "commentList": [
       "Question 17@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -327,6 +386,10 @@
     ],
     "commentList": [
       "Question 18@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "CloudWatch",
+      "SNS"
     ]
   },
   {
@@ -345,6 +408,9 @@
     ],
     "commentList": [
       "Question 19@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "VPC"
     ]
   },
   {
@@ -363,6 +429,10 @@
     ],
     "commentList": [
       "Question 20@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "SES",
+      "RDS"
     ]
   },
   {
@@ -381,6 +451,9 @@
     ],
     "commentList": [
       "Question 21@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -401,6 +474,9 @@
     "commentList": [
       "Question 22@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
       "C: https://aws.amazon.com/rds/details/multi-az/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -419,6 +495,11 @@
     ],
     "commentList": [
       "Question 23@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "CloudFront"
     ]
   },
   {
@@ -438,6 +519,9 @@
     "commentList": [
       "Question 24@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
       "A: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -456,6 +540,9 @@
     ],
     "commentList": [
       "Question 25@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -474,6 +561,9 @@
     ],
     "commentList": [
       "Question 26@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -491,7 +581,8 @@
     ],
     "commentList": [
       "Question 27@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -509,7 +600,8 @@
     ],
     "commentList": [
       "Question 28@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -527,7 +619,8 @@
     ],
     "commentList": [
       "Question 29@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/",
@@ -545,6 +638,9 @@
     ],
     "commentList": [
       "Question 30@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "RDS"
     ]
   },
   {
@@ -563,6 +659,13 @@
     ],
     "commentList": [
       "Question 31@http://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/"
+    ],
+    "categories": [
+      "SES",
+      "RDS",
+      "SQS",
+      "SNS",
+      "Redshift"
     ]
   }
 ]

@@ -9,6 +9,9 @@ Which service enables AWS customers to manage users and permissions in AWS?
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-iam-overview/
@@ -27,6 +30,9 @@ IAM provides several policy templates you can use to automatically assign permis
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 2@http://jayendrapatil.com/aws-iam-overview/
@@ -43,6 +49,9 @@ Every user you create in the IAM system starts with _________.
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -62,6 +71,9 @@ Groups can’t _____.
 <details><summary>Answer:</summary><p>
 [B]
 
+Categories:
+[]
+
 Explanation:
 
 Question 4@http://jayendrapatil.com/aws-iam-overview/
@@ -79,6 +91,9 @@ The _____ service is targeted at organizations with multiple users or systems th
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[RDS, EC2, EMR]
 
 Explanation:
 
@@ -98,6 +113,9 @@ An AWS customer is deploying an application that is composed of an AutoScaling g
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[S3, KMS, IAM, EC2, ASG, VPC, SNS]
+
 Explanation:
 
 Question 6@http://jayendrapatil.com/aws-iam-overview/
@@ -116,6 +134,9 @@ When assessing an organization AWS use of AWS API access credentials which of th
 
 <details><summary>Answer:</summary><p>
 [B, C, D]
+
+Categories:
+[SES, RDS]
 
 Explanation:
 
@@ -137,6 +158,9 @@ An organization has created 50 IAM users. The organization wants that each user 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[RDS, IAM]
+
 Explanation:
 
 Question 8@http://jayendrapatil.com/aws-iam-overview/
@@ -155,6 +179,9 @@ An organization has created 50 IAM users. The organization has introduced a new 
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 9@http://jayendrapatil.com/aws-iam-overview/
@@ -172,6 +199,9 @@ Your organization’s security policy requires that all privileged users either 
 
 <details><summary>Answer:</summary><p>
 [A, B]
+
+Categories:
+[RDS, IAM]
 
 Explanation:
 
@@ -195,6 +225,9 @@ Your organization is preparing for a security assessment of your use of AWS. In 
 <details><summary>Answer:</summary><p>
 [B, C]
 
+Categories:
+[SES, IAM]
+
 Explanation:
 
 Question 11@http://jayendrapatil.com/aws-iam-overview/
@@ -212,6 +245,9 @@ A company needs to deploy services to an AWS region which they have not previous
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM, EC2, DynamoDB]
 
 Explanation:
 
@@ -231,6 +267,9 @@ After creating a new IAM user which of the following must be done before they ca
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 13@http://jayendrapatil.com/aws-iam-overview/
@@ -248,6 +287,9 @@ An organization is planning to create a user with IAM. They are trying to unders
 
 <details><summary>Answer:</summary><p>
 [A]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -269,6 +311,9 @@ Within the IAM service a GROUP is regarded as a:
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[IAM, EC2]
+
 Explanation:
 
 Question 15@http://jayendrapatil.com/aws-iam-overview/
@@ -286,6 +331,9 @@ Is there a limit to the number of groups you can have?
 
 <details><summary>Answer:</summary><p>
 [D]
+
+Categories:
+[]
 
 Explanation:
 
@@ -305,6 +353,9 @@ What is the default maximum number of MFA devices in use per AWS account (at the
 <details><summary>Answer:</summary><p>
 [A]
 
+Categories:
+[]
+
 Explanation:
 
 Question 17@http://jayendrapatil.com/aws-iam-overview/
@@ -321,6 +372,9 @@ When you use the AWS Management Console to delete an IAM user, IAM also deletes 
 
 <details><summary>Answer:</summary><p>
 [C]
+
+Categories:
+[IAM]
 
 Explanation:
 
@@ -340,6 +394,9 @@ You are setting up a blog on AWS. In which of the following scenarios will you n
 
 <details><summary>Answer:</summary><p>
 [A, C, E]
+
+Categories:
+[S3, RDS, EC2]
 
 Explanation:
 
@@ -363,6 +420,9 @@ An organization has 500 employees. The organization wants to set up AWS access f
 <details><summary>Answer:</summary><p>
 [C]
 
+Categories:
+[IAM]
+
 Explanation:
 
 Question 20@http://jayendrapatil.com/aws-iam-overview/
@@ -380,6 +440,9 @@ An organization has hosted an application on the EC2 instances. There will be mu
 
 <details><summary>Answer:</summary><p>
 [B]
+
+Categories:
+[IAM, EC2]
 
 Explanation:
 

@@ -10,6 +10,9 @@ George has launched three EC2 instances inside the US-East-1a zone with his AWS 
 <details><summary>Answer:</summary><p>
 [D]
 
+Categories:
+[EC2]
+
 Explanation:
 
 Question 1@http://jayendrapatil.com/aws-regions-availability-zones-and-edge-locations/

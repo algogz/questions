@@ -15,6 +15,10 @@
     ],
     "commentList": [
       "Question 1@http://jayendrapatil.com/aws-resource-tags/"
+    ],
+    "categories": [
+      "RDS",
+      "EC2"
     ]
   },
   {
@@ -33,6 +37,11 @@
     ],
     "commentList": [
       "Question 2@http://jayendrapatil.com/aws-resource-tags/"
+    ],
+    "categories": [
+      "SES",
+      "EC2",
+      "EBS"
     ]
   },
   {
@@ -51,6 +60,10 @@
     ],
     "commentList": [
       "Question 3@http://jayendrapatil.com/aws-resource-tags/"
+    ],
+    "categories": [
+      "S3",
+      "EC2"
     ]
   },
   {
@@ -69,7 +82,8 @@
     ],
     "commentList": [
       "Question 4@http://jayendrapatil.com/aws-resource-tags/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-resource-tags/",
@@ -91,6 +105,9 @@
       "B: not flexible as it would change",
       "C: not flexible as it would change",
       "D: possible using ResourceTag condition"
+    ],
+    "categories": [
+      "IAM"
     ]
   },
   {
@@ -109,6 +126,9 @@
     ],
     "commentList": [
       "Question 6@http://jayendrapatil.com/aws-resource-tags/"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -127,7 +147,8 @@
     ],
     "commentList": [
       "Question 7@http://jayendrapatil.com/aws-resource-tags/"
-    ]
+    ],
+    "categories": []
   },
   {
     "url": "http://jayendrapatil.com/aws-resource-tags/",
@@ -145,6 +166,9 @@
     ],
     "commentList": [
       "Question 8@http://jayendrapatil.com/aws-resource-tags/"
+    ],
+    "categories": [
+      "S3"
     ]
   },
   {
@@ -167,6 +191,10 @@
       "B: Identify production resources using tags and add explicit deny",
       "C: Does not still prevent user from terminating instance",
       "D: Role is not applied to User but assumed by the User also need a way to identify production EC2 instances"
+    ],
+    "categories": [
+      "IAM",
+      "EC2"
     ]
   },
   {
@@ -187,6 +215,9 @@
       "Question 10@http://jayendrapatil.com/aws-resource-tags/",
       "D: 0 is the limit",
       "D: (5)"
+    ],
+    "categories": [
+      "EC2"
     ]
   },
   {
@@ -205,6 +236,9 @@
     ],
     "commentList": [
       "Question 11@http://jayendrapatil.com/aws-resource-tags/"
+    ],
+    "categories": [
+      "EC2"
     ]
   }
 ]
