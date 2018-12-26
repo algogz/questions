@@ -21,6 +21,14 @@ SAP-jayendrapatil
 	aws-storage-options-whitepaper/10 -> freecram [53]
 	aws-storage-options-whitepaper/13 -> freecram [13]
 
+SAP-jayendrapatil -> dop
+	aws-cloudfront/10 -> dop [167]
+	aws-ec2-instance-purchasing-option/13 -> dop [178]
+	aws-cloudwatch-overview/19 -> dop [82]
+	aws-cloudformation/14 -> dop [130]
+	aws-cloudformation/17 -> dop [160]
+	aws-cloudformation/18 -> dop [88]
+	aws-high-availability-fault-tolerance-architecture-certification/8 -> dop [150]
 
 DOP-Victor
 	QUESTION 119 -> freecram [75]

@@ -1,4 +1,4 @@
-# AWS DevOps Engineer Professional - 1/3
+# AWS DevOps Engineer Professional
 Version: 18.122
 
 ### QUESTION 1
@@ -191,7 +191,7 @@ Call the ec2-delete-snaphot API to prune backup Amazon EBS volumes that are tagg
 
 </p></details><hr>
 
-### QUESTION 11
+### QUESTION 11 x
 Your application uses CloudFormation to orchestrate your application's resources. During your testing phase before the application went live, your Amazon RDS instance type was changed and caused the instance to be re-created, resulting In the loss of test data.
 How should you prevent this from occurring in the future?
 
@@ -223,7 +223,7 @@ for each application's dependencies, and deploy to AWS OpsWorks in multiple Avai
 
 </p></details><hr>
 
-### QUESTION 13
+### QUESTION 13 x
 You have a large number of web servers in an Auto Scaling group behind a load balancer. On an hourly basis, you want to filter and process the logs to collect data on unique visitors, and then put that data in a durable data store in order to run reports. Web servers in the Auto Scaling group are constantly launching and terminating based on your scaling policies, but you do not want to lose any of the log data from these servers during a stop/termination initiated by a user or by Auto Scaling.
 What two approaches will meet these requirements?
 Choose 2 answers
@@ -245,7 +245,7 @@ Create a log group object in AWS Data Pipeline, and define Metric Filters to mov
 
 </p></details><hr>
 
-### QUESTION 14 *
+### QUESTION 14 x
 You have been tasked with deploying a scalable distributed system using AWS OpsWorks.
 Your distributed system is required to scale on demand. As it is distributed, each node must hold a configuration file that includes the hostnames of the other instances within the layer.
 How should you configure AWS OpsWorks to manage scaling this application dynamically?
@@ -277,7 +277,7 @@ Answer:</summary><p> C
 
 </p></details><hr>
 
-### QUESTION 16
+### QUESTION 16 x
 When an Auto Scaling group is running in Amazon Elastic Compute Cloud (EC2), your application rapidly scales up and down in response to load within a 10-minute window; however, after the load peaks, you begin to see problems in your configuration management system where previously terminated Amazon EC2 resources are still showing as active.
 What would be a reliable and efficient way to handle the cleanup of Amazon EC2 resources within your configuration management system?
   
@@ -334,7 +334,7 @@ is triggered.
 
 </p></details><hr>
 
-### QUESTION 19 *
+### QUESTION 19 x
 After a daily scrum with your development teams, you've agreed that using Blue/Green style deployments would benefit the team.
 Which technique should you use to deliver this new requirement?
 
@@ -366,7 +366,7 @@ does not change often, and then use AWS CloudFormation to define all other ephem
 
 </p></details><hr>
 
-### QUESTION 21 *
+### QUESTION 21
 Your development team wants account-level access to production instances in order to do live debugging of a highly secure environment.
 Which of the following should you do?
 
@@ -399,7 +399,7 @@ before the test.
 
 </p></details><hr>
 
-### QUESTION 23
+### QUESTION 23 x
 After reviewing the last quarter's monthly bills, management has noticed an increase in the overall bill from Amazon.
 After researching this increase in cost, you discovered that one of your new services is doing a lot of GET Bucket API calls to Amazon S3 to build a metadata cache of all objects in the applications bucket.
 Your boss has asked you to come up with a new cost-effective way to help reduce the amount of these new GET Bucket API calls.
@@ -434,7 +434,7 @@ reduce job to retrieve the required information on user counts.
 
 </p></details><hr>
 
-### QUESTION 25 x
+### QUESTION 25 xx
 You are using Elastic Beanstalk to manage your e-commerce store. The store is based on an open source e- commerce platform and is deployed across multiple instances in an Auto Scaling group. Your development team often creates new "extensions" for the e-commerce store.
 These extensions include PHP source code as well as an SQL upgrade script used to make any necessary updates to the database schema.
 You have noticed that some extension deployments fail due to an error when running the SQL upgrade script. After further investigation, you realize that this is because the SQL script is being
@@ -451,7 +451,7 @@ Only execute the script if "true" is returned.
 
 </p></details><hr>
 
-### QUESTION 26 x
+### QUESTION 26 xx
 You are administering a continuous integration application that polls version control for changes and then launches new Amazon EC2 instances for a full suite of build tests.
 What should you do to ensure the lowest overall cost while being able to run as many tests in parallel as possible?
 
@@ -464,7 +464,7 @@ What should you do to ensure the lowest overall cost while being able to run as 
 
 </p></details><hr>
 
-### QUESTION 27 x
+### QUESTION 27 xv
 You are doing a load testing exercise on your application hosted on AWS.
 While testing your Amazon RDS MySQL DB instance, you notice that when you hit 100% CPU utilization on it, your application becomes non- responsive.
 Your application is read-heavy.
@@ -497,7 +497,7 @@ You also need to manage the storage of these images. Which two of the following 
 
 </p></details><hr>
 
-### QUESTION 29 x
+### QUESTION 29 xx
 You have an Auto Sealing group of Instances that processes messages from an Amazon Simple Queue Service (SQS) queue.
 The group scales on the size of the queue. Processing Involves calling a third-party web service. The web service is complaining about the number of failed and repeated calls it is receiving from you.
 You have noticed that when the group scales in, instances are being terminated while they are processing.
@@ -516,7 +516,7 @@ while it processes a task and return itself to InService when the processing is 
 
 </p></details><hr>
 
-### QUESTION 30 x
+### QUESTION 30 xv
 The operations team and the development team want asingle place to view both operating system and application logs.
 How should you implement this using AWS services? Choose 2 answers
 
@@ -564,7 +564,7 @@ automated CloudWatch Log copy.
 
 </p></details><hr>
 
-### QUESTION 33 x
+### QUESTION 33 xv
 Management has reported an increase in the monthly bill from Amazon web services, and they are extremely concerned with this increased cost.
 Management has asked you to determine the exact cause of this increase.
 After reviewing the billing report, you notice an increase in the data transfer cost.
@@ -603,7 +603,7 @@ granularity to allow auto scaling to trigger faster.
 
 </p></details><hr>
 
-### QUESTION 35 x
+### QUESTION 35 xx
 You are responsible for your company's large multi-tiered Windows-based web application running on Amazon EC2 instances situated behind a load balancer.
   
 While reviewing metrics, you've started noticing an upwards trend for slow customer page load time.
@@ -623,7 +623,7 @@ Configure the Auto Scaling template to spin up a new Elastic Beanstalk applicati
 
 </p></details><hr>
 
-### QUESTION 36 x
+### QUESTION 36 xv
 Your company has multiple applications running on AWS.
 Your company wants to develop a tool that notifies on-call teams immediately via email when an alarm is triggered in your environment.
 You have multiple on-cal teams that work different shifts, and the tool should handle notifying the correct teams at the correct times.
@@ -667,7 +667,7 @@ live analysis.
 
 </p></details><hr>
 
-### QUESTION 38 x
+### QUESTION 38 xv
 You have a code repository that uses Amazon S3 as a data store. During a recent audit of your security controls, some concerns were raised about maintaining the integrity of the data in the Amazon S3 bucket. Another concern was raised around securely deploying code from Amazon S3 to applications running on Amazon EC2 in a virtual private cloud.
 What are some measures that you can implement to mitigate these concerns? Choose 2 answers.
 
@@ -713,7 +713,7 @@ How should you implement this for each deployment?
 
 </p></details><hr>
 
-### QUESTION 41 x
+### QUESTION 41 xv
 Your company currently runs a large multi-tier web application. One component is an API service that all other components of your application rely on to perform read/write operations.
 This service must have high availability and zero downtime during deployments.
 Which technique should you use to provide cost-effective, zero-downtime deployments for this component?
@@ -754,7 +754,7 @@ queue to facilitate batch processing new API call log files retrieved from an Am
 
 </p></details><hr>
 
-### QUESTION 43 x
+### QUESTION 43 xx
 You are using AWS Elastic Beanstalk to deploy your application and must make data stored on an Amazon Elastic Block Store (EBS) volume snapshot available to the Amazon Elastic Compute Cloud (EC2) instances. How can you modify your Elastic Beanstalk environment so that the data is added to the Amazon EC2 instances every time you deploy your application?
 
 - A. Add commands to a configuration file in the .ebextensions folder of your deployable archive that mount an additional Amazon EBS volume on launch.
@@ -771,7 +771,7 @@ Amazon EC2 API or CLI to create a new Amazon EBS volume based on the specified s
 
 </p></details><hr>
 
-### QUESTION 44 x
+### QUESTION 44 xx
 You would like to run automated, continuous application level integration tests on all members of an Auto Scaling group. Which two options should you use?
 Choose 2 answers.
 
@@ -800,7 +800,7 @@ Your application Amazon Elastic Compute Cloud (EC2) instances bootstrap by using
 
 </p></details><hr>
 
-### QUESTION 46 x
+### QUESTION 46 xx
 Your company operates a website for promoters to sell tickets for entertainment events.
 You are using a load balancer in front of an Auto Scaling group of web servers. Promotion of popular events can cause surges of website visitors.
 During scaling-out at these times, newly launched instances are unable to complete configuration quickly enough, leading to user disappointment.
@@ -837,7 +837,7 @@ What steps should you take to ensure that your application tier scales based on 
 
 </p></details><hr>
 
-### QUESTION 48 x
+### QUESTION 48 xx
 Your DevOps team is responsible for a multi-tier, Windows-based web application consisting of web servers, Amazon RDS database instances, and a load balancer behind Amazon Route53. You've been asked by your manager to build a cost-effective rolling deployment solution for this web application.
 What method should you use?
 
@@ -882,7 +882,7 @@ How should you determine which back-end Amazon Elastic Compute Cloud application
 
 </p></details><hr>
 
-### QUESTION 51 x
+### QUESTION 51 xx
 Your company operates an application consisting of an AWS CloudFormation stack that contains a load balancer, an Auto Scaling group of web servers, and an Amazon RDS instance.
 To save time and costs, you update the current test stack when testing minor changes, and create a new stack for major changes.
 As part of the testing procedure of your application, each version needs to be registered once and only once with a Configuration Management Database (CMDB).
@@ -916,7 +916,7 @@ are healthy.
 
 </p></details><hr>
 
-### QUESTION 53 x
+### QUESTION 53 xx
 Your organization has decided to implement a third-party configuration management tool that uses a master server from which nodes pull configuration.
 You have built a custom base Amazon Machine Image that already has the third-party configuration management agent installed.
 You want to use the same base AMI in Development, Test and Production environments, each of which has its own master server.
@@ -934,7 +934,7 @@ Use an Environment tag in Amazon EC2 to register instances with the correct mast
 
 </p></details><hr>
 
-### QUESTION 54 x
+### QUESTION 54 xv
 You have been asked to handle a large data migration from multiple Amazon RDS MySQL instances to a DynamoDB table.
 You have been given a short amount of time to complete the data migration.
 What will allow you to complete this complex data processing workflow?
@@ -979,7 +979,7 @@ Which techniques could you use to provide a cost-effective rolling deployment pr
 
 </p></details><hr>
 
-### QUESTION 57 x
+### QUESTION 57 xv
 You manage a web advertising platform on a single AWS account. This platform produces real- time ad-click data that you store as objects in an Amazon S3 bucket called "dick-data."
 Your advertising partners want to use Amazon Elastic MapReduce in their own AWS accounts to do analytics on the ad-click data.
 They' ve asked for immediate access to the ad-dick data so that they can run analytics. Which two choices are required to facilitate secure access to this data? Choose 2 answers.
@@ -1028,7 +1028,7 @@ What should you do to enable this and still be able to roll back to the previous
 
 </p></details><hr>
 
-### QUESTION 60 x
+### QUESTION 60 xv
 Your Company wants to perform A/B testing on a new website feature for 20 percent of its users. The website uses CloudFront for whole site delivery, with some content cached for up to 24 hours.
 How do you enable this testing for the required proportion of users while minimizing performance impact?
   
@@ -1048,7 +1048,7 @@ The web servers set "Cache-Control: no-cache" on all of these responses.
 
 </p></details><hr>
 
-### QUESTION 61 x
+### QUESTION 61 xx
 You have been asked to use your departments existing continuous Integration (CI) tool to test a three-tier web architecture defined In an AWS CloudFormation template.
 The tool already supports AWS APIs and can launch new AWS CloudFormation stacks after polling version control.
 The CI tool reports on the success of the AWS CloudFormation stack creation by using the Describe Stacks API to look for the CREATE COMPLETE status.
@@ -1251,7 +1251,7 @@ task.
 
 </p></details><hr>
 
-### QUESTION 71 x
+### QUESTION 71 xv
 Your application has an Auto Scaling group of m3.large instances running an application that receives messages born an Amazon SQS queue.
 After a while, the number of instances reaches the maximum set for the group and the number of messages on the queue continues to increase.
 You have discovered that a third- party library used by the application has a bug that causes a memory leak.
@@ -1379,7 +1379,7 @@ Launch an Amazon Redshift cluster, and point your application to its JDBC endpoi
 
 </p></details><hr>
 
-### QUESTION 78 x
+### QUESTION 78 xx
 You are building an AWS CloudFormation template for a multi-tier web application.
 The user data of your Linux web server resource contains a complex script that can take a long time to run.
 Which techniques could you use to ensure that these servers are fully configured and running before attaching them to the load balancer? Choose 2 answers
@@ -1397,7 +1397,7 @@ When the UserData script finishes on the web servers, use the command "cfn-signa
 
 </p></details><hr>
 
-### QUESTION 79 x
+### QUESTION 79 xv
 Customers have recently been complaining that your web application has randomly stopped responding.
 During a deep dive of your logs, the team has discovered a major bug in your new Java web application.
 This bug is causing a memory leak that eventually causes the application to crash.
@@ -1416,7 +1416,7 @@ Create a Cloudwatch alarm that triggers an Amazon SNS notification to page your 
 
 </p></details><hr>
 
-### QUESTION 80 x
+### QUESTION 80 xx
 You have an ASP.NET web application running in Amazon Elastic Beanstalk.
 Your next version of the application requires a third-party Windows Installer package to be installed on the instance on first boot and before the application launches.
 Which options are possible? Choose 2 answers
@@ -1435,7 +1435,7 @@ Place the package in the folder.
 
 </p></details><hr>
 
-### QUESTION 81 x
+### QUESTION 81 xv
 For AWS Auto Scaling, what is the first transition state an instance enters after leaving steady state when scaling in due to health check failure or decreased load?
 
 - A. T erminating
@@ -1585,7 +1585,7 @@ https://blogs.aws.amazon.com/application-management/blog/category/Best+practices
 
 </p></details><hr>
 
-### QUESTION 89 x
+### QUESTION 89 xv
 You are creating a new API for video game scores. Reads are 100 times more common than writes, and the top 1% of scores are read 100 times more frequently than the rest of the scores. What's the best design for this system, using DynamoDB?
 
 - A. DynamoDB table with 100x higher read than write throughput, with CloudFront caching.
@@ -1603,7 +1603,7 @@ http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GuidelinesForT a
 
 </p></details><hr>
 
-### QUESTION 90 x
+### QUESTION 90 xv
 You were just hired as a DevOps Engineer for a startup. Your startup uses AWS for 100% of their infrastructure. They currently have no automation at all for deployment, and they have had many failures while trying to deploy to production. The company has told you deployment process risk mitigation is the most important thing now, and you have a lot of budget for tools and AWS resources.
 Their stack:
 ```
@@ -1652,7 +1652,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 
-### QUESTION 92 x
+### QUESTION 92 xv
 Your system uses a multi-master, multi-region DynamoDB configuration spanning two regions to achieve high availablity. For the first time since launching your system, one of the AWS Regions in which you operate over went down for 3 hours, and the failover worked correctly. However, after recovery, your users are experiencing strange bugs, in which users on different sides of the globe see different data. What is a likely design issue that was not accounted for when launching?
 
 - A. The system does not have Lambda Functor Repair Automatons, to perform table scans and chack for corrupted partition blocks inside the Table in the recovered Region.
@@ -1689,7 +1689,7 @@ https://d0.awsstatic.com/whitepapers/Cost_Optimization_with_AWS.pdf
 
 </p></details><hr>
 
-### QUESTION 94 x
+### QUESTION 94 xv
 You run operations for a company that processes digital wallet payments at a very high volume. One second of downtime, during which you drop payments or are otherwise unavailable, loses you on average USD 100. You balance the financials of the transaction system once per day. Which database setup is best suited to address this business risk?
 
 - A. A multi-AZ RDS deployment with synchronous replication to multiple standbys and read-replicas for fast failover and ACID properties.
@@ -1816,10 +1816,7 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Oracle.html
 
 </p></details><hr>
 
-# AWS DevOps Engineer Professional - 2/3
-Version: 18.122
-
-### QUESTION 101 x
+### QUESTION 101 xv
 What is the maximum supported single-volume throughput on EBS?
 
 - A. 320MiB/s 
@@ -1987,7 +1984,7 @@ When a user is trying to mount a blank EBS volume, it is required that the user 
 
 </p></details><hr>
 
-### QUESTION 111 x
+### QUESTION 111 xv
 You need your CI to build AMIs with code pre-installed on the images on every new code push. You need to do this as cheaply as possible. How do you do this?
 
 - A. Bid on spot instances just above the asking price as soon as new commits come in, perform all instance configuration and setup, then create an AMI based on the spot instance.
@@ -2138,7 +2135,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-snapshot.html
 
 </p></details><hr>
 
-### QUESTION 119 x
+### QUESTION 119 xv
 For AWS CloudFormation, which stack state refuses UpdateStack calls? 
 
 - A. <code>UPDATE_ROLLBACK_FAILED</code>
@@ -2211,7 +2208,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-r
 
 </p></details><hr>
 
-### QUESTION 123 x
+### QUESTION 123 xv
 What is the scope of an EBS volume?
 
 - A. VPC
@@ -2268,7 +2265,7 @@ https://aws.amazon.com/cloudwatch/faqs/
 
 </p></details><hr>
 
-### QUESTION 126 x
+### QUESTION 126 xv
 Which of these is not an intrinsic function in AWS CloudFormation?
 
 - A. Fn::Split
@@ -2287,7 +2284,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function
 
 </p></details><hr>
 
-### QUESTION 127 x
+### QUESTION 127 xx
 For AWS CloudFormation, which is true?
 
 - A. Custom resources using SNS have a default timeout of 3 minutes.
@@ -2438,7 +2435,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.htm
 
 </p></details><hr>
 
-### QUESTION 135 x
+### QUESTION 135 xv
 You need to replicate API calls across two systems in real time. What tool should you use as a
 buffer and transport mechanism for API call events?
 
@@ -2513,7 +2510,7 @@ https://blogs.aws.amazon.com/security/post/Tx3SYCORF5EKRC0/How-Does-Amazon-Cogni
 
 </p></details><hr>
 
-### QUESTION 139 x
+### QUESTION 139 xv
 Your CTO has asked you to make sure that you know what all users of your AWS account are doing to change resources at all times. She wants a report of who is doing what over time, reported to her once per week, for as broad a resource type group as possible. How should you do this?
 
 - A. Create a global AWS CloudTrail Trail. Configure a script to aggregate the log data delivered to S3 once per week and deliver this to the CTO.
@@ -2555,7 +2552,7 @@ https://aws.amazon.com/lambda/faqs/
 
 </p></details><hr>
 
-### QUESTION 141 x
+### QUESTION 141 xv
 Which is not a restriction on AWS EBS Snapshots?
 
 - A. Snapshots which are shared cannot be used as a basis for other snapshots.
@@ -2573,7 +2570,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot-permis
 
 </p></details><hr>
 
-### QUESTION 142 x
+### QUESTION 142 xx
 You need to deploy a new application version to production. Because the deployment is high-risk, you need to roll the new version out to users over a number of hours, to make sure everything is working correctly. You need to be able to control the proportion of users seeing the new version of the application down to the percentage point.
 You use ELB and EC2 with Auto Scaling Groups and custom AMIs with your code pre-installed assigned to Launch Configurations. There are no database-level changes during your deployment. You have been told you cannot spend too much money, so you must not increase the number of EC2 instances much at all during the deployment, but you also need to be able to switch back to the original version of code quickly if something goes wrong. What is the best way to meet these requirements?
 
@@ -2615,7 +2612,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 </p></details><hr>
 
-### QUESTION 144 x
+### QUESTION 144 xx
 If I want CloudFormation stack status updates to show up in a continuous delivery system in as close to real time as possible, how should I achieve this?
 
 - A. Use a long-poll on the Resources object in your CloudFormation stack and display those state changes in the UI for the system.
@@ -2633,7 +2630,7 @@ http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating
 
 </p></details><hr>
 
-### QUESTION 145 x
+### QUESTION 145 xv
 What does it mean if you have zero IOPS and a non-empty I/O queue for all EBS volumes attached to a running EC2 instance?
 
 - A. The I/O queue is buffer flushing.
@@ -2651,7 +2648,7 @@ https://aws.amazon.com/ec2/sla/
 
 </p></details><hr>
 
-### QUESTION 146 x
+### QUESTION 146 xv
 From a compliance and security perspective, which of these statements is true?
 
 - A. You do not ever need to rotate access keys for AWS IAM Users.
@@ -2920,7 +2917,7 @@ http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-en
 
 </p></details><hr>
 
-### QUESTION 160 x
+### QUESTION 160 xv
 Your company needs to automate 3 layers of a large cloud deployment. You want to be able to track this deployment's evolution as it changes over time, and carefully control any alterations. What is a good way to automate a stack to meet these requirements?
 
 - A. Use OpsWorks Stacks with three layers to model the layering in your stack.
@@ -2940,7 +2937,7 @@ https://blogs.aws.amazon.com/application-management/post/Tx1T9JYQOS8AB9I/Use-Nes
 
 </p></details><hr>
 
-### QUESTION 161 x
+### QUESTION 161 xv
 Your application's Auto Scaling Group scales up too quickly, too much, and stays scaled when traffic decreases.What should you do to fix this?
 
 - A. Set a longer cooldown period on the Group, so the system stops overshooting the target capacity. The issue is that the scaling system doesn't allow enough time for new instances to begin servicin g requests before measuring aggregate load again.
@@ -3013,7 +3010,7 @@ http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features-managing-en
 
 </p></details><hr>
 
-### QUESTION 165 x
+### QUESTION 165 xv
 You have a high security requirement for your AWS accounts. What is the most rapid and
 sophisticated setup you can use to react to AWS API calls to your account?
 
@@ -3221,7 +3218,7 @@ https://d0.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf
 
 </p></details><hr>
 
-### QUESTION 176 x
+### QUESTION 176 xv
 You need to create a simple, holistic check for your system's general availablity and uptime. Your system presents itself as an HTTP-speaking API. What is the most simple tool on AWS to achieve this with?
 
 - A. Route53 Health Checks
@@ -3334,7 +3331,7 @@ http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-a
 
 </p></details><hr>
 
-### QUESTION 182 x
+### QUESTION 182 xv
 Which status represents a failure state in AWS CloudFormation?
 
 - A. <code>UPDATE_COMPLETE_CLEANUP_IN_PROGRESS</code> 
@@ -3370,7 +3367,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html
 
 </p></details><hr>
 
-### QUESTION 184 x
+### QUESTION 184 xv
 For AWS Auto Scaling, what is the first transition state an existing instance enters after leaving steady state in Standby mode?
 
 - A. Detaching
@@ -3388,7 +3385,7 @@ http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AutoScalingGroupLif
 
 </p></details><hr>
 
-### QUESTION 185 *
+### QUESTION 185 *v
 You want to pass queue messages that are 1GB each. How should you achieve this?
 
 - A. Use Kinesis as a buffer stream for message bodies. Store the checkpoint id for the placement in the Kinesis Stream in SQS.
@@ -3407,7 +3404,7 @@ http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/s3-mes
 
 </p></details><hr>
 
-### QUESTION 186 x
+### QUESTION 186 xx
 You are designing a service that aggregates clickstream data in batch and delivers reports to subscribers via email only once per week. Data is extremely spikey, geographically distributed, high-scale, and unpredictable. How should you design this system?
 
 - A. Use a large RedShift cluster to perform the analysis, and a fleet of Lambdas to perform record inserts into the RedShift tables. Lambda will scale rapidly enough for the traffic spikes.
@@ -3502,7 +3499,7 @@ Ref http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-func
 
 </p></details><hr>
 
-### QUESTION 191 x
+### QUESTION 191 xx
 Which one of the following is a restriction of AWS EBS Snapshots?
 
 - A. Snapshot restorations are restricted to the region in which the snapshots are created.
@@ -3558,7 +3555,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html
 
 </p></details><hr>
 
-### QUESTION 194 x
+### QUESTION 194 Ansible
 Which is the proper syntax for referencing a variable's value in an Ansible task?
 
 - A. ${variable_name}
@@ -3576,7 +3573,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#hey-wait-a-y
 
 </p></details><hr>
 
-### QUESTION 195 x
+### QUESTION 195 Ansible
 If Erin has three clusters of server types that are all managed by Ansible and she needs to provision each cluster so that they are configured with their appropriate NTP server addresses. What is the best method Erin should use in Ansible for managing this?
 
 - A. Write a task that scans the network in the target hosts' region for the NTP server,register the resulting address so that the next task can write the NTP configuration.
@@ -3594,7 +3591,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#group-variables
 
 </p></details><hr>
 
-### QUESTION 196 x
+### QUESTION 196 Ansible
 Which of the following is an invalid variable name in Ansible?
 
 - A. host1st_ref 
@@ -3612,7 +3609,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#what-makes-a
 
 </p></details><hr>
 
-### QUESTION 197 *
+### QUESTION 197 Ansible
 What are the bare minimum requirements for a valid Ansible playbook?
 
 - A. The hosts, connection type, fact gathering, vars and tasks. 
@@ -3630,7 +3627,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_intro.html
 
 </p></details><hr>
 
-### QUESTION 198 *
+### QUESTION 198 Ansible
 When running a playbook on a remote target host you receive a Python error similar to "[Errno 13] Permission denied: `/home/nick/.ansible/tmp`. What would be the most likely cause of this problem?
 
 - A. The user's home or `.ansible` directory on the Ansible system is not writeable by the user running the play.
@@ -3648,7 +3645,7 @@ Reference: http://docs.ansible.com/ansible/modules_intro.html
 
 </p></details><hr>
 
-### QUESTION 199 *
+### QUESTION 199 Ansible
 When Ansible's connection state is set to `remote`, what method of communication does Ansible utilize to run commands on the remote target host?
 
 - A. SSH
@@ -3666,7 +3663,7 @@ Reference: http://docs.ansible.com/ansible/intro_getting_started.html#remote-con
 
 </p></details><hr>
 
-### QUESTION 200 *
+### QUESTION 200 Ansible
 Which resource can not be defined in an Ansible Playbook?
 
 - A. FactGatheringState 
@@ -3684,10 +3681,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html
 
 </p></details><hr>
 
-# AWS DevOps Engineer Professional 3/3
-Version: 18.122
-
-### QUESTION 201 *
+### QUESTION 201 Ansible
 When specifying multiple variable names and values for a playbook on the command line, which of the following is the correct syntax?
 
 - A. ansible-playbookplaybook.yml-e`host="foo"pkg="bar"`
@@ -3705,7 +3699,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#passing-vari
 
 </p></details><hr>
 
-### QUESTION 202 *
+### QUESTION 202 Ansible
 Ansible provides some methods for controlling how or when a task is ran. Which of the following is a valid method for controlling a task with a loop?
 
 - A. -with:<value>
@@ -3723,7 +3717,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#loops-and
 
 </p></details><hr>
 
-### QUESTION 203 *
+### QUESTION 203 Ansible
 Which difference between core modules and extra modules is not correct?
 
 - A. Extra modules may one day be come core modules 
@@ -3741,7 +3735,7 @@ Reference: http://docs.ansible.com/ansible/modules_extra.html
 
 </p></details><hr>
 
-### QUESTION 204 *
+### QUESTION 204 Ansible
 What is the proper (best practice) way to begin a playbook?
 
 - A. -hosts:all 
@@ -3759,7 +3753,7 @@ Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 
 </p></details><hr>
 
-### QUESTION 205 *
+### QUESTION 205 Ansible
 You have a playbook that includes a task to install a package for a service, put a configuration file for that package on the system and restart the service. The playbook is then run twice in a row. What would you expect Ansible to do on the second run?
 
 - A. Remove the old package and config file and reinstall and then rest a rt these rvice.
@@ -3778,7 +3772,7 @@ Reference: http://docs.ansible.com/ansible/glossary.html
 
 </p></details><hr>
 
-### QUESTION 206 *
+### QUESTION 206 Ansible
 Which tool will Ansible not use, even if available, to gather facts?
 
 - A. facter
@@ -3796,7 +3790,7 @@ Reference: http://docs.ansible.com/ansible/setup_module.html
 
 </p></details><hr>
 
-### QUESTION 207 *
+### QUESTION 207 Ansible
 If a variable is assigned in the `vars` section of a playbook, where is the proper place to override that variable?
 
 - A. Inventorygroupvar 
@@ -3814,7 +3808,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_variables.html#variable-pre
   
 </p></details><hr>
 
-### QUESTION 208 *
+### QUESTION 208 Ansible
 If Ansible encounters a resource that does not meet the requirements specified in the play it makes the necessary changes to the resource; however if the resource is already in the desired state Ansible will do nothing. This is an example of which methodology?
 
 - A. Idempotency
@@ -3832,7 +3826,7 @@ Reference: http://docs.ansible.com/ansible/glossary.html
 
 </p></details><hr>
 
-### QUESTION 209 *
+### QUESTION 209 Ansible
 When writing plays, tasks and playbooks, Ansible fully supports which high level language to describe these?
 
 - A. YAML 
@@ -3850,7 +3844,7 @@ Reference: http://docs.ansible.com/ansible/YAMLSyntax.html
 
 </p></details><hr>
 
-### QUESTION 210 *
+### QUESTION 210 Ansible
 What is the expected behavior if Ansible is called with `ansible-playbook -i localhost playbook.yml`?
 
 - A. Ansible will at tempt to read the inventory file named `localhost`
@@ -3868,7 +3862,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory
 
 </p></details><hr>
 
-### QUESTION 211 *
+### QUESTION 211 Ansible
 The Ansible Inventory system allows many attributes to be defined within it. Which item below is not one of these?
   
 
@@ -3887,7 +3881,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html
 
 </p></details><hr>
 
-### QUESTION 212 *
+### QUESTION 212 Ansible
 When writing custom Ansible modules, which language is not supported?
 
 - A. Python
@@ -3905,7 +3899,7 @@ Reference: http://docs.ansible.com/ansible/developing_modules.html
 
 </p></details><hr>
 
-### QUESTION 213 *
+### QUESTION 213 Ansible
 When specifying more than one conditional requirements for a task, what is the proper method?
 
 - A. -when:foo=="hello"andbar=="world"
@@ -3923,7 +3917,7 @@ Reference: http://docs.ansible.com/ansible/playbooks_conditionals.html#the-when-
 
 </p></details><hr>
 
-### QUESTION 214 *
+### QUESTION 214 Ansible
 Ansible supports running Playbook on the host directly or via SSH. How can Ansible be told to run its playbooks directly on the host?
 
 - A. Setting `connection:local` in the tasks that run locally. 
@@ -3941,7 +3935,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#non-ssh-connecti
 
 </p></details><hr>
 
-### QUESTION 215 *
+### QUESTION 215 Ansible
 What is the main difference between calling the commands `ansible` and `ansible-playbook` on the command line?
 
 - A. `ansible` is for setting configuration and environment variables which `ansible-playbook` will use when running plays.
@@ -3959,7 +3953,7 @@ Reference: http://docs.ansible.com/ansible/intro_adhoc.html
 
 </p></details><hr>
 
-### QUESTION 216 *
+### QUESTION 216 Ansible
 Which answer is the proper syntax for specifying two target hosts on the command line when running an Ansible Playbook?
 
 - A. ansible-playbook-hhost1.example.com-iallplaybook.yml
@@ -3977,7 +3971,7 @@ Reference: http://docs.ansible.com/ansible/intro_inventory.html#inventory
 
 </p></details><hr>
 
-### QUESTION 217 x
+### QUESTION 217 Docker
 What is the purpose of a Docker swarm worker node?
 
 - A. scheduling services
@@ -4003,7 +3997,7 @@ Reference: https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#work
 
 </p></details><hr>
 
-### QUESTION 218 x
+### QUESTION 218 Docker
 You are building a Docker image with the following Dockerfile. How many layers will the resulting image have?
 ```bash
 FROM scratch
@@ -4029,7 +4023,7 @@ Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandconta
 
 </p></details><hr>
 
-### QUESTION 219 x
+### QUESTION 219 Docker
 What storage driver does Docker generally recommend that you use if it is available?
 
 - A. zfs
@@ -4049,7 +4043,7 @@ Reference: https://docs.docker.com/engine/userguide/storagedriver/selectadriver/
 
 </p></details><hr>
 
-### QUESTION 220 C?
+### QUESTION 220 Docker
 In which Docker Swarm model does the swarm manager distribute a specific number of replica tasks among the nodes based upon the scale you set in the desired state?
   
 
@@ -4070,7 +4064,7 @@ Reference: https://docs.docker.com/engine/swarm/key-concepts/#services-and-tasks
 
 </p></details><hr>
 
-### QUESTION 221 x
+### QUESTION 221 Docker
 On which local address does the Docker DNS server listen?
 
 - A. 127.0.0.1 
@@ -4089,7 +4083,7 @@ Reference: https://docs.docker.com/engine/userguide/networking/configure-dns/
 
 </p></details><hr>
 
-### QUESTION 222
+### QUESTION 222 Docker
 What are the default memory limit policies for a Docker container?
 
 - A. Limited memory,limited kernel memory
@@ -4110,7 +4104,7 @@ Reference: https://docs.docker.com/engine/admin/resource_constraints/#--kernel-m
 
 </p></details><hr>
 
-### QUESTION 223
+### QUESTION 223 Docker
 What needs to be done in order to remotely access a Docker daemon running on Linux?
 
 - A. add certificate authentication to the docker API 
@@ -4130,7 +4124,7 @@ Reference: https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-
 
 </p></details><hr>
 
-### QUESTION 224
+### QUESTION 224 Docker
 Which of the following Dockerfile commands cannot be overridden at runtime?
 
 - A. VOLUME 
@@ -4148,7 +4142,7 @@ Reference: https://docs.docker.com/engine/reference/run/#overriding-dockerfile-i
 
 </p></details><hr>
 
-### QUESTION 225
+### QUESTION 225 Docker
     
 When deploying to a Docker swarm, which section of the docker-compose file defines configuration related to the deployment and running of services?
 
@@ -4168,7 +4162,7 @@ Reference: https://docs.docker.com/compose/compose-file/#deploy
 
 </p></details><hr>
 
-### QUESTION 226
+### QUESTION 226 Docker
 You are running a Docker daemon on a Linux host and it becomes unresponsive. Which signal, when sent to a Docker process with the kill command, forces the full stack trace to be logged for debugging purposes?
 
 - A. -TRACE
@@ -4191,7 +4185,7 @@ Reference: https://docs.docker.com/engine/admin/#force-a-stack-trace-to-be-logge
 
 </p></details><hr>
 
-### QUESTION 227
+### QUESTION 227 Docker
 Which of the following is NOT an advantage of Docker's content addressable storage model?
 
 - A. random UUID simprove files ystem performance
@@ -4210,7 +4204,7 @@ Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandconta
 
 </p></details><hr>
 
-### QUESTION 228
+### QUESTION 228 Docker
 What flag would you use to limit a Docker container's memory usage to 128 megabytes?
 
 - A. -memory128m
@@ -4231,7 +4225,7 @@ Reference: https://docs.docker.com/engine/admin/resource_constraints/#memory
 
 </p></details><hr>
 
-### QUESTION 229
+### QUESTION 229 Docker
 What is the only layer in a Docker image that is not read-only?
 
 - A. theyareallread-only 
@@ -4249,7 +4243,7 @@ Reference: https://docs.docker.com/engine/userguide/storagedriver/imagesandconta
 
 </p></details><hr>
 
-### QUESTION 230
+### QUESTION 230 Docker
 When building a Docker image, you are searching through a persistent data volume's logs to provide parameters for the next build. You execute the following command. Which of the operations will cause a failure of the Docker RUNcommand? RUN cat ./data/log/\*.error | grep service_status | grep ERROR
 
 - A. the first grep command
@@ -4269,7 +4263,7 @@ Reference: https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-pr
 
 </p></details><hr>
 
-### QUESTION 231
+### QUESTION 231 Docker
 What does the Docker network docker_gwbridge do?
 
 - A. allows communication between containers on the same host
@@ -4287,7 +4281,7 @@ Reference: https://docs.docker.com/engine/userguide/networking/#the-docker_gwbri
 
 </p></details><hr>
 
-### QUESTION 232 x
+### QUESTION 232 xv
 Which services can be used as optional components of setting up a new Trail in CloudTrail?
 
 - A. KMS,SNS and SES
