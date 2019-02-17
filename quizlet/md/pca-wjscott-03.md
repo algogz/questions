@@ -1,3 +1,5 @@
+# PCA WJSCOTT 03
+
 ### Question 1
 
 Your company plans to migrate a multi-petabyte data set to the cloud. The data set must be available 24hrs a day. Your business analysts have experience only with using an SQL interface. How should you store the data to optimize it for ease of analysis? 

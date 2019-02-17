@@ -1,4 +1,6 @@
-### Question 1
+# PCA WJSCOTT 01
+
+### QUESTION 1 (wiirtctaon)
 
 What information is required to connect to an on-premises network router over VPN using Cloud Router for dynamic routing? 
 
@@ -18,7 +20,7 @@ Using Cloud Router for dynamic routing requires a BGP address along with the pee
 
 </p></details><hr>
 
-### Question 2
+### QUESTION 2 (ywtedsatrr)
 
 You want to ensure Dress4Win's sales and tax records remain available for infrequent viewing by auditors for at least 10 years. Cost optimization is your top priority. Which cloud services should you choose?
 
@@ -51,7 +53,7 @@ https://cloud.google.com/images/storage/storage-classes-desktop.svg
 
 </p></details><hr>
 
-### Question 3
+### QUESTION 3 (mghdtnbogc)
 
 Mountkirk Games has deployed their new backend on Google Cloud Platform (GCP). You want to create a thorough testing process for new versions of the backend before they are released to the public. You want the testing environment to scale in an economical way.
  
@@ -91,7 +93,7 @@ D) This is not scalable or economical
 
 </p></details><hr>
 
-### Question 4
+### QUESTION 4 (yhbatstssf)
 
 You have been asked to select the storage system for the click-data of your company's large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute, with bursts of up to 8,500 clicks per second. It must be stored for future analysis by your data science and user experience teams.
  
@@ -183,7 +185,7 @@ D) GCS is ideally for Object storage purpose although it has pretty good scalabi
 
 </p></details><hr>
 
-### Question 5
+### QUESTION 5 (otyc5soasi)
 
 Over time, you've created 5 snapshots of a single instance. To save space, you delete snapshots number 3 and 4. What has happened to the fifth snapshot?
 
@@ -228,7 +230,7 @@ The linked diagram below illustrates the process described above: https://cloud.
 
 </p></details><hr>
 
-### Question 6
+### QUESTION 6 (asnoartyma)
 
 A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services. You want to know which service takes the longest in those cases. What should you do? 
 -  A) Set timeouts on your application so that you can fail requests faster. 
@@ -288,7 +290,7 @@ https://cloud.google.com/trace/docs/overview
 
 </p></details><hr>
 
-### Question 7
+### QUESTION 7 (tomayfalor)
 
 The operations manager asks you for a list of recommended practices that she should consider when migrating a J2EE application to the cloud. Which three practices should you recommend? 
 
@@ -338,7 +340,7 @@ Java Persistence API (JPA) is a standard interface for accessing databases in Ja
 
 </p></details><hr>
 
-### Question 8
+### QUESTION 8 (t2mvasatwb)
 
 TerramEarth's 20 million vehicles are scattered around the world. Based on the vehicle's location its telemetry data is stored in a Google Cloud Storage (GCS) regional bucket (US. Europe, or Asia). The CTO has asked you to run a report on the raw telemetry data to determine why vehicles are breaking down after 100 K miles. You want to run this job on all the data. What is the most cost-effective way to run this job?
 
@@ -393,7 +395,7 @@ Use a multi-regional location when you want to serve content to data consumers t
 
 </p></details><hr>
 
-### Question 9
+### QUESTION 9 (ycjfarlast)
 
 Your company just finished a rapid lift and shift to Google Compute Engine for your compute needs. You have another 9 months to design and deploy a more cloud-native solution. Specifically, you want a system that is no-ops and auto-scaling. Which options of following compute products should you choose? 
 
@@ -460,7 +462,7 @@ https://cloud.google.com/docs/images/overview/ops-continuum.svg
 
 </p></details><hr>
 
-### Question 10
+### QUESTION 10 (yctsiaccat)
 
 Your company's test suite is a custom C++ application that runs tests throughout each day on Linux virtual machines. The full test suite takes several hours to complete, running on a limited number of on premises servers reserved for testing. Your company wants to move the testing infrastructure to the cloud, to reduce the amount of time it takes to fully test a change to the system, while changing the tests as little as possible. 
 
@@ -504,7 +506,7 @@ In addition, judging from what they suffered "The full test suite takes several 
 
 </p></details><hr>
 
-### Question 11
+### QUESTION 11 (opsaopaaoe)
 
 Operational parameters such as oil pressure are adjustable on each of TerramEarth's vehicles to increase their efficiency, depending on their environmental conditions. Your primary goal is to increase the operating efficiency of all 20 million cellular and unconnected vehicles in the field. 
 
@@ -546,7 +548,7 @@ Approximately 200,000 vehicles are connected to a cellular network, allowing Ter
 
 </p></details><hr>
 
-### Question 12
+### QUESTION 12 (yntrcdlbot)
 
 You need to regularly create disk level backups of the root disk of a critical instance. These backups need to be able to be converted into new instances that can be used in different projects. 
 
@@ -584,7 +586,7 @@ D) Doesn't meet the requirement "regularly create disk level backups of the root
 
 </p></details><hr>
 
-### Question 13
+### QUESTION 13 (ychdtbabro)
 
 Your company has decided to build a backup replica of their on-premises user authentication PostgreSQL database on Google Cloud Platform. The database is 4 TB, and large updates are frequent. Replication requires private address space communication. 
 
@@ -654,7 +656,7 @@ Diagram: https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+
 
 </p></details><hr>
 
-### Question 14
+### QUESTION 14 (jwtmtccetg)
 
 JencoMart wants to migrate their current computing environment to GCP. They want to modify their existing setup to scale for peak traffic instead of needing to provision in advance to meet peak load. When scaling, they want their machines to have as identical of performance as possible to their existing servers. What two actions can they take? 
 
@@ -706,7 +708,7 @@ Compute
 
 </p></details><hr>
 
-### Question 15
+### QUESTION 15 (ychsmttcaw)
 
 Your company has successfully migrated to the cloud and wants to analyze their data stream to optimize operations. They do not have any existing code for this analysis, so they are exploring all their options. These options include a mix of batch and stream processing, as they are running some hourly jobs and live-processing some data as it comes in. 
 
@@ -748,7 +750,7 @@ Diagram: https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+
 
 </p></details><hr>
 
-### Question 16
+### QUESTION 16 (jiewmsiatc)
 
 JencoMart is evaluating what managed services (if any) they can migrate their databases to, and which databases will need to be modified to do so. Of their Oracle and PostgreSQL databases, which one needs to be modified, and what service(s) can they move to? 
 
@@ -782,7 +784,7 @@ PostgreSQL database stores user credentials
 
 </p></details><hr>
 
-### Question 17
+### QUESTION 17 (yhcsplvmiu)
 
 You have created several preemptible Linux virtual machine instances using Google Compute Engine. You want to properly shut down your application before the virtual machines are preempted. 
 
@@ -816,7 +818,7 @@ Enter the key "shutdown-script" and proper value (Diagram Link): https://s3.amaz
 
 </p></details><hr>
 
-### Question 18
+### QUESTION 18 (yntatfsvmi)
 
 You need to allow traffic from specific virtual machines in 'subnet-a' network access to machines in 'subnet-b' without giving the entirety of subnet-a access. 
 
@@ -852,7 +854,7 @@ D) This is not true per answer A
 
 </p></details><hr>
 
-### Question 19
+### QUESTION 19 (anfwshtfcr)
 
 A news feed web service has the following code running on Google App Engine. During peak load, users report that they can see news articles they already viewed. 
 
@@ -918,7 +920,7 @@ Then you deploy and run the app in AppEngine. "During peak load" most likely mea
 
 </p></details><hr>
 
-### Question 20
+### QUESTION 20 (ootmiyahai)
 
 One of the microservices in your application has an intermittent performance problem. You have not observed the problem when it occurs but when it does, it triggers a particular burst of log lines. You want to debug a machine while the problem is occurring. 
 
@@ -960,7 +962,7 @@ https://cloud.google.com/logging/docs/logs-based-metrics/
 
 </p></details><hr>
 
-### Question 21
+### QUESTION 21 (tetyawhtle)
 
 To ensure that your application will handle the load even if an entire zone fails, what should you do? 
 -  A) Don't select the "Multizone" option when creating your managed instance group.
@@ -996,7 +998,7 @@ If you are creating a regional managed instance group in a region with at least 
 
 </p></details><hr>
 
-### Question 22
+### QUESTION 22 (yacaspvin")
 
 You are creating a single preemptible VM instance named "preempt" to be used as scratch space for a single workload. If your VM is preempted, you need to ensure that disk contents can be re-used. 
 
@@ -1040,7 +1042,7 @@ https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+Images/GC
 
 </p></details><hr>
 
-### Question 23
+### QUESTION 23 (ywtmacoapl)
 
 You want to make a copy of a production Linux virtual machine in the US-Central region. You want to manage and replace the copy easily if there are changes on the production virtual machine. You will deploy the copy as a new instance in a different project in the US-East region. 
 
@@ -1080,7 +1082,7 @@ https://cloud.google.com/compute/docs/images/sharing-images-across-projects
 
 </p></details><hr>
 
-### Question 24
+### QUESTION 24 (alsetythna)
 
 A lead software engineer tells you that his new application design uses websockets and HTTP sessions that are not distributed across the web servers. You want to help him ensure his application will run properly on Google Cloud Platform. 
 
@@ -1114,7 +1116,7 @@ D) There is no compelling reason to move away from websockets as part of a move 
 
 </p></details><hr>
 
-### Question 25
+### QUESTION 25 (jhdtmupstg)
 
 JencoMart has decided to migrate user profile storage to Google Cloud Datastore and the application servers to Google Compute Engine (GCE). During the migration, the existing infrastructure will need access to Datastore to upload the data. 
 
@@ -1166,7 +1168,7 @@ D) is incorrect for reason of application server migration: you can use GCP mana
 
 </p></details><hr>
 
-### Question 26
+### QUESTION 26 (ycphvoidta)
 
 Your company processes high volumes of IoT data that are time-stamped. The total data volume can be several petabytes. The data needs to be written and changed at a high speed. You want to use the most performant storage option for your data. 
 
@@ -1210,7 +1212,7 @@ https://cloud.google.com/bigtable/docs/schema-design-time-series
 
 </p></details><hr>
 
-### Question 27
+### QUESTION 27 (ysuaaigtsw)
 
 You set up an autoscaling instance group to serve web traffic for an upcoming launch. After configuring the instance group as a backend service to an HTTP(S) load balancer, you notice that virtual machine (VM) instances are being terminated and re-launched every minute. The instances do not have a public IP address. You have verified the appropriate web response is coming from each instance using the curl command. You want to ensure the backend is configured correctly. 
 
@@ -1258,7 +1260,7 @@ D) This is not mandatory since your LB could be Internal load balancing so insta
 
 </p></details><hr>
 
-### Question 28
+### QUESTION 28 (yawoapwtcr)
 
 You are working on a project with two compliance requirements. The first requirement states that your developers should be able to see the Google Cloud Platform billing charges for only their own projects. The second requirement states that your finance team members can set budgets and view the current charges for all projects in the organization. The finance team should not be able to view the project contents. You want to set permissions. 
 
@@ -1290,7 +1292,7 @@ IAM for Billing:
 
 </p></details><hr>
 
-### Question 29
+### QUESTION 29 (dhcanucwgs)
 
 Dress4Win has configured a new uptime check with Google Stackdriver for several of their legacy services. The Stackdriver dashboard is not reporting the services as healthy. 
 
@@ -1342,7 +1344,7 @@ For your quick reference, here are the part of Dress4win existing Application se
 
 </p></details><hr>
 
-### Question 30
+### QUESTION 30 (imttadetgc)
 
 In moving their test and development environments to Google Cloud, what is the best practice for Dress4Win to follow to ensure proper isolation between both environments using the principle of least privilege? 
 -  A) Separate the test and dev environments into different projects, giving each team access to only their own projects. 
@@ -1404,7 +1406,7 @@ Here is the Dress4Win Solution Concept (partial):
 
 </p></details><hr>
 
-### Question 31
+### QUESTION 31 (mgwtsuarap)
 
 Mountkirk Games wants to set up a real-time analytics platform for their new game. The new platform must meet their technical requirements. 
 
@@ -1507,7 +1509,7 @@ Requirements for Game Analytics Platform
 
 </p></details><hr>
 
-### Question 32
+### QUESTION 32 (ycifasiitn)
 
 Your company is forecasting a sharp increase in the number and size of Apache Spark and Hadoop jobs being run on your local datacenter. You want to utilize the cloud to help you scale this upcoming demand with the least amount of operations work and code change.
  
@@ -1537,7 +1539,7 @@ https://cloud.google.com/dataproc/
 
 </p></details><hr>
 
-### Question 33
+### QUESTION 33 (ycirrttrug)
 
 Your customer is receiving reports that their recently updated Google App Engine application is taking approximately 30 seconds to load for some of their users. This behavior was not reported before the update. 
 
@@ -1593,7 +1595,7 @@ https://cloud.google.com/appengine/docs/flexible/python/testing-and-deploying-yo
 
 </p></details><hr>
 
-### Question 34
+### QUESTION 34 (tptca2mvit)
 
 TerramEarth plans to connect all 20 million vehicles in the field to the cloud. This increases the volume to 20 million 600 byte records a second for 40 TB an hour. 
 
@@ -1637,7 +1639,7 @@ D (Correct answer) - Vehicles write data directly to Google Cloud Pub/Sub - Pub/
 
 </p></details><hr>
 
-### Question 35
+### QUESTION 35 (yhdsiacsda)
 
 You have data stored in a Cloud Storage dataset and also in a BigQuery dataset. You need to secure the data and provide 3 different types of access levels for your Google Cloud Platform users: administrator, read/write, and read-only. You want to follow Google-recommended practices. 
 
@@ -1683,7 +1685,7 @@ Identity and Access Management https://cloud.google.com/iam/docs/overview
 
 </p></details><hr>
 
-### Question 36
+### QUESTION 36 (yoictgvavc)
 
 Your office is connected to GCP via a VPN connection. How can you increase the speed of your VPN connection, assuming that your office Internet is not the bottleneck? 
 -  A) Apply for a dedicated interconnect option 
@@ -1713,7 +1715,7 @@ Answer B and D either are not applicable or feature doesn't not exist.
 
 </p></details><hr>
 
-### Question 37
+### QUESTION 37 (upolpaafma)
 
 Using principal of least privilege and allowing for maximum automation, what steps can you take to store audit logs for long-term access and to allow access for external auditors to view? 
 
@@ -1759,7 +1761,7 @@ https://cloud.google.com/logging/docs/export/configure_export_v2
 
 </p></details><hr>
 
-### Question 38
+### QUESTION 38 (syhawstiwp)
 
 Suppose you have a web server that is working properly, but you can't connect to its instance VM over SSH. Which of these troubleshooting methods can you use without disrupting production traffic? 
 
@@ -1833,7 +1835,7 @@ You might have an instance you can't connect to that continues to correctly serv
 
 </p></details><hr>
 
-### Question 39
+### QUESTION 39 (yhakcw1ntc)
 
 You have a Kubernetes cluster with 1 node-pool. The cluster receives a lot of traffic and needs to grow. You decide to add a node. 
 
@@ -1867,7 +1869,7 @@ D is not correct because you should not manually manage the MIG behind a cluster
 
 </p></details><hr>
 
-### Question 40
+### QUESTION 40 (yaeantssdi)
 
 Your App Engine application needs to store stateful data in a proper storage service. Your data is non-relational database data. You do not expect the database size to grow beyond 10 GB and you need to have the ability to scale down to zero to avoid unnecessary costs. 
 
@@ -1911,7 +1913,7 @@ Game state
 
 </p></details><hr>
 
-### Question 41
+### QUESTION 41 (trctdoehra)
 
 To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines (VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department. Which two steps should you take? 
 
@@ -1939,7 +1941,7 @@ C - Apply VM CPU utilization label and include it in the BigQuery billing export
 
 </p></details><hr>
 
-### Question 42
+### QUESTION 42 (mgntbotsda)
 
 MountKirk Games needs to build out their streaming data analytics pipeline to feed from their game backend application. 
 
@@ -1981,7 +1983,7 @@ https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+Images/GC
 
 </p></details><hr>
 
-### Question 43
+### QUESTION 43 (yciptifanl)
 
 Your company is planning the infrastructure for a new large-scale application that will need to store over 100 TB or a petabyte of data of data in NoSQL format for high-speed transactions and analytics. 
 
@@ -2029,7 +2031,7 @@ Although both Datastore and Bigtable are NoSQL databases, Bigtable is able to su
 
 </p></details><hr>
 
-### Question 44
+### QUESTION 44 (ycaufyaoae)
 
 You created an update for your application on App Engine. You want to deploy the update without impacting your users. You want to be able to roll back as quickly as possible if it fails. 
 
@@ -2067,7 +2069,7 @@ Migrating and Splitting Traffic https://cloud.google.com/appengine/docs/admin-ap
 
 </p></details><hr>
 
-### Question 45
+### QUESTION 45 (yadaldaw3m)
 
 You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely. 
 
@@ -2135,7 +2137,7 @@ Credentials provide access to sensitive data. The following practices help prote
 
 </p></details><hr>
 
-### Question 46
+### QUESTION 46 (botcdfertt)
 
 Based on TerramEarth's current data flow environment (refer to the image in the case study), what are the direct GCP services needed to replicate the same structure for batch uploads?
 -  A) Cloud Spanner - Cloud SQL - BigQuery 
@@ -2169,7 +2171,7 @@ https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+Images/GC
 
 </p></details><hr>
 
-### Question 47
+### QUESTION 47 (aadtbtcltw)
 
 An application development team believes their current logging tool will not meet their needs for their new cloud-based product. They want a better tool to capture errors and help them analyze their historical log data. You want to help them find a solution that meets their needs. 
 
@@ -2201,7 +2203,7 @@ C - Help them upgrade their current tool to take advantage of any new features. 
 
 </p></details><hr>
 
-### Question 48
+### QUESTION 48 (yhadfaittc)
 
 You have a definition for an instance template that contains a web application. You are asked to deploy the application so that it can scale based on the HTTP traffic it receives. 
 
@@ -2259,7 +2261,7 @@ http/adding-a-backend-bucket-to-content-based-load-balancing
 
 </p></details><hr>
 
-### Question 49
+### QUESTION 49 (apoybpysur)
 
 As part of your backup plan, you set up regular snapshots of Compute Engine instances that are running. You want to be able to restore these snapshots using the fewest possible steps for replacement instances. 
 
@@ -2293,7 +2295,7 @@ Choosing a storage option https://cloud.google.com/storage-options/
 
 </p></details><hr>
 
-### Question 50
+### QUESTION 50 (ffpdilaotd)
 
 For future phases, Dress4Win is looking at options to deploy data analytics to the Google Cloud. 
 

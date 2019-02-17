@@ -1,4 +1,6 @@
-### Question 1
+# PCA WJSCOTT 04
+
+### QUESTION 1 (ftqrttjcso)
 
 For this question, refer to the JencoMart case study.
  
@@ -73,7 +75,7 @@ Technical Requirements
 
 </p></details><hr>
 
-### Question 2
+### QUESTION 2 (alewacttdv)
 
 A lead engineer wrote a custom tool that deploys virtual machines in the legacy data center. He wants to migrate the custom tool to the new cloud environment. You want to advocate for the adoption of Google Cloud Deployment Manager. What are two business risks of migrating to Cloud Deployment Manager? 
 
@@ -133,7 +135,7 @@ F (Correct answer) - Cloud Deployment Manager can be used to permanently delete 
 
 </p></details><hr>
 
-### Question 3
+### QUESTION 3 (ydgwoasovf)
 
 Your developer group works on a set of VM's frequently throughout the day. To save costs, you terminate the VM when it is not in use. However, you need to preserve the contents of the disk when the VM is terminated so users can resume where they left off when a new one is created. What is the most cost-effective way to do? 
 
@@ -171,7 +173,7 @@ https://cloud.google.com/sdk/gcloud/reference/compute/instances/set-disk-auto-de
 
 </p></details><hr>
 
-### Question 4
+### QUESTION 4 (yhcakecn'y)
 
 You have created a Kubernetes engine cluster named 'mycluster'. You've realized that you need to change the machine type for the cluster from n1-standard-1 to n1-standard-4. 
 
@@ -215,7 +217,7 @@ https://cloud.google.com/sdk/gcloud/reference/container/clusters/resize
 
 </p></details><hr>
 
-### Question 5
+### QUESTION 5 (ywapaawyat)
 
 You're writing a Python application and want your application to run in a sandboxed managed environment with the ability to scale up in seconds to account for huge spikes in demand. 
 
@@ -249,7 +251,7 @@ Choosing an App Engine Environment https://cloud.google.com/appengine/docs/the-a
 
 </p></details><hr>
 
-### Question 6
+### QUESTION 6 (ymdwtsoape)
 
 Your marketing department wants to send out a promotional email campaign. The development team wants to minimize direct operation management. They project a wide range of possible customer responses, from 100 to 500,000 click-throughs per day. The link leads to a simple website that explains the promotion and collects user information and preferences. 
 
@@ -335,7 +337,7 @@ Build highly scalable applications on a fully managed serverless platform https:
 
 </p></details><hr>
 
-### Question 7
+### QUESTION 7 (ycimtcatgc)
 
 Your customer is moving their corporate applications to Google Cloud Platform. The security team wants detailed visibility of all projects in the organization. You provision the Google Cloud Resource Manager and set up yourself as the org admin. 
 
@@ -359,7 +361,7 @@ Answer B gives the security team read only access to everything your company pro
 
 </p></details><hr>
 
-### Question 8
+### QUESTION 8 (utpolpycbn)
 
 Using the principle of least privilege, your colleague Bob needs to be able to create new instances on Compute Engine in project 'Project A'. 
 
@@ -393,7 +395,7 @@ D - Give Bob Project Editor IAM role for Project A - that'll be too much for cre
 
 </p></details><hr>
 
-### Question 9
+### QUESTION 9 (seopolpct3)
 
 Select examples of principal of least privilege. Choose the 3 correct answers: 
 -  Restrict service account access 
@@ -451,7 +453,7 @@ Organizations can use folders to group projects under the organization node in a
 
 </p></details><hr>
 
-### Question 10
+### QUESTION 10 (upolpaafma)
 
 Using principal of least privilege and allowing for maximum automation, what steps can you take to store audit logs for long-term access and to allow access for external auditors to view? 
 
@@ -487,7 +489,7 @@ D (Correct Answer) - Create account for auditors to have view access to export s
 
 </p></details><hr>
 
-### Question 11
+### QUESTION 11 (ieantbatay)
 
 If external auditors need to be able to access your admin activity logs once a year for compliance, what is the best method of preserving and sharing that log data? 
 
@@ -549,7 +551,7 @@ Answer C is incorrect due to this part: "email a list of the logs once per year"
 
 </p></details><hr>
 
-### Question 12
+### QUESTION 12 (yantpcctyw)
 
 Your application needs to process credit card transactions. You want the smallest scope of Payment Card Industry (PCI) compliance without compromising the ability to analyze transactional data and trends relating to which payment methods are used. How should you design your architecture?
  
@@ -602,7 +604,7 @@ https://cloud.google.com/solutions/pci-dss
 
 </p></details><hr>
 
-### Question 13
+### QUESTION 13 (ywtotpoaar)
 
 You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading. 
 
@@ -664,7 +666,7 @@ D - Google Cloud SQL: A fully-managed MySQL and PostgreSQL relational database s
 
 </p></details><hr>
 
-### Question 14
+### QUESTION 14 (ynttsdftoi)
 
 You need to take streaming data from thousands of Internet of Things (IoT) devices, ingest it, run it through a processing pipeline, and store it for analysis. You want to run SQL queries against your data for analysis. 
 
@@ -746,11 +748,11 @@ PubSub
 
 </p></details><hr>
 
-### Question 15
+### QUESTION 15 (ycppisitdw)
 
 Your CI/CD pipeline process is shown in the diagram. Which GCP services should you use in boxes 1, 2, and 3?
 
-[URL: https://udemy-images.s3.amazonaws.com/redactor/raw/2018-08-07_18-26-03-cb6ebbb247478d50052e33c7282e7e0f.png ]
+- [URL: https://udemy-images.s3.amazonaws.com/redactor/raw/2018-08-07_18-26-03-cb6ebbb247478d50052e33c7282e7e0f.png ]
 
 
 <details><summary>Answer:</summary><p>
@@ -778,7 +780,7 @@ C - This option does not provide for any solution which builds the necessary doc
 
 </p></details><hr>
 
-### Question 16
+### QUESTION 16 (ychdtmamro)
 
 Your company has decided to make a major revision of their API in order to create better experiences for their developers. They need to keep the old version of the API available and deployable, while allowing new customers and testers to try out the new API. They want to keep the same SSL and DNS records in place to serve both APIs. 
 
@@ -858,7 +860,7 @@ Creating Content-Based Load Balancing https://cloud.google.com/load-balancing/do
 
 </p></details><hr>
 
-### Question 17
+### QUESTION 17 (yaraaigaet)
 
 You are running an application in Google App Engine that is serving production traffic. You want to deploy a risky but necessary change to the application. It could take down your service if not properly coded. During development of the application, you realized that it can only be properly tested by live user traffic. 
 
@@ -914,7 +916,7 @@ C - App Engine services are intended for hosting different service logic. Using 
 
 </p></details><hr>
 
-### Question 18
+### QUESTION 18 (ycupcaslsr)
 
 Your company's user-feedback portal comprises a standard LAMP stack replicated across two zones. It is deployed in the us-central1 region and uses autoscaled managed instance groups on all layers, except the database. Currently, only a small group of select customers have access to the portal. The portal meets a 99.99% availability SLA under these conditions. However next quarter, your company will be making the portal available to all users, including unauthenticated users. You need to develop a resiliency testing strategy to ensure the system maintains the SLA once they introduce additional user load. 
 
@@ -962,17 +964,14 @@ https://cloud.google.com/compute/docs/instance-groups/distributing-instances-wit
 
 </p></details><hr>
 
-### Question 19
+### QUESTION 19 (dwtdpssott)
 
 Dress4Win wants to do penetration security scanning on the test and development environments deployed to the cloud. The scanning should be performed from an end user perspective as much as possible. How should they conduct the penetration testing? 
-• 
-Notify Google to begin conducting regular penetration security scanning on behalf of Dress4Win. 
-• 
-Deploy the security scanners into the cloud environments and conduct penetration testing within each environment. 
-• 
-Use the on-premises scanners to conduct penetration testing on the cloud environments routing traffic over the VPN. 
-• 
-Use the on-premises scanners to conduct penetration testing on the cloud environments routing traffic over the public internet.
+
+- Notify Google to begin conducting regular penetration security scanning on behalf of Dress4Win. 
+- Deploy the security scanners into the cloud environments and conduct penetration testing within each environment. 
+- Use the on-premises scanners to conduct penetration testing on the cloud environments routing traffic over the VPN. 
+- Use the on-premises scanners to conduct penetration testing on the cloud environments routing traffic over the public internet.
 
 
 <details><summary>Answer:</summary><p>
@@ -1000,7 +999,7 @@ C - Deploying the security scanners using the VPN between the on-premises and cl
 
 </p></details><hr>
 
-### Question 20
+### QUESTION 20 (ftqrttmgcs)
 
 For this question, refer to the Mountkirk Games case study.
  
@@ -1070,7 +1069,7 @@ They all pointed to the infrastructure and the scalability that need to be teste
 
 </p></details><hr>
 
-### Question 21
+### QUESTION 21 (ftqrtttcst)
 
 For this question, refer to the TerramEarth case study.
  
@@ -1135,7 +1134,7 @@ Cloud Endpoints Architecture
 
 </p></details><hr>
 
-### Question 22
+### QUESTION 22 (tadbsaeppt)
 
 The architecture diagram below shows an event-based processing pipeline that Dress4win is building to label and compress user uploaded images. 
 
@@ -1173,7 +1172,7 @@ D - Connecting users directly to Dataflow for image uploads is not going to be a
 
 </p></details><hr>
 
-### Question 23
+### QUESTION 23 (arsutaewro)
 
 A recent software update to an e-commerce website running on Google Cloud has caused the website to crash for several hours. The CTO decides that all critical changes must now have a backout/roll-back plan. The website is deployed on hundreds of virtual machines (VMs), and critical changes are frequent. Which two actions should you take to implement the back-out/roll-back plan? 
 
@@ -1214,7 +1213,7 @@ E - This approach doesn't scale well, there is a lot of management work involved
 
 </p></details><hr>
 
-### Question 24
+### QUESTION 24 (ynthabpipf)
 
 You need to have a backup/rollback plan in place for your application that is distributed across a large managed instance group. 
 
@@ -1238,7 +1237,7 @@ Individual VM's in a managed instance group should be treated as disposable enti
 
 </p></details><hr>
 
-### Question 25
+### QUESTION 25 (ycipodawat)
 
 Your company is planning on deploying a web application to Google Cloud hosted on a custom Linux distribution. Your website will be accessible globally and needs to scale to meet demand. Choose all of the components that will be necessary to achieve this goal.
  
@@ -1270,7 +1269,7 @@ D - A Network Load Balancer might be used in conjunction with an HTTP Load Balan
 
 </p></details><hr>
 
-### Question 26
+### QUESTION 26 (yccasscfig)
 
 Your company collects and stores security camera footage in Google Cloud Storage. Within the first 30 days, footage is
 processed regularly for threat detection, object detection, trend analysis, and suspicious behavior detection. You want to minimize the cost of storing all the data. 
@@ -1307,7 +1306,7 @@ D - While Google Cloud Regional Storage is the most cost-effective solution for 
 
 </p></details><hr>
 
-### Question 27
+### QUESTION 27 (ftqrtttcst)
 
 For this question, refer to the TerramEarth case study.
  
@@ -1351,7 +1350,7 @@ Comparison of storage classes https://cloud.google.com/storage/docs/storage-clas
 
 </p></details><hr>
 
-### Question 28
+### QUESTION 28 (ycchaasbyn)
 
 Your company currently hosts an AWS S3 bucket. You need to keep the contents of this bucket in sync with a new Google Cloud Storage bucket to support a backup storage destination. 
 
@@ -1385,7 +1384,7 @@ Here are the rules of thumb when deciding whether to use gsutil or Storage Trans
 
 </p></details><hr>
 
-### Question 29
+### QUESTION 29 (yaihamraco)
 
 Your application is hosted across multiple regions and consists of both relational database data and static images. Your database has over 10 TB of data. You want to use a single storage repository for each data type across all regions. Which two products would you choose for this task? 
 
@@ -1409,7 +1408,7 @@ Cloud Storage supports multi-regional buckets for high performance from differen
 
 </p></details><hr>
 
-### Question 30
+### QUESTION 30 (apdvmogceh)
 
 A production database virtual machine on Google Compute Engine has an ext4-formatted persistent disk for data files. The database is about to run out of storage space. 
 
@@ -1490,7 +1489,7 @@ If this setting is enabled, your available storage is checked every 30 seconds. 
 
 </p></details><hr>
 
-### Question 31
+### QUESTION 31 (yamyedcetg)
 
 You are migrating your existing data center environment to Google Cloud Platform. You have a 1 petabyte Storage Area Network (SAN) that needs to be migrated. 
 
@@ -1524,7 +1523,7 @@ SAN is associated with structured workloads such as databases, while NAS is gene
 
 </p></details><hr>
 
-### Question 32
+### QUESTION 32 (yhamigcopv)
 
 You have a managed instance group comprised of preemptible VM's. All of the VM's keep deleting and recreating themselves every minute. 
 
@@ -1544,7 +1543,7 @@ In this case, the preemptible VM's are not part of the problem. Likely, the caus
 
 </p></details><hr>
 
-### Question 33
+### QUESTION 33 (wcfrwfoscn)
 
 When creating firewall rules, what forms of segmentation can narrow which resources the rule is applied to? 
 
@@ -1578,7 +1577,7 @@ Here is the console screenshot showing the options when you create firewall rule
 
 </p></details><hr>
 
-### Question 34
+### QUESTION 34 (ybictavctg)
 
 Your business is connected to a VPN connection to GCP. On GCP, you are hosting an internal website using an HTTP load balancer which serves traffic to a managed instance group. Your users are unable to access the internal website, though all systems are up. 
 
@@ -1598,7 +1597,7 @@ Check to make sure you have proper firewall rules allowing the correct subnets a
 
 </p></details><hr>
 
-### Question 35
+### QUESTION 35 (ycibalwaet)
 
 Your company is building a large-scale web application. Each team is responsible for its own service component of the application and wants to manage its own individual projects. You want each service to communicate with the others over RFC1918 address space. 
 
@@ -1670,7 +1669,7 @@ The global load balancer uses a public IP address, and therefore it does not con
 
 </p></details><hr>
 
-### Question 36
+### QUESTION 36 (ftqrttjcsj)
 
 For this question, refer to the JencoMart case study.
  
@@ -1770,7 +1769,7 @@ Technical Requirements
 
 </p></details><hr>
 
-### Question 37
+### QUESTION 37 (ycwttwsipi)
 
 Your company wants to track whether someone is present in a meeting room reserved for a scheduled meeting. There are 1000 meeting rooms across 5 offices on 3 continents.
  
@@ -1832,7 +1831,7 @@ Overview of Cloud Bigtable https://cloud.google.com/bigtable/docs/overview
 
 </p></details><hr>
 
-### Question 38
+### QUESTION 38 (ycpthaldwo)
 
 Your company plans to host a large donation website on Google Cloud Platform. You anticipate a large and undetermined amount of traffic that will create many database writes. To be certain that you do not drop any writes to a database hosted on GCP. 
 
@@ -1872,7 +1871,7 @@ D - Install your MySQL database on Compute instance and enable autoscaling. If y
 
 </p></details><hr>
 
-### Question 39
+### QUESTION 39 (ycimtsptgc)
 
 Your customer is moving their storage product to Google Cloud Storage (GCS). The data contains personally identifiable
 information (PII) and sensitive customer information. 
@@ -1909,7 +1908,7 @@ D - This is security through obscurity, also known as no security at all.
 
 </p></details><hr>
 
-### Question 40
+### QUESTION 40 (yaatdngosh)
 
 You are asked to design next generation of smart helmet for accident detection and reporting system. Each helmet will push 10kb of biometric data In JSON format every 1 second to a collection platform that will process and use trained machine learning model to predict and detect if an accident happens and send notification. Management has tasked you to architect the platform ensuring the following requirements are met:
  
@@ -2007,7 +2006,7 @@ Data Transformation with Cloud Dataflow - Dataflow acts as your data processing 
 
 </p></details><hr>
 
-### Question 41
+### QUESTION 41 (yiit1efsyn)
 
 Your infrastructure includes two 100-TB enterprise file servers. You need to perform a one-way, one-time migration of this data to the Google Cloud securely. Only users in Germany will access this data. You want to create the most cost-effective solution. 
 
@@ -2047,7 +2046,7 @@ https://cloud.google.com/transfer-appliance/.
 
 </p></details><hr>
 
-### Question 42
+### QUESTION 42 (yiroacaias)
 
 Your infrastructure runs on another cloud and includes a set of multi-TB enterprise databases that are backed up nightly both on premises and also to that cloud. You need to create a redundant backup to Google Cloud. You are responsible for performing scheduled monthly disaster recovery drills. You want to create a cost-effective solution. 
 
@@ -2079,7 +2078,7 @@ Storage Transfer Service Documentation https://cloud.google.com/storage-transfer
 
 </p></details><hr>
 
-### Question 43
+### QUESTION 43 (yadardrogc)
 
 You are designing a relational data repository on Google Cloud to grow as needed. The data will be transactional consistent and added from any location in the world. You want to monitor and adjust node count for input traffic, which can spike unpredictably. 
 
@@ -2121,7 +2120,7 @@ Monitoring a Cloud Bigtable Instance https://cloud.google.com/bigtable/docs/moni
 
 </p></details><hr>
 
-### Question 44
+### QUESTION 44 (yahaliaars)
 
 Your application has a large international audience and runs stateless virtual machines within a managed instance group across multiple locations. One feature of the application lets users upload files and share them with other users. Files must be available for 30 days; after that, they are removed from the system entirely. 
 
@@ -2157,7 +2156,7 @@ D is not correct because content would be restricted to a single region for all 
 
 </p></details><hr>
 
-### Question 45
+### QUESTION 45 (yntcankcog)
 
 You need to create a new Kubernetes Cluster on Google Cloud Platform that can autoscale the number of worker nodes. 
 
@@ -2199,7 +2198,7 @@ Kubernetes Engine's cluster Autoscaler
 
 </p></details><hr>
 
-### Question 46
+### QUESTION 46 (yhaasrocei)
 
 You have an application server running on Compute Engine in the europe-west1-d zone. You need to ensure high availability and replicate the server to the europe-west2-c zone using the fewest steps possible. 
 
@@ -2235,7 +2234,7 @@ D is not correct because the original VM will be moved, not replicated.
 
 </p></details><hr>
 
-### Question 47
+### QUESTION 47 (ftqrttdcsd)
 
 For this question, refer to the Dress4Win case study.
  
@@ -2301,7 +2300,7 @@ Adding a canary test is a good practice to detect real user problem in live prod
 
 </p></details><hr>
 
-### Question 48
+### QUESTION 48 (ydthianlkm)
 
 Your development team has installed a new Linux kernel module on the batch servers in Google Compute Engine (GCE) virtual machines (VMs) to speed up the nightly batch process. Two days after the installation, 50% of the batch servers failed the nightly batch run. You want to collect details on the failure to pass back to the development team. Which three actions should you take? 
 
@@ -2371,7 +2370,7 @@ Since you have 50% servers with known same failure time and behavior, aligning t
 
 </p></details><hr>
 
-### Question 49
+### QUESTION 49 (ftqrttdcsa)
 
 For this question, refer to the Dress4Win case study.
  
@@ -2469,7 +2468,7 @@ If your applications do not require block storage, you should strongly consider 
 
 </p></details><hr>
 
-### Question 50
+### QUESTION 50 (ycrsdoasmi)
 
 Your company runs several databases on a single MySQL instance. They need to take backups of a specific database at regular intervals. The backup activity needs to complete as quickly as possible and cannot be allowed to impact disk performance. 
 

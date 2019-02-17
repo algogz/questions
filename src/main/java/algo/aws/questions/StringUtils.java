@@ -39,11 +39,13 @@ public class StringUtils {
         return avg.getAsDouble();
     }
 
+    private static String splitRegex = "[ ,.\t\n\\(\\)]+";
+
     public static Map<String, Integer> buildWordCountMap(String s) {
         Map<String, Integer> map = new HashMap<>();
         if(null == s) return map;
 
-        String[] words = s.split("[ ,.\t\n]+");
+        String[] words = s.split(splitRegex);
         Stream.of(words).forEach(word -> {
             Integer count = map.get(word);
             if(null == count) {
@@ -52,5 +54,21 @@ public class StringUtils {
             map.put(word, ++count);
         });
         return map;
+    }
+
+    /**
+     * Build the id by wordCountMap
+     *
+     * @param text
+     * @return
+     */
+    public static String buildId(String text) {
+        String[] words = text.split(splitRegex);
+        StringBuilder sb = new StringBuilder();
+        Stream.of(words).forEach(word -> sb.append(word.charAt(0)));
+        String id = sb.toString().toLowerCase();
+        if(id.length()>10) id = id.substring(0, 20);
+
+        return id;
     }
 }
